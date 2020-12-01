@@ -1,0 +1,21 @@
+---
+# Feel free to add content and custom Front Matter to this file.
+# To modify the layout, see https://jekyllrb.com/docs/themes/#overriding-theme-defaults
+
+layout: default
+---
+
+{% for catalogue in site.data %}
+    {% for lot in catalogue[1] %}
+        <h1>{{ lot.LOT }}</h1>
+        <small>{{ lot.REFNO }}</small>
+        <p>{{ lot.DESCRIPT }}</p>
+        <p>{{lot.TYPESET}}</p>
+        <p>{{lot.CROSSHEAD}}</p>
+        <p>{{lot.FOOTNOTE}}</p>
+        {% if lot.LOW %}
+        <h5>Estimate</h5>
+        <p>{{lot.LOW}} — {{lot.HIGH}}</p>
+        {% endif %}
+    {% endfor %}
+{% endfor %}
