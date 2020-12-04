@@ -1,18 +1,255 @@
 ---
-layout: default
+layout: bookshelf
 ---
 
-{% for catalogue in site.data %}
-    {% for lot in catalogue[1] %}
-        <h1>{{ lot.LOT }}</h1>
-        <small>{{ lot.REFNO }}</small>
-        <p>{{ lot.DESCRIPT }}</p>
-        <p>{{lot.TYPESET}}</p>
-        <p>{{lot.CROSSHEAD}}</p>
-        <p>{{lot.FOOTNOTE}}</p>
-        {% if lot.LOW %}
-        <h5>Estimate</h5>
-        <p>{{lot.LOW}} — {{lot.HIGH}}</p>
-        {% endif %}
-    {% endfor %}
-{% endfor %}
+<audio>
+	<source src="/assets/audio/audio.m4a"></source>
+	Your browser isn't invited for super fun audio time.
+</audio>
+<ul class="toolbar">
+    <a target="_blank" href="https://www.swanngalleries.com/"><img id="logo" src="assets/img/swann-logo.gif"></a>
+    <li class="space"></li>
+    <li class="size"><button onclick="sortTable('size')">
+        Size 
+        <svg width="12" height="9" viewBox="0 0 12 9" fill="none" xmlns="http://www.w3.org/2000/svg"><path d="M1 1L6 6L11 1" stroke="white" stroke-width="2"/></svg>
+    </button></li>
+    <li class="date"><button onclick="sortTable('date')">
+        Date
+        <svg width="12" height="9" viewBox="0 0 12 9" fill="none" xmlns="http://www.w3.org/2000/svg"><path d="M1 1L6 6L11 1" stroke="white" stroke-width="2"/></svg>
+    </button></li>
+    <li class="department"><button onclick="sortTable('department')">
+        Department
+        <svg width="12" height="9" viewBox="0 0 12 9" fill="none" xmlns="http://www.w3.org/2000/svg"><path d="M1 1L6 6L11 1" stroke="white" stroke-width="2"/></svg>
+    </button></li>
+    <li class="sale"><button onclick="sortTable('sale')">
+        Sale No.
+        <svg width="12" height="9" viewBox="0 0 12 9" fill="none" xmlns="http://www.w3.org/2000/svg"><path d="M1 1L6 6L11 1" stroke="white" stroke-width="2"/></svg>
+    </button></li>
+</ul>
+<ul id="catalogueList">
+  <li data-date="200305" data-size="304" data-sale="2204">
+    <a href="/lots/2204_01_Carver.html">
+        <span class="space"></span>
+        <span class="size" style="background-color: #9F3659"></span>
+        <span class="date">March 5, 2020</span>
+        <span class="department">Printed Manuscript African Americana</span>
+        <span class="sale">2204</span>
+    </a>
+    <div class="book-cover">
+        <img src="assets/img/cover.png">
+        <div class="top-content">
+            <span class="book-cover--sale">Sale 2204</span>
+            <h1>Printed Manuscript African Americana</h1>
+            <h3>March 30, 2020</h3>
+        </div>
+        <div class="stripe"></div>
+    </div>
+  </li>
+  <li data-date="191107" data-size="230" data-sale="2205">
+    <a href="/lots/2204_01_Carver.html">
+        <span class="space"></span>
+        <span class="size" style="background-color: #D24529"></span>
+        <span class="date">November 7, 2019</span>
+        <span class="department">African-American Art from the Johnson Institute</span>
+        <span class="sale">2205</span>
+    </a>
+  </li>
+  <li data-date="200411" data-size="412" data-sale="2206">
+    <a href="/lots/2204_01_Carver.html">
+        <span class="space"></span>
+        <span class="size" style="background-color: #EFD8AC"></span>
+        <span class="date">April 11, 2020</span>
+        <span class="department">Vintage Posters</span>
+        <span class="sale">2206</span>
+    </a>
+  </li>
+  <li data-date="200115" data-size="100" data-sale="2207">
+    <a href="/lots/2204_01_Carver.html">
+        <span class="space"></span>
+        <span class="size" style="background-color: #FBE43A"></span>
+        <span class="date">January 15, 2020</span>
+        <span class="department">Modernist Posters</span>
+        <span class="sale">2207</span>
+    </a>
+  </li>
+  <li data-date="200305" data-size="304" data-sale="2208">
+    <a href="/lots/2204_01_Carver.html">
+        <span class="space"></span>
+        <span class="size" style="background-color: #108244"></span>
+        <span class="date">March 5, 2020</span>
+        <span class="department">Printed Manuscript African Americana</span>
+        <span class="sale">2204</span>
+    </a>
+  </li>
+  <li data-date="191107" data-size="230" data-sale="2205">
+    <a href="/lots/2204_01_Carver.html">
+        <span class="space"></span>
+        <span class="size" style="background-color: #A8C5ED"></span>
+        <span class="date">November 7, 2019</span>
+        <span class="department">African-American Art from the Johnson Institute</span>
+        <span class="sale">2205</span>
+    </a>
+  </li>
+  <li data-date="200411" data-size="412" data-sale="2206">
+    <a href="#">
+        <span class="space"></span>
+        <span class="size" style="background-color: #C18E3F"></span>
+        <span class="date">April 11, 2020</span>
+        <span class="department">Vintage Posters</span>
+        <span class="sale">2206</span>
+    </a>
+  </li>
+  <li data-date="200115" data-size="100" data-sale="2207">
+    <a href="#">
+        <span class="space"></span>
+        <span class="size" style="background-color: #8175CC"></span>
+        <span class="date">January 15, 2020</span>
+        <span class="department">Modernist Posters</span>
+        <span class="sale">2207</span>
+    </a>
+  </li>
+  <li data-date="200305" data-size="304" data-sale="2204">
+    <a href="#">
+        <span class="space"></span>
+        <span class="size" style="background-color: #F09C90"></span>
+        <span class="date">March 5, 2020</span>
+        <span class="department">Printed Manuscript African Americana</span>
+        <span class="sale">2204</span>
+    </a>
+  </li>
+  <li data-date="191107" data-size="230" data-sale="2205">
+    <a href="#">
+        <span class="space"></span>
+        <span class="size" style="background-color: #9F3659"></span>
+        <span class="date">November 7, 2019</span>
+        <span class="department">African-American Art from the Johnson Institute</span>
+        <span class="sale">2205</span>
+    </a>
+  </li>
+  <li data-date="200411" data-size="412" data-sale="2206">
+    <a href="#">
+        <span class="space"></span>
+        <span class="size" style="background-color: #4C668C"></span>
+        <span class="date">April 11, 2020</span>
+        <span class="department">Vintage Posters</span>
+        <span class="sale">2206</span>
+    </a>
+  </li>
+  <li data-date="200115" data-size="100" data-sale="2207">
+    <a href="#">
+        <span class="space"></span>
+        <span class="size" style="background-color: #D24529"></span>
+        <span class="date">January 15, 2020</span>
+        <span class="department">Modernist Posters</span>
+        <span class="sale">2207</span>
+    </a>
+  </li>
+  <li data-date="200305" data-size="304" data-sale="2204">
+    <a href="#">
+        <span class="space"></span>
+        <span class="size" style="background-color: #A8C5ED"></span>
+        <span class="date">March 5, 2020</span>
+        <span class="department">Printed Manuscript African Americana</span>
+        <span class="sale">2204</span>
+    </a>
+  </li>
+  <li data-date="191107" data-size="230" data-sale="2205">
+    <a href="#">
+        <span class="space"></span>
+        <span class="size" style="background-color: tomato"></span>
+        <span class="date">November 7, 2019</span>
+        <span class="department">African-American Art from the Johnson Institute</span>
+        <span class="sale">2205</span>
+    </a>
+  </li>
+  <li data-date="200411" data-size="412" data-sale="2206">
+    <a href="#">
+        <span class="space"></span>
+        <span class="size" style="background-color: #108244"></span>
+        <span class="date">April 11, 2020</span>
+        <span class="department">Vintage Posters</span>
+        <span class="sale">2206</span>
+    </a>
+  </li>
+  <li data-date="200115" data-size="100" data-sale="2207">
+    <a href="#">
+        <span class="space"></span>
+        <span class="size" style="background-color: #A40000"></span>
+        <span class="date">January 15, 2020</span>
+        <span class="department">Modernist Posters</span>
+        <span class="sale">2207</span>
+    </a>
+  </li>
+  <li data-date="200305" data-size="304" data-sale="2204">
+    <a href="#">
+        <span class="space"></span>
+        <span class="size" style="background-color: #F09C90"></span>
+        <span class="date">March 5, 2020</span>
+        <span class="department">Printed Manuscript African Americana</span>
+        <span class="sale">2204</span>
+    </a>
+  </li>
+  <li data-date="191107" data-size="230" data-sale="2205">
+    <a href="#">
+        <span class="space"></span>
+        <span class="size" style="background-color: tomato"></span>
+        <span class="date">November 7, 2019</span>
+        <span class="department">African-American Art from the Johnson Institute</span>
+        <span class="sale">2205</span>
+    </a>
+  </li>
+  <li data-date="200411" data-size="412" data-sale="2206">
+    <a href="#">
+        <span class="space"></span>
+        <span class="size" style="background-color: #EFD8AC"></span>
+        <span class="date">April 11, 2020</span>
+        <span class="department">Vintage Posters</span>
+        <span class="sale">2206</span>
+    </a>
+  </li>
+  <li data-date="200115" data-size="100" data-sale="2207">
+    <a href="#">
+        <span class="space"></span>
+        <span class="size" style="background-color: #C18E3F"></span>
+        <span class="date">January 15, 2020</span>
+        <span class="department">Modernist Posters</span>
+        <span class="sale">2207</span>
+    </a>
+  </li>
+  <li data-date="200305" data-size="304" data-sale="2204">
+    <a href="#">
+        <span class="space"></span>
+        <span class="size" style="background-color: #F28D2A"></span>
+        <span class="date">March 5, 2020</span>
+        <span class="department">Printed Manuscript African Americana</span>
+        <span class="sale">2204</span>
+    </a>
+  </li>
+  <li data-date="191107" data-size="230" data-sale="2205">
+    <a href="#">
+        <span class="space"></span>
+        <span class="size" style="background-color: #9F3659"></span>
+        <span class="date">November 7, 2019</span>
+        <span class="department">African-American Art from the Johnson Institute</span>
+        <span class="sale">2205</span>
+    </a>
+  </li>
+  <li data-date="200411" data-size="412" data-sale="2206">
+    <a href="#">
+        <span class="space"></span>
+        <span class="size" style="background-color: #A8C5ED"></span>
+        <span class="date">April 11, 2020</span>
+        <span class="department">Vintage Posters</span>
+        <span class="sale">2206</span>
+    </a>
+  </li>
+  <li data-date="200115" data-size="100" data-sale="2207">
+    <a href="#">
+        <span class="space"></span>
+        <span class="size" style="background-color: #FBE43A"></span>
+        <span class="date">January 15, 2020</span>
+        <span class="department">Modernist Posters</span>
+        <span class="sale">2207</span>
+    </a>
+  </li>
+</ul>
