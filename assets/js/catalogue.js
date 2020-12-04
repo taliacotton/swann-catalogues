@@ -9,6 +9,13 @@ let highlightTexts = document.querySelectorAll("section.lot .center-column p")
 
 // let notesPrompt = document.getElementById("notes-prompt");
 
+let scrollHeight = Math.max(
+  document.body.scrollHeight, document.documentElement.scrollHeight,
+  document.body.offsetHeight, document.documentElement.offsetHeight,
+  document.body.clientHeight, document.documentElement.clientHeight
+);
+
+
 let mousedown = false;
 
 // COLOR THEIF
@@ -29,15 +36,23 @@ for (let img of colorImages){
 showHideNav();
 document.addEventListener("scroll", function(){
     let scrollTop = window.pageYOffset || (document.documentElement || document.body.parentNode || document.body).scrollTop;
+    
+    console.log(scrollTop, scrollHeight);
+    
     showHideNav(scrollTop);
-
     if(scrollTop > window.innerHeight*2 && scrollTop){
         document.getElementById("hamburgerCallout").classList.add("visible");
     } else {
         document.getElementById("hamburgerCallout").classList.remove("visible");
     }
 
+// MARKER ON SCROLL
+    if (scrollTop > window.innerHeight*2){
+        document.getElementById("marker").style.top = interpolate(scrollTop, window.innerHeight*2, scrollHeight, 0, 100) + "%";
+    }
 })
+
+
 
 // ZOOM IMAGE
 for (let img of mainImgs){

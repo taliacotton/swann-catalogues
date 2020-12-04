@@ -5,6 +5,9 @@
     --main-width: calc(100vw - var(--toolbar-height) - 1px);
     --main-height: calc(100vh - var(--toolbar-height) - 1px)
 }
+html{
+    scroll-behavior: smooth;
+}
 body{
     background:#111111;
     font-family: var(--serif);
@@ -370,11 +373,13 @@ section{position:relative;z-index:1}
     color:black;
     font-family:var(--sans-serif);
     min-height:var(--main-height);
+    a{color:black;}
+    a:hover{color:var(--swann-blue)}
     .logo{height: 40px;}
     h2,h3{
         color: var(--swann-blue);
         font-family: var(--sans-serif);
-        font-weight: 600;
+        font-weight: 500;
         border-bottom: 1px solid var(--swann-blue);
         margin-top:70px;
         letter-spacing: -0.01em;
@@ -384,7 +389,8 @@ section{position:relative;z-index:1}
         line-height: 18px;
         padding: 9px 0px;
     }
-    .headshots {
+    h3{margin-top: 81px;}
+    .people {
         display:flex;
         flex-wrap:wrap;
         > div {
@@ -619,7 +625,7 @@ section{position:relative;z-index:1}
         left: calc(50% - 250px);
         padding: 12px;
         width: calc((var(--main-width)/2 - 500px)/2 - 24px);
-        height:100%;
+        height: calc(100% - 24px);
         max-width: 160px;
         transform:translateX(-100%);
         display:block;
