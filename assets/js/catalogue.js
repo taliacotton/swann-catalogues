@@ -217,7 +217,7 @@ toc.addEventListener("mousemove", function(e){
             elems.push(d);
         } 
     }
-    if (elems.length > 0){elems[0].classList.add("hover")}
+    elems[0].classList.add("hover");
 })
 
 
