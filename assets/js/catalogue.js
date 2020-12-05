@@ -6,8 +6,10 @@ let mainImgs = document.querySelectorAll("section.lot .left img");
 let lotSections = document.querySelectorAll("section.lot");
 let bookmarks = document.querySelectorAll(".bookmark-container");
 let highlightTexts = document.querySelectorAll("section.lot .center-column p")
-
 let leftSections = document.querySelectorAll(".lot > .left");
+let sections = document.querySelectorAll("section");
+
+let currentSection = 0;
 
 // let notesPrompt = document.getElementById("notes-prompt");
 
@@ -220,11 +222,25 @@ for (let text of highlightTexts){
         clearSelection();
     })
 }
-// for (let mark of document.querySelectorAll("mark")){
-//     mark.addEventListener("click", function(){
-//         mark.outerHTML = mark.innerHTML
-//     })
-// }
+
+
+// KEY TO NEXT SECTION
+document.addEventListener("keydown", function(e){
+    document.documentElement.style.scrollBehavior= "auto";
+    if (e.key == "ArrowRight"){
+        currentSection++;
+        setTimeout(function () {
+            window.scrollTo(0, sections[currentSection].offsetTop);
+        },2);
+    }
+    if (e.key == "ArrowLeft"){
+        currentSection--;
+        setTimeout(function () {
+            window.scrollTo(0, sections[currentSection].offsetTop);
+            document.documentElement.style.scrollBehavior= "smooth";
+        },2);
+    }
+})
 
 function showHideNav(st){
     if (st > 50){nav.classList.add("visible")}
