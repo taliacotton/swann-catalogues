@@ -41,8 +41,9 @@ showHideNav(scrollTop);
 showCurrentImage();
 
 document.addEventListener("scroll", function(){
-// NAV COME IN
     scrollTop = window.pageYOffset || (document.documentElement || document.body.parentNode || document.body).scrollTop;
+
+// NAV COME IN
     showHideNav(scrollTop);
     if(scrollTop > window.innerHeight*2 && scrollTop){
         document.getElementById("hamburgerCallout").classList.add("visible");
@@ -113,13 +114,20 @@ for (let lot of lotSections){
 let notesPrompts = document.querySelectorAll(".notes-prompt");
 for (let np of notesPrompts){
     np.addEventListener("click", function(e){
-        let pct = interpolate(e.clientY, 0, window.innerHeight, 0, 100);
+        // np.style.display="none";
+        let elTop = np.parentElement.querySelector('.center-column').getBoundingClientRect().top * -1;
+        let elHeight = np.parentElement.querySelector('.center-column').getBoundingClientRect().height;
+        let pct = (elTop + e.clientY)*100/elHeight;
+        // let pct = interpolate(e.clientY, 0, window.innerHeight, 0, 100);
         let t = document.createElement("TEXTAREA");
         t.classList.add("notes", "small-type");
         t.style.top = pct + "%";
         np.parentElement.querySelector(".notes-left").appendChild(t);
         t.focus();
         resizeAllTextareas();
+        np.style.display = "none";
+
+        t.onblur=function(){np.style.display="block"}
     })
 }
 
