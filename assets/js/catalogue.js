@@ -74,6 +74,20 @@ document.addEventListener("scroll", function(){
             document.querySelector(".notes-prompt.np-left").classList.remove("np-left");
         }
     }
+
+// CHANGE URL ON TOP
+    for (let l of leftSections){
+        if (l.classList.contains("active")){
+            let newHash = '#' + l.parentElement.id;
+            if(history.pushState) {
+                history.pushState(null, null, newHash);
+            } else {
+                location.hash = newHash;
+            }
+        }
+    }
+
+
 })
 
 
@@ -223,22 +237,21 @@ for (let text of highlightTexts){
     })
 }
 
+for (let s of sections){
+    console.log(s.id, s.offsetTop);
+}
+
 
 // KEY TO NEXT SECTION
 document.addEventListener("keydown", function(e){
     document.documentElement.style.scrollBehavior= "auto";
     if (e.key == "ArrowRight"){
         currentSection++;
-        setTimeout(function () {
-            window.scrollTo(0, sections[currentSection].offsetTop);
-        },2);
+        jump(sections[currentSection].id)
     }
     if (e.key == "ArrowLeft"){
         currentSection--;
-        setTimeout(function () {
-            window.scrollTo(0, sections[currentSection].offsetTop);
-            document.documentElement.style.scrollBehavior= "smooth";
-        },2);
+        jump(sections[currentSection].id)
     }
 })
 
@@ -320,6 +333,12 @@ function sortTOC(shape){
             d.style.visibility = "hidden";
         }
     }
+}
+
+function jump(h){
+    var url = location.href;               //Save down the URL without hash.
+    location.href = "#"+h;                 //Go to the target element.
+    history.replaceState(null,null,url);   //Don't like hashes. Changing it back.
 }
 
 
