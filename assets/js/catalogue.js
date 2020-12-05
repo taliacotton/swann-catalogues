@@ -47,7 +47,9 @@ document.addEventListener("scroll", function(){
 
 // NAV COME IN
     showHideNav(scrollTop);
-    if(scrollTop > window.innerHeight*2 && scrollTop){
+
+// TOOLTIPS
+    if(scrollTop > window.innerHeight*2 && document.querySelector(".lot").getBoundingClientRect().top > window.innerHeight/2){
         document.getElementById("hamburgerCallout").classList.add("visible");
     } else {
         document.getElementById("hamburgerCallout").classList.remove("visible");
