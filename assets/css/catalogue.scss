@@ -673,10 +673,15 @@ section{position:relative;}
             border-radius:0px;
             padding:0px;
             position:absolute;
+            width: calc(100% - 24px);
         }
         textarea:focus{
             outline:none;
         }
+    }
+    .notes-right{
+        left: calc(50% + 250px);
+        transform: translateX(0px);
     }
     .bookmark-container{
         position:sticky;

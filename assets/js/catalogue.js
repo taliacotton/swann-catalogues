@@ -98,12 +98,12 @@ for (let lot of lotSections){
         let centerCol = lot.querySelector(".center-column");
         let notesPrompt = lot.querySelector(".notes-prompt");
         notesPrompt.style.top = e.clientY + "px";
-        // if (e.clientX < centerCol.getBoundingClientRect().left + centerCol.getBoundingClientRect().width/2){
         if (e.clientX < centerCol.getBoundingClientRect().left && e.clientX > lot.getBoundingClientRect().left + lot.getBoundingClientRect().width/2){
-            notesPrompt.classList.add("np-left");notesPrompt.classList.remove("np-right");
-        // } else if (e.clientX > centerCol.getBoundingClientRect().right - centerCol.getBoundingClientRect().width/2){
+            notesPrompt.classList.add("np-left");
+            notesPrompt.classList.remove("np-right");
         } else if (e.clientX > centerCol.getBoundingClientRect().right){
-            notesPrompt.classList.add("np-right");notesPrompt.classList.remove("np-left");
+            notesPrompt.classList.add("np-right");
+            notesPrompt.classList.remove("np-left");
         } else {
             notesPrompt.classList.remove("np-right", "np-left");
         }
@@ -114,15 +114,22 @@ for (let lot of lotSections){
 let notesPrompts = document.querySelectorAll(".notes-prompt");
 for (let np of notesPrompts){
     np.addEventListener("click", function(e){
-        // np.style.display="none";
+        // figure out which margin to add it in
+        let targetMargin;
+        if (np.classList.contains("np-right")) {
+            targetMargin = np.parentElement.querySelector(".notes-right")
+        } else if (np.classList.contains("np-left")){
+            targetMargin = np.parentElement.querySelector(".notes-left")
+        }
+
+        // calculate percent top of textarea based on cursor xPos
         let elTop = np.parentElement.querySelector('.center-column').getBoundingClientRect().top * -1;
         let elHeight = np.parentElement.querySelector('.center-column').getBoundingClientRect().height;
         let pct = (elTop + e.clientY)*100/elHeight;
-        // let pct = interpolate(e.clientY, 0, window.innerHeight, 0, 100);
         let t = document.createElement("TEXTAREA");
         t.classList.add("notes", "small-type");
         t.style.top = pct + "%";
-        np.parentElement.querySelector(".notes-left").appendChild(t);
+        targetMargin.appendChild(t);
         t.focus();
         resizeAllTextareas();
         np.style.display = "none";
