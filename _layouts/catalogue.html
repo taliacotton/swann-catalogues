@@ -230,6 +230,7 @@
                 <div class="content-current"></div>
                 <div class="content-next"></div>
             </div> -->
+            <div class="lots">
             <section class="lot lot-bookmarked lot-recommended">
                 <div class="left">
                     <img src="/assets/img/775182.jpg">
@@ -270,16 +271,17 @@
                         <div class="estimate">
                             <h5 class="small-type">Estimate</h5>
                             <h2>$3,000 – $8,000</h2>
-                            <span class="a">
-                                Bid Options +
-                                <div class="bid-options">
-                                    <a href="#">Absentee Bid</a>
-                                    <a href="#">Live Bidding App</a>
-                                    <a href="#">Arrange a Phone Bid</a>
-                                </div>
-                            </span>
+                            <button onclick="this.classList.toggle('active')">
+                                Bid Options
+                                <svg style="top:-0.5px;left:-4px" width="10" height="10" viewBox="0 0 10 10" fill="none" xmlns="http://www.w3.org/2000/svg"><path d="M4.05063 0L4.05063 4.02135L0 4.02135L0 5.90747L4.05063 5.90747L4.05063 10L5.96745 10L5.96745 5.90747L10 5.90747L10 4.02135L5.96745 4.02135L5.96745 0L4.05063 0Z" fill="#008FFC"/></svg>
+                            </button>
+                            <div class="bid-options">
+                                <a href="#">Absentee Bid</a>
+                                <a href="#">Live Bidding App</a>
+                                <a href="#">Arrange a Phone Bid</a>
+                            </div>
                             <a href="#">Request Condition Report  
-                                <svg width="8" height="12" viewBox="0 0 8 12" fill="none" xmlns="http://www.w3.org/2000/svg"><path d="M1 1L6 6L1 11" stroke="#008FFC" stroke-width="1.8"/></svg>
+                                <svg style="top:1px" width="8" height="12" viewBox="0 0 8 12" fill="none" xmlns="http://www.w3.org/2000/svg"><path d="M1 1L6 6L1 11" stroke="#008FFC" stroke-width="1.8"/></svg>
                             </a>
                         </div>
                     </div>
@@ -332,14 +334,12 @@
                         <div class="estimate">
                             <h5 class="small-type">Estimate</h5>
                             <h2>$3,000 – $8,000</h2>
-                            <span class="a">
-                                Bid Options +
-                                <div class="bid-options">
-                                    <a href="#">Absentee Bid</a>
-                                    <a href="#">Live Bidding App</a>
-                                    <a href="#">Arrange a Phone Bid</a>
-                                </div>
-                            </span>
+                            <button>Bid Options +</button>
+                            <div class="bid-options">
+                                <a href="#">Absentee Bid</a>
+                                <a href="#">Live Bidding App</a>
+                                <a href="#">Arrange a Phone Bid</a>
+                            </div>
                             <a href="#">Request Condition Report  
                                 <svg width="8" height="12" viewBox="0 0 8 12" fill="none" xmlns="http://www.w3.org/2000/svg"><path d="M1 1L6 6L1 11" stroke="#008FFC" stroke-width="1.8"/></svg>
                             </a>
@@ -352,6 +352,7 @@
                     </div>
                 </div>
             </section>
+            </div>
         </div>
         <div class="callout" id="hamburgerCallout">
             <p>You can click this button to return to the table of contents at any time.</p>

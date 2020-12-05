@@ -7,6 +7,8 @@ let lotSections = document.querySelectorAll("section.lot");
 let bookmarks = document.querySelectorAll(".bookmark-container");
 let highlightTexts = document.querySelectorAll("section.lot .center-column p")
 
+let leftSections = document.querySelectorAll(".lot > .left");
+
 // let notesPrompt = document.getElementById("notes-prompt");
 
 let scrollHeight = Math.max(
@@ -16,7 +18,7 @@ let scrollHeight = Math.max(
 );
 
 
-let mousedown = false;
+let mouseIsDown = false;
 
 // COLOR THEIF
 const colorThief = new ColorThief();
@@ -33,12 +35,14 @@ for (let img of colorImages){
 }
 
 // NAV COME IN
-showHideNav();
+let scrollTop = window.pageYOffset || (document.documentElement || document.body.parentNode || document.body).scrollTop;
+showHideNav(scrollTop);
+
+showCurrentImage();
+
 document.addEventListener("scroll", function(){
-    let scrollTop = window.pageYOffset || (document.documentElement || document.body.parentNode || document.body).scrollTop;
-    
-    console.log(scrollTop, scrollHeight);
-    
+// NAV COME IN
+    scrollTop = window.pageYOffset || (document.documentElement || document.body.parentNode || document.body).scrollTop;
     showHideNav(scrollTop);
     if(scrollTop > window.innerHeight*2 && scrollTop){
         document.getElementById("hamburgerCallout").classList.add("visible");
@@ -50,22 +54,41 @@ document.addEventListener("scroll", function(){
     if (scrollTop > window.innerHeight*2){
         document.getElementById("marker").style.top = interpolate(scrollTop, window.innerHeight*2, scrollHeight, 0, 100) + "%";
     }
+
+// IMAGE FADE ON SCROLL
+    showCurrentImage();
 })
 
 
+let imgZoom = false;
 
 // ZOOM IMAGE
-for (let img of mainImgs){
-    img.addEventListener("mousemove", function(e){
-        img.style.objectFit = "cover";
-        let xPos = interpolate(e.clientX, img.getBoundingClientRect().left, img.getBoundingClientRect().right,0,100)
-        let yPos = interpolate(e.clientY, img.getBoundingClientRect().top, img.getBoundingClientRect().bottom,0,100)
-        img.style.objectPosition = xPos + "% " + yPos + "%";
+for (let ls of leftSections){
+    ls.addEventListener("mousedown", function(e){
+        imgZoom = !imgZoom;
+        if (imgZoom){zoomImg(e, ls);} 
+        else {unzoomImg(ls);}
     })
-    img.addEventListener("mouseout", function(e){
-        img.style.objectFit = "contain";
-        img.style.objectPosition = "center";
+    ls.addEventListener("mousemove", function(e){
+        if (imgZoom){zoomImg(e, ls);}
+    })
+    ls.addEventListener("mouseout", function(e){
+        imgZoom = false;
+        unzoomImg(ls);
     });
+}
+
+function zoomImg(e, ls){
+    let img = ls.querySelector("img");
+    ls.classList.add("zoom");
+    let xPos = interpolate(e.clientX, img.getBoundingClientRect().left, img.getBoundingClientRect().right,0,100)
+    let yPos = interpolate(e.clientY, img.getBoundingClientRect().top, img.getBoundingClientRect().bottom,0,100)
+    img.style.objectPosition = xPos + "% " + yPos + "%";
+}
+
+function unzoomImg(ls){
+    ls.classList.remove("zoom");
+    ls.querySelector("img").style.objectPosition = "center";
 }
 
 // NOTES PROMPT MOVE
@@ -91,7 +114,6 @@ let notesPrompts = document.querySelectorAll(".notes-prompt");
 for (let np of notesPrompts){
     np.addEventListener("click", function(e){
         let pct = interpolate(e.clientY, 0, window.innerHeight, 0, 100);
-        console.log(np.parentElement.getBoundingClientRect());
         let t = document.createElement("TEXTAREA");
         t.classList.add("notes", "small-type");
         t.style.top = pct + "%";
@@ -168,6 +190,18 @@ for (let text of highlightTexts){
 function showHideNav(st){
     if (st > 50){nav.classList.add("visible")}
     else {nav.classList.remove("visible")}
+}
+
+function showCurrentImage(){
+    for (let l of leftSections){
+        let bottom = l.getBoundingClientRect().bottom;
+        let top = l.getBoundingClientRect().top;
+        if (top <= window.innerHeight - window.innerHeight/2 && bottom >= window.innerHeight/2){
+            l.classList.add("active")
+        } else {
+            l.classList.remove("active")
+        }
+    }
 }
 
 function clearSelection(){
