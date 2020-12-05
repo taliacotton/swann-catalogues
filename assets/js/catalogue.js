@@ -58,6 +58,20 @@ document.addEventListener("scroll", function(){
 
 // IMAGE FADE ON SCROLL
     showCurrentImage();
+
+// HIDE NOTES BUTTON IF ACTIVE
+    if (document.querySelector(".notes-prompt.np-right") != null){
+        let npRightContainer = document.querySelector(".notes-prompt.np-right").parentElement.getBoundingClientRect();
+        if (npRightContainer.top > window.innerHeight || npRightContainer.bottom < 0){
+            document.querySelector(".notes-prompt.np-right").classList.remove("np-right");
+        }
+    }
+    if (document.querySelector(".notes-prompt.np-left") != null){
+        let npLeftContainer = document.querySelector(".notes-prompt.np-left").parentElement.getBoundingClientRect();
+        if (npLeftContainer.top > window.innerHeight || npLeftContainer.bottom < 0){
+            document.querySelector(".notes-prompt.np-left").classList.remove("np-left");
+        }
+    }
 })
 
 
@@ -97,7 +111,15 @@ for (let lot of lotSections){
     lot.addEventListener("mousemove", function(e){
         let centerCol = lot.querySelector(".center-column");
         let notesPrompt = lot.querySelector(".notes-prompt");
-        notesPrompt.style.top = e.clientY + "px";
+
+        // vertical position
+        if (e.clientY < centerCol.getBoundingClientRect().bottom && e.clientY > centerCol.getBoundingClientRect().top){
+            notesPrompt.style.top = e.clientY + "px";
+        } else {
+            notesPrompt.style.top = "-100px";
+        }
+
+        // horizontal position
         if (e.clientX < centerCol.getBoundingClientRect().left && e.clientX > lot.getBoundingClientRect().left + lot.getBoundingClientRect().width/2){
             notesPrompt.classList.add("np-left");
             notesPrompt.classList.remove("np-right");
@@ -108,6 +130,7 @@ for (let lot of lotSections){
             notesPrompt.classList.remove("np-right", "np-left");
         }
     })
+
 }
 
 // NOTES PROMPT CLICK
@@ -123,8 +146,8 @@ for (let np of notesPrompts){
         }
 
         // calculate percent top of textarea based on cursor xPos
-        let elTop = np.parentElement.querySelector('.center-column').getBoundingClientRect().top * -1;
-        let elHeight = np.parentElement.querySelector('.center-column').getBoundingClientRect().height;
+        let elTop = np.parentElement.getBoundingClientRect().top * -1;
+        let elHeight = np.parentElement.getBoundingClientRect().height;
         let pct = (elTop + e.clientY)*100/elHeight;
         let t = document.createElement("TEXTAREA");
         t.classList.add("notes", "small-type");
@@ -134,6 +157,7 @@ for (let np of notesPrompts){
         resizeAllTextareas();
         np.style.display = "none";
 
+        //  hide button when typing
         t.onblur=function(){np.style.display="block"}
     })
 }
