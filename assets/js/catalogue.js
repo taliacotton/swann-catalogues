@@ -157,10 +157,10 @@ for (let np of notesPrompts){
         targetMargin.appendChild(t);
         t.focus();
         resizeAllTextareas();
-        np.style.display = "none";
+        np.classList.remove("np-left", "np-right");
 
         //  hide button when typing
-        t.onblur=function(){np.style.display="block"}
+        // t.onblur=function(){np.style.display="block"}
     })
 }
 

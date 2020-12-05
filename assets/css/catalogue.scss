@@ -749,7 +749,6 @@ section{position:relative;}
     text-align:left;
     display:none;
 }
-
 .notes-prompt.np-left{
     transform:translateX(-100%);
     left: calc(var(--toolbar-height) + var(--main-width)*3/4 - 250px);
