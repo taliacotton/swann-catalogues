@@ -365,6 +365,13 @@ section{position:relative;z-index:1}
         }
         svg{
             margin-right:6px;
+            position:relative;
+        }
+    }
+    button:hover,button:focus{
+        color:var(--swann-blue);
+        svg path, svg rect, svg circle{
+            fill:var(--swann-blue)
         }
     }
 }
@@ -592,7 +599,7 @@ section{position:relative;}
             width:60px;
             margin-right:15px;
             div{
-                background:red;
+                background:#d4d4d4;
             }
             img{
                 width:100%;
@@ -740,18 +747,17 @@ section{position:relative;}
     width: calc((var(--main-width)/2 - 500px)/2 - 24px);
     max-width: 184px;
     text-align:left;
-    display:block;
-    opacity:0;
+    display:none;
 }
 
 .notes-prompt.np-left{
     transform:translateX(-100%);
     left: calc(var(--toolbar-height) + var(--main-width)*3/4 - 250px);
-    opacity:1;
+    display:block;
 }
 .notes-prompt.np-right{
     left: calc(100vw - (var(--main-width)/2 - 500px)/2);
-    opacity:1;
+    display:block;
 }
 // #left-image{
 //     background:red;
