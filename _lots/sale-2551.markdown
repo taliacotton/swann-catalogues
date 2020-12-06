@@ -5,5 +5,5 @@ date: November 17, 2020
 title: Fine Books & Manuscripts
 filename: 2551-catalogue-pentagram
 permalink: /sale-2551
-color: '#008573'
+color: '#ad926f'
 ---
