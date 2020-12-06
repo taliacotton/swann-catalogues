@@ -1,0 +1,9 @@
+---
+layout: catalogue-test
+sale: 2552
+date: November 17, 2020
+title: Contemporary Art
+filename: 2552-catalogue-pentagram
+permalink: /sale-2552
+color: '#eb0927'
+---
