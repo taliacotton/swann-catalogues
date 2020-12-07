@@ -1,9 +1,10 @@
 ---
+title: Fine Books & Manuscripts
+date: 2020-11-17 00:00:00 Z
+permalink: "/sale-2551"
 layout: catalogue-test
 sale: 2551
-date: November 17, 2020
-title: Fine Books & Manuscripts
 filename: 2551-catalogue-pentagram
-permalink: /sale-2551
-color: '#ad926f'
+color: "#ad926f"
 ---
+

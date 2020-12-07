@@ -1,27 +1,51 @@
 ---
+title: 2204_01_carver
 layout: catalogue
 catalogue: 2553_201203_Modern_Postwar_Art
-slug: 2553_001
 lot: 1
 title/author: James Ensor (1860 - 1949, Belgian)
-subtitle/nameOfPiece: 'Vierge aux Poissons'
-images: 
-  - 'https://catalogue.swanngalleries.com/full//375/775375.jpg'
+subtitle/nameOfPiece: Vierge aux Poissons
+images:
+- https://catalogue.swanngalleries.com/full//375/775375.jpg
 refno: 123456
 estimate:
   low: 2000
   high: 3000
-at-a-glance-info: |
-  Gouache, watercolor and ink on cream wove paper, 1942.
-  533x737 mm; 21x29 inches (image). 587x737 mm; 23x31 inches (sheet)
-  Signed and dated in gouache, lower right. Titled in pencil, lower left, in the margin. 
-excerpt: | 
-  ". . . I am aware of the difficulties attending the organization of the Vol: regts: in Kanawha Valley. Your efforts & success are duly appreciated & confirming the confidence entertained in you, which led to your assignment to this duty. In the initiation of preparations by the State for its defence, it was hoped that the loyal citizens of the Kanawha Valley would have been able to have offered a sufficient force to have prevented the invasion of their country, with the additional aid that could be given them, & that this force could have been equipped with everything but arms & accoutrements. . . . "The cheerfulness with which your troops have taken the field, the privations they have undergone & the efficiency with which they have acted entitle them to greater thanks from their country, which they will be sure to receive, & prove what men will suffer in defence of their homes & rights. I trust they will persevere, & in the end they will be sure to secure them. . . . "I regret to hear of discontent existing among your troops, & that they entertain the suspicion that invidious discrimination has been exercised in favour of others. I trust upon calm reflection, & a just consideration of all the difficulties to be overcome, they will see that no cause for it exists; but that they will exhibit the same patience, the same endurance, the same confidence & the same bravery to the end of the war as they have at the beginning. . . . "In reply to the concluding request of your letter, I need only express my regret, should your command be obliged to take the field in the destitute condition in which you describe them, & the hope that the necessities of war may not interfere with their proper equipment & refreshment. . . ." On September 10, 1861, Union Brig. Gen. William S. Rosecrans engaged and overpowered the outnumbered troops of Brig. Gen. John Floyd's Army of the Kanawha, which included the 22nd Virginia Infantry under Colonel Tompkins, encamped at Carnifex Ferry. The subsequent Confederate loss of the Kanawha Valley encouraged the development of a movement among Union supporters in the western part of Virginia to form a new state, and, six weeks later, a popular referendum called for the creation of a "State of Kanawha," later renamed "West Virginia." Two years later, West Virginia was admitted to the Union. 
-footnote/provenance: |
-  Provenance: Sotheby's Amsterdam, September 6, 2005, Lot 320.
-
-  The authenticity of this work has been kindly confirmed by the Ensor Advisory Commitee. 
-
+at-a-glance-info: "Gouache, watercolor and ink on cream wove paper, 1942.\n533x737
+  mm; 21x29 inches (image). 587x737 mm; 23x31 inches (sheet)\nSigned and dated in
+  gouache, lower right. Titled in pencil, lower left, in the margin. \n"
+excerpt: "\". . . I am aware of the difficulties attending the organization of the
+  Vol: regts: in Kanawha Valley. Your efforts & success are duly appreciated & confirming
+  the confidence entertained in you, which led to your assignment to this duty. In
+  the initiation of preparations by the State for its defence, it was hoped that the
+  loyal citizens of the Kanawha Valley would have been able to have offered a sufficient
+  force to have prevented the invasion of their country, with the additional aid that
+  could be given them, & that this force could have been equipped with everything
+  but arms & accoutrements. . . . \"The cheerfulness with which your troops have taken
+  the field, the privations they have undergone & the efficiency with which they have
+  acted entitle them to greater thanks from their country, which they will be sure
+  to receive, & prove what men will suffer in defence of their homes & rights. I trust
+  they will persevere, & in the end they will be sure to secure them. . . . \"I regret
+  to hear of discontent existing among your troops, & that they entertain the suspicion
+  that invidious discrimination has been exercised in favour of others. I trust upon
+  calm reflection, & a just consideration of all the difficulties to be overcome,
+  they will see that no cause for it exists; but that they will exhibit the same patience,
+  the same endurance, the same confidence & the same bravery to the end of the war
+  as they have at the beginning. . . . \"In reply to the concluding request of your
+  letter, I need only express my regret, should your command be obliged to take the
+  field in the destitute condition in which you describe them, & the hope that the
+  necessities of war may not interfere with their proper equipment & refreshment.
+  . . .\" On September 10, 1861, Union Brig. Gen. William S. Rosecrans engaged and
+  overpowered the outnumbered troops of Brig. Gen. John Floyd's Army of the Kanawha,
+  which included the 22nd Virginia Infantry under Colonel Tompkins, encamped at Carnifex
+  Ferry. The subsequent Confederate loss of the Kanawha Valley encouraged the development
+  of a movement among Union supporters in the western part of Virginia to form a new
+  state, and, six weeks later, a popular referendum called for the creation of a \"State
+  of Kanawha,\" later renamed \"West Virginia.\" Two years later, West Virginia was
+  admitted to the Union. \n"
+footnote/provenance: "Provenance: Sotheby's Amsterdam, September 6, 2005, Lot 320.\n\nThe
+  authenticity of this work has been kindly confirmed by the Ensor Advisory Commitee.
+  \n"
 ---
 
 This striking modernist painting by Jacob Lawrence is an extremely scarce example from a series that the artist never completed on African-American life in the rural South. It is one of only half a dozen recorded paintings from this early series of paintings that are known today. Patricia Hills in her recent Jacob Lawrence biography writes how Lawrence intended to paint a series on the rural life of African-Americans over a six month period. After finishing the The Legend ofJohn Brown series in December of 1941 in New Orleans, Lawrence and his wife Gwendolyn Knight left for Virginia in February of the following year. With plans to embark on a six month series of painting, they moved to Lenexa, a small rural community thirty miles from Richmond, where they stayed with relatives. That spring Lawrence sent other paintings including Firewood and Drawing Water to the Downtown Gallery in New York. Cutting Logs #51 is most closely related in subject matter and technique to Firewood #55, in the collection of the Smithsonian American Art Museum, Washington, DC. Both include various water-based media on paper, and the numbering with the title. The number is a recent inclusion by the Smithsonian American Art Museum - not included at the time of the publishing of the 2000 catalogue raisonne. Other known paintings from the 1942 series are Trees, 1942, now in the collection of Howard University Gallery of Art, Washington, DC, and The Plowman (Spring Plowing), gouache and tempera on board, 1942. Only two other gouache paintings from the series are recorded in Nesbett/DuBois - both are listed as "location unknown." 
