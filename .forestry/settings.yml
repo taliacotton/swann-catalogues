@@ -9,6 +9,7 @@ sections:
   label: Catalogue Data
   create: all
   match: "**/*"
+  new_doc_ext: ".csv"
 - type: jekyll-pages
   label: Pages
   create: all
