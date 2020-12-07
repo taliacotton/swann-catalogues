@@ -6,27 +6,70 @@ fields:
   name: 2551 catalogue pentagram
   label: 2551 catalogue pentagram
   fields:
-  - type: text
-    name: LOT
-    label: LOT
-  - type: text
-    name: REFNO
-    label: REFNO
-  - type: text
-    name: LOW
-    label: LOW
-  - type: text
-    name: HIGH
-    label: HIGH
   - type: textarea
     name: DESCRIPT
-    label: DESCRIPT
+    label: 'First Line: Author, Artist'
   - type: text
     name: CROSSHEAD
-    label: CROSSHEAD
+    label: 'Second Line: Title'
+  - name: at-a-glance
+    type: textarea
+    default: ''
+    config:
+      required: false
+      wysiwyg: false
+      schema:
+        format: markdown
+    label: At-a-glance info
+    description: At-a-glance specifications like measurements, materials. This appears
+      in small text under the title before the main description.
   - type: textarea
     name: TYPESET
-    label: TYPESET
+    label: Main Description
   - type: textarea
     name: FOOTNOTE
-    label: FOOTNOTE
+    label: Excerpt
+    description: If you're quoting from the lot, write the excerpt here.<br>This appears
+      as italic text underneath the main description.
+  - name: footnote/provenance
+    type: text
+    config:
+      required: false
+    label: Footnote/Provenance
+    description: Small text that goes below the main content
+  - name: LOW
+    type: number
+    label: Low Estimate
+    description: ''
+    default: 0
+    required: true
+    config:
+      min: 
+      max: 
+      step: 
+  - name: HIGH
+    type: number
+    label: High Estimate
+    description: ''
+    default: 0
+    required: true
+    config:
+      min: 
+      max: 
+      step: 
+  - type: text
+    name: REFNO
+    label: Reference Number
+    description: Handle this field cautiously!
+  - name: LOT
+    type: number
+    label: Lot Number
+    description: ''
+    default: 0
+    required: true
+    config:
+      min: 
+      max: 
+      step: 
+  config:
+    labelField: DESCRIPT
