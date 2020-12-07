@@ -1,6 +1,9 @@
 ---
-- smalltext: 'Morning Session at 10:30 am'
-  maintext: Autographs
+---
+
+---
+- smalltext: Morning Session at 10:30 am
+  maintext: Autographs hello
 - refno: 772283
   name: IDK 1
   year: 1984
@@ -604,4 +607,3 @@
   year: 1940
   bookmark: false
   favorite: true
----
