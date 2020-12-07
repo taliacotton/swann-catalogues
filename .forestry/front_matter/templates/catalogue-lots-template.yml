@@ -1,7 +1,4 @@
 ---
----
-
----
 label: Catalogue Lots Template
 hide_body: true
 fields:
@@ -100,5 +97,3 @@ fields:
       step: 
   config:
     labelField: DESCRIPT
-pages:
-- _data/2551-catalogue-pentagram.yaml
