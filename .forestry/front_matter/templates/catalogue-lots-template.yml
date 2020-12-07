@@ -1,0 +1,32 @@
+---
+label: Catalogue Lots Template
+hide_body: true
+fields:
+- type: field_group_list
+  name: 2551 catalogue pentagram
+  label: 2551 catalogue pentagram
+  fields:
+  - type: text
+    name: LOT
+    label: LOT
+  - type: text
+    name: REFNO
+    label: REFNO
+  - type: text
+    name: LOW
+    label: LOW
+  - type: text
+    name: HIGH
+    label: HIGH
+  - type: textarea
+    name: DESCRIPT
+    label: DESCRIPT
+  - type: text
+    name: CROSSHEAD
+    label: CROSSHEAD
+  - type: textarea
+    name: TYPESET
+    label: TYPESET
+  - type: textarea
+    name: FOOTNOTE
+    label: FOOTNOTE
