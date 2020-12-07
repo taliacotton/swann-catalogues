@@ -1,13 +1,10 @@
 ---
----
-
----
 label: Catalogue Lots Template
 hide_body: true
 fields:
 - type: field_group_list
-  name: 2551 catalogue pentagram
-  label: 2551 catalogue pentagram
+  name: lots
+  label: Lots
   fields:
   - type: textarea
     name: DESCRIPT
