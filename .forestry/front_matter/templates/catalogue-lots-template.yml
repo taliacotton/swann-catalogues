@@ -1,10 +1,31 @@
 ---
----
-
----
 label: Catalogue Lots Template
 hide_body: true
 fields:
+- name: title
+  type: text
+  config:
+    required: false
+  label: Catalogue Title/Department
+- name: sale
+  type: number
+  label: Sale Number
+  description: ''
+  default: 0
+  required: true
+  config:
+    min: 
+    max: 
+    step: 
+- name: date
+  type: datetime
+  label: Date
+  description: ''
+  config:
+    required: false
+    date_format: 
+    time_format: 
+    display_utc: false
 - type: field_group_list
   name: lots
   label: Lots
