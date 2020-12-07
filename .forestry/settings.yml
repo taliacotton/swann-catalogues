@@ -1,7 +1,4 @@
 ---
----
-
----
 new_page_extension: md
 auto_deploy: false
 admin_path: 
@@ -12,7 +9,9 @@ sections:
   label: Catalogue Data
   create: documents
   match: "**/*"
-  new_doc_ext: csv
+  new_doc_ext: ''
+  templates:
+  - catalogue-lots-template
 - type: jekyll-pages
   label: Pages
   create: all
