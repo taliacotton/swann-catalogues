@@ -1,4 +1,64 @@
 ---
 label: Lot (Data File)
 hide_body: true
-fields: []
+fields:
+- name: REFNO
+  type: number
+  label: Reference Number
+  description: ''
+  default: 0
+  required: true
+  config:
+    min: 
+    max: 
+    step: 
+- name: LOT
+  type: number
+  label: Lot Number
+  description: ''
+  default: 0
+  required: true
+  config:
+    min: 
+    max: 
+    step: 
+- name: DESCRIPT
+  type: text
+  config:
+    required: false
+  label: Description
+- name: LOW
+  type: number
+  label: Low Estimate
+  description: ''
+  default: 0
+  required: true
+  config:
+    min: 
+    max: 
+    step: 
+- name: HIGH
+  type: number
+  label: High Estimate
+  description: ''
+  default: 0
+  required: true
+  config:
+    min: 
+    max: 
+    step: 
+- name: CROSSHEAD
+  type: text
+  config:
+    required: false
+  label: Crosshead
+- name: TYPESET
+  type: text
+  config:
+    required: false
+  label: Typeset
+- name: FOOTNOTE
+  type: text
+  config:
+    required: false
+  label: Footnote
