@@ -1,7 +1,7 @@
 ---
 title: Test Catalogue Name
+date: 2020-12-24 05:00:00 Z
 sale: 333
-date: 2020-12-24 05:00:00 +0000
 lots:
 - DESCRIPT: test 2
   CROSSHEAD: test
@@ -24,3 +24,4 @@ lots:
   REFNO: ''
   LOT: 
 ---
+
