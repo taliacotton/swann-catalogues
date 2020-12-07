@@ -1,7 +1,4 @@
 ---
----
-
----
 new_page_extension: md
 auto_deploy: false
 admin_path: 
@@ -15,27 +12,11 @@ sections:
   new_doc_ext: app
   templates:
   - catalogue-lots-template
-- type: jekyll-pages
-  label: Pages
-  create: all
-- type: directory
-  path: _catalogues
-  label: Catalogues
-  create: all
-  match: "**/*"
-- type: directory
-  path: _lots
-  label: Lots
-  create: all
-  match: "**/*"
 - type: directory
   path: _uploads
   label: Uploads
   create: all
   match: "**/*"
-- type: jekyll-posts
-  label: Posts
-  create: all
 upload_dir: uploads
 public_path: "/uploads"
 front_matter_path: ''
