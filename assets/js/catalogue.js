@@ -56,8 +56,8 @@ document.addEventListener("scroll", function(){
     }
 
 // MARKER ON SCROLL
-    if (scrollTop > window.innerHeight*2){
-        document.getElementById("marker").style.top = interpolate(scrollTop, window.innerHeight*2, scrollHeight, 0, 100) + "%";
+    if (scrollTop > window.innerHeight*3){
+        document.getElementById("marker").style.top = interpolate(scrollTop, window.innerHeight*3, scrollHeight, 0, 100) + "%";
     }
 
 // IMAGE FADE ON SCROLL
