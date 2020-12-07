@@ -84,6 +84,25 @@ section{position:relative;z-index:1}
 #topbar.visible{
     transform:translateY(0%);
 }
+.thumbnail-lockup{
+    visibility:hidden;
+    opacity:0;
+    position:absolute;
+    align-items:flex-start;
+    align-content:flex-start;
+    max-width:200px;
+    transition:opacity 300ms;
+    display:flex;
+    img{
+        width:50px;
+        height: auto;
+        margin-right:10px;
+    }
+    p{
+        margin:0px;
+        background:rgba(0,0,0,0.5);
+    }
+}
 .sidebar{
     width: var(--toolbar-height);
     background-color:tomato;
@@ -95,6 +114,7 @@ section{position:relative;z-index:1}
     text-align:center;
     display:flex;
     flex-direction:column;
+    z-index:2;
     #hamburger, #infoBtn{
         padding-top:12px;
         display:inline-block;
@@ -112,16 +132,56 @@ section{position:relative;z-index:1}
         left:0px;
     }
     .sidebar--lots{
-        height:100%;
+        height: calc(100% - 40px);
+        padding: 20px 0px;
         position:relative;
+        display: flex;
+        flex-direction: column;
+        justify-content: space-between;
         li{
             width:100%;
             background:transparent;
-            height:1px;
-            // cursor:pointer;
+            width: 100%;
+            background: transparent;
+            height: 50px;
+            flex: 1;
+            .thumbnail-lockup{
+                max-width:calc(var(--toolbar-height) + 310px);
+                text-align:left;
+                transition:0s;
+                pointer-events:none;
+                img {
+                    padding-left:calc(var(--toolbar-height) + 10px);
+                }
+                p{  
+                    width: 300px;
+                    padding-top:5px;
+                    background:transparent;
+                }
+            }
         }
         li:hover{
-            background:white;
+            border-top:1px solid white;
+            .thumbnail-lockup, a{
+                visibility:visible;
+                opacity:1;
+            }
+        }
+        li.sidebar-chapter-separation{
+            border-top:1px solid white;
+            position:relative;
+        }
+        .sidebar-chapter-separation > a{
+            pointer-events:none;
+            visibility:hidden;
+            opacity:0;
+            position:absolute;
+            width:400px;
+            text-align:left;
+            left: calc(var(--toolbar-height) + 10px);
+            top: -8px;
+            p{margin:0px;}
+            .chapter-title{font-size: 1.2rem;}
         }
     }
 }
@@ -142,7 +202,7 @@ section{position:relative;z-index:1}
     background:black;
     position:relative;
     border-bottom:1px solid white;
-    z-index:1;
+    z-index:3;
     .logo{
         position: absolute;
         top:calc(var(--stripeHeight)/2);
@@ -243,7 +303,7 @@ section{position:relative;z-index:1}
     right:0px;
     height:100vh;
     width:calc(100vw - var(--toolbar-height) - 1px);
-    z-index:0;
+    z-index:1;
     border-bottom:1px solid white;  
     #toc-dots{
         display:flex;
@@ -271,6 +331,8 @@ section{position:relative;z-index:1}
         }
         .dot-container{
             position:relative;
+            // IF YOU DONT WANT THE LINE-BY-LINE HOVER, COMMENT OUT THIS LINE:
+            flex: 1; 
             .dot-container-inner{
                 position:absolute;
                 // width:200px;
@@ -280,7 +342,7 @@ section{position:relative;z-index:1}
         .dot-container:hover, .dot-container.hover {
             z-index:10;
             // border-top:1px solid white;
-            .on-hover{
+            .thumbnail-lockup{
                 visibility:visible;
                 opacity:1;
             }
@@ -298,25 +360,6 @@ section{position:relative;z-index:1}
             position: absolute;
             top: 0px;
             left: calc(var(--toolbar-height)*-1 - 10px);
-        }
-    }
-    img{
-        width:50px;
-        height: auto;
-        margin-right:10px;
-    }
-    .on-hover{
-        visibility:hidden;
-        opacity:0;
-        position:absolute;
-        align-items:flex-start;
-        align-content:flex-start;
-        max-width:200px;
-        transition:opacity 300ms;
-        display:flex;
-        p{
-            margin:0px;
-            background:rgba(0,0,0,0.5);
         }
     }
     .dot{
@@ -509,7 +552,7 @@ section{position:relative;}
 .lots{
     background:black;
     position:relative;
-    // z-index:1;
+    z-index:1;
 }
 .lot{
     display:flex;

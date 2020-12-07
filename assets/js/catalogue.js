@@ -311,18 +311,18 @@ for (let d of tocDots){
 }
 
 // TOC move vicinity function
-toc.addEventListener("mousemove", function(e){
-    if (document.querySelector(".dot-container.hover") != null){document.querySelector(".dot-container.hover").classList.remove("hover")}
-    let elems = [];
-    for (let d of tocDots){
-        let dCenterX = d.querySelector(".dot").getBoundingClientRect().left + d.querySelector(".dot").getBoundingClientRect().width/2;
-        let dCenterY = d.querySelector(".dot").getBoundingClientRect().top + d.querySelector(".dot").getBoundingClientRect().height/2;
-        if (distance(dCenterX, dCenterY, e.clientX, e.clientY) < 50){
-            elems.push(d);
-        } 
-    }
-    elems[0].classList.add("hover");
-})
+// toc.addEventListener("mousemove", function(e){
+//     if (document.querySelector(".dot-container.hover") != null){document.querySelector(".dot-container.hover").classList.remove("hover")}
+//     let elems = [];
+//     for (let d of tocDots){
+//         let dCenterX = d.querySelector(".dot").getBoundingClientRect().left + d.querySelector(".dot").getBoundingClientRect().width/2;
+//         let dCenterY = d.querySelector(".dot").getBoundingClientRect().top + d.querySelector(".dot").getBoundingClientRect().height/2;
+//         if (distance(dCenterX, dCenterY, e.clientX, e.clientY) < 50){
+//             elems.push(d);
+//         } 
+//     }
+//     elems[0].classList.add("hover");
+// })
 
 
 // TOC filters

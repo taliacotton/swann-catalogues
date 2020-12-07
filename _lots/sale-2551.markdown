@@ -4,7 +4,7 @@ date: 2020-11-17 00:00:00 Z
 permalink: "/sale-2551"
 layout: catalogue-test
 sale: 2551
-filename: 2551-catalogue-pentagram
+filename: 2551-catalogue-pentagram-old
 color: "#ad926f"
 ---
 

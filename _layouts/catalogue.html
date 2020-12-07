@@ -24,8 +24,30 @@
             <ul class="sidebar--lots">
                 <span id="marker"></span>
                 {% for dot in site.data.lots %}
-                <li><a href="#"></a></li>
-                {% endfor %}
+                {% if dot.refno %}
+                    <li>
+                        <a href="#">
+                            <div class="thumbnail-lockup">
+                                    <img src="/assets/img/{{dot.refno}}.jpg">
+                                    <p class="small-type">
+                                        Lot {{forloop.index}}
+                                        <br>Kendrick, John
+                                        <br>Horrors of Slavery
+                                </p>
+                            </div>
+                        </a>
+                    </li>
+                {% else %}
+                    <li class="sidebar-chapter-separation">
+                        <a href="#">
+                            {% if dot.smalltext %}
+                            <p class="small-type">{{dot.smalltext}}</p>
+                            {% endif%}
+                            <p class="chapter-title">{{dot.maintext}}</p>
+                        </a>
+                    </li>
+                {% endif %}
+            {% endfor %}
             </ul>
         </nav>
         <section id="cover">
@@ -91,7 +113,7 @@
                             {% else %}
                             <div class="dot"></div>
                             {% endif %}
-                            <div class="on-hover">
+                            <div class="thumbnail-lockup">
                                  <img src="/assets/img/{{dot.refno}}.jpg">
                                  <p class="small-type">
                                      Lot {{forloop.index}}
