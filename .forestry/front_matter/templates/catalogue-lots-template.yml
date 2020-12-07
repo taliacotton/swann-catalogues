@@ -100,5 +100,3 @@ fields:
       step: 
   config:
     labelField: DESCRIPT
-pages:
-- _data/2551-catalogue-pentagram.yaml

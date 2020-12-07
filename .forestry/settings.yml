@@ -1,4 +1,7 @@
 ---
+---
+
+---
 new_page_extension: md
 auto_deploy: false
 admin_path: 
@@ -6,12 +9,9 @@ webhook_url:
 sections:
 - type: directory
   path: _data
-  label: Catalogue Data
+  label: Catalogues
   create: documents
   match: "**/*"
-  new_doc_ext: app
-  templates:
-  - catalogue-lots-template
 upload_dir: uploads
 public_path: "/uploads"
 front_matter_path: ''
@@ -27,4 +27,3 @@ build:
   working_dir: "/srv"
   instant_preview_command: bundle exec jekyll serve --drafts --unpublished --future
     -d _site
----
