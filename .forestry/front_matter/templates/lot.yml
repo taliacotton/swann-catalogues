@@ -48,33 +48,6 @@ fields:
       file: 
       path: 
   label: Lots
-- name: essays
-  type: field_group_list
-  fields:
-  - name: title
-    type: text
-    config:
-      required: false
-    label: Title
-  - name: author
-    type: text
-    config:
-      required: false
-    label: Author (optional)
-  - name: body
-    type: textarea
-    default: ''
-    config:
-      required: false
-      wysiwyg: true
-      schema:
-        format: markdown
-    label: Body
-  config:
-    min: 
-    max: 
-    labelField: 
-  label: Essays
 - name: people
   type: field_group
   config: {}
@@ -120,3 +93,14 @@ fields:
         section: people
     label: Administration
   label: People
+- name: general_information
+  type: textarea
+  default: ''
+  config:
+    required: false
+    wysiwyg: true
+    schema:
+      format: markdown
+  label: General Information
+  description: This appears after all the people. Typically content such as contact
+    numbers for absentee bidding, invoicing, and inquiries.
