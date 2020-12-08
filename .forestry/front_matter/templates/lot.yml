@@ -1,0 +1,25 @@
+---
+label: Lot
+hide_body: true
+fields:
+- type: text
+  name: title
+  label: title
+- type: datetime
+  name: date
+  label: date
+- type: text
+  name: permalink
+  label: permalink
+- type: text
+  name: layout
+  label: layout
+- type: number
+  name: sale
+  label: sale
+- type: text
+  name: filename
+  label: filename
+- type: text
+  name: color
+  label: color
