@@ -1,10 +1,11 @@
 ---
 title: Contemporary Art
-date: 2020-11-17 00:00:00 Z
+date: 2020-11-17T00:00:00.000+00:00
 permalink: "/sale-2552"
 layout: catalogue-test
 sale: 2552
 filename: 2552-catalogue-pentagram
 color: "#eb0927"
----
+lots: _data/2552-catalogue-pentagram.yaml
 
+---
