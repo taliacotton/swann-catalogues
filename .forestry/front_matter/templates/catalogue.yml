@@ -69,5 +69,7 @@ fields:
     name: LOT
     label: Lot Number (original)
     hidden: true
+  config:
+    labelField: LOT
 pages:
 - _data/2551-catalogue-pentagram.yaml
