@@ -4,6 +4,8 @@ auto_deploy: false
 admin_path: ''
 webhook_url: 
 sections:
+- type: heading
+  label: Lots
 - type: directory
   path: _data
   label: Catalogue Lot Data
@@ -12,26 +14,17 @@ sections:
   templates:
   - catalogue
 - type: heading
-  label: Content
-- type: directory
-  path: _catalogues
-  label: Catalogue
-  create: documents
-  match: "*"
-  new_doc_ext: yaml
+  label: Piece together catalogue
 - type: directory
   path: _lots
-  label: Lots
+  label: Catalogues
   create: documents
   match: "*"
   new_doc_ext: app
   templates:
   - lot
 - type: heading
-  label: Data
-- type: document
-  path: _data/lots.yaml
-  label: Lots
+  label: People
 upload_dir: uploads
 public_path: "/uploads"
 front_matter_path: ''
