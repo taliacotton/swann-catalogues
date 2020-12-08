@@ -262,23 +262,20 @@
                         <span class="lot-number">{{lot.LOT}}</span>
                         <h2>
                             {{lot.DESCRIPT}}
-                            <br><i>{{lot.DESCRIPT}}</i>
+                            <br><i>{{lot.CROSSHEAD}}</i>
                         </h2>
                         <div class='at-a-glance'>
                             <div class="silhouette">
                                 <div><img src="https://catalogue.swanngalleries.com/full//{{lot.REFNO | slice: -3, 3 }}/{{lot.REFNO}}.jpg"></div>
                             </div>
                             <div>
-                                <p>Gouache, watercolor and ink on cream wove paper, 1942.</p>
-                                <p>533x737 mm; 21x29 inches (image). 587x737 mm; 23x31 inches (sheet)</p>
-                                <p>Signed and dated in gouache, lower right. Titled in pencil, lower left, in the margin.</p>
+                                {{lot.at-a-glance | markdownify }}
                             </div>
                         </div>
                         <p>{{lot.TYPESET}}</p>
-                        <p>{{lot.CROSSHEAD}}</p>
                         <div class="excerpt"><p>{{lot.FOOTNOTE}}</p></div>
                         <div class="footnote">
-                            <p>Provenance: The Downtown Gallery, New York; Boris Mirski Art Gallery, Boston, Massachusetts; private collection (circa 1975), acquired from a Connecticut auction house.</p>
+                            <p>{{lot.footnote/provenance}}</p>
                         </div>
                         <div class="estimate">
                             <h5 class="small-type">Estimate</h5>
