@@ -4,10 +4,13 @@
     <body>
 
         {% for x in site.data %}
-            {% if x[0] == page.filename %}
+            {% assign testName = "_data/" | append: x[0] | append: ".yaml" %}
+            {% if testName == page.lots %}
                 {% assign catalogue = x[1] %}
             {% endif %}
         {% endfor %}
+
+        {% assign lots = catalogue.lots %}
 
         <img id="cursor" src="/assets/img/cursor.png">
         <div id="topbar">
@@ -239,7 +242,7 @@
                 </div>
             </section>
             <div class="lots">
-            {% for lot in catalogue %}
+            {% for lot in lots %}
             <section id="lot{{lot.LOT}}" class="lot lot-bookmarked lot-recommended">
                 <div class="left">
                     <img src="https://catalogue.swanngalleries.com/full//{{lot.REFNO | slice: -3, 3 }}/{{lot.REFNO}}.jpg">

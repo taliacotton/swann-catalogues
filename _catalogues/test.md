@@ -1,9 +1,7 @@
 ---
 title: Test Catalogue Name
-permalink: "/test"
 layout: catalogue-test2
 color: "#ad926f"
-date: 2020-12-24 05:00:00 Z
 sale: 333
 lots:
 - DESCRIPT: test 2

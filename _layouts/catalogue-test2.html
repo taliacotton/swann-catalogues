@@ -2,7 +2,12 @@
         <link rel="stylesheet" href="/assets/css/catalogue.css">
     </head>
     <body>
-        {% assign catalogue = page.lots %}
+
+        {% for x in site.data %}
+            {% if x[0] == page.filename %}
+                {% assign catalogue = x[1].lots %}
+            {% endif %}
+        {% endfor %}
 
         <img id="cursor" src="/assets/img/cursor.png">
         <div id="topbar">
