@@ -6,9 +6,11 @@ webhook_url:
 sections:
 - type: directory
   path: _data
-  label: Catalogue Data Files
+  label: Catalogue Lot Data
   create: documents
   match: "**/*"
+  templates:
+  - catalogue
 - type: heading
   label: Content
 - type: directory
