@@ -18,6 +18,8 @@ sections:
   create: documents
   match: "*"
   new_doc_ext: app
+  templates:
+  - lot
 - type: heading
   label: Data
 - type: document

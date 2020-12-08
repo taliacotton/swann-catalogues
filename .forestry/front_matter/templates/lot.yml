@@ -3,23 +3,34 @@ label: Lot
 hide_body: true
 fields:
 - type: text
+  name: layout
+  label: layout
+  default: lot
+  hidden: true
+- type: text
   name: title
   label: title
 - type: datetime
   name: date
   label: date
+  default: now
 - type: text
   name: permalink
   label: permalink
-- type: text
-  name: layout
-  label: layout
 - type: number
   name: sale
   label: sale
+  config:
+    step: 1
+    min: 0
+    required: true
 - type: text
   name: filename
   label: filename
-- type: text
-  name: color
+- name: color
+  type: color
   label: color
+  config:
+    required: false
+    color_format: Hex
+  default: "#AD926F"
