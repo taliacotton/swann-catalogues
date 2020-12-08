@@ -37,8 +37,14 @@ fields:
   - type: text
     name: CROSSHEAD
     label: 'Second Line: Title of Piece'
-  - type: text
-    name: at-a-glance
+  - name: at-a-glance
+    type: textarea
+    default: ''
+    config:
+      required: false
+      wysiwyg: false
+      schema:
+        format: markdown
     label: At-a-glance
     description: At-a-glance specifications such as size, material, quality. This
       information appears immediately under the title next to the silhouette.
@@ -51,11 +57,17 @@ fields:
       schema:
         format: markdown
     label: Main Description
-  - type: text
-    name: FOOTNOTE
-    label: Excerpt
+  - name: FOOTNOTE
+    type: textarea
+    default: ''
+    config:
+      required: false
+      wysiwyg: false
+      schema:
+        format: markdown
     description: If you're quoting from the lot, write the excerpt here. This shows
       up in italicized type right below the main description.
+    label: Excerpt
   - type: text
     name: footnote/provenance
     label: Footnote/Provenance
