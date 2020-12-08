@@ -10,7 +10,7 @@ fields:
   hidden: true
 - type: text
   name: title
-  label: title
+  label: Title/Department
 - type: datetime
   name: date
   label: date
@@ -20,7 +20,7 @@ fields:
   label: permalink
 - type: number
   name: sale
-  label: sale
+  label: Sale Number
   config:
     step: 1
     min: 0
@@ -28,9 +28,10 @@ fields:
 - type: text
   name: filename
   label: filename
+  hidden: true
 - name: color
   type: color
-  label: color
+  label: Color
   config:
     required: false
     color_format: Hex
