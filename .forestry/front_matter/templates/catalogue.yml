@@ -11,9 +11,16 @@ fields:
 - type: text
   name: layout
   label: layout
-- type: text
-  name: color
-  label: color
+  hidden: true
+  config:
+    required: false
+  default: catalogue-test
+- name: color
+  type: color
+  label: Color
+  config:
+    required: false
+    color_format: Hex
 - type: datetime
   name: date
   label: date
