@@ -1,18 +1,13 @@
----
 title: Your awesome title
 timezone: UTC
 collections:
   catalogues:
-    title: Catalogues
     output: true
   lots:
-    title: Lots
     output: true
   posts:
-    title: Posts
     output: true
   uploads:
-    title: Uploads
     output: true
 email: your-email@example.com
 description: Write an awesome description for your new site here. You can edit this
