@@ -1,16 +1,18 @@
 ---
----
-
----
 new_page_extension: md
 auto_deploy: false
 admin_path: ''
 webhook_url: 
 sections:
 - type: directory
-  path: ".forestry"
-  label: Settings
-  create: all
+  path: _catalogues
+  label: Catalogue
+  create: documents
+  match: "*"
+  new_doc_ext: ".yaml"
+- type: document
+  path: _data/lots.yaml
+  label: Lots
   match: "**/*"
 upload_dir: uploads
 public_path: "/uploads"
