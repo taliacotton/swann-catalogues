@@ -1,7 +1,4 @@
 ---
----
-
----
 label: Catalogue Lots Template
 hide_body: true
 fields:
@@ -17,7 +14,7 @@ fields:
   default: 0
   required: true
   config:
-    min: 
+    min: 0
     max: 
     step: 
 - name: date
