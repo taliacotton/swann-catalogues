@@ -2,9 +2,16 @@
 label: Catalogue
 hide_body: true
 fields:
+- name: title
+  type: text
+  config:
+    required: false
+  label: Title
+  description: Give these lots a title for easy reference. When connecting lots with
+    their respective catalogue, it will display this title.
 - type: field_group_list
   name: lots
-  label: lots
+  label: Lots
   fields:
   - type: text
     name: DESCRIPT
