@@ -1,0 +1,47 @@
+---
+label: Catalogue Lots
+hide_body: true
+fields:
+- type: text
+  name: title
+  label: title
+- type: datetime
+  name: date
+  label: date
+- type: text
+  name: sale
+  label: sale
+- type: field_group_list
+  name: lots
+  label: lots
+  fields:
+  - type: text
+    name: DESCRIPT
+    label: DESCRIPT
+  - type: text
+    name: CROSSHEAD
+    label: CROSSHEAD
+  - type: text
+    name: at-a-glance
+    label: at-a-glance
+  - type: text
+    name: TYPESET
+    label: TYPESET
+  - type: text
+    name: FOOTNOTE
+    label: FOOTNOTE
+  - type: text
+    name: footnote/provenance
+    label: footnote/provenance
+  - type: text
+    name: LOW
+    label: LOW
+  - type: text
+    name: HIGH
+    label: HIGH
+  - type: text
+    name: REFNO
+    label: REFNO
+  - type: text
+    name: LOT
+    label: LOT
