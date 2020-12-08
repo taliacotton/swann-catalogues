@@ -17,6 +17,7 @@ fields:
     min: 0
     max: 
     step: 
+    required: false
 - name: date
   type: datetime
   label: Date
