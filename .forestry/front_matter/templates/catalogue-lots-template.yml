@@ -1,7 +1,4 @@
 ---
----
-
----
 label: Catalogue Lots Template
 hide_body: true
 fields:
@@ -10,17 +7,6 @@ fields:
   config:
     required: false
   label: Catalogue Title/Department
-- name: sale
-  type: number
-  label: Sale Number
-  description: ''
-  default: 0
-  required: true
-  config:
-    min: 0
-    max: 
-    step: 
-    required: false
 - name: date
   type: datetime
   label: Date
