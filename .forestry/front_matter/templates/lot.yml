@@ -35,7 +35,14 @@ fields:
     color_format: Hex
   default: "#AD926F"
 - name: lots
-  type: include
-  config: {}
-  template: catalogue
+  type: select
+  default: []
+  config:
+    required: false
+    options: []
+    source:
+      type: pages
+      section: catalogue-data-files
+      file: 
+      path: 
   label: Lots
