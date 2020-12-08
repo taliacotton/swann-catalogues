@@ -54,3 +54,5 @@ fields:
   - type: text
     name: LOT
     label: LOT
+pages:
+- _data/2551-catalogue-pentagram.yaml
