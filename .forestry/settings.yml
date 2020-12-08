@@ -1,12 +1,11 @@
 ---
----
-
----
 new_page_extension: md
 auto_deploy: false
 admin_path: ''
 webhook_url: 
 sections:
+- type: heading
+  label: Content
 - type: directory
   path: _catalogues
   label: Catalogue
@@ -19,9 +18,11 @@ sections:
   create: documents
   match: "*"
   new_doc_ext: ''
+- type: heading
+  label: Data
 - type: document
   path: _data/lots.yaml
-  label: 'Data: lots'
+  label: Lots
   match: "**/*"
 upload_dir: uploads
 public_path: "/uploads"
