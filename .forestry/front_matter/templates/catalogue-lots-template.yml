@@ -1,7 +1,4 @@
 ---
----
-
----
 label: Catalogue Lots Template
 hide_body: true
 fields:
@@ -64,42 +61,9 @@ fields:
       required: false
     label: Footnote/Provenance
     description: Small text that goes below the main content
-  - name: low
-    type: number
-    label: Low Estimate
-    description: ''
-    default: 0
-    required: true
-    config:
-      min: 
-      max: 
-      step: 
-      required: false
-  - name: high
-    type: number
-    label: High Estimate
-    description: ''
-    default: 0
-    required: true
-    config:
-      min: 
-      max: 
-      step: 
-      required: false
   - type: text
     name: REFNO
     label: Reference Number
     description: Handle this field cautiously!
-  - name: lot
-    type: number
-    label: Lot Number
-    description: ''
-    default: 0
-    required: true
-    config:
-      min: 
-      max: 
-      step: 
-      required: false
   config:
     labelField: DESCRIPT
