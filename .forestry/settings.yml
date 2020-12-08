@@ -1,3 +1,4 @@
+---
 new_page_extension: md
 auto_deploy: false
 admin_path: ''
@@ -10,7 +11,7 @@ sections:
   label: Catalogue
   create: documents
   match: "*"
-  new_doc_ext: ".yaml"
+  new_doc_ext: yaml
 - type: directory
   path: _lots
   label: Lots
@@ -22,7 +23,6 @@ sections:
 - type: document
   path: _data/lots.yaml
   label: Lots
-  match: "**/*"
 upload_dir: uploads
 public_path: "/uploads"
 front_matter_path: ''
