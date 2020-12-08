@@ -33,33 +33,47 @@ fields:
   fields:
   - type: text
     name: DESCRIPT
-    label: DESCRIPT
+    label: 'First Line: Artist/Author/Owner'
   - type: text
     name: CROSSHEAD
-    label: CROSSHEAD
+    label: 'Second Line: Title of Piece'
   - type: text
     name: at-a-glance
-    label: at-a-glance
-  - type: text
-    name: TYPESET
-    label: TYPESET
+    label: At-a-glance
+    description: At-a-glance specifications such as size, material, quality. This
+      information appears immediately under the title next to the silhouette.
+  - name: TYPESET
+    type: textarea
+    default: ''
+    config:
+      required: false
+      wysiwyg: false
+      schema:
+        format: markdown
+    label: Main Description
   - type: text
     name: FOOTNOTE
-    label: FOOTNOTE
+    label: Excerpt
+    description: If you're quoting from the lot, write the excerpt here. This shows
+      up in italicized type right below the main description.
   - type: text
     name: footnote/provenance
-    label: footnote/provenance
+    label: Footnote/Provenance
+    description: This shows up in small at-a-glance type underneath the main text.
   - type: text
     name: LOW
-    label: LOW
+    label: Low Estimate
   - type: text
     name: HIGH
-    label: HIGH
+    label: High Estimate
   - type: text
     name: REFNO
-    label: REFNO
+    label: Reference Number
+    description: Edit this with caution, as it's tied dynamically to the lot in other
+      places on the web.
   - type: text
     name: LOT
-    label: LOT
+    label: Lot Number (original)
+    hidden: true
 pages:
 - _data/2551-catalogue-pentagram.yaml
