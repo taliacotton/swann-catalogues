@@ -48,3 +48,8 @@ fields:
       file: 
       path: 
   label: Lots
+- name: essays
+  type: include
+  config: {}
+  template: essay
+  label: Essays
