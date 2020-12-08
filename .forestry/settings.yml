@@ -19,6 +19,11 @@ sections:
   match: "**/*"
   templates:
   - catalogue
+- type: directory
+  path: _people
+  label: People
+  create: documents
+  match: "**/*"
 upload_dir: uploads
 public_path: "/uploads"
 front_matter_path: ''
