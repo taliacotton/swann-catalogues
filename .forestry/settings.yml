@@ -1,8 +1,14 @@
+---
 new_page_extension: md
 auto_deploy: false
 admin_path: ''
 webhook_url: 
 sections:
+- type: directory
+  path: _data
+  label: Catalogue Data Files
+  create: documents
+  match: "**/*"
 - type: heading
   label: Content
 - type: directory
@@ -10,19 +16,20 @@ sections:
   label: Catalogue
   create: documents
   match: "*"
-  new_doc_ext: ".yaml"
+  new_doc_ext: yaml
 - type: directory
   path: _lots
   label: Lots
   create: documents
   match: "*"
-  new_doc_ext: ''
+  new_doc_ext: app
+  templates:
+  - lot
 - type: heading
   label: Data
 - type: document
   path: _data/lots.yaml
   label: Lots
-  match: "**/*"
 upload_dir: uploads
 public_path: "/uploads"
 front_matter_path: ''
