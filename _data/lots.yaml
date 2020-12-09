@@ -18,8 +18,9 @@
   favorite: false
   header_text:
     type: large
-    line_1: Line One
-    line_2: Line Two
+    line_1: Lot 4
+    line_2: Richmond Barthé
+    line_3: Feral Benga
     background: '#fccf03'
     foreground: 'black'
 - refno: 773410
@@ -80,6 +81,11 @@
   year: 1930
   bookmark: false
   favorite: false
+  header_text:
+    type: large_img
+    line_1: Lot 4
+    line_2: Richmond Barthé
+    line_3: Feral Benga
 - refno: 774987
   name: IDK
   year: 1940
@@ -93,6 +99,10 @@
   year: 1960
   bookmark: false
   favorite: false
+  header_text:
+    type: small
+    line_1: Richmond Barthé
+    line_2: Feral Benga
 - refno: 772283
   name: IDK 1
   year: 1984

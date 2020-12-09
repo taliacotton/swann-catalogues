@@ -794,9 +794,45 @@ section{position:relative;}
         border-color: var(--swann-blue);
     }
 }
-section.header_text.large {
+section.header_text.large, section.header_text.large_img {
     width:var(--main-width);
-    height:500px;
+    min-height:500px;
+    height: 80vh;
+    display:flex;
+    flex-direction:column;
+    justify-content: center;
+    font-size:120px;
+    text-align:center;
+    font-family:'Jjannon Display';
+    z-index:2;
+}
+section.header_text.large_img {
+    font-size:40px;
+    text-align:center;
+    font-family:'Jjannon Display';
+    color:white;
+    background-position:center;
+    background-size:200%;
+}
+.header-text-small{
+    text-align:center;
+    padding:50px 0px 200px;
+    max-width:320px;
+    margin: auto;
+    font-family:'Jjannon Display';
+        font-size:50px;
+    .lotNum{
+        font-family:var(--sans-serif);
+        font-weight:bold;
+        font-size:40px;
+    }
+    .circle{
+        width:8px;
+        height:8px;
+        border-radius:50%;
+        background:black;
+        margin:40px auto;
+    }
 }
 
 .notes-prompt{

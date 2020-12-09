@@ -1,12 +1,22 @@
 {% if lot.header_text %}
-<section class="header_text {{header_text.type}}" style="background-color: {{header_text.background}}; color: black">
-    <span>{{header_text.line_1}}</span>
-    <br><span>{{header_text.line_2}}</span>
-</section>
+    {% if lot.header_text.type == 'large' %}
+    <section class="header_text {{lot.header_text.type}}" style="background-color: {{lot.header_text.background}}; color: {{lot.header_text.foreground}}">
+        <div class="header-inner">
+            <span>{{lot.header_text.line_2}}</span>
+            <br><span><i>{{lot.header_text.line_3}}</i></span>
+        </div>
+    </section>
+    {% elsif lot.header_text.type == 'large_img' %}
+    <section class="header_text {{lot.header_text.type}}" style="background-image: url(/assets/img/{{lot.refno}}.jpg)">
+        <div class="header-inner">
+            <span>{{lot.header_text.line_2}}</span>
+            <br><span><i>{{lot.header_text.line_3}}</i></span>
+        </div>
+    </section>
+    {% endif %}
 {% endif %}
 <section id="lot1" class="lot lot-bookmarked lot-recommended">
     <div class="left">
-        
         {% if lot.images %}
             <div class="slideshow">
                     {% if lot.image %}
@@ -38,8 +48,19 @@
                 Add note...
             </button>
             <div class="notes-left">
-                <textarea class="notes small-type" id="textarea">this is a test</textarea>
+                <textarea class="notes small-type" id="textarea"></textarea>
             </div>
+            {% if lot.header_text %}
+                {% if lot.header_text.type == 'small' %}
+                    <div class="header-text-small">
+                        <span class="lotNum">9</span>
+                        <div class="circle"></div>
+                        <span>{{lot.header_text.line_1}}</span>
+                        <div class="circle"></div>
+                        <span><i>{{lot.header_text.line_2}}</i></span>
+                    </div>
+                {% endif %}
+            {% endif %}
             <span class="lot-number">17</span>
             <h2>
                 Jacob Lawrence (1917–2000)
@@ -78,7 +99,7 @@
                 </a>
             </div>
             <div class="notes-right">
-                <textarea class="notes small-type" id="textarea">this is a test</textarea>
+                <textarea class="notes small-type" id="textarea"></textarea>
             </div>
         </div>
     </div>
