@@ -13,11 +13,21 @@ fields:
   label: Title/Department
 - type: datetime
   name: date
-  label: date
+  label: Auction Date
   default: now
+- name: auction_time__2
+  type: datetime
+  label: 'Auction Time #2'
+  description: If there is more than one auction time, pick the second one here.
+  config:
+    required: false
+    date_format: "-"
+    time_format: ''
+    display_utc: false
 - type: text
   name: permalink
   label: permalink
+  hidden: true
 - type: number
   name: sale
   label: Sale Number
