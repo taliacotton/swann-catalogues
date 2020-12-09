@@ -102,17 +102,6 @@ fields:
         format: markdown
     label: General Information
   label: People & Contact
-- name: general_information
-  type: textarea
-  default: ''
-  config:
-    required: false
-    wysiwyg: true
-    schema:
-      format: markdown
-  label: General Information
-  description: This appears after all the people. Typically content such as contact
-    numbers for absentee bidding, invoicing, and inquiries.
 - name: footer_pages
   type: field_group_list
   fields:
