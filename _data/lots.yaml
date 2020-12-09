@@ -10,51 +10,84 @@
   year: 1977
   bookmark: false
   favorite: false
+  background: blue
 - refno: 773409
   name: IDK 3
   year: 1978
   bookmark: false
   favorite: false
+  header_text:
+    type: large
+    line_1: Line One
+    line_2: Line Two
+    background: '#fccf03'
+    foreground: 'black'
 - refno: 773410
   name: IDK 4
   year: 1993
   bookmark: false
   favorite: false
+- refno: 769890
+  name: IDK 4
+  year: 1993
+  bookmark: false
+  favorite: false
+  background: '#ff3030'
 - refno: 774094
   name: IDK 5
   year: 1920
   bookmark: false
   favorite: false
-- refno: 774556
+- refno: 768784
   name: IDK
   year: 1969
   bookmark: true
   favorite: true
-- refno: 774929
+  image: 768784.png
+- refno: 770066
   name: IDK
   year: 1980
   bookmark: false
   favorite: false
+  images: 
+    - 770066_view 02_02.jpg
+    - 770066_view 03_03.jpg
+    - 770066_view 04_04.jpg
+    - 770066_view 05_05.jpg
+    - 770066_view 06_06.jpg
+    - 770066_view 07_07.jpg
+    - 770066_view 08_08.jpg
+    - 770066_view 09_09.jpg
+    - 770066_view 10_10.jpg
 - refno: 775152
   name: IDK
   year: 1980
   bookmark: false
   favorite: false
-- refno: 775182
+- refno: 769890
   name: IDK
   year: 1979
   bookmark: false
   favorite: false
-- refno: 775184
+  images:
+    - 769890_view 02_02.jpg
+    - 769890_view 03_03.jpg
+    - 769890_view 03_03.jpg
+    - 769890_view 04_04.jpg
+    - 769890_view 05.jpg
+- refno: 774453
   name: IDK
   year: 1930
   bookmark: false
   favorite: false
-- refno: 775208
+- refno: 774987
   name: IDK
   year: 1940
   bookmark: false
   favorite: false
+  image: 774987.png
+  images:
+    - 774987_view 02_02
 - refno: 775374
   name: IDK
   year: 1960
@@ -100,6 +133,7 @@
   year: 1980
   bookmark: false
   favorite: false
+  background: white
 - refno: 775182
   name: IDK
   year: 1979

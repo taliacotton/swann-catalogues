@@ -121,7 +121,7 @@ function zoomImg(e, ls){
 
 function unzoomImg(ls){
     ls.classList.remove("zoom");
-    ls.querySelector("img").style.objectPosition = "center";
+    // ls.querySelector("img").style.objectPosition = "center";
 }
 
 // NOTES PROMPT MOVE
