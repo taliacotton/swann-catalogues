@@ -118,6 +118,8 @@
   year: 1978
   bookmark: false
   favorite: false
+  large_img: true
+  large_img_background: '#A3C6DC'
 - refno: 773410
   name: IDK 4
   year: 1993

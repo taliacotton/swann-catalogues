@@ -15,6 +15,11 @@
     </section>
     {% endif %}
 {% endif %}
+{% if lot.large_img %}
+    <section class="large_image" style="background-color: {{lot.large_img_background}};">
+        <img src="/assets/img/{{lot.refno}}.jpg">
+    </section>
+{% endif %}
 <section id="lot1" class="lot lot-bookmarked lot-recommended">
     <div class="left">
         {% if lot.images %}
