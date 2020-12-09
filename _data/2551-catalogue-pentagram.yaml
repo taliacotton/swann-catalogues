@@ -28,17 +28,23 @@ lots:
   at-a-glance: 8x13 inches; encapsulated (but removable), few separations at folds
     repaired on verso, faint scattered soiling; matted and framed.
   footnote/provenance: ''
+  color_background: ''
+  header_type: ''
+  large_header:
+    line_1_text: ''
+    line_2_text: ''
+    background_color: ''
+    text_color: ''
 - LOT: "2"
   REFNO: "773660"
   LOW: "100"
   HIGH: "200"
-  DESCRIPT: DIX, JOHN A. Autograph Letter Signed, as Senator, to President James K.
-    Polk,
-  CROSSHEAD: TO PRESIDENT POLK
+  DESCRIPT: Dix, John A.
+  CROSSHEAD: " Autograph Letter Signed, as Senator, to President James K. Polk"
   TYPESET: TO PRESIDENT POLK DIX, JOHN A. Autograph Letter Signed, as Senator, to
     President James K. Polk, recommending the son of Anthony James Bleecker [John
-    V.B. Bleecker] for the position of Purser in the Navy. 2 pages, 4to, with integral
-    blank; faint uneven toning, folds.<\t>Washington, 21 November 1845
+    V.B. Bleecker] for the position of Purser in the Navy. Washington, 21 November
+    1845
   FOOTNOTE: '"I rec''d a letter last evening from Mr. A[nthony] J[ames] Bleecker relative
     to his son, whose name is before you as a candidate for the app''t of Purser in
     the Navy. He understands a vacancy has occurred through the removal of Mr. Todd
@@ -51,8 +57,15 @@ lots:
     Navy on January 16, 1847; he served as paymaster of the Mississippi squadron on
     June 8, 1864, at which time he was suffering from typhoid fever. The illness worsened,
     and on November 8, at home in New York City, he died.'
-  at-a-glance: ''
+  at-a-glance: 2 pages, 4to, with integral blank; faint uneven toning, folds.
   footnote/provenance: ''
+  color_background: ''
+  header_type: ''
+  large_header:
+    line_1_text: ''
+    line_2_text: ''
+    background_color: ''
+    text_color: ''
 - LOT: "3"
   REFNO: "775332"
   LOW: "2000"
@@ -70,6 +83,13 @@ lots:
     beginning in 1777, achieving Brevet Major-General in 1783.
   at-a-glance: ''
   footnote/provenance: ''
+  color_background: ''
+  header_type: ''
+  large_header:
+    line_1_text: ''
+    line_2_text: ''
+    background_color: ''
+    text_color: ''
 - LOT: "4"
   REFNO: "775328"
   LOW: "8000"
@@ -107,6 +127,13 @@ lots:
     become the New York Stock Exchange.'
   at-a-glance: ''
   footnote/provenance: ''
+  color_background: ''
+  header_type: ''
+  large_header:
+    line_1_text: ''
+    line_2_text: ''
+    background_color: ''
+    text_color: ''
 - LOT: "5"
   REFNO: "775331"
   LOW: "3000"
@@ -140,6 +167,13 @@ lots:
     in 1792.'
   at-a-glance: ''
   footnote/provenance: ''
+  color_background: ''
+  header_type: ''
+  large_header:
+    line_1_text: ''
+    line_2_text: ''
+    background_color: ''
+    text_color: ''
 - LOT: "6"
   REFNO: "775330"
   LOW: "3000"
@@ -176,6 +210,13 @@ lots:
     recipients of this letter his trustees.'
   at-a-glance: ''
   footnote/provenance: ''
+  color_background: ''
+  header_type: ''
+  large_header:
+    line_1_text: ''
+    line_2_text: ''
+    background_color: ''
+    text_color: ''
 - LOT: "7"
   REFNO: "775474"
   LOW: "800"
@@ -201,6 +242,13 @@ lots:
     Addition."'
   at-a-glance: ''
   footnote/provenance: ''
+  color_background: ''
+  header_type: ''
+  large_header:
+    line_1_text: ''
+    line_2_text: ''
+    background_color: ''
+    text_color: ''
 - LOT: "8"
   REFNO: "774604"
   LOW: "1000"
@@ -217,6 +265,13 @@ lots:
     of Molokai in the Hawaiian Islands until October of the following year.
   at-a-glance: ''
   footnote/provenance: ''
+  color_background: ''
+  header_type: ''
+  large_header:
+    line_1_text: ''
+    line_2_text: ''
+    background_color: ''
+    text_color: ''
 - LOT: "9"
   REFNO: "774605"
   LOW: "800"
@@ -232,6 +287,13 @@ lots:
   FOOTNOTE: ''
   at-a-glance: ''
   footnote/provenance: ''
+  color_background: ''
+  header_type: ''
+  large_header:
+    line_1_text: ''
+    line_2_text: ''
+    background_color: ''
+    text_color: ''
 - LOT: "10"
   REFNO: "775322"
   LOW: "200"
@@ -263,6 +325,13 @@ lots:
     "All that I am or may be, I freely offer to this cause."'
   at-a-glance: ''
   footnote/provenance: ''
+  color_background: ''
+  header_type: ''
+  large_header:
+    line_1_text: ''
+    line_2_text: ''
+    background_color: ''
+    text_color: ''
 - LOT: "11"
   REFNO: "775316"
   LOW: "300"
@@ -288,6 +357,13 @@ lots:
     Trumbull changed the spelling of his name from "Trumble" in 1765.
   at-a-glance: ''
   footnote/provenance: ''
+  color_background: ''
+  header_type: ''
+  large_header:
+    line_1_text: ''
+    line_2_text: ''
+    background_color: ''
+    text_color: ''
 - LOT: "12"
   REFNO: "771324"
   LOW: "800"
@@ -314,6 +390,13 @@ lots:
     the design, so the publicists could not be contradicted in their claim.
   at-a-glance: ''
   footnote/provenance: ''
+  color_background: ''
+  header_type: ''
+  large_header:
+    line_1_text: ''
+    line_2_text: ''
+    background_color: ''
+    text_color: ''
 - LOT: "13"
   REFNO: "775313"
   LOW: "500"
@@ -333,6 +416,13 @@ lots:
     Stern • Perico Ribiera (with a sketch) • Alice Sebag-Montefiore • others.'
   at-a-glance: ''
   footnote/provenance: ''
+  color_background: ''
+  header_type: ''
+  large_header:
+    line_1_text: ''
+    line_2_text: ''
+    background_color: ''
+    text_color: ''
 - LOT: "14"
   REFNO: "774158"
   LOW: "300"
@@ -349,6 +439,13 @@ lots:
     not yet been changed. From the Twentieth Century Fox Archives.
   at-a-glance: ''
   footnote/provenance: ''
+  color_background: ''
+  header_type: ''
+  large_header:
+    line_1_text: ''
+    line_2_text: ''
+    background_color: ''
+    text_color: ''
 - LOT: "15"
   REFNO: "774612"
   LOW: "100"
@@ -363,6 +460,13 @@ lots:
   FOOTNOTE: ''
   at-a-glance: ''
   footnote/provenance: ''
+  color_background: ''
+  header_type: ''
+  large_header:
+    line_1_text: ''
+    line_2_text: ''
+    background_color: ''
+    text_color: ''
 - LOT: "16"
   REFNO: "776043"
   LOW: "700"
@@ -393,6 +497,13 @@ lots:
     conservation legislation, the Weeks Act, enacted on March 1, 1911.'
   at-a-glance: ''
   footnote/provenance: ''
+  color_background: ''
+  header_type: ''
+  large_header:
+    line_1_text: ''
+    line_2_text: ''
+    background_color: ''
+    text_color: ''
 - LOT: "17"
   REFNO: "774995"
   LOW: "350"
@@ -413,6 +524,13 @@ lots:
     feelings with which I am, Count, your very humble and obedient servant."'
   at-a-glance: ''
   footnote/provenance: ''
+  color_background: ''
+  header_type: ''
+  large_header:
+    line_1_text: ''
+    line_2_text: ''
+    background_color: ''
+    text_color: ''
 - LOT: "18"
   REFNO: "773411"
   LOW: "2000"
@@ -435,6 +553,13 @@ lots:
     Picture Patents Company.
   at-a-glance: ''
   footnote/provenance: ''
+  color_background: ''
+  header_type: ''
+  large_header:
+    line_1_text: ''
+    line_2_text: ''
+    background_color: ''
+    text_color: ''
 - LOT: "19"
   REFNO: "773412"
   LOW: "3000"
@@ -452,6 +577,13 @@ lots:
     Picture Patents Company.
   at-a-glance: ''
   footnote/provenance: ''
+  color_background: ''
+  header_type: ''
+  large_header:
+    line_1_text: ''
+    line_2_text: ''
+    background_color: ''
+    text_color: ''
 - LOT: "20"
   REFNO: "773663"
   LOW: "300"
@@ -464,6 +596,13 @@ lots:
   FOOTNOTE: ''
   at-a-glance: ''
   footnote/provenance: ''
+  color_background: ''
+  header_type: ''
+  large_header:
+    line_1_text: ''
+    line_2_text: ''
+    background_color: ''
+    text_color: ''
 - LOT: "21"
   REFNO: "776041"
   LOW: "800"
@@ -500,6 +639,13 @@ lots:
     have yet to be found.'
   at-a-glance: ''
   footnote/provenance: ''
+  color_background: ''
+  header_type: ''
+  large_header:
+    line_1_text: ''
+    line_2_text: ''
+    background_color: ''
+    text_color: ''
 - LOT: "22"
   REFNO: "774159"
   LOW: "250"
@@ -517,6 +663,13 @@ lots:
     in the Fox Movietone Newsreels . . . ." From the Twentieth Century Fox Archives.'
   at-a-glance: ''
   footnote/provenance: ''
+  color_background: ''
+  header_type: ''
+  large_header:
+    line_1_text: ''
+    line_2_text: ''
+    background_color: ''
+    text_color: ''
 - LOT: "23"
   REFNO: "775326"
   LOW: "1000"
@@ -531,6 +684,13 @@ lots:
   FOOTNOTE: ''
   at-a-glance: ''
   footnote/provenance: ''
+  color_background: ''
+  header_type: ''
+  large_header:
+    line_1_text: ''
+    line_2_text: ''
+    background_color: ''
+    text_color: ''
 - LOT: "24"
   REFNO: "776115"
   LOW: "800"
@@ -548,6 +708,13 @@ lots:
     Circa 1980. With the original envelope.
   at-a-glance: ''
   footnote/provenance: ''
+  color_background: ''
+  header_type: ''
+  large_header:
+    line_1_text: ''
+    line_2_text: ''
+    background_color: ''
+    text_color: ''
 - LOT: "25"
   REFNO: "773225"
   LOW: "600"
@@ -564,6 +731,13 @@ lots:
   FOOTNOTE: ''
   at-a-glance: ''
   footnote/provenance: ''
+  color_background: ''
+  header_type: ''
+  large_header:
+    line_1_text: ''
+    line_2_text: ''
+    background_color: ''
+    text_color: ''
 - LOT: "26"
   REFNO: "774160"
   LOW: "600"
@@ -583,6 +757,13 @@ lots:
     you . . . ."'
   at-a-glance: ''
   footnote/provenance: ''
+  color_background: ''
+  header_type: ''
+  large_header:
+    line_1_text: ''
+    line_2_text: ''
+    background_color: ''
+    text_color: ''
 - LOT: "27"
   REFNO: "774609"
   LOW: "400"
@@ -597,6 +778,13 @@ lots:
   FOOTNOTE: ''
   at-a-glance: ''
   footnote/provenance: ''
+  color_background: ''
+  header_type: ''
+  large_header:
+    line_1_text: ''
+    line_2_text: ''
+    background_color: ''
+    text_color: ''
 - LOT: "28"
   REFNO: "775318"
   LOW: "250"
@@ -615,6 +803,13 @@ lots:
     person. . . ."'
   at-a-glance: ''
   footnote/provenance: ''
+  color_background: ''
+  header_type: ''
+  large_header:
+    line_1_text: ''
+    line_2_text: ''
+    background_color: ''
+    text_color: ''
 - LOT: "29"
   REFNO: "774576"
   LOW: "300"
@@ -647,6 +842,13 @@ lots:
     . . ."'
   at-a-glance: ''
   footnote/provenance: ''
+  color_background: ''
+  header_type: ''
+  large_header:
+    line_1_text: ''
+    line_2_text: ''
+    background_color: ''
+    text_color: ''
 - LOT: "30"
   REFNO: "776042"
   LOW: "400"
@@ -662,6 +864,13 @@ lots:
   FOOTNOTE: ''
   at-a-glance: ''
   footnote/provenance: ''
+  color_background: ''
+  header_type: ''
+  large_header:
+    line_1_text: ''
+    line_2_text: ''
+    background_color: ''
+    text_color: ''
 - LOT: "31"
   REFNO: "772465"
   LOW: "4000"
@@ -683,6 +892,13 @@ lots:
     the time.
   at-a-glance: ''
   footnote/provenance: ''
+  color_background: ''
+  header_type: ''
+  large_header:
+    line_1_text: ''
+    line_2_text: ''
+    background_color: ''
+    text_color: ''
 - LOT: "32"
   REFNO: "774658"
   LOW: "5000"
@@ -708,6 +924,13 @@ lots:
     this has faded somewhat lately. . . ."'
   at-a-glance: ''
   footnote/provenance: ''
+  color_background: ''
+  header_type: ''
+  large_header:
+    line_1_text: ''
+    line_2_text: ''
+    background_color: ''
+    text_color: ''
 - LOT: "33"
   REFNO: "776040"
   LOW: "2000"
@@ -724,6 +947,13 @@ lots:
   FOOTNOTE: ''
   at-a-glance: ''
   footnote/provenance: ''
+  color_background: ''
+  header_type: ''
+  large_header:
+    line_1_text: ''
+    line_2_text: ''
+    background_color: ''
+    text_color: ''
 - LOT: "34"
   REFNO: "774132"
   LOW: "600"
@@ -739,6 +969,13 @@ lots:
   FOOTNOTE: ''
   at-a-glance: ''
   footnote/provenance: ''
+  color_background: ''
+  header_type: ''
+  large_header:
+    line_1_text: ''
+    line_2_text: ''
+    background_color: ''
+    text_color: ''
 - LOT: "35"
   REFNO: "774831"
   LOW: "2000"
@@ -754,6 +991,13 @@ lots:
   FOOTNOTE: ''
   at-a-glance: ''
   footnote/provenance: ''
+  color_background: ''
+  header_type: ''
+  large_header:
+    line_1_text: ''
+    line_2_text: ''
+    background_color: ''
+    text_color: ''
 - LOT: "36"
   REFNO: "774713"
   LOW: "5000"
@@ -779,6 +1023,13 @@ lots:
     U.S. Navy ships arrived there in sufficient numbers in the 1820s.
   at-a-glance: ''
   footnote/provenance: ''
+  color_background: ''
+  header_type: ''
+  large_header:
+    line_1_text: ''
+    line_2_text: ''
+    background_color: ''
+    text_color: ''
 - LOT: "37"
   REFNO: "772690"
   LOW: "2000"
@@ -792,6 +1043,13 @@ lots:
   FOOTNOTE: ''
   at-a-glance: ''
   footnote/provenance: ''
+  color_background: ''
+  header_type: ''
+  large_header:
+    line_1_text: ''
+    line_2_text: ''
+    background_color: ''
+    text_color: ''
 - LOT: "38"
   REFNO: "775293"
   LOW: "300"
@@ -815,6 +1073,13 @@ lots:
     B. Johnson awarded him a Presidential Medal of Freedom.'
   at-a-glance: ''
   footnote/provenance: ''
+  color_background: ''
+  header_type: ''
+  large_header:
+    line_1_text: ''
+    line_2_text: ''
+    background_color: ''
+    text_color: ''
 - LOT: "39"
   REFNO: "775312"
   LOW: "200"
@@ -831,6 +1096,13 @@ lots:
     1966.
   at-a-glance: ''
   footnote/provenance: ''
+  color_background: ''
+  header_type: ''
+  large_header:
+    line_1_text: ''
+    line_2_text: ''
+    background_color: ''
+    text_color: ''
 - LOT: "40"
   REFNO: "774714"
   LOW: "800"
@@ -848,6 +1120,13 @@ lots:
     of Chile on January 31, 1850.
   at-a-glance: ''
   footnote/provenance: ''
+  color_background: ''
+  header_type: ''
+  large_header:
+    line_1_text: ''
+    line_2_text: ''
+    background_color: ''
+    text_color: ''
 - LOT: "41"
   REFNO: "774721"
   LOW: "2000"
@@ -863,6 +1142,13 @@ lots:
   FOOTNOTE: ''
   at-a-glance: ''
   footnote/provenance: ''
+  color_background: ''
+  header_type: ''
+  large_header:
+    line_1_text: ''
+    line_2_text: ''
+    background_color: ''
+    text_color: ''
 - LOT: "42"
   REFNO: "773721"
   LOW: "800"
@@ -886,6 +1172,13 @@ lots:
     of communism in Yugoslavia beginning in 1939.'
   at-a-glance: ''
   footnote/provenance: ''
+  color_background: ''
+  header_type: ''
+  large_header:
+    line_1_text: ''
+    line_2_text: ''
+    background_color: ''
+    text_color: ''
 - LOT: "43"
   REFNO: "774131"
   LOW: "2000"
@@ -900,6 +1193,13 @@ lots:
   FOOTNOTE: ''
   at-a-glance: ''
   footnote/provenance: ''
+  color_background: ''
+  header_type: ''
+  large_header:
+    line_1_text: ''
+    line_2_text: ''
+    background_color: ''
+    text_color: ''
 - LOT: "44"
   REFNO: "772689"
   LOW: "1000"
@@ -917,6 +1217,13 @@ lots:
     and a rum pie served with whipped cream for 35¢.
   at-a-glance: ''
   footnote/provenance: ''
+  color_background: ''
+  header_type: ''
+  large_header:
+    line_1_text: ''
+    line_2_text: ''
+    background_color: ''
+    text_color: ''
 - LOT: "45"
   REFNO: "774827"
   LOW: "15000"
@@ -940,6 +1247,13 @@ lots:
     to do so.
   at-a-glance: ''
   footnote/provenance: ''
+  color_background: ''
+  header_type: ''
+  large_header:
+    line_1_text: ''
+    line_2_text: ''
+    background_color: ''
+    text_color: ''
 - LOT: "46"
   REFNO: "774711"
   LOW: "8000"
@@ -961,6 +1275,13 @@ lots:
     where the Waverly was burned after its papers were retrieved.
   at-a-glance: ''
   footnote/provenance: ''
+  color_background: ''
+  header_type: ''
+  large_header:
+    line_1_text: ''
+    line_2_text: ''
+    background_color: ''
+    text_color: ''
 - LOT: "47"
   REFNO: "774717"
   LOW: "1000"
@@ -975,6 +1296,13 @@ lots:
   FOOTNOTE: ''
   at-a-glance: ''
   footnote/provenance: ''
+  color_background: ''
+  header_type: ''
+  large_header:
+    line_1_text: ''
+    line_2_text: ''
+    background_color: ''
+    text_color: ''
 - LOT: "48"
   REFNO: "774719"
   LOW: "1000"
@@ -989,6 +1317,13 @@ lots:
   FOOTNOTE: ''
   at-a-glance: ''
   footnote/provenance: ''
+  color_background: ''
+  header_type: ''
+  large_header:
+    line_1_text: ''
+    line_2_text: ''
+    background_color: ''
+    text_color: ''
 - LOT: "49"
   REFNO: "774718"
   LOW: "500"
@@ -1003,6 +1338,13 @@ lots:
   FOOTNOTE: ''
   at-a-glance: ''
   footnote/provenance: ''
+  color_background: ''
+  header_type: ''
+  large_header:
+    line_1_text: ''
+    line_2_text: ''
+    background_color: ''
+    text_color: ''
 - LOT: "50"
   REFNO: "775321"
   LOW: "300"
@@ -1025,6 +1367,13 @@ lots:
     . . ." From the files of the Dollard family.'
   at-a-glance: ''
   footnote/provenance: ''
+  color_background: ''
+  header_type: ''
+  large_header:
+    line_1_text: ''
+    line_2_text: ''
+    background_color: ''
+    text_color: ''
 - LOT: "51"
   REFNO: "775291"
   LOW: "100"
@@ -1044,6 +1393,13 @@ lots:
   FOOTNOTE: ''
   at-a-glance: ''
   footnote/provenance: ''
+  color_background: ''
+  header_type: ''
+  large_header:
+    line_1_text: ''
+    line_2_text: ''
+    background_color: ''
+    text_color: ''
 - LOT: "53"
   REFNO: "772358"
   LOW: "800"
@@ -1059,6 +1415,13 @@ lots:
   FOOTNOTE: ''
   at-a-glance: ''
   footnote/provenance: ''
+  color_background: ''
+  header_type: ''
+  large_header:
+    line_1_text: ''
+    line_2_text: ''
+    background_color: ''
+    text_color: ''
 - LOT: "54"
   REFNO: "776035"
   LOW: "600"
@@ -1077,6 +1440,13 @@ lots:
     or the Prime Minister. . . ."'
   at-a-glance: ''
   footnote/provenance: ''
+  color_background: ''
+  header_type: ''
+  large_header:
+    line_1_text: ''
+    line_2_text: ''
+    background_color: ''
+    text_color: ''
 - LOT: "55"
   REFNO: "773143"
   LOW: "300"
@@ -1113,6 +1483,13 @@ lots:
     . . . ."'
   at-a-glance: ''
   footnote/provenance: ''
+  color_background: ''
+  header_type: ''
+  large_header:
+    line_1_text: ''
+    line_2_text: ''
+    background_color: ''
+    text_color: ''
 - LOT: "56"
   REFNO: "774611"
   LOW: "200"
@@ -1128,6 +1505,13 @@ lots:
     at edges verso. Nd.
   at-a-glance: ''
   footnote/provenance: ''
+  color_background: ''
+  header_type: ''
+  large_header:
+    line_1_text: ''
+    line_2_text: ''
+    background_color: ''
+    text_color: ''
 - LOT: "57"
   REFNO: "774294"
   LOW: "350"
@@ -1144,6 +1528,13 @@ lots:
   FOOTNOTE: ''
   at-a-glance: ''
   footnote/provenance: ''
+  color_background: ''
+  header_type: ''
+  large_header:
+    line_1_text: ''
+    line_2_text: ''
+    background_color: ''
+    text_color: ''
 - LOT: "58"
   REFNO: "774353"
   LOW: "700"
@@ -1158,6 +1549,13 @@ lots:
   FOOTNOTE: ''
   at-a-glance: ''
   footnote/provenance: ''
+  color_background: ''
+  header_type: ''
+  large_header:
+    line_1_text: ''
+    line_2_text: ''
+    background_color: ''
+    text_color: ''
 - LOT: "59"
   REFNO: "775303"
   LOW: "600"
@@ -1183,6 +1581,13 @@ lots:
     administration of private justice."'
   at-a-glance: ''
   footnote/provenance: ''
+  color_background: ''
+  header_type: ''
+  large_header:
+    line_1_text: ''
+    line_2_text: ''
+    background_color: ''
+    text_color: ''
 - LOT: "60"
   REFNO: "774648"
   LOW: "3500"
@@ -1239,6 +1644,13 @@ lots:
     in murder."'
   at-a-glance: ''
   footnote/provenance: ''
+  color_background: ''
+  header_type: ''
+  large_header:
+    line_1_text: ''
+    line_2_text: ''
+    background_color: ''
+    text_color: ''
 - LOT: "61"
   REFNO: "775292"
   LOW: "400"
@@ -1254,6 +1666,13 @@ lots:
   FOOTNOTE: ''
   at-a-glance: ''
   footnote/provenance: ''
+  color_background: ''
+  header_type: ''
+  large_header:
+    line_1_text: ''
+    line_2_text: ''
+    background_color: ''
+    text_color: ''
 - LOT: "62"
   REFNO: "774575"
   LOW: "4000"
@@ -1297,6 +1716,13 @@ lots:
     declined to bring the bill to the floor.'
   at-a-glance: ''
   footnote/provenance: ''
+  color_background: ''
+  header_type: ''
+  large_header:
+    line_1_text: ''
+    line_2_text: ''
+    background_color: ''
+    text_color: ''
 - LOT: "63"
   REFNO: "775290"
   LOW: "400"
@@ -1319,6 +1745,13 @@ lots:
     country in which to live and I think you are making your contribution."'
   at-a-glance: ''
   footnote/provenance: ''
+  color_background: ''
+  header_type: ''
+  large_header:
+    line_1_text: ''
+    line_2_text: ''
+    background_color: ''
+    text_color: ''
 - LOT: "64"
   REFNO: "774610"
   LOW: "300"
@@ -1335,6 +1768,13 @@ lots:
     stationery. Independence, 16 September 1970.
   at-a-glance: ''
   footnote/provenance: ''
+  color_background: ''
+  header_type: ''
+  large_header:
+    line_1_text: ''
+    line_2_text: ''
+    background_color: ''
+    text_color: ''
 - LOT: "65"
   REFNO: "774709"
   LOW: "15000"
@@ -1352,6 +1792,13 @@ lots:
   FOOTNOTE: ''
   at-a-glance: ''
   footnote/provenance: ''
+  color_background: ''
+  header_type: ''
+  large_header:
+    line_1_text: ''
+    line_2_text: ''
+    background_color: ''
+    text_color: ''
 - LOT: "66"
   REFNO: "774826"
   LOW: "2000"
@@ -1368,6 +1815,13 @@ lots:
     Carter. "JCarter / 8/87" • Richard Nixon. "9-18-84".'
   at-a-glance: ''
   footnote/provenance: ''
+  color_background: ''
+  header_type: ''
+  large_header:
+    line_1_text: ''
+    line_2_text: ''
+    background_color: ''
+    text_color: ''
 - LOT: "67"
   REFNO: "774832"
   LOW: "400"
@@ -1389,6 +1843,13 @@ lots:
   FOOTNOTE: ''
   at-a-glance: ''
   footnote/provenance: ''
+  color_background: ''
+  header_type: ''
+  large_header:
+    line_1_text: ''
+    line_2_text: ''
+    background_color: ''
+    text_color: ''
 - LOT: "68"
   REFNO: "775454"
   LOW: "400"
@@ -1405,6 +1866,13 @@ lots:
   FOOTNOTE: ''
   at-a-glance: ''
   footnote/provenance: ''
+  color_background: ''
+  header_type: ''
+  large_header:
+    line_1_text: ''
+    line_2_text: ''
+    background_color: ''
+    text_color: ''
 - LOT: "69"
   REFNO: "775458"
   LOW: "700"
@@ -1418,6 +1886,13 @@ lots:
   FOOTNOTE: ''
   at-a-glance: ''
   footnote/provenance: ''
+  color_background: ''
+  header_type: ''
+  large_header:
+    line_1_text: ''
+    line_2_text: ''
+    background_color: ''
+    text_color: ''
 - LOT: "70"
   REFNO: "775457"
   LOW: "300"
@@ -1434,6 +1909,13 @@ lots:
   FOOTNOTE: ''
   at-a-glance: ''
   footnote/provenance: ''
+  color_background: ''
+  header_type: ''
+  large_header:
+    line_1_text: ''
+    line_2_text: ''
+    background_color: ''
+    text_color: ''
 - LOT: "71"
   REFNO: "775445"
   LOW: "400"
@@ -1457,6 +1939,13 @@ lots:
     Aldeburgh or London, 17 April 1956; May 16; "Monday" 1957.'
   at-a-glance: ''
   footnote/provenance: ''
+  color_background: ''
+  header_type: ''
+  large_header:
+    line_1_text: ''
+    line_2_text: ''
+    background_color: ''
+    text_color: ''
 - LOT: "72"
   REFNO: "775447"
   LOW: "250"
@@ -1472,6 +1961,13 @@ lots:
   FOOTNOTE: ''
   at-a-glance: ''
   footnote/provenance: ''
+  color_background: ''
+  header_type: ''
+  large_header:
+    line_1_text: ''
+    line_2_text: ''
+    background_color: ''
+    text_color: ''
 - LOT: "73"
   REFNO: "775446"
   LOW: "350"
@@ -1485,6 +1981,13 @@ lots:
   FOOTNOTE: ''
   at-a-glance: ''
   footnote/provenance: ''
+  color_background: ''
+  header_type: ''
+  large_header:
+    line_1_text: ''
+    line_2_text: ''
+    background_color: ''
+    text_color: ''
 - LOT: "74"
   REFNO: "775451"
   LOW: "400"
@@ -1499,6 +2002,13 @@ lots:
   FOOTNOTE: ''
   at-a-glance: ''
   footnote/provenance: ''
+  color_background: ''
+  header_type: ''
+  large_header:
+    line_1_text: ''
+    line_2_text: ''
+    background_color: ''
+    text_color: ''
 - LOT: "75"
   REFNO: "775459"
   LOW: "700"
@@ -1539,6 +2049,13 @@ lots:
     folded sheet. [New York], circa 1946.'
   at-a-glance: ''
   footnote/provenance: ''
+  color_background: ''
+  header_type: ''
+  large_header:
+    line_1_text: ''
+    line_2_text: ''
+    background_color: ''
+    text_color: ''
 - LOT: "76"
   REFNO: "775903"
   LOW: "100"
@@ -1555,6 +2072,13 @@ lots:
   FOOTNOTE: ''
   at-a-glance: ''
   footnote/provenance: ''
+  color_background: ''
+  header_type: ''
+  large_header:
+    line_1_text: ''
+    line_2_text: ''
+    background_color: ''
+    text_color: ''
 - LOT: "77"
   REFNO: "775462"
   LOW: "2000"
@@ -1591,6 +2115,13 @@ lots:
     Ravel.'
   at-a-glance: ''
   footnote/provenance: ''
+  color_background: ''
+  header_type: ''
+  large_header:
+    line_1_text: ''
+    line_2_text: ''
+    background_color: ''
+    text_color: ''
 - LOT: "78"
   REFNO: "775461"
   LOW: "2000"
@@ -1613,6 +2144,13 @@ lots:
     that year, when George Copeland performed "Arpèges composés" and "Sonorités opposées."'
   at-a-glance: ''
   footnote/provenance: ''
+  color_background: ''
+  header_type: ''
+  large_header:
+    line_1_text: ''
+    line_2_text: ''
+    background_color: ''
+    text_color: ''
 - LOT: "79"
   REFNO: "775449"
   LOW: "400"
@@ -1628,6 +2166,13 @@ lots:
     poignant. "I am so proud & delighted . . . & regret I did not see you . . . ."'
   at-a-glance: ''
   footnote/provenance: ''
+  color_background: ''
+  header_type: ''
+  large_header:
+    line_1_text: ''
+    line_2_text: ''
+    background_color: ''
+    text_color: ''
 - LOT: "80"
   REFNO: "775452"
   LOW: "400"
@@ -1642,6 +2187,13 @@ lots:
     there are twenty-eight candidates (out of a hundred thirty-eight) for twelve vacancies!"'
   at-a-glance: ''
   footnote/provenance: ''
+  color_background: ''
+  header_type: ''
+  large_header:
+    line_1_text: ''
+    line_2_text: ''
+    background_color: ''
+    text_color: ''
 - LOT: "81"
   REFNO: "775439"
   LOW: "800"
@@ -1655,6 +2207,13 @@ lots:
   FOOTNOTE: ''
   at-a-glance: ''
   footnote/provenance: ''
+  color_background: ''
+  header_type: ''
+  large_header:
+    line_1_text: ''
+    line_2_text: ''
+    background_color: ''
+    text_color: ''
 - LOT: "82"
   REFNO: "775438"
   LOW: "800"
@@ -1674,6 +2233,13 @@ lots:
     Street Theatre some afternoon where we are rehearsing. . . ."'
   at-a-glance: ''
   footnote/provenance: ''
+  color_background: ''
+  header_type: ''
+  large_header:
+    line_1_text: ''
+    line_2_text: ''
+    background_color: ''
+    text_color: ''
 - LOT: "83"
   REFNO: "775399"
   LOW: "1000"
@@ -1693,6 +2259,13 @@ lots:
     Publishing Corporation, 1967.'
   at-a-glance: ''
   footnote/provenance: ''
+  color_background: ''
+  header_type: ''
+  large_header:
+    line_1_text: ''
+    line_2_text: ''
+    background_color: ''
+    text_color: ''
 - LOT: "84"
   REFNO: "775440"
   LOW: "400"
@@ -1717,6 +2290,13 @@ lots:
     hinge cracked; dust jacket, chipped and dampstained. London: Longmans & Co, 1938.'
   at-a-glance: ''
   footnote/provenance: ''
+  color_background: ''
+  header_type: ''
+  large_header:
+    line_1_text: ''
+    line_2_text: ''
+    background_color: ''
+    text_color: ''
 - LOT: "85"
   REFNO: "775320"
   LOW: "200"
@@ -1731,6 +2311,13 @@ lots:
   FOOTNOTE: ''
   at-a-glance: ''
   footnote/provenance: ''
+  color_background: ''
+  header_type: ''
+  large_header:
+    line_1_text: ''
+    line_2_text: ''
+    background_color: ''
+    text_color: ''
 - LOT: "86"
   REFNO: "775433"
   LOW: "150"
@@ -1749,6 +2336,13 @@ lots:
   FOOTNOTE: ''
   at-a-glance: ''
   footnote/provenance: ''
+  color_background: ''
+  header_type: ''
+  large_header:
+    line_1_text: ''
+    line_2_text: ''
+    background_color: ''
+    text_color: ''
 - LOT: "87"
   REFNO: "775453"
   LOW: "200"
@@ -1773,6 +2367,13 @@ lots:
     for the public."'
   at-a-glance: ''
   footnote/provenance: ''
+  color_background: ''
+  header_type: ''
+  large_header:
+    line_1_text: ''
+    line_2_text: ''
+    background_color: ''
+    text_color: ''
 - LOT: "88"
   REFNO: "775434"
   LOW: "150"
@@ -1799,6 +2400,13 @@ lots:
     Orch. on Dec 15 and will come to N.Y. after this concert."'
   at-a-glance: ''
   footnote/provenance: ''
+  color_background: ''
+  header_type: ''
+  large_header:
+    line_1_text: ''
+    line_2_text: ''
+    background_color: ''
+    text_color: ''
 - LOT: "89"
   REFNO: "775442"
   LOW: "800"
@@ -1832,6 +2440,13 @@ lots:
     beautiful maquettes? . . . What''s new in London . . . ."'
   at-a-glance: ''
   footnote/provenance: ''
+  color_background: ''
+  header_type: ''
+  large_header:
+    line_1_text: ''
+    line_2_text: ''
+    background_color: ''
+    text_color: ''
 - LOT: "91"
   REFNO: "775455"
   LOW: "500"
@@ -1850,6 +2465,13 @@ lots:
     and that will suffice. I will devote my earliest moments of free time to it."'
   at-a-glance: ''
   footnote/provenance: ''
+  color_background: ''
+  header_type: ''
+  large_header:
+    line_1_text: ''
+    line_2_text: ''
+    background_color: ''
+    text_color: ''
 - LOT: "92"
   REFNO: "775456"
   LOW: "1500"
@@ -1867,6 +2489,13 @@ lots:
     Swiss god'': Yes."'
   at-a-glance: ''
   footnote/provenance: ''
+  color_background: ''
+  header_type: ''
+  large_header:
+    line_1_text: ''
+    line_2_text: ''
+    background_color: ''
+    text_color: ''
 - LOT: "93"
   REFNO: "775436"
   LOW: "1500"
@@ -1880,6 +2509,13 @@ lots:
   FOOTNOTE: ''
   at-a-glance: ''
   footnote/provenance: ''
+  color_background: ''
+  header_type: ''
+  large_header:
+    line_1_text: ''
+    line_2_text: ''
+    background_color: ''
+    text_color: ''
 - LOT: "94"
   REFNO: "775435"
   LOW: "600"
@@ -1892,6 +2528,13 @@ lots:
   FOOTNOTE: ''
   at-a-glance: ''
   footnote/provenance: ''
+  color_background: ''
+  header_type: ''
+  large_header:
+    line_1_text: ''
+    line_2_text: ''
+    background_color: ''
+    text_color: ''
 - LOT: "95"
   REFNO: "775437"
   LOW: "300"
@@ -1909,6 +2552,13 @@ lots:
     by return airmail."'
   at-a-glance: ''
   footnote/provenance: ''
+  color_background: ''
+  header_type: ''
+  large_header:
+    line_1_text: ''
+    line_2_text: ''
+    background_color: ''
+    text_color: ''
 - LOT: "96"
   REFNO: "775387"
   LOW: "700"
@@ -1929,6 +2579,13 @@ lots:
   FOOTNOTE: ''
   at-a-glance: ''
   footnote/provenance: ''
+  color_background: ''
+  header_type: ''
+  large_header:
+    line_1_text: ''
+    line_2_text: ''
+    background_color: ''
+    text_color: ''
 - LOT: "97"
   REFNO: "775443"
   LOW: "150"
@@ -1950,6 +2607,13 @@ lots:
     orchestra--the Latin Pervigilium Veneris, in my own translation. . . ."'
   at-a-glance: ''
   footnote/provenance: ''
+  color_background: ''
+  header_type: ''
+  large_header:
+    line_1_text: ''
+    line_2_text: ''
+    background_color: ''
+    text_color: ''
 - LOT: "98"
   REFNO: "775448"
   LOW: "600"
@@ -1969,6 +2633,13 @@ lots:
     do not know when I shall find time to do this."'
   at-a-glance: ''
   footnote/provenance: ''
+  color_background: ''
+  header_type: ''
+  large_header:
+    line_1_text: ''
+    line_2_text: ''
+    background_color: ''
+    text_color: ''
 - LOT: "99"
   REFNO: "775450"
   LOW: "100"
@@ -1985,6 +2656,13 @@ lots:
   FOOTNOTE: ''
   at-a-glance: ''
   footnote/provenance: ''
+  color_background: ''
+  header_type: ''
+  large_header:
+    line_1_text: ''
+    line_2_text: ''
+    background_color: ''
+    text_color: ''
 - LOT: "100"
   REFNO: "775444"
   LOW: "500"
@@ -2004,6 +2682,13 @@ lots:
     weigh much & will take up little space. . . ."'
   at-a-glance: ''
   footnote/provenance: ''
+  color_background: ''
+  header_type: ''
+  large_header:
+    line_1_text: ''
+    line_2_text: ''
+    background_color: ''
+    text_color: ''
 - LOT: "101"
   REFNO: "775460"
   LOW: "3500"
@@ -2045,6 +2730,13 @@ lots:
     4to. Np, 12 December 1946; 14 May 1947.'
   at-a-glance: ''
   footnote/provenance: ''
+  color_background: ''
+  header_type: ''
+  large_header:
+    line_1_text: ''
+    line_2_text: ''
+    background_color: ''
+    text_color: ''
 - LOT: "102"
   REFNO: "775441"
   LOW: "150"
@@ -2059,6 +2751,13 @@ lots:
   FOOTNOTE: ''
   at-a-glance: ''
   footnote/provenance: ''
+  color_background: ''
+  header_type: ''
+  large_header:
+    line_1_text: ''
+    line_2_text: ''
+    background_color: ''
+    text_color: ''
 - LOT: "103"
   REFNO: "774088"
   LOW: "1000"
@@ -2076,6 +2775,13 @@ lots:
     Ferdinand Schmutzer.'
   at-a-glance: ''
   footnote/provenance: ''
+  color_background: ''
+  header_type: ''
+  large_header:
+    line_1_text: ''
+    line_2_text: ''
+    background_color: ''
+    text_color: ''
 - LOT: "104"
   REFNO: "773664"
   LOW: "700"
@@ -2094,6 +2800,13 @@ lots:
     to Kulchur, first published the same year.
   at-a-glance: ''
   footnote/provenance: ''
+  color_background: ''
+  header_type: ''
+  large_header:
+    line_1_text: ''
+    line_2_text: ''
+    background_color: ''
+    text_color: ''
 - LOT: "105"
   REFNO: "774086"
   LOW: "400"
@@ -2119,6 +2832,13 @@ lots:
     I would have loved to do all this for him instead of just myself. . . ."'
   at-a-glance: ''
   footnote/provenance: ''
+  color_background: ''
+  header_type: ''
+  large_header:
+    line_1_text: ''
+    line_2_text: ''
+    background_color: ''
+    text_color: ''
 - LOT: "106"
   REFNO: "776071"
   LOW: "500"
@@ -2147,6 +2867,13 @@ lots:
     doubled by anxiety for poor Margaret. . . ."'
   at-a-glance: ''
   footnote/provenance: ''
+  color_background: ''
+  header_type: ''
+  large_header:
+    line_1_text: ''
+    line_2_text: ''
+    background_color: ''
+    text_color: ''
 - LOT: "107"
   REFNO: "774139"
   LOW: "1000"
@@ -2162,6 +2889,13 @@ lots:
     / With a friendship that will be true and / the hope to meet him soon in New York."'
   at-a-glance: ''
   footnote/provenance: ''
+  color_background: ''
+  header_type: ''
+  large_header:
+    line_1_text: ''
+    line_2_text: ''
+    background_color: ''
+    text_color: ''
 - LOT: "108"
   REFNO: "774140"
   LOW: "700"
@@ -2177,6 +2911,13 @@ lots:
   FOOTNOTE: ''
   at-a-glance: ''
   footnote/provenance: ''
+  color_background: ''
+  header_type: ''
+  large_header:
+    line_1_text: ''
+    line_2_text: ''
+    background_color: ''
+    text_color: ''
 - LOT: "109"
   REFNO: "775317"
   LOW: "350"
@@ -2197,6 +2938,13 @@ lots:
     a sensible anti-operation man. . . ."'
   at-a-glance: ''
   footnote/provenance: ''
+  color_background: ''
+  header_type: ''
+  large_header:
+    line_1_text: ''
+    line_2_text: ''
+    background_color: ''
+    text_color: ''
 - LOT: "110"
   REFNO: "776036"
   LOW: "1000"
@@ -2213,6 +2961,13 @@ lots:
   FOOTNOTE: ''
   at-a-glance: ''
   footnote/provenance: ''
+  color_background: ''
+  header_type: ''
+  large_header:
+    line_1_text: ''
+    line_2_text: ''
+    background_color: ''
+    text_color: ''
 - LOT: "111"
   REFNO: "776037"
   LOW: "400"
@@ -2236,6 +2991,13 @@ lots:
     can you. . . ."'
   at-a-glance: ''
   footnote/provenance: ''
+  color_background: ''
+  header_type: ''
+  large_header:
+    line_1_text: ''
+    line_2_text: ''
+    background_color: ''
+    text_color: ''
 - LOT: "112"
   REFNO: "774141"
   LOW: "600"
@@ -2256,6 +3018,13 @@ lots:
     of the same name at Empire Theatre in New York City.'
   at-a-glance: ''
   footnote/provenance: ''
+  color_background: ''
+  header_type: ''
+  large_header:
+    line_1_text: ''
+    line_2_text: ''
+    background_color: ''
+    text_color: ''
 - LOT: "113"
   REFNO: "773197"
   LOW: "400"
@@ -2286,6 +3055,13 @@ lots:
     that such a weapon could be employed against future enemies.'
   at-a-glance: ''
   footnote/provenance: ''
+  color_background: ''
+  header_type: ''
+  large_header:
+    line_1_text: ''
+    line_2_text: ''
+    background_color: ''
+    text_color: ''
 - LOT: "114"
   REFNO: "774607"
   LOW: "300"
@@ -2307,6 +3083,13 @@ lots:
     to Wodehouse. 2 pages, 4to. Np, 22 April 1969.'
   at-a-glance: ''
   footnote/provenance: ''
+  color_background: ''
+  header_type: ''
+  large_header:
+    line_1_text: ''
+    line_2_text: ''
+    background_color: ''
+    text_color: ''
 - LOT: "115"
   REFNO: "772474"
   LOW: "300"
@@ -2327,6 +3110,13 @@ lots:
     Angeles: Gemini G.E.L, [ca. 1971].'
   at-a-glance: ''
   footnote/provenance: ''
+  color_background: ''
+  header_type: ''
+  large_header:
+    line_1_text: ''
+    line_2_text: ''
+    background_color: ''
+    text_color: ''
 - LOT: "116"
   REFNO: "774126"
   LOW: "250"
@@ -2344,6 +3134,13 @@ lots:
   FOOTNOTE: ''
   at-a-glance: ''
   footnote/provenance: ''
+  color_background: ''
+  header_type: ''
+  large_header:
+    line_1_text: ''
+    line_2_text: ''
+    background_color: ''
+    text_color: ''
 - LOT: "117"
   REFNO: "773226"
   LOW: "500"
@@ -2363,6 +3160,13 @@ lots:
     case you''d like to make a cut of my name."'
   at-a-glance: ''
   footnote/provenance: ''
+  color_background: ''
+  header_type: ''
+  large_header:
+    line_1_text: ''
+    line_2_text: ''
+    background_color: ''
+    text_color: ''
 - LOT: "118"
   REFNO: "776039"
   LOW: "400"
@@ -2383,6 +3187,13 @@ lots:
     WeeBee, (1988). Number 11 of 1000 copies signed by publisher Pete Follo.'
   at-a-glance: ''
   footnote/provenance: ''
+  color_background: ''
+  header_type: ''
+  large_header:
+    line_1_text: ''
+    line_2_text: ''
+    background_color: ''
+    text_color: ''
 - LOT: "119"
   REFNO: "774127"
   LOW: "700"
@@ -2398,6 +3209,13 @@ lots:
   FOOTNOTE: ''
   at-a-glance: ''
   footnote/provenance: ''
+  color_background: ''
+  header_type: ''
+  large_header:
+    line_1_text: ''
+    line_2_text: ''
+    background_color: ''
+    text_color: ''
 - LOT: "120"
   REFNO: "776038"
   LOW: "3500"
@@ -2420,6 +3238,13 @@ lots:
     signature). Sherman Oaks, 27 February 1961.'
   at-a-glance: ''
   footnote/provenance: ''
+  color_background: ''
+  header_type: ''
+  large_header:
+    line_1_text: ''
+    line_2_text: ''
+    background_color: ''
+    text_color: ''
 - LOT: "121"
   REFNO: "772473"
   LOW: "400"
@@ -2442,6 +3267,13 @@ lots:
     in the album. I could thus start now to choose the subjects. . . ."'
   at-a-glance: ''
   footnote/provenance: ''
+  color_background: ''
+  header_type: ''
+  large_header:
+    line_1_text: ''
+    line_2_text: ''
+    background_color: ''
+    text_color: ''
 - LOT: "122"
   REFNO: "774129"
   LOW: "1000"
@@ -2459,6 +3291,13 @@ lots:
     mystery in the absence of which no world or thought would be possible."'
   at-a-glance: ''
   footnote/provenance: ''
+  color_background: ''
+  header_type: ''
+  large_header:
+    line_1_text: ''
+    line_2_text: ''
+    background_color: ''
+    text_color: ''
 - LOT: "123"
   REFNO: "774125"
   LOW: "200"
@@ -2471,6 +3310,13 @@ lots:
   FOOTNOTE: ''
   at-a-glance: ''
   footnote/provenance: ''
+  color_background: ''
+  header_type: ''
+  large_header:
+    line_1_text: ''
+    line_2_text: ''
+    background_color: ''
+    text_color: ''
 - LOT: "124"
   REFNO: "775183"
   LOW: "800"
@@ -2484,6 +3330,13 @@ lots:
   FOOTNOTE: ''
   at-a-glance: ''
   footnote/provenance: ''
+  color_background: ''
+  header_type: ''
+  large_header:
+    line_1_text: ''
+    line_2_text: ''
+    background_color: ''
+    text_color: ''
 - LOT: "125"
   REFNO: "774574"
   LOW: "12000"
@@ -2532,6 +3385,13 @@ lots:
     War II they sent frequent care packages to the Pissarros.'
   at-a-glance: ''
   footnote/provenance: ''
+  color_background: ''
+  header_type: ''
+  large_header:
+    line_1_text: ''
+    line_2_text: ''
+    background_color: ''
+    text_color: ''
 - LOT: "126"
   REFNO: "774618"
   LOW: "500"
@@ -2548,6 +3408,13 @@ lots:
     Guillemot (1859-1931).
   at-a-glance: ''
   footnote/provenance: ''
+  color_background: ''
+  header_type: ''
+  large_header:
+    line_1_text: ''
+    line_2_text: ''
+    background_color: ''
+    text_color: ''
 - LOT: "127"
   REFNO: "775314"
   LOW: "300"
@@ -2572,6 +3439,13 @@ lots:
     Xmas & RIP." 15x11 inches. Nd.'
   at-a-glance: ''
   footnote/provenance: ''
+  color_background: ''
+  header_type: ''
+  large_header:
+    line_1_text: ''
+    line_2_text: ''
+    background_color: ''
+    text_color: ''
 - LOT: "128"
   REFNO: "774578"
   LOW: "400"
@@ -2589,6 +3463,13 @@ lots:
     paper. Kent, 26 February; Np, 23 December 1987.
   at-a-glance: ''
   footnote/provenance: ''
+  color_background: ''
+  header_type: ''
+  large_header:
+    line_1_text: ''
+    line_2_text: ''
+    background_color: ''
+    text_color: ''
 - LOT: "129"
   REFNO: "774579"
   LOW: "400"
@@ -2618,6 +3499,13 @@ lots:
     1989.'
   at-a-glance: ''
   footnote/provenance: ''
+  color_background: ''
+  header_type: ''
+  large_header:
+    line_1_text: ''
+    line_2_text: ''
+    background_color: ''
+    text_color: ''
 - LOT: "130"
   REFNO: "774128"
   LOW: "350"
@@ -2642,6 +3530,13 @@ lots:
     / LAlmaTadema," in French, on a slip of paper. London, 21 Feb 1895.'
   at-a-glance: ''
   footnote/provenance: ''
+  color_background: ''
+  header_type: ''
+  large_header:
+    line_1_text: ''
+    line_2_text: ''
+    background_color: ''
+    text_color: ''
 - LOT: "131"
   REFNO: "774895"
   LOW: "6000"
@@ -2660,6 +3555,13 @@ lots:
   FOOTNOTE: ''
   at-a-glance: ''
   footnote/provenance: ''
+  color_background: ''
+  header_type: ''
+  large_header:
+    line_1_text: ''
+    line_2_text: ''
+    background_color: ''
+    text_color: ''
 - LOT: "132"
   REFNO: "774890"
   LOW: "300"
@@ -2673,6 +3575,13 @@ lots:
   FOOTNOTE: ''
   at-a-glance: ''
   footnote/provenance: ''
+  color_background: ''
+  header_type: ''
+  large_header:
+    line_1_text: ''
+    line_2_text: ''
+    background_color: ''
+    text_color: ''
 - LOT: "133"
   REFNO: "774896"
   LOW: "5000"
@@ -2690,6 +3599,13 @@ lots:
   FOOTNOTE: ''
   at-a-glance: ''
   footnote/provenance: ''
+  color_background: ''
+  header_type: ''
+  large_header:
+    line_1_text: ''
+    line_2_text: ''
+    background_color: ''
+    text_color: ''
 - LOT: "134"
   REFNO: "774893"
   LOW: "1000"
@@ -2705,6 +3621,13 @@ lots:
   FOOTNOTE: ''
   at-a-glance: ''
   footnote/provenance: ''
+  color_background: ''
+  header_type: ''
+  large_header:
+    line_1_text: ''
+    line_2_text: ''
+    background_color: ''
+    text_color: ''
 - LOT: "135"
   REFNO: "774894"
   LOW: "3000"
@@ -2724,6 +3647,13 @@ lots:
   FOOTNOTE: ''
   at-a-glance: ''
   footnote/provenance: ''
+  color_background: ''
+  header_type: ''
+  large_header:
+    line_1_text: ''
+    line_2_text: ''
+    background_color: ''
+    text_color: ''
 - LOT: "136"
   REFNO: "774891"
   LOW: "20000"
@@ -2746,6 +3676,13 @@ lots:
   FOOTNOTE: ''
   at-a-glance: ''
   footnote/provenance: ''
+  color_background: ''
+  header_type: ''
+  large_header:
+    line_1_text: ''
+    line_2_text: ''
+    background_color: ''
+    text_color: ''
 - LOT: "137"
   REFNO: "774888"
   LOW: "4000"
@@ -2767,6 +3704,13 @@ lots:
   FOOTNOTE: ''
   at-a-glance: ''
   footnote/provenance: ''
+  color_background: ''
+  header_type: ''
+  large_header:
+    line_1_text: ''
+    line_2_text: ''
+    background_color: ''
+    text_color: ''
 - LOT: "138"
   REFNO: "774892"
   LOW: "2000"
@@ -2783,6 +3727,13 @@ lots:
   FOOTNOTE: ''
   at-a-glance: ''
   footnote/provenance: ''
+  color_background: ''
+  header_type: ''
+  large_header:
+    line_1_text: ''
+    line_2_text: ''
+    background_color: ''
+    text_color: ''
 - LOT: "139"
   REFNO: "774900"
   LOW: "700"
@@ -2798,6 +3749,13 @@ lots:
   FOOTNOTE: ''
   at-a-glance: ''
   footnote/provenance: ''
+  color_background: ''
+  header_type: ''
+  large_header:
+    line_1_text: ''
+    line_2_text: ''
+    background_color: ''
+    text_color: ''
 - LOT: "140"
   REFNO: "774898"
   LOW: "400"
@@ -2812,6 +3770,13 @@ lots:
   FOOTNOTE: ''
   at-a-glance: ''
   footnote/provenance: ''
+  color_background: ''
+  header_type: ''
+  large_header:
+    line_1_text: ''
+    line_2_text: ''
+    background_color: ''
+    text_color: ''
 - LOT: "141"
   REFNO: "774887"
   LOW: "30000"
@@ -2837,6 +3802,13 @@ lots:
     the second edition appearing in 1813. Gilson A1; Sadlier 62b; Keynes 1.
   at-a-glance: ''
   footnote/provenance: ''
+  color_background: ''
+  header_type: ''
+  large_header:
+    line_1_text: ''
+    line_2_text: ''
+    background_color: ''
+    text_color: ''
 - LOT: "142"
   REFNO: "774897"
   LOW: "1000"
@@ -2852,6 +3824,13 @@ lots:
   FOOTNOTE: ''
   at-a-glance: ''
   footnote/provenance: ''
+  color_background: ''
+  header_type: ''
+  large_header:
+    line_1_text: ''
+    line_2_text: ''
+    background_color: ''
+    text_color: ''
 - LOT: "143"
   REFNO: "774889"
   LOW: "300"
@@ -2868,6 +3847,13 @@ lots:
     1871.
   at-a-glance: ''
   footnote/provenance: ''
+  color_background: ''
+  header_type: ''
+  large_header:
+    line_1_text: ''
+    line_2_text: ''
+    background_color: ''
+    text_color: ''
 - LOT: "144"
   REFNO: "775418"
   LOW: "800"
@@ -2885,6 +3871,13 @@ lots:
   FOOTNOTE: ''
   at-a-glance: ''
   footnote/provenance: ''
+  color_background: ''
+  header_type: ''
+  large_header:
+    line_1_text: ''
+    line_2_text: ''
+    background_color: ''
+    text_color: ''
 - LOT: "145"
   REFNO: "774097"
   LOW: "1200"
@@ -2901,6 +3894,13 @@ lots:
   FOOTNOTE: ''
   at-a-glance: ''
   footnote/provenance: ''
+  color_background: ''
+  header_type: ''
+  large_header:
+    line_1_text: ''
+    line_2_text: ''
+    background_color: ''
+    text_color: ''
 - LOT: "146"
   REFNO: "773161"
   LOW: "2000"
@@ -2919,6 +3919,13 @@ lots:
   FOOTNOTE: ''
   at-a-glance: ''
   footnote/provenance: ''
+  color_background: ''
+  header_type: ''
+  large_header:
+    line_1_text: ''
+    line_2_text: ''
+    background_color: ''
+    text_color: ''
 - LOT: "147"
   REFNO: "773163"
   LOW: "1500"
@@ -2952,6 +3959,13 @@ lots:
   FOOTNOTE: ''
   at-a-glance: ''
   footnote/provenance: ''
+  color_background: ''
+  header_type: ''
+  large_header:
+    line_1_text: ''
+    line_2_text: ''
+    background_color: ''
+    text_color: ''
 - LOT: "148"
   REFNO: "773162"
   LOW: "800"
@@ -2967,6 +3981,13 @@ lots:
   FOOTNOTE: ''
   at-a-glance: ''
   footnote/provenance: ''
+  color_background: ''
+  header_type: ''
+  large_header:
+    line_1_text: ''
+    line_2_text: ''
+    background_color: ''
+    text_color: ''
 - LOT: "149"
   REFNO: "776103"
   LOW: "300"
@@ -2982,6 +4003,13 @@ lots:
   FOOTNOTE: ''
   at-a-glance: ''
   footnote/provenance: ''
+  color_background: ''
+  header_type: ''
+  large_header:
+    line_1_text: ''
+    line_2_text: ''
+    background_color: ''
+    text_color: ''
 - LOT: "150"
   REFNO: "775413"
   LOW: "800"
@@ -2997,6 +4025,13 @@ lots:
   FOOTNOTE: ''
   at-a-glance: ''
   footnote/provenance: ''
+  color_background: ''
+  header_type: ''
+  large_header:
+    line_1_text: ''
+    line_2_text: ''
+    background_color: ''
+    text_color: ''
 - LOT: "151"
   REFNO: "775172"
   LOW: "600"
@@ -3014,6 +4049,13 @@ lots:
   FOOTNOTE: ''
   at-a-glance: ''
   footnote/provenance: ''
+  color_background: ''
+  header_type: ''
+  large_header:
+    line_1_text: ''
+    line_2_text: ''
+    background_color: ''
+    text_color: ''
 - LOT: "152"
   REFNO: "773758"
   LOW: "200"
@@ -3028,6 +4070,13 @@ lots:
   FOOTNOTE: ''
   at-a-glance: ''
   footnote/provenance: ''
+  color_background: ''
+  header_type: ''
+  large_header:
+    line_1_text: ''
+    line_2_text: ''
+    background_color: ''
+    text_color: ''
 - LOT: "153"
   REFNO: "775063"
   LOW: "800"
@@ -3043,6 +4092,13 @@ lots:
   FOOTNOTE: ''
   at-a-glance: ''
   footnote/provenance: ''
+  color_background: ''
+  header_type: ''
+  large_header:
+    line_1_text: ''
+    line_2_text: ''
+    background_color: ''
+    text_color: ''
 - LOT: "154"
   REFNO: "773964"
   LOW: "300"
@@ -3058,6 +4114,13 @@ lots:
   FOOTNOTE: ''
   at-a-glance: ''
   footnote/provenance: ''
+  color_background: ''
+  header_type: ''
+  large_header:
+    line_1_text: ''
+    line_2_text: ''
+    background_color: ''
+    text_color: ''
 - LOT: "155"
   REFNO: "775154"
   LOW: "3000"
@@ -3077,6 +4140,13 @@ lots:
   FOOTNOTE: ''
   at-a-glance: ''
   footnote/provenance: ''
+  color_background: ''
+  header_type: ''
+  large_header:
+    line_1_text: ''
+    line_2_text: ''
+    background_color: ''
+    text_color: ''
 - LOT: "156"
   REFNO: "775060"
   LOW: "1800"
@@ -3092,6 +4162,13 @@ lots:
   FOOTNOTE: ''
   at-a-glance: ''
   footnote/provenance: ''
+  color_background: ''
+  header_type: ''
+  large_header:
+    line_1_text: ''
+    line_2_text: ''
+    background_color: ''
+    text_color: ''
 - LOT: "157"
   REFNO: "775819"
   LOW: "3000"
@@ -3112,6 +4189,13 @@ lots:
   FOOTNOTE: ''
   at-a-glance: ''
   footnote/provenance: ''
+  color_background: ''
+  header_type: ''
+  large_header:
+    line_1_text: ''
+    line_2_text: ''
+    background_color: ''
+    text_color: ''
 - LOT: "158"
   REFNO: "774510"
   LOW: "1500"
@@ -3126,6 +4210,13 @@ lots:
   FOOTNOTE: ''
   at-a-glance: ''
   footnote/provenance: ''
+  color_background: ''
+  header_type: ''
+  large_header:
+    line_1_text: ''
+    line_2_text: ''
+    background_color: ''
+    text_color: ''
 - LOT: "159"
   REFNO: "775169"
   LOW: "300"
@@ -3141,6 +4232,13 @@ lots:
   FOOTNOTE: ''
   at-a-glance: ''
   footnote/provenance: ''
+  color_background: ''
+  header_type: ''
+  large_header:
+    line_1_text: ''
+    line_2_text: ''
+    background_color: ''
+    text_color: ''
 - LOT: "160"
   REFNO: "774509"
   LOW: "350"
@@ -3156,6 +4254,13 @@ lots:
   FOOTNOTE: ''
   at-a-glance: ''
   footnote/provenance: ''
+  color_background: ''
+  header_type: ''
+  large_header:
+    line_1_text: ''
+    line_2_text: ''
+    background_color: ''
+    text_color: ''
 - LOT: "161"
   REFNO: "774506"
   LOW: "2000"
@@ -3174,6 +4279,13 @@ lots:
   FOOTNOTE: ''
   at-a-glance: ''
   footnote/provenance: ''
+  color_background: ''
+  header_type: ''
+  large_header:
+    line_1_text: ''
+    line_2_text: ''
+    background_color: ''
+    text_color: ''
 - LOT: "162"
   REFNO: "774507"
   LOW: "700"
@@ -3197,6 +4309,13 @@ lots:
   FOOTNOTE: ''
   at-a-glance: ''
   footnote/provenance: ''
+  color_background: ''
+  header_type: ''
+  large_header:
+    line_1_text: ''
+    line_2_text: ''
+    background_color: ''
+    text_color: ''
 - LOT: "163"
   REFNO: "775114"
   LOW: "800"
@@ -3215,6 +4334,13 @@ lots:
   FOOTNOTE: ''
   at-a-glance: ''
   footnote/provenance: ''
+  color_background: ''
+  header_type: ''
+  large_header:
+    line_1_text: ''
+    line_2_text: ''
+    background_color: ''
+    text_color: ''
 - LOT: "164"
   REFNO: "776006"
   LOW: "30000"
@@ -3247,6 +4373,13 @@ lots:
     108-09; Smith II:3; Yale/Gimbel A66.'
   at-a-glance: ''
   footnote/provenance: ''
+  color_background: ''
+  header_type: ''
+  large_header:
+    line_1_text: ''
+    line_2_text: ''
+    background_color: ''
+    text_color: ''
 - LOT: "165"
   REFNO: "773160"
   LOW: "1500"
@@ -3266,6 +4399,13 @@ lots:
     a signed 15-line poem to Dobson from the American author Henry Cuyler Bunner.
   at-a-glance: ''
   footnote/provenance: ''
+  color_background: ''
+  header_type: ''
+  large_header:
+    line_1_text: ''
+    line_2_text: ''
+    background_color: ''
+    text_color: ''
 - LOT: "166"
   REFNO: "775465"
   LOW: "1800"
@@ -3282,6 +4422,13 @@ lots:
   FOOTNOTE: ''
   at-a-glance: ''
   footnote/provenance: ''
+  color_background: ''
+  header_type: ''
+  large_header:
+    line_1_text: ''
+    line_2_text: ''
+    background_color: ''
+    text_color: ''
 - LOT: "167"
   REFNO: "775464"
   LOW: "3500"
@@ -3303,6 +4450,13 @@ lots:
   FOOTNOTE: ''
   at-a-glance: ''
   footnote/provenance: ''
+  color_background: ''
+  header_type: ''
+  large_header:
+    line_1_text: ''
+    line_2_text: ''
+    background_color: ''
+    text_color: ''
 - LOT: "168"
   REFNO: "774100"
   LOW: "600"
@@ -3317,6 +4471,13 @@ lots:
   FOOTNOTE: ''
   at-a-glance: ''
   footnote/provenance: ''
+  color_background: ''
+  header_type: ''
+  large_header:
+    line_1_text: ''
+    line_2_text: ''
+    background_color: ''
+    text_color: ''
 - LOT: "169"
   REFNO: "775178"
   LOW: "5000"
@@ -3334,6 +4495,13 @@ lots:
   FOOTNOTE: ''
   at-a-glance: ''
   footnote/provenance: ''
+  color_background: ''
+  header_type: ''
+  large_header:
+    line_1_text: ''
+    line_2_text: ''
+    background_color: ''
+    text_color: ''
 - LOT: "170"
   REFNO: "776046"
   LOW: "1800"
@@ -3348,6 +4516,13 @@ lots:
   FOOTNOTE: ''
   at-a-glance: ''
   footnote/provenance: ''
+  color_background: ''
+  header_type: ''
+  large_header:
+    line_1_text: ''
+    line_2_text: ''
+    background_color: ''
+    text_color: ''
 - LOT: "171"
   REFNO: "775061"
   LOW: "3000"
@@ -3362,6 +4537,13 @@ lots:
   FOOTNOTE: ''
   at-a-glance: ''
   footnote/provenance: ''
+  color_background: ''
+  header_type: ''
+  large_header:
+    line_1_text: ''
+    line_2_text: ''
+    background_color: ''
+    text_color: ''
 - LOT: "172"
   REFNO: "775421"
   LOW: "400"
@@ -3378,6 +4560,13 @@ lots:
   FOOTNOTE: ''
   at-a-glance: ''
   footnote/provenance: ''
+  color_background: ''
+  header_type: ''
+  large_header:
+    line_1_text: ''
+    line_2_text: ''
+    background_color: ''
+    text_color: ''
 - LOT: "173"
   REFNO: "776174"
   LOW: "300"
@@ -3395,6 +4584,13 @@ lots:
   FOOTNOTE: ''
   at-a-glance: ''
   footnote/provenance: ''
+  color_background: ''
+  header_type: ''
+  large_header:
+    line_1_text: ''
+    line_2_text: ''
+    background_color: ''
+    text_color: ''
 - LOT: "174"
   REFNO: "776370"
   LOW: "500"
@@ -3415,6 +4611,13 @@ lots:
   FOOTNOTE: ''
   at-a-glance: ''
   footnote/provenance: ''
+  color_background: ''
+  header_type: ''
+  large_header:
+    line_1_text: ''
+    line_2_text: ''
+    background_color: ''
+    text_color: ''
 - LOT: "175"
   REFNO: "776331"
   LOW: "700"
@@ -3430,6 +4633,13 @@ lots:
   FOOTNOTE: ''
   at-a-glance: ''
   footnote/provenance: ''
+  color_background: ''
+  header_type: ''
+  large_header:
+    line_1_text: ''
+    line_2_text: ''
+    background_color: ''
+    text_color: ''
 - LOT: "176"
   REFNO: "776248"
   LOW: "250"
@@ -3443,6 +4653,13 @@ lots:
   FOOTNOTE: ''
   at-a-glance: ''
   footnote/provenance: ''
+  color_background: ''
+  header_type: ''
+  large_header:
+    line_1_text: ''
+    line_2_text: ''
+    background_color: ''
+    text_color: ''
 - LOT: "177"
   REFNO: "776178"
   LOW: "300"
@@ -3457,6 +4674,13 @@ lots:
   FOOTNOTE: ''
   at-a-glance: ''
   footnote/provenance: ''
+  color_background: ''
+  header_type: ''
+  large_header:
+    line_1_text: ''
+    line_2_text: ''
+    background_color: ''
+    text_color: ''
 - LOT: "178"
   REFNO: "776368"
   LOW: "800"
@@ -3474,6 +4698,13 @@ lots:
   FOOTNOTE: ''
   at-a-glance: ''
   footnote/provenance: ''
+  color_background: ''
+  header_type: ''
+  large_header:
+    line_1_text: ''
+    line_2_text: ''
+    background_color: ''
+    text_color: ''
 - LOT: "179"
   REFNO: "776233"
   LOW: "400"
@@ -3487,6 +4718,13 @@ lots:
   FOOTNOTE: ''
   at-a-glance: ''
   footnote/provenance: ''
+  color_background: ''
+  header_type: ''
+  large_header:
+    line_1_text: ''
+    line_2_text: ''
+    background_color: ''
+    text_color: ''
 - LOT: "180"
   REFNO: "776354"
   LOW: "300"
@@ -3501,6 +4739,13 @@ lots:
   FOOTNOTE: ''
   at-a-glance: ''
   footnote/provenance: ''
+  color_background: ''
+  header_type: ''
+  large_header:
+    line_1_text: ''
+    line_2_text: ''
+    background_color: ''
+    text_color: ''
 - LOT: "181"
   REFNO: "776355"
   LOW: "300"
@@ -3515,6 +4760,13 @@ lots:
   FOOTNOTE: ''
   at-a-glance: ''
   footnote/provenance: ''
+  color_background: ''
+  header_type: ''
+  large_header:
+    line_1_text: ''
+    line_2_text: ''
+    background_color: ''
+    text_color: ''
 - LOT: "182"
   REFNO: "776182"
   LOW: "400"
@@ -3529,6 +4781,13 @@ lots:
   FOOTNOTE: ''
   at-a-glance: ''
   footnote/provenance: ''
+  color_background: ''
+  header_type: ''
+  large_header:
+    line_1_text: ''
+    line_2_text: ''
+    background_color: ''
+    text_color: ''
 - LOT: "183"
   REFNO: "776179"
   LOW: "300"
@@ -3542,6 +4801,13 @@ lots:
   FOOTNOTE: ''
   at-a-glance: ''
   footnote/provenance: ''
+  color_background: ''
+  header_type: ''
+  large_header:
+    line_1_text: ''
+    line_2_text: ''
+    background_color: ''
+    text_color: ''
 - LOT: "184"
   REFNO: "773165"
   LOW: "600"
@@ -3558,6 +4824,13 @@ lots:
   FOOTNOTE: ''
   at-a-glance: ''
   footnote/provenance: ''
+  color_background: ''
+  header_type: ''
+  large_header:
+    line_1_text: ''
+    line_2_text: ''
+    background_color: ''
+    text_color: ''
 - LOT: "185"
   REFNO: "776365"
   LOW: "300"
@@ -3571,6 +4844,13 @@ lots:
   FOOTNOTE: ''
   at-a-glance: ''
   footnote/provenance: ''
+  color_background: ''
+  header_type: ''
+  large_header:
+    line_1_text: ''
+    line_2_text: ''
+    background_color: ''
+    text_color: ''
 - LOT: "186"
   REFNO: "776369"
   LOW: "1000"
@@ -3587,6 +4867,13 @@ lots:
   FOOTNOTE: ''
   at-a-glance: ''
   footnote/provenance: ''
+  color_background: ''
+  header_type: ''
+  large_header:
+    line_1_text: ''
+    line_2_text: ''
+    background_color: ''
+    text_color: ''
 - LOT: "187"
   REFNO: "773171"
   LOW: "500"
@@ -3600,6 +4887,13 @@ lots:
   FOOTNOTE: ''
   at-a-glance: ''
   footnote/provenance: ''
+  color_background: ''
+  header_type: ''
+  large_header:
+    line_1_text: ''
+    line_2_text: ''
+    background_color: ''
+    text_color: ''
 - LOT: "188"
   REFNO: "776173"
   LOW: "300"
@@ -3615,6 +4909,13 @@ lots:
   FOOTNOTE: ''
   at-a-glance: ''
   footnote/provenance: ''
+  color_background: ''
+  header_type: ''
+  large_header:
+    line_1_text: ''
+    line_2_text: ''
+    background_color: ''
+    text_color: ''
 - LOT: "189"
   REFNO: "776177"
   LOW: "600"
@@ -3631,6 +4932,13 @@ lots:
   FOOTNOTE: ''
   at-a-glance: ''
   footnote/provenance: ''
+  color_background: ''
+  header_type: ''
+  large_header:
+    line_1_text: ''
+    line_2_text: ''
+    background_color: ''
+    text_color: ''
 - LOT: "190"
   REFNO: "776187"
   LOW: "300"
@@ -3646,6 +4954,13 @@ lots:
   FOOTNOTE: ''
   at-a-glance: ''
   footnote/provenance: ''
+  color_background: ''
+  header_type: ''
+  large_header:
+    line_1_text: ''
+    line_2_text: ''
+    background_color: ''
+    text_color: ''
 - LOT: "191"
   REFNO: "776366"
   LOW: "400"
@@ -3660,6 +4975,13 @@ lots:
   FOOTNOTE: ''
   at-a-glance: ''
   footnote/provenance: ''
+  color_background: ''
+  header_type: ''
+  large_header:
+    line_1_text: ''
+    line_2_text: ''
+    background_color: ''
+    text_color: ''
 - LOT: "192"
   REFNO: "776175"
   LOW: "400"
@@ -3677,6 +4999,13 @@ lots:
   FOOTNOTE: ''
   at-a-glance: ''
   footnote/provenance: ''
+  color_background: ''
+  header_type: ''
+  large_header:
+    line_1_text: ''
+    line_2_text: ''
+    background_color: ''
+    text_color: ''
 - LOT: "193"
   REFNO: "776367"
   LOW: "200"
@@ -3690,6 +5019,13 @@ lots:
   FOOTNOTE: ''
   at-a-glance: ''
   footnote/provenance: ''
+  color_background: ''
+  header_type: ''
+  large_header:
+    line_1_text: ''
+    line_2_text: ''
+    background_color: ''
+    text_color: ''
 - LOT: "194"
   REFNO: "776181"
   LOW: "300"
@@ -3703,6 +5039,13 @@ lots:
   FOOTNOTE: ''
   at-a-glance: ''
   footnote/provenance: ''
+  color_background: ''
+  header_type: ''
+  large_header:
+    line_1_text: ''
+    line_2_text: ''
+    background_color: ''
+    text_color: ''
 - LOT: "195"
   REFNO: "776180"
   LOW: "300"
@@ -3718,6 +5061,13 @@ lots:
   FOOTNOTE: ''
   at-a-glance: ''
   footnote/provenance: ''
+  color_background: ''
+  header_type: ''
+  large_header:
+    line_1_text: ''
+    line_2_text: ''
+    background_color: ''
+    text_color: ''
 - LOT: "196"
   REFNO: "775162"
   LOW: "400"
@@ -3738,6 +5088,13 @@ lots:
     Wobbe C476.
   at-a-glance: ''
   footnote/provenance: ''
+  color_background: ''
+  header_type: ''
+  large_header:
+    line_1_text: ''
+    line_2_text: ''
+    background_color: ''
+    text_color: ''
 - LOT: "197"
   REFNO: "775160"
   LOW: "700"
@@ -3757,6 +5114,13 @@ lots:
   FOOTNOTE: ''
   at-a-glance: ''
   footnote/provenance: ''
+  color_background: ''
+  header_type: ''
+  large_header:
+    line_1_text: ''
+    line_2_text: ''
+    background_color: ''
+    text_color: ''
 - LOT: "198"
   REFNO: "775161"
   LOW: "200"
@@ -3774,6 +5138,13 @@ lots:
     1929. Wobbe p. 185.'
   at-a-glance: ''
   footnote/provenance: ''
+  color_background: ''
+  header_type: ''
+  large_header:
+    line_1_text: ''
+    line_2_text: ''
+    background_color: ''
+    text_color: ''
 - LOT: "199"
   REFNO: "775163"
   LOW: "2000"
@@ -3789,6 +5160,13 @@ lots:
     A tight, square copy. Wobbe A3a.
   at-a-glance: ''
   footnote/provenance: ''
+  color_background: ''
+  header_type: ''
+  large_header:
+    line_1_text: ''
+    line_2_text: ''
+    background_color: ''
+    text_color: ''
 - LOT: "200"
   REFNO: "775159"
   LOW: "350"
@@ -3810,6 +5188,13 @@ lots:
     numerous handwritten corrections, additions and cross-outs.'
   at-a-glance: ''
   footnote/provenance: ''
+  color_background: ''
+  header_type: ''
+  large_header:
+    line_1_text: ''
+    line_2_text: ''
+    background_color: ''
+    text_color: ''
 - LOT: "201"
   REFNO: "774513"
   LOW: "200"
@@ -3823,6 +5208,13 @@ lots:
   FOOTNOTE: ''
   at-a-glance: ''
   footnote/provenance: ''
+  color_background: ''
+  header_type: ''
+  large_header:
+    line_1_text: ''
+    line_2_text: ''
+    background_color: ''
+    text_color: ''
 - LOT: "202"
   REFNO: "774512"
   LOW: "300"
@@ -3837,6 +5229,13 @@ lots:
   FOOTNOTE: ''
   at-a-glance: ''
   footnote/provenance: ''
+  color_background: ''
+  header_type: ''
+  large_header:
+    line_1_text: ''
+    line_2_text: ''
+    background_color: ''
+    text_color: ''
 - LOT: "203"
   REFNO: "774514"
   LOW: "400"
@@ -3853,6 +5252,13 @@ lots:
   FOOTNOTE: ''
   at-a-glance: ''
   footnote/provenance: ''
+  color_background: ''
+  header_type: ''
+  large_header:
+    line_1_text: ''
+    line_2_text: ''
+    background_color: ''
+    text_color: ''
 - LOT: "204"
   REFNO: "775168"
   LOW: "600"
@@ -3868,6 +5274,13 @@ lots:
   FOOTNOTE: ''
   at-a-glance: ''
   footnote/provenance: ''
+  color_background: ''
+  header_type: ''
+  large_header:
+    line_1_text: ''
+    line_2_text: ''
+    background_color: ''
+    text_color: ''
 - LOT: "205"
   REFNO: "775062"
   LOW: "1000"
@@ -3883,6 +5296,13 @@ lots:
   FOOTNOTE: ''
   at-a-glance: ''
   footnote/provenance: ''
+  color_background: ''
+  header_type: ''
+  large_header:
+    line_1_text: ''
+    line_2_text: ''
+    background_color: ''
+    text_color: ''
 - LOT: "206"
   REFNO: "775422"
   LOW: "400"
@@ -3897,6 +5317,13 @@ lots:
   FOOTNOTE: ''
   at-a-glance: ''
   footnote/provenance: ''
+  color_background: ''
+  header_type: ''
+  large_header:
+    line_1_text: ''
+    line_2_text: ''
+    background_color: ''
+    text_color: ''
 - LOT: "207"
   REFNO: "775423"
   LOW: "600"
@@ -3911,6 +5338,13 @@ lots:
   FOOTNOTE: ''
   at-a-glance: ''
   footnote/provenance: ''
+  color_background: ''
+  header_type: ''
+  large_header:
+    line_1_text: ''
+    line_2_text: ''
+    background_color: ''
+    text_color: ''
 - LOT: "208"
   REFNO: "775424"
   LOW: "400"
@@ -3924,6 +5358,13 @@ lots:
   FOOTNOTE: ''
   at-a-glance: ''
   footnote/provenance: ''
+  color_background: ''
+  header_type: ''
+  large_header:
+    line_1_text: ''
+    line_2_text: ''
+    background_color: ''
+    text_color: ''
 - LOT: "209"
   REFNO: "773158"
   LOW: "3000"
@@ -3943,6 +5384,13 @@ lots:
   FOOTNOTE: ''
   at-a-glance: ''
   footnote/provenance: ''
+  color_background: ''
+  header_type: ''
+  large_header:
+    line_1_text: ''
+    line_2_text: ''
+    background_color: ''
+    text_color: ''
 - LOT: "210"
   REFNO: "774462"
   LOW: "1000"
@@ -3958,6 +5406,13 @@ lots:
   FOOTNOTE: ''
   at-a-glance: ''
   footnote/provenance: ''
+  color_background: ''
+  header_type: ''
+  large_header:
+    line_1_text: ''
+    line_2_text: ''
+    background_color: ''
+    text_color: ''
 - LOT: "211"
   REFNO: "775420"
   LOW: "1500"
@@ -3972,6 +5427,13 @@ lots:
   FOOTNOTE: ''
   at-a-glance: ''
   footnote/provenance: ''
+  color_background: ''
+  header_type: ''
+  large_header:
+    line_1_text: ''
+    line_2_text: ''
+    background_color: ''
+    text_color: ''
 - LOT: "212"
   REFNO: "775815"
   LOW: "500"
@@ -3984,6 +5446,13 @@ lots:
   FOOTNOTE: ''
   at-a-glance: ''
   footnote/provenance: ''
+  color_background: ''
+  header_type: ''
+  large_header:
+    line_1_text: ''
+    line_2_text: ''
+    background_color: ''
+    text_color: ''
 - LOT: "213"
   REFNO: "773209"
   LOW: "500"
@@ -3999,6 +5468,13 @@ lots:
   FOOTNOTE: ''
   at-a-glance: ''
   footnote/provenance: ''
+  color_background: ''
+  header_type: ''
+  large_header:
+    line_1_text: ''
+    line_2_text: ''
+    background_color: ''
+    text_color: ''
 - LOT: "214"
   REFNO: "774177"
   LOW: "1000"
@@ -4015,6 +5491,13 @@ lots:
   FOOTNOTE: ''
   at-a-glance: ''
   footnote/provenance: ''
+  color_background: ''
+  header_type: ''
+  large_header:
+    line_1_text: ''
+    line_2_text: ''
+    background_color: ''
+    text_color: ''
 - LOT: "215"
   REFNO: "774837"
   LOW: "4000"
@@ -4035,6 +5518,13 @@ lots:
   FOOTNOTE: ''
   at-a-glance: ''
   footnote/provenance: ''
+  color_background: ''
+  header_type: ''
+  large_header:
+    line_1_text: ''
+    line_2_text: ''
+    background_color: ''
+    text_color: ''
 - LOT: "216"
   REFNO: "774838"
   LOW: "800"
@@ -4049,6 +5539,13 @@ lots:
   FOOTNOTE: ''
   at-a-glance: ''
   footnote/provenance: ''
+  color_background: ''
+  header_type: ''
+  large_header:
+    line_1_text: ''
+    line_2_text: ''
+    background_color: ''
+    text_color: ''
 - LOT: "217"
   REFNO: "774839"
   LOW: "500"
@@ -4062,6 +5559,13 @@ lots:
   FOOTNOTE: ''
   at-a-glance: ''
   footnote/provenance: ''
+  color_background: ''
+  header_type: ''
+  large_header:
+    line_1_text: ''
+    line_2_text: ''
+    background_color: ''
+    text_color: ''
 - LOT: "218"
   REFNO: "775411"
   LOW: "1000"
@@ -4078,6 +5582,13 @@ lots:
   FOOTNOTE: ''
   at-a-glance: ''
   footnote/provenance: ''
+  color_background: ''
+  header_type: ''
+  large_header:
+    line_1_text: ''
+    line_2_text: ''
+    background_color: ''
+    text_color: ''
 - LOT: "219"
   REFNO: "774836"
   LOW: "2500"
@@ -4096,6 +5607,13 @@ lots:
   FOOTNOTE: ''
   at-a-glance: ''
   footnote/provenance: ''
+  color_background: ''
+  header_type: ''
+  large_header:
+    line_1_text: ''
+    line_2_text: ''
+    background_color: ''
+    text_color: ''
 - LOT: "220"
   REFNO: "776045"
   LOW: "5000"
@@ -4114,6 +5632,13 @@ lots:
   FOOTNOTE: ''
   at-a-glance: ''
   footnote/provenance: ''
+  color_background: ''
+  header_type: ''
+  large_header:
+    line_1_text: ''
+    line_2_text: ''
+    background_color: ''
+    text_color: ''
 - LOT: "221"
   REFNO: "774937"
   LOW: "1200"
@@ -4129,6 +5654,13 @@ lots:
   FOOTNOTE: ''
   at-a-glance: ''
   footnote/provenance: ''
+  color_background: ''
+  header_type: ''
+  large_header:
+    line_1_text: ''
+    line_2_text: ''
+    background_color: ''
+    text_color: ''
 - LOT: "222"
   REFNO: "774098"
   LOW: "300"
@@ -4143,6 +5675,13 @@ lots:
   FOOTNOTE: ''
   at-a-glance: ''
   footnote/provenance: ''
+  color_background: ''
+  header_type: ''
+  large_header:
+    line_1_text: ''
+    line_2_text: ''
+    background_color: ''
+    text_color: ''
 - LOT: "223"
   REFNO: "773159"
   LOW: "1000"
@@ -4159,6 +5698,13 @@ lots:
   FOOTNOTE: ''
   at-a-glance: ''
   footnote/provenance: ''
+  color_background: ''
+  header_type: ''
+  large_header:
+    line_1_text: ''
+    line_2_text: ''
+    background_color: ''
+    text_color: ''
 - LOT: "224"
   REFNO: "774904"
   LOW: "400"
@@ -4173,6 +5719,13 @@ lots:
   FOOTNOTE: ''
   at-a-glance: ''
   footnote/provenance: ''
+  color_background: ''
+  header_type: ''
+  large_header:
+    line_1_text: ''
+    line_2_text: ''
+    background_color: ''
+    text_color: ''
 - LOT: "225"
   REFNO: "773216"
   LOW: "700"
@@ -4189,6 +5742,13 @@ lots:
   FOOTNOTE: ''
   at-a-glance: ''
   footnote/provenance: ''
+  color_background: ''
+  header_type: ''
+  large_header:
+    line_1_text: ''
+    line_2_text: ''
+    background_color: ''
+    text_color: ''
 - LOT: "226"
   REFNO: "773845"
   LOW: "1200"
@@ -4204,6 +5764,13 @@ lots:
   FOOTNOTE: ''
   at-a-glance: ''
   footnote/provenance: ''
+  color_background: ''
+  header_type: ''
+  large_header:
+    line_1_text: ''
+    line_2_text: ''
+    background_color: ''
+    text_color: ''
 - LOT: "227"
   REFNO: "774540"
   LOW: "4000"
@@ -4221,6 +5788,13 @@ lots:
   FOOTNOTE: ''
   at-a-glance: ''
   footnote/provenance: ''
+  color_background: ''
+  header_type: ''
+  large_header:
+    line_1_text: ''
+    line_2_text: ''
+    background_color: ''
+    text_color: ''
 - LOT: "228"
   REFNO: "775427"
   LOW: "500"
@@ -4235,6 +5809,13 @@ lots:
   FOOTNOTE: ''
   at-a-glance: ''
   footnote/provenance: ''
+  color_background: ''
+  header_type: ''
+  large_header:
+    line_1_text: ''
+    line_2_text: ''
+    background_color: ''
+    text_color: ''
 - LOT: "229"
   REFNO: "775176"
   LOW: "400"
@@ -4257,6 +5838,13 @@ lots:
   FOOTNOTE: ''
   at-a-glance: ''
   footnote/provenance: ''
+  color_background: ''
+  header_type: ''
+  large_header:
+    line_1_text: ''
+    line_2_text: ''
+    background_color: ''
+    text_color: ''
 - LOT: "230"
   REFNO: "775115"
   LOW: "1500"
@@ -4274,6 +5862,13 @@ lots:
   FOOTNOTE: ''
   at-a-glance: ''
   footnote/provenance: ''
+  color_background: ''
+  header_type: ''
+  large_header:
+    line_1_text: ''
+    line_2_text: ''
+    background_color: ''
+    text_color: ''
 - LOT: "231"
   REFNO: "775173"
   LOW: "300"
@@ -4287,6 +5882,13 @@ lots:
   FOOTNOTE: ''
   at-a-glance: ''
   footnote/provenance: ''
+  color_background: ''
+  header_type: ''
+  large_header:
+    line_1_text: ''
+    line_2_text: ''
+    background_color: ''
+    text_color: ''
 - LOT: "232"
   REFNO: "773164"
   LOW: "600"
@@ -4303,6 +5905,13 @@ lots:
   FOOTNOTE: ''
   at-a-glance: ''
   footnote/provenance: ''
+  color_background: ''
+  header_type: ''
+  large_header:
+    line_1_text: ''
+    line_2_text: ''
+    background_color: ''
+    text_color: ''
 - LOT: "233"
   REFNO: "774344"
   LOW: "700"
@@ -4319,6 +5928,13 @@ lots:
   FOOTNOTE: ''
   at-a-glance: ''
   footnote/provenance: ''
+  color_background: ''
+  header_type: ''
+  large_header:
+    line_1_text: ''
+    line_2_text: ''
+    background_color: ''
+    text_color: ''
 - LOT: "234"
   REFNO: "775463"
   LOW: "400"
@@ -4333,6 +5949,13 @@ lots:
   FOOTNOTE: ''
   at-a-glance: ''
   footnote/provenance: ''
+  color_background: ''
+  header_type: ''
+  large_header:
+    line_1_text: ''
+    line_2_text: ''
+    background_color: ''
+    text_color: ''
 - LOT: "235"
   REFNO: "775417"
   LOW: "1000"
@@ -4356,6 +5979,13 @@ lots:
   FOOTNOTE: ''
   at-a-glance: ''
   footnote/provenance: ''
+  color_background: ''
+  header_type: ''
+  large_header:
+    line_1_text: ''
+    line_2_text: ''
+    background_color: ''
+    text_color: ''
 - LOT: "236"
   REFNO: "775415"
   LOW: "500"
@@ -4372,6 +6002,13 @@ lots:
   FOOTNOTE: ''
   at-a-glance: ''
   footnote/provenance: ''
+  color_background: ''
+  header_type: ''
+  large_header:
+    line_1_text: ''
+    line_2_text: ''
+    background_color: ''
+    text_color: ''
 - LOT: "237"
   REFNO: "775416"
   LOW: "400"
@@ -4387,6 +6024,13 @@ lots:
   FOOTNOTE: ''
   at-a-glance: ''
   footnote/provenance: ''
+  color_background: ''
+  header_type: ''
+  large_header:
+    line_1_text: ''
+    line_2_text: ''
+    background_color: ''
+    text_color: ''
 - LOT: "238"
   REFNO: "773044"
   LOW: "600"
@@ -4405,6 +6049,13 @@ lots:
   FOOTNOTE: ''
   at-a-glance: ''
   footnote/provenance: ''
+  color_background: ''
+  header_type: ''
+  large_header:
+    line_1_text: ''
+    line_2_text: ''
+    background_color: ''
+    text_color: ''
 - LOT: "239"
   REFNO: "776383"
   LOW: "200"
@@ -4421,6 +6072,13 @@ lots:
   FOOTNOTE: ''
   at-a-glance: ''
   footnote/provenance: ''
+  color_background: ''
+  header_type: ''
+  large_header:
+    line_1_text: ''
+    line_2_text: ''
+    background_color: ''
+    text_color: ''
 - LOT: "240"
   REFNO: "776382"
   LOW: "300"
@@ -4436,6 +6094,13 @@ lots:
   FOOTNOTE: ''
   at-a-glance: ''
   footnote/provenance: ''
+  color_background: ''
+  header_type: ''
+  large_header:
+    line_1_text: ''
+    line_2_text: ''
+    background_color: ''
+    text_color: ''
 - LOT: "241"
   REFNO: "776184"
   LOW: "1200"
@@ -4456,6 +6121,13 @@ lots:
   FOOTNOTE: ''
   at-a-glance: ''
   footnote/provenance: ''
+  color_background: ''
+  header_type: ''
+  large_header:
+    line_1_text: ''
+    line_2_text: ''
+    background_color: ''
+    text_color: ''
 - LOT: "242"
   REFNO: "776185"
   LOW: "400"
@@ -4472,6 +6144,13 @@ lots:
   FOOTNOTE: ''
   at-a-glance: ''
   footnote/provenance: ''
+  color_background: ''
+  header_type: ''
+  large_header:
+    line_1_text: ''
+    line_2_text: ''
+    background_color: ''
+    text_color: ''
 - LOT: "243"
   REFNO: "776168"
   LOW: "7000"
@@ -4494,6 +6173,13 @@ lots:
   FOOTNOTE: ''
   at-a-glance: ''
   footnote/provenance: ''
+  color_background: ''
+  header_type: ''
+  large_header:
+    line_1_text: ''
+    line_2_text: ''
+    background_color: ''
+    text_color: ''
 - LOT: "244"
   REFNO: "776372"
   LOW: "700"
@@ -4508,6 +6194,13 @@ lots:
   FOOTNOTE: ''
   at-a-glance: ''
   footnote/provenance: ''
+  color_background: ''
+  header_type: ''
+  large_header:
+    line_1_text: ''
+    line_2_text: ''
+    background_color: ''
+    text_color: ''
 - LOT: "245"
   REFNO: "776376"
   LOW: "500"
@@ -4522,6 +6215,13 @@ lots:
   FOOTNOTE: ''
   at-a-glance: ''
   footnote/provenance: ''
+  color_background: ''
+  header_type: ''
+  large_header:
+    line_1_text: ''
+    line_2_text: ''
+    background_color: ''
+    text_color: ''
 - LOT: "246"
   REFNO: "776375"
   LOW: "500"
@@ -4536,6 +6236,13 @@ lots:
   FOOTNOTE: ''
   at-a-glance: ''
   footnote/provenance: ''
+  color_background: ''
+  header_type: ''
+  large_header:
+    line_1_text: ''
+    line_2_text: ''
+    background_color: ''
+    text_color: ''
 - LOT: "247"
   REFNO: "776377"
   LOW: "400"
@@ -4551,6 +6258,13 @@ lots:
   FOOTNOTE: ''
   at-a-glance: ''
   footnote/provenance: ''
+  color_background: ''
+  header_type: ''
+  large_header:
+    line_1_text: ''
+    line_2_text: ''
+    background_color: ''
+    text_color: ''
 - LOT: "248"
   REFNO: "776380"
   LOW: "250"
@@ -4565,6 +6279,13 @@ lots:
   FOOTNOTE: ''
   at-a-glance: ''
   footnote/provenance: ''
+  color_background: ''
+  header_type: ''
+  large_header:
+    line_1_text: ''
+    line_2_text: ''
+    background_color: ''
+    text_color: ''
 - LOT: "249"
   REFNO: "776186"
   LOW: "500"
@@ -4579,6 +6300,13 @@ lots:
   FOOTNOTE: ''
   at-a-glance: ''
   footnote/provenance: ''
+  color_background: ''
+  header_type: ''
+  large_header:
+    line_1_text: ''
+    line_2_text: ''
+    background_color: ''
+    text_color: ''
 - LOT: "250"
   REFNO: "776374"
   LOW: "500"
@@ -4594,6 +6322,13 @@ lots:
   FOOTNOTE: ''
   at-a-glance: ''
   footnote/provenance: ''
+  color_background: ''
+  header_type: ''
+  large_header:
+    line_1_text: ''
+    line_2_text: ''
+    background_color: ''
+    text_color: ''
 - LOT: "251"
   REFNO: "776378"
   LOW: "500"
@@ -4607,6 +6342,13 @@ lots:
   FOOTNOTE: ''
   at-a-glance: ''
   footnote/provenance: ''
+  color_background: ''
+  header_type: ''
+  large_header:
+    line_1_text: ''
+    line_2_text: ''
+    background_color: ''
+    text_color: ''
 - LOT: "252"
   REFNO: "776373"
   LOW: "500"
@@ -4625,6 +6367,13 @@ lots:
   FOOTNOTE: ''
   at-a-glance: ''
   footnote/provenance: ''
+  color_background: ''
+  header_type: ''
+  large_header:
+    line_1_text: ''
+    line_2_text: ''
+    background_color: ''
+    text_color: ''
 - LOT: "253"
   REFNO: "776381"
   LOW: "200"
@@ -4639,6 +6388,13 @@ lots:
   FOOTNOTE: ''
   at-a-glance: ''
   footnote/provenance: ''
+  color_background: ''
+  header_type: ''
+  large_header:
+    line_1_text: ''
+    line_2_text: ''
+    background_color: ''
+    text_color: ''
 - LOT: "254"
   REFNO: "776353"
   LOW: "600"
@@ -4654,6 +6410,13 @@ lots:
   FOOTNOTE: ''
   at-a-glance: ''
   footnote/provenance: ''
+  color_background: ''
+  header_type: ''
+  large_header:
+    line_1_text: ''
+    line_2_text: ''
+    background_color: ''
+    text_color: ''
 - LOT: "255"
   REFNO: "775150"
   LOW: "400"
@@ -4670,6 +6433,13 @@ lots:
     New York, (2014).
   at-a-glance: ''
   footnote/provenance: ''
+  color_background: ''
+  header_type: ''
+  large_header:
+    line_1_text: ''
+    line_2_text: ''
+    background_color: ''
+    text_color: ''
 - LOT: "256"
   REFNO: "775414"
   LOW: "500"
@@ -4684,6 +6454,13 @@ lots:
   FOOTNOTE: ''
   at-a-glance: ''
   footnote/provenance: ''
+  color_background: ''
+  header_type: ''
+  large_header:
+    line_1_text: ''
+    line_2_text: ''
+    background_color: ''
+    text_color: ''
 - LOT: "257"
   REFNO: "773613"
   LOW: "800"
@@ -4705,6 +6482,13 @@ lots:
   FOOTNOTE: ''
   at-a-glance: ''
   footnote/provenance: ''
+  color_background: ''
+  header_type: ''
+  large_header:
+    line_1_text: ''
+    line_2_text: ''
+    background_color: ''
+    text_color: ''
 - LOT: "258"
   REFNO: "775419"
   LOW: "600"
@@ -4720,6 +6504,13 @@ lots:
   FOOTNOTE: ''
   at-a-glance: ''
   footnote/provenance: ''
+  color_background: ''
+  header_type: ''
+  large_header:
+    line_1_text: ''
+    line_2_text: ''
+    background_color: ''
+    text_color: ''
 - LOT: "259"
   REFNO: "774074"
   LOW: "1500"
@@ -4734,6 +6525,13 @@ lots:
   FOOTNOTE: ''
   at-a-glance: ''
   footnote/provenance: ''
+  color_background: ''
+  header_type: ''
+  large_header:
+    line_1_text: ''
+    line_2_text: ''
+    background_color: ''
+    text_color: ''
 - LOT: "260"
   REFNO: "775428"
   LOW: "1000"
@@ -4751,6 +6549,13 @@ lots:
   FOOTNOTE: ''
   at-a-glance: ''
   footnote/provenance: ''
+  color_background: ''
+  header_type: ''
+  large_header:
+    line_1_text: ''
+    line_2_text: ''
+    background_color: ''
+    text_color: ''
 - LOT: "261"
   REFNO: "774077"
   LOW: "3000"
@@ -4766,6 +6571,13 @@ lots:
   FOOTNOTE: ''
   at-a-glance: ''
   footnote/provenance: ''
+  color_background: ''
+  header_type: ''
+  large_header:
+    line_1_text: ''
+    line_2_text: ''
+    background_color: ''
+    text_color: ''
 - LOT: "262"
   REFNO: "774075"
   LOW: "1500"
@@ -4783,6 +6595,13 @@ lots:
   FOOTNOTE: ''
   at-a-glance: ''
   footnote/provenance: ''
+  color_background: ''
+  header_type: ''
+  large_header:
+    line_1_text: ''
+    line_2_text: ''
+    background_color: ''
+    text_color: ''
 - LOT: "263"
   REFNO: "774078"
   LOW: "1500"
@@ -4798,6 +6617,13 @@ lots:
   FOOTNOTE: ''
   at-a-glance: ''
   footnote/provenance: ''
+  color_background: ''
+  header_type: ''
+  large_header:
+    line_1_text: ''
+    line_2_text: ''
+    background_color: ''
+    text_color: ''
 - LOT: "264"
   REFNO: "774076"
   LOW: "600"
@@ -4812,6 +6638,13 @@ lots:
     to spine tips and front joint. First edition. London, 1925.
   at-a-glance: ''
   footnote/provenance: ''
+  color_background: ''
+  header_type: ''
+  large_header:
+    line_1_text: ''
+    line_2_text: ''
+    background_color: ''
+    text_color: ''
 - LOT: "265"
   REFNO: "775426"
   LOW: "500"
@@ -4828,6 +6661,13 @@ lots:
   FOOTNOTE: ''
   at-a-glance: ''
   footnote/provenance: ''
+  color_background: ''
+  header_type: ''
+  large_header:
+    line_1_text: ''
+    line_2_text: ''
+    background_color: ''
+    text_color: ''
 - LOT: "266"
   REFNO: "775425"
   LOW: "3000"
@@ -4845,6 +6685,13 @@ lots:
   FOOTNOTE: ''
   at-a-glance: ''
   footnote/provenance: ''
+  color_background: ''
+  header_type: ''
+  large_header:
+    line_1_text: ''
+    line_2_text: ''
+    background_color: ''
+    text_color: ''
 - LOT: "267"
   REFNO: "773156"
   LOW: "700"
@@ -4861,6 +6708,13 @@ lots:
   FOOTNOTE: ''
   at-a-glance: ''
   footnote/provenance: ''
+  color_background: ''
+  header_type: ''
+  large_header:
+    line_1_text: ''
+    line_2_text: ''
+    background_color: ''
+    text_color: ''
 - LOT: "268"
   REFNO: "775429"
   LOW: "500"
@@ -4877,6 +6731,13 @@ lots:
   FOOTNOTE: ''
   at-a-glance: ''
   footnote/provenance: ''
+  color_background: ''
+  header_type: ''
+  large_header:
+    line_1_text: ''
+    line_2_text: ''
+    background_color: ''
+    text_color: ''
 - LOT: "269"
   REFNO: "775432"
   LOW: "600"
@@ -4895,6 +6756,13 @@ lots:
   FOOTNOTE: ''
   at-a-glance: ''
   footnote/provenance: ''
+  color_background: ''
+  header_type: ''
+  large_header:
+    line_1_text: ''
+    line_2_text: ''
+    background_color: ''
+    text_color: ''
 - LOT: "270"
   REFNO: "775431"
   LOW: "600"
@@ -4913,6 +6781,13 @@ lots:
   FOOTNOTE: ''
   at-a-glance: ''
   footnote/provenance: ''
+  color_background: ''
+  header_type: ''
+  large_header:
+    line_1_text: ''
+    line_2_text: ''
+    background_color: ''
+    text_color: ''
 - LOT: "271"
   REFNO: "775430"
   LOW: "3000"
@@ -4929,6 +6804,13 @@ lots:
   FOOTNOTE: ''
   at-a-glance: ''
   footnote/provenance: ''
+  color_background: ''
+  header_type: ''
+  large_header:
+    line_1_text: ''
+    line_2_text: ''
+    background_color: ''
+    text_color: ''
 - LOT: "272"
   REFNO: "774342"
   LOW: "700"
@@ -4947,6 +6829,13 @@ lots:
   FOOTNOTE: ''
   at-a-glance: ''
   footnote/provenance: ''
+  color_background: ''
+  header_type: ''
+  large_header:
+    line_1_text: ''
+    line_2_text: ''
+    background_color: ''
+    text_color: ''
 - LOT: "273"
   REFNO: "774903"
   LOW: "400"
@@ -4961,6 +6850,13 @@ lots:
   FOOTNOTE: ''
   at-a-glance: ''
   footnote/provenance: ''
+  color_background: ''
+  header_type: ''
+  large_header:
+    line_1_text: ''
+    line_2_text: ''
+    background_color: ''
+    text_color: ''
 - LOT: "274"
   REFNO: "775153"
   LOW: "3500"
@@ -4977,6 +6873,13 @@ lots:
   FOOTNOTE: ''
   at-a-glance: ''
   footnote/provenance: ''
+  color_background: ''
+  header_type: ''
+  large_header:
+    line_1_text: ''
+    line_2_text: ''
+    background_color: ''
+    text_color: ''
 - LOT: "275"
   REFNO: "772287"
   LOW: "600"
@@ -4991,6 +6894,13 @@ lots:
   FOOTNOTE: ''
   at-a-glance: ''
   footnote/provenance: ''
+  color_background: ''
+  header_type: ''
+  large_header:
+    line_1_text: ''
+    line_2_text: ''
+    background_color: ''
+    text_color: ''
 - LOT: "276"
   REFNO: "774584"
   LOW: "1000"
@@ -5007,6 +6917,13 @@ lots:
   FOOTNOTE: ''
   at-a-glance: ''
   footnote/provenance: ''
+  color_background: ''
+  header_type: ''
+  large_header:
+    line_1_text: ''
+    line_2_text: ''
+    background_color: ''
+    text_color: ''
 - LOT: "277"
   REFNO: "775189"
   LOW: "450"
@@ -5020,6 +6937,13 @@ lots:
   FOOTNOTE: ''
   at-a-glance: ''
   footnote/provenance: ''
+  color_background: ''
+  header_type: ''
+  large_header:
+    line_1_text: ''
+    line_2_text: ''
+    background_color: ''
+    text_color: ''
 - LOT: "278"
   REFNO: "775106"
   LOW: "400"
@@ -5032,6 +6956,13 @@ lots:
   FOOTNOTE: ''
   at-a-glance: ''
   footnote/provenance: ''
+  color_background: ''
+  header_type: ''
+  large_header:
+    line_1_text: ''
+    line_2_text: ''
+    background_color: ''
+    text_color: ''
 - LOT: "279"
   REFNO: "774902"
   LOW: "200"
@@ -5047,6 +6978,13 @@ lots:
   FOOTNOTE: ''
   at-a-glance: ''
   footnote/provenance: ''
+  color_background: ''
+  header_type: ''
+  large_header:
+    line_1_text: ''
+    line_2_text: ''
+    background_color: ''
+    text_color: ''
 - LOT: "280"
   REFNO: "770006"
   LOW: "600"
@@ -5063,6 +7001,13 @@ lots:
   FOOTNOTE: ''
   at-a-glance: ''
   footnote/provenance: ''
+  color_background: ''
+  header_type: ''
+  large_header:
+    line_1_text: ''
+    line_2_text: ''
+    background_color: ''
+    text_color: ''
 - LOT: "281"
   REFNO: "775467"
   LOW: "400"
@@ -5078,6 +7023,13 @@ lots:
   FOOTNOTE: ''
   at-a-glance: ''
   footnote/provenance: ''
+  color_background: ''
+  header_type: ''
+  large_header:
+    line_1_text: ''
+    line_2_text: ''
+    background_color: ''
+    text_color: ''
 - LOT: "282"
   REFNO: "775904"
   LOW: "300"
@@ -5091,6 +7043,13 @@ lots:
   FOOTNOTE: ''
   at-a-glance: ''
   footnote/provenance: ''
+  color_background: ''
+  header_type: ''
+  large_header:
+    line_1_text: ''
+    line_2_text: ''
+    background_color: ''
+    text_color: ''
 - LOT: "283"
   REFNO: "774585"
   LOW: "1000"
@@ -5109,6 +7068,13 @@ lots:
   FOOTNOTE: ''
   at-a-glance: ''
   footnote/provenance: ''
+  color_background: ''
+  header_type: ''
+  large_header:
+    line_1_text: ''
+    line_2_text: ''
+    background_color: ''
+    text_color: ''
 - LOT: "284"
   REFNO: "775905"
   LOW: "500"
@@ -5127,6 +7093,13 @@ lots:
     ¼ vellum-backed boards, uneven soiling. One of 380 copies. 1924.
   at-a-glance: ''
   footnote/provenance: ''
+  color_background: ''
+  header_type: ''
+  large_header:
+    line_1_text: ''
+    line_2_text: ''
+    background_color: ''
+    text_color: ''
 - LOT: "285"
   REFNO: "773167"
   LOW: "300"
@@ -5140,6 +7113,13 @@ lots:
   FOOTNOTE: ''
   at-a-glance: ''
   footnote/provenance: ''
+  color_background: ''
+  header_type: ''
+  large_header:
+    line_1_text: ''
+    line_2_text: ''
+    background_color: ''
+    text_color: ''
 - LOT: "286"
   REFNO: "772284"
   LOW: "400"
@@ -5155,6 +7135,13 @@ lots:
   FOOTNOTE: ''
   at-a-glance: ''
   footnote/provenance: ''
+  color_background: ''
+  header_type: ''
+  large_header:
+    line_1_text: ''
+    line_2_text: ''
+    background_color: ''
+    text_color: ''
 - LOT: "287"
   REFNO: "775879"
   LOW: "2000"
@@ -5174,6 +7161,13 @@ lots:
   FOOTNOTE: ''
   at-a-glance: ''
   footnote/provenance: ''
+  color_background: ''
+  header_type: ''
+  large_header:
+    line_1_text: ''
+    line_2_text: ''
+    background_color: ''
+    text_color: ''
 - LOT: "288"
   REFNO: "773963"
   LOW: "500"
@@ -5189,6 +7183,13 @@ lots:
   FOOTNOTE: ''
   at-a-glance: ''
   footnote/provenance: ''
+  color_background: ''
+  header_type: ''
+  large_header:
+    line_1_text: ''
+    line_2_text: ''
+    background_color: ''
+    text_color: ''
 - LOT: "289"
   REFNO: "774094"
   LOW: "1200"
@@ -5204,6 +7205,13 @@ lots:
   FOOTNOTE: ''
   at-a-glance: ''
   footnote/provenance: ''
+  color_background: ''
+  header_type: ''
+  large_header:
+    line_1_text: ''
+    line_2_text: ''
+    background_color: ''
+    text_color: ''
 - LOT: "290"
   REFNO: "774556"
   LOW: "3000"
@@ -5237,6 +7245,13 @@ lots:
     Atabey 1015.
   at-a-glance: ''
   footnote/provenance: ''
+  color_background: ''
+  header_type: ''
+  large_header:
+    line_1_text: ''
+    line_2_text: ''
+    background_color: ''
+    text_color: ''
 - LOT: "291"
   REFNO: "775152"
   LOW: "500"
@@ -5255,6 +7270,13 @@ lots:
   FOOTNOTE: ''
   at-a-glance: ''
   footnote/provenance: ''
+  color_background: ''
+  header_type: ''
+  large_header:
+    line_1_text: ''
+    line_2_text: ''
+    background_color: ''
+    text_color: ''
 - LOT: "292"
   REFNO: "775208"
   LOW: "300"
@@ -5268,6 +7290,13 @@ lots:
   FOOTNOTE: ''
   at-a-glance: ''
   footnote/provenance: ''
+  color_background: ''
+  header_type: ''
+  large_header:
+    line_1_text: ''
+    line_2_text: ''
+    background_color: ''
+    text_color: ''
 - LOT: "293"
   REFNO: "773410"
   LOW: "700"
@@ -5282,6 +7311,13 @@ lots:
   FOOTNOTE: ''
   at-a-glance: ''
   footnote/provenance: ''
+  color_background: ''
+  header_type: ''
+  large_header:
+    line_1_text: ''
+    line_2_text: ''
+    background_color: ''
+    text_color: ''
 - LOT: "294"
   REFNO: "776153"
   LOW: "600"
@@ -5298,6 +7334,13 @@ lots:
   FOOTNOTE: ''
   at-a-glance: ''
   footnote/provenance: ''
+  color_background: ''
+  header_type: ''
+  large_header:
+    line_1_text: ''
+    line_2_text: ''
+    background_color: ''
+    text_color: ''
 - LOT: "295"
   REFNO: "776162"
   LOW: "300"
@@ -5322,6 +7365,13 @@ lots:
     300 copies. London, 1938.
   at-a-glance: ''
   footnote/provenance: ''
+  color_background: ''
+  header_type: ''
+  large_header:
+    line_1_text: ''
+    line_2_text: ''
+    background_color: ''
+    text_color: ''
 - LOT: "296"
   REFNO: "776163"
   LOW: "400"
@@ -5338,6 +7388,13 @@ lots:
   FOOTNOTE: ''
   at-a-glance: ''
   footnote/provenance: ''
+  color_background: ''
+  header_type: ''
+  large_header:
+    line_1_text: ''
+    line_2_text: ''
+    background_color: ''
+    text_color: ''
 - LOT: "297"
   REFNO: "773409"
   LOW: "3000"
@@ -5359,6 +7416,13 @@ lots:
     mounted on blank prelim, laid in loose.
   at-a-glance: ''
   footnote/provenance: ''
+  color_background: ''
+  header_type: ''
+  large_header:
+    line_1_text: ''
+    line_2_text: ''
+    background_color: ''
+    text_color: ''
 - LOT: "298"
   REFNO: "773183"
   LOW: "500"
@@ -5374,6 +7438,13 @@ lots:
   FOOTNOTE: ''
   at-a-glance: ''
   footnote/provenance: ''
+  color_background: ''
+  header_type: ''
+  large_header:
+    line_1_text: ''
+    line_2_text: ''
+    background_color: ''
+    text_color: ''
 - LOT: "299"
   REFNO: "772283"
   LOW: "500"
@@ -5388,6 +7459,13 @@ lots:
   FOOTNOTE: ''
   at-a-glance: ''
   footnote/provenance: ''
+  color_background: ''
+  header_type: ''
+  large_header:
+    line_1_text: ''
+    line_2_text: ''
+    background_color: ''
+    text_color: ''
 - LOT: "300"
   REFNO: "774929"
   LOW: "600"
@@ -5402,6 +7480,13 @@ lots:
   FOOTNOTE: ''
   at-a-glance: ''
   footnote/provenance: ''
+  color_background: ''
+  header_type: ''
+  large_header:
+    line_1_text: ''
+    line_2_text: ''
+    background_color: ''
+    text_color: ''
 - LOT: "301"
   REFNO: "772271"
   LOW: "2000"
@@ -5417,6 +7502,13 @@ lots:
   FOOTNOTE: ''
   at-a-glance: ''
   footnote/provenance: ''
+  color_background: ''
+  header_type: ''
+  large_header:
+    line_1_text: ''
+    line_2_text: ''
+    background_color: ''
+    text_color: ''
 - LOT: ''
   DESCRIPT: ''
   CROSSHEAD: ''
@@ -5427,8 +7519,15 @@ lots:
   LOW: ''
   HIGH: ''
   REFNO: ''
+  color_background: ''
+  header_type: ''
+  large_header:
+    line_1_text: ''
+    line_2_text: ''
+    background_color: ''
+    text_color: ''
 title: Fine Books & Manuscripts
 layout: ''
 color: "#B484CA"
-date: 2020-12-25 05:00:00 +0000
+date: '2020-12-25T05:00:00.000+00:00'
 sale: 2554
