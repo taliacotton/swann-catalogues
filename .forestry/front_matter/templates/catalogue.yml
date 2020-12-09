@@ -20,33 +20,6 @@ fields:
   - type: text
     name: CROSSHEAD
     label: 'Second Line: Title of Piece'
-  - name: color_background
-    type: color
-    label: Color Background
-    config:
-      required: false
-      color_format: Hex
-    default: "#000000"
-    description: 'Use color to make a lot stand out, perhaps. Default is black, recommended
-      is black or white. '
-  - name: header_type
-    type: select
-    default: ''
-    config:
-      required: false
-      options:
-      - Small
-      - Medium
-      - Large
-      - Large (img)
-      source:
-        type: simple
-        section: 
-        file: 
-        path: 
-    label: Will there be a special large header text?
-    description: Use special header text to draw attention to a lot. Suggested infrequent
-      use to make the impact of stronger.
   - name: at-a-glance
     type: textarea
     default: ''
@@ -97,6 +70,33 @@ fields:
     name: LOT
     label: Lot Number (original)
     hidden: true
+  - name: color_background
+    type: color
+    label: Color Background (optional)
+    config:
+      required: false
+      color_format: Hex
+    default: "#000000"
+    description: 'Use color to make a lot stand out, perhaps. Default is black, recommended
+      is black or white. '
+  - name: header_type
+    type: select
+    default: ''
+    config:
+      required: false
+      options:
+      - Small
+      - Medium
+      - Large
+      - Large (img)
+      source:
+        type: simple
+        section: 
+        file: 
+        path: 
+    label: Will there be a special large header text?
+    description: Use special header text to draw attention to a lot. Suggested infrequent
+      use to make the impact of stronger.
   - name: large_header
     type: field_group
     config: {}
@@ -138,6 +138,6 @@ fields:
       field: header_type
       value: Large
   config:
-    labelField: LOT
+    labelField: DESCRIPT
 pages:
 - _data/2551-catalogue-pentagram.yaml
