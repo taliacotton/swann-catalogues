@@ -17,7 +17,7 @@ fields:
   default: now
 - name: auction_time__2
   type: datetime
-  label: 'Auction Time #2'
+  label: 'Auction Time #2 (Optional)'
   description: If there is more than one auction time, pick the second one here.
   config:
     required: false
