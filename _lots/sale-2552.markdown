@@ -7,5 +7,11 @@ sale: 2552
 filename: 2552-catalogue-pentagram
 color: "#eb0927"
 lots: _data/2552-catalogue-pentagram.yaml
+people:
+  people: []
+general_information: "**For general information and to arrange absentee or phone bidding:**
+  \ \n212 254 4710 ext. 0\n\n**For questions on invoicing and shipping:**  \n212 254
+  4710 ext. 31\n\n**For inquiries regarding the items in this auction:**  \nRick Stattler,
+  ext. 27  \n[rstattler@swanngalleries.com](mailto:rstattler@swanngalleries.com)"
 
 ---
