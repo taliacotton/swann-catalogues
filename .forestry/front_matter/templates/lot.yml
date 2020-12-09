@@ -21,7 +21,7 @@ fields:
   description: If there is more than one auction time, pick the second one here.
   config:
     required: false
-    date_format: "-"
+    date_format: ''
     time_format: ''
     display_utc: false
 - type: text
