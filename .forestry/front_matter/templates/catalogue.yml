@@ -45,6 +45,8 @@ fields:
         file: 
         path: 
     label: Will there be a special large header text?
+    description: Use special header text to draw attention to a lot. Suggested infrequent
+      use to make the impact of stronger.
   - name: at-a-glance
     type: textarea
     default: ''
@@ -95,6 +97,46 @@ fields:
     name: LOT
     label: Lot Number (original)
     hidden: true
+  - name: large_header
+    type: field_group
+    config: {}
+    fields:
+    - name: line_1_text
+      type: text
+      config:
+        required: false
+      label: Line 1 Text
+      description: 'Suggested: Lot Artist/Author Name'
+    - name: line_2_text
+      type: text
+      config:
+        required: false
+      label: 'Line 2 Text '
+      description: 'Suggested: Lot Title'
+    - name: background_color
+      type: color
+      label: Background Color
+      config:
+        required: false
+        color_format: Hex
+    - name: text_color
+      type: select
+      default: ''
+      config:
+        required: false
+        options:
+        - white
+        - black
+        source:
+          type: simple
+          section: 
+          file: 
+          path: 
+      label: Text color
+    label: Large Header
+    showOnly:
+      field: header_type
+      value: Large
   config:
     labelField: LOT
 pages:
