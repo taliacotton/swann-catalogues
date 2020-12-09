@@ -34,12 +34,12 @@
                     {% endfor %}
             </div>
         {% else %}
-            {% if lot.image %}
-                {{ lot.background | inspect }}
-                {% if lot.background %}{% assign bg = lot.background %}{%else%}{%assign bg ='black'%}{%endif%}
-            <img style="background:{{bg}}" src="/assets/img/{{lot.image}}">
+            {% if lot.bgColor %}{% assign bg = lot.bgColor %}{%else%}{%assign bg ='black'%}{%endif%}
+
+            {% if lot.image %}  
+                <img style="background-color:{{bg}}" src="/assets/img/{{lot.image}}">
             {% else %}
-            <img style="background:{{bg}}" src="/assets/img/{{lot.refno}}.jpg">
+                <img style="background-color:{{bg}}" src="/assets/img/{{lot.refno}}.jpg">
             {% endif %}
         {% endif %}
     </div>

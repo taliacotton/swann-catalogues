@@ -7,10 +7,10 @@
   favorite: true
 - refno: 773183
   name: IDK 2
+  bgColor: '#e68e81'
   year: 1977
   bookmark: false
   favorite: false
-  background: blue
 - refno: 773409
   name: IDK 3
   year: 1978
