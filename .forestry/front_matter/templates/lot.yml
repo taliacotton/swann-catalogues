@@ -13,7 +13,7 @@ fields:
   label: Title/Department
 - type: datetime
   name: date
-  label: Auction Date
+  label: Auction Date & Time
   default: now
 - name: auction_time__2
   type: datetime
