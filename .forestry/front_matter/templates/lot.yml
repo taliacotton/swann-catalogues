@@ -92,7 +92,16 @@ fields:
         type: pages
         section: people
     label: Administration
-  label: People
+  - name: general_information
+    type: textarea
+    default: ''
+    config:
+      required: false
+      wysiwyg: true
+      schema:
+        format: markdown
+    label: General Information
+  label: People & Contact
 - name: general_information
   type: textarea
   default: ''
@@ -105,14 +114,13 @@ fields:
   description: This appears after all the people. Typically content such as contact
     numbers for absentee bidding, invoicing, and inquiries.
 - name: footer_pages
-  type: field_group
-  config: {}
+  type: field_group_list
   fields:
-  - name: section_title
+  - name: section_header
     type: text
     config:
       required: false
-    label: Section title
+    label: Section Header
   - name: content
     type: textarea
     default: ''
@@ -122,4 +130,8 @@ fields:
       schema:
         format: markdown
     label: Content
+  config:
+    min: 
+    max: 
+    labelField: 
   label: Footer Pages
