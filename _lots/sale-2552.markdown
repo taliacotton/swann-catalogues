@@ -18,5 +18,10 @@ general_information: "**For general information and to arrange absentee or phone
   4710 ext. 31\n\n**For inquiries regarding the items in this auction:**  \nRick Stattler,
   ext. 27  \n[rstattler@swanngalleries.com](mailto:rstattler@swanngalleries.com)"
 auction_time__2: 2020-11-16 19:00:00 +0000
+footer_pages:
+- section_header: Limited Warranty
+  content: ''
+- section_header: Conditions of Sale
+  content: ''
 
 ---
