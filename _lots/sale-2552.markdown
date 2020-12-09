@@ -1,6 +1,6 @@
 ---
 title: Contemporary Art
-date: 2020-11-17T00:00:00.000+00:00
+date: 2020-11-16 15:00:00 +0000
 permalink: "/sale-2552"
 layout: catalogue-test
 sale: 2552
@@ -17,5 +17,6 @@ general_information: "**For general information and to arrange absentee or phone
   \ \n212 254 4710 ext. 0\n\n**For questions on invoicing and shipping:**  \n212 254
   4710 ext. 31\n\n**For inquiries regarding the items in this auction:**  \nRick Stattler,
   ext. 27  \n[rstattler@swanngalleries.com](mailto:rstattler@swanngalleries.com)"
+auction_time__2: 2020-11-16 19:00:00 +0000
 
 ---
