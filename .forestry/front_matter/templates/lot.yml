@@ -134,10 +134,3 @@ fields:
     max: 
     labelField: 
   label: Footer Pages
-- name: lots_test
-  type: blocks
-  label: Lots Test
-  template_types: []
-  config:
-    min: 
-    max: 
