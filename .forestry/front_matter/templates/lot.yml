@@ -137,8 +137,7 @@ fields:
 - name: lots_test
   type: blocks
   label: Lots Test
-  template_types:
-  - catalogue
+  template_types: []
   config:
     min: 
     max: 
