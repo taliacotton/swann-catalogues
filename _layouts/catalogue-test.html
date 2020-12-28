@@ -61,13 +61,13 @@
                 </div>
                 <div class="spine">
                     <div class="spine-text">
-                        <span class="spine-date">{{page.date}}</span>
+                        <span class="spine-date">{{ page.date | date: "%B %d, %Y" }}</span>
                         <span class="spine-title">{{page.title}}</span>
                     </div>
                 </div>
                 <div class="right">
                     <h1>{{page.title}}</h1>
-                    <h2 class="cover.date">{{page.date}}<br>at 10:30am and 2:00pm</h2>
+                    <h2 class="cover.date">{{ page.date | date: "%B %d, %Y" }}<br>at 10:30am and 2:00pm</h2>
                 </div>
             </section>
         <div class="main-content">
@@ -257,7 +257,7 @@
                             Add note...
                         </button>
                         <div class="notes-left">
-                            <textarea class="notes small-type" id="textarea">this is a test</textarea>
+                            <!-- <textarea class="notes small-type" id="textarea">this is a test</textarea> -->
                         </div>
                         <span class="lot-number">{{lot.LOT}}</span>
                         <h2>
@@ -279,7 +279,7 @@
                         </div>
                         <div class="estimate">
                             <h5 class="small-type">Estimate</h5>
-                            <h2>${{lot.LOW}} – ${{lot.HIGH}}</h2>
+                            <h2>${% include numberWithCommas.html number=lot.LOW %} – ${% include numberWithCommas.html number=lot.HIGH %}</h2>
                             <button onclick="this.classList.toggle('active')">
                                 Bid Options
                                 <svg style="top:-0.5px;left:-4px" width="10" height="10" viewBox="0 0 10 10" fill="none" xmlns="http://www.w3.org/2000/svg"><path d="M4.05063 0L4.05063 4.02135L0 4.02135L0 5.90747L4.05063 5.90747L4.05063 10L5.96745 10L5.96745 5.90747L10 5.90747L10 4.02135L5.96745 4.02135L5.96745 0L4.05063 0Z" fill="#008FFC"/></svg>
@@ -294,7 +294,7 @@
                             </a>
                         </div>
                         <div class="notes-right">
-                            <textarea class="notes small-type" id="textarea">this is a test</textarea>
+                            <!-- <textarea class="notes small-type" id="textarea">this is a test</textarea> -->
                         </div>
                     </div>
                 </div>

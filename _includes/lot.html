@@ -20,7 +20,7 @@
         <img src="/assets/img/{{lot.refno}}.jpg">
     </section>
 {% endif %}
-<section id="lot1" class="lot lot-bookmarked lot-recommended">
+<section id="lot{{lot.refno}}" class="lot lot-recommended">
     <div class="left">
         {% if lot.images %}
             <div class="slideshow">
@@ -49,6 +49,7 @@
             <span class="fold-outline"> </span>
         </button>
         <div class="center-column">
+            <div class="mobile-only mobile-thumb"><img src="/assets/img/{{lot.refno}}.jpg"></div>
             <button class="small-type notes-prompt">
                 Add note...
             </button>

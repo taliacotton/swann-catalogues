@@ -1,24 +1,58 @@
+let usingCookies = true;
+
 let nav = document.getElementById("topbar");
 let cover = document.getElementById("cover");
 let toc = document.getElementById("table-of-contents");
+let sb = document.getElementById("searchbar");
+
+let stripe = document.querySelector("#cover .stripe");
+let stripeWidth = stripe.getBoundingClientRect().width;
 
 let mainImgs = document.querySelectorAll("section.lot .left img");
 let lotSections = document.querySelectorAll("section.lot");
 let bookmarks = document.querySelectorAll(".bookmark-container");
 let highlightTexts = document.querySelectorAll("section.lot .center-column p")
 let leftSections = document.querySelectorAll(".lot > .left");
+let rightSections = document.querySelectorAll(".lot > .right");
 let sections = document.querySelectorAll("section");
+let cookieBanner = document.getElementById("cookieBanner");
+
+let mobileThumbs = document.querySelectorAll(".mobile-thumb");
 
 let currentSection = 0;
+let breakpoint = 726;
 
-// let notesPrompt = document.getElementById("notes-prompt");
+
+// COOKIES
+
+// define which lots are bookmarked
+var bookmarked = [];
+if(getCookie("bookmarked")) {
+    bookmarked = JSON.parse(getCookie("bookmarked"));
+};
+
+// apply bookmarks from cookie
+for (let lotId of bookmarked){
+    document.getElementById(lotId).classList.add("lot-bookmarked");
+}
+
+// define notes object
+let notes = [];
+if(getCookie("notes")) {
+    notes = JSON.parse(getCookie("notes"));
+};
+
+// apply notes from cookie
+for (let note of notes){
+    createNote(note.side, note.top, note.content, note.lot);
+}
+
 
 let scrollHeight = Math.max(
   document.body.scrollHeight, document.documentElement.scrollHeight,
   document.body.offsetHeight, document.documentElement.offsetHeight,
   document.body.clientHeight, document.documentElement.clientHeight
 );
-
 
 let mouseIsDown = false;
 
@@ -34,6 +68,57 @@ for (let img of colorImages){
             img.parentElement.style.backgroundColor ="rgb("+colorThief.getColor(img)[0]+","+colorThief.getColor(img)[1]+","+colorThief.getColor(img)[2]+")";
         });
     }
+}
+
+
+//PAGE LOADER
+// document.addEventListener('DOMContentLoaded', function() {
+
+document.body.classList.remove("loading");
+
+window.addEventListener('load', function() {
+   document.body.classList.remove("loading");
+});
+// }, false);
+
+// setInterval(function(){
+//     if (stripeWidth < window.innerWidth){
+//         stripeWidth++;
+//         stripe.style.width = stripeWidth + "px";
+//     }
+// },100)
+
+
+// TRIGGER SEARCH BAR
+function triggerSearch(){
+    sb.classList.add("visible");
+    sb.focus();
+}
+function search(){
+    let searchterm = sb.value;
+    window.find(sb.value);
+}
+function closeSearch(){
+    sb.classList.remove("visible");
+}
+
+// TRIGGER PRINT MODAL
+function triggerPrintModal(){
+    document.getElementById("printModal").classList.toggle("visible");
+}
+
+// PRINT COMMAND
+function printBook(){     
+    window.print();
+}
+
+
+// MOBILE: THUMBNAIL FULLSCREEN
+for (let thumb of mobileThumbs){
+    thumb.addEventListener("click", function(){
+        let image = thumb.parentElement.parentElement.parentElement.querySelector(".left > img");
+        openFullscreen(image);
+    })
 }
 
 // NAV COME IN
@@ -177,6 +262,23 @@ for (let np of notesPrompts){
 
         //  hide button when typing
         // t.onblur=function(){np.style.display="block"}
+
+        
+
+        t.addEventListener("blur", function(){
+            // console.log("BLURRED");
+
+            let obj = 
+                {   content: t.value, 
+                    top: pct, 
+                    side: targetMargin.classList[0],
+                    lot: targetMargin.parentElement.parentElement.parentElement.id}
+            notes.push(obj);
+            // console.log(notes);
+            setCookie("notes",JSON.stringify(notes));
+
+            // document.cookie = "notes=" + JSON.stringify({foo: 'bar', baz: 'poo'});
+        })
     })
 }
 
@@ -221,8 +323,19 @@ function resizeAllTextareas(){
 // BOOKMARK
 for (let bm of bookmarks){
     bm.addEventListener("click", function(){
-        // bm.classList.toggle("active");
-        bm.parentElement.parentElement.classList.toggle("lot-bookmarked");
+        let parent = bm.parentElement.parentElement;
+        parent.classList.toggle("lot-bookmarked");
+
+
+        // SAVE A COOKIE
+        if (parent.classList.contains("lot-bookmarked")){
+            bookmarked.push(parent.id);
+        } else {
+            if (bookmarked.indexOf(parent.id) > -1) {
+                array.splice(index, 1);
+            }
+        }
+        setCookie("bookmarked",JSON.stringify(bookmarked))
     })
 }
 
@@ -237,10 +350,6 @@ for (let text of highlightTexts){
         }
         clearSelection();
     })
-}
-
-for (let s of sections){
-    console.log(s.id, s.offsetTop);
 }
 
 
@@ -259,17 +368,29 @@ document.addEventListener("keydown", function(e){
 
 function showHideNav(st){
     if (st > 50){nav.classList.add("visible")}
-    else {nav.classList.remove("visible")}
+    else {nav.classList.remove("visible");sb.classList.remove("visible");}
 }
 
 function showCurrentImage(){
-    for (let l of leftSections){
-        let bottom = l.getBoundingClientRect().bottom;
-        let top = l.getBoundingClientRect().top;
-        if (top <= window.innerHeight - window.innerHeight/2 && bottom >= window.innerHeight/2){
-            l.classList.add("active")
-        } else {
-            l.classList.remove("active")
+    if (window.innerWidth > breakpoint){
+        for (let l of leftSections){
+            let bottom = l.getBoundingClientRect().bottom;
+            let top = l.getBoundingClientRect().top;
+            if (top <= window.innerHeight - window.innerHeight/2 && bottom >= window.innerHeight/2){
+                l.classList.add("active")
+            } else {
+                l.classList.remove("active")
+            }
+        }
+    } else {
+        for (let r of rightSections){
+            let bottom = r.getBoundingClientRect().bottom;
+            let top = r.getBoundingClientRect().top;
+            if (top <= 30 && bottom >= window.innerHeight/2){
+                r.classList.add("active")
+            } else {
+                r.classList.remove("active")
+            }
         }
     }
 }
@@ -346,4 +467,78 @@ function jump(h){
 
 function distance(x1, y1, x2, y2){
     return Math.sqrt( Math.pow((x1-x2), 2) + Math.pow((y1-y2), 2) );
+}
+
+// From https://www.w3schools.com/howto/howto_js_fullscreen.asp
+function openFullscreen(elem) {
+  if (elem.requestFullscreen) {
+    elem.requestFullscreen();
+  } else if (elem.webkitRequestFullscreen) { /* Safari */
+    elem.webkitRequestFullscreen();
+  } else if (elem.msRequestFullscreen) { /* IE11 */
+    elem.msRequestFullscreen();
+  }
+}
+
+
+function createNote(sideClass, topVal,innerContent, lotId){
+    let t = document.createElement("TEXTAREA");
+    t.classList.add("notes", "small-type");
+    t.style.top = topVal + "%";
+    document.querySelector("#" + lotId + " ." + sideClass).appendChild(t);
+    t.value = innerContent;
+}
+
+
+
+
+// COOKIES
+
+
+function setCookie(cname,cvalue) {
+//   var d = new Date();
+//   d.setTime(d.getTime() + (exdays*24*60*60*1000));
+//   var expires = "expires=" + d.toGMTString();
+    if (usingCookies){
+        document.cookie = cname + "=" + cvalue + "; max-age=94608000;path=/";
+    }
+}
+
+function getCookie(cname) {
+  var name = cname + "=";
+  var decodedCookie = decodeURIComponent(document.cookie);
+  var ca = decodedCookie.split(';');
+  for(var i = 0; i < ca.length; i++) {
+    var c = ca[i];
+    while (c.charAt(0) == ' ') {
+      c = c.substring(1);
+    }
+    if (c.indexOf(name) == 0) {
+      return c.substring(name.length, c.length);
+    }
+  }
+  return false;
+}
+
+function checkCookie() {
+  var permission=getCookie("permission");
+  if (permission) {
+    cookieBanner.style.display = "none";
+  } 
+//   else {
+//      user = prompt("Please enter your name:","");
+//      if (user != "" && user != null) {
+//        setCookie("username", user, 30);
+//      }
+//   }
+}
+
+
+function acceptCookies(){
+    cookieBanner.style.bottom = "-300px";
+    setCookie("permission", true)
+}
+
+function declineCookies(){
+    usingCookies = false;
 }

@@ -1,17 +1,31 @@
 {% include head.html %}
         <link rel="stylesheet" href="/assets/css/catalogue.css">
+        <style>
+            :root{
+                --catalogueColor: {{page.color}}
+            }
+        </style>
     </head>
-    <body>
+    <body class="loading" onload="checkCookie();">
         <img id="cursor" src="/assets/img/cursor.png">
+        <div id="cookieBanner">
+            <div class="left">We use cookies for the best experience possible. <a href="#">Read More</a></div>
+            <div class="right"><button onclick="acceptCookies()" aria-label="Cookies Yes">Accept</button><button aria-label="Cookies No" onclick="declineCookies()">Decline</button></div>
+        </div>
         <div id="topbar">
             <a href="/"><img id="logo" src="/assets/img/swann-logo.gif"></a>
-            <div class="catalogue-title">Printed Manuscript African Americana  <span class="topbar--dot">•</span>  Wednesday, March 5, 2020 at 10:30am and 2:00pm</div>
+            <div class="catalogue-title">{{page.title}}  <span class="topbar--dot">•</span>  {{ page.date | date: "%A, %B %d, %Y" }} at {{ page.times[0] }} {% if page.times[1] %} and {{page.times[1]}} {%endif%}</div>
             <div class="buttons small-type">
-                <a href="#">Print Catalogue</a>
-                <a href="#">Search Within Catalogue</a>
+                <button onclick="triggerPrintModal()">Print Catalogue</button>
+                <button onclick="triggerSearch()">Search Within Catalogue</button>
             </div>
         </div>
-        <nav class="sidebar">
+        <input type="text" id="searchbar" placeholder="Type name, keyword, date...">
+        <div class="searchBtns">
+            <button id="searchBtn" onclick="search()">Find Next</button>
+            <button onclick="closeSearch()">✕</button>
+        </div>
+        <nav class="sidebar" style="background-color:var(--catalogueColor)">
             <ul class="topContent">
                 <li><a href="#" id="hamburger">
                     <svg width="18" height="18" viewBox="0 0 18 18" fill="none" xmlns="http://www.w3.org/2000/svg"><circle cx="1.5" cy="1.5" r="1.5" fill="black"/><circle cx="1.5" cy="6.5" r="1.5" fill="black"/><circle cx="1.5" cy="11.5" r="1.5" fill="black"/><circle cx="1.5" cy="16.5" r="1.5" fill="black"/><circle cx="6.5" cy="1.5" r="1.5" fill="black"/><circle cx="6.5" cy="6.5" r="1.5" fill="black"/><circle cx="6.5" cy="11.5" r="1.5" fill="black"/><circle cx="6.5" cy="16.5" r="1.5" fill="black"/><circle cx="11.5" cy="1.5" r="1.5" fill="black"/><circle cx="11.5" cy="6.5" r="1.5" fill="black"/><circle cx="11.5" cy="11.5" r="1.5" fill="black"/><circle cx="11.5" cy="16.5" r="1.5" fill="black"/><circle cx="16.5" cy="1.5" r="1.5" fill="black"/><circle cx="16.5" cy="6.5" r="1.5" fill="black"/><circle cx="16.5" cy="11.5" r="1.5" fill="black"/><circle cx="16.5" cy="16.5" r="1.5" fill="black"/></svg>
@@ -56,19 +70,20 @@
                     On the cover:
                     <br> Lot 6 • Frederick Douglass Boulevard
                 </a>
-                <div class="stripe"></div>
+                <div class="stripe" style="background-color:var(--catalogueColor)"></div>
                 <div class="left">
                     <img src="/assets/img/cover.png">
                 </div>
                 <div class="spine">
                     <div class="spine-text">
-                        <span class="spine-date">March 3, 2020</span>
-                        <span class="spine-title">Printed Manuscript African Americana</span>
+                        <span class="spine-date">{{ page.date | date: "%B %d, %Y" }}</span>
+                        <span class="spine-title">{{page.title}}</span>
                     </div>
                 </div>
                 <div class="right">
-                    <h1>Printed Manuscript African Americana</h1>
-                    <h2 class="cover.date">Wednesday, March 5, 2020<br>at 10:30am and 2:00pm</h2>
+                    <h1>{{page.title}}</h1>
+                    <h2 class="cover-date">{{ page.date | date: "%A, %B %d, %Y" }}<br>at {{ page.times[0] }} {% if page.times[1] %} and {{page.times[1]}} {%endif%}</h2>
+                    <h3 class="cover-sale mobile-only">Sale {{page.sale}}</h3>
                 </div>
             </section>
         <div class="main-content">
@@ -103,7 +118,7 @@
                 <div id="toc-dots">
                     {% for dot in site.data.lots %}
                         {% if dot.refno %}
-                    <a href="#" class="dot-container" data-year="{{dot.year}}">
+                    <a href="#{{lot.refno}}" class="dot-container" data-year="{{dot.year}}">
                         <div class="line"></div>
                         <div class="dot-container-inner">
                             {% if dot.bookmark == true %}
@@ -242,7 +257,7 @@
                     <h1>19th & 20th Century Literature</h1>
                 </div>
             </section>
-            <div class="lots">
+            <div class="lots" id="PRINT">
             {% assign lot = site.data.lots[1] %}{% include lot.html %}
             {% assign lot = site.data.lots[2] %}{% include lot.html %}
             {% assign lot = site.data.lots[3] %}{% include lot.html %}
@@ -326,7 +341,33 @@
             <button onclick="this.parentElement.classList.add('got-it')">Got it!</button>
         </div>
 
+        <div id="printModal">
+            <div class="inner">
+                <h2>Choose a<br>print option:</h2>
+                <div class="control-group">
+                    <label class="control control-radio">
+                        Entire catalogue <span>(320)</span>
+                            <input type="radio" name="radio" checked="checked" />
+                        <div class="control_indicator"></div>
+                    </label>
+                    <label class="control control-radio">
+                        Only my bookmarked lots <span>(2)</span>
+                            <input type="radio" name="radio" />
+                        <div class="control_indicator"></div>
+                    </label>
+                    <label class="control control-radio">
+                        Only recommended lots <span>(6)</span>
+                            <input type="radio" name="radio" />
+                        <div class="control_indicator"></div>
+                    </label>
+                </div>
+                <button id="printBtn" class="small-type" onclick="printBook()">Print PDF</button>
+                <button id="cancelBtn" class="small-type" onclick="triggerPrintModal()">Cancel</button>
+            </div>
+        </div>
+
         <script src="https://cdnjs.cloudflare.com/ajax/libs/color-thief/2.3.0/color-thief.umd.js"></script>
+        <script src="/assets/js/cookies.js" async defer></script>
         <script src="/assets/js/catalogue.js" async defer></script>
 
 {% include foot.html %}

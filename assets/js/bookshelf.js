@@ -1,5 +1,6 @@
 let catalogueList = document.getElementById("#catalogueList");
 let catalogues = document.querySelectorAll("#catalogueList li");
+let toolbar = document.querySelector(".toolbar");
 let audio = document.getElementsByTagName("audio")[0];
 
 
@@ -29,6 +30,10 @@ for (let c of catalogues){
         setTimeout( function() { window.location = URL }, 2000 );
         triggerPageTransition(this.parentElement);
     }
+}
+
+function toggleMenu(){
+    toolbar.classList.toggle("open");
 }
 
 function sortTable(category) {
@@ -89,7 +94,9 @@ function triggerPageTransition(selection){
     selection.style.top = selection.getBoundingClientRect().top-window.pageYOffset + "px";
     setTimeout(function(){
         selection.style.top = "0px";
-        selection.style.height = "100vh";
+        // selection.style.height = "100vh";
+        selection.classList.add("focus2");
+        // selection.querySelector("a").style.height = "100vh";
         selection.style.lineHeight = "100vh";
         selection.classList.add("expanded");
     },800)
