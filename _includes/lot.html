@@ -22,6 +22,7 @@
 {% endif %}
 <section id="lot{{lot.refno}}" class="lot lot-recommended">
     <div class="left">
+        <div class="printFooter print-content">Lot {{lot.refno}}</div>
         {% if lot.images %}
             <div class="slideshow">
                     {% if lot.image %}
@@ -44,6 +45,7 @@
         {% endif %}
     </div>
     <div class="right">
+        <div class="printFooter print-content">Lot {{lot.refno}}</div>
         <button class="bookmark-container">
             <span class="onhover"></span>
             <span class="fold-outline"> </span>
@@ -109,4 +111,19 @@
             </div>
         </div>
     </div>
+    <!-- <table class="print-content">
+        <thead><tr><td>
+            <div class="header-space">&nbsp;</div>
+        </td></tr></thead>
+        <tbody><tr><td>
+            <div class="content">...</div>
+        </td></tr></tbody>
+        <tfoot><tr><td>
+            <div class="footer-space">Lot {{lot.refno}}</div>
+        </td></tr></tfoot>
+    </table> -->
+    <!-- <div class="header print-content">...</div> -->
+    <!-- <div class="footer print-content">Lot {{lot.refno}}</div> -->
+    
+    <div class="printFooter print-content">Lot {{lot.refno}}</div>
 </section>
