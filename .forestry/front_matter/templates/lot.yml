@@ -11,6 +11,9 @@ fields:
 - type: text
   name: title
   label: Title/Department
+- name: visible
+  type: boolean
+  label: Visible
 - type: datetime
   name: date
   label: Auction Date & Time
