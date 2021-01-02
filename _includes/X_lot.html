@@ -1,0 +1,127 @@
+{% if lot.header_text %}
+    {% if lot.header_text.type == 'large' %}
+    <section class="header_text {{lot.header_text.type}}" style="background-color: {{lot.header_text.background}}; color: {{lot.header_text.foreground}}">
+        <div class="header-inner">
+            <span>{{lot.header_text.line_2}}</span>
+            <br><span><i>{{lot.header_text.line_3}}</i></span>
+        </div>
+    </section>
+    {% elsif lot.header_text.type == 'large_img' %}
+    <section class="header_text {{lot.header_text.type}}" style="background-image: url(/assets/img/{{lot.REFNO}}.jpg)">
+        <div class="header-inner">
+            <span>{{lot.header_text.line_2}}</span>
+            <br><span><i>{{lot.header_text.line_3}}</i></span>
+        </div>
+    </section>
+    {% endif %}
+{% endif %}
+{% if lot.large_img %}
+    <section class="large_image" style="background-color: {{lot.large_img_background}};">
+        <img src="/assets/img/{{lot.refno}}.jpg">
+    </section>
+{% endif %}
+<section id="lot{{lotNum}}" class="lot lot-recommended">
+    <div class="left">
+        <div class="printFooter print-content">Lot {{lot.REFNO}}</div>
+        {% if lot.images %}
+            <div class="slideshow">
+                    {% if lot.image %}
+                    <img src="/assets/img/{{lot.image}}">
+                    {% else %}
+                    <img src="/assets/img/{{lot.refno}}.jpg">
+                    {% endif %}
+                    {% for image in lot.images %}
+                    <img src="/assets/img/{{image}}">
+                    {% endfor %}
+            </div>
+        {% else %}
+            {% if lot.bgColor %}{% assign bg = lot.bgColor %}{%else%}{%assign bg ='black'%}{%endif%}
+
+            {% if lot.image %}  
+                <img style="background-color:{{bg}}" src="/assets/img/{{lot.image}}">
+            {% else %}
+                <img style="background-color:{{bg}}" src="/assets/img/{{lot.REFNO}}.jpg">
+            {% endif %}
+        {% endif %}
+    </div>
+    <div class="right">
+        <div class="printFooter print-content">Lot {{lot.refno}}</div>
+        <button class="bookmark-container">
+            <span class="onhover"></span>
+            <span class="fold-outline"> </span>
+        </button>
+        <div class="center-column">
+            <div class="mobile-only mobile-thumb"><img src="/assets/img/{{lot.REFNO}}.jpg"></div>
+            <button class="small-type notes-prompt">
+                Add note...
+            </button>
+            <div class="notes-left">
+                <textarea class="notes small-type" id="textarea"></textarea>
+            </div>
+            {% if lot.header_text %}
+                {% if lot.header_text.type == 'small' %}
+                    <div class="header-text-small">
+                        <span class="lotNum">9</span>
+                        <div class="circle"></div>
+                        <span>{{lot.header_text.line_1}}</span>
+                        <div class="circle"></div>
+                        <span><i>{{lot.header_text.line_2}}</i></span>
+                    </div>
+                {% endif %}
+            {% endif %}
+            <span class="lot-number">{{lotNum}}</span>
+            <h2>
+                {{lot.DESCRIPT}}
+                <br><i>{{lot.CROSSHEAD}}</i>
+            </h2>
+            <div class='at-a-glance'>
+                <div class="silhouette">
+                    <div><img src="https://catalogue.swanngalleries.com/thumb//{{lot.REFNO | slice: -3, 3 }}/{{lot.REFNO}}tn.jpg"></div>
+                    <!-- <div><img class="color-theif" src="https://catalogue.swanngalleries.com/thumb//{{lot.REFNO | slice: -3, 3 }}/{{lot.REFNO}}tn.jpg"></div> -->
+                </div>
+                <div>
+                    {{lot.at-a-glance | markdownify }}
+                </div>
+            </div>
+            <p>{{lot.TYPESET}}</p>
+            <div class="excerpt">{{lot.FOOTNOTE | markdownify}}</div>
+            <div class="footnote">
+                <p>{{lot.footnote/provenance}}</p>
+            </div>
+            <div class="estimate">
+                <h5 class="small-type">Estimate</h5>
+                <h2>${% include numberWithCommas.html number=lot.LOW %} – ${% include numberWithCommas.html number=lot.HIGH %}</h2>
+                <button onclick="this.classList.toggle('active')">
+                    Bid Options
+                    <svg style="top:-0.5px;left:-4px" width="10" height="10" viewBox="0 0 10 10" fill="none" xmlns="http://www.w3.org/2000/svg"><path d="M4.05063 0L4.05063 4.02135L0 4.02135L0 5.90747L4.05063 5.90747L4.05063 10L5.96745 10L5.96745 5.90747L10 5.90747L10 4.02135L5.96745 4.02135L5.96745 0L4.05063 0Z" fill="#008FFC"/></svg>
+                </button>
+                <div class="bid-options">
+                    <a target="_blank" href="https://catalogue.swanngalleries.com/Bid/LeaveABid?saleno={{page.sale}}&amp;lotNo={{lotNum}}&amp;refno={{lot.REFNO}}">Absentee Bid</a>
+                    <a target="_blank" href="http://www.swanngalleries.com/app-faq/">Live Bidding App</a>
+                    <a target="_blank" href="http://www.swanngalleries.com/auctions/phone-bidding">Arrange a Phone Bid</a>
+                </div>
+                <a target="_blank" href="https://catalogue.swanngalleries.com/Bid/RequestConditionReport?saleno={{page.sale}}&lotNo={{lotNum}}&refNo={{lot.REFNO}}">Request Condition Report  
+                    <svg style="top:1px" width="8" height="12" viewBox="0 0 8 12" fill="none" xmlns="http://www.w3.org/2000/svg"><path d="M1 1L6 6L1 11" stroke="#008FFC" stroke-width="1.8"/></svg>
+                </a>
+            </div>
+            <div class="notes-right">
+                <textarea class="notes small-type" id="textarea"></textarea>
+            </div>
+        </div>
+    </div>
+    <!-- <table class="print-content">
+        <thead><tr><td>
+            <div class="header-space">&nbsp;</div>
+        </td></tr></thead>
+        <tbody><tr><td>
+            <div class="content">...</div>
+        </td></tr></tbody>
+        <tfoot><tr><td>
+            <div class="footer-space">Lot {{lot.refno}}</div>
+        </td></tr></tfoot>
+    </table> -->
+    <!-- <div class="header print-content">...</div> -->
+    <!-- <div class="footer print-content">Lot {{lot.refno}}</div> -->
+    
+    <div class="printFooter print-content">Lot {{lot.REFNO}}</div>
+</section>

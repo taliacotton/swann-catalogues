@@ -1,5 +1,6 @@
 ---
 title: Test Content
+visible: true
 date: 2020-11-17 00:00:00 Z
 times:
     - 9:30am

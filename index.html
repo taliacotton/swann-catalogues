@@ -43,6 +43,7 @@ layout: bookshelf
     {% endfor %}
 
     {% assign lots = catalogue.lots %}
+    {% if cat.visible %}
   <li data-date='{{ cat.date | date: "%y%m%d" }}' data-size="{{lots.size}}" data-sale="{{cat.sale}}">
     <a href="{{cat.permalink}}">
         <span class="space"></span>
@@ -61,6 +62,7 @@ layout: bookshelf
         <div class="stripe"></div>
     </div> -->
   </li>
+  {% endif %}
   {% endfor %}
 
   <!-- <li data-date="191107" data-size="230" data-sale="2205">
