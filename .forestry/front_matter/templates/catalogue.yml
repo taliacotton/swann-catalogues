@@ -148,6 +148,10 @@ fields:
     showOnly:
       field: header
       value: true
+  - name: images
+    type: image_gallery
+    config: {}
+    label: Image Slideshow (Optional)
   config:
     labelField: DESCRIPT
 pages:
