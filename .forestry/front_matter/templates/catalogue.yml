@@ -52,7 +52,7 @@ fields:
       up in italicized type right below the main description.
     label: Excerpt
   - type: text
-    name: footnote/provenance
+    name: footnote_provenance
     label: Footnote/Provenance
     description: This shows up in small at-a-glance type underneath the main text.
   - type: text
@@ -139,7 +139,7 @@ fields:
       showOnly:
         field: header_type
         value: Large
-    label: Large Header
+    label: Large Header Text
     showOnly:
       field: header
       value: true
