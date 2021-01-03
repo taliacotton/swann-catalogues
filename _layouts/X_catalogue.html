@@ -235,26 +235,13 @@
                     </div>
                     <h3>Administration</h3>
                     <div class="people">
+                        {% for entry in page.people.administration %}
+                        {% assign person = site.people | where: "path", entry | first %}
                         <div>
-                            <h4><b>Andrew M. Ansorge</b><br>Vice President & Controller</h4>
-                            <small>aansorge@swanngalleries.com</small>
+                            <h4><b>{{person.name}}</b><br>{{person.role}}</h4>
+                            <small>{{person.email}}</small>
                         </div>
-                        <div>
-                            <h4><b>Ariel Kim</b><br>Client Accounting</h4>
-                            <small>akim@swanngalleries.com</small>
-                        </div>
-                        <div>
-                            <h4><b>Alexandra Nelson</b><br>Communications Director, Auctioneer</h4>
-                            <small>akim@swanngalleries.com</small>
-                        </div>
-                        <div>
-                            <h4><b>Bette Rothstein</b><br>Art Director</h4>
-                            <small>better@swanngalleries.com</small>
-                        </div>
-                        <div>
-                            <h4><b>Diana Gibaldi</b><br>Operations Manager</h4>
-                            <small>diana@swanngalleries.com</small>
-                        </div>
+                        {% endfor %}
                     </div>
                     {{page.people.general_information | markdownify}}
                 </div>

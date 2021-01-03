@@ -1,6 +1,6 @@
 ---
 name: Bette Rothstein
-title: Art Director
+role: Art Director
 email: better@swanngalleries.com
 phone: ''
 image: ''

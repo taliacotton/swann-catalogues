@@ -3,6 +3,8 @@ timezone: UTC
 collections:
   lots:
     output: true
+  people:
+    output: true
   catalogues:
     output: true
     permalink: /catalogue/:title

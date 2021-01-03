@@ -1,6 +1,6 @@
 ---
 name: Ariel Kim
-title: Client Accounting
+role: Client Accounting
 email: akim@swanngalleries.com
 phone: ''
 image: ''

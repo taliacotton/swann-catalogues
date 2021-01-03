@@ -1,6 +1,6 @@
 ---
 name: Nigel Freeman
-title: Director
+role: Director
 email: nfreeman@swanngalleries.com
 phone: 212 254 4710 ext. 33
 image: ''
