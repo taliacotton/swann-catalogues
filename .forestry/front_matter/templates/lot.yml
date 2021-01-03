@@ -12,6 +12,10 @@ fields:
   name: permalink
   label: permalink
   hidden: true
+- type: text
+  name: filename
+  label: filename
+  hidden: true
 - name: visible
   type: boolean
   label: Visible
@@ -27,6 +31,18 @@ fields:
 - type: text
   name: title
   label: Title/Department
+- name: lots
+  type: select
+  default: []
+  config:
+    required: false
+    options: []
+    source:
+      type: pages
+      section: catalogue-data-files
+      file: 
+      path: 
+  label: Lots
 - name: datetime
   type: field_group
   config: {}
@@ -59,10 +75,6 @@ fields:
       time_format: h:mm A
       display_utc: true
   label: Auction Date & Time(s)
-- type: text
-  name: filename
-  label: filename
-  hidden: true
 - name: color
   type: color
   label: Color
@@ -70,18 +82,32 @@ fields:
     required: false
     color_format: Hex
   default: "#AD926F"
-- name: lots
-  type: select
-  default: []
-  config:
-    required: false
-    options: []
-    source:
-      type: pages
-      section: catalogue-data-files
-      file: 
-      path: 
-  label: Lots
+- name: cover_image
+  type: field_group
+  config: {}
+  fields:
+  - name: lot_number
+    type: number
+    label: Lot Number
+    description: This is used to generate the link
+    default: 0
+    required: true
+    config:
+      min: 
+      max: 
+      step: 
+  - name: title
+    type: text
+    config:
+      required: false
+    label: Title
+    description: This shows up as the text for the link after "On the Cover"
+  - name: image
+    type: file
+    config:
+      maxSize: 64
+    label: Image
+  label: Cover Image
 - name: people
   type: field_group
   config: {}
