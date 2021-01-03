@@ -35,6 +35,8 @@ lots:
     line_2_text: Line 2
     background_color: "#417505"
     text_color: white
+    header_type: Large
+  header: true
 - LOT: "2"
   REFNO: "773660"
   LOW: "100"
