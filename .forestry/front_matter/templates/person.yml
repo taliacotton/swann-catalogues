@@ -4,7 +4,7 @@ hide_body: true
 display_field: name
 fields:
 - type: text
-  name: name
+  name: title
   label: Name
 - type: text
   name: role
