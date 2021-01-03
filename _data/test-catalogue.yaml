@@ -64,10 +64,12 @@ lots:
   color_background: ''
   header_type: ''
   large_header:
-    line_1_text: ''
-    line_2_text: ''
+    line_1_text: Line 1
+    line_2_text: Line 2
     background_color: ''
     text_color: ''
+    header_type: Small/Medium
+  header: true
 - LOT: "3"
   REFNO: "775332"
   LOW: "2000"
