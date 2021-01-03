@@ -48,7 +48,7 @@ fields:
       required: false
       date_format: 
       time_format: h:mm A
-      display_utc: false
+      display_utc: true
   label: Auction Date & Time(s)
 - type: number
   name: sale
