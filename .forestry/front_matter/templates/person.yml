@@ -21,5 +21,6 @@ fields:
     maxSize: 64
   label: Image
 pages:
+- _people/client-accounting.md
 - _people/director.md
 - _people/vice-president-controller.md
