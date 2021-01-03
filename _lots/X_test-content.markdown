@@ -70,5 +70,9 @@ people:
   - _people/vice-president-controller.md
   - _people/daile-kaplan.md
   - _people/todd-weyman.md
+cover_image:
+  lot_number: 3
+  image: "/v1609710789/776339_g8dxaq.jpg"
+  title: Marc Sterling, Untitled (Cubist Still Life)
 
 ---
