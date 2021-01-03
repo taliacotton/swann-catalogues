@@ -92,7 +92,7 @@
                 </div>
                 <div class="right">
                     <h1>{{page.title}}</h1>
-                    <h2 class="cover-date">{{ page.date | date: "%A, %B %d, %Y" }}<br>at {{ page.times[0] }} {% if page.times[1] %} and {{page.times[1]}} {%endif%}</h2>
+                    <h2 class="cover-date">{{ page.date | date: "%A, %B %d, %Y" }}<br>at {{ page.times[0].time | date: "%l:%M%P" }} {% if page.times[1] %} and {{page.times[1].time | date: "%l:%M%P"}} {%endif%}</h2>
                     <h3 class="cover-sale mobile-only">Sale {{page.sale}}</h3>
                 </div>
             </section>
