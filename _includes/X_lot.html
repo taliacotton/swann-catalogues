@@ -1,16 +1,16 @@
-{% if lot.header_text %}
-    {% if lot.header_text.type == 'large' %}
-    <section class="header_text {{lot.header_text.type}}" style="background-color: {{lot.header_text.background}}; color: {{lot.header_text.foreground}}">
+{% if lot.header %}
+    {% if lot.large_header.header_type == 'Large' %}
+    <section class="header_text {{lot.large_header.header_type | slugify}}" style="background-color: {{lot.large_header.background_color}}; color: {{lot.large_header.text_color}}">
         <div class="header-inner">
-            <span>{{lot.header_text.line_2}}</span>
-            <br><span><i>{{lot.header_text.line_3}}</i></span>
+            <span>{{lot.large_header.line_1_text}}</span>
+            <br><span><i>{{lot.large_header.line_2_text}}</i></span>
         </div>
     </section>
-    {% elsif lot.header_text.type == 'large_img' %}
-    <section class="header_text {{lot.header_text.type}}" style="background-image: url(/assets/img/{{lot.REFNO}}.jpg)">
+    {% elsif lot.large_header.header_type == 'Large (image)' %}
+    <section class="header_text {{lot.large_header.header_type | slugify}}" style="background-image: url(/assets/img/{{lot.REFNO}}.jpg)">
         <div class="header-inner">
-            <span>{{lot.header_text.line_2}}</span>
-            <br><span><i>{{lot.header_text.line_3}}</i></span>
+            <span>{{lot.large_header.line_1_text}}</span>
+            <br><span><i>{{lot.large_header.line_2_text}}</i></span>
         </div>
     </section>
     {% endif %}
@@ -35,7 +35,7 @@
                     {% endfor %}
             </div>
         {% else %}
-            {% if lot.bgColor %}{% assign bg = lot.bgColor %}{%else%}{%assign bg ='black'%}{%endif%}
+            {% if lot.color_background %}{% assign bg = lot.color_background %}{%else%}{%assign bg ='black'%}{%endif%}
 
             {% if lot.image %}  
                 <img style="background-color:{{bg}}" src="/assets/img/{{lot.image}}">
@@ -83,7 +83,7 @@
                     {{lot.at-a-glance | markdownify }}
                 </div>
             </div>
-            <p>{{lot.TYPESET}}</p>
+            {{lot.TYPESET | markdownify}}
             <div class="excerpt">{{lot.FOOTNOTE | markdownify}}</div>
             <div class="footnote">
                 <p>{{lot.footnote/provenance}}</p>
