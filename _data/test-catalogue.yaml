@@ -1,6 +1,26 @@
 ---
 lots:
 - DESCRIPT: Austen, Jane
+  CROSSHEAD: 'Pride and Prejudice: A Novel. In Three Volumes. By the Author of "Sense
+    and Sensibility."'
+  at-a-glance: "3 volumes. Lacking half-titles. \n\n12mo, 19th century 1/2 brown morocco
+    over marbled boards, spines ruled and lettered in gilt, light rubbing to spine
+    tips and corners; foxing chiefly to prelims and endleaves. The uncommon second
+    edition."
+  TYPESET: 'According to Gilson, the publishing history is murky ("The size of the
+    edition is not known"), but is thought to have been published in October, eight
+    months after it originally appeared. It does differ from the first edition in
+    that it is entirely reset, resulting in occasional variations within the page.
+    In addition, there are numerous small changes to spelling and punctuation and,
+    occasionally, a change in wording (see Gilson A4 for list of alterations.); Chapman
+    4. London: Printed for T. Egerton, 1813'
+  FOOTNOTE: ''
+  LOW: "4000"
+  HIGH: "6000"
+  color_background: "#000000"
+  large_header:
+    header_type: []
+- DESCRIPT: Austen, Jane
   CROSSHEAD: 'Pride and Prejudice: A Novel. In Three Volumes'
   at-a-glance: "3 volumes. 168 x 100 mm. \n\nHalf-title in volume 1 likely supplied
     from the second edition; facsimiles in vols. 2 and 3. 12mo, 19th century full
