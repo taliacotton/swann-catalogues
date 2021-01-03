@@ -9,7 +9,7 @@ color: "#a6dbff"
 lots: _data/test-catalogue.yaml
 visible: false
 times:
-- time: 2021-01-01 19:00:00 +0000
 - time: 2021-01-01 16:30:00 +0000
+- time: 2021-01-01 19:00:00 +0000
 
 ---
