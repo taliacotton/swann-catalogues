@@ -1,5 +1,5 @@
 ---
-name: Diana Gibaldi
+title: Diana Gibaldi
 role: Operations Manager
 email: diana@swanngalleries.com
 phone: ''

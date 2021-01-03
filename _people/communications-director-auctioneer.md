@@ -1,5 +1,5 @@
 ---
-name: Alexandra Nelson
+title: Alexandra Nelson
 role: Communications Director, Auctioneer
 email: alexandra@swanngalleries.com
 phone: ''
