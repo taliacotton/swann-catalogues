@@ -27,14 +27,14 @@ fields:
 - name: times
   type: field_group_list
   fields:
-  - name: time_test
+  - name: time
     type: datetime
-    label: time test
+    label: Time
     description: ''
     config:
       required: false
       date_format: ''
-      time_format: H:MM
+      time_format: h:mm A ZZ
       display_utc: false
   config:
     min: 1
