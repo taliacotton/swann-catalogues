@@ -141,23 +141,6 @@ lots:
     background_color: ''
     text_color: ''
   image: "/v1609709571/2018_CKS_15484_0395_000_maurice_utrillo_la_rue_norvins_a_montmartre091037_cwbizg.jpg"
-- LOT: ''
-  DESCRIPT: ''
-  CROSSHEAD: ''
-  at-a-glance: ''
-  TYPESET: ''
-  FOOTNOTE: ''
-  footnote_provenance: ''
-  LOW: ''
-  HIGH: ''
-  REFNO: ''
-  color_background: ''
-  header_type: ''
-  large_header:
-    line_1_text: ''
-    line_2_text: ''
-    background_color: ''
-    text_color: ''
 title: TEST LOTS
 layout: ''
 color: "#B484CA"
