@@ -18,12 +18,6 @@ fields:
 - name: visible
   type: boolean
   label: Visible
-- type: datetime
-  name: date
-  label: Auction Date
-  default: now
-  config:
-    date_format: MM/DD/YYYY
 - name: datetime
   type: field_group
   config: {}
@@ -45,7 +39,7 @@ fields:
       required: false
       date_format: 
       time_format: h:mm A
-      display_utc: false
+      display_utc: true
   - name: time2
     type: datetime
     label: 'Time #2 (if applicable)'
