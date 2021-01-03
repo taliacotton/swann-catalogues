@@ -1,5 +1,5 @@
 ---
-number: 0
+number: 
 title: Daile Kaplan
 role: Vice President
 email: ''
