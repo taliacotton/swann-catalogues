@@ -33,7 +33,7 @@ fields:
     description: ''
     config:
       required: false
-      date_format: "/"
+      date_format: ''
       time_format: H:MM
       display_utc: false
   config:
