@@ -79,24 +79,6 @@ fields:
     default: "#000000"
     description: 'Use color to make a lot stand out, perhaps. Default is black, recommended
       is black or white. '
-  - name: header_type
-    type: select
-    default: ''
-    config:
-      required: false
-      options:
-      - Small
-      - Medium
-      - Large
-      - Large (img)
-      source:
-        type: simple
-        section: 
-        file: 
-        path: 
-    label: Will there be a special large header text?
-    description: Use special header text to draw attention to a lot. Suggested infrequent
-      use to make the impact of stronger.
   - name: header
     type: boolean
     label: Will there be special large header text?
@@ -160,7 +142,7 @@ fields:
     label: Large Header
     showOnly:
       field: header
-      value: Large
+      value: true
   config:
     labelField: DESCRIPT
 pages:
