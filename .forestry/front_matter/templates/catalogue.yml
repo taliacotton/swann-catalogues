@@ -94,7 +94,7 @@ fields:
         options:
         - Large (Image)
         - Large
-        - Small/Medium
+        - Small
         source:
           type: simple
           section: 
