@@ -96,7 +96,7 @@ fields:
         type: pages
         section: people
     label: Main Contacts
-  - name: people
+  - name: officers
     type: list
     config:
       use_select: true
