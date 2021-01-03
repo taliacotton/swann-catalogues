@@ -28,13 +28,13 @@ lots:
   at-a-glance: 8x13 inches; encapsulated (but removable), few separations at folds
     repaired on verso, faint scattered soiling; matted and framed.
   footnote/provenance: ''
-  color_background: ''
-  header_type: ''
+  color_background: "#FF2B2B"
+  header_type: Large
   large_header:
-    line_1_text: ''
-    line_2_text: ''
-    background_color: ''
-    text_color: ''
+    line_1_text: Line 1
+    line_2_text: Line 2
+    background_color: "#417505"
+    text_color: white
 - LOT: "2"
   REFNO: "773660"
   LOW: "100"
