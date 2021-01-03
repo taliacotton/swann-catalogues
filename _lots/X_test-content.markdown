@@ -52,8 +52,6 @@ footer_pages:
 
     14\. THE "LIMITED WARRANTY" APPEARING BELOW AND THE "ADVICE TO PROSPECTIVE BIDDERS" APPEARING OVERLEAF FORM PART OF THESE CONDITIONS OF SALE.
 people:
-  people:
-  - _people/nico_lowry.yaml
   administration:
   - _people/art-director.md
   - _people/operations-manager.md
