@@ -489,6 +489,19 @@ function createNote(sideClass, topVal,innerContent, lotId){
     t.value = innerContent;
 }
 
+function testPassword(){
+    console.log(document.getElementById("pw").value)
+    if (document.getElementById("pw").value == "104East25th"){
+        document.body.classList.remove("visible-false");
+        if (document.querySelector(".password-modal input[type='checkbox']").checked){
+            setCookie("access", true);
+        }
+    } else {
+        document.getElementById("pw").style.animation = "shake 0.5s";
+        document.getElementById("pw").style.border = "1px solid red";
+    }
+}
+
 
 
 
@@ -524,6 +537,10 @@ function checkCookie() {
   var permission=getCookie("permission");
   if (permission) {
     cookieBanner.style.display = "none";
+  } 
+  var access=getCookie("access");
+  if (access) {
+    document.body.classList.remove("visible-false");
   } 
 //   else {
 //      user = prompt("Please enter your name:","");

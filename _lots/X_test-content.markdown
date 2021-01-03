@@ -52,10 +52,6 @@ footer_pages:
 
     14\. THE "LIMITED WARRANTY" APPEARING BELOW AND THE "ADVICE TO PROSPECTIVE BIDDERS" APPEARING OVERLEAF FORM PART OF THESE CONDITIONS OF SALE.
 people:
-  main_contacts:
-    header: African-American Fine Art
-    people:
-    - _people/director.md
   people:
   - _people/nico_lowry.yaml
   administration:

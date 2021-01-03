@@ -6,7 +6,7 @@
             <br><span><i>{{lot.large_header.line_2_text}}</i></span>
         </div>
     </section>
-    {% elsif lot.large_header.header_type == 'Large (image)' %}
+    {% elsif lot.large_header.header_type == 'Large (Image)' %}
     <section class="header_text {{lot.large_header.header_type | slugify}}" style="background-image: url(/assets/img/{{lot.REFNO}}.jpg)">
         <div class="header-inner">
             <span>{{lot.large_header.line_1_text}}</span>
