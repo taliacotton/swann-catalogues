@@ -7,8 +7,8 @@ fields:
   name: name
   label: Name
 - type: text
-  name: title
-  label: Title
+  name: role
+  label: Title/Role
 - type: text
   name: email
   label: Email
