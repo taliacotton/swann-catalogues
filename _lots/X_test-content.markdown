@@ -51,5 +51,10 @@ footer_pages:
     9\. All property shall be removed from Swami by the purchaser at his expense no later than five (5) days fol-lowing its sale, and if not so removed may, at Swann's option, be sent by Swann to a public warehouse at the account, risk and expense of the purchaser. Whether sent to a warehouse or stored by Swann, the purchaser shall be liable for all actual expenses incurred plus a storage charge of 5% of the purchase price. 10. Except as noted in this paragraph, all lots in this sale are offered for the account of a third party, without any interest (direct or indirect) of the auctioneer or Swann. Where Swami or an affiliate of Swann is the sole or partial owner of the property it is noted by the symbol ♦ next to the description of that lot. Under no circumstances will the Consignor receive any rebate commission. Under no circumstances may the Consignor bid upon or buy back his property. 11. Except as may be otherwise expressly provided herein, any and all claims of a purchaser shall be deemed to be waived and without validity unless delivered in writing by registered mail return receipt requested to Swann within thirty (30) days of the date of sale. 12. The rights and obligations of the parties shall be governed by the laws of the State of New York. All bidders and the purchaser submit to the personal juris-diction of the New York State courts and their rules and procedures in the event of any dispute. 13. No waiver or alteration of any of these Conditions of Sale, the Advice to Prospective Bidders, the Limited Warranty, the estimates, or any other matter in this cat-alogue or any other matter whatever (whether made by the auctioneer, or Consignor, or any representative of Swann) shall be effective unless it is in writing and signed by a representative of Swann.
 
     14\. THE "LIMITED WARRANTY" APPEARING BELOW AND THE "ADVICE TO PROSPECTIVE BIDDERS" APPEARING OVERLEAF FORM PART OF THESE CONDITIONS OF SALE.
+people:
+  main_contacts:
+    header: African-American Fine Art
+    people:
+    - _people/director.md
 
 ---
