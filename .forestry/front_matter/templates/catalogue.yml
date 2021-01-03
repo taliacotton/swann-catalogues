@@ -101,6 +101,21 @@ fields:
     type: field_group
     config: {}
     fields:
+    - name: header_type
+      type: select
+      default: []
+      config:
+        required: false
+        options:
+        - Large (Image)
+        - Large
+        - Small/Medium
+        source:
+          type: simple
+          section: 
+          file: 
+          path: 
+      label: Header Type
     - name: line_1_text
       type: text
       config:
@@ -119,6 +134,9 @@ fields:
       config:
         required: false
         color_format: Hex
+      showOnly:
+        field: header_type
+        value: Large
     - name: text_color
       type: select
       default: ''
@@ -133,6 +151,9 @@ fields:
           file: 
           path: 
       label: Text color
+      showOnly:
+        field: header_type
+        value: Large
     label: Large Header
     showOnly:
       field: header_type
