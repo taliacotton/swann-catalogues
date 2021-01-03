@@ -97,6 +97,9 @@ fields:
     label: Will there be a special large header text?
     description: Use special header text to draw attention to a lot. Suggested infrequent
       use to make the impact of stronger.
+  - name: header
+    type: boolean
+    label: Will there be special large header text?
   - name: large_header
     type: field_group
     config: {}
@@ -156,7 +159,7 @@ fields:
         value: Large
     label: Large Header
     showOnly:
-      field: header_type
+      field: header
       value: Large
   config:
     labelField: DESCRIPT
