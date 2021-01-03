@@ -24,46 +24,38 @@ fields:
   default: now
   config:
     date_format: MM/DD/YYYY
-- name: times
-  type: field_group_list
+- name: datetime
+  type: field_group
+  config: {}
   fields:
+  - name: date
+    type: datetime
+    label: Auction Date
+    description: ''
+    config:
+      required: false
+      date_format: MM/DD/YYYY
+      time_format: 
+      display_utc: false
   - name: time
     type: datetime
     label: Time
     description: ''
     config:
       required: false
-      date_format: ''
+      date_format: 
       time_format: h:mm A
       display_utc: false
-  config:
-    min: 1
-    max: 2
-    labelField: 
-  label: Auction Time(s)
-- name: auction_times__2_
-  type: field_group
-  config: {}
-  fields:
-  - name: time
+  - name: time2
     type: datetime
-    label: time
+    label: 'Time #2 (if applicable)'
     description: ''
     config:
       required: false
       date_format: 
       time_format: h:mm A
       display_utc: false
-  - name: time_2
-    type: datetime
-    label: Time 2
-    description: ''
-    config:
-      required: false
-      date_format: 
-      time_format: h:mm A
-      display_utc: false
-  label: Auction Times (2)
+  label: Auction Date & Time(s)
 - type: number
   name: sale
   label: Sale Number
