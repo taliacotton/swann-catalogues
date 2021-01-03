@@ -1,5 +1,5 @@
 ---
-title: Test Content (Template)
+title: Test Content
 permalink: "/X"
 layout: X_catalogue
 sale: 0
