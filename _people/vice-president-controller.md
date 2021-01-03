@@ -4,6 +4,5 @@ title: Vice President & Controller
 email: aansorge@swanngalleries.com
 phone: ''
 image: ''
-published: false
 
 ---
