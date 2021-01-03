@@ -56,5 +56,15 @@ people:
     header: African-American Fine Art
     people:
     - _people/director.md
+  people:
+  - _people/nico_lowry.yaml
+  administration:
+  - _people/art-director.md
+  - _people/operations-manager.md
+  - _people/communications-director-auctioneer.md
+  general_information: "**For general information and to arrange absentee or phone
+    bidding:**  \n212 254 4710 ext. 0\n\n**For questions on invoicing and shipping:**
+    \ \n212 254 4710 ext. 31\n\n**For inquiries regarding the items in this auction:**
+    \ \nRick Stattler, ext. 27  \n[rstattler@swanngalleries.com](mailto:rstattler@swanngalleries.com)"
 
 ---
