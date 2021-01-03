@@ -20,6 +20,16 @@ fields:
   config:
     maxSize: 64
   label: Image
+- name: number
+  type: number
+  label: Auctioneer Number (if applicable)
+  description: ''
+  default: 0
+  required: true
+  config:
+    min: 
+    max: 
+    step: 
 pages:
 - _people/art-director.md
 - _people/client-accounting.md
