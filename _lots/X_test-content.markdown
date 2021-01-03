@@ -53,14 +53,22 @@ footer_pages:
     14\. THE "LIMITED WARRANTY" APPEARING BELOW AND THE "ADVICE TO PROSPECTIVE BIDDERS" APPEARING OVERLEAF FORM PART OF THESE CONDITIONS OF SALE.
 people:
   administration:
+  - _people/vice-president-controller.md
+  - _people/client-accounting.md
   - _people/art-director.md
-  - _people/operations-manager.md
   - _people/communications-director-auctioneer.md
+  - _people/operations-manager.md
   general_information: "**For general information and to arrange absentee or phone
     bidding:**  \n212 254 4710 ext. 0\n\n**For questions on invoicing and shipping:**
     \ \n212 254 4710 ext. 31\n\n**For inquiries regarding the items in this auction:**
     \ \nRick Stattler, ext. 27  \n[rstattler@swanngalleries.com](mailto:rstattler@swanngalleries.com)"
   main_contacts:
   - _people/director.md
+  officers:
+  - _people/george-s.lowry.md
+  - _people/nicholas-d.lowry.md
+  - _people/vice-president-controller.md
+  - _people/daile-kaplan.md
+  - _people/todd-weyman.md
 
 ---
