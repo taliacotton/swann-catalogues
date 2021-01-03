@@ -27,11 +27,15 @@ fields:
 - name: times
   type: field_group_list
   fields:
-  - name: time
-    type: text
+  - name: time_test
+    type: datetime
+    label: time test
+    description: ''
     config:
       required: false
-    label: Time
+      date_format: "/"
+      time_format: H:MM
+      display_utc: false
   config:
     min: 1
     max: 2
