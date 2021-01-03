@@ -1,6 +1,5 @@
 ---
 title: Test Content (Template)
-date: 2020-11-17T00:00:00.000+00:00
 permalink: "/X"
 layout: X_catalogue
 sale: 0
@@ -8,12 +7,6 @@ filename: 2551-catalogue-pentagram-old
 color: "#a6dbff"
 lots: _data/test-catalogue.yaml
 visible: false
-times:
-- time: '2021-01-01T16:30:00.000+00:00'
-- time: '2021-01-01T19:00:00.000+00:00'
-auction_times__2_:
-  time: '2001-11-01 16:30:00 +0000'
-  time_2: '2021-01-01 19:00:00 +0000'
 datetime:
   date: 2020-12-16 05:00:00 +0000
   time: 2021-01-01 16:30:00 +0000
