@@ -86,13 +86,24 @@
         </nav>
         <section id="cover">
                 <img class="logo" src="/assets/img/swann-logo.gif">
-                <a class="on-the-cover small-type" href="#">
+                <a class="on-the-cover small-type" href="#lot{{page.cover_image.lot_number}}">
                     On the cover:
-                    <br> Lot 6 • Frederick Douglass Boulevard
+                    <br> Lot {{page.cover_image.lot_number}} • {{page.cover_image.title}}
                 </a>
                 <div class="stripe" style="background-color:var(--catalogueColor)"></div>
                 <div class="left">
-                    <img src="/assets/img/cover.png">
+                    <img style="background-color:{{bg}}"
+                        sizes="(min-width: 30em) 50vw, 100vw"
+                        srcset="{{ site.cloudinary_url }}/f_auto,q_70,w_128/{{ page.cover_image.image }} 256w,
+                                {{ site.cloudinary_url }}/f_auto,q_70,w_256/{{ page.cover_image.image }} 512w,
+                                {{ site.cloudinary_url }}/f_auto,q_70,w_384/{{ page.cover_image.image }} 768w,
+                                {{ site.cloudinary_url }}/f_auto,q_70,w_512/{{ page.cover_image.image }} 1024w,
+                                {{ site.cloudinary_url }}/f_auto,q_70,w_640/{{ page.cover_image.image }} 1280w,
+                                {{ site.cloudinary_url }}/f_auto,q_70,w_800/{{ page.cover_image.image }} 1600w,
+                                {{ site.cloudinary_url }}/f_auto,q_70,w_1000/{{ page.cover_image.image }} 2000w,
+                                {{ site.cloudinary_url }}/f_auto,q_70,w_1200/{{ page.cover_image.image }} 2400w"
+                        src="{{ site.cloudinary_url }}/f_auto,q_70,w_512/{{ page.cover_image.image }}"
+                        alt="" />
                 </div>
                 <div class="spine">
                     <div class="spine-text">
@@ -174,71 +185,39 @@
                     <img class="logo" src="/assets/img/swann-logo-alt.gif">
                     <h2>{{page.title}}</h2>
                     <div class="people">
+                        {% for entry in page.people.main_contacts %}
+                        {% assign person = site.people | where: "path", entry | first %}
                         <div>
-                            <img src="/assets/img/nico.png" alt="Nicholas D. Lowry, Director, Posters">
-                            <h4><b>Nicholas D. Lowry</b><br>Director, Posters</h4>
+                            <img src="{{ site.cloudinary_url }}/w_100,c_scale/{{ person.image }}" alt="{{person.title}}, {{person.role}}">
+                            <h4><b>{{person.title}}</b><br>{{person.role}}</h4>
                             <small>
-                                posters@swanngalleries.com
-                                <br>212 254 4710 ext. 57
+                                {{person.email}}
+                                <br>{{person.phone}}
                             </small>
                         </div>
-                        <div>
-                            <img src="/assets/img/nico.png" alt="Nicholas D. Lowry, Director, Posters">
-                            <h4><b>Christine von der Linn</b><br>Specialist, Illustration Art</h4>
-                            <small>
-                                posters@swanngalleries.com
-                                <br>212 254 4710 ext. 57
-                            </small>
-                        </div>
-                        <div>
-                            <img src="/assets/img/nico.png" alt="Nicholas D. Lowry, Director, Posters">
-                            <h4><b>Rick Stattler</b><br>Director, Books</h4>
-                            <small>
-                                posters@swanngalleries.com
-                                <br>212 254 4710 ext. 57
-                            </small>
-                        </div>
-                        <div>
-                            <img src="/assets/img/nico.png" alt="Nicholas D. Lowry, Director, Posters">
-                            <h4><b>Christine von der Linn</b><br>Specialist, Illustration Art</h4>
-                            <small>
-                                posters@swanngalleries.com
-                                <br>212 254 4710 ext. 57
-                            </small>
-                        </div>
-                        <div>
-                            <img src="/assets/img/nico.png" alt="Nicholas D. Lowry, Director, Posters">
-                            <h4><b>Rick Stattler</b><br>Director, Books</h4>
-                            <small>
-                                posters@swanngalleries.com
-                                <br>212 254 4710 ext. 57
-                            </small>
-                        </div>
+                        {% endfor %}
                     </div>
                 </div>
                 <div class="right">
                     <img style="visibility:hidden;opacity:0" class="logo" src="/assets/img/swann-logo-alt.gif">
                     <h3>Officers</h3>
                      <div class="people">
+                        {% for entry in page.people.officers %}
+                        {% assign person = site.people | where: "path", entry | first %}
                         <div>
-                            <h4><b>George S Lowry</b><br>Chairman</h4>
-                        </div>
-                        <div>
-                            <h4><b>Nicholas Lowry</b><br>President<br>Principal Auctioneer</h4>
+                            <h4><b>{{person.title}}</b><br>{{person.role}}</h4>
                             <small>
-                                #924899
+                                {{person.number}}
                             </small>
                         </div>
-                        <div>
-                            <h4><b>Andrew M. Ansorge,<br>Daile Kaplan,<br>Todd Weyman</b><br>Vice Presidents</h4>
-                        </div>
+                        {% endfor %}
                     </div>
                     <h3>Administration</h3>
                     <div class="people">
                         {% for entry in page.people.administration %}
                         {% assign person = site.people | where: "path", entry | first %}
                         <div>
-                            <h4><b>{{person.name}}</b><br>{{person.role}}</h4>
+                            <h4><b>{{person.title}}</b><br>{{person.role}}</h4>
                             <small>{{person.email}}</small>
                         </div>
                         {% endfor %}

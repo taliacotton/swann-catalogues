@@ -18,3 +18,4 @@ twitter_username: jekyllrb
 github_username: jekyll
 sass:
   sass_dir: _sass
+cloudinary_url: "https://res.cloudinary.com/dcryyrd42/image/upload"

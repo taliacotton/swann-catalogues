@@ -38,7 +38,19 @@
             {% if lot.color_background %}{% assign bg = lot.color_background %}{%else%}{%assign bg ='black'%}{%endif%}
 
             {% if lot.image %}  
-                <img style="background-color:{{bg}}" src="/assets/img/{{lot.image}}">
+                <!-- <img style="background-color:{{bg}}" src="/assets/img/{{lot.image}}"> -->
+                <img style="background-color:{{bg}}"
+                        sizes="(min-width: 30em) 50vw, 100vw"
+                        srcset="{{ site.cloudinary_url }}/f_auto,q_70,w_128/{{ lot.image }} 256w,
+                                {{ site.cloudinary_url }}/f_auto,q_70,w_256/{{ lot.image }} 512w,
+                                {{ site.cloudinary_url }}/f_auto,q_70,w_384/{{ lot.image }} 768w,
+                                {{ site.cloudinary_url }}/f_auto,q_70,w_512/{{ lot.image }} 1024w,
+                                {{ site.cloudinary_url }}/f_auto,q_70,w_640/{{ lot.image }} 1280w,
+                                {{ site.cloudinary_url }}/f_auto,q_70,w_800/{{ lot.image }} 1600w,
+                                {{ site.cloudinary_url }}/f_auto,q_70,w_1000/{{ lot.image }} 2000w,
+                                {{ site.cloudinary_url }}/f_auto,q_70,w_1200/{{ lot.image }} 2400w"
+                        src="{{ site.cloudinary_url }}/f_auto,q_70,w_512/{{ lot.image }}"
+                        alt="" />
             {% else %}
                 <img style="background-color:{{bg}}" src="/assets/img/{{lot.REFNO}}.jpg">
             {% endif %}
