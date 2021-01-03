@@ -98,15 +98,16 @@ lots:
   REFNO: "774929"
   LOW: "600"
   HIGH: "900"
-  DESCRIPT: UTRILLO, MAURICE (Pétridès, Paul). L'oeuvre complet.
-  CROSSHEAD: ''
-  TYPESET: UTRILLO, MAURICE (Pétridès, Paul). L'oeuvre complet. 5 volumes. Title-pages
-    printed in green and black. Numerous illustrations throughout. 4to, publisher's
-    printed wrappers; each in board chemise and slipcase (occasional light wear).
-    Limited edition, each one of 1000 numbered copies. Nicely preserved copies.<\t>Paris,
-    1959-74
+  DESCRIPT: Utrillo, Maurice (Pétridès, Paul)
+  CROSSHEAD: L'oeuvre complet.
+  TYPESET: 'Title-pages printed in green and black. Numerous illustrations throughout.
+    4to, publisher''s printed wrappers; each in board chemise and slipcase (occasional
+    light wear). Limited edition, each one of 1000 numbered copies. Nicely preserved
+    copies. '
   FOOTNOTE: ''
-  at-a-glance: ''
+  at-a-glance: |-
+    Paris
+    1959-74
   footnote_provenance: ''
   color_background: ''
   header_type: ''
@@ -115,6 +116,7 @@ lots:
     line_2_text: ''
     background_color: ''
     text_color: ''
+  image: "/v1609709489/774929_lua85p.jpg"
 - LOT: "301"
   REFNO: "772271"
   LOW: "2000"
