@@ -62,5 +62,7 @@ people:
     bidding:**  \n212 254 4710 ext. 0\n\n**For questions on invoicing and shipping:**
     \ \n212 254 4710 ext. 31\n\n**For inquiries regarding the items in this auction:**
     \ \nRick Stattler, ext. 27  \n[rstattler@swanngalleries.com](mailto:rstattler@swanngalleries.com)"
+  main_contacts:
+  - _people/director.md
 
 ---
