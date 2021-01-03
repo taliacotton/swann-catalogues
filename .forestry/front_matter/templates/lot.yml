@@ -34,7 +34,7 @@ fields:
     config:
       required: false
       date_format: ''
-      time_format: h:mm A ZZ
+      time_format: h:mm A
       display_utc: false
   config:
     min: 1
