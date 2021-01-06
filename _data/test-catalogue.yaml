@@ -19,6 +19,7 @@ lots:
   color_background: "#000000"
   large_header:
     header_type: []
+  image: "/v1609710789/776339_g8dxaq.jpg"
 - DESCRIPT: Peter Hujar (1934-1987)
   CROSSHEAD: Ethyl Eichelberger
   at-a-glance: Silver print, the image measuring 371.5x374.7 mm; 14 5/8x14 3/4 inches,
@@ -32,6 +33,9 @@ lots:
   color_background: "#000000"
   large_header:
     header_type: []
+  image: "/v1609968630/774987_qrpcwj.png"
+  images:
+  - "/v1609968645/774987_view_02_02_krtql1.png"
 - DESCRIPT: Austen, Jane
   CROSSHEAD: 'Pride and Prejudice: A Novel. In Three Volumes. By the Author of "Sense
     and Sensibility."'
@@ -54,6 +58,7 @@ lots:
     header_type: []
   pullquote: "“[Your troops] prove what men will suffer in defence of their homes
     and rights”"
+  image: "/v1609968678/774453_t5vfbw.jpg"
 - DESCRIPT: Austen, Jane
   CROSSHEAD: 'Pride and Prejudice: A Novel. In Three Volumes'
   at-a-glance: "3 volumes. 168 x 100 mm. \n\nHalf-title in volume 1 likely supplied
@@ -75,6 +80,11 @@ lots:
   color_background: "#000000"
   large_header:
     header_type: []
+  image: "/v1609968728/769890_view_05_jpvdjq.jpg"
+  images:
+  - "/v1609968743/769890_view_03_03_udlpvj.jpg"
+  - "/v1609968743/769890_view_04_04_pigmpx.jpg"
+  - "/v1609968743/769890_view_02_02_pqabva.jpg"
 - DESCRIPT: Ronald Joseph (1910 - 1992)
   CROSSHEAD: Untitled (Family at the Table)
   at-a-glance: Oil and enamel on a thick wood panel, circa 1940. 565x406 mm; 22 1/4x16
@@ -122,6 +132,7 @@ lots:
   color_background: "#000000"
   large_header:
     header_type: []
+  image: "/v1609968792/772283_jhwt3e.jpg"
 - LOT: "1"
   REFNO: "772283"
   LOW: "6000"
