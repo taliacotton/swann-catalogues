@@ -191,6 +191,22 @@ fields:
         format: markdown
     label: General Information
   label: People & Contact
+- name: essays
+  type: field_group_list
+  fields:
+  - name: essay
+    type: blocks
+    label: Essay
+    template_types:
+    - essay
+    config:
+      min: 
+      max: 
+  config:
+    min: 
+    max: 
+    labelField: 
+  label: Essays
 - name: footer_pages
   type: field_group_list
   fields:
