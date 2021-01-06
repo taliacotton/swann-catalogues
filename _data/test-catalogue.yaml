@@ -148,7 +148,7 @@ lots:
     header_type: Large
   header: true
   image: "/v1609709167/773409_x8rsbn.jpg"
-  pullquote: hello world
+  pullquote: ''
 - LOT: "2"
   REFNO: "773660"
   LOW: "100"
