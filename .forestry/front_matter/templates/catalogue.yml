@@ -87,6 +87,12 @@ fields:
   - name: header
     type: boolean
     label: Will there be special large header text?
+  - name: pullquote
+    type: text
+    config:
+      required: false
+    label: Pullquote/Header Text (optional)
+    description: Use sparingly! This shows up in large text before the main lot info.
   - name: large_header
     type: field_group
     config: {}
