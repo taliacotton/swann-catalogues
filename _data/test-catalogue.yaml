@@ -205,6 +205,7 @@ lots:
     text_color: ''
     header_type: Small/Medium
   header: true
+  image: "/v1609968816/775374_omstfs.jpg"
 - LOT: "3"
   REFNO: "775332"
   LOW: "2000"
@@ -228,6 +229,7 @@ lots:
     line_2_text: ''
     background_color: ''
     text_color: ''
+  image: "/v1609968833/775152_cof17r.jpg"
 - LOT: "300"
   REFNO: "774929"
   LOW: "600"
