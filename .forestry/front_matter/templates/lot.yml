@@ -108,6 +108,59 @@ fields:
       maxSize: 64
     label: Image
   label: Cover Image
+- name: chapters
+  type: field_group_list
+  fields:
+  - name: chapter_title
+    type: text
+    config:
+      required: false
+    label: Chapter Title / Grouping
+    description: This is the main title of the chapter or grouping. <br>e.g. "Autographs"
+      "19th &amp; 20th Century Literature" "Art, Press &amp; Illustrated Books"
+  - name: session
+    type: field_group_list
+    fields:
+    - name: session_title
+      type: text
+      config:
+        required: false
+      label: Session title
+      description: 'Example (format): "Morning Session at 10:30am"'
+    - name: chapters_within_session
+      type: field_group_list
+      fields:
+      - name: chapter_title
+        type: text
+        config:
+          required: false
+        label: Chapter Title
+        description: 'Some examples: <br>"Art, Press &amp; Illustrated Books"<br>"Autographs"<br>"19th
+          &amp; 20th Century Literature"'
+      - name: lot
+        type: number
+        label: Which lot is the first lot in this chapter?
+        default: 0
+        required: true
+        config:
+          min: 
+          max: 
+          step: 
+      config:
+        min: 
+        max: 
+        labelField: 
+      label: Chapters within Session
+    config:
+      min: 
+      max: 
+      labelField: 
+    label: Session
+  config:
+    min: 
+    max: 
+    labelField: 
+  label: Sessions & Chapters
 - name: people
   type: field_group
   config: {}
