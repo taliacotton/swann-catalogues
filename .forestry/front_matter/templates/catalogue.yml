@@ -91,7 +91,7 @@ fields:
     type: text
     config:
       required: false
-    label: Pullquote/Header Text (optional)
+    label: Pullquote (Optional)
     description: Use sparingly! This shows up in large text before the main lot info.<br>Leave
       blank if no header text.
   - name: large_header
