@@ -87,6 +87,18 @@ lots:
   color_background: "#000000"
   large_header:
     header_type: []
+  LOW: "100"
+  HIGH: "500"
+  images:
+  - "/v1609968356/770066_view_02_02_akbkha.jpg"
+  - "/v1609968356/770066_view_04_04_mw4lpp.jpg"
+  - "/v1609968355/770066_view_05_05_rj69rp.jpg"
+  - "/v1609968356/770066_view_06_06_feb5ks.jpg"
+  - "/v1609968356/770066_view_07_07_cilnzq.jpg"
+  - "/v1609968356/770066_view_08_08_vacjie.jpg"
+  - "/v1609968354/770066_view_09_09_uzf3q4.jpg"
+  - "/v1609968355/770066_view_10_10_nhprcy.jpg"
+  image: "/v1609968356/770066_view_03_03_mybtyj.jpg"
 - DESCRIPT: Jacob Lawrence (1917–2000)
   CROSSHEAD: Cutting Logs
   at-a-glance: |-
