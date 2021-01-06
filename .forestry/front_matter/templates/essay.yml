@@ -2,6 +2,16 @@
 label: Essay
 hide_body: true
 fields:
+- name: lot
+  type: number
+  label: What lot should this appear before?
+  description: ''
+  default: 0
+  required: true
+  config:
+    min: 
+    max: 
+    step: 
 - name: title
   type: text
   config:
