@@ -74,5 +74,16 @@ cover_image:
   lot_number: 3
   image: "/v1609710789/776339_g8dxaq.jpg"
   title: Marc Sterling, Untitled (Cubist Still Life)
+chapters:
+- session_title: Afternoon Session at 2:00pm
+  chapters:
+  - chapter_title: Art, Press & Illustrated Books
+    lot: 7
+  - chapter_title: 19th & 20th Century Literature
+    lot: 4
+- session_title: Morning Session at 10:30am
+  chapters:
+  - chapter_title: Autographs
+    lot: 1
 
 ---
