@@ -262,6 +262,7 @@ lots:
     background_color: ''
     text_color: ''
   image: "/v1609709489/774929_lua85p.jpg"
+  year: 1959
 - LOT: "301"
   REFNO: "772271"
   LOW: "2000"
