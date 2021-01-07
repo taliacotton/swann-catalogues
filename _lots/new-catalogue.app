@@ -1,5 +1,5 @@
 ---
-layout: lot
+layout: X_catalogue
 lots: _data/2556-catalogue-2020-01-06.yaml
 color: "#AD926F"
 cover_image:
