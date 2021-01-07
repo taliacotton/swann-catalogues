@@ -17,7 +17,18 @@
 {% endif %}
 {% if lot.large_img %}
     <section class="large_image" style="background-color: {{lot.large_img_background}};">
-        <img src="/assets/img/{{lot.refno}}.jpg">
+        <img
+                        sizes="100vw"
+                        srcset="{{ site.cloudinary_url }}/f_auto,q_70,w_512/{{ lot.image }} 512w,
+                                {{ site.cloudinary_url }}/f_auto,q_70,w_768/{{ lot.image }} 768w,
+                                {{ site.cloudinary_url }}/f_auto,q_70,w_1024/{{ lot.image }} 1024w,
+                                {{ site.cloudinary_url }}/f_auto,q_70,w_1280/{{ lot.image }} 1280w,
+                                {{ site.cloudinary_url }}/f_auto,q_70,w_1600/{{ lot.image }} 1600w,
+                                {{ site.cloudinary_url }}/f_auto,q_70,w_2000/{{ lot.image }} 2000w,
+                                {{ site.cloudinary_url }}/f_auto,q_70,w_2400/{{ lot.image }} 2400w"
+                        src="{{ site.cloudinary_url }}/f_auto,q_70,w_640/{{ lot.image }}"
+                        alt="" />
+                    </div>
     </section>
 {% endif %}
 <section id="lot{{lotNum}}" class="lot lot-recommended">
