@@ -6,7 +6,7 @@ fields:
 - type: text
   name: layout
   label: layout
-  default: lot
+  default: X_catalogue
   hidden: true
 - type: text
   name: permalink
@@ -250,5 +250,3 @@ fields:
     max: 
     labelField: 
   label: Footer Pages
-pages:
-- _lots/new-catalogue.app
