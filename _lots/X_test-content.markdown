@@ -6,7 +6,7 @@ sale: 0
 filename: 2551-catalogue-pentagram-old
 color: "#a6dbff"
 lots: _data/test-catalogue.yaml
-visible: false
+visible: true
 datetime:
   date: 2020-12-16T05:00:00.000+00:00
   time: 2021-01-01T11:30:00.000+00:00
