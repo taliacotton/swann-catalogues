@@ -118,8 +118,8 @@
                 </div>
             </section>
         <div class="main-content">
-            <div class="phantom-toc">
-                <div class="subnav" id="contents">
+            <div class="phantom-toc" id="contents">
+                <div class="subnav">
                     <ul class="filters small-type">
                         <li>View by:</li>
                         <li><button onclick="sortTOC('square')">
@@ -225,46 +225,62 @@
                     {{page.people.general_information | markdownify}}
                 </div>
             </section>
-            <section id="chp1"  class="chapter-head">
+            <!-- <section id="chp1"  class="chapter-head">
                 <div class="inner">
                     <h3 class="small-type">Afternoon Session at 2:30pm</h3>
                     <h1>19th & 20th Century Literature</h1>
                 </div>
-            </section>
+            </section> -->
             <div class="lots" id="PRINT">
             {% for lot in lots %}
+
                 {% assign lotNum = forloop.index %}
+
+                {% for session in page.chapters %}
+                    {% for chapter in session.chapters %}
+                            {% if lotNum == chapter.lot %}
+                            <section id="{{chapter.chapter_title | slugify}}"  class="chapter-head">
+                                <div class="inner">
+                                    <h3 class="small-type">{{session.session_title}}</h3>
+                                    <h1>{{chapter.chapter_title}}</h1>
+                                </div>
+                            </section>
+                            {% endif %}
+                    {% endfor %}
+                {% endfor %}
+
+                {% for essay in page.essays %}
+                    {% if lotNum == essay.lot %}
+                    <section class="essay">
+                        <div class="inner">
+                            <div class="title-text">
+                                <h1>{{essay.title}}</h1>
+                                <h5>{{essay.author}}</h5>
+                            </div>
+                            {{essay.body | markdownify}}
+                            <!-- <div class="image">
+                                <img src="https://www.swanngalleries.com/news/wp-content/uploads/2019/08/M40076-3_5_timothy-ely-3.jpg">
+                                <br><caption>Lot 418: Timothy Ely, Consider Your Phantom Replies, hand-illustrated throughout, New York, 1982. Sold for $5,750.</caption>
+                            </div> -->
+                        </div>
+                    </section>
+                    {% endif %}
+                {% endfor %}
+                
                 {% include X_lot.html %}
+                
             {% endfor %}
-            <section class="essay">
-                <div class="inner">
-                    <div class="title-text">
-                        <h1>The Sackner Archive of Concrete & Visual Poetry</h1>
-                        <h5>by Jonathan Krausz</h5>
-                    </div>
-                    <p>Founded in Miami Beach in 1979 and col-lected over a 40-year period by Dr. Marvin Sackner and his wife, the late Ruth Sack-ner, the Archive has become the largest and most comprehensive collection of works of art in this genre ever assembled. 
-                    </p><p>International in scope, it includes over 75,000 annotated books, periodicals, drawings, letters, portfolios, ephemera, rare artists' books, book objects and manuscripts in all media, as well as both traditional and unconventional forms of plastic arts, prints and paintings. 
-                    </p><p>The represents the creative pinnacle for many significant artists and poets working within twentieth-century art movements such as Italian Futurism, Russian and Eastern European Avant Garde, Dada, Surrealism, Bauhaus, De Stijl, Ultra, Tabu-Dada, Lettrisme, Ultra-Lettrisme, and a vast collection of typewriting: a complex, diverse, and visually expressive form of drawing with letters. 
-                    </p>
-                    <div class="image">
-                        <img src="https://www.swanngalleries.com/news/wp-content/uploads/2019/08/M40076-3_5_timothy-ely-3.jpg">
-                        <br><caption>Lot 418: Timothy Ely, Consider Your Phantom Replies, hand-illustrated throughout, New York, 1982. Sold for $5,750.</caption>
-                    </div>
-                    <p>Visual poetry is often powerful and brimming with intellectual content, much of which is socially and culturally referential. The enormous wealth of artis-tic expression gathered into the Sackner Archive anticipates the provocative mature word-based works of Tracey Emin, Jenny Holzer, Glenn Ligon, Ed Rus-cha, Christopher Wool, and many others. 
-                    </p><p>Before being moved to its permanent home at the University of Iowa Libraries Special Collections this summer, a choice selection of works from the Archive were selected for deaccession to share with new collectors. The Sackner family chose UI for their reputation as a center for the study of Dadaism and factored in its world-class conservation program, the Iowa Writers' Workshop, museums, and its location in Iowa City, UNESCO City of Literature. The vast majority of this material will be available to scholars and the public beginning January 2020. 
-                    </p><p>The books chosen for auction at Swann, designated (SA) in their descriptions, include portfolios by notable American artists and writers, foundational Euro-pean Avant-Garde material, sculptural works, and artists' books that celebrate the vast range of language-based artworks that push the boundaries of what gets defined as a book. We have presented them in a roughly chronological fashion to show the progression of creativity and influence between writers and artists over the decades. 
-                    </p>
-                </div>
-            </section>
             </div>
             <section id="end-content">
                 <div class="inner">
                     {% for footerpage in page.footer_pages %}
-                    <div class="title-container">
-                        <h2>{{footerpage.section_header}}</h2>
-                    </div>
-                    <div class="columns">
-                        {{footerpage.content | markdownify}}
+                    <div class="footer-page">
+                        <div class="title-container">
+                            <h2>{{footerpage.section_header}}</h2>
+                        </div>
+                        <div class="columns">
+                            {{footerpage.content | markdownify}}
+                        </div>
                     </div>
                     {% endfor %}
                 </div>
@@ -285,17 +301,17 @@
                         <div class="control_indicator"></div>
                     </label>
                     <label class="control control-radio">
-                        Only my bookmarked lots <span>(2)</span>
+                        Bookmarked Lots Only <span>(2)</span>
                             <input type="radio" name="radio" />
                         <div class="control_indicator"></div>
                     </label>
                     <label class="control control-radio">
-                        Only recommended lots <span>(6)</span>
+                        Recommended Lots Only <span>(6)</span>
                             <input type="radio" name="radio" />
                         <div class="control_indicator"></div>
                     </label>
                 </div>
-                <button id="printBtn" class="small-type" onclick="printBook()">Print PDF</button>
+                <button id="printBtn" class="small-type" onclick="printBook()">Print</button>
                 <button id="cancelBtn" class="small-type" onclick="triggerPrintModal()">Cancel</button>
             </div>
         </div>

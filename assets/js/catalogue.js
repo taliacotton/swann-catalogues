@@ -74,11 +74,12 @@ for (let img of colorImages){
 //PAGE LOADER
 // document.addEventListener('DOMContentLoaded', function() {
 
-document.body.classList.remove("loading");
+// document.body.classList.remove("loading");
 
 window.addEventListener('load', function() {
    document.body.classList.remove("loading");
 });
+
 // }, false);
 
 // setInterval(function(){
@@ -198,6 +199,8 @@ for (let ls of leftSections){
 
 function zoomImg(e, ls){
     let img = ls.querySelector("img");
+    console.log(img.src)
+    img.src = "https://res.cloudinary.com/dcryyrd42/image/upload/f_auto,q_70,h_" + window.innerHeight + img.getAttribute("data-img");
     ls.classList.add("zoom");
     let xPos = interpolate(e.clientX, img.getBoundingClientRect().left, img.getBoundingClientRect().right,0,100)
     let yPos = interpolate(e.clientY, img.getBoundingClientRect().top, img.getBoundingClientRect().bottom,0,100)
@@ -485,7 +488,9 @@ function createNote(sideClass, topVal,innerContent, lotId){
     let t = document.createElement("TEXTAREA");
     t.classList.add("notes", "small-type");
     t.style.top = topVal + "%";
-    document.querySelector("#" + lotId + " ." + sideClass).appendChild(t);
+    if (document.querySelector("#" + lotId + " ." + sideClass) != null){
+        document.querySelector("#" + lotId + " ." + sideClass).appendChild(t);
+    }
     t.value = innerContent;
 }
 

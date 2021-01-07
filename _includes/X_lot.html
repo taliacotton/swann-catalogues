@@ -23,15 +23,38 @@
 <section id="lot{{lotNum}}" class="lot lot-recommended">
     <div class="left">
         <div class="printFooter print-content">Lot {{lot.REFNO}}</div>
-        {% if lot.images %}
-            <div class="slideshow">
-                    {% if lot.image %}
-                    <img src="/assets/img/{{lot.image}}">
-                    {% else %}
-                    <img src="/assets/img/{{lot.refno}}.jpg">
-                    {% endif %}
+        {% if lot.images[0] %}
+            <div class="slideshow"  style="background-color:{{bg}}">
+                    <div class="slideshow-img-container">
+                    <img
+                        sizes="50vw"
+                        srcset="{{ site.cloudinary_url }}/f_auto,q_70,w_128/{{ lot.image }} 256w,
+                                {{ site.cloudinary_url }}/f_auto,q_70,w_256/{{ lot.image }} 512w,
+                                {{ site.cloudinary_url }}/f_auto,q_70,w_384/{{ lot.image }} 768w,
+                                {{ site.cloudinary_url }}/f_auto,q_70,w_512/{{ lot.image }} 1024w,
+                                {{ site.cloudinary_url }}/f_auto,q_70,w_640/{{ lot.image }} 1280w,
+                                {{ site.cloudinary_url }}/f_auto,q_70,w_800/{{ lot.image }} 1600w,
+                                {{ site.cloudinary_url }}/f_auto,q_70,w_1000/{{ lot.image }} 2000w,
+                                {{ site.cloudinary_url }}/f_auto,q_70,w_1200/{{ lot.image }} 2400w"
+                        src="{{ site.cloudinary_url }}/f_auto,q_70,w_640/{{ lot.image }}"
+                        alt="" />
+                    </div>
                     {% for image in lot.images %}
-                    <img src="/assets/img/{{image}}">
+                    <div class="slideshow-img-container">
+                        <img
+                            sizes="50vw"
+                            data-img="{{ image }}"
+                            srcset="{{ site.cloudinary_url }}/f_auto,q_70,w_128/{{ image }} 256w,
+                                    {{ site.cloudinary_url }}/f_auto,q_70,w_256/{{ image }} 512w,
+                                    {{ site.cloudinary_url }}/f_auto,q_70,w_384/{{ image }} 768w,
+                                    {{ site.cloudinary_url }}/f_auto,q_70,w_512/{{ image }} 1024w,
+                                    {{ site.cloudinary_url }}/f_auto,q_70,w_640/{{ image }} 1280w,
+                                    {{ site.cloudinary_url }}/f_auto,q_70,w_800/{{ image }} 1600w,
+                                    {{ site.cloudinary_url }}/f_auto,q_70,w_1000/{{ image }} 2000w,
+                                    {{ site.cloudinary_url }}/f_auto,q_70,w_1200/{{ image }} 2400w"
+                            src="{{ site.cloudinary_url }}/f_auto,q_70,w_640/{{ image }}"
+                            alt="" />
+                    </div>
                     {% endfor %}
             </div>
         {% else %}
@@ -41,14 +64,15 @@
                 <!-- <img style="background-color:{{bg}}" src="/assets/img/{{lot.image}}"> -->
                 <img style="background-color:{{bg}}"
                         sizes="(min-width: 30em) 50vw, 100vw"
-                        srcset="{{ site.cloudinary_url }}/f_auto,q_70,w_128/{{ lot.image }} 256w,
-                                {{ site.cloudinary_url }}/f_auto,q_70,w_256/{{ lot.image }} 512w,
-                                {{ site.cloudinary_url }}/f_auto,q_70,w_384/{{ lot.image }} 768w,
-                                {{ site.cloudinary_url }}/f_auto,q_70,w_512/{{ lot.image }} 1024w,
-                                {{ site.cloudinary_url }}/f_auto,q_70,w_640/{{ lot.image }} 1280w,
-                                {{ site.cloudinary_url }}/f_auto,q_70,w_800/{{ lot.image }} 1600w,
-                                {{ site.cloudinary_url }}/f_auto,q_70,w_1000/{{ lot.image }} 2000w,
-                                {{ site.cloudinary_url }}/f_auto,q_70,w_1200/{{ lot.image }} 2400w"
+                        data-img="{{ lot.image }}"
+                        srcset="{{ site.cloudinary_url }}/f_auto,q_70,w_128{{ lot.image }} 256w,
+                                {{ site.cloudinary_url }}/f_auto,q_70,w_256{{ lot.image }} 512w,
+                                {{ site.cloudinary_url }}/f_auto,q_70,w_384{{ lot.image }} 768w,
+                                {{ site.cloudinary_url }}/f_auto,q_70,w_512{{ lot.image }} 1024w,
+                                {{ site.cloudinary_url }}/f_auto,q_70,w_640{{ lot.image }} 1280w,
+                                {{ site.cloudinary_url }}/f_auto,q_70,w_800{{ lot.image }} 1600w,
+                                {{ site.cloudinary_url }}/f_auto,q_70,w_1000{{ lot.image }} 2000w,
+                                {{ site.cloudinary_url }}/f_auto,q_70,w_1200{{ lot.image }} 2400w"
                         src="{{ site.cloudinary_url }}/f_auto,q_70,w_512/{{ lot.image }}"
                         alt="" />
             {% else %}
@@ -81,6 +105,11 @@
                     </div>
                 {% endif %}
             {% endif %}
+            {% if lot.pullquote != '' %}
+                <p class="pullquote">
+                    {{lot.pullquote}}
+                </p>
+            {% endif %}
             <span class="lot-number">{{lotNum}}</span>
             <h2>
                 {{lot.DESCRIPT}}
@@ -88,8 +117,8 @@
             </h2>
             <div class='at-a-glance'>
                 <div class="silhouette">
-                    <div><img src="https://catalogue.swanngalleries.com/thumb//{{lot.REFNO | slice: -3, 3 }}/{{lot.REFNO}}tn.jpg"></div>
-                    <!-- <div><img class="color-theif" src="https://catalogue.swanngalleries.com/thumb//{{lot.REFNO | slice: -3, 3 }}/{{lot.REFNO}}tn.jpg"></div> -->
+                    <!-- <div><img src="https://catalogue.swanngalleries.com/thumb//{{lot.REFNO | slice: -3, 3 }}/{{lot.REFNO}}tn.jpg"></div> -->
+                    <div><img class="color-theif" src="{{ site.cloudinary_url }}/f_auto,q_70,w_60/{{ lot.image }}"></div>
                 </div>
                 <div>
                     {{lot.at-a-glance | markdownify }}
@@ -115,6 +144,7 @@
                 <a target="_blank" href="https://catalogue.swanngalleries.com/Bid/RequestConditionReport?saleno={{page.sale}}&lotNo={{lotNum}}&refNo={{lot.REFNO}}">Request Condition Report  
                     <svg style="top:1px" width="8" height="12" viewBox="0 0 8 12" fill="none" xmlns="http://www.w3.org/2000/svg"><path d="M1 1L6 6L1 11" stroke="#008FFC" stroke-width="1.8"/></svg>
                 </a>
+                <a href="#">Share Lot</a>
             </div>
             <div class="notes-right">
                 <textarea class="notes small-type" id="textarea"></textarea>

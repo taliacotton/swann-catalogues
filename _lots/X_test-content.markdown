@@ -1,6 +1,6 @@
 ---
 title: Test Content
-permalink: "/X"
+permalink: "/TEST"
 layout: X_catalogue
 sale: 0
 filename: 2551-catalogue-pentagram-old
