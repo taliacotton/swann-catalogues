@@ -90,6 +90,8 @@ essays:
   title: The Sackner Archive of Concrete & Visual Poetry
   author: Lauren Ipson
   body: |-
+    ![](https://res.cloudinary.com/dcryyrd42/image/upload/v1608744184/samples/landscapes/beach-boat.jpg)
+
     Founded in Miami Beach in 1979 and col-lected over a 40-year period by Dr. Marvin Sackner and his wife, the late Ruth Sack-ner, the Archive has become the largest and most comprehensive collection of works of art in this genre ever assembled.
 
     International in scope, it includes over 75,000 annotated books, periodicals, drawings, letters, portfolios, ephemera, rare artists' books, book objects and manuscripts in all media, as well as both traditional and unconventional forms of plastic arts, prints and paintings.
