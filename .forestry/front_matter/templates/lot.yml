@@ -192,13 +192,42 @@ fields:
     label: General Information
   label: People & Contact
 - name: essays
-  type: blocks
-  label: Essays
-  template_types:
-  - essay
+  type: field_group_list
+  fields:
+  - name: lot
+    type: number
+    label: What lot should this appear before?
+    description: ''
+    default: 0
+    required: true
+    config:
+      min: 
+      max: 
+      step: 
+  - name: title
+    type: text
+    config:
+      required: false
+    label: Title
+  - name: author
+    type: text
+    config:
+      required: false
+    label: Author (optional)
+  - name: body
+    type: textarea
+    default: ''
+    config:
+      required: false
+      wysiwyg: true
+      schema:
+        format: markdown
+    label: Body
   config:
     min: 
     max: 
+    labelField: 
+  label: Essays
 - name: footer_pages
   type: field_group_list
   fields:
