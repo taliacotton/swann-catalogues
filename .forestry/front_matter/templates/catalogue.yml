@@ -87,7 +87,7 @@ fields:
       step: 
   - name: color_background
     type: color
-    label: Color Background (optional)
+    label: Color Background (Optional)
     config:
       required: false
       color_format: Hex
@@ -98,9 +98,6 @@ fields:
     type: image_gallery
     config: {}
     label: Image Slideshow (Optional)
-  - name: header
-    type: boolean
-    label: Will there be special large header text?
   - name: pullquote
     type: text
     config:
@@ -108,6 +105,22 @@ fields:
     label: Pullquote (Optional)
     description: Suggested to use sparingly. This shows up in large text before the
       main lot info.<br>Leave blank if no header text.
+  - name: large_img
+    type: boolean
+    label: 'Display large full-width image before lot? '
+    description: Recommended to use only on selected lots that demand extra attention.
+  - name: large_img_background
+    type: color
+    label: Large Image Background Color
+    config:
+      required: false
+      color_format: Hex
+    showOnly:
+      field: large_img
+      value: true
+  - name: header
+    type: boolean
+    label: Will there be special large header text?
   - name: large_header
     type: field_group
     config: {}
@@ -169,10 +182,6 @@ fields:
     showOnly:
       field: header
       value: true
-  - name: large_img
-    type: boolean
-    label: 'Display large full-width image before lot? '
-    description: Recommended to use only on selected lots that demand extra attention.
   config:
     labelField: DESCRIPT
 pages:
