@@ -1,8 +1,8 @@
 ---
 title: Fine Books & Manuscripts
 visible: true
-date: 2020-11-17T00:00:00.000+00:00
-permalink: "/sale-2551"
+date: '2020-11-17T00:00:00.000+00:00'
+permalink: "/fine-books-and-manuscripts/2551"
 layout: catalogue-test
 sale: 2551
 filename: 2551-catalogue-pentagram-old
