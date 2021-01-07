@@ -7,7 +7,7 @@ cover_image:
   title: ''
   image: ''
 filename: ''
-visible: false
+visible: true
 sale: 1000
 title: New Catalogue
 datetime:
