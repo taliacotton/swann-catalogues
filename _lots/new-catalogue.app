@@ -11,8 +11,8 @@ visible: true
 sale: 1000
 title: New Catalogue
 datetime:
-  date: 
-  time: 
+  date: 2021-01-13 05:00:00 +0000
+  time: 2021-01-01 12:10:00 +0000
   time2: 
 chapters: []
 people:
@@ -22,6 +22,5 @@ people:
   general_information: ''
 essays: []
 footer_pages: []
-published: false
 
 ---
