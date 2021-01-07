@@ -1,6 +1,6 @@
 ---
 title: Test Content (Not Dynamic)
-visible: false
+visible: true
 date: '2020-11-17T00:00:00.000+00:00'
 times:
 - 9:30am
