@@ -238,6 +238,7 @@ lots:
     background_color: ''
     text_color: ''
   image: "/v1609968833/775152_cof17r.jpg"
+  year: 1790
 - LOT: "300"
   REFNO: "774929"
   LOW: "600"
