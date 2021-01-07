@@ -75,6 +75,16 @@ fields:
     name: LOT
     label: Lot Number (original)
     hidden: true
+  - name: year
+    type: number
+    label: Year
+    description: Can be approximate.<br>Used for table of contents placement.
+    default: 0
+    required: true
+    config:
+      min: 
+      max: 
+      step: 
   - name: color_background
     type: color
     label: Color Background (optional)
