@@ -36,8 +36,8 @@
             <a href="/"><img id="logo" src="/assets/img/swann-logo.gif"></a>
             <div class="catalogue-title">{{page.title}}  <span class="topbar--dot">•</span>  {{ page.datetime.date | date: "%A, %B %d, %Y" }} at {{ page.datetime.time | date: "%l:%M%P"}} {% if page.datetime.time2 %} <i>&</i> {{page.datetime.time2 | date: "%l:%M%P"}} {%endif%}</div>
             <div class="buttons small-type">
-                <button onclick="triggerPrintModal()">Print Catalogue</button>
-                <button onclick="triggerSearch()">Search Within Catalogue</button>
+                <button onclick="triggerPrintModal()">Print</button>
+                <button onclick="triggerSearch()">Search</button>
             </div>
         </div>
         <input type="text" id="searchbar" placeholder="Type name, keyword, date...">
