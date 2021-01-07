@@ -65,7 +65,7 @@
                     {% for chapter in session.chapters %}
                             {% if lotNum == chapter.lot %}
                             <li class="sidebar-chapter-separation">
-                                <a href="#">
+                                <a href="#{{chapter.chapter_title | slugify}}">
                                     {% if forloop.index == 1 %}
                                     <p class="small-type">{{session.session_title}}</p>
                                     {% endif%}
@@ -160,7 +160,7 @@
                     {% for session in page.chapters %}
                         {% for chapter in session.chapters %}
                                 {% if lotNum == chapter.lot %}
-                                <a href="#">
+                                <a href="#{{chapter.chapter_title | slugify}}">
                                     {% if forloop.index == 1 %}
                                     <p class="small-type">{{session.session_title}}</p>
                                     {% endif%}
