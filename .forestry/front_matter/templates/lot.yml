@@ -256,3 +256,5 @@ fields:
     max: 
     labelField: 
   label: Footer Pages
+pages:
+- _lots/illustration-art.markdown
