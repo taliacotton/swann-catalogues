@@ -178,6 +178,7 @@ lots:
   header: true
   image: "/v1609709167/773409_x8rsbn.jpg"
   pullquote: ''
+  year: 1777
 - LOT: "2"
   REFNO: "773660"
   LOW: "100"
@@ -212,6 +213,7 @@ lots:
     header_type: Small/Medium
   header: true
   image: "/v1609968816/775374_omstfs.jpg"
+  year: 1845
 - LOT: "3"
   REFNO: "775332"
   LOW: "2000"
