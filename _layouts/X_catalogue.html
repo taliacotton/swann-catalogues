@@ -57,30 +57,37 @@
             </ul>
             <ul class="sidebar--lots">
                 <span id="marker"></span>
-                {% for dot in lots %}
-                {% if dot.refno %}
+                {% for lot in lots %}
+                
+                {% assign lotNum = forloop.index %}
+
+                {% for session in page.chapters %}
+                    {% for chapter in session.chapters %}
+                            {% if lotNum == chapter.lot %}
+                            <li class="sidebar-chapter-separation">
+                                <a href="#">
+                                    {% if forloop.index == 1 %}
+                                    <p class="small-type">{{session.session_title}}</p>
+                                    {% endif%}
+                                    <p class="chapter-title">{{chapter.chapter_title}}</p>
+                                </a>
+                            </li>
+                            {% endif %}
+                    {% endfor %}
+                {% endfor %}
                     <li>
                         <a href="#">
                             <div class="thumbnail-lockup">
-                                    <img src="/assets/img/{{dot.refno}}.jpg">
+                                    <img src="{{ site.cloudinary_url }}/f_auto,q_70,w_60/{{ lot.image }}" crossorigin="anonymous">
                                     <p class="small-type">
                                         Lot {{forloop.index}}
-                                        <br>Kendrick, John
-                                        <br>Horrors of Slavery
+                                        <br>{{lot.DESCRIPT}}
+                                        <br>{{lot.CROSSHEAD}}
                                 </p>
                             </div>
                         </a>
                     </li>
-                {% else %}
-                    <li class="sidebar-chapter-separation">
-                        <a href="#">
-                            {% if dot.smalltext %}
-                            <p class="small-type">{{dot.smalltext}}</p>
-                            {% endif%}
-                            <p class="chapter-title">{{dot.maintext}}</p>
-                        </a>
-                    </li>
-                {% endif %}
+                    
             {% endfor %}
             </ul>
         </nav>
@@ -147,9 +154,23 @@
                     <p>2000</p>
                 </div>
                 <div id="toc-dots">
-                    {% for dot in lots %}
-                        {% if dot.refno %}
-                    <a href="#{{lot.refno}}" class="dot-container" data-year="{{dot.year}}">
+                    {% for lot in lots %}
+                    {% assign lotNum = forloop.index %}
+
+                    {% for session in page.chapters %}
+                        {% for chapter in session.chapters %}
+                                {% if lotNum == chapter.lot %}
+                                <a href="#">
+                                    {% if forloop.index == 1 %}
+                                    <p class="small-type">{{session.session_title}}</p>
+                                    {% endif%}
+                                    <p class="chapter-title">{{chapter.chapter_title}}</p>
+                                </a>
+                                {% endif %}
+                        {% endfor %}
+                    {% endfor %}
+
+                    <a href="#lot{{forloop.index}}" class="dot-container" data-year="{{lot.year}}">
                         <div class="line"></div>
                         <div class="dot-container-inner">
                             {% if dot.bookmark == true %}
@@ -160,23 +181,18 @@
                             <div class="dot"></div>
                             {% endif %}
                             <div class="thumbnail-lockup">
-                                 <img src="/assets/img/{{dot.refno}}.jpg">
+                                 <img src="{{ site.cloudinary_url }}/f_auto,q_70,w_60/{{ lot.image }}" crossorigin="anonymous">
                                  <p class="small-type">
                                      Lot {{forloop.index}}
-                                     <br>Kendrick, John
-                                     <br>Horrors of Slavery
+                                     <br>{{lot.DESCRIPT}}
+                                     <br>{{lot.CROSSHEAD}}
                                 </p>
                             </div>
                         </div>
                     </a>
-                    {% else %}
-                    <a href="#">
-                        {% if dot.smalltext %}
-                        <p class="small-type">{{dot.smalltext}}</p>
-                        {% endif%}
-                        <p class="chapter-title">{{dot.maintext}}</p>
-                    </a>
-                    {% endif %}
+                    
+                        
+                    
                     {% endfor %}
                 </div>
             </section>
