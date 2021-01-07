@@ -8,7 +8,7 @@ cover_image:
   title: ''
   image: ''
 filename: ''
-visible: false
+visible: true
 sale: 1000
 title: New Catalogue 2
 datetime:
@@ -23,6 +23,5 @@ people:
   general_information: ''
 essays: []
 footer_pages: []
-published: false
 
 ---
