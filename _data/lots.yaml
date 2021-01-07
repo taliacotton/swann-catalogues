@@ -1,3 +1,4 @@
+---
 - smalltext: Morning Session at 10:30 am
   maintext: Autographs
 - refno: 772283
@@ -7,7 +8,7 @@
   favorite: true
 - refno: 773183
   name: IDK 2
-  bgColor: '#e68e81'
+  bgColor: "#e68e81"
   year: 1977
   bookmark: false
   favorite: false
@@ -21,8 +22,8 @@
     line_1: Lot 4
     line_2: Richmond Barthé
     line_3: Feral Benga
-    background: '#fccf03'
-    foreground: 'black'
+    background: "#fccf03"
+    foreground: black
 - refno: 773410
   name: IDK 4
   year: 1993
@@ -33,7 +34,7 @@
   year: 1993
   bookmark: false
   favorite: false
-  background: '#ff3030'
+  background: "#ff3030"
 - refno: 774094
   name: IDK 5
   year: 1920
@@ -50,16 +51,16 @@
   year: 1980
   bookmark: false
   favorite: false
-  images: 
-    - 770066_view 02_02.jpg
-    - 770066_view 03_03.jpg
-    - 770066_view 04_04.jpg
-    - 770066_view 05_05.jpg
-    - 770066_view 06_06.jpg
-    - 770066_view 07_07.jpg
-    - 770066_view 08_08.jpg
-    - 770066_view 09_09.jpg
-    - 770066_view 10_10.jpg
+  images:
+  - 770066_view 02_02.jpg
+  - 770066_view 03_03.jpg
+  - 770066_view 04_04.jpg
+  - 770066_view 05_05.jpg
+  - 770066_view 06_06.jpg
+  - 770066_view 07_07.jpg
+  - 770066_view 08_08.jpg
+  - 770066_view 09_09.jpg
+  - 770066_view 10_10.jpg
 - refno: 775152
   name: IDK
   year: 1980
@@ -71,11 +72,11 @@
   bookmark: false
   favorite: false
   images:
-    - 769890_view 02_02.jpg
-    - 769890_view 03_03.jpg
-    - 769890_view 03_03.jpg
-    - 769890_view 04_04.jpg
-    - 769890_view 05.jpg
+  - 769890_view 02_02.jpg
+  - 769890_view 03_03.jpg
+  - 769890_view 03_03.jpg
+  - 769890_view 04_04.jpg
+  - 769890_view 05.jpg
 - refno: 774453
   name: IDK
   year: 1930
@@ -93,7 +94,7 @@
   favorite: false
   image: 774987.png
   images:
-    - 774987_view 02_02
+  - 774987_view 02_02
 - refno: 775374
   name: IDK
   year: 1960
@@ -119,7 +120,7 @@
   bookmark: false
   favorite: false
   large_img: true
-  large_img_background: '#A3C6DC'
+  large_img_background: "#A3C6DC"
 - refno: 773410
   name: IDK 4
   year: 1993
