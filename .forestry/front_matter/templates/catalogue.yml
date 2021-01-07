@@ -94,6 +94,10 @@ fields:
     default: "#000000"
     description: 'Use color to make a lot stand out, perhaps. Default is black, recommended
       is black or white. '
+  - name: images
+    type: image_gallery
+    config: {}
+    label: Image Slideshow (Optional)
   - name: header
     type: boolean
     label: Will there be special large header text?
@@ -165,10 +169,10 @@ fields:
     showOnly:
       field: header
       value: true
-  - name: images
-    type: image_gallery
-    config: {}
-    label: Image Slideshow (Optional)
+  - name: large_img
+    type: boolean
+    label: 'Display large full-width image before lot? '
+    description: Recommended to use only on selected lots that demand extra attention.
   config:
     labelField: DESCRIPT
 pages:
