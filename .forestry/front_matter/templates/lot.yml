@@ -12,6 +12,7 @@ fields:
   name: permalink
   label: permalink
   hidden: true
+  default: "/:title"
 - type: text
   name: filename
   label: filename
