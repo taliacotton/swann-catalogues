@@ -85,5 +85,21 @@ chapters:
   chapters:
   - chapter_title: Autographs
     lot: 1
+essays:
+- lot: 5
+  title: The Sackner Archive of Concrete & Visual Poetry
+  author: Lauren Ipson
+  body: |-
+    Founded in Miami Beach in 1979 and col-lected over a 40-year period by Dr. Marvin Sackner and his wife, the late Ruth Sack-ner, the Archive has become the largest and most comprehensive collection of works of art in this genre ever assembled.
+
+    International in scope, it includes over 75,000 annotated books, periodicals, drawings, letters, portfolios, ephemera, rare artists' books, book objects and manuscripts in all media, as well as both traditional and unconventional forms of plastic arts, prints and paintings.
+
+    The represents the creative pinnacle for many significant artists and poets working within twentieth-century art movements such as Italian Futurism, Russian and Eastern European Avant Garde, Dada, Surrealism, Bauhaus, De Stijl, Ultra, Tabu-Dada, Lettrisme, Ultra-Lettrisme, and a vast collection of typewriting: a complex, diverse, and visually expressive form of drawing with letters.
+
+    Visual poetry is often powerful and brimming with intellectual content, much of which is socially and culturally referential. The enormous wealth of artis-tic expression gathered into the Sackner Archive anticipates the provocative mature word-based works of Tracey Emin, Jenny Holzer, Glenn Ligon, Ed Rus-cha, Christopher Wool, and many others.
+
+    ![](https://res.cloudinary.com/dcryyrd42/image/upload/v1609968816/775374_omstfs.jpg)Before being moved to its permanent home at the University of Iowa Libraries Special Collections this summer, a choice selection of works from the Archive were selected for deaccession to share with new collectors. The Sackner family chose UI for their reputation as a center for the study of Dadaism and factored in its world-class conservation program, the Iowa Writers' Workshop, museums, and its location in Iowa City, UNESCO City of Literature. The vast majority of this material will be available to scholars and the public beginning January 2020.
+
+    The books chosen for auction at Swann, designated (SA) in their descriptions, include portfolios by notable American artists and writers, foundational Euro-pean Avant-Garde material, sculptural works, and artists' books that celebrate the vast range of language-based artworks that push the boundaries of what gets defined as a book. We have presented them in a roughly chronological fashion to show the progression of creativity and influence between writers and artists over the decades.
 
 ---
