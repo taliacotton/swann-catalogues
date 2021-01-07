@@ -9,11 +9,6 @@ fields:
   default: X_catalogue
   hidden: true
 - type: text
-  name: permalink
-  label: permalink
-  hidden: true
-  default: "/:title"
-- type: text
   name: filename
   label: filename
   hidden: true
@@ -22,6 +17,16 @@ fields:
   label: Visible
   description: 'Turn this on when the catalogue is ready to display to the public.
     When off, user will be prompted to enter a password.<br>Password: 104East25th'
+- type: text
+  name: permalink
+  label: Permalink (Important)
+  hidden: false
+  default: ''
+  description: 'This is the url extension that creates the link to the catalogue.<br>The
+    standard format is: <strong>/department-name/####</strong><br>where ### is the
+    sale number<br>For example: /contemporary-art/2552'
+  config:
+    required: true
 - type: number
   name: sale
   label: Sale Number
