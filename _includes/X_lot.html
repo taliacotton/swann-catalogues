@@ -16,17 +16,17 @@
     {% endif %}
 {% endif %}
 {% if lot.large_img %}
-    <section class="large_image" style="background-color: {{lot.large_img_background}};">
+    <section class="large_image" style="background-color: {{lot.full_width_image.background_color}};">
         <img
                         sizes="100vw"
-                        srcset="{{ site.cloudinary_url }}/f_auto,q_70,w_512/{{ lot.image }} 512w,
-                                {{ site.cloudinary_url }}/f_auto,q_70,w_768/{{ lot.image }} 768w,
-                                {{ site.cloudinary_url }}/f_auto,q_70,w_1024/{{ lot.image }} 1024w,
-                                {{ site.cloudinary_url }}/f_auto,q_70,w_1280/{{ lot.image }} 1280w,
-                                {{ site.cloudinary_url }}/f_auto,q_70,w_1600/{{ lot.image }} 1600w,
-                                {{ site.cloudinary_url }}/f_auto,q_70,w_2000/{{ lot.image }} 2000w,
-                                {{ site.cloudinary_url }}/f_auto,q_70,w_2400/{{ lot.image }} 2400w"
-                        src="{{ site.cloudinary_url }}/f_auto,q_70,w_640/{{ lot.image }}"
+                        srcset="{{ site.cloudinary_url }}/f_auto,q_70,w_512/{{ lot.full_width_image.image }} 512w,
+                                {{ site.cloudinary_url }}/f_auto,q_70,w_768/{{ lot.full_width_image.image }} 768w,
+                                {{ site.cloudinary_url }}/f_auto,q_70,w_1024/{{ lot.full_width_image.image }} 1024w,
+                                {{ site.cloudinary_url }}/f_auto,q_70,w_1280/{{ lot.full_width_image.image }} 1280w,
+                                {{ site.cloudinary_url }}/f_auto,q_70,w_1600/{{ lot.full_width_image.image }} 1600w,
+                                {{ site.cloudinary_url }}/f_auto,q_70,w_2000/{{ lot.full_width_image.image }} 2000w,
+                                {{ site.cloudinary_url }}/f_auto,q_70,w_2400/{{ lot.full_width_image.image }} 2400w"
+                        src="{{ site.cloudinary_url }}/f_auto,q_70,w_640/{{ lot.full_width_image.image }}"
                         alt="" />
                     </div>
     </section>

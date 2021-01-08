@@ -32,8 +32,11 @@ if(getCookie("bookmarked")) {
 };
 
 // apply bookmarks from cookie
+// Classlist of Null?
 for (let lotId of bookmarked){
-    document.getElementById(lotId).classList.add("lot-bookmarked");
+    if (document.getElementById(lotId)){
+        document.getElementById(lotId).classList.add("lot-bookmarked");
+    }
 }
 
 // define notes object
