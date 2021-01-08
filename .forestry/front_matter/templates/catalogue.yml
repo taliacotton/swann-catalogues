@@ -127,6 +127,7 @@ fields:
     label: Full Width Image
     showOnly:
       field: large_img
+      value: true
   - name: header
     type: boolean
     label: Will there be special large header text?
