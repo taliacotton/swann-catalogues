@@ -8,14 +8,32 @@ cover_image:
   image: "/v1610140384/775581_mkespy.jpg"
 filename: ''
 visible: true
-permalink: "/illustration-art/2556"
+permalink: "/illustration-art/illustration-feat-dick-mcdonough-collection/2556"
 sale: 2556
-title: Illustration Art
+title: Illustration Art Featuring the Dick McDonough Collection of Golf Illustration
 datetime:
   date: 2021-01-28 05:00:00 +0000
   time: 2021-01-01 12:00:00 +0000
   time2: 
-chapters: []
+chapters:
+- session_title: Illustration Art
+  chapters:
+  - chapter_title: Children's Book & Magazine Illustration
+    lot: 1
+  - chapter_title: General Book, Magazine, Advertising & Design
+    lot: 47
+  - chapter_title: Theater & Fashion
+    lot: 134
+  - chapter_title: The New Yorker
+    lot: 158
+  - chapter_title: Comics, Cartoons & Caricatures
+    lot: 173
+- chapters:
+  - chapter_title: Sports Illustrations & Cartoons
+    lot: 203
+  - chapter_title: The Dick McDonough Collection of Golf Illustration
+    lot: 217
+  session_title: Sporting Illustration
 people:
   main_contacts: []
   officers: []
