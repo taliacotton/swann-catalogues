@@ -7,7 +7,7 @@ cover_image:
   title: 'Lot 228: James Montgomery Flagg, "Follow Through" '
   image: "/v1610140384/775581_mkespy.jpg"
 filename: ''
-visible: false
+visible: true
 permalink: "/illustration-art/2556"
 sale: 2556
 title: Illustration Art
