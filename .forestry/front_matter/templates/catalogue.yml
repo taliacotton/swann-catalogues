@@ -109,12 +109,25 @@ fields:
     type: boolean
     label: 'Display large full-width image before lot? '
     description: Recommended to use only on selected lots that demand extra attention.
-  - name: large_img_background
-    type: color
-    label: Large Image Background Color
+  - name: full_width_image
+    type: field_group_list
+    fields:
+    - name: image
+      type: file
+      config:
+        maxSize: 64
+      label: Image
+    - name: background_color
+      type: color
+      label: Background Color
+      config:
+        required: false
+        color_format: Hex
     config:
-      required: false
-      color_format: Hex
+      min: 
+      max: 
+      labelField: 
+    label: Full Width Image
     showOnly:
       field: large_img
       value: true
