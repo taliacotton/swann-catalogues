@@ -110,7 +110,8 @@ fields:
     label: 'Display large full-width image before lot? '
     description: Recommended to use only on selected lots that demand extra attention.
   - name: full_width_image
-    type: field_group_list
+    type: field_group
+    config: {}
     fields:
     - name: image
       type: file
@@ -123,14 +124,9 @@ fields:
       config:
         required: false
         color_format: Hex
-    config:
-      min: 
-      max: 
-      labelField: 
     label: Full Width Image
     showOnly:
       field: large_img
-      value: true
   - name: header
     type: boolean
     label: Will there be special large header text?
