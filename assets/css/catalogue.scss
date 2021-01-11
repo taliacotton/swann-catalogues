@@ -709,13 +709,14 @@ section{position:relative;}
 .lots{
     background:black;
     position:relative;
-    z-index:1;
+    z-index:2;
 }
 .lot{
     display:flex;
     min-height:var(--main-height);
     width:var(--main-width);
     color:black;
+    background: black;
     > * {flex: 1}
     .left{
         // background:black;

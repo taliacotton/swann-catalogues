@@ -78,7 +78,9 @@
                     <li>
                         <a href="#">
                             <div class="thumbnail-lockup">
+                                    {% if lot.image %}
                                     <img src="{{ site.cloudinary_url }}/f_auto,q_70,w_60/{{ lot.image }}" crossorigin="anonymous">
+                                    {% endif %}
                                     <p class="small-type">
                                         Lot {{forloop.index}}
                                         <br>{{lot.DESCRIPT}}
@@ -99,6 +101,7 @@
                 </a>
                 <div class="stripe" style="background-color:var(--catalogueColor)"></div>
                 <div class="left">
+                    {% if page.cover_image.image %}
                     <img style="background-color:{{bg}}"
                         sizes="(min-width: 30em) 50vw, 100vw"
                         srcset="{{ site.cloudinary_url }}/f_auto,q_70,w_128/{{ page.cover_image.image }} 256w,
@@ -111,6 +114,7 @@
                                 {{ site.cloudinary_url }}/f_auto,q_70,w_1200/{{ page.cover_image.image }} 2400w"
                         src="{{ site.cloudinary_url }}/f_auto,q_70,w_512/{{ page.cover_image.image }}"
                         alt="" />
+                        {% endif %}
                 </div>
                 <div class="spine">
                     <div class="spine-text">
@@ -181,7 +185,9 @@
                             <div class="dot"></div>
                             {% endif %}
                             <div class="thumbnail-lockup">
+                                {% if lot.image %}
                                  <img src="{{ site.cloudinary_url }}/f_auto,q_70,w_60/{{ lot.image }}" crossorigin="anonymous">
+                                 {% endif %}
                                  <p class="small-type">
                                      Lot {{forloop.index}}
                                      <br>{{lot.DESCRIPT}}
@@ -204,7 +210,9 @@
                         {% for entry in page.people.main_contacts %}
                         {% assign person = site.people | where: "path", entry | first %}
                         <div>
+                            {% if person.image %}
                             <img src="{{ site.cloudinary_url }}/w_100,c_scale/{{ person.image }}" alt="{{person.title}}, {{person.role}}">
+                            {% endif %}
                             <h4><b>{{person.title}}</b><br>{{person.role}}</h4>
                             <small>
                                 {{person.email}}

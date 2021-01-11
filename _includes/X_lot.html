@@ -69,7 +69,7 @@
             </div>
         {% else %}
             {% if lot.color_background %}{% assign bg = lot.color_background %}{%else%}{%assign bg ='black'%}{%endif%}
-     
+            {% if lot.image %}
                 <!-- <img style="background-color:{{bg}}" src="/assets/img/{{lot.image}}"> -->
                 <img style="background-color:{{bg}}"
                         sizes="(min-width: 30em) 50vw, 100vw"
@@ -84,6 +84,7 @@
                                 {{ site.cloudinary_url }}/f_auto,q_70,w_1200{{ lot.image }} 2400w"
                         src="{{ site.cloudinary_url }}/f_auto,q_70,w_512/{{ lot.image }}"
                         alt="" />
+            {% endif %}
         {% endif %}
     </div>
     <div class="right">
@@ -93,7 +94,7 @@
             <span class="fold-outline"> </span>
         </button>
         <div class="center-column">
-            <div class="mobile-only mobile-thumb"><img src="/assets/img/{{lot.REFNO}}.jpg"></div>
+            <div class="mobile-only mobile-thumb"><img src="{{ site.cloudinary_url }}/f_auto,q_70,w_60/{{ lot.image }}"></div>
             <button class="small-type notes-prompt">
                 Add note...
             </button>
@@ -124,7 +125,11 @@
             <div class='at-a-glance'>
                 <div class="silhouette">
                     <!-- <div><img src="https://catalogue.swanngalleries.com/thumb//{{lot.REFNO | slice: -3, 3 }}/{{lot.REFNO}}tn.jpg"></div> -->
-                    <div><img class="color-theif" src="{{ site.cloudinary_url }}/f_auto,q_70,w_60/{{ lot.image }}" crossorigin="anonymous"></div>
+                    <div>
+                        {% if lot.image %}
+                        <img class="color-theif" src="{{ site.cloudinary_url }}/f_auto,q_70,w_60/{{ lot.image }}" crossorigin="anonymous">
+                        {% endif %}
+                    </div>
                 </div>
                 <div>
                     {{lot.at-a-glance | markdownify }}
