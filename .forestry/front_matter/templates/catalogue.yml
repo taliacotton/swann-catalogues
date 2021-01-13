@@ -193,6 +193,6 @@ fields:
       field: header
       value: true
   config:
-    labelField: DESCRIPT
+    labelField: LOT
 pages:
 - _data/2551-catalogue-pentagram.yaml
