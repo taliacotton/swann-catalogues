@@ -75,6 +75,7 @@ fields:
     label: Reference Number
     description: Edit this with caution, as it's tied dynamically to the lot in other
       places on the web.
+    hidden: true
   - name: year
     type: number
     label: Year
