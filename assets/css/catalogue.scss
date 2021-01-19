@@ -10,6 +10,10 @@ html{
     scroll-behavior: smooth;
 }
 body.loading{
+    #cover{
+        position:fixed;
+        z-index:1000;
+    }
     #cover > *{
         opacity:0;
     }

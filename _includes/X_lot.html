@@ -84,6 +84,20 @@
                                 {{ site.cloudinary_url }}/f_auto,q_70,w_1200{{ lot.image }} 2400w"
                         src="{{ site.cloudinary_url }}/f_auto,q_70,w_512/{{ lot.image }}"
                         alt="" />
+            {% else %}
+            <img style="background-color:{{bg}}"
+                        sizes="(min-width: 30em) 50vw, 100vw"
+                        data-img="{{ lot.image }}"
+                        srcset="{{ site.cloudinary_url }}/f_auto,q_70,w_128/{{page.sale}}/{{ lot.REFNO }}.jpg 256w,
+                                {{ site.cloudinary_url }}/f_auto,q_70,w_256/{{page.sale}}/{{ lot.REFNO }}.jpg 512w,
+                                {{ site.cloudinary_url }}/f_auto,q_70,w_384/{{page.sale}}/{{ lot.REFNO }}.jpg 768w,
+                                {{ site.cloudinary_url }}/f_auto,q_70,w_512/{{page.sale}}/{{ lot.REFNO }}.jpg 1024w,
+                                {{ site.cloudinary_url }}/f_auto,q_70,w_640/{{page.sale}}/{{ lot.REFNO }}.jpg 1280w,
+                                {{ site.cloudinary_url }}/f_auto,q_70,w_800/{{page.sale}}/{{ lot.REFNO }}.jpg 1600w,
+                                {{ site.cloudinary_url }}/f_auto,q_70,w_1000/{{page.sale}}/{{ lot.REFNO }}.jpg 2000w,
+                                {{ site.cloudinary_url }}/f_auto,q_70,w_1200/{{page.sale}}/{{ lot.REFNO }}.jpg 2400w"
+                        src="{{ site.cloudinary_url }}/f_auto,q_70,w_512/{{page.sale}}/{{ lot.REFNO }}.jpg"
+                        alt="" />
             {% endif %}
         {% endif %}
     </div>
@@ -143,6 +157,10 @@
             <div class="estimate">
                 <h5 class="small-type">Estimate</h5>
                 <h2>${% include numberWithCommas.html number=lot.LOW %} – ${% include numberWithCommas.html number=lot.HIGH %}</h2>
+
+                {% assign currentDate = "now" | date: '%s' %}
+                {% assign auctionDate = page.datetime.date | date: '%s' %}
+                {% if currentDate < auctionDate %}
                 <button onclick="this.classList.toggle('active')">
                     Bid Options
                     <svg style="top:-0.5px;left:-4px" width="10" height="10" viewBox="0 0 10 10" fill="none" xmlns="http://www.w3.org/2000/svg"><path d="M4.05063 0L4.05063 4.02135L0 4.02135L0 5.90747L4.05063 5.90747L4.05063 10L5.96745 10L5.96745 5.90747L10 5.90747L10 4.02135L5.96745 4.02135L5.96745 0L4.05063 0Z" fill="#008FFC"/></svg>
@@ -155,6 +173,7 @@
                 <a target="_blank" href="https://catalogue.swanngalleries.com/Bid/RequestConditionReport?saleno={{page.sale}}&lotNo={{lotNum}}&refNo={{lot.REFNO}}">Request Condition Report  
                     <svg style="top:1px" width="8" height="12" viewBox="0 0 8 12" fill="none" xmlns="http://www.w3.org/2000/svg"><path d="M1 1L6 6L1 11" stroke="#008FFC" stroke-width="1.8"/></svg>
                 </a>
+                {%endif%}
                 <a href="#">Share Lot</a>
             </div>
             <div class="notes-right">
