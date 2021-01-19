@@ -6,7 +6,7 @@
             }
         </style>
     </head>
-    <body class="loading visible-{{page.visible}}" onload="checkCookie();">
+    <body class="loading" onload="checkCookie();">
 
         <div class="password-modal">
             <p>This page is restricted. <br>Please enter a password to continue.</p>
@@ -80,6 +80,8 @@
                             <div class="thumbnail-lockup">
                                     {% if lot.image %}
                                     <img src="{{ site.cloudinary_url }}/f_auto,q_70,w_60/{{ lot.image }}" crossorigin="anonymous">
+                                    {% else %}
+                                    <img src="{{ site.cloudinary_url }}/f_auto,q_70,w_512/{{page.sale}}/{{ lot.REFNO }}.jpg" crossorigin="anonymous">
                                     {% endif %}
                                     <p class="small-type">
                                         Lot {{forloop.index}}
@@ -123,7 +125,12 @@
                     </div>
                 </div>
                 <div class="right">
+                    {% assign thesize = page.title.size %}
+                    {% if thesize > 65 %}
+                    <h1 class="smaller">{{page.title}}</h1>
+                    {% else %}
                     <h1>{{page.title}}</h1>
+                    {% endif %}
                     <h2 class="cover-date">{{ page.datetime.date | date: "%A, %B %d, %Y" }}<br>at {{ page.datetime.time | date: "%l:%M%P" }} {% if page.datetime.time2 %} <i>&</i> {{page.datetime.time2 | date: "%l:%M%P"}} {%endif%}</h2>
                     <h3 class="cover-sale mobile-only">Sale {{page.sale}}</h3>
                 </div>
@@ -187,6 +194,8 @@
                             <div class="thumbnail-lockup">
                                 {% if lot.image %}
                                  <img src="{{ site.cloudinary_url }}/f_auto,q_70,w_60/{{ lot.image }}" crossorigin="anonymous">
+                                 {% else %}
+                                 <img src="{{ site.cloudinary_url }}/f_auto,q_70,w_512/{{page.sale}}/{{ lot.REFNO }}.jpg" crossorigin="anonymous">
                                  {% endif %}
                                  <p class="small-type">
                                      Lot {{forloop.index}}

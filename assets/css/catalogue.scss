@@ -31,6 +31,9 @@ body.loading{
 body.visible-false > *:not(.password-modal){
     display:none;
 }
+body.visible-false{
+    overflow:hidden;
+}
 .password-modal{display:none}
 body.visible-false .password-modal{
     position:fixed;
@@ -415,7 +418,13 @@ section{position:relative;z-index:1}
         line-height: 90px;
         font-weight:300;
         margin:10px 0px;
-        max-width:750px
+        max-width:750px;
+        overflow: hidden;
+        text-overflow: ellipsis;
+    }
+    h1.smaller{
+        font-size:70px;
+        line-height:70px;
     }
     h2{
         font-weight:400;
@@ -575,7 +584,7 @@ section{position:relative;}
     }
     h2{
         font-size: 26px;
-        line-height: 18px;
+        line-height: 28px;
         padding: 9px 0px;
     }
     h3{margin-top: 81px;}

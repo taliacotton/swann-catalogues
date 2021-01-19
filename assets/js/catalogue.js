@@ -547,8 +547,8 @@ function checkCookie() {
     cookieBanner.style.display = "none";
   } 
   var access=getCookie("access");
-  if (access) {
-    document.body.classList.remove("visible-false");
+  if (!access) {
+    document.body.classList.add("visible-false");
   } 
 //   else {
 //      user = prompt("Please enter your name:","");
