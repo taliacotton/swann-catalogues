@@ -212,6 +212,9 @@ lots:
     Paola, October 8-21, 1978 Botolph Gallery, 44 Brattle Street, Cambridge, Mass.
     A copy of the original exhibition announcement accompanies the lot.'
   year: 1978
+  large_img: true
+  full_width_image:
+    image: "/v1611258152/777139_kobk3y.jpg"
 - LOT: "17"
   REFNO: "776791"
   DESCRIPT: 'ROGER DUVOISIN (1900-1980) '
