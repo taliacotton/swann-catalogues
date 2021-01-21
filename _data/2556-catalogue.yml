@@ -345,8 +345,10 @@ lots:
   FOOTNOTE: ''
   header: true
   large_header:
-    header_type: Small
+    header_type: Large
     line_1_text: WILLIAM PÈNE DU BOIS
+    background_color: "#F8E71C"
+    text_color: black
 - LOT: "34"
   REFNO: "776478"
   DESCRIPT: WILLIAM PÈNE DU BOIS (1916-1993) Little Red Riding Hood with Basket &
