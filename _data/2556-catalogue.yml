@@ -2,22 +2,28 @@
 lots:
 - LOT: "1"
   REFNO: "775287"
-  DESCRIPT: CLARA LOUISE BELL (1886-1978) Portrait of a young girl at the table. [CHILDRENS]
+  DESCRIPT: CLARA LOUISE BELL (1886-1978)
   LOW: "350"
   HIGH: "500"
-  TYPESET: |-
-    CLARA LOUISE BELL (1886-1978)
-    Portrait of a young girl at the table. Watercolor on paper. 208x230 mm; 11x9 inches. Signed "Clara Louise Bell" lower right. Framed with museum glass. Not dated. A sweet image of a red-headed girl by the Ohio artist.
+  TYPESET: Signed "Clara Louise Bell" lower right. Framed with museum glass. Not dated.
+    A sweet image of a red-headed girl by the Ohio artist.
   FOOTNOTE: ''
+  CROSSHEAD: 'Portrait of a young girl at the table. '
+  at-a-glance: Watercolor on paper. 208x230 mm; 11x9 inches.
+  year: 1910
 - LOT: "2"
   REFNO: "774981"
-  DESCRIPT: GEORGE BREHM (1878-1966) Children at the Pond. [CHILDRENS / CENTURY MAGAZINE]
+  DESCRIPT: 'GEORGE BREHM (1878-1966) '
   LOW: "500"
   HIGH: "750"
-  TYPESET: |-
-    GEORGE BREHM (1878-1966)
-    Children at the Pond. Illustration for unknown story in Century Illustrated Magazine, with their stamp next to Scribner & Co. stamp on verso. Mixed media, including pen, ink, watercolor, and gouache on paper mounted to thin board. 255x350 mm; 10x14 inches, mounted to 11¾x14¾-inch board. Signed "Brehm" along with his dragonfly monogram near left center image. Not dated.
+  TYPESET: Mixed media, including pen, ink, watercolor, and gouache on paper mounted
+    to thin board. 255x350 mm; 10x14 inches, mounted to 11¾x14¾-inch board. Signed
+    "Brehm" along with his dragonfly monogram near left center image. Not dated.
   FOOTNOTE: ''
+  CROSSHEAD: Children at the Pond.
+  at-a-glance: Illustration for unknown story in Century Illustrated Magazine, with
+    their stamp next to Scribner & Co. stamp on verso.
+  year: 1911
 - LOT: "3"
   REFNO: "776918"
   DESCRIPT: JOAN CHIVERTON (20th century) "My Life So Far."
