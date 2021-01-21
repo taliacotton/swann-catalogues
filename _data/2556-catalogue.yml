@@ -259,13 +259,19 @@ lots:
   year: 1972
 - LOT: "20"
   REFNO: "777993"
-  DESCRIPT: BRIAN FROUD (1947- ) Peering elf. [CHILDRENS / FANTASY]
+  DESCRIPT: 'BRIAN FROUD (1947- ) '
   LOW: "2000"
   HIGH: "3000"
-  TYPESET: |-
-    BRIAN FROUD (1947- )
-    Peering elf. Frontispiece to The Land of Froud, edited by David Larkin (New York: Peacock Press/Bantam Books, 1977). Mixed media with watercolor, graphite, gouache, and ink on paper. 23¼x12¼ inches (image) on 590x310 mm; 25x20-inch board. Unsigned, but titled "Frontispiece" on verso. A copy of the book accompanies the artwork. Framed.Provenance: The artist to collector Betty Ballentine, thence by her estate to private collection, New York.
+  TYPESET: ' Mixed media with watercolor, graphite, gouache, and ink on paper. 23¼x12¼
+    inches (image) on 590x310 mm; 25x20-inch board. Unsigned, but titled "Frontispiece"
+    on verso. A copy of the book accompanies the artwork. Framed.'
   FOOTNOTE: ''
+  CROSSHEAD: Peering elf.
+  at-a-glance: 'Frontispiece to The Land of Froud, edited by David Larkin (New York:
+    Peacock Press/Bantam Books, 1977).'
+  footnote_provenance: 'Provenance: The artist to collector Betty Ballentine, thence
+    by her estate to private collection, New York.'
+  year: 1977
 - LOT: "21"
   REFNO: "776793"
   DESCRIPT: LOUIS S. GLANZMAN (1922-2013) Pippi Longstocking. [CHILDRENS]
