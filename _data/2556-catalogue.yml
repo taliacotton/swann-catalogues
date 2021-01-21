@@ -556,6 +556,12 @@ lots:
   at-a-glance: 'Cover illustration for Little Red Riding Hood illustrated by Pène
     du Bois (New York: Random House, 1978).'
   year: 1978
+  header: true
+  large_header:
+    line_1_text: Grandma, what big ears you have!
+    header_type: Large
+    background_color: "#B70000"
+    text_color: white
 - LOT: "36"
   REFNO: "776470"
   DESCRIPT: WILLIAM PÈNE DU BOIS (1916-1993)
