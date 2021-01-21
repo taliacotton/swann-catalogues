@@ -81,14 +81,18 @@ lots:
   year: 1915
 - LOT: "7"
   REFNO: "774055"
-  DESCRIPT: HARRISON CADY (1877-1970) "Peter Rabbit was very indignant." [CHILDRENS
-    / RABBITS]
+  DESCRIPT: 'HARRISON CADY (1877-1970)  '
   LOW: "800"
   HIGH: "1200"
-  TYPESET: |-
-    HARRISON CADY (1877-1970)
-    "Peter Rabbit was very indignant." Illustration for page 51 of Tommy and the Wishing Stone by Thornton Burgess (New York: The Century Co., 1915). Ink and ink wash on board. 340x242 mm; 13½x9½ inches, on 19½x14¼-inch board. Signed "Harrison Cady" in lower right image, captioned in lower margin: "'I suppose the brier-patch is big enough for both of us' said Peter after a while."
+  TYPESET: 'Ink and ink wash on board. 340x242 mm; 13½x9½ inches, on 19½x14¼-inch
+    board. Signed "Harrison Cady" in lower right image, captioned in lower margin:
+    "''I suppose the brier-patch is big enough for both of us'' said Peter after a
+    while."'
   FOOTNOTE: ''
+  CROSSHEAD: '"Peter Rabbit was very indignant."'
+  at-a-glance: 'Illustration for page 51 of Tommy and the Wishing Stone by Thornton
+    Burgess (New York: The Century Co., 1915).'
+  year: 1915
 - LOT: "8"
   REFNO: "774056"
   DESCRIPT: HARRISON CADY (1877-1970) "With Peter he made visits to the garden." [CHILDRENS
