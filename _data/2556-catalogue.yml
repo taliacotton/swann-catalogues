@@ -69,14 +69,16 @@ lots:
   year: 1880
 - LOT: "6"
   REFNO: "773767"
-  DESCRIPT: HARRISON CADY (1877-1970) "`Have you found a new home yet?' asked Peter."
-    [CHILDRENS]
+  DESCRIPT: 'HARRISON CADY (1877-1970)  '
   LOW: "800"
   HIGH: "1200"
-  TYPESET: |-
-    HARRISON CADY (1877-1970)
-    "`Have you found a new home yet?' asked Peter." Illustration for page 26 of The Adventures of Chatterer the Red Squirrel by Thornton Burgess (Boston: Little, Brown, 1915). Ink and ink wash on board. 330x246 mm; 13x9¾ inches, on 19x14-inch board. Signed "Harrison Cady" in lower right image. Captioned in lower margin.
+  TYPESET: Ink and ink wash on board. 330x246 mm; 13x9¾ inches, on 19x14-inch board.
+    Signed "Harrison Cady" in lower right image. Captioned in lower margin.
   FOOTNOTE: ''
+  CROSSHEAD: '"`Have you found a new home yet?'' asked Peter."'
+  at-a-glance: 'Illustration for page 26 of The Adventures of Chatterer the Red Squirrel
+    by Thornton Burgess (Boston: Little, Brown, 1915).'
+  year: 1915
 - LOT: "7"
   REFNO: "774055"
   DESCRIPT: HARRISON CADY (1877-1970) "Peter Rabbit was very indignant." [CHILDRENS
