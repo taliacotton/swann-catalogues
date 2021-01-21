@@ -337,6 +337,8 @@ lots:
   large_header:
     header_type: Large (Image)
     line_1_text: The Runaway Bunny
+  full_width_image:
+    image: "/v1611091017/2556/777097.jpg"
 - LOT: "24"
   REFNO: "775286"
   DESCRIPT: E.M.K. (active early 20th century)
