@@ -95,14 +95,18 @@ lots:
   year: 1915
 - LOT: "8"
   REFNO: "774056"
-  DESCRIPT: HARRISON CADY (1877-1970) "With Peter he made visits to the garden." [CHILDRENS
-    / RABBITS]
+  DESCRIPT: 'HARRISON CADY (1877-1970) '
   LOW: "800"
   HIGH: "1200"
-  TYPESET: |-
-    HARRISON CADY (1877-1970)
-    "With Peter he made visits to the garden." Illustration for page 57 of Tommy and the Wishing Stone by Thornton Burgess (New York: The Century Co., 1915), with their label on verso. Ink and ink wash on board. 305x235 mm; 13¼x9¼ inches, on 19½x14 inch-board. Signed "Harrison Cady" in lower right image. Captioned in lower margin: "With Peter he made occasional visits to a not too distant garden," and again in right margin: "Why Peter Rabbit has one less enemy [?]"
+  TYPESET: 'Ink and ink wash on board. 305x235 mm; 13¼x9¼ inches, on 19½x14 inch-board.
+    Signed "Harrison Cady" in lower right image. Captioned in lower margin: "With
+    Peter he made occasional visits to a not too distant garden," and again in right
+    margin: "Why Peter Rabbit has one less enemy \[?\]"'
   FOOTNOTE: ''
+  CROSSHEAD: '"With Peter he made visits to the garden."'
+  at-a-glance: 'Illustration for page 57 of Tommy and the Wishing Stone by Thornton
+    Burgess (New York: The Century Co., 1915), with their label on verso.'
+  year: 1915
 - LOT: "9"
   REFNO: "774054"
   DESCRIPT: HARRISON CADY (1877-1970) "Mother Grouse Knew there were dangers on Every
