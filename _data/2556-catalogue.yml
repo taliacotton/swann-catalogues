@@ -436,14 +436,17 @@ lots:
   year: 1980
 - LOT: "30"
   REFNO: "772102"
-  DESCRIPT: LEE LORENZ (1933- ) "One night while I was watching the stars a flying
-    saucer landed right next to me." [CHILDRENS]
+  DESCRIPT: 'LEE LORENZ (1933- )  '
   LOW: "400"
   HIGH: "600"
-  TYPESET: |-
-    LEE LORENZ (1933- )
-    "One night while I was watching the stars a flying saucer landed right next to me." Illustration for pages 26 and 27 of Lorenz's book A Weekend in the City (New York: Pippin Press, 1991). Ink, watercolor, and gouache on paper. 180x360 mm; 7x14 inches, on 14x16¾-inch sheet. Unsigned. A copy of the book accompanies the lot.
+  TYPESET: " Ink, watercolor, and gouache on paper. 180x360 mm; 7x14 inches, on 14x16¾-inch
+    sheet. Unsigned. A copy of the book accompanies the lot."
   FOOTNOTE: ''
+  CROSSHEAD: '"One night while I was watching the stars a flying saucer landed right
+    next to me."'
+  at-a-glance: 'Illustration for pages 26 and 27 of Lorenz''s book "A Weekend in the
+    City"(New York: Pippin Press, 1991).'
+  year: 1991
 - LOT: "31"
   REFNO: "773741"
   DESCRIPT: JOHNANNA STEWART MAPES (active early 20th century) "A Fairy Book." [CHILDRENS
