@@ -424,13 +424,16 @@ lots:
   year: 1970
 - LOT: "29"
   REFNO: "776444"
-  DESCRIPT: ARNOLD LOBEL (1933-1987) "The sled began to move down the hill." [CHILDRENS]
+  DESCRIPT: 'ARNOLD LOBEL (1933-1987) '
   LOW: "3000"
   HIGH: "4000"
-  TYPESET: |-
-    ARNOLD LOBEL (1933-1987)
-    "The sled began to move down the hill." Illustration published on page 6 of The Frog and Toad Coloring Book by Lobel (New York: Harper & Row, 1981) based on the illustration in the story "Down the Hill" in Frog and Toad All Year (New York: Harper & Row, 1976). Pen and ink over graphite. 275x204 mm; 10¾x8 inches, sheet.
+  TYPESET: " Pen and ink over graphite. 275x204 mm; 10¾x8 inches, sheet."
   FOOTNOTE: ''
+  CROSSHEAD: '"The sled began to move down the hill."'
+  at-a-glance: 'Illustration published on page 6 of The Frog and Toad Coloring Book
+    by Lobel (New York: Harper & Row, 1981) based on the illustration in the story
+    "Down the Hill" in Frog and Toad All Year (New York: Harper & Row, 1976).'
+  year: 1980
 - LOT: "30"
   REFNO: "772102"
   DESCRIPT: LEE LORENZ (1933- ) "One night while I was watching the stars a flying
