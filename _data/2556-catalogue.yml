@@ -214,13 +214,22 @@ lots:
   year: 1978
 - LOT: "17"
   REFNO: "776791"
-  DESCRIPT: ROGER DUVOISIN (1900-1980) The Happy Lion. [CHILDRENS]
+  DESCRIPT: 'ROGER DUVOISIN (1900-1980) '
   LOW: "300"
   HIGH: "400"
-  TYPESET: |-
-    ROGER DUVOISIN (1900-1980)
-    The Happy Lion. A unique gift painting of Duvoisin's most famous story character, circa early 1970s. Watercolor, ink, and wash on paper. 515x343 mm; 20¼x13½ inches. Inscribed and signed in ink, lower corner: "For Matthew, with best wishes for a Happy Christmas from the Happy Lion and Roger Duvoisin. Accompanied by a later (Children's Choice Book Club) edition of The Happy Lion by Louise Fatio (New York: Macmillan Book Clubs, Inc., 1970s).With an Autograph Letter Signed by Duvoisin which accompanied the gift of the drawing. 1 page, 8vo, dated December 19, 1972: "While a painter exhibits his work in the hope that it will sell, I create illustrations to be printed in a book, not to sell them. So, please, accept this sketch for your little Matthew with my compliments."
+  TYPESET: "A unique gift painting of Duvoisin's most famous story character, circa
+    early 1970s. Watercolor, ink, and wash on paper. 515x343 mm; 20¼x13½ inches. \n\nInscribed
+    and signed in ink, lower corner: \"For Matthew, with best wishes for a Happy Christmas
+    from the Happy Lion and Roger Duvoisin. Accompanied by a later (Children's Choice
+    Book Club) edition of The Happy Lion by Louise Fatio (New York: Macmillan Book
+    Clubs, Inc., 1970s).\n\nWith an Autograph Letter Signed by Duvoisin which accompanied
+    the gift of the drawing. 1 page, 8vo, dated December 19, 1972: \"While a painter
+    exhibits his work in the hope that it will sell, I create illustrations to be
+    printed in a book, not to sell them. So, please, accept this sketch for your little
+    Matthew with my compliments.\""
   FOOTNOTE: ''
+  CROSSHEAD: The Happy Lion.
+  year: 1970
 - LOT: "18"
   REFNO: "777566"
   DESCRIPT: HENRY JUSTICE FORD (1860-1941) "...and the next moment he was turned to
