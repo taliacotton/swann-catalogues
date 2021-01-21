@@ -244,13 +244,19 @@ lots:
   year: 1892
 - LOT: "19"
   REFNO: "776439"
-  DESCRIPT: BRIAN FROUD (1947- ) "The Mountain." [CHILDRENS / FANTASY]
+  DESCRIPT: 'BRIAN FROUD (1947- ) '
   LOW: "2500"
   HIGH: "3500"
-  TYPESET: |-
-    BRIAN FROUD (1947- )
-    "The Mountain." Published in Once Upon a Time: Some Contemporary Illustrators of Fantasy, by David Larkin (New York: Peacock/Bantam, 1976), plate 22 and in Fantastic People by Allan Scott (New York: Gallahad, 1981). Watercolor, gouache, and ink on board. 495x385 mm; 19½x15¼ inches. Signed by Froud with his address and dated June 1972 on verso. Provenance: The artist to collector Betty Ballentine, thence by her estate to private collection, New York.
+  TYPESET: " Watercolor, gouache, and ink on board. 495x385 mm; 19½x15¼ inches. Signed
+    by Froud with his address and dated June 1972 on verso. "
   FOOTNOTE: ''
+  CROSSHEAD: '"The Mountain."'
+  at-a-glance: 'Published in Once Upon a Time: Some Contemporary Illustrators of Fantasy,
+    by David Larkin (New York: Peacock/Bantam, 1976), plate 22 and in Fantastic People
+    by Allan Scott (New York: Gallahad, 1981).'
+  footnote_provenance: 'Provenance: The artist to collector Betty Ballentine, thence
+    by her estate to private collection, New York.'
+  year: 1972
 - LOT: "20"
   REFNO: "777993"
   DESCRIPT: BRIAN FROUD (1947- ) Peering elf. [CHILDRENS / FANTASY]
