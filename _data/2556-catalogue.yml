@@ -449,14 +449,21 @@ lots:
   year: 1991
 - LOT: "31"
   REFNO: "773741"
-  DESCRIPT: JOHNANNA STEWART MAPES (active early 20th century) "A Fairy Book." [CHILDRENS
-    / ST. NICHOLAS MAGAZINE]
+  DESCRIPT: 'JOHNANNA STEWART MAPES (active early 20th century) '
   LOW: "2500"
   HIGH: "3500"
-  TYPESET: |-
-    JOHNANNA STEWART MAPES (active early 20th century)
-    "A Fairy Book." Illustration for a poem of the same name by the artist, published in St. Nicholas Magazine, June 1907. Conté crayon and watercolor on board. 572x452 mm; 22½x17¾ inches. Signed "Johnanna Stewart Mapes" in lower left image, with partial "The Century Co." copyright stamp on verso. Nicely framed with museum glass. Accompanied by a copy of the magazine. The published poem reads: "A head-full of fairies and pixies and gnomes,And lost little girls, far away from their homes,And great, big, brown bears that jump out unawares,And mermaids with long golden hair and gold combs."
+  TYPESET: "Conté crayon and watercolor on board. 572x452 mm; 22½x17¾ inches. Signed
+    \"Johnanna Stewart Mapes\" in lower left image, with partial \"The Century Co.\"
+    copyright stamp on verso. Nicely framed with museum glass. \n\nAccompanied by
+    a copy of the magazine. \n\nThe published poem reads: \n\n\"A head-full of fairies
+    and pixies and gnomes, \n\nAnd lost little girls, far away from their homes, \n\nAnd
+    great, big, brown bears that jump out unawares, \n\nAnd mermaids with long golden
+    hair and gold combs.\""
   FOOTNOTE: ''
+  CROSSHEAD: '"A Fairy Book."'
+  at-a-glance: Illustration for a poem of the same name by the artist, published in
+    St. Nicholas Magazine, June 1907.
+  year: 1907
 - LOT: "32"
   REFNO: "775064"
   DESCRIPT: HARRY B. NEILSON (1861-1941) "The Penguin Brigade." [CHILDRENS]
