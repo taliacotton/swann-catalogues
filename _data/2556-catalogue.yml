@@ -670,14 +670,18 @@ lots:
   year: 1982
 - LOT: "41"
   REFNO: "775021"
-  DESCRIPT: EDWIN JOHN PRITTIE (1879-1963) "She then touched the pitcher with her
-    wand." [CHILDRENS]
+  DESCRIPT: 'EDWIN JOHN PRITTIE (1879-1963) '
   LOW: "2500"
   HIGH: "3500"
-  TYPESET: |-
-    EDWIN JOHN PRITTIE (1879-1963)
-    "She then touched the pitcher with her wand." Story illustration for "The Wonderful Pitcher" published in The Mary Frances Story Book: Or Adventures Among the Story People by Jane Eayre Fryer (Philadelphia: The John C. Winston Company, 1921). Oil on canvas. 650x450 mm; 25½x17¾ inches, framed to 33½x22½ inches. Signed in full, lower right. Remnants of an exhibition label (likely Philadelphia Society of Arts) preserved on archival tissue and tacked to stretcher verso.
+  TYPESET: Oil on canvas. 650x450 mm; 25½x17¾ inches, framed to 33½x22½ inches. Signed
+    in full, lower right. Remnants of an exhibition label (likely Philadelphia Society
+    of Arts) preserved on archival tissue and tacked to stretcher verso.
   FOOTNOTE: ''
+  CROSSHEAD: '"She then touched the pitcher with her wand."'
+  at-a-glance: 'Story illustration for "The Wonderful Pitcher" published in The Mary
+    Frances Story Book: Or Adventures Among the Story People by Jane Eayre Fryer (Philadelphia:
+    The John C. Winston Company, 1921).'
+  year: 1921
 - LOT: "42"
   REFNO: "776790"
   DESCRIPT: ALICE (1918-2018) and MARTIN PROVENSEN (1916-1987) "Heracles-The Twelve
