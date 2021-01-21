@@ -57,14 +57,16 @@ lots:
   year: 1880
 - LOT: "5"
   REFNO: "766501"
-  DESCRIPT: LILLIAN C. DAVIDS (active circa late 19th-early 20th centuries) "Doings
-    of the Grasshoppers. The Bug Race." [CHILDRENS / INSECTS]
+  DESCRIPT: 'LILLIAN C. DAVIDS (active circa late 19th-early 20th centuries) '
   LOW: "600"
   HIGH: "900"
-  TYPESET: |-
-    LILLIAN C. DAVIDS (active circa late 19th-early 20th centuries)
-    "Doings of the Grasshoppers. The Bug Race." Group of 5 illustrations to a chapter entitled "The Bug Race" for an unpublished work by Davids called "Doings of the Grasshoppers," circa 1880. Ink, watercolor, and wash on paper and hand-lettering, loosely mounted to stock. 242x318 mm; 9½x12½ inches. Initialed in lower image.
+  TYPESET: Ink, watercolor, and wash on paper and hand-lettering, loosely mounted
+    to stock. 242x318 mm; 9½x12½ inches. Initialed in lower image.
   FOOTNOTE: ''
+  CROSSHEAD: '"Doings of the Grasshoppers. The Bug Race."'
+  at-a-glance: 'Group of 5 illustrations to a chapter entitled "The Bug Race" for
+    an unpublished work by Davids called "Doings of the Grasshoppers," circa 1880. '
+  year: 1880
 - LOT: "6"
   REFNO: "773767"
   DESCRIPT: HARRISON CADY (1877-1970) "`Have you found a new home yet?' asked Peter."
