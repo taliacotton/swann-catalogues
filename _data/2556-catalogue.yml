@@ -1185,13 +1185,18 @@ lots:
     collection of a numismatist.'
 - LOT: "73"
   REFNO: "775645"
-  DESCRIPT: HARRISON FISHER (1875-1934) "Our 'New' Daughter."
+  DESCRIPT: 'HARRISON FISHER (1875-1934) '
   LOW: "800"
   HIGH: "1200"
-  TYPESET: |-
-    HARRISON FISHER (1875-1934)
-    "Our 'New' Daughter." Illustration for Puck, published December 1, 1897, with their stamp on verso. Pen and ink on paper. 470x577 mm; 18½x22¾ inches. Signed "Harrison Fisher" in lower left image on verso. See condition report. Mounted to board and framed. Provenance: Heritage Auctions, May 14, 2015, lot 71359; thence to Dick McDonough.
+  TYPESET: 'Pen and ink on paper. 470x577 mm; 18½x22¾ inches. Signed "Harrison Fisher"
+    in lower left image on verso. See condition report. Mounted to board and framed. '
   FOOTNOTE: ''
+  CROSSHEAD: '"Our ''New'' Daughter."'
+  at-a-glance: 'Illustration for Puck, published December 1, 1897, with their stamp
+    on verso. '
+  year: 1897
+  footnote_provenance: 'Provenance: Heritage Auctions, May 14, 2015, lot 71359; thence
+    to Dick McDonough.'
 - LOT: "74"
   REFNO: "776121"
   DESCRIPT: ERNEST FRANKLIN (1942-2010) "Jim Chee / Mexican Water Trading Post." [NATIVE
