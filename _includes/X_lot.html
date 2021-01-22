@@ -129,6 +129,8 @@
                     <div>
                         {% if lot.image %}
                         <img class="color-theif" src="{{ site.cloudinary_url }}/f_auto,q_70,w_60/{{ lot.image }}" crossorigin="anonymous">
+                        {% else %}
+                        <img class="color-theif" src="{{ site.cloudinary_url }}/f_auto,q_70,w_512/{{page.sale}}/{{ lot.REFNO }}.jpg" crossorigin="anonymous">
                         {% endif %}
                     </div>
                 </div>
