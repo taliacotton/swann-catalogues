@@ -780,9 +780,12 @@ lots:
   DESCRIPT: Cleaning Santa's Windshield
   LOW: "4000"
   HIGH: "6000"
-  TYPESET: Gouache on board. 572x902 mm; 22½x35½ inches. Framed.
+  TYPESET: |-
+    Advertisement for Cities Service Gasoline.
+
+    Gouache on board.  Framed.
   FOOTNOTE: ''
-  at-a-glance: 'Advertisement for Cities Service Gasoline. '
+  at-a-glance: '572x902 mm; 22½x35½ inches. '
   CROSSHEAD: "(American Artist)"
   year: 1950
 - LOT: "49"
