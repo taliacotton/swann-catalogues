@@ -811,13 +811,20 @@ lots:
   year: 1935
 - LOT: "50"
   REFNO: "776463"
-  DESCRIPT: RUDOLF BAUER (1889-1953) "Zodiasacra [?]."
+  DESCRIPT: 'RUDOLF BAUER (1889-1953) '
   LOW: "600"
   HIGH: "900"
-  TYPESET: |-
-    RUDOLF BAUER (1889-1953)
-    "Zodiasacra [?]." Possible study for Die Krater. Ink and gouache on paper. 457x293 mm; 18x11½ inches. Signed "Rudolf Bauer" in black ink, lower image, and partially legible German caption in pencil, lower margin. Mounted to window matte at top and bottom edges, verso. Provenance: Estate of Rudolf Bauer; Borghi & Co., NY; Herbert Lerner Fine Art, Boca Raton, FL; thence to Portico New York, Inc. (#RB60).A fine example of Bauer's Berlin cabaret images, possibly for Die Krater, the art group Bauer founded with Hilla Rebay and Otto Nebel.
+  TYPESET: "Ink and gouache on paper. 457x293 mm; 18x11½ inches. Signed \"Rudolf Bauer\"
+    in black ink, lower image, and partially legible German caption in pencil, lower
+    margin. Mounted to window matte at top and bottom edges, verso. \n\nA fine example
+    of Bauer's Berlin cabaret images, possibly for Die Krater, the art group Bauer
+    founded with Hilla Rebay and Otto Nebel."
   FOOTNOTE: ''
+  CROSSHEAD: '"Zodiasacra [?]."'
+  at-a-glance: 'Possible study for Die Krater. '
+  footnote_provenance: 'Provenance: Estate of Rudolf Bauer; Borghi & Co., NY; Herbert
+    Lerner Fine Art, Boca Raton, FL; thence to Portico New York, Inc. (#RB60).'
+  year: 1936
 - LOT: "51"
   REFNO: "777491"
   DESCRIPT: AUBREY BEARDSLEY (1872-1898) "Flower flanked by Leaves."
