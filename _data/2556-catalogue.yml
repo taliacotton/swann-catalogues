@@ -313,9 +313,7 @@ lots:
   TYPESET: |-
     Ink on board. 215x75 mm; 8½x3 inches, image, on 6x10-inch board. Signed "C.Hurd" in ink, lower left image, "p7" penciled in upper right corner, and caption in unknown hand on verso. A copy of the 1972 edition is included in the lot.
 
-    Accompanied by an Autograph Letter Signed by Hurd, 1 page, 8vo, dated 24 March 1976 on his Mill Valley, California letterhead, explaining to the recipient that a few of the originals were in his possession and could be purchased directly from him. This image is the first listed. The mailing envelope and a brief Easter greeting are also included.
-
-    ![](https://res.cloudinary.com/dcryyrd42/image/upload/v1611091062/2556/777492_VIEW_03_02.jpg)
+    [Accompanied by an Autograph Letter Signed by Hurd](https://catalogue.swanngalleries.com/Lots/auction-lot/CLEMENT-HURD--1908-1988--Running-Away--CHILDRENS--RABBITS-?saleno=2556&lotNo=23&refNo=777097 "Lot view page"), 1 page, 8vo, dated 24 March 1976 on his Mill Valley, California letterhead, explaining to the recipient that a few of the originals were in his possession and could be purchased directly from him. This image is the first listed. The mailing envelope and a brief Easter greeting are also included.
 
     Hurd and Brown collaborated on two of the most enduring and beloved children's books of all time: _Goodnight Moon_ and _The Runaway Bunny_. The famous tale of a verbal hide-and-seek game which describes a mother's enduring love for her curious little bunny was first published in 1942, has never been out of print, and sold millions of copies worldwide. In 1972, Hurd republished the iconic work with revised illustrations that kept the spirit of the original and was embraced by a new generation of readers.
 
@@ -326,7 +324,7 @@ lots:
     Wise Brown''s The Runaway Bunny, revised, with new illustrations (New York: Harper
     & Row, 1972).'
   year: 1972
-  color_background: "#C2EF94"
+  color_background: "#00AEEF"
   large_img: true
   header: true
   large_header:
@@ -782,9 +780,12 @@ lots:
   DESCRIPT: Cleaning Santa's Windshield
   LOW: "4000"
   HIGH: "6000"
-  TYPESET: Gouache on board. 572x902 mm; 22½x35½ inches. Framed.
+  TYPESET: |-
+    Advertisement for Cities Service Gasoline.
+
+    Gouache on board.  Framed.
   FOOTNOTE: ''
-  at-a-glance: 'Advertisement for Cities Service Gasoline. '
+  at-a-glance: '572x902 mm; 22½x35½ inches. '
   CROSSHEAD: "(American Artist)"
   year: 1950
 - LOT: "49"
@@ -793,7 +794,7 @@ lots:
   LOW: "1200"
   HIGH: "1800"
   TYPESET: |-
-    Ink and gouache on paper. Each signed in lower margin and with estate stamp on verso and tipped to window matte. Poodle image measures 485x260 mm; 19¼x10¼ inches. Signed "R. Bauer" in black ink, lower left. Stamped Estate Rudolf Bauer and numbered PNY-B-397, and 233 and 156 on verso. Coats image 440x292 mm; 17½x11½ inches. Signed "Rudolf Bauer" lower right. Stamped Estate Rudolf Bauer and numbered PNY-B-407, and #156 on verso.
+    Ink and gouache on paper. Each signed in lower margin and with estate stamp on verso and tipped to window matte. Signed "R. Bauer" in black ink, lower left. Stamped Estate Rudolf Bauer and numbered PNY-B-397, and 233 and 156 on verso. Coats image 440x292 mm; 17½x11½ inches. Signed "Rudolf Bauer" lower right. Stamped Estate Rudolf Bauer and numbered PNY-B-407, and #156 on verso.
 
     A visual witness to the Weimar period in Germany, Bauer often depicted such Berlin society figures with an Expressionist flair and they often served as source material for his caricatures and other illustrations.
   FOOTNOTE: ''
@@ -801,6 +802,7 @@ lots:
   footnote_provenance: 'Provenance: Estate of Rudolf Bauer; Borghi & Co., NY; Herbert
     Lerner Fine Art, Boca Raton, FL; thence to Portico New York, Inc.'
   year: 1935
+  at-a-glance: 'Poodle image measures 485x260 mm; 19¼x10¼ inches. '
 - LOT: "50"
   REFNO: "776463"
   DESCRIPT: 'RUDOLF BAUER (1889-1953) '
@@ -1044,6 +1046,7 @@ lots:
   at-a-glance: Preliminary study for the cover of The Saturday Evening Post, published
     March 27, 1954.
   year: 1954
+  color_background: "#FFFFFF"
 - LOT: "66"
   REFNO: "777564"
   DESCRIPT: STEVAN DOHANOS (1907-1994)
