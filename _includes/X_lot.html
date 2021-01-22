@@ -19,13 +19,12 @@
     <section class="large_image" style="background-color: {{lot.full_width_image.background_color}};">
         <img
             sizes="100vw"
-            srcset="{{ site.cloudinary_url }}/f_auto,q_70,w_512/{{ lot.full_width_image.image }} 512w,
-                    {{ site.cloudinary_url }}/f_auto,q_70,w_768/{{ lot.full_width_image.image }} 768w,
-                    {{ site.cloudinary_url }}/f_auto,q_70,w_1024/{{ lot.full_width_image.image }} 1024w,
-                    {{ site.cloudinary_url }}/f_auto,q_70,w_1280/{{ lot.full_width_image.image }} 1280w,
-                    {{ site.cloudinary_url }}/f_auto,q_70,w_1600/{{ lot.full_width_image.image }} 1600w,
-                    {{ site.cloudinary_url }}/f_auto,q_70,w_2000/{{ lot.full_width_image.image }} 2000w,
-                    {{ site.cloudinary_url }}/f_auto,q_70,w_2400/{{ lot.full_width_image.image }} 2400w"
+            srcset="{{ site.cloudinary_url }}/f_auto,q_70,w_512{{ lot.full_width_image.image }} 512w,
+                    {{ site.cloudinary_url }}/f_auto,q_70,w_768{{ lot.full_width_image.image }} 768w,
+                    {{ site.cloudinary_url }}/f_auto,q_70,w_1024{{ lot.full_width_image.image }} 1024w,
+                    {{ site.cloudinary_url }}/f_auto,q_70,w_1280{{ lot.full_width_image.image }} 1280w,
+                    {{ site.cloudinary_url }}/f_auto,q_70,w_1600{{ lot.full_width_image.image }} 1600w,
+                    {{ site.cloudinary_url }}/f_auto,q_70,w_2000{{ lot.full_width_image.image }} 2000w"
             src="{{ site.cloudinary_url }}/f_auto,q_70,w_640/{{ lot.full_width_image.image }}"
             alt="" />
     </section>
@@ -37,31 +36,25 @@
             <div class="slideshow"  style="background-color:{{bg}}">
                     <div class="slideshow-img-container">
                     <img
-                        sizes="50vw"
-                        srcset="{{ site.cloudinary_url }}/f_auto,q_70,w_128/{{ lot.image }} 256w,
-                                {{ site.cloudinary_url }}/f_auto,q_70,w_256/{{ lot.image }} 512w,
-                                {{ site.cloudinary_url }}/f_auto,q_70,w_384/{{ lot.image }} 768w,
-                                {{ site.cloudinary_url }}/f_auto,q_70,w_512/{{ lot.image }} 1024w,
-                                {{ site.cloudinary_url }}/f_auto,q_70,w_640/{{ lot.image }} 1280w,
-                                {{ site.cloudinary_url }}/f_auto,q_70,w_800/{{ lot.image }} 1600w,
-                                {{ site.cloudinary_url }}/f_auto,q_70,w_1000/{{ lot.image }} 2000w,
-                                {{ site.cloudinary_url }}/f_auto,q_70,w_1200/{{ lot.image }} 2400w"
+                        sizes="(min-width: 726px) 50vw, 100vw"
+                        srcset="{{ site.cloudinary_url }}/f_auto,q_70,w_512{{ lot.image }} 512w,
+                                {{ site.cloudinary_url }}/f_auto,q_70,w_768{{ lot.image }} 768w,
+                                {{ site.cloudinary_url }}/f_auto,q_70,w_1024{{ lot.image }} 1024w,
+                                {{ site.cloudinary_url }}/f_auto,q_70,w_1280{{ lot.image }} 1280w,
+                                {{ site.cloudinary_url }}/f_auto,q_70,w_1600{{ lot.image }} 1600w"
                         src="{{ site.cloudinary_url }}/f_auto,q_70,w_640/{{ lot.image }}"
                         alt="" />
                     </div>
                     {% for image in lot.images %}
                     <div class="slideshow-img-container">
                         <img
-                            sizes="50vw"
+                            sizes="(min-width: 726px) 50vw, 100vw"
                             data-img="{{ image }}"
-                            srcset="{{ site.cloudinary_url }}/f_auto,q_70,w_128/{{ image }} 256w,
-                                    {{ site.cloudinary_url }}/f_auto,q_70,w_256/{{ image }} 512w,
-                                    {{ site.cloudinary_url }}/f_auto,q_70,w_384/{{ image }} 768w,
-                                    {{ site.cloudinary_url }}/f_auto,q_70,w_512/{{ image }} 1024w,
-                                    {{ site.cloudinary_url }}/f_auto,q_70,w_640/{{ image }} 1280w,
-                                    {{ site.cloudinary_url }}/f_auto,q_70,w_800/{{ image }} 1600w,
-                                    {{ site.cloudinary_url }}/f_auto,q_70,w_1000/{{ image }} 2000w,
-                                    {{ site.cloudinary_url }}/f_auto,q_70,w_1200/{{ image }} 2400w"
+                            srcset="{{ site.cloudinary_url }}/f_auto,q_70,w_512{{ image }} 512w,
+                                {{ site.cloudinary_url }}/f_auto,q_70,w_768{{ image }} 768w,
+                                {{ site.cloudinary_url }}/f_auto,q_70,w_1024{{ image }} 1024w,
+                                {{ site.cloudinary_url }}/f_auto,q_70,w_1280{{ image }} 1280w,
+                                {{ site.cloudinary_url }}/f_auto,q_70,w_1600{{ image }} 1600w"
                             src="{{ site.cloudinary_url }}/f_auto,q_70,w_640/{{ image }}"
                             alt="" />
                     </div>
@@ -72,30 +65,24 @@
             {% if lot.image %}
                 <!-- <img style="background-color:{{bg}}" src="/assets/img/{{lot.image}}"> -->
                 <img style="background-color:{{bg}}"
-                        sizes="(min-width: 30em) 50vw, 100vw"
+                        sizes="(min-width: 726px) 50vw, 100vw"
                         data-img="{{ lot.image }}"
-                        srcset="{{ site.cloudinary_url }}/f_auto,q_70,w_128{{ lot.image }} 256w,
-                                {{ site.cloudinary_url }}/f_auto,q_70,w_256{{ lot.image }} 512w,
-                                {{ site.cloudinary_url }}/f_auto,q_70,w_384{{ lot.image }} 768w,
-                                {{ site.cloudinary_url }}/f_auto,q_70,w_512{{ lot.image }} 1024w,
-                                {{ site.cloudinary_url }}/f_auto,q_70,w_640{{ lot.image }} 1280w,
-                                {{ site.cloudinary_url }}/f_auto,q_70,w_800{{ lot.image }} 1600w,
-                                {{ site.cloudinary_url }}/f_auto,q_70,w_1000{{ lot.image }} 2000w,
-                                {{ site.cloudinary_url }}/f_auto,q_70,w_1200{{ lot.image }} 2400w"
+                        srcset="{{ site.cloudinary_url }}/f_auto,q_70,w_512{{ lot.image }} 512w,
+                                {{ site.cloudinary_url }}/f_auto,q_70,w_768{{ lot.image }} 768w,
+                                {{ site.cloudinary_url }}/f_auto,q_70,w_1024{{ lot.image }} 1024w,
+                                {{ site.cloudinary_url }}/f_auto,q_70,w_1280{{ lot.image }} 1280w,
+                                {{ site.cloudinary_url }}/f_auto,q_70,w_1600{{ lot.image }} 1600w"
                         src="{{ site.cloudinary_url }}/f_auto,q_70,w_512/{{ lot.image }}"
                         alt="" />
             {% else %}
             <img style="background-color:{{bg}}"
-                        sizes="(min-width: 30em) 50vw, 100vw"
+                        sizes="(min-width: 726px) 50vw, 100vw"
                         data-img="{{ lot.image }}"
-                        srcset="{{ site.cloudinary_url }}/f_auto,q_70,w_128/{{page.sale}}/{{ lot.REFNO }}.jpg 256w,
-                                {{ site.cloudinary_url }}/f_auto,q_70,w_256/{{page.sale}}/{{ lot.REFNO }}.jpg 512w,
-                                {{ site.cloudinary_url }}/f_auto,q_70,w_384/{{page.sale}}/{{ lot.REFNO }}.jpg 768w,
-                                {{ site.cloudinary_url }}/f_auto,q_70,w_512/{{page.sale}}/{{ lot.REFNO }}.jpg 1024w,
-                                {{ site.cloudinary_url }}/f_auto,q_70,w_640/{{page.sale}}/{{ lot.REFNO }}.jpg 1280w,
-                                {{ site.cloudinary_url }}/f_auto,q_70,w_800/{{page.sale}}/{{ lot.REFNO }}.jpg 1600w,
-                                {{ site.cloudinary_url }}/f_auto,q_70,w_1000/{{page.sale}}/{{ lot.REFNO }}.jpg 2000w,
-                                {{ site.cloudinary_url }}/f_auto,q_70,w_1200/{{page.sale}}/{{ lot.REFNO }}.jpg 2400w"
+                        srcset="{{ site.cloudinary_url }}/f_auto,q_70,w_512/{{page.sale}}/{{ lot.REFNO }}.jpg 512w,
+                                {{ site.cloudinary_url }}/f_auto,q_70,w_768/{{page.sale}}/{{ lot.REFNO }}.jpg 768w,
+                                {{ site.cloudinary_url }}/f_auto,q_70,w_1024/{{page.sale}}/{{ lot.REFNO }}.jpg 1024w,
+                                {{ site.cloudinary_url }}/f_auto,q_70,w_1280/{{page.sale}}/{{ lot.REFNO }}.jpg 1280w,
+                                {{ site.cloudinary_url }}/f_auto,q_70,w_1600/{{page.sale}}/{{ lot.REFNO }}.jpg 1600w"
                         src="{{ site.cloudinary_url }}/f_auto,q_70,w_512/{{page.sale}}/{{ lot.REFNO }}.jpg"
                         alt="" />
             {% endif %}

@@ -37,7 +37,14 @@ for (let lotId of bookmarked){
     if (document.getElementById(lotId)){
         document.getElementById(lotId).classList.add("lot-bookmarked");
     }
+    for (let lot of document.querySelectorAll(".sidebar--lots li")){
+        if (lotId == lot.getAttribute("data-id")){
+            lot.classList.add("bookmarked");
+        }
+    }
 }
+
+
 
 // define notes object
 let notes = [];
@@ -177,8 +184,6 @@ document.addEventListener("scroll", function(){
             }
         }
     }
-
-
 })
 
 
@@ -205,14 +210,21 @@ function zoomImg(e, ls){
     console.log(img.src)
     img.src = "https://res.cloudinary.com/dcryyrd42/image/upload/f_auto,q_70,h_" + window.innerHeight + img.getAttribute("data-img");
     ls.classList.add("zoom");
-    let xPos = interpolate(e.clientX, img.getBoundingClientRect().left, img.getBoundingClientRect().right,0,100)
-    let yPos = interpolate(e.clientY, img.getBoundingClientRect().top, img.getBoundingClientRect().bottom,0,100)
-    img.style.objectPosition = xPos + "% " + yPos + "%";
+    // let xPos = interpolate(e.clientX, 39, 39 + (window.innerWidth - 39)/2, 0, -74.3);
+    // let yPos = interpolate(e.clientY, 39, window.innerHeight, 0, -35);
+    // img.style.transform = "translateX("+xPos+"%) translateY("+yPos+"%)";
+    let xPos = interpolate(e.clientX, 39, 39 + (window.innerWidth - 39)/2, 50, -img.getBoundingClientRect().width + window.innerWidth/2, );
+    let yPos = interpolate(e.clientY, 39, window.innerHeight, 50, window.innerHeight - img.getBoundingClientRect().height - 39);
+    img.style.left = xPos+"px";
+    img.style.top = yPos+"px";
+    // img.style.objectPosition = xPos + "% " + yPos + "%";
+    // img.style.bottom = yPos + "%";
+    // img.style.left = xPos + "%";
 }
 
 function unzoomImg(ls){
     ls.classList.remove("zoom");
-    // ls.querySelector("img").style.objectPosition = "center";
+    ls.querySelector("img").removeAttribute("style");
 }
 
 // NOTES PROMPT MOVE
@@ -331,15 +343,16 @@ for (let bm of bookmarks){
     bm.addEventListener("click", function(){
         let parent = bm.parentElement.parentElement;
         parent.classList.toggle("lot-bookmarked");
-
+        document.querySelector(".sidebar--lots li[data-id='"+parent.id+"']").classList.toggle("bookmarked");
 
         // SAVE A COOKIE
         if (parent.classList.contains("lot-bookmarked")){
             bookmarked.push(parent.id);
         } else {
-            if (bookmarked.indexOf(parent.id) > -1) {
-                array.splice(index, 1);
-            }
+            // if (bookmarked.indexOf(parent.id) > -1) {
+            //     array.splice(index, 1);
+            // }
+            bookmarked = bookmarked.filter(e => e !== parent.id);
         }
         setCookie("bookmarked",JSON.stringify(bookmarked))
     })

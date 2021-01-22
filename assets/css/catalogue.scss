@@ -250,7 +250,7 @@ section{position:relative;z-index:1}
     text-align:center;
     display:flex;
     flex-direction:column;
-    z-index:2;
+    z-index:3;
     #hamburger, #infoBtn{
         padding-top:12px;
         display:inline-block;
@@ -306,6 +306,9 @@ section{position:relative;z-index:1}
         li.sidebar-chapter-separation{
             border-top:1px solid white;
             position:relative;
+        }
+        li.bookmarked{
+            border-top:1px solid var(--swann-blue);
         }
         .sidebar-chapter-separation > a{
             pointer-events:none;
@@ -729,7 +732,7 @@ section{position:relative;}
     min-height:var(--main-height);
     width:var(--main-width);
     color:black;
-    background: black;
+    // background: black;
     > * {flex: 1}
     .left{
         // background:black;
@@ -767,7 +770,6 @@ section{position:relative;}
             left: var(--toolbar-height);
             width: var(--main-height);
             position:fixed;
-            background:wheat;
             pointer-events:none;
             opacity:0;
             transition:opacity 600ms;
@@ -828,10 +830,28 @@ section{position:relative;}
         }
         
     }
-    .left.zoom {
+    .left.zoom,  {
         cursor: url(../img/zoom-out-cursor.svg), auto;
-        img{
-            object-fit:cover;
+        .slideshow{
+            transform:none;
+            height:var(--main-height);
+            width:calc(var(--main-width)/2);
+        }
+        img, .slideshow .slideshow-img-container img{
+            // object-fit:cover;
+            // object-fit:contain;
+            // height: calc(var(--main-height)*1.5);
+            // width: calc(var(--main-width)/2*1.5);
+            // transform: scale(2);
+            // height:auto;
+            min-height:150vh;
+            min-width:100vw;
+            height:auto;
+            width:auto;
+            object-position: 50% 50%;
+            object-fit:fill;
+            position:fixed;
+            // width: calc(var(--main-width)/2);
         }
     }
     .left.active img, .left.active .slideshow{
