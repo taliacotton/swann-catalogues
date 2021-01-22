@@ -938,13 +938,16 @@ lots:
   year: 1940
 - LOT: "59"
   REFNO: "773618"
-  DESCRIPT: MIGUEL COVARRUBIAS (1904-1957) "Idolo Maya."
+  DESCRIPT: 'MIGUEL COVARRUBIAS (1904-1957) '
   LOW: "1000"
   HIGH: "1500"
   TYPESET: |-
-    MIGUEL COVARRUBIAS (1904-1957)
-    "Idolo Maya." Pen and ink on paper. 247x175 mm; 9x7 inches. Initialed "MC" in red pencil, lower right corner; titled in pencil on verso.Throughout his career, Covarrubias maintained a scholarly interest in underrepresented and marginalized cultures, choosing to illustrate works about Harlem (where he lived in the 1920s and `30s) and its renaissance, Bali, and Mexico's Isthmus of Tehuantepec, among others.
+    Pen and ink on paper. 247x175 mm; 9x7 inches. Initialed "MC" in red pencil, lower right corner; titled in pencil on verso.
+
+    Throughout his career, Covarrubias maintained a scholarly interest in underrepresented and marginalized cultures, choosing to illustrate works about Harlem (where he lived in the 1920s and \`30s) and its renaissance, Bali, and Mexico's Isthmus of Tehuantepec, among others.
   FOOTNOTE: ''
+  CROSSHEAD: '"Idolo Maya."'
+  footnote_provenance: "1925"
 - LOT: "60"
   REFNO: "773617"
   DESCRIPT: MIGUEL COVARRUBIAS (1904-1957) "Juan de Grijalva." [MEXICO / EXPLORERS]
