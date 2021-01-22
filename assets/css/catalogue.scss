@@ -1546,6 +1546,7 @@ section.large_image{
         .dot-container:hover .thumbnail-lockup, .dot-container.hover .thumbnail-lockup{
             visibility: hidden;
             opacity:0;
+            pointer-events: none;
         }
         .dot-container:hover .dot-container-inner, .dot-container.hover .dot-container-inner{
             width:auto;
