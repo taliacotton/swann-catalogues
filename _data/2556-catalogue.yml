@@ -1028,14 +1028,30 @@ lots:
   year: 1947
 - LOT: "65"
   REFNO: "772360"
-  DESCRIPT: STEVAN DOHANOS (1907-1994) "2:00 Feeding." [COVER ART / SATURDAY EVENING
-    POST]
+  DESCRIPT: 'STEVAN DOHANOS (1907-1994)  '
   LOW: "600"
   HIGH: "900"
-  TYPESET: |-
-    STEVAN DOHANOS (1907-1994)
-    "2:00 Feeding." Preliminary study for the cover of The Saturday Evening Post, published March 27, 1954. Gouache with ink, watercolor, and glaze on board. 355x280 mm; 14x11 inches. Unsigned. Dohanos is best known for the cover images that he produced for The Saturday Evening Post, creating 123 of them during the 1940s and 1950s. It was during this period that he became a household name. According to his family, he was extremely methodical when bringing a cover from concept to final draft; Dohanos sketched his ideas, researched his subjects, and skillfully utilized models to translate his visions of everyday American life into compelling works of art. The magazine describes the cover as follows: "How lovely is the witching hour of two A.M., when the pale sheen of starlight soothes the earth and sleepy winds croon in the ancient hemlocks. That will be enough of that. Regarding Mr. Youngpop in the window, painter Dohanos doesn't show that he couldn't find his bedroom slippers and now has a wound where he stubbed his toe on the kitchen stove. No matter, it's just a little detail. Like the little scald on Mr. Y's wrist where he tested the milk after heating it and found that it needed unheating. Will this be one of those nights when the Baby falls hopelessly asleep with the milk only half drunk; then, put to bed, pops hopelessly awake? Or a night when Baby is a little angel, in time with the pale sheen of starlight et cetera?"
-  FOOTNOTE: ''
+  TYPESET: "Gouache with ink, watercolor, and glaze on board. 355x280 mm; 14x11 inches.
+    Unsigned. \n\nDohanos is best known for the cover images that he produced for
+    _The Saturday Evening Post_, creating 123 of them during the 1940s and 1950s.
+    It was during this period that he became a household name. According to his family,
+    he was extremely methodical when bringing a cover from concept to final draft;
+    Dohanos sketched his ideas, researched his subjects, and skillfully utilized models
+    to translate his visions of everyday American life into compelling works of art. "
+  FOOTNOTE: 'The magazine describes the cover as follows: "How lovely is the witching
+    hour of two A.M., when the pale sheen of starlight soothes the earth and sleepy
+    winds croon in the ancient hemlocks. That will be enough of that. Regarding Mr.
+    Youngpop in the window, painter Dohanos doesn''t show that he couldn''t find his
+    bedroom slippers and now has a wound where he stubbed his toe on the kitchen stove.
+    No matter, it''s just a little detail. Like the little scald on Mr. Y''s wrist
+    where he tested the milk after heating it and found that it needed unheating.
+    Will this be one of those nights when the Baby falls hopelessly asleep with the
+    milk only half drunk; then, put to bed, pops hopelessly awake? Or a night when
+    Baby is a little angel, in time with the pale sheen of starlight et cetera?"'
+  CROSSHEAD: '"2:00 Feeding."'
+  at-a-glance: Preliminary study for the cover of The Saturday Evening Post, published
+    March 27, 1954.
+  year: 1954
 - LOT: "66"
   REFNO: "777564"
   DESCRIPT: STEVAN DOHANOS (1907-1994) "Old Bedstead."
