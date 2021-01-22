@@ -596,7 +596,8 @@ section{position:relative;}
         flex-wrap:wrap;
         > div {
             margin-bottom:40px;
-            width:33%;
+            width: calc(33% - 10px);
+            margin-right: 10px;
         }
         img{
             width:100px;
@@ -614,8 +615,10 @@ section{position:relative;}
         small{ 
             font-size: 0.8rem;
             letter-spacing: -0.01em; 
-            line-height:1.3; 
+            line-height:1.1; 
             display:inline-block;
+            overflow-wrap: break-word;
+            word-break: break-all;
         }
     }
 }
@@ -830,7 +833,7 @@ section{position:relative;}
         }
         
     }
-    .left.zoom,  {
+    .left.zoom  {
         cursor: url(../img/zoom-out-cursor.svg), auto;
         .slideshow{
             transform:none;
