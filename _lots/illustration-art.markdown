@@ -7,7 +7,7 @@ cover_image:
   title: 'Lot 228: James Montgomery Flagg, "Follow Through" '
   image: "/v1610140384/775581_mkespy.jpg"
 filename: ''
-visible: true
+visible: false
 permalink: "/illustration-art/illustration-feat-dick-mcdonough-collection/2556"
 sale: 2556
 title: Illustration Art Featuring the Dick McDonough Collection of Golf Illustration
