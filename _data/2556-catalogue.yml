@@ -787,13 +787,14 @@ lots:
     York, 10/16/2013; thence to private owner.'
 - LOT: "48"
   REFNO: "777333"
-  DESCRIPT: AMERICAN ARTIST. Cleaning Santa's Windshield. [ADVERTISING / CHRISTMAS]
+  DESCRIPT: Cleaning Santa's Windshield
   LOW: "4000"
   HIGH: "6000"
-  TYPESET: |-
-    AMERICAN ARTIST.
-    Cleaning Santa's Windshield. Advertisement for Cities Service Gasoline. Gouache on board. 572x902 mm; 22½x35½ inches. Framed.
+  TYPESET: Gouache on board. 572x902 mm; 22½x35½ inches. Framed.
   FOOTNOTE: ''
+  at-a-glance: 'Advertisement for Cities Service Gasoline. '
+  CROSSHEAD: "(American Artist)"
+  year: 1950
 - LOT: "49"
   REFNO: "776460"
   DESCRIPT: RUDOLF BAUER (1889-1953) Fashionable couple with poodle * Fashionable
