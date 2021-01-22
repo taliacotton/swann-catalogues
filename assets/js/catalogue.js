@@ -440,6 +440,11 @@ for (let d of tocDots){
     let img = d.querySelector('img');
     let dot = d.querySelector('.dot');
 
+    if (img.getBoundingClientRect().left >= window.innerWidth-200){
+        d.querySelector(".thumbnail-lockup").style.position="fixed";
+        d.querySelector(".thumbnail-lockup").style.right="0px";
+    }
+
     // Make sure image is finished loading
     if (img.complete) {
             dot.style.background ="rgb("+colorThief.getColor(img)[0]+","+colorThief.getColor(img)[1]+","+colorThief.getColor(img)[2]+")";
