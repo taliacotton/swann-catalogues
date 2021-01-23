@@ -1714,13 +1714,26 @@ lots:
   year: 1950
 - LOT: "116"
   REFNO: "777575"
-  DESCRIPT: AMOS SEWELL (1901-1983) The Sheriff's cast off. [PIRATES / SHIPWRECKS]
+  DESCRIPT: 'AMOS SEWELL (1901-1983) '
   LOW: "2000"
   HIGH: "3000"
-  TYPESET: |-
-    AMOS SEWELL (1901-1983)
-    The Sheriff's cast off. Illustration for an unidentified story. Tempera and gouache on board. 530x790 mm; 21x31 inches, on 27½x38-inch board. Signed "Amos Sewell" in lower right image. Based on the scene depicted and the name "Ellenita" on the lifeboat's hull, it is most certainly for the true but often hyperbolically retold story about the notorious Captain William Henry "Bully" Hayes and the Pacific ship he fraudulently seized in 1859.As the tale goes, the wily Hayes smuggled goods onto the Ellenita, a Tahiti-bound vessel at a port of call in Maui. Aware of the suspicions of the local Sheriff Treadway, Hayes invited him aboard the ship to satisfy himself that no contraband existed. He then proceeded to ply him with liquor, weighed anchor, and sailed out far enough before forcing the drunken Treadway into the lifeboat to row himself back to shore. The sheriff was the lucky one in the end as the Ellenita sank off the shores of the Navigator Islands, though the unstoppable Hayes survived to terrorize the seas again.
+  TYPESET: "Illustration for an unidentified story. \n\nTempera and gouache on board.
+    Signed \"Amos Sewell\" in lower right image. \n\nBased on the scene depicted and
+    the name \"Ellenita\" on the lifeboat's hull, it is most certainly for the true
+    but often hyperbolically retold story about the notorious Captain William Henry
+    \"Bully\" Hayes and the Pacific ship he fraudulently seized in 1859.As the tale
+    goes, the wily Hayes smuggled goods onto the Ellenita, a Tahiti-bound vessel at
+    a port of call in Maui. Aware of the suspicions of the local Sheriff Treadway,
+    Hayes invited him aboard the ship to satisfy himself that no contraband existed.
+    He then proceeded to ply him with liquor, weighed anchor, and sailed out far enough
+    before forcing the drunken Treadway into the lifeboat to row himself back to shore.
+    The sheriff was the lucky one in the end as the Ellenita sank off the shores of
+    the Navigator Islands, though the unstoppable Hayes survived to terrorize the
+    seas again."
   FOOTNOTE: ''
+  CROSSHEAD: The Sheriff's cast off.
+  at-a-glance: '530x790 mm; 21x31 inches, on 27½x38-inch board. '
+  year: 1920
 - LOT: "117"
   REFNO: "776984"
   DESCRIPT: ROBERT O. SKEMP (1910-1984) A little laundry lift. [PIN-UP]
