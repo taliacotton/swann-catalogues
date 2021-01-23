@@ -1748,14 +1748,16 @@ lots:
   year: 1955
 - LOT: "118"
   REFNO: "766483"
-  DESCRIPT: HADDON SUNDBLOM (1899-1976) "What Should A School Child's Breakfast Be?"
-    [ADVERTISING / CREAM OF WHEAT]
+  DESCRIPT: 'HADDON SUNDBLOM (1899-1976)  '
   LOW: "4000"
   HIGH: "6000"
-  TYPESET: |-
-    HADDON SUNDBLOM (1899-1976)
-    "What Should A School Child's Breakfast Be?" Advertisement for Cream of Wheat, published in magazines, including The Ladies' Home Journal, Vol. 43, Issue 12, December 1926, page 127. Oil on canvas. 826x565 mm; 32½x22¼ inches. Unsigned. Framed.
+  TYPESET: "Advertisement for Cream of Wheat, published in magazines, including The
+    Ladies' Home Journal, Vol. 43, Issue 12, December 1926, page 127. \n\nOil on canvas.
+    Unsigned. Framed."
   FOOTNOTE: ''
+  CROSSHEAD: '"What Should A School Child''s Breakfast Be?"'
+  at-a-glance: '826x565 mm; 32½x22¼ inches. '
+  year: 1926
 - LOT: "119"
   REFNO: "776201"
   DESCRIPT: ALBERTO VARGAS (1896-1982) Rocket Girl. [PIN-UP]
