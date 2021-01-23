@@ -1587,13 +1587,19 @@ lots:
   year: 1953
 - LOT: "108"
   REFNO: "777416"
-  DESCRIPT: 'VICTOR PREZIO (1924-1976) Airwar #3. [PULP]'
+  DESCRIPT: 'VICTOR PREZIO (1924-1976)  '
   LOW: "2000"
   HIGH: "3000"
-  TYPESET: |-
-    VICTOR PREZIO (1924-1976)
-    Airwar #3. Pulp story illustration, likely for Air War Stories, circa 1960s. Gouache on board. 625x432 mm; 24¾x17 inches. Unsigned.Provenance: From the artist's estate.Victor Prezio was a prolific illustrator of magazine, pulp and paperback covers and stories in the post-WWII era. His work for such publishers as Dell, Gold Key, and Warren Publishing throughout the 1950s and `60s encompassed a range of popular genres from sci-fi, sports, romance, and western.
+  TYPESET: "Pulp story illustration, likely for Air War Stories, circa 1960s. \n\nGouache
+    on board. Unsigned.\n\nVictor Prezio was a prolific illustrator of magazine, pulp
+    and paperback covers and stories in the post-WWII era. His work for such publishers
+    as Dell, Gold Key, and Warren Publishing throughout the 1950s and \\`60s encompassed
+    a range of popular genres from sci-fi, sports, romance, and western."
   FOOTNOTE: ''
+  CROSSHEAD: 'Airwar #3.'
+  at-a-glance: '625x432 mm; 24¾x17 inches. '
+  footnote_provenance: 'Provenance: From the artist''s estate.'
+  year: 1965
 - LOT: "109"
   REFNO: "777419"
   DESCRIPT: VICTOR PREZIO (1924-1976) "The River Raiders."
