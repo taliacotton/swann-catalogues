@@ -1482,6 +1482,7 @@ lots:
   footnote_provenance: 'Provenance: Sotheby''s Sale #7197, December 15, 1998, lot
     116; thence to private collection, Mississippi.'
   year: 1890
+  color_background: "#FFFFFF"
 - LOT: "102"
   REFNO: "777493"
   DESCRIPT: 'MAXFIELD PARRISH (1870-1966) '
