@@ -1539,14 +1539,18 @@ lots:
   at-a-glance: 210x320 mm; 8¼x12½ inches, on 11x17½-inch sheet.
 - LOT: "105"
   REFNO: "776845"
-  DESCRIPT: WILLY POGÁNY (1882-1955) "And suddenly in wrath the King hath seiz'd the
-    dark witch-wife and hurl'd her from his path."
+  DESCRIPT: 'WILLY POGÁNY (1882-1955) '
   LOW: "2000"
   HIGH: "3000"
-  TYPESET: |-
-    WILLY POGÁNY (1882-1955)
-    "And suddenly in wrath the King hath seiz'd the dark witch-wife and hurl'd her from his path." Illustration of the King and Avenging Angel published on page 95 of The Tales of Lohengrin by T. W. Rolleston (London: Georges Harrap, 1913). Pen and ink on paper. 228x155mm; 9x6¼ inches. Tipped to matte and framed to 16x13 inches.Provenance: The Kelly Collection of American Illustration.
+  TYPESET: "Illustration of the King and Avenging Angel published on page 95 of The
+    Tales of Lohengrin by T. W. Rolleston (London: Georges Harrap, 1913). \n\nPen
+    and ink on paper. "
   FOOTNOTE: ''
+  CROSSHEAD: '"And suddenly in wrath the King hath seiz''d the dark witch-wife and
+    hurl''d her from his path."'
+  at-a-glance: 228x155mm; 9x6¼ inches. Tipped to matte and framed to 16x13 inches.
+  footnote_provenance: 'Provenance: The Kelly Collection of American Illustration.'
+  year: 1913
 - LOT: "106"
   REFNO: "777417"
   DESCRIPT: VICTOR PREZIO (1924-1976) "The Girl from Paris."
