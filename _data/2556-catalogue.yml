@@ -1681,13 +1681,20 @@ lots:
   FOOTNOTE: ''
 - LOT: "114"
   REFNO: "775913"
-  DESCRIPT: NORMAN ROCKWELL (1894-1978) Portrait of Clarence Darrow as an old man.
+  DESCRIPT: 'NORMAN ROCKWELL (1894-1978) '
   LOW: "2000"
   HIGH: "3000"
   TYPESET: |-
-    NORMAN ROCKWELL (1894-1978)
-    Portrait of Clarence Darrow as an old man. Graphite sketch on paper. 178x178 mm; 7x7 inches (image with signature) on 11½x9-inch paper. Signed in lower right margin. Archivally tipped to window matte and framed.Provenance: Estate of Albert Dorne; thence to private collection, Westport, CT.
+    Graphite sketch on paper. Signed in lower right margin. Archivally tipped to window matte and framed.
+
+    Provenance: Estate of Albert Dorne; thence to private collection, Westport, CT.
   FOOTNOTE: ''
+  CROSSHEAD: Portrait of Clarence Darrow as an old man.
+  at-a-glance: 178x178 mm; 7x7 inches (image with signature) on 11½x9-inch paper.
+  year: 1930
+  header: true
+  large_header:
+    line_1_text: Norman Rockwell
 - LOT: "115"
   REFNO: "777335"
   DESCRIPT: ELLEN SEGNER (1901-2001) Canadian beauty and boxer. [COVER ART / PIN-UP]
