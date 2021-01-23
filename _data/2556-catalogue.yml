@@ -1736,13 +1736,16 @@ lots:
   year: 1920
 - LOT: "117"
   REFNO: "776984"
-  DESCRIPT: ROBERT O. SKEMP (1910-1984) A little laundry lift. [PIN-UP]
+  DESCRIPT: 'ROBERT O. SKEMP (1910-1984)  '
   LOW: "300"
   HIGH: "400"
-  TYPESET: |-
-    ROBERT O. SKEMP (1910-1984)
-    A little laundry lift. A spicy study for unknown publication. Gouache on board. 230x171 mm; 9x6¾ inches, on 16x12¾-inch board. Signed by the artist's son Oliver beneath estate stamp on verso.
+  TYPESET: Gouache on board. Signed by the artist's son Oliver beneath estate stamp
+    on verso.
   FOOTNOTE: ''
+  CROSSHEAD: A little laundry lift.
+  at-a-glance: 230x171 mm; 9x6¾ inches, on 16x12¾-inch board.
+  pullquote: 'A spicy study for an unknown publication. '
+  year: 1955
 - LOT: "118"
   REFNO: "766483"
   DESCRIPT: HADDON SUNDBLOM (1899-1976) "What Should A School Child's Breakfast Be?"
