@@ -1619,13 +1619,21 @@ lots:
   year: 1968
 - LOT: "110"
   REFNO: "776850"
-  DESCRIPT: JOHN RAE (1882-1963) "Talk to Boston."
+  DESCRIPT: JOHN RAE (1882-1963)
   LOW: "2500"
   HIGH: "3500"
-  TYPESET: |-
-    JOHN RAE (1882-1963)
-    "Talk to Boston." Illustration for unknown publication, circa 1910. Watercolor with wash on board. 305x254 mm; 12x10 inches, on 14¾x12¼-inch board. Signed in lower right image. Laid into inset matte. Framed. Provenance: The Kelly Collection of American Illustration.Exhibited and Reproduced: Zakian, Michael, Richard Kelly, and David Apatoff. Illustrating Modern Life: The Golden Age of American Illustration from the Kelly Collection. Published in conjunction with an exhibition of the same title organized by and presented at the Frederick R. Weisman Museum of Art, Pepperdine University, January 12 through March 31, 2013. Malibu, 2013.
+  TYPESET: "Illustration for unknown publication, circa 1910. \n\nWatercolor with
+    wash on board. Signed in lower right image. Laid into inset matte. Framed. "
   FOOTNOTE: ''
+  CROSSHEAD: ' "Talk to Boston."'
+  at-a-glance: 305x254 mm; 12x10 inches, on 14¾x12¼-inch board.
+  footnote_provenance: 'Provenance: The Kelly Collection of American Illustration.<br>Exhibited
+    and Reproduced: Zakian, Michael, Richard Kelly, and David Apatoff. Illustrating
+    Modern Life: The Golden Age of American Illustration from the Kelly Collection.
+    Published in conjunction with an exhibition of the same title organized by and
+    presented at the Frederick R. Weisman Museum of Art, Pepperdine University, January
+    12 through March 31, 2013. Malibu, 2013.'
+  year: 1910
 - LOT: "111"
   REFNO: "777092"
   DESCRIPT: HENRY PATRICK RALEIGH (1880-1944) "I believe - is it not a fact that you
