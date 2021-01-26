@@ -9,7 +9,7 @@ sections:
   label: Catalogues
   create: documents
   match: "**/*"
-  new_doc_ext: yaml
+  new_doc_ext: markdown
   templates:
   - lot
 - type: directory
