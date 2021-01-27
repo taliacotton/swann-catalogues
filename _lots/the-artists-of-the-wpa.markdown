@@ -19,6 +19,7 @@ chapters:
 - chapters:
   - lot: 1
     chapter_title: The FSA
+  session_title: test
 people:
   main_contacts: []
   officers: []
