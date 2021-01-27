@@ -75,12 +75,12 @@
                             {% endif %}
                     {% endfor %}
                 {% endfor %}
-                    <li>
+                    <li data-id="lot{{lotNum}}">
                         <a href="#">
                             <div class="thumbnail-lockup">
                                     {% if lot.image %}
                                     <img src="{{ site.cloudinary_url }}/f_auto,q_70,w_60/{{ lot.image }}" crossorigin="anonymous">
-                                    {% else %}
+                                    {% elsif lot.REFNO %}
                                     <img src="{{ site.cloudinary_url }}/f_auto,q_70,w_512/{{page.sale}}/{{ lot.REFNO }}.jpg" crossorigin="anonymous">
                                     {% endif %}
                                     <p class="small-type">
@@ -105,15 +105,12 @@
                 <div class="left">
                     {% if page.cover_image.image %}
                     <img style="background-color:{{bg}}"
-                        sizes="(min-width: 30em) 50vw, 100vw"
-                        srcset="{{ site.cloudinary_url }}/f_auto,q_70,w_128/{{ page.cover_image.image }} 256w,
-                                {{ site.cloudinary_url }}/f_auto,q_70,w_256/{{ page.cover_image.image }} 512w,
-                                {{ site.cloudinary_url }}/f_auto,q_70,w_384/{{ page.cover_image.image }} 768w,
-                                {{ site.cloudinary_url }}/f_auto,q_70,w_512/{{ page.cover_image.image }} 1024w,
-                                {{ site.cloudinary_url }}/f_auto,q_70,w_640/{{ page.cover_image.image }} 1280w,
-                                {{ site.cloudinary_url }}/f_auto,q_70,w_800/{{ page.cover_image.image }} 1600w,
-                                {{ site.cloudinary_url }}/f_auto,q_70,w_1000/{{ page.cover_image.image }} 2000w,
-                                {{ site.cloudinary_url }}/f_auto,q_70,w_1200/{{ page.cover_image.image }} 2400w"
+                        sizes="(min-width: 726px) 50vw, 100vw"
+                        srcset="{{ site.cloudinary_url }}/f_auto,q_70,w_512{{ page.cover_image.image }} 512w,
+                                {{ site.cloudinary_url }}/f_auto,q_70,w_768{{ page.cover_image.image }} 768w,
+                                {{ site.cloudinary_url }}/f_auto,q_70,w_1024{{ page.cover_image.image }} 1024w,
+                                {{ site.cloudinary_url }}/f_auto,q_70,w_1280{{ page.cover_image.image }} 1280w,
+                                {{ site.cloudinary_url }}/f_auto,q_70,w_1600{{ page.cover_image.image }} 1600w"
                         src="{{ site.cloudinary_url }}/f_auto,q_70,w_512/{{ page.cover_image.image }}"
                         alt="" />
                         {% endif %}
@@ -194,7 +191,7 @@
                             <div class="thumbnail-lockup">
                                 {% if lot.image %}
                                  <img src="{{ site.cloudinary_url }}/f_auto,q_70,w_60/{{ lot.image }}" crossorigin="anonymous">
-                                 {% else %}
+                                 {% elsif lot.REFNO %}
                                  <img src="{{ site.cloudinary_url }}/f_auto,q_70,w_512/{{page.sale}}/{{ lot.REFNO }}.jpg" crossorigin="anonymous">
                                  {% endif %}
                                  <p class="small-type">

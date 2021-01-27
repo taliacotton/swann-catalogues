@@ -8,7 +8,7 @@ sections:
   path: _lots
   label: Catalogues
   create: documents
-  match: "*"
+  match: "**/*"
   new_doc_ext: markdown
   templates:
   - lot
@@ -16,7 +16,8 @@ sections:
   path: _data
   label: Lots
   create: documents
-  match: "**/*"
+  match: "*.y*ml"
+  new_doc_ext: yaml
   templates:
   - catalogue
 - type: directory
@@ -40,4 +41,4 @@ build:
   mount_path: "/srv"
   working_dir: "/srv"
   instant_preview_command: bundle exec jekyll serve --drafts --unpublished --future
-    -d _site
+    --port 8080 --host 0.0.0.0 -d _site

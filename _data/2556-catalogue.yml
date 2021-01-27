@@ -310,31 +310,21 @@ lots:
   DESCRIPT: 'CLEMENT HURD (1908-1988) '
   LOW: "1500"
   HIGH: "2500"
-  TYPESET: "Ink on board. 215x75 mm; 8½x3 inches, image, on 6x10-inch board. Signed
-    \"C.Hurd\" in ink, lower left image, \"p7\" penciled in upper right corner, and
-    caption in unknown hand on verso. A copy of the 1972 edition is included in the
-    lot.\n\nAccompanied by an Autograph Letter Signed by Hurd, 1 page, 8vo, dated
-    24 March 1976 on his Mill Valley, California letterhead, explaining to the recipient
-    that a few of the originals were in his possession and could be purchased directly
-    from him. This image is the first listed. The mailing envelope and a brief Easter
-    greeting are also included. \n\nHurd and Brown collaborated on two of the most
-    enduring and beloved children's books of all time: _Goodnight Moon_ and _The Runaway
-    Bunny_. The famous tale of a verbal hide-and-seek game which describes a mother's
-    enduring love for her curious little bunny was first published in 1942, has never
-    been out of print, and sold millions of copies worldwide. In 1972, Hurd republished
-    the iconic work with revised illustrations that kept the spirit of the original
-    and was embraced by a new generation of readers.\n\nAs far as we are able to determine,
-    no original illustration for either edition of _The Runaway Bunny_ has come to
-    auction previously. Hurd's papers and most of the original studies for this and
-    other works are housed in the Clement Hurd archive at University of Minnesota
-    Libraries Children's Literature Research Collections."
+  TYPESET: |-
+    Ink on board. 215x75 mm; 8½x3 inches, image, on 6x10-inch board. Signed "C.Hurd" in ink, lower left image, "p7" penciled in upper right corner, and caption in unknown hand on verso. A copy of the 1972 edition is included in the lot.
+
+    [Accompanied by an Autograph Letter Signed by Hurd](https://catalogue.swanngalleries.com/Lots/auction-lot/CLEMENT-HURD--1908-1988--Running-Away--CHILDRENS--RABBITS-?saleno=2556&lotNo=23&refNo=777097 "Lot view page"), 1 page, 8vo, dated 24 March 1976 on his Mill Valley, California letterhead, explaining to the recipient that a few of the originals were in his possession and could be purchased directly from him. This image is the first listed. The mailing envelope and a brief Easter greeting are also included.
+
+    Hurd and Brown collaborated on two of the most enduring and beloved children's books of all time: _Goodnight Moon_ and _The Runaway Bunny_. The famous tale of a verbal hide-and-seek game which describes a mother's enduring love for her curious little bunny was first published in 1942, has never been out of print, and sold millions of copies worldwide. In 1972, Hurd republished the iconic work with revised illustrations that kept the spirit of the original and was embraced by a new generation of readers.
+
+    As far as we are able to determine, no original illustration for either edition of _The Runaway Bunny_ has come to auction previously. Hurd's papers and most of the original studies for this and other works are housed in the Clement Hurd archive at University of Minnesota Libraries Children's Literature Research Collections.
   FOOTNOTE: ''
   CROSSHEAD: '"Running Away."'
   at-a-glance: 'Illustration published on the first page of the 1972 edition of Margaret
     Wise Brown''s The Runaway Bunny, revised, with new illustrations (New York: Harper
     & Row, 1972).'
   year: 1972
-  color_background: "#C2EF94"
+  color_background: "#00AEEF"
   large_img: true
   header: true
   large_header:
@@ -790,9 +780,12 @@ lots:
   DESCRIPT: Cleaning Santa's Windshield
   LOW: "4000"
   HIGH: "6000"
-  TYPESET: Gouache on board. 572x902 mm; 22½x35½ inches. Framed.
+  TYPESET: |-
+    Advertisement for Cities Service Gasoline.
+
+    Gouache on board.  Framed.
   FOOTNOTE: ''
-  at-a-glance: 'Advertisement for Cities Service Gasoline. '
+  at-a-glance: '572x902 mm; 22½x35½ inches. '
   CROSSHEAD: "(American Artist)"
   year: 1950
 - LOT: "49"
@@ -801,7 +794,7 @@ lots:
   LOW: "1200"
   HIGH: "1800"
   TYPESET: |-
-    Ink and gouache on paper. Each signed in lower margin and with estate stamp on verso and tipped to window matte. Poodle image measures 485x260 mm; 19¼x10¼ inches. Signed "R. Bauer" in black ink, lower left. Stamped Estate Rudolf Bauer and numbered PNY-B-397, and 233 and 156 on verso. Coats image 440x292 mm; 17½x11½ inches. Signed "Rudolf Bauer" lower right. Stamped Estate Rudolf Bauer and numbered PNY-B-407, and #156 on verso.
+    Ink and gouache on paper. Each signed in lower margin and with estate stamp on verso and tipped to window matte. Signed "R. Bauer" in black ink, lower left. Stamped Estate Rudolf Bauer and numbered PNY-B-397, and 233 and 156 on verso. Coats image 440x292 mm; 17½x11½ inches. Signed "Rudolf Bauer" lower right. Stamped Estate Rudolf Bauer and numbered PNY-B-407, and #156 on verso.
 
     A visual witness to the Weimar period in Germany, Bauer often depicted such Berlin society figures with an Expressionist flair and they often served as source material for his caricatures and other illustrations.
   FOOTNOTE: ''
@@ -809,6 +802,7 @@ lots:
   footnote_provenance: 'Provenance: Estate of Rudolf Bauer; Borghi & Co., NY; Herbert
     Lerner Fine Art, Boca Raton, FL; thence to Portico New York, Inc.'
   year: 1935
+  at-a-glance: 'Poodle image measures 485x260 mm; 19¼x10¼ inches. '
 - LOT: "50"
   REFNO: "776463"
   DESCRIPT: 'RUDOLF BAUER (1889-1953) '
@@ -1052,6 +1046,7 @@ lots:
   at-a-glance: Preliminary study for the cover of The Saturday Evening Post, published
     March 27, 1954.
   year: 1954
+  color_background: "#FFFFFF"
 - LOT: "66"
   REFNO: "777564"
   DESCRIPT: STEVAN DOHANOS (1907-1994)
@@ -1446,124 +1441,234 @@ lots:
   FOOTNOTE: ''
 - LOT: "100"
   REFNO: "772555"
-  DESCRIPT: HENRIETTA DUNN MEARS (1877-1970) The Harvard Girl.
+  DESCRIPT: 'HENRIETTA DUNN MEARS (1877-1970) '
   LOW: "300"
   HIGH: "400"
-  TYPESET: |-
-    HENRIETTA DUNN MEARS (1877-1970)
-    The Harvard Girl. Watercolor and ink on board. Oval, measuring 295x243 mm; 11½x9½ inches. Signed "Henrietta Dunn N.Y." in pencil, lower right, in period oval frame.Henrietta Mears (1877-1970) was born in Milwaukee, Wisconsin. She moved to the East Coast to study at the Art Students League in New York City with Charles Hawthorne and Eric Pape and was given an early solo exhibition at the Copley Gallery in Boston in 1917.She was a member of bi-coastal art associations, including The Provincetown Art Association, West Coast Arts, and Berkeley League of Fine Arts, where she also exhibited. Mears won prizes for work shown at the Minnesota State Fair in 1927 and the St. Paul Institute in 1930.
+  TYPESET: "Watercolor and ink on board.  \n\nSigned \"Henrietta Dunn N.Y.\" in pencil,
+    lower right, in period oval frame.\n\nHenrietta Mears (1877-1970) was born in
+    Milwaukee, Wisconsin. She moved to the East Coast to study at the Art Students
+    League in New York City with Charles Hawthorne and Eric Pape and was given an
+    early solo exhibition at the Copley Gallery in Boston in 1917.\n\nShe was a member
+    of bi-coastal art associations, including The Provincetown Art Association, West
+    Coast Arts, and Berkeley League of Fine Arts, where she also exhibited. Mears
+    won prizes for work shown at the Minnesota State Fair in 1927 and the St. Paul
+    Institute in 1930."
   FOOTNOTE: ''
+  CROSSHEAD: The Harvard Girl.
+  at-a-glance: Oval, measuring 295x243 mm; 11½x9½ inches.
+  year: 1920
+  color_background: "#FFFFFF"
 - LOT: "101"
   REFNO: "777492"
-  DESCRIPT: MAXFIELD PARRISH (1870-1966) Two design studies for clock faces,
+  DESCRIPT: 'MAXFIELD PARRISH (1870-1966) '
   LOW: "2500"
   HIGH: "3500"
-  TYPESET: |-
-    MAXFIELD PARRISH (1870-1966)
-    Two design studies for clock faces, circa 1890. Graphite on paper. Each about 90 mm; 3½ inches, tondo, cut to size. Tipped to mount and decoratively framed to 29x13 inches with a print of the illustration of the cooks, spoons, and clock face from The Knave of Hearts by Louise Saunders (New York: Charles Scribner's Sons, 1925). Provenance: Sotheby's Sale #7197, December 15, 1998, lot 116; thence to private collection, Mississippi.These early clock faces, one in mannerist style, the other with a neoclassical sunburst design, show his talent and penchant for detail and decoration. According to Alma Gilbert, Parrish scholar and Director of the Cornish Colony Gallery & Museum (the Cornish Colony was the New Hampshire artists' colony to which Parrish belonged) they would later influence the design of the timepieces in his most famous illustrated book, The Knave of Hearts by Louise Saunders (New York: Charles Scribner's Sons, 1925.) In a letter to the owner of this work she writes that the image from The Knave of Hearts (framed with the artwork here) was likely the ultimate realization of the work he began in these drawings. (February 17, 1999).
+  TYPESET: "Circa 1890. Graphite on paper. Tipped to mount and decoratively framed
+    to 29x13 inches with a print of the illustration of the cooks, spoons, and clock
+    face from The Knave of Hearts by Louise Saunders (New York: Charles Scribner's
+    Sons, 1925). \n\nThese early clock faces, one in mannerist style, the other with
+    a neoclassical sunburst design, show his talent and penchant for detail and decoration.
+    According to Alma Gilbert, Parrish scholar and Director of the Cornish Colony
+    Gallery & Museum (the Cornish Colony was the New Hampshire artists' colony to
+    which Parrish belonged) they would later influence the design of the timepieces
+    in his most famous illustrated book, The Knave of Hearts by Louise Saunders (New
+    York: Charles Scribner's Sons, 1925). In a letter to the owner of this work she
+    writes that the image from The Knave of Hearts (framed with the artwork here)
+    was likely the ultimate realization of the work he began in these drawings. (February
+    17, 1999.)"
   FOOTNOTE: ''
+  CROSSHEAD: Two design studies for clock faces.
+  at-a-glance: " Each about 90 mm; 3½ inches, tondo, cut to size."
+  footnote_provenance: 'Provenance: Sotheby''s Sale #7197, December 15, 1998, lot
+    116; thence to private collection, Mississippi.'
+  year: 1890
+  color_background: "#FFFFFF"
 - LOT: "102"
   REFNO: "777493"
-  DESCRIPT: MAXFIELD PARRISH (1870-1966) Design study for clock minute hand,
+  DESCRIPT: 'MAXFIELD PARRISH (1870-1966) '
   LOW: "600"
   HIGH: "900"
   TYPESET: |-
-    MAXFIELD PARRISH (1870-1966)
-    Design study for clock minute hand, circa 1890. Graphite and grey wash on paper with partial hand-inked border. 260x55 mm; 10¼x2¼ inches, unevenly clipped from larger sheet. Unsigned, but with two penciled indications in Parrish's hand along bottom: "hand of clock / minute" and "not quit[e]."Provenance: Sotheby's Sale #7197, December 15, 1998, lot 116; thence to private collection, Mississippi.Parrish's early decorative design work is evident in this mannerist drawing of a minute hand, with a whimsical dolphin whose elongated tail extends into an arrow. The style is similar to those he would later use in The Knave of Hearts by Louise Saunders (New York: Charles Scribner's Sons, 1925.) In a letter by Alma Gilbert, Parrish scholar and Director of the Cornish Colony Gallery & Museum (the Cornish Colony was the New Hampshire artists' colony to which Parrish belonged), to the owner of this work, she writes that he used these designs as the basis for his own utilitarian water gauge which he placed outside his studio work room to let him know at a glance if the water level to the main house reservoir was low, whereupon he would turn a pump switch in the studio to refill it without having to leave. (February 17, 1999).
+    Circa 1890. Graphite and grey wash on paper with partial hand-inked border.  Unsigned, but with two penciled indications in Parrish's hand along bottom: "hand of clock / minute" and "not quit\[e\]."
+
+    Parrish's early decorative design work is evident in this mannerist drawing of a minute hand, with a whimsical dolphin whose elongated tail extends into an arrow. The style is similar to those he would later use in The Knave of Hearts by Louise Saunders (New York: Charles Scribner's Sons, 1925.) In a letter by Alma Gilbert, Parrish scholar and Director of the Cornish Colony Gallery & Museum (the Cornish Colony was the New Hampshire artists' colony to which Parrish belonged), to the owner of this work, she writes that he used these designs as the basis for his own utilitarian water gauge which he placed outside his studio work room to let him know at a glance if the water level to the main house reservoir was low, whereupon he would turn a pump switch in the studio to refill it without having to leave. (February 17, 1999).
   FOOTNOTE: ''
+  color_background: "#FFFFFF"
+  CROSSHEAD: Design study for clock minute hand,
+  at-a-glance: 260x55 mm; 10¼x2¼ inches, unevenly clipped from larger sheet.
+  footnote_provenance: 'Provenance: Sotheby''s Sale #7197, December 15, 1998, lot
+    116; thence to private collection, Mississippi.'
+  year: 1890
 - LOT: "103"
   REFNO: "776466"
-  DESCRIPT: GUY PÈNE DU BOIS (1884-1958) Lytton Strachey. [CARICATURE / LITERATURE
-    / QUEEN VICTORIA]
+  DESCRIPT: 'GUY PÈNE DU BOIS (1884-1958) '
   LOW: "2000"
   HIGH: "3000"
   TYPESET: |-
-    GUY PÈNE DU BOIS (1884-1958)
-    Lytton Strachey. Portrait published in The Saturday Review of Literature, February 6, 1932. Pen and ink on paper. 215x318 mm; 8½x12½ inches (sight). Signed "G. P. du Bois" in lower right image, and dated [19]32. Archivally matted and framed with gallery and exhibition labels on verso of backing board. Not removed from frame for inspection.Exhibited: "Guy Pène du Bois: Artist About Town," Corcoran Gallery of Art, October 10-November 30, 1980, with subsequent tour to Joslyn Art Museum, January 10-March 1, 1981, and Mary and Leigh Block Gallery, March 20-May 10, 1981 (No. 61 in catalogue). Pène du Bois’ portrait of Lytton Strachey, the British writer and critic, was published shortly after Strachey’s death, which occurred on January 21, 1932. Pène du Bois depicts the author in his characteristic beard and horn-rimmed glasses while seated and absorbed in his own thoughts. A founding member of the Bloomsbury Group and author of Eminent Victorians (1918), Strachey is known for his biographies that combined psychological insight with witty irreverence. Pène du Bois’ inclusion of a rough portrait of Queen Victoria hanging on the wall is a subtle nod to Strachey’s 1921 biography of the Queen, which was awarded the James Tait Black Memorial Prize.Pène du Bois began contributing illustrations of literary figures for The Saturday Review of Literature upon his return to the United States in 1930 after spending four years in France.
+    Portrait published in The Saturday Review of Literature, February 6, 1932. Pen and ink on paper. Signed "G. P. du Bois" in lower right image, and dated \[19\]32. Archivally matted and framed with gallery and exhibition labels on verso of backing board. Not removed from frame for inspection.
+
+    Pène du Bois’ portrait of Lytton Strachey, the British writer and critic, was published shortly after Strachey’s death, which occurred on January 21, 1932. Pène du Bois depicts the author in his characteristic beard and horn-rimmed glasses while seated and absorbed in his own thoughts. A founding member of the Bloomsbury Group and author of Eminent Victorians (1918), Strachey is known for his biographies that combined psychological insight with witty irreverence. Pène du Bois’ inclusion of a rough portrait of Queen Victoria hanging on the wall is a subtle nod to Strachey’s 1921 biography of the Queen, which was awarded the James Tait Black Memorial Prize.
+
+    Pène du Bois began contributing illustrations of literary figures for _The Saturday Review of Literature_ upon his return to the United States in 1930 after spending four years in France.
   FOOTNOTE: ''
+  CROSSHEAD: " Lytton Strachey."
+  at-a-glance: 215x318 mm; 8½x12½ inches (sight).
+  footnote_provenance: 'Exhibited: "Guy Pène du Bois: Artist About Town," Corcoran
+    Gallery of Art, October 10-November 30, 1980, with subsequent tour to Joslyn Art
+    Museum, January 10-March 1, 1981, and Mary and Leigh Block Gallery, March 20-May
+    10, 1981 (No. 61 in catalogue).'
+  year: 1932
 - LOT: "104"
   REFNO: "776467"
-  DESCRIPT: GUY PÈNE DU BOIS (1884-1958) T.S. Eliot / Prufrock. [CARICATURE / LITERATURE]
+  DESCRIPT: 'GUY PÈNE DU BOIS (1884-1958)  '
   LOW: "2500"
   HIGH: "3500"
-  TYPESET: |-
-    GUY PÈNE DU BOIS (1884-1958)
-    T.S. Eliot / Prufrock. Likely portrait for The Saturday Review of Literature, circa 1932. Pen and ink on paper. 210x320 mm; 8¼x12½ inches, on 11x17½-inch sheet. Signed "Guy Pène du Bois" in lower right image; captioned "Portrait of a Poet" at lower center in artist's hand. Archivally matted and framed with James Graham & Sons gallery label on verso of backing board. Pène du Bois caricatures the angular features of T.S. Eliot and includes references to his prolific poetry through the spines of books stacked nearby. While in life Eliot typically wore his hair slicked back, Pène du Bois gives him curls and depicts him daintily holding a spoon, a clever reference to Eliot’s first professionally published poem from 1915, “The Love Song of J. Alfred Prufrock,” which contains the line “I have measured out my life with coffee spoons.” Pène du Bois’ portrait was likely completed in 1932, around the time Eliot returned from London to the United States in order to become a professor at Harvard, where he once studied.
+  TYPESET: "Likely portrait for _The Saturday Review of Literature_, circa 1932. Pen
+    and ink on paper. Signed \"Guy Pène du Bois\" in lower right image; captioned
+    \"Portrait of a Poet\" at lower center in artist's hand. Archivally matted and
+    framed with James Graham & Sons gallery label on verso of backing board. \n\nPène
+    du Bois caricatures the angular features of T.S. Eliot and includes references
+    to his prolific poetry through the spines of books stacked nearby. While in life
+    Eliot typically wore his hair slicked back, Pène du Bois gives him curls and depicts
+    him daintily holding a spoon, a clever reference to Eliot’s first professionally
+    published poem from 1915, “The Love Song of J. Alfred Prufrock,” which contains
+    the line “I have measured out my life with coffee spoons.” Pène du Bois’ portrait
+    was likely completed in 1932, around the time Eliot returned from London to the
+    United States in order to become a professor at Harvard, where he once studied."
   FOOTNOTE: ''
+  CROSSHEAD: T.S. Eliot / Prufrock.
+  year: 1932
+  at-a-glance: 210x320 mm; 8¼x12½ inches, on 11x17½-inch sheet.
 - LOT: "105"
   REFNO: "776845"
-  DESCRIPT: WILLY POGÁNY (1882-1955) "And suddenly in wrath the King hath seiz'd the
-    dark witch-wife and hurl'd her from his path."
+  DESCRIPT: 'WILLY POGÁNY (1882-1955) '
   LOW: "2000"
   HIGH: "3000"
-  TYPESET: |-
-    WILLY POGÁNY (1882-1955)
-    "And suddenly in wrath the King hath seiz'd the dark witch-wife and hurl'd her from his path." Illustration of the King and Avenging Angel published on page 95 of The Tales of Lohengrin by T. W. Rolleston (London: Georges Harrap, 1913). Pen and ink on paper. 228x155mm; 9x6¼ inches. Tipped to matte and framed to 16x13 inches.Provenance: The Kelly Collection of American Illustration.
+  TYPESET: "Illustration of the King and Avenging Angel published on page 95 of The
+    Tales of Lohengrin by T. W. Rolleston (London: Georges Harrap, 1913). \n\nPen
+    and ink on paper. "
   FOOTNOTE: ''
+  CROSSHEAD: '"And suddenly in wrath the King hath seiz''d the dark witch-wife and
+    hurl''d her from his path."'
+  at-a-glance: 228x155mm; 9x6¼ inches. Tipped to matte and framed to 16x13 inches.
+  footnote_provenance: 'Provenance: The Kelly Collection of American Illustration.'
+  year: 1913
 - LOT: "106"
   REFNO: "777417"
-  DESCRIPT: VICTOR PREZIO (1924-1976) "The Girl from Paris."
+  DESCRIPT: 'VICTOR PREZIO (1924-1976) '
   LOW: "1500"
   HIGH: "2500"
-  TYPESET: |-
-    VICTOR PREZIO (1924-1976)
-    "The Girl from Paris." Story illustration published in Battlefield magazine, issue #1, November 1957, with their stamp on verso. Gouache and glaze on board. 425x555 mm; 16¾x21¾ inches, on 18¼x22¼-inch board. Signed "Prezio" in lower left image. Provenance: From the artist's estate.Victor Prezio was a prolific illustrator of magazine, pulp and paperback covers and stories in the post-WWII era. His work for such publishers as Dell, Gold Key, and Warren Publishing throughout the 1950s and `60s encompassed a range of popular genres from sci-fi, sports, romance, and western.
+  TYPESET: "Story illustration published in Battlefield magazine, issue #1, November
+    1957, with their stamp on verso. \n\nGouache and glaze on board. Signed \"Prezio\"
+    in lower left image. \n\nVictor Prezio was a prolific illustrator of magazine,
+    pulp and paperback covers and stories in the post-WWII era. His work for such
+    publishers as Dell, Gold Key, and Warren Publishing throughout the 1950s and \\`60s
+    encompassed a range of popular genres from sci-fi, sports, romance, and western."
   FOOTNOTE: ''
+  CROSSHEAD: '"The Girl from Paris."'
+  at-a-glance: 425x555 mm; 16¾x21¾ inches, on 18¼x22¼-inch board.
+  footnote_provenance: 'Provenance: From the artist''s estate.'
+  year: 1957
 - LOT: "107"
   REFNO: "777418"
-  DESCRIPT: VICTOR PREZIO (1924-1976) "I see, said the blind man."
+  DESCRIPT: 'VICTOR PREZIO (1924-1976) '
   LOW: "1200"
   HIGH: "1800"
-  TYPESET: |-
-    VICTOR PREZIO (1924-1976)
-    "I see, said the blind man." Illustration for the story of the same title by Robert Bristow, published in MALE magazine, March 1953. Gouache and glaze on board. 295x240 mm; 11½x9½ inches, on 15¾x13¼-inch board. Signed "Prezio" in lower left image. Provenance: From the artist's estate.Victor Prezio was a prolific illustrator of magazine, pulp and paperback covers and stories in the post-WWII era. His work for such publishers as Dell, Gold Key, and Warren Publishing throughout the 1950s and `60s encompassed a range of popular genres from sci-fi, sports, romance, and western.
+  TYPESET: "Illustration for the story of the same title by Robert Bristow, published
+    in MALE magazine, March 1953. \n\nGouache and glaze on board.  Signed \"Prezio\"
+    in lower left image. \n\nVictor Prezio was a prolific illustrator of magazine,
+    pulp and paperback covers and stories in the post-WWII era. His work for such
+    publishers as Dell, Gold Key, and Warren Publishing throughout the 1950s and \\`60s
+    encompassed a range of popular genres from sci-fi, sports, romance, and western."
   FOOTNOTE: ''
+  CROSSHEAD: '"I see, said the blind man."'
+  at-a-glance: 295x240 mm; 11½x9½ inches, on 15¾x13¼-inch board.
+  footnote_provenance: 'Provenance: From the artist''s estate.'
+  year: 1953
 - LOT: "108"
   REFNO: "777416"
-  DESCRIPT: 'VICTOR PREZIO (1924-1976) Airwar #3. [PULP]'
+  DESCRIPT: 'VICTOR PREZIO (1924-1976)  '
   LOW: "2000"
   HIGH: "3000"
-  TYPESET: |-
-    VICTOR PREZIO (1924-1976)
-    Airwar #3. Pulp story illustration, likely for Air War Stories, circa 1960s. Gouache on board. 625x432 mm; 24¾x17 inches. Unsigned.Provenance: From the artist's estate.Victor Prezio was a prolific illustrator of magazine, pulp and paperback covers and stories in the post-WWII era. His work for such publishers as Dell, Gold Key, and Warren Publishing throughout the 1950s and `60s encompassed a range of popular genres from sci-fi, sports, romance, and western.
+  TYPESET: "Pulp story illustration, likely for Air War Stories, circa 1960s. \n\nGouache
+    on board. Unsigned.\n\nVictor Prezio was a prolific illustrator of magazine, pulp
+    and paperback covers and stories in the post-WWII era. His work for such publishers
+    as Dell, Gold Key, and Warren Publishing throughout the 1950s and \\`60s encompassed
+    a range of popular genres from sci-fi, sports, romance, and western."
   FOOTNOTE: ''
+  CROSSHEAD: 'Airwar #3.'
+  at-a-glance: '625x432 mm; 24¾x17 inches. '
+  footnote_provenance: 'Provenance: From the artist''s estate.'
+  year: 1965
 - LOT: "109"
   REFNO: "777419"
-  DESCRIPT: VICTOR PREZIO (1924-1976) "The River Raiders."
+  DESCRIPT: 'VICTOR PREZIO (1924-1976) '
   LOW: "2000"
   HIGH: "3000"
-  TYPESET: |-
-    VICTOR PREZIO (1924-1976)
-    "The River Raiders." Cover illustration for the book of same title in the Walt Slade series by Bradford Scott (New York: Pyramid Books, 1968). Gouache on board. 540x355 mm; 21¼x14 inches, on 24¼x17-inch board. Signed "Prezio" in lower left image. Provenance: From the artist's estate.Victor Prezio was a prolific illustrator of magazine, pulp and paperback covers and stories in the post-WWII era. His work for such publishers as Dell, Gold Key, and Warren Publishing throughout the 1950s and `60s encompassed a range of popular genres from sci-fi, sports, romance, and western.
+  TYPESET: "Cover illustration for the book of same title in the Walt Slade series
+    by Bradford Scott (New York: Pyramid Books, 1968). \n\nGouache on board. Signed
+    \"Prezio\" in lower left image. \n\nVictor Prezio was a prolific illustrator of
+    magazine, pulp and paperback covers and stories in the post-WWII era. His work
+    for such publishers as Dell, Gold Key, and Warren Publishing throughout the 1950s
+    and \\`60s encompassed a range of popular genres from sci-fi, sports, romance,
+    and western."
   FOOTNOTE: ''
+  CROSSHEAD: '"The River Raiders."'
+  at-a-glance: '540x355 mm; 21¼x14 inches, on 24¼x17-inch board. '
+  footnote_provenance: 'Provenance: From the artist''s estate.'
+  year: 1968
 - LOT: "110"
   REFNO: "776850"
-  DESCRIPT: JOHN RAE (1882-1963) "Talk to Boston."
+  DESCRIPT: JOHN RAE (1882-1963)
   LOW: "2500"
   HIGH: "3500"
-  TYPESET: |-
-    JOHN RAE (1882-1963)
-    "Talk to Boston." Illustration for unknown publication, circa 1910. Watercolor with wash on board. 305x254 mm; 12x10 inches, on 14¾x12¼-inch board. Signed in lower right image. Laid into inset matte. Framed. Provenance: The Kelly Collection of American Illustration.Exhibited and Reproduced: Zakian, Michael, Richard Kelly, and David Apatoff. Illustrating Modern Life: The Golden Age of American Illustration from the Kelly Collection. Published in conjunction with an exhibition of the same title organized by and presented at the Frederick R. Weisman Museum of Art, Pepperdine University, January 12 through March 31, 2013. Malibu, 2013.
+  TYPESET: "Illustration for unknown publication, circa 1910. \n\nWatercolor with
+    wash on board. Signed in lower right image. Laid into inset matte. Framed. "
   FOOTNOTE: ''
+  CROSSHEAD: ' "Talk to Boston."'
+  at-a-glance: 305x254 mm; 12x10 inches, on 14¾x12¼-inch board.
+  footnote_provenance: 'Provenance: The Kelly Collection of American Illustration.<br>Exhibited
+    and Reproduced: Zakian, Michael, Richard Kelly, and David Apatoff. Illustrating
+    Modern Life: The Golden Age of American Illustration from the Kelly Collection.
+    Published in conjunction with an exhibition of the same title organized by and
+    presented at the Frederick R. Weisman Museum of Art, Pepperdine University, January
+    12 through March 31, 2013. Malibu, 2013.'
+  year: 1910
 - LOT: "111"
   REFNO: "777092"
-  DESCRIPT: HENRY PATRICK RALEIGH (1880-1944) "I believe - is it not a fact that you
-    let lodgings." [HORROR / JACK THE RIPPER]
+  DESCRIPT: 'HENRY PATRICK RALEIGH (1880-1944) '
   LOW: "500"
   HIGH: "750"
-  TYPESET: |-
-    HENRY PATRICK RALEIGH (1880-1944)
-    "I believe - is it not a fact that you let lodgings." Story illustration for "The Lodger" by Marie Adelaide Belloc Lowndes, published in McClure's Magazine, January 1911. Pen and ink on thin board. 267x162; 10½x6¼ inches, on 12x10-inch board. Signed "H. Raleigh" in lower right image. Cornered to board with matte.This depiction of Mr. Sleuth, the story's principal character modeled after Jack the Ripper, is one of six illustrations Raleigh produced for the publication of "The Lodger" in McClure's. Lowndes' short story was the first fictional work inspired by the infamous Whitechapel murders of 1888. She subsequently wrote a novel of the same name, which was published in serialized form by The Daily Telegraph in 1913, and in book form by leading publishers in Europe and the United States the same year. Since its publication, the terrifying tale has inspired numerous radio, film, and television adaptations, beginning with Alfred Hitchcock’s The Lodger: A Story of the London Fog, 1927.
+  TYPESET: "Story illustration for \"The Lodger\" by Marie Adelaide Belloc Lowndes,
+    published in McClure's Magazine, January 1911. \n\nPen and ink on thin board.
+    Signed \"H. Raleigh\" in lower right image. Cornered to board with matte.\n\nThis
+    depiction of Mr. Sleuth, the story's principal character modeled after Jack the
+    Ripper, is one of six illustrations Raleigh produced for the publication of \"The
+    Lodger\" in McClure's. Lowndes' short story was the first fictional work inspired
+    by the infamous Whitechapel murders of 1888. She subsequently wrote a novel of
+    the same name, which was published in serialized form by The Daily Telegraph in
+    1913, and in book form by leading publishers in Europe and the United States the
+    same year. Since its publication, the terrifying tale has inspired numerous radio,
+    film, and television adaptations, beginning with Alfred Hitchcock’s The Lodger:
+    A Story of the London Fog, 1927."
   FOOTNOTE: ''
+  CROSSHEAD: '"I believe - is it not a fact that you let lodgings."'
+  at-a-glance: '267x162; 10½x6¼ inches, on 12x10-inch board. '
+  year: 1911
 - LOT: "112"
   REFNO: "777354"
-  DESCRIPT: ROBERT BERNARD ROBINSON (1886-1952) Radio. [COVER ART / RADIO FARM JOURNAL]
+  DESCRIPT: ROBERT BERNARD ROBINSON (1886-1952)
   LOW: "1500"
   HIGH: "2500"
-  TYPESET: |-
-    ROBERT BERNARD ROBINSON (1886-1952)
-    Radio. Probable Radio Farm Journal cover, circa 1940. Oil on canvas. 733x551 mm; 28¾x21¾ inches. Signed "Robt. Robinson" in lower left image; not dated. Recently restretched and relined; some inpainting. Provenance: From an estate auction, 1980, thence to present owner.
+  TYPESET: "Probable Radio Farm Journal cover, circa 1940. \n\nOil on canvas. Signed
+    \"Robt. Robinson\" in lower left image; not dated. Recently restretched and relined;
+    some inpainting. "
   FOOTNOTE: ''
+  CROSSHEAD: 'Radio. '
+  at-a-glance: '733x551 mm; 28¾x21¾ inches. '
+  footnote_provenance: 'Provenance: From an estate auction, 1980, thence to present
+    owner.'
+  year: 1940
 - LOT: "113"
   REFNO: "777356"
   DESCRIPT: ROBERT BERNARD ROBINSON (1886-1952) Scarecrow. [COVER ART / MOTOR MAGAZINE
@@ -1576,59 +1681,89 @@ lots:
   FOOTNOTE: ''
 - LOT: "114"
   REFNO: "775913"
-  DESCRIPT: NORMAN ROCKWELL (1894-1978) Portrait of Clarence Darrow as an old man.
+  DESCRIPT: 'NORMAN ROCKWELL (1894-1978) '
   LOW: "2000"
   HIGH: "3000"
   TYPESET: |-
-    NORMAN ROCKWELL (1894-1978)
-    Portrait of Clarence Darrow as an old man. Graphite sketch on paper. 178x178 mm; 7x7 inches (image with signature) on 11½x9-inch paper. Signed in lower right margin. Archivally tipped to window matte and framed.Provenance: Estate of Albert Dorne; thence to private collection, Westport, CT.
+    Graphite sketch on paper. Signed in lower right margin. Archivally tipped to window matte and framed.
+
+    Provenance: Estate of Albert Dorne; thence to private collection, Westport, CT.
   FOOTNOTE: ''
+  CROSSHEAD: Portrait of Clarence Darrow as an old man.
+  at-a-glance: 178x178 mm; 7x7 inches (image with signature) on 11½x9-inch paper.
+  year: 1930
+  header: true
+  large_header:
+    line_1_text: Norman Rockwell
 - LOT: "115"
   REFNO: "777335"
-  DESCRIPT: ELLEN SEGNER (1901-2001) Canadian beauty and boxer. [COVER ART / PIN-UP]
+  DESCRIPT: 'ELLEN SEGNER (1901-2001)  '
   LOW: "2500"
   HIGH: "3500"
-  TYPESET: |-
-    ELLEN SEGNER (1901-2001)
-    Canadian beauty and boxer. Cover illustration for The Toronto Star Weekly, published July 22, 1950. Oil on canvas. 1016x762 mm; 40x30 inches. Signed in lower right image. Some restoration and in-painting applied. Framed. Accompanied by a printed tear sheet of the cover. A classic pin-up bathing beauty painted by one of the few well-known female American illustrators for this cover of the long-running Canadian magazine. Segner was best known for depicting "Little Miss Sunbeam" (the spokesgirl for Quality Bakers' Sunbeam Bread) and the Dick and Jane school readers for Glamour and Look magazines in addition to her portrayals of wholesome-looking cover girls.
+  TYPESET: "Cover illustration for The Toronto Star Weekly, published July 22, 1950.
+    \n\nOil on canvas.  Signed in lower right image. Some restoration and in-painting
+    applied. Framed. Accompanied by a printed tear sheet of the cover. \n\nA classic
+    pin-up bathing beauty painted by one of the few well-known female American illustrators
+    for this cover of the long-running Canadian magazine. Segner was best known for
+    depicting \"Little Miss Sunbeam\" (the spokesgirl for Quality Bakers' Sunbeam
+    Bread) and the Dick and Jane school readers for _Glamour_ and _Look_ magazines
+    in addition to her portrayals of wholesome-looking cover girls."
   FOOTNOTE: ''
+  CROSSHEAD: Canadian beauty and boxer.
+  at-a-glance: 1016x762 mm; 40x30 inches.
+  year: 1950
 - LOT: "116"
   REFNO: "777575"
-  DESCRIPT: AMOS SEWELL (1901-1983) The Sheriff's cast off. [PIRATES / SHIPWRECKS]
+  DESCRIPT: 'AMOS SEWELL (1901-1983) '
   LOW: "2000"
   HIGH: "3000"
   TYPESET: |-
-    AMOS SEWELL (1901-1983)
-    The Sheriff's cast off. Illustration for an unidentified story. Tempera and gouache on board. 530x790 mm; 21x31 inches, on 27½x38-inch board. Signed "Amos Sewell" in lower right image. Based on the scene depicted and the name "Ellenita" on the lifeboat's hull, it is most certainly for the true but often hyperbolically retold story about the notorious Captain William Henry "Bully" Hayes and the Pacific ship he fraudulently seized in 1859.As the tale goes, the wily Hayes smuggled goods onto the Ellenita, a Tahiti-bound vessel at a port of call in Maui. Aware of the suspicions of the local Sheriff Treadway, Hayes invited him aboard the ship to satisfy himself that no contraband existed. He then proceeded to ply him with liquor, weighed anchor, and sailed out far enough before forcing the drunken Treadway into the lifeboat to row himself back to shore. The sheriff was the lucky one in the end as the Ellenita sank off the shores of the Navigator Islands, though the unstoppable Hayes survived to terrorize the seas again.
+    Illustration for an unidentified story.
+
+    Tempera and gouache on board. Signed "Amos Sewell" in lower right image.
+
+    Based on the scene depicted and the name "Ellenita" on the lifeboat's hull, it is most certainly for the true but often hyperbolically retold story about the notorious Captain William Henry "Bully" Hayes and the Pacific ship he fraudulently seized in 1859.
+
+    As the tale goes, the wily Hayes smuggled goods onto the Ellenita, a Tahiti-bound vessel at a port of call in Maui. Aware of the suspicions of the local Sheriff Treadway, Hayes invited him aboard the ship to satisfy himself that no contraband existed. He then proceeded to ply him with liquor, weighed anchor, and sailed out far enough before forcing the drunken Treadway into the lifeboat to row himself back to shore. The sheriff was the lucky one in the end as the Ellenita sank off the shores of the Navigator Islands, though the unstoppable Hayes survived to terrorize the seas again.
   FOOTNOTE: ''
+  CROSSHEAD: The Sheriff's cast off.
+  at-a-glance: '530x790 mm; 21x31 inches, on 27½x38-inch board. '
+  year: 1920
 - LOT: "117"
   REFNO: "776984"
-  DESCRIPT: ROBERT O. SKEMP (1910-1984) A little laundry lift. [PIN-UP]
+  DESCRIPT: 'ROBERT O. SKEMP (1910-1984)  '
   LOW: "300"
   HIGH: "400"
-  TYPESET: |-
-    ROBERT O. SKEMP (1910-1984)
-    A little laundry lift. A spicy study for unknown publication. Gouache on board. 230x171 mm; 9x6¾ inches, on 16x12¾-inch board. Signed by the artist's son Oliver beneath estate stamp on verso.
+  TYPESET: Gouache on board. Signed by the artist's son Oliver beneath estate stamp
+    on verso.
   FOOTNOTE: ''
+  CROSSHEAD: A little laundry lift.
+  at-a-glance: 230x171 mm; 9x6¾ inches, on 16x12¾-inch board.
+  pullquote: 'A spicy study for an unknown publication. '
+  year: 1955
 - LOT: "118"
   REFNO: "766483"
-  DESCRIPT: HADDON SUNDBLOM (1899-1976) "What Should A School Child's Breakfast Be?"
-    [ADVERTISING / CREAM OF WHEAT]
+  DESCRIPT: 'HADDON SUNDBLOM (1899-1976)  '
   LOW: "4000"
   HIGH: "6000"
-  TYPESET: |-
-    HADDON SUNDBLOM (1899-1976)
-    "What Should A School Child's Breakfast Be?" Advertisement for Cream of Wheat, published in magazines, including The Ladies' Home Journal, Vol. 43, Issue 12, December 1926, page 127. Oil on canvas. 826x565 mm; 32½x22¼ inches. Unsigned. Framed.
+  TYPESET: "Advertisement for Cream of Wheat, published in magazines, including The
+    Ladies' Home Journal, Vol. 43, Issue 12, December 1926, page 127. \n\nOil on canvas.
+    Unsigned. Framed."
   FOOTNOTE: ''
+  CROSSHEAD: '"What Should A School Child''s Breakfast Be?"'
+  at-a-glance: '826x565 mm; 32½x22¼ inches. '
+  year: 1926
 - LOT: "119"
   REFNO: "776201"
-  DESCRIPT: ALBERTO VARGAS (1896-1982) Rocket Girl. [PIN-UP]
+  DESCRIPT: ALBERTO VARGAS (1896-1982)
   LOW: "500"
   HIGH: "750"
-  TYPESET: |-
-    ALBERTO VARGAS (1896-1982)
-    Rocket Girl. Graphite on onion skin. Image measures roughly 432x230 mm; 17x9 inches on 20½x16-inch unevenly trimmed sheet. Unsigned, estate stamped lower right.
+  TYPESET: Graphite on onion skin. Unsigned, estate stamped lower right.
   FOOTNOTE: ''
+  CROSSHEAD: Rocket Girl.
+  at-a-glance: Image measures roughly 432x230 mm; 17x9 inches on 20½x16-inch unevenly
+    trimmed sheet.
+  year: 1940
 - LOT: "120"
   REFNO: "776983"
   DESCRIPT: ALBERT BECK WENZELL (1864-1917) "Geraldine was sitting there calmly reading,
