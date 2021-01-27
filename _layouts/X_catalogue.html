@@ -80,7 +80,7 @@
                             <div class="thumbnail-lockup">
                                     {% if lot.image %}
                                     <img src="{{ site.cloudinary_url }}/f_auto,q_70,w_60/{{ lot.image }}" crossorigin="anonymous">
-                                    {% else %}
+                                    {% elsif lot.REFNO %}
                                     <img src="{{ site.cloudinary_url }}/f_auto,q_70,w_512/{{page.sale}}/{{ lot.REFNO }}.jpg" crossorigin="anonymous">
                                     {% endif %}
                                     <p class="small-type">
@@ -191,7 +191,7 @@
                             <div class="thumbnail-lockup">
                                 {% if lot.image %}
                                  <img src="{{ site.cloudinary_url }}/f_auto,q_70,w_60/{{ lot.image }}" crossorigin="anonymous">
-                                 {% else %}
+                                 {% elsif lot.REFNO %}
                                  <img src="{{ site.cloudinary_url }}/f_auto,q_70,w_512/{{page.sale}}/{{ lot.REFNO }}.jpg" crossorigin="anonymous">
                                  {% endif %}
                                  <p class="small-type">

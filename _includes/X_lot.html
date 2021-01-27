@@ -74,7 +74,7 @@
                                 {{ site.cloudinary_url }}/f_auto,q_70,w_1600{{ lot.image }} 1600w"
                         src="{{ site.cloudinary_url }}/f_auto,q_70,w_512/{{ lot.image }}"
                         alt="" />
-            {% else %}
+            {% elsif lot.REFNO %}
             <img style="background-color:{{bg}}"
                         sizes="(min-width: 726px) 50vw, 100vw"
                         data-img="{{ lot.image }}"
@@ -129,7 +129,7 @@
                     <div>
                         {% if lot.image %}
                         <img class="color-theif" src="{{ site.cloudinary_url }}/f_auto,q_70,w_60/{{ lot.image }}" crossorigin="anonymous">
-                        {% else %}
+                        {% elsif lot.REFNO %}
                         <img class="color-theif" src="{{ site.cloudinary_url }}/f_auto,q_70,w_512/{{page.sale}}/{{ lot.REFNO }}.jpg" crossorigin="anonymous">
                         {% endif %}
                     </div>
