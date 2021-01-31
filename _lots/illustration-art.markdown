@@ -44,8 +44,12 @@ people:
   - _people/communications-director-auctioneer.md
   - _people/director.md
   - _people/todd-weyman.md
-  administration: []
-  general_information: ''
+  administration:
+  - _people/vice-president-controller.md
+  - _people/operations-manager.md
+  - _people/art-director.md
+  - _people/client-accounting.md
+  general_information: Testing general information field.
 essays:
 - lot: 25
   title: ''
