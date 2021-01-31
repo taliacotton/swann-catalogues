@@ -5,6 +5,5 @@ email: ''
 phone: ''
 image: ''
 number: 
-published: false
 
 ---
