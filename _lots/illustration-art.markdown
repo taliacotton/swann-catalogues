@@ -36,7 +36,12 @@ chapters:
   session_title: Sporting Illustration
 people:
   main_contacts: []
-  officers: []
+  officers:
+  - _people/nicholas-d.lowry.md
+  - _people/vice-president-controller.md
+  - _people/communications-director-auctioneer.md
+  - _people/director.md
+  - _people/todd-weyman.md
   administration: []
   general_information: ''
 essays:
