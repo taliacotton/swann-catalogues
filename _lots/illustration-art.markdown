@@ -36,6 +36,7 @@ chapters:
   session_title: Sporting Illustration
 people:
   main_contacts:
+  - _people/Blank Spot.md
   - _people/christine-von-der-linn.md
   - _people/laura-polucha.md
   officers:
