@@ -35,7 +35,9 @@ chapters:
     lot: 217
   session_title: Sporting Illustration
 people:
-  main_contacts: []
+  main_contacts:
+  - _people/christine-von-der-linn.md
+  - _people/laura-polucha.md
   officers:
   - _people/nicholas-d.lowry.md
   - _people/vice-president-controller.md
