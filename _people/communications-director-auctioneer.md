@@ -1,5 +1,5 @@
 ---
-title: Alexandra Nelson
+title: Alexandra Mann-Nelson
 role: Chief Marketing Officer
 email: alexandra@swanngalleries.com
 phone: ''
