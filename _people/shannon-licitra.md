@@ -5,6 +5,5 @@ email: slicitra@swanngalleries.com
 phone: ''
 image: ''
 number: 
-published: false
 
 ---
