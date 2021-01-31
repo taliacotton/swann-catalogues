@@ -1,8 +1,9 @@
 ---
 title: Alexandra Nelson
-role: Communications Director, Auctioneer
+role: Chief Marketing Officer
 email: alexandra@swanngalleries.com
 phone: ''
 image: ''
+number: 1234567
 
 ---
