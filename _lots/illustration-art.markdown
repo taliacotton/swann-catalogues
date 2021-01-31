@@ -44,6 +44,7 @@ people:
   - _people/vice-president-controller.md
   - _people/communications-director-auctioneer.md
   - _people/director.md
+  - _people/rick-stattler.md
   - _people/todd-weyman.md
   administration:
   - _people/vice-president-controller.md
