@@ -40,6 +40,8 @@ people:
   - _people/laura-polucha.md
   officers:
   - _people/george-s.lowry.md
+  - _people/Blank Spot.md
+  - _people/Blank Spot.md
   - _people/nicholas-d.lowry.md
   - _people/vice-president-controller.md
   - _people/communications-director-auctioneer.md
