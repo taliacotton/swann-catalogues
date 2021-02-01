@@ -758,8 +758,8 @@ section{position:relative;}
             height: var(--main-height);
             width: calc(var(--main-width)/2);
             opacity:0;
-            transition:opacity 600ms;
-            filter:blur(10px);
+            // transition:opacity 200ms;
+            // filter:blur(10px);
             user-select:none;
             pointer-events:none;
             z-index:0;
@@ -775,7 +775,7 @@ section{position:relative;}
             position:fixed;
             pointer-events:none;
             opacity:0;
-            transition:opacity 600ms;
+            transition:opacity 200ms;
             overflow-y: auto;
             overflow-x: hidden;
 
@@ -903,6 +903,15 @@ section{position:relative;}
         font-size: 1.1rem;
         line-height: 1.55;
         letter-spacing: -0.01em;
+        a{
+            // border-bottom:2px dotted var(--swann-blue);
+            color:black;
+            border-bottom:2px solid var(--swann-blue);
+            // text-decoration:underline;
+        }
+        a:hover{
+            color:var(--swann-blue);
+        }
     }
     p.pullquote{
         font-size: 42px;

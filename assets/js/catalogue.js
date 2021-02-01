@@ -1,3 +1,6 @@
+const observer = lozad(); // lazy loads elements with default selector as '.lozad'
+observer.observe();
+
 let usingCookies = true;
 
 let nav = document.getElementById("topbar");
@@ -86,9 +89,9 @@ for (let img of colorImages){
 
 // document.body.classList.remove("loading");
 
-window.addEventListener('load', function() {
+// window.addEventListener('load', function() {
    document.body.classList.remove("loading");
-});
+// });
 
 // }, false);
 
