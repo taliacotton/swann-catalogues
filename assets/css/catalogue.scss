@@ -227,7 +227,7 @@ section{position:relative;z-index:1}
     align-items:flex-start;
     align-content:flex-start;
     max-width:200px;
-    transition:opacity 300ms;
+    // transition:opacity 300ms;
     display:flex;
     img{
         width:50px;
@@ -759,8 +759,8 @@ section{position:relative;}
             height: var(--main-height);
             width: calc(var(--main-width)/2);
             opacity:0;
-            transition:opacity 200ms;
-            filter:blur(10px);
+            // transition:opacity 200ms;
+            // filter:blur(10px);
             user-select:none;
             pointer-events:none;
             z-index:0;
