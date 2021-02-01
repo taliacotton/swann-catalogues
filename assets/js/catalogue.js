@@ -1,5 +1,8 @@
-const observer = lozad(); // lazy loads elements with default selector as '.lozad'
-observer.observe();
+// const observer = lozad(); // lazy loads elements with default selector as '.lozad'
+// observer.observe();
+var lazyLoadInstance = new LazyLoad({
+  // Your custom settings go here
+});
 
 let usingCookies = true;
 

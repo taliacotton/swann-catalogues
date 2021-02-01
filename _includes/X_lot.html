@@ -27,7 +27,7 @@
                     {{ site.cloudinary_url }}/f_auto,q_70,w_2000{{ lot.full_width_image.image }} 2000w"
             data-src="{{ site.cloudinary_url }}/f_auto,q_70,w_640/{{ lot.full_width_image.image }}"
             alt=""
-            class="lozad" />
+            class="lazy" />
     </section>
 {% endif %}
 <section id="lot{{lotNum}}" class="lot lot-recommended">
@@ -45,7 +45,7 @@
                                 {{ site.cloudinary_url }}/f_auto,q_70,w_1600{{ lot.image }} 1600w"
                         data-src="{{ site.cloudinary_url }}/f_auto,q_70,w_640/{{ lot.image }}"
                         alt=""
-                        class="lozad" />
+                        class="lazy" />
                     </div>
                     {% for image in lot.images %}
                     <div class="slideshow-img-container">
@@ -59,7 +59,7 @@
                                 {{ site.cloudinary_url }}/f_auto,q_70,w_1600{{ image }} 1600w"
                             data-src="{{ site.cloudinary_url }}/f_auto,q_70,w_640/{{ image }}"
                             alt=""
-                            class="lozad" />
+                            class="lazy" />
                     </div>
                     {% endfor %}
             </div>
@@ -77,7 +77,7 @@
                                 {{ site.cloudinary_url }}/f_auto,q_70,w_1600{{ lot.image }} 1600w"
                         data-src="{{ site.cloudinary_url }}/f_auto,q_70,w_512/{{ lot.image }}"
                         alt="" 
-                        class="lozad"/>
+                        class="lazy"/>
             {% elsif lot.REFNO %}
             <img style="background-color:{{bg}}"
                         sizes="(min-width: 726px) 50vw, 100vw"
@@ -89,7 +89,7 @@
                                 {{ site.cloudinary_url }}/f_auto,q_70,w_1600/{{page.sale}}/{{ lot.REFNO }}.jpg 1600w"
                         data-src="{{ site.cloudinary_url }}/f_auto,q_70,w_512/{{page.sale}}/{{ lot.REFNO }}.jpg"
                         alt="" 
-                        class="lozad" />
+                        class="lazy" />
             {% endif %}
         {% endif %}
     </div>
