@@ -18,6 +18,11 @@ fields:
     name: LOT
     label: Lot Number
     hidden: false
+  - name: recommended
+    type: boolean
+    label: Recommended
+    description: Does Swann recommend this lot to potentially draw more attention
+      to it?
   - name: image
     type: file
     config:
