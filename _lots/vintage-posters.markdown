@@ -3,11 +3,11 @@ layout: X_catalogue
 lots: _data/2558-vintage-posters-2021-01-27.yaml
 color: "#AD926F"
 cover_image:
-  lot_number: 
+  lot_number: 116
   title: ''
-  image: ''
+  image: "/v1611788225/2558/773312.jpg"
 filename: ''
-visible: false
+visible: true
 permalink: "/vintage-posters/february-sale/2558"
 sale: 2558
 title: Vintage Posters
