@@ -183,6 +183,7 @@ document.addEventListener("scroll", function(){
     for (let l of leftSections){
         if (l.classList.contains("active")){
             let newHash = '#' + l.parentElement.id;
+            currentSection = parseInt(l.parentElement.id.substring(3)) + 3;
             if(history.pushState) {
                 history.pushState(null, null, newHash);
             } else {
@@ -196,24 +197,24 @@ document.addEventListener("scroll", function(){
 let imgZoom = false;
 
 // ZOOM IMAGE
-for (let ls of leftSections){
-    ls.addEventListener("mousedown", function(e){
-        imgZoom = !imgZoom;
-        if (imgZoom){zoomImg(e, ls);} 
-        else {unzoomImg(ls);}
-    })
-    ls.addEventListener("mousemove", function(e){
-        if (imgZoom){zoomImg(e, ls);}
-    })
-    ls.addEventListener("mouseout", function(e){
-        imgZoom = false;
-        unzoomImg(ls);
-    });
-}
+// for (let ls of leftSections){
+//     ls.addEventListener("mousedown", function(e){
+//         imgZoom = !imgZoom;
+//         if (imgZoom){zoomImg(e, ls);} 
+//         else {unzoomImg(ls);}
+//     })
+//     ls.addEventListener("mousemove", function(e){
+//         if (imgZoom){zoomImg(e, ls);}
+//     })
+//     ls.addEventListener("mouseout", function(e){
+//         imgZoom = false;
+//         unzoomImg(ls);
+//     });
+// }
 
 function zoomImg(e, ls){
     let img = ls.querySelector("img");
-    console.log(img.src)
+    // console.log(img.src)
     img.src = "https://res.cloudinary.com/dcryyrd42/image/upload/f_auto,q_70,h_" + window.innerHeight + img.getAttribute("data-img");
     ls.classList.add("zoom");
     // let xPos = interpolate(e.clientX, 39, 39 + (window.innerWidth - 39)/2, 0, -74.3);
@@ -230,7 +231,7 @@ function zoomImg(e, ls){
 
 function unzoomImg(ls){
     ls.classList.remove("zoom");
-    ls.querySelector("img").removeAttribute("style");
+    // ls.querySelector("img").removeAttribute("style");
 }
 
 // NOTES PROMPT MOVE
@@ -383,6 +384,7 @@ document.addEventListener("keydown", function(e){
     document.documentElement.style.scrollBehavior= "auto";
     if (e.key == "ArrowRight"){
         currentSection++;
+        // console.log(currentSection);
         jump(sections[currentSection].id)
     }
     if (e.key == "ArrowLeft"){
@@ -403,6 +405,7 @@ function showCurrentImage(){
             let top = l.getBoundingClientRect().top;
             if (top <= window.innerHeight - window.innerHeight/2 && bottom >= window.innerHeight/2){
                 l.classList.add("active")
+                l.parentElement.classList.add("lot-loaded");
             } else {
                 l.classList.remove("active")
             }
@@ -435,7 +438,19 @@ let tocDots = document.querySelectorAll(".dot-container");
 let years = []
 for (let d of tocDots){
     let year = d.getAttribute("data-year");
-    years.push(year);
+    if (year != ""){
+        years.push(year);
+    }
+}
+let minYear = Math.floor(Math.min(...years)/5)*5;
+let maxYear = Math.ceil(Math.max(...years)/5)*5;
+if (document.getElementById("toc-dates") != null){
+document.getElementById("toc-dates").innerHTML = `<p>${minYear}</p>
+                                                  <p>${Math.floor(minYear + (maxYear - minYear)/6)}</p>
+                                                  <p>${Math.floor(minYear+(maxYear - minYear)/6*2)}</p>
+                                                  <p>${Math.floor(minYear+(maxYear - minYear)/6*3)}</p>
+                                                  <p>${Math.floor(maxYear-(maxYear - minYear)/6)}</p>
+                                                  <p>${maxYear}</p>`
 }
 for (let d of tocDots){
     let container = d.querySelector(".dot-container-inner");
@@ -489,9 +504,9 @@ function sortTOC(shape){
 }
 
 function jump(h){
-    var url = location.href;               //Save down the URL without hash.
+    // var url = location.href;               //Save down the URL without hash.
     location.href = "#"+h;                 //Go to the target element.
-    history.replaceState(null,null,url);   //Don't like hashes. Changing it back.
+    // history.replaceState(null,null,url);   //Don't like hashes. Changing it back.
 }
 
 
