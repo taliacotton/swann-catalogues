@@ -1,19 +1,19 @@
 ---
 layout: X_catalogue
-lots: []
+lots: _data/2558-vintage-posters-2021-01-27.yaml
 color: "#AD926F"
 cover_image:
-  lot_number: 0
+  lot_number: 116
   title: ''
-  image: ''
+  image: "/v1611788225/2558/773312.jpg"
 filename: ''
-visible: false
+visible: true
 permalink: "/vintage-posters/february-sale/2558"
 sale: 2558
 title: Vintage Posters
 datetime:
-  date: 2021-02-18 05:00:00 +0000
-  time: 2021-01-01 10:30:00 +0000
+  date: 2021-02-18T05:00:00.000+00:00
+  time: 2021-01-01T10:30:00.000+00:00
   time2: 
 chapters: []
 people:
@@ -23,6 +23,5 @@ people:
   general_information: ''
 essays: []
 footer_pages: []
-published: false
 
 ---
