@@ -16,7 +16,8 @@
     {% endif %}
 {% endif %}
 {% if lot.large_img %}
-    <section class="large_image" style="background-color: {{lot.full_width_image.background_color}};">
+    {% if lot.full_width_image.background_color %}{% assign bgLg = lot.full_width_image.background_color %}{%else%}{%assign bgLg ='#212121'%}{%endif%}
+    <section class="large_image" style="background-color: {{bgLg}};">
         <img
             sizes="100vw"
             data-srcset="{{ site.cloudinary_url }}/f_auto,q_70,w_512{{ lot.full_width_image.image }} 512w,

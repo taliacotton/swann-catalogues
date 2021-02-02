@@ -405,6 +405,7 @@ function showCurrentImage(){
             let top = l.getBoundingClientRect().top;
             if (top <= window.innerHeight - window.innerHeight/2 && bottom >= window.innerHeight/2){
                 l.classList.add("active")
+                l.parentElement.classList.add("lot-loaded");
             } else {
                 l.classList.remove("active")
             }

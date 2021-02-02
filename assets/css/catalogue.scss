@@ -1072,6 +1072,10 @@ section{position:relative;}
         border-color: var(--swann-blue);
     }
 }
+.lot.lot-loaded + .lot .left img, .left .slideshow{
+    top: var(--toolbar-height);
+    left: calc(var(--toolbar-height) + 1px);
+}
 section.header_text.large, section.header_text.large-image {
     width:var(--main-width);
     min-height:500px;
