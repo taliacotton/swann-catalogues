@@ -197,20 +197,20 @@ document.addEventListener("scroll", function(){
 let imgZoom = false;
 
 // ZOOM IMAGE
-for (let ls of leftSections){
-    ls.addEventListener("mousedown", function(e){
-        imgZoom = !imgZoom;
-        if (imgZoom){zoomImg(e, ls);} 
-        else {unzoomImg(ls);}
-    })
-    ls.addEventListener("mousemove", function(e){
-        if (imgZoom){zoomImg(e, ls);}
-    })
-    ls.addEventListener("mouseout", function(e){
-        imgZoom = false;
-        unzoomImg(ls);
-    });
-}
+// for (let ls of leftSections){
+//     ls.addEventListener("mousedown", function(e){
+//         imgZoom = !imgZoom;
+//         if (imgZoom){zoomImg(e, ls);} 
+//         else {unzoomImg(ls);}
+//     })
+//     ls.addEventListener("mousemove", function(e){
+//         if (imgZoom){zoomImg(e, ls);}
+//     })
+//     ls.addEventListener("mouseout", function(e){
+//         imgZoom = false;
+//         unzoomImg(ls);
+//     });
+// }
 
 function zoomImg(e, ls){
     let img = ls.querySelector("img");
