@@ -76,8 +76,8 @@
                             {% endif %}
                     {% endfor %}
                 {% endfor %}
+                        <a href="#lot{{lotNum}}">
                     <li data-id="lot{{lotNum}}">
-                        <a href="#">
                             <div class="thumbnail-lockup">
                                     {% if lot.image %}
                                     <img src="{{ site.cloudinary_url }}/f_auto,q_70,w_60/{{ lot.image }}" crossorigin="anonymous">
@@ -90,8 +90,8 @@
                                         <br>{{lot.CROSSHEAD}}
                                 </p>
                             </div>
-                        </a>
                     </li>
+                        </a>
                     
             {% endfor %}
             </ul>
