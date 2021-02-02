@@ -17,7 +17,7 @@ sections:
   label: Lots
   create: documents
   match: "*"
-  new_doc_ext: ".yaml"
+  new_doc_ext: yaml
   templates:
   - catalogue
 - type: directory
