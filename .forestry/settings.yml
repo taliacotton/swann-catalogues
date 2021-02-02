@@ -16,7 +16,7 @@ sections:
   path: _data
   label: Lots
   create: documents
-  match: "*"
+  match: "*/y*ml"
   new_doc_ext: yaml
   templates:
   - catalogue
