@@ -1,6 +1,6 @@
 ---
 layout: X_catalogue
-lots: _data/2558-vintage-posters-2021-01-27.yaml
+lots: _data/2558-posters-withyear-new-formatting_2021-02-01.yaml
 color: "#AD926F"
 cover_image:
   lot_number: 116
