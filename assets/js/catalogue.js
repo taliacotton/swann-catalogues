@@ -233,7 +233,7 @@ function zoomImg(e, ls){
     let img = ls.querySelector("img");
     // console.log(img.src)
     // img.src = "https://res.cloudinary.com/dcryyrd42/image/upload/f_auto,q_70,h_" + window.innerHeight + img.getAttribute("data-img");
-    img.setAttribute("sizes","(min-width:1200px) 2400px, 200vw");
+    img.setAttribute("sizes","1200px");
     ls.classList.add("zoom");
     // let xPos = interpolate(e.clientX, 39, 39 + (window.innerWidth - 39)/2, 0, -74.3);
     // let yPos = interpolate(e.clientY, 39, window.innerHeight, 0, -35);
