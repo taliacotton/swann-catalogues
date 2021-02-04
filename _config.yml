@@ -6,6 +6,8 @@ collections:
     permalink: /:title
   people:
     output: true
+  catalogues:
+    output: true
 email: your-email@example.com
 description: Write an awesome description for your new site here. You can edit this
   line in _config.yml. It will appear in your document head meta (for Google search
@@ -16,6 +18,7 @@ twitter_username: jekyllrb
 github_username: jekyll
 sass:
   sass_dir: _sass
+  style: compressed
 cloudinary_url: "https://res.cloudinary.com/dcryyrd42/image/upload"
 defaults:
   -
@@ -24,3 +27,5 @@ defaults:
       type: "lots"
     values:
       author: "Scott Gallant"
+plugins:
+  - jekyll-gzip

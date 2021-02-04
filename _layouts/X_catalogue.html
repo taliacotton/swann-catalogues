@@ -1,5 +1,5 @@
 {% include head.html %}
-        <!-- <script type="text/javascript" src="https://cdn.jsdelivr.net/npm/lozad/dist/lozad.min.js"></script> -->
+        <script type="text/javascript" src="https://cdn.jsdelivr.net/npm/lozad/dist/lozad.min.js"></script>
         <link rel="stylesheet" href="/assets/css/catalogue.css">
         <style>
             :root{
@@ -28,13 +28,13 @@
 
         {% assign lots = catalogue.lots %}
 
-        <img id="cursor" src="/assets/img/cursor.png">
+        <img id="cursor" src="/assets/img/cursor.png" alt="custom cursor">
         <div id="cookieBanner">
             <div class="left">We use cookies for the best experience possible. <a href="#">Read More</a></div>
             <div class="right"><button onclick="acceptCookies()" aria-label="Cookies Yes">Accept</button><button aria-label="Cookies No" onclick="declineCookies()">Decline</button></div>
         </div>
         <div id="topbar">
-            <a href="/"><img id="logo" src="/assets/img/swann-logo.gif"></a>
+            <a href="/"><img id="logo" src="/assets/img/swann-logo.gif" alt="Swann Logo"></a>
             <div class="catalogue-title">{{page.title}}  <span class="topbar--dot">•</span>  {{ page.datetime.date | date: "%A, %B %d, %Y" }} at {{ page.datetime.time | date: "%l:%M%P"}} {% if page.datetime.time2 %} <i>&</i> {{page.datetime.time2 | date: "%l:%M%P"}} {%endif%}</div>
             <div class="buttons small-type">
                 <button onclick="triggerPrintModal()">Print</button>
@@ -80,9 +80,9 @@
                     <li data-id="lot{{lotNum}}">
                             <div class="thumbnail-lockup">
                                     {% if lot.image %}
-                                    <img src="{{ site.cloudinary_url }}/f_auto,q_70,w_60/{{ lot.image }}" crossorigin="anonymous">
+                                    <img class="lozad" data-src="{{ site.cloudinary_url }}/f_auto,q_70,w_60/{{ lot.image }}" crossorigin="anonymous">
                                     {% elsif lot.REFNO %}
-                                    <img src="{{ site.cloudinary_url }}/f_auto,q_70,w_512/{{page.sale}}/{{ lot.REFNO }}.jpg" crossorigin="anonymous">
+                                    <img class="lozad" data-src="{{ site.cloudinary_url }}/f_auto,q_70,w_60/{{page.sale}}/{{ lot.REFNO }}.jpg" crossorigin="anonymous">
                                     {% endif %}
                                     <p class="small-type">
                                         Lot {{forloop.index}}
@@ -91,7 +91,7 @@
                                 </p>
                             </div>
                     </li>
-                        </a>
+                    </a>
                     
             {% endfor %}
             </ul>
@@ -155,12 +155,6 @@
             </div>
             <section id="table-of-contents">
                 <div class="dates small-type" id="toc-dates">
-                    <!-- <p>1900</p>
-                    <p>1920</p>
-                    <p>1940</p>
-                    <p>1960</p>
-                    <p>1980</p>
-                    <p>2000</p> -->
                 </div>
                 <div id="toc-dots">
                     {% for lot in lots %}
@@ -191,9 +185,9 @@
                             {% endif %}
                             <div class="thumbnail-lockup">
                                 {% if lot.image %}
-                                 <img src="{{ site.cloudinary_url }}/f_auto,q_70,w_60/{{ lot.image }}" crossorigin="anonymous">
+                                 <img class="lozad" data-src="{{ site.cloudinary_url }}/f_auto,q_70,w_60/{{ lot.image }}" crossorigin="anonymous" alt="lot thumbnail image">
                                  {% elsif lot.REFNO %}
-                                 <img src="{{ site.cloudinary_url }}/f_auto,q_70,w_512/{{page.sale}}/{{ lot.REFNO }}.jpg" crossorigin="anonymous">
+                                 <img class="lozad" data-src="{{ site.cloudinary_url }}/f_auto,q_70,w_60/{{page.sale}}/{{ lot.REFNO }}.jpg" crossorigin="anonymous" alt="lot thumbnail image">
                                  {% endif %}
                                  <p class="small-type">
                                      Lot {{forloop.index}}
@@ -203,15 +197,12 @@
                             </div>
                         </div>
                     </a>
-                    
-                        
-                    
                     {% endfor %}
                 </div>
             </section>
             <section id="info" class="leftright">
                 <div class="left">
-                    <img class="logo" src="/assets/img/swann-logo-alt.gif">
+                    <img class="logo" src="/assets/img/swann-logo-alt.gif" alt="Swann Logo">
                     <h2>{{page.title}}</h2>
                     <div class="people">
                         {% for entry in page.people.main_contacts %}
@@ -347,7 +338,7 @@
             </div>
         </div>
 
-        <script src="https://cdn.jsdelivr.net/npm/vanilla-lazyload@17.3.0/dist/lazyload.min.js"></script>
+        <!-- <script src="https://cdn.jsdelivr.net/npm/vanilla-lozadload@17.3.0/dist/lozadload.min.js"></script> -->
         <script src="https://cdnjs.cloudflare.com/ajax/libs/color-thief/2.3.0/color-thief.umd.js"></script>
         <script src="/assets/js/cookies.js" async defer></script>
         <script src="/assets/js/catalogue.js" async defer></script>

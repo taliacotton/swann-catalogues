@@ -1,8 +1,18 @@
 // const observer = lozad(); // lazy loads elements with default selector as '.lozad'
 // observer.observe();
-var lazyLoadInstance = new LazyLoad({
-  // Your custom settings go here
-});
+// var lazyLoadInstance = new LazyLoad({
+//   // Your custom settings go here
+// });
+
+const observer = lozad(); // lazy loads elements with default selector as '.lozad'
+observer.observe();
+
+// lozad('.lozad', {
+//     loaded: function(el) {
+//         // Custom implementation on a loaded element
+//         el.classList.add('loaded');
+//     }
+// });
 
 let usingCookies = true;
 
@@ -77,13 +87,13 @@ const colorThief = new ColorThief();
 const colorImages = document.querySelectorAll('.color-theif');
 for (let img of colorImages){
     // Make sure image is finished loading
-    if (img.complete) {
-            img.parentElement.style.backgroundColor ="rgb("+colorThief.getColor(img)[0]+","+colorThief.getColor(img)[1]+","+colorThief.getColor(img)[2]+")";
-    } else {
+    // if (img.complete) {
+    //         img.parentElement.style.backgroundColor ="rgb("+colorThief.getColor(img)[0]+","+colorThief.getColor(img)[1]+","+colorThief.getColor(img)[2]+")";
+    // } else {
         img.addEventListener('load', function() {
             img.parentElement.style.backgroundColor ="rgb("+colorThief.getColor(img)[0]+","+colorThief.getColor(img)[1]+","+colorThief.getColor(img)[2]+")";
         });
-    }
+    // }
 }
 
 
@@ -92,9 +102,16 @@ for (let img of colorImages){
 
 // document.body.classList.remove("loading");
 
-// window.addEventListener('load', function() {
-   document.body.classList.remove("loading");
-// });
+
+document.body.classList.remove("loading");
+
+window.addEventListener('load', function() {
+    setTimeout(function(){
+        for (let thumb of document.querySelectorAll(".thumbnail-lockup")) {
+            thumb.classList.add("loaded")
+        }
+    },500)
+});
 
 // }, false);
 
@@ -158,9 +175,9 @@ document.addEventListener("scroll", function(){
     }
 
 // MARKER ON SCROLL
-    if (scrollTop > window.innerHeight*3){
-        document.getElementById("marker").style.top = interpolate(scrollTop, window.innerHeight*3, scrollHeight, 0, 100) + "%";
-    }
+if (scrollTop > window.innerHeight*3){
+    document.getElementById("marker").style.top = interpolate(scrollTop, window.innerHeight*3, scrollHeight, 0, 100) + "%";
+}
 
 // IMAGE FADE ON SCROLL
     showCurrentImage();
@@ -467,13 +484,13 @@ for (let d of tocDots){
     }
 
     // Make sure image is finished loading
-    if (img.complete) {
-            dot.style.background ="rgb("+colorThief.getColor(img)[0]+","+colorThief.getColor(img)[1]+","+colorThief.getColor(img)[2]+")";
-    } else {
+    // if (img.complete) {
+    //         dot.style.background ="rgb("+colorThief.getColor(img)[0]+","+colorThief.getColor(img)[1]+","+colorThief.getColor(img)[2]+")";
+    // } else {
         img.addEventListener('load', function() {
             dot.style.background ="rgb("+colorThief.getColor(img)[0]+","+colorThief.getColor(img)[1]+","+colorThief.getColor(img)[2]+")";
         });
-    }
+    // }
 }
 
 // TOC move vicinity function

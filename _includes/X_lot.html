@@ -7,7 +7,8 @@
         </div>
     </section>
     {% elsif lot.large_header.header_type == 'Large (Image)' %}
-    <section class="header_text {{lot.large_header.header_type | slugify}}" style="background-image: url(/assets/img/{{lot.REFNO}}.jpg)">
+    <!-- <section class="header_text {{lot.large_header.header_type | slugify}}" style="background-image: url()"> -->
+    <section class="header_text {{lot.large_header.header_type | slugify}}">
         <div class="header-inner">
             <span>{{lot.large_header.line_1_text}}</span>
             <br><span><i>{{lot.large_header.line_2_text}}</i></span>
@@ -28,7 +29,7 @@
                     {{ site.cloudinary_url }}/f_auto,q_70,w_2000{{ lot.full_width_image.image }} 2000w"
             data-src="{{ site.cloudinary_url }}/f_auto,q_70,w_640/{{ lot.full_width_image.image }}"
             alt=""
-            class="lazy" />
+            class="lozad" />
     </section>
 {% endif %}
 <section id="lot{{lotNum}}" class="lot">
@@ -46,7 +47,7 @@
                                 {{ site.cloudinary_url }}/f_auto,q_70,w_1600{{ lot.image }} 1600w"
                         data-src="{{ site.cloudinary_url }}/f_auto,q_70,w_640/{{ lot.image }}"
                         alt=""
-                        class="lazy" />
+                        class="lozad" />
                     </div>
                     {% for image in lot.images %}
                     <div class="slideshow-img-container">
@@ -60,7 +61,7 @@
                                 {{ site.cloudinary_url }}/f_auto,q_70,w_1600{{ image }} 1600w"
                             data-src="{{ site.cloudinary_url }}/f_auto,q_70,w_640/{{ image }}"
                             alt=""
-                            class="lazy" />
+                            class="lozad" />
                     </div>
                     {% endfor %}
             </div>
@@ -78,7 +79,7 @@
                                 {{ site.cloudinary_url }}/f_auto,q_70,w_1600{{ lot.image }} 1600w"
                         data-src="{{ site.cloudinary_url }}/f_auto,q_70,w_512/{{ lot.image }}"
                         alt="" 
-                        class="lazy"/>
+                        class="lozad"/>
             {% elsif lot.REFNO %}
             <img style="background-color:{{bg}}"
                         sizes="(min-width: 726px) 50vw, 100vw"
@@ -90,18 +91,20 @@
                                 {{ site.cloudinary_url }}/f_auto,q_70,w_1600/{{page.sale}}/{{ lot.REFNO }}.jpg 1600w"
                         data-src="{{ site.cloudinary_url }}/f_auto,q_70,w_512/{{page.sale}}/{{ lot.REFNO }}.jpg"
                         alt="" 
-                        class="lazy" />
+                        class="lozad" />
             {% endif %}
         {% endif %}
     </div>
     <div class="right">
         <div class="printFooter print-content">Lot {{lot.refno}}</div>
-        <button class="bookmark-container">
+        <button class="bookmark-container"  aria-label="Toggle Bookmark for Lot">
             <span class="onhover"></span>
             <span class="fold-outline"> </span>
         </button>
         <div class="center-column">
-            <div class="mobile-only mobile-thumb"><img src="{{ site.cloudinary_url }}/f_auto,q_70,w_60/{{ lot.image }}"></div>
+            <div class="mobile-only mobile-thumb">
+                <!-- <img src="{{ site.cloudinary_url }}/f_auto,q_70,w_60/{{ lot.image }}"> -->
+            </div>
             <button class="small-type notes-prompt">
                 Add note...
             </button>
@@ -134,9 +137,9 @@
                     <!-- <div><img src="https://catalogue.swanngalleries.com/thumb//{{lot.REFNO | slice: -3, 3 }}/{{lot.REFNO}}tn.jpg"></div> -->
                     <div>
                         {% if lot.image %}
-                        <img class="color-theif" src="{{ site.cloudinary_url }}/f_auto,q_70,w_60/{{ lot.image }}" crossorigin="anonymous">
+                        <img class="color-theif lozad" data-src="{{ site.cloudinary_url }}/f_auto,q_70,w_60/{{ lot.image }}" crossorigin="anonymous">
                         {% elsif lot.REFNO %}
-                        <img class="color-theif" src="{{ site.cloudinary_url }}/f_auto,q_70,w_512/{{page.sale}}/{{ lot.REFNO }}.jpg" crossorigin="anonymous">
+                        <img class="color-theif lozad" data-src="{{ site.cloudinary_url }}/f_auto,q_70,w_60/{{page.sale}}/{{ lot.REFNO }}.jpg" crossorigin="anonymous">
                         {% endif %}
                     </div>
                 </div>
