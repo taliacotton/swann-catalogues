@@ -1,7 +1,7 @@
 ---
 layout: X_catalogue
 lots: _data/2558-posters-withyear-new-formatting_2021-02-01.yaml
-color: "#AD926F"
+color: "#075B88"
 cover_image:
   lot_number: 72
   title: La Maison Moderne
