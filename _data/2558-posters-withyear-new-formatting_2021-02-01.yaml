@@ -21,6 +21,9 @@ lots:
   FOOTNOTE: 'Condition B: replaced losses, abrasions and time-staining at edges; repaired
     tears and restoration in margins and image and along horizontal fold; faded. Matted.'
   year: 1897
+  large_img: true
+  full_width_image:
+    image: "/v1612560077/2558-14_wmoc5w.jpg"
 - REFNO: "776452"
   LOT: "2"
   LOW: "400"
