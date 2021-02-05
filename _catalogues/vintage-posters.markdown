@@ -3,9 +3,9 @@ layout: X_catalogue
 lots: _data/2558-posters-withyear-new-formatting_2021-02-01.yaml
 color: "#AD926F"
 cover_image:
-  lot_number: 116
-  title: ''
-  image: "/v1611788225/2558/773312.jpg"
+  lot_number: 72
+  title: La Maison Moderne
+  image: "/v1611788325/2558/776950.jpg"
 filename: ''
 visible: true
 permalink: "/vintage-posters/february-sale/2558"
