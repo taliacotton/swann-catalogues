@@ -15,7 +15,11 @@ datetime:
   date: 2021-02-18T05:00:00.000+00:00
   time: 2021-01-01T10:30:00.000+00:00
   time2: 
-chapters: []
+chapters:
+- session_title: Vintage Posters
+  chapters:
+  - chapter_title: Literary Posters
+    lot: 1
 people:
   main_contacts: []
   officers: []
