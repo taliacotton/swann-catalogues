@@ -1,8 +1,18 @@
 // const observer = lozad(); // lazy loads elements with default selector as '.lozad'
 // observer.observe();
-var lazyLoadInstance = new LazyLoad({
-  // Your custom settings go here
-});
+// var lazyLoadInstance = new LazyLoad({
+//   // Your custom settings go here
+// });
+
+const observer = lozad(); // lazy loads elements with default selector as '.lozad'
+observer.observe();
+
+// lozad('.lozad', {
+//     loaded: function(el) {
+//         // Custom implementation on a loaded element
+//         el.classList.add('loaded');
+//     }
+// });
 
 let usingCookies = true;
 
@@ -77,13 +87,13 @@ const colorThief = new ColorThief();
 const colorImages = document.querySelectorAll('.color-theif');
 for (let img of colorImages){
     // Make sure image is finished loading
-    if (img.complete) {
-            img.parentElement.style.backgroundColor ="rgb("+colorThief.getColor(img)[0]+","+colorThief.getColor(img)[1]+","+colorThief.getColor(img)[2]+")";
-    } else {
+    // if (img.complete) {
+    //         img.parentElement.style.backgroundColor ="rgb("+colorThief.getColor(img)[0]+","+colorThief.getColor(img)[1]+","+colorThief.getColor(img)[2]+")";
+    // } else {
         img.addEventListener('load', function() {
             img.parentElement.style.backgroundColor ="rgb("+colorThief.getColor(img)[0]+","+colorThief.getColor(img)[1]+","+colorThief.getColor(img)[2]+")";
         });
-    }
+    // }
 }
 
 
@@ -92,9 +102,16 @@ for (let img of colorImages){
 
 // document.body.classList.remove("loading");
 
-// window.addEventListener('load', function() {
-   document.body.classList.remove("loading");
-// });
+
+document.body.classList.remove("loading");
+
+window.addEventListener('load', function() {
+    setTimeout(function(){
+        for (let thumb of document.querySelectorAll(".thumbnail-lockup")) {
+            thumb.classList.add("loaded")
+        }
+    },500)
+});
 
 // }, false);
 
@@ -158,9 +175,9 @@ document.addEventListener("scroll", function(){
     }
 
 // MARKER ON SCROLL
-    if (scrollTop > window.innerHeight*3){
-        document.getElementById("marker").style.top = interpolate(scrollTop, window.innerHeight*3, scrollHeight, 0, 100) + "%";
-    }
+if (scrollTop > window.innerHeight*3){
+    document.getElementById("marker").style.top = interpolate(scrollTop, window.innerHeight*3, scrollHeight, 0, 100) + "%";
+}
 
 // IMAGE FADE ON SCROLL
     showCurrentImage();
@@ -197,41 +214,43 @@ document.addEventListener("scroll", function(){
 let imgZoom = false;
 
 // ZOOM IMAGE
-// for (let ls of leftSections){
-//     ls.addEventListener("mousedown", function(e){
-//         imgZoom = !imgZoom;
-//         if (imgZoom){zoomImg(e, ls);} 
-//         else {unzoomImg(ls);}
-//     })
-//     ls.addEventListener("mousemove", function(e){
-//         if (imgZoom){zoomImg(e, ls);}
-//     })
-//     ls.addEventListener("mouseout", function(e){
-//         imgZoom = false;
-//         unzoomImg(ls);
-//     });
-// }
+for (let ls of leftSections){
+    ls.addEventListener("mousedown", function(e){
+        imgZoom = !imgZoom;
+        if (imgZoom){zoomImg(e, ls);} 
+        else {unzoomImg(ls);}
+    })
+    ls.addEventListener("mousemove", function(e){
+        if (imgZoom){zoomImg(e, ls);}
+    })
+    ls.addEventListener("mouseout", function(e){
+        imgZoom = false;
+        unzoomImg(ls);
+    });
+}
 
 function zoomImg(e, ls){
     let img = ls.querySelector("img");
     // console.log(img.src)
-    img.src = "https://res.cloudinary.com/dcryyrd42/image/upload/f_auto,q_70,h_" + window.innerHeight + img.getAttribute("data-img");
+    // img.src = "https://res.cloudinary.com/dcryyrd42/image/upload/f_auto,q_70,h_" + window.innerHeight + img.getAttribute("data-img");
+    img.setAttribute("sizes","1200px");
     ls.classList.add("zoom");
     // let xPos = interpolate(e.clientX, 39, 39 + (window.innerWidth - 39)/2, 0, -74.3);
     // let yPos = interpolate(e.clientY, 39, window.innerHeight, 0, -35);
     // img.style.transform = "translateX("+xPos+"%) translateY("+yPos+"%)";
-    let xPos = interpolate(e.clientX, 39, 39 + (window.innerWidth - 39)/2, 50, -img.getBoundingClientRect().width + window.innerWidth/2, );
-    let yPos = interpolate(e.clientY, 39, window.innerHeight, 50, window.innerHeight - img.getBoundingClientRect().height - 39);
-    img.style.left = xPos+"px";
-    img.style.top = yPos+"px";
-    // img.style.objectPosition = xPos + "% " + yPos + "%";
+    let xPos = interpolate(e.clientX, 39, 39 + (window.innerWidth - 39)/2, 0, 100);
+    let yPos = interpolate(e.clientY, 39, window.innerHeight, 0, 100);
+    // img.style.left = xPos+"px";
+    // img.style.top = yPos+"px";
+    img.style.objectPosition = xPos + "% " + yPos + "%";
     // img.style.bottom = yPos + "%";
     // img.style.left = xPos + "%";
 }
 
 function unzoomImg(ls){
     ls.classList.remove("zoom");
-    // ls.querySelector("img").removeAttribute("style");
+    ls.querySelector("img").style.objectPosition = "center";
+    ls.querySelector("img").setAttribute("sizes","(min-width: 726px) 50vw, 100vw");
 }
 
 // NOTES PROMPT MOVE
@@ -467,13 +486,13 @@ for (let d of tocDots){
     }
 
     // Make sure image is finished loading
-    if (img.complete) {
-            dot.style.background ="rgb("+colorThief.getColor(img)[0]+","+colorThief.getColor(img)[1]+","+colorThief.getColor(img)[2]+")";
-    } else {
+    // if (img.complete) {
+    //         dot.style.background ="rgb("+colorThief.getColor(img)[0]+","+colorThief.getColor(img)[1]+","+colorThief.getColor(img)[2]+")";
+    // } else {
         img.addEventListener('load', function() {
             dot.style.background ="rgb("+colorThief.getColor(img)[0]+","+colorThief.getColor(img)[1]+","+colorThief.getColor(img)[2]+")";
         });
-    }
+    // }
 }
 
 // TOC move vicinity function

@@ -200,5 +200,3 @@ fields:
       value: true
   config:
     labelField: LOT
-pages:
-- _data/2551-catalogue-pentagram.yaml

@@ -1,7 +1,7 @@
 let catalogueList = document.getElementById("#catalogueList");
 let catalogues = document.querySelectorAll("#catalogueList li");
 let toolbar = document.querySelector(".toolbar");
-let audio = document.getElementsByTagName("audio")[0];
+// let audio = document.getElementsByTagName("audio")[0];
 
 
 for (let c of catalogues){
@@ -9,10 +9,10 @@ for (let c of catalogues){
     let height = Math.floor(interpolate(size, 0, 500, 37, 170)) + "px";
     c.style.height = height;
     c.style.lineHeight = height;
-    c.onmouseenter = function(){
-        audio.currentTime = 0;
-        audio.play();
-    }
+    // c.onmouseenter = function(){
+    //     audio.currentTime = 0;
+    //     audio.play();
+    // }
     // functions to mimic dynamic content,
     // will delete later
     c.innerHTML += `<div class="book-cover">
