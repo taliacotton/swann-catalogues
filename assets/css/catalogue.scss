@@ -609,7 +609,7 @@ section{position:relative;z-index:1}
     .dot.square{border-radius:0;  transform: scale(0.9)}
     .dot.diamond{
         border-radius:0;
-        transform: rotate(56deg) skew(20deg) scale(0.9);
+        transform: rotate(45deg) skew(10deg, 10deg);
     }
     .dates{
         display:flex;

@@ -180,9 +180,7 @@
                     <a href="#lot{{forloop.index}}" class="dot-container" data-year="{{lot.year}}">
                         <div class="line"></div>
                         <div class="dot-container-inner">
-                            {% if dot.bookmark == true %}
-                            <div class="dot square"></div>
-                            {% elsif dot.favorite == true %}
+                            {% if lot.recommended %}
                             <div class="dot diamond"></div>
                             {% else %}
                             <div class="dot"></div>

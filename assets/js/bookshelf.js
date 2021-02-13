@@ -34,7 +34,7 @@ function sortTable(category) {
 
   // switch arrow direction
   if (document.querySelector(".toolbar svg.rotated") != null){
-  document.querySelector(".toolbar svg.rotated").classList.remove("rotated");
+    document.querySelector(".toolbar svg.rotated").classList.remove("rotated");
   }
   document.querySelector(".toolbar ." + category + " svg").classList.add("rotated");
 
