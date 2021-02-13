@@ -194,6 +194,17 @@ fields:
       showOnly:
         field: header_type
         value: Large
+    - name: background_image
+      type: file
+      config:
+        maxSize: 64
+      label: Background Image
+      description: This image appears below the large header text as background texture.
+        For best results, use a texture-like zoom of the image. <br>The text will
+        be white above it.
+      showOnly:
+        field: header_type
+        value: Large (Image)
     label: Large Header Text
     showOnly:
       field: header

@@ -34,8 +34,10 @@
             <div class="right"><button onclick="acceptCookies()" aria-label="Cookies Yes">Accept</button><button aria-label="Cookies No" onclick="declineCookies()">Decline</button></div>
         </div>
         <div id="topbar">
-            <a href="/"><img id="logo" src="/assets/img/swann-logo.gif" alt="Swann Logo"></a>
+            <a href="/"><img id="logo" src="/assets/img/swann-logo.gif" alt="Swann Logo">
+            <a href="#">
             <div class="catalogue-title">{{page.title}}  <span class="topbar--dot">•</span>  {{ page.datetime.date | date: "%A, %B %d, %Y" }} at {{ page.datetime.time | date: "%l:%M%P"}} {% if page.datetime.time2 %} <i>&</i> {{page.datetime.time2 | date: "%l:%M%P"}} {%endif%}</div>
+            </a>
             <div class="buttons small-type">
                 <button onclick="triggerPrintModal()">Print</button>
                 <button onclick="triggerSearch()">Search</button>
@@ -65,14 +67,16 @@
                 {% for session in page.chapters %}
                     {% for chapter in session.chapters %}
                             {% if lotNum == chapter.lot %}
-                            <li class="sidebar-chapter-separation">
-                                <a href="#{{chapter.chapter_title | slugify}}">
+                            <a class="sidebar-chapter-separation" href="#{{chapter.chapter_title | slugify}}">
+                            <li >
+                                
                                     {% if forloop.index == 1 %}
                                     <p class="small-type">{{session.session_title}}</p>
                                     {% endif%}
                                     <p class="chapter-title">{{chapter.chapter_title}}</p>
-                                </a>
+                                
                             </li>
+                            </a>
                             {% endif %}
                     {% endfor %}
                 {% endfor %}
@@ -200,51 +204,59 @@
                     {% endfor %}
                 </div>
             </section>
-            <section id="info" class="leftright">
-                <div class="left">
-                    <img class="logo" src="/assets/img/swann-logo-alt.gif" alt="Swann Logo">
+            <section id="info">
+                <div class="leftright">
+                    <div class="left">
+                    <div><img class="logo" src="/assets/img/swann-logo-alt.gif" alt="Swann Logo"></div>
                     <h2>{{page.title}}</h2>
-                    <div class="people">
-                        {% for entry in page.people.main_contacts %}
-                        {% assign person = site.people | where: "path", entry | first %}
-                        <div>
-                            {% if person.image %}
-                            <img src="{{ site.cloudinary_url }}/w_100,c_scale/{{ person.image }}" alt="{{person.title}}, {{person.role}}">
-                            {% endif %}
-                            <h4><b>{{person.title}}</b><br>{{person.role}}</h4>
-                            <small>
-                                {{person.email}}
-                                <br>{{person.phone}}
-                            </small>
-                        </div>
-                        {% endfor %}
+                    </div>
+                    <div class="right">
+                        <h3>Officers</h3>
                     </div>
                 </div>
-                <div class="right">
-                    <img style="visibility:hidden;opacity:0" class="logo" src="/assets/img/swann-logo-alt.gif">
-                    <h3>Officers</h3>
-                     <div class="people">
-                        {% for entry in page.people.officers %}
-                        {% assign person = site.people | where: "path", entry | first %}
-                        <div>
-                            <h4><b>{{person.title}}</b><br>{{person.role}}</h4>
-                            <small>
-                                {{person.number}}
-                            </small>
+                <div class="leftright">
+                    <div class="left">
+                        <div class="people">
+                            {% for entry in page.people.main_contacts %}
+                            {% assign person = site.people | where: "path", entry | first %}
+                            <div>
+                                {% if person.image %}
+                                <img src="{{ site.cloudinary_url }}/w_100,c_scale/{{ person.image }}" alt="{{person.title}}, {{person.role}}">
+                                {% endif %}
+                                <h4><b>{{person.title}}</b><br>{{person.role}}</h4>
+                                <small>
+                                    {{person.email}}
+                                    <br>{{person.phone}}
+                                </small>
+                            </div>
+                            {% endfor %}
                         </div>
-                        {% endfor %}
                     </div>
-                    <h3>Administration</h3>
-                    <div class="people">
-                        {% for entry in page.people.administration %}
-                        {% assign person = site.people | where: "path", entry | first %}
-                        <div>
-                            <h4><b>{{person.title}}</b><br>{{person.role}}</h4>
-                            <small>{{person.email}}</small>
+                    <div class="right">
+                        
+                        <div class="people">
+                            {% for entry in page.people.officers %}
+                            {% assign person = site.people | where: "path", entry | first %}
+                            <div>
+                                <h4><b>{{person.title}}</b><br>{{person.role}}</h4>
+                                <small>
+                                    {{person.number}}
+                                </small>
+                            </div>
+                            {% endfor %}
                         </div>
-                        {% endfor %}
+                        <h3>Administration</h3>
+                        <div class="people">
+                            {% for entry in page.people.administration %}
+                            {% assign person = site.people | where: "path", entry | first %}
+                            <div>
+                                <h4><b>{{person.title}}</b><br>{{person.role}}</h4>
+                                <small>{{person.email}}</small>
+                            </div>
+                            {% endfor %}
+                        </div>
+                        {{page.people.general_information | markdownify}}
                     </div>
-                    {{page.people.general_information | markdownify}}
                 </div>
             </section>
             <!-- <section id="chp1"  class="chapter-head">
@@ -313,6 +325,8 @@
             <button onclick="this.parentElement.classList.add('got-it')">Got it!</button>
         </div>
 
+        <textarea id="url_to_copy"></textarea>
+
         <div id="printModal">
             <div class="inner">
                 <h2>Choose a<br>print option:</h2>
@@ -337,6 +351,7 @@
                 <button id="cancelBtn" class="small-type" onclick="triggerPrintModal()">Cancel</button>
             </div>
         </div>
+    
 
         <!-- <script src="https://cdn.jsdelivr.net/npm/vanilla-lozadload@17.3.0/dist/lozadload.min.js"></script> -->
         <script src="https://cdnjs.cloudflare.com/ajax/libs/color-thief/2.3.0/color-thief.umd.js"></script>

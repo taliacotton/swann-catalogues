@@ -15,15 +15,15 @@ for (let c of catalogues){
     // }
     // functions to mimic dynamic content,
     // will delete later
-    c.innerHTML += `<div class="book-cover">
-        <img src="assets/img/cover.png">
-        <div class="top-content">
-            <span class="book-cover--sale">Sale ${c.getAttribute("data-sale")}</span>
-            <h1>${c.querySelector(".department").innerHTML}</h1>
-            <h3>${c.querySelector(".date").innerHTML}</h3>
-        </div>
-        <div class="stripe"></div>
-    </div>`
+    // c.innerHTML += `<div class="book-cover">
+    //     <img src="assets/img/cover.png">
+    //     <div class="top-content">
+    //         <span class="book-cover--sale">Sale ${c.getAttribute("data-sale")}</span>
+    //         <h1>${c.querySelector(".department").innerHTML}</h1>
+    //         <h3>${c.querySelector(".date").innerHTML}</h3>
+    //     </div>
+    //     <div class="stripe"></div>
+    // </div>`
     c.querySelector('a').onclick=function(e){
         e.preventDefault();
         let URL = this.href;

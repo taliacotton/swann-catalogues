@@ -60,8 +60,6 @@ for (let lotId of bookmarked){
     }
 }
 
-
-
 // define notes object
 let notes = [];
 if(getCookie("notes")) {
@@ -108,7 +106,10 @@ document.body.classList.remove("loading");
 window.addEventListener('load', function() {
     setTimeout(function(){
         for (let thumb of document.querySelectorAll(".thumbnail-lockup")) {
-            thumb.classList.add("loaded")
+            thumb.classList.add("loaded");
+            if (thumb.getBoundingClientRect().bottom > window.innerHeight){
+                thumb.classList.add("bottom");
+            }
         }
     },500)
 });
@@ -168,21 +169,25 @@ document.addEventListener("scroll", function(){
     showHideNav(scrollTop);
 
 // TOOLTIPS
-    if(scrollTop > window.innerHeight*2 && document.querySelector(".lot").getBoundingClientRect().top > window.innerHeight/2){
-        document.getElementById("hamburgerCallout").classList.add("visible");
-    } else {
+if(scrollTop > window.innerHeight*2 && document.querySelector(".lot").getBoundingClientRect().top > window.innerHeight/2){
+    document.getElementById("hamburgerCallout").classList.add("visible");
+} else {
+    if (document.getElementById("hamburgerCallout").classList.contains("visible")){
         document.getElementById("hamburgerCallout").classList.remove("visible");
-    }
-
-// MARKER ON SCROLL
-if (scrollTop > window.innerHeight*3){
-    document.getElementById("marker").style.top = interpolate(scrollTop, window.innerHeight*3, scrollHeight, 0, 100) + "%";
+        document.getElementById("hamburgerCallout").style.display="none";
+    }  
 }
 
-// IMAGE FADE ON SCROLL
+
+// MARKER ON SCROLL
+// if (scrollTop >= document.querySelector(".lots").offsetTop){
+//     document.getElementById("marker").style.top = interpolate(scrollTop, document.querySelector(".lots").offsetTop, scrollHeight, 0, 100) + "%";
+// }
+
+// IMAGE APPEAR ON SCROLL
     showCurrentImage();
 
-// HIDE NOTES BUTTON IF ACTIVE
+// HIDE NOTES BUTTON IF ACTIVE (????)
     if (document.querySelector(".notes-prompt.np-right") != null){
         let npRightContainer = document.querySelector(".notes-prompt.np-right").parentElement.getBoundingClientRect();
         if (npRightContainer.top > window.innerHeight || npRightContainer.bottom < 0){
@@ -206,6 +211,12 @@ if (scrollTop > window.innerHeight*3){
             } else {
                 location.hash = newHash;
             }
+
+// MARKER
+           document.querySelector(".sidebar--lots li[data-id='"+l.parentElement.id+"']").classList.add("current"); 
+
+        } else {
+            document.querySelector(".sidebar--lots li[data-id='"+l.parentElement.id+"']").classList.remove("current"); 
         }
     }
 })
@@ -520,6 +531,14 @@ function sortTOC(shape){
             d.style.visibility = "hidden";
         }
     }
+}
+
+function shareLot(elem){
+    document.getElementById("url_to_copy").innerHTML=window.location.href;
+    document.getElementById("url_to_copy").select();
+    document.execCommand("copy");
+    console.log(document.getElementById("url_to_copy").innerHTML);
+    elem.innerHTML = "Link copied!"
 }
 
 function jump(h){
