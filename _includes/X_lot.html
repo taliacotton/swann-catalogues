@@ -32,7 +32,7 @@
             class="lozad" />
     </section>
 {% endif %}
-<section id="lot{{lotNum}}" class="lot">
+<section id="lot{{lotNum}}" class="lot rec-{{lot.recommended}}">
     <div class="left">
         <div class="printFooter print-content">Lot {{lot.REFNO}}</div>
         {% if lot.images[0] %}
@@ -116,7 +116,7 @@
             {% if lot.header_text %}
                 {% if lot.header_text.type == 'small' %}
                     <div class="header-text-small">
-                        <span class="lotNum">9</span>
+                        <span class="lotNum">{{lotNum}}</span>
                         <div class="circle"></div>
                         <span>{{lot.header_text.line_1}}</span>
                         <div class="circle"></div>
