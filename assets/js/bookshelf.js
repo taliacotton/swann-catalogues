@@ -38,8 +38,6 @@ function sortTable(category) {
   }
   document.querySelector(".toolbar ." + category + " svg").classList.add("rotated");
 
-//   let selector = "[data-" + category + "]";
-//   console.log(selector);
   /*Make a loop that will continue until
   no switching has been done:*/
   while (switching) {
@@ -54,6 +52,7 @@ function sortTable(category) {
       /*Get the two elements you want to compare,
       one from current row and one from the next:*/
         if (category == "department"){
+            // alphabetical order
             x = rows[i].querySelectorAll(".department")[0];
             y = rows[i + 1].querySelectorAll(".department")[0];
             if (x.innerHTML.toLowerCase() > y.innerHTML.toLowerCase()) {
@@ -61,6 +60,7 @@ function sortTable(category) {
                 break;
             }
         } else {
+            // ordered by number
             x = rows[i].getAttribute("data-" + category);
             y = rows[i + 1].getAttribute("data-" + category);
             if (parseInt(x) > parseInt(y)) {
