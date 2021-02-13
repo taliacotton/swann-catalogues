@@ -485,7 +485,7 @@ section{position:relative;z-index:1}
         font-weight:300;
         margin:10px 0px;
         max-width:750px;
-        overflow: hidden;
+        // overflow: hidden;
         text-overflow: ellipsis;
     }
     h1.smaller{
@@ -527,9 +527,9 @@ section{position:relative;z-index:1}
         justify-content: space-between;
         height:calc(var(--main-height) - var(--toolbar-height)*2 - 4px - 20px);
         position:absolute;
-        bottom:0px;
-        width: calc(100% - 30px);
-        padding: 10px;
+        bottom: var(--toolbar-height);
+        width: var(--main-width);
+        padding: 10px 0px 10px 10px;
         a > p{margin:5px 0px;}
         a > p:before{
             content: '';
