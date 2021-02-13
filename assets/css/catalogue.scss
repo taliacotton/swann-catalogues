@@ -13,6 +13,7 @@ body.loading{
     #cover{
         position:fixed;
         z-index:1000;
+        --spineWidth: 80px;
     }
     #cover > *{
         opacity:0;
@@ -409,7 +410,7 @@ section{position:relative;z-index:1}
     // margin-top:calc(var(--toolbar-height) + 1px);
     --stripeHeight: 80px;
     --coverMargin: 40px;
-    --spineWidth: 80px;
+    --spineWidth: 0px;
     height:100vh;
     width:100%;
     background:black;
@@ -444,6 +445,7 @@ section{position:relative;z-index:1}
     }
     .spine{
         width:var(--spineWidth);
+        transition: width 500ms;
         border-right:1px solid white;
         border-left:1px solid white;
         height: 100%;
@@ -451,15 +453,18 @@ section{position:relative;z-index:1}
         left:50%;
         transform:translate(-50%);
         top:0px;
+        overflow: hidden;
         .spine-text{
-            width:calc(100vh - 242px - 80px);
-            height: 80px;
-            line-height:80px;
-            position:absolute;
-            left:50%;
-            bottom:calc((100vh - 242px - 80px)/2);
-            display:flex;
-            transform:translateX(-50%) rotate(90deg);
+            width: calc(100vh - var(--stripeHeight)*2 - var(--coverMargin)*2);
+            height: var(--spineWidth);
+            line-height: var(--spineWidth);
+            background: black;
+            padding:0px var(--coverMargin);
+            position: absolute;
+            left: 50%;
+            top: calc(50% + var(--stripeHeight)/2 + 2px);
+            display: flex;
+            transform: translateX(-50%) rotate(90deg);
             .spine-title, .spine-date{
                 font-weight:400; margin:0px;
                 text-align:center;
