@@ -108,6 +108,7 @@ lots:
     header_type: Large (Image)
     line_1_text: Header Test
     line_2_text: For Image
+    background_image: "/v1612910061/2559/779330.jpg"
   LOW: "100"
   HIGH: "500"
   images:
@@ -122,6 +123,8 @@ lots:
   image: "/v1609968356/770066_view_03_03_mybtyj.jpg"
   year: 1940
   header: true
+  recommended: true
+  LOT: X
 - DESCRIPT: Jacob Lawrence (1917–2000)
   CROSSHEAD: Cutting Logs
   at-a-glance: |-
