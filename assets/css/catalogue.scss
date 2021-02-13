@@ -13,6 +13,7 @@ body.loading{
     #cover{
         position:fixed;
         z-index:1000;
+        --spineWidth: 80px;
     }
     #cover > *{
         opacity:0;
@@ -251,6 +252,19 @@ section{position:relative;z-index:1}
         background:rgba(0,0,0,0.5);
     }
 }
+
+.thumbnail-lockup.bottom{
+    bottom:0px;
+}
+.thumbnail-lockup.right{
+    transform: translateX(-100%);
+    text-align: right;
+    flex-direction: row-reverse;
+    img{
+        margin-right:0px;
+        margin-left:10px;
+    }
+}
 .sidebar{
     width: var(--toolbar-height);
     background-color:tomato;
@@ -312,9 +326,7 @@ section{position:relative;z-index:1}
                     background:transparent;
                 }
             }
-            .thumbnail-lockup.bottom{
-                bottom:0px;
-            }
+            
         }
         @media screen and (min-width: 726px){
             a:hover li{
@@ -398,9 +410,9 @@ section{position:relative;z-index:1}
 
 #cover{
     // margin-top:calc(var(--toolbar-height) + 1px);
-    --stripeHeight: 120px;
+    --stripeHeight: 80px;
     --coverMargin: 40px;
-    --spineWidth: 80px;
+    --spineWidth: 0px;
     height:100vh;
     width:100%;
     background:black;
@@ -414,7 +426,7 @@ section{position:relative;z-index:1}
         position: absolute;
         top:calc(var(--stripeHeight)/2);
         // left:calc(var(--coverMargin));
-        left:calc(50% + var(--spineWidth)/2 + var(--coverMargin));
+        left:var(--coverMargin);
         transform: translateY(-50%);
         width:170px;
     }
@@ -435,6 +447,7 @@ section{position:relative;z-index:1}
     }
     .spine{
         width:var(--spineWidth);
+        transition: width 500ms;
         border-right:1px solid white;
         border-left:1px solid white;
         height: 100%;
@@ -442,15 +455,18 @@ section{position:relative;z-index:1}
         left:50%;
         transform:translate(-50%);
         top:0px;
+        overflow: hidden;
         .spine-text{
-            width:calc(100vh - 242px - 80px);
-            height: 80px;
-            line-height:80px;
-            position:absolute;
-            left:50%;
-            bottom:calc((100vh - 242px - 80px)/2);
-            display:flex;
-            transform:translateX(-50%) rotate(90deg);
+            width: calc(100vh - var(--stripeHeight)*2 - var(--coverMargin)*2);
+            height: var(--spineWidth);
+            line-height: var(--spineWidth);
+            background: black;
+            padding:0px var(--coverMargin);
+            position: absolute;
+            left: 50%;
+            top: calc(50% + var(--stripeHeight)/2 + 2px);
+            display: flex;
+            transform: translateX(-50%) rotate(90deg);
             .spine-title, .spine-date{
                 font-weight:400; margin:0px;
                 text-align:center;
@@ -472,13 +488,13 @@ section{position:relative;z-index:1}
         object-position: top center;
     }
     .stripe{
-        height:120px;
+        height:var(--stripeHeight);
         width:100%;
         background:tomato;
         border-top:1px solid white;
         border-bottom:1px solid white;
         position:absolute;
-        top:120px;
+        top:var(--stripeHeight);
     }
     h1{
         font-family: 'JJannon Display', serif;
@@ -487,7 +503,7 @@ section{position:relative;z-index:1}
         font-weight:300;
         margin:10px 0px;
         max-width:750px;
-        overflow: hidden;
+        // overflow: hidden;
         text-overflow: ellipsis;
     }
     h1.smaller{
@@ -505,11 +521,15 @@ section{position:relative;z-index:1}
 .on-the-cover{
     font-weight:400;
     position:absolute;
-    margin: var(--coverMargin) 0px;
+    // margin: var(--coverMargin) 0px;
     top:0px;
-    // left:calc(50% + var(--spineWidth)/2 + var(--coverMargin));
-    left:var(--coverMargin);
+    left:calc(50% + var(--spineWidth)/2 + var(--coverMargin));
+    // left:var(--coverMargin);
     color:#888888;
+    height: var(--stripeHeight);
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
 }
 .phantom-toc{position:relative;height:150vh;width:calc(100vw - var(--toolbar-height) - 1px);}
 #table-of-contents{
@@ -529,9 +549,9 @@ section{position:relative;z-index:1}
         justify-content: space-between;
         height:calc(var(--main-height) - var(--toolbar-height)*2 - 4px - 20px);
         position:absolute;
-        bottom:0px;
-        width: calc(100% - 30px);
-        padding: 10px;
+        bottom: var(--toolbar-height);
+        width: var(--main-width);
+        padding: 10px 0px 10px 10px;
         a > p{margin:5px 0px;}
         a > p:before{
             content: '';
@@ -546,6 +566,15 @@ section{position:relative;z-index:1}
         }
         .chapter-title{
             font-size:1.2rem;
+        }
+        .small-type{
+            margin-bottom:0px;
+        }
+        .small-type + .chapter-title {
+            margin-top: 0px;
+        }
+        .small-type + .chapter-title:before {
+            display:none;
         }
         .dot-container{
             position:relative;
@@ -588,10 +617,10 @@ section{position:relative;z-index:1}
         border:0.05px solid grey;
         margin-bottom:4px;
     }
-    .dot.square{border-radius:0;  transform: scale(0.9)}
+    .dot.square, .dot.square.diamond{border-radius:0;  transform: scale(0.9)}
     .dot.diamond{
         border-radius:0;
-        transform: rotate(56deg) skew(20deg) scale(0.9);
+        transform: rotate(45deg) skew(10deg, 10deg);
     }
     .dates{
         display:flex;
@@ -639,6 +668,7 @@ section{position:relative;z-index:1}
 }
 section{position:relative;}
 #info{
+    padding-top:var(--toolbar-height);
     background:white;
     color:black;
     font-family:var(--sans-serif);
@@ -789,6 +819,7 @@ section{position:relative;}
     z-index: 2;
     background: #2F2F2F;
     height: var(--main-height);
+    user-select: none;
     h1{
         font-size:50px;
         font-weight:300;
@@ -1171,7 +1202,7 @@ section.header_text.large-image {
     font-family:'Jjannon Display';
     color:white;
     background-position:center;
-    background-size:200%;
+    background-size:120%;
 }
 section.header_text.large-image .header-inner:before {
     content: '';
@@ -1652,13 +1683,11 @@ section.large_image{
         .chapter-title{
             margin:30px 0px 20px;
         }
-        a .small-type{
+        a > p.small-type{
             margin-top:30px;
+            margin-bottom: 0px !important;
         }
         a:first-child .small-type, a:first-child .chapter-title{
-            margin-top:0px;
-        }
-        .small-type + .chapter-title{
             margin-top:0px;
         }
     }

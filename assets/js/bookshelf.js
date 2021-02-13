@@ -13,23 +13,14 @@ for (let c of catalogues){
     //     audio.currentTime = 0;
     //     audio.play();
     // }
-    // functions to mimic dynamic content,
-    // will delete later
-    // c.innerHTML += `<div class="book-cover">
-    //     <img src="assets/img/cover.png">
-    //     <div class="top-content">
-    //         <span class="book-cover--sale">Sale ${c.getAttribute("data-sale")}</span>
-    //         <h1>${c.querySelector(".department").innerHTML}</h1>
-    //         <h3>${c.querySelector(".date").innerHTML}</h3>
-    //     </div>
-    //     <div class="stripe"></div>
-    // </div>`
-    c.querySelector('a').onclick=function(e){
-        e.preventDefault();
-        let URL = this.href;
-        setTimeout( function() { window.location = URL }, 2000 );
-        triggerPageTransition(this.parentElement);
-    }
+
+    // PAGE TRANSITION, deleted to make transition faster
+    // c.querySelector('a').onclick=function(e){
+    //     e.preventDefault();
+    //     let URL = this.href;
+    //     setTimeout( function() { window.location = URL }, 2000 );
+    //     triggerPageTransition(this.parentElement);
+    // }
 }
 
 function toggleMenu(){
@@ -43,7 +34,7 @@ function sortTable(category) {
 
   // switch arrow direction
   if (document.querySelector(".toolbar svg.rotated") != null){
-  document.querySelector(".toolbar svg.rotated").classList.remove("rotated");
+    document.querySelector(".toolbar svg.rotated").classList.remove("rotated");
   }
   document.querySelector(".toolbar ." + category + " svg").classList.add("rotated");
 

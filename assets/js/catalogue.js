@@ -58,6 +58,10 @@ for (let lotId of bookmarked){
             lot.classList.add("bookmarked");
         }
     }
+    //Table of contents square label
+    for(let dot of document.querySelectorAll("#table-of-contents #toc-dots .dot-container[href='#"+lotId+"']")){
+        dot.querySelector(".dot").classList.add("square");
+    }
 }
 
 // define notes object
@@ -109,6 +113,9 @@ window.addEventListener('load', function() {
             thumb.classList.add("loaded");
             if (thumb.getBoundingClientRect().bottom > window.innerHeight){
                 thumb.classList.add("bottom");
+            }
+            if (thumb.getBoundingClientRect().right > window.innerWidth){
+                thumb.classList.add("right");
             }
         }
     },500)
@@ -526,19 +533,28 @@ function sortTOC(shape){
     let allDots = toc.querySelectorAll(".dot")
     for (let d of allDots){
         if (d.classList.contains(shape)){
-            d.style.visibility = "visible";
+            d.parentElement.parentElement.style.visibility = "visible";
         } else {
-            d.style.visibility = "hidden";
+            d.parentElement.parentElement.style.visibility = "hidden";
         }
     }
 }
 
-function shareLot(elem){
-    document.getElementById("url_to_copy").innerHTML=window.location.href;
-    document.getElementById("url_to_copy").select();
-    document.execCommand("copy");
-    console.log(document.getElementById("url_to_copy").innerHTML);
-    elem.innerHTML = "Link copied!"
+function shareLot(){
+    var textarea = document.createElement('textarea');
+    textarea.textContent = window.location.href;
+    document.body.appendChild(textarea);
+
+    var selection = document.getSelection();
+    var range = document.createRange();
+    range.selectNode(textarea);
+    selection.removeAllRanges();
+    selection.addRange(range);
+
+    console.log('copy success', document.execCommand('copy'));
+    selection.removeAllRanges();
+
+    document.body.removeChild(textarea);
 }
 
 function jump(h){

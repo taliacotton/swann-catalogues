@@ -122,7 +122,7 @@
                 </div>
                 <div class="spine">
                     <div class="spine-text">
-                        <span class="spine-date">{{ page.datetime.date | date: "%B %d, %Y" }}</span>
+                        <!-- <span class="spine-date">{{ page.datetime.date | date: "%B %d, %Y" }}</span> -->
                         <span class="spine-title">{{page.title}}</span>
                     </div>
                 </div>
@@ -180,9 +180,7 @@
                     <a href="#lot{{forloop.index}}" class="dot-container" data-year="{{lot.year}}">
                         <div class="line"></div>
                         <div class="dot-container-inner">
-                            {% if dot.bookmark == true %}
-                            <div class="dot square"></div>
-                            {% elsif dot.favorite == true %}
+                            {% if lot.recommended %}
                             <div class="dot diamond"></div>
                             {% else %}
                             <div class="dot"></div>
@@ -305,6 +303,8 @@
                 
             {% endfor %}
             </div>
+            {% assign footerLength = page.footer_pages | size %}
+            {% if footerLength > 0 %}
             <section id="end-content">
                 <div class="inner">
                     {% for footerpage in page.footer_pages %}
@@ -319,6 +319,7 @@
                     {% endfor %}
                 </div>
             </section>
+            {% endif %}
         </div>
         <div class="callout" id="hamburgerCallout">
             <p>You can click this button to return to the table of contents at any time.</p>

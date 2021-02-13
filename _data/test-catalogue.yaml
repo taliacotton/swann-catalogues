@@ -21,6 +21,7 @@ lots:
     header_type: []
   image: "/v1609710789/776339_g8dxaq.jpg"
   year: 1951
+  recommended: true
 - DESCRIPT: Peter Hujar (1934-1987)
   CROSSHEAD: Ethyl Eichelberger
   at-a-glance: Silver print, the image measuring 371.5x374.7 mm; 14 5/8x14 3/4 inches,
@@ -94,6 +95,7 @@ lots:
   - "/v1609968743/769890_view_04_04_pigmpx.jpg"
   - "/v1609968743/769890_view_02_02_pqabva.jpg"
   year: 1813
+  recommended: true
 - DESCRIPT: Ronald Joseph (1910 - 1992)
   CROSSHEAD: Untitled (Family at the Table)
   at-a-glance: Oil and enamel on a thick wood panel, circa 1940. 565x406 mm; 22 1/4x16
@@ -225,6 +227,7 @@ lots:
   header: true
   image: "/v1609968816/775374_omstfs.jpg"
   year: 1845
+  recommended: true
 - LOT: "3"
   REFNO: "775332"
   LOW: "2000"
