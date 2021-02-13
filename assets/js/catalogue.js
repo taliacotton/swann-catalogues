@@ -58,6 +58,10 @@ for (let lotId of bookmarked){
             lot.classList.add("bookmarked");
         }
     }
+    //Table of contents square label
+    for(let dot of document.querySelectorAll("#table-of-contents #toc-dots .dot-container[href='#"+lotId+"']")){
+        dot.querySelector(".dot").classList.add("square");
+    }
 }
 
 // define notes object
@@ -529,9 +533,9 @@ function sortTOC(shape){
     let allDots = toc.querySelectorAll(".dot")
     for (let d of allDots){
         if (d.classList.contains(shape)){
-            d.style.visibility = "visible";
+            d.parentElement.parentElement.style.visibility = "visible";
         } else {
-            d.style.visibility = "hidden";
+            d.parentElement.parentElement.style.visibility = "hidden";
         }
     }
 }

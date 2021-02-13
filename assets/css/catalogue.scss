@@ -407,7 +407,7 @@ section{position:relative;z-index:1}
 
 #cover{
     // margin-top:calc(var(--toolbar-height) + 1px);
-    --stripeHeight: 120px;
+    --stripeHeight: 80px;
     --coverMargin: 40px;
     --spineWidth: 80px;
     height:100vh;
@@ -481,13 +481,13 @@ section{position:relative;z-index:1}
         object-position: top center;
     }
     .stripe{
-        height:120px;
+        height:var(--stripeHeight);
         width:100%;
         background:tomato;
         border-top:1px solid white;
         border-bottom:1px solid white;
         position:absolute;
-        top:120px;
+        top:var(--stripeHeight);
     }
     h1{
         font-family: 'JJannon Display', serif;
@@ -514,7 +514,7 @@ section{position:relative;z-index:1}
 .on-the-cover{
     font-weight:400;
     position:absolute;
-    margin: var(--coverMargin) 0px;
+    // margin: var(--coverMargin) 0px;
     top:0px;
     // left:calc(50% + var(--spineWidth)/2 + var(--coverMargin));
     left:var(--coverMargin);
@@ -606,7 +606,7 @@ section{position:relative;z-index:1}
         border:0.05px solid grey;
         margin-bottom:4px;
     }
-    .dot.square{border-radius:0;  transform: scale(0.9)}
+    .dot.square, .dot.square.diamond{border-radius:0;  transform: scale(0.9)}
     .dot.diamond{
         border-radius:0;
         transform: rotate(45deg) skew(10deg, 10deg);
