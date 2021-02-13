@@ -619,7 +619,7 @@ function setCookie(cname,cvalue) {
 //   d.setTime(d.getTime() + (exdays*24*60*60*1000));
 //   var expires = "expires=" + d.toGMTString();
     if (usingCookies){
-        document.cookie = cname + "=" + cvalue + "; max-age=94608000;path=/";
+        document.cookie = cname + "=" + cvalue + "; max-age=94608000;path=null";
     }
 }
 
