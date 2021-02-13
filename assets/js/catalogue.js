@@ -660,3 +660,27 @@ function acceptCookies(){
 function declineCookies(){
     usingCookies = false;
 }
+
+
+
+//Window scroll to hide data viz in background
+window.addEventListener('scroll', showHideElements );
+
+function showHideElements(){ 
+   var scrollEl = document.querySelectorAll('[data-scroll-watch]');
+   scrollEl.forEach(el => {
+      // get element
+      let bounds = el.getBoundingClientRect();
+      var dots = document.querySelector(el.dataset.hide);
+      
+      console.log(el.dataset.hide, dots)
+      // if bounds hits top of screen hide it
+      if ( bounds.bottom <= 0) {
+         dots.classList.add('hide-vis');
+      } else {
+         dots.classList.remove('hide-vis');
+      }
+
+   });
+
+}
