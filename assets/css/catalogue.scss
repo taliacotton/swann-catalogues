@@ -423,7 +423,7 @@ section{position:relative;z-index:1}
         position: absolute;
         top:calc(var(--stripeHeight)/2);
         // left:calc(var(--coverMargin));
-        left:calc(50% + var(--spineWidth)/2 + var(--coverMargin));
+        left:var(--coverMargin);
         transform: translateY(-50%);
         width:170px;
     }
@@ -516,9 +516,13 @@ section{position:relative;z-index:1}
     position:absolute;
     // margin: var(--coverMargin) 0px;
     top:0px;
-    // left:calc(50% + var(--spineWidth)/2 + var(--coverMargin));
-    left:var(--coverMargin);
+    left:calc(50% + var(--spineWidth)/2 + var(--coverMargin));
+    // left:var(--coverMargin);
     color:#888888;
+    height: var(--stripeHeight);
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
 }
 .phantom-toc{position:relative;height:150vh;width:calc(100vw - var(--toolbar-height) - 1px);}
 #table-of-contents{
