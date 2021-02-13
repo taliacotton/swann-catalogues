@@ -110,6 +110,9 @@ window.addEventListener('load', function() {
             if (thumb.getBoundingClientRect().bottom > window.innerHeight){
                 thumb.classList.add("bottom");
             }
+            if (thumb.getBoundingClientRect().right > window.innerWidth){
+                thumb.classList.add("right");
+            }
         }
     },500)
 });

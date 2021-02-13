@@ -249,6 +249,19 @@ section{position:relative;z-index:1}
         background:rgba(0,0,0,0.5);
     }
 }
+
+.thumbnail-lockup.bottom{
+    bottom:0px;
+}
+.thumbnail-lockup.right{
+    transform: translateX(-100%);
+    text-align: right;
+    flex-direction: row-reverse;
+    img{
+        margin-right:0px;
+        margin-left:10px;
+    }
+}
 .sidebar{
     width: var(--toolbar-height);
     background-color:tomato;
@@ -310,9 +323,7 @@ section{position:relative;z-index:1}
                     background:transparent;
                 }
             }
-            .thumbnail-lockup.bottom{
-                bottom:0px;
-            }
+            
         }
         @media screen and (min-width: 726px){
             a:hover li{
