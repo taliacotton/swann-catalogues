@@ -333,18 +333,19 @@
                 <h2>Choose a<br>print option:</h2>
                 <div class="control-group">
                     <label class="control control-radio">
-                        Entire catalogue <span>(320)</span>
-                            <input type="radio" name="radio" checked="checked" />
+                        Entire catalogue <span>({{lots|size}})</span>
+                            <input type="radio" name="radio" value="all" checked="checked" />
                         <div class="control_indicator"></div>
                     </label>
                     <label class="control control-radio">
-                        Bookmarked Lots Only <span>(2)</span>
-                            <input type="radio" name="radio" />
+                        Bookmarked Lots Only <span id="bookmarkedCount">(2)</span>
+                            <input type="radio" name="radio" value="bookmarked" />
                         <div class="control_indicator"></div>
                     </label>
                     <label class="control control-radio">
-                        Recommended Lots Only <span>(6)</span>
-                            <input type="radio" name="radio" />
+                        {% assign recommendedSize = lots | where: "recommended", "true" %}
+                        Recommended Lots Only <span>({{recommendedSize | size}})</span>
+                            <input type="radio" name="radio" value="recommended" />
                         <div class="control_indicator"></div>
                     </label>
                 </div>

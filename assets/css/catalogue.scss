@@ -1872,6 +1872,13 @@ section.large_image{
         overflow-x: hidden;
     }
 
+    body.print-recommended .lot:not(.rec-true){
+        display:none;
+    }
+    body.print-bookmarked .lot:not(.lot-bookmarked){
+        display:none;
+    }
+
     .print-content{display:block;}
     table.print-content{display:table;}
 

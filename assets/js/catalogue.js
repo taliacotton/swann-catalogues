@@ -62,6 +62,8 @@ for (let lotId of bookmarked){
     for(let dot of document.querySelectorAll("#table-of-contents #toc-dots .dot-container[href='#"+lotId+"']")){
         dot.querySelector(".dot").classList.add("square");
     }
+    //Print modal quantity of bookmarked lots
+    document.getElementById("bookmarkedCount").innerHTML = `(${bookmarked.length})`
 }
 
 // define notes object
@@ -147,13 +149,24 @@ function closeSearch(){
 // TRIGGER PRINT MODAL
 function triggerPrintModal(){
     document.getElementById("printModal").classList.toggle("visible");
+    document.body.classList.remove("print-recommended");
+    document.body.classList.remove("print-bookmarked");
 }
 
 // PRINT COMMAND
-function printBook(){     
+function printBook(){ 
+    // print select pages  
+    let pagesToPrint = document.querySelector('input[name = "radio"]:checked').value;
+    if (pagesToPrint == "bookmarked"){
+        document.body.classList.add("print-bookmarked");
+    } else if (pagesToPrint == "recommended"){
+        document.body.classList.add("print-recommended");
+    } else {
+        document.body.classList.remove("print-recommended");
+        document.body.classList.remove("print-bookmarked");
+    }
     window.print();
 }
-
 
 // MOBILE: THUMBNAIL FULLSCREEN
 for (let thumb of mobileThumbs){
@@ -404,6 +417,8 @@ for (let bm of bookmarks){
             document.querySelector("#table-of-contents #toc-dots .dot-container[href='#"+parent.id+"'] .dot").classList.remove("square");
         }
         setCookie("bookmarked",JSON.stringify(bookmarked))
+        // update print modal bookmarked count
+        document.getElementById("bookmarkedCount").innerHTML = `(${bookmarked.length})`
     })
 }
 
