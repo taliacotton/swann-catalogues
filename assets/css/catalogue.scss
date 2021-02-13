@@ -1,5 +1,5 @@
-// ---
-// ---
+---
+---
 
 :root{
     --main-width: calc(100vw - var(--toolbar-height) - 1px);
@@ -28,6 +28,8 @@ body.loading{
     }
     
 }
+
+.hide-vis{opacity:0;}
 
 .thumbnail-lockup{
     left: -100vw;
