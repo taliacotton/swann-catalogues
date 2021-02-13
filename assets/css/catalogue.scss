@@ -27,7 +27,9 @@ body.loading{
         transform: translate(-50%);
         animation: loading 1s linear both;
     }
-    
+    #cover .spine{
+        border-right:1px solid white;
+    }
 }
 
 .thumbnail-lockup{
@@ -417,6 +419,7 @@ section{position:relative;z-index:1}
     position:relative;
     border-bottom:1px solid white;
     z-index:3;
+    display:flex;
     > * {
         transition: opacity 300ms;
     }
@@ -434,9 +437,10 @@ section{position:relative;z-index:1}
     }
     .right{
         right:0px;
+        top:calc(var(--stripeHeight)*2);
         padding:40px;
         width:calc(50% - var(--spineWidth)/2 - var(--coverMargin)*2 - 1px);
-        height:calc(100% - var(--stripeHeight)*2 - var(--coverMargin)*2);
+        min-height:calc(100% - var(--stripeHeight)*2 - var(--coverMargin)*2);
     }
     .left{
         left:0px;
@@ -446,8 +450,8 @@ section{position:relative;z-index:1}
     .spine{
         width:var(--spineWidth);
         transition: width 500ms;
-        border-right:1px solid white;
-        border-left:1px solid white;
+        border-left:0.5px solid white;
+        border-right:0.5px solid white;
         height: 100%;
         position:absolute;
         left:50%;
