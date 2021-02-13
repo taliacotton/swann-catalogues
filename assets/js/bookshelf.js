@@ -85,6 +85,12 @@ function sortTable(category) {
       switching = true;
     }
   }
+   // Close the menu when sorting is complete
+   // I added an open check since I am not 100% sure how this will affect desktop
+   if (toolbar.classList.contains('open')) {
+      toggleMenu();
+   }
+   
 }
 
 function triggerPageTransition(selection){
