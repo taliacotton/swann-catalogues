@@ -392,11 +392,16 @@ for (let bm of bookmarks){
         // SAVE A COOKIE
         if (parent.classList.contains("lot-bookmarked")){
             bookmarked.push(parent.id);
+
+            // update the TOC square
+            document.querySelector("#table-of-contents #toc-dots .dot-container[href='#"+parent.id+"'] .dot").classList.add("square");
+
         } else {
             // if (bookmarked.indexOf(parent.id) > -1) {
             //     array.splice(index, 1);
             // }
             bookmarked = bookmarked.filter(e => e !== parent.id);
+            document.querySelector("#table-of-contents #toc-dots .dot-container[href='#"+parent.id+"'] .dot").classList.remove("square");
         }
         setCookie("bookmarked",JSON.stringify(bookmarked))
     })
@@ -673,7 +678,7 @@ function showHideElements(){
       let bounds = el.getBoundingClientRect();
       var dots = document.querySelector(el.dataset.hide);
       
-      console.log(el.dataset.hide, dots)
+    //   console.log(el.dataset.hide, dots)
       // if bounds hits top of screen hide it
       if ( bounds.bottom <= 0) {
          dots.classList.add('hide-vis');
