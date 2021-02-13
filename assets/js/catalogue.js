@@ -533,12 +533,21 @@ function sortTOC(shape){
     }
 }
 
-function shareLot(elem){
-    document.getElementById("url_to_copy").innerHTML=window.location.href;
-    document.getElementById("url_to_copy").select();
-    document.execCommand("copy");
-    console.log(document.getElementById("url_to_copy").innerHTML);
-    elem.innerHTML = "Link copied!"
+function shareLot(){
+    var textarea = document.createElement('textarea');
+    textarea.textContent = window.location.href;
+    document.body.appendChild(textarea);
+
+    var selection = document.getSelection();
+    var range = document.createRange();
+    range.selectNode(textarea);
+    selection.removeAllRanges();
+    selection.addRange(range);
+
+    console.log('copy success', document.execCommand('copy'));
+    selection.removeAllRanges();
+
+    document.body.removeChild(textarea);
 }
 
 function jump(h){

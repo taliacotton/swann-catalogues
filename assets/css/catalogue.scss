@@ -531,6 +531,15 @@ section{position:relative;z-index:1}
         .chapter-title{
             font-size:1.2rem;
         }
+        .small-type{
+            margin-bottom:0px;
+        }
+        .small-type + .chapter-title {
+            margin-top: 0px;
+        }
+        .small-type + .chapter-title:before {
+            display:none;
+        }
         .dot-container{
             position:relative;
             // IF YOU DONT WANT THE LINE-BY-LINE HOVER, COMMENT OUT THIS LINE:
@@ -623,6 +632,7 @@ section{position:relative;z-index:1}
 }
 section{position:relative;}
 #info{
+    padding-top:var(--toolbar-height);
     background:white;
     color:black;
     font-family:var(--sans-serif);
@@ -773,6 +783,7 @@ section{position:relative;}
     z-index: 2;
     background: #2F2F2F;
     height: var(--main-height);
+    user-select: none;
     h1{
         font-size:50px;
         font-weight:300;
@@ -1155,7 +1166,7 @@ section.header_text.large-image {
     font-family:'Jjannon Display';
     color:white;
     background-position:center;
-    background-size:200%;
+    background-size:120%;
 }
 section.header_text.large-image .header-inner:before {
     content: '';
@@ -1636,13 +1647,11 @@ section.large_image{
         .chapter-title{
             margin:30px 0px 20px;
         }
-        a .small-type{
+        a > p.small-type{
             margin-top:30px;
+            margin-bottom: 0px !important;
         }
         a:first-child .small-type, a:first-child .chapter-title{
-            margin-top:0px;
-        }
-        .small-type + .chapter-title{
             margin-top:0px;
         }
     }

@@ -8,7 +8,7 @@
     </section>
     {% elsif lot.large_header.header_type == 'Large (Image)' %}
     <!-- <section class="header_text {{lot.large_header.header_type | slugify}}" style="background-image: url()"> -->
-    <section class="header_text {{lot.large_header.header_type | slugify}}">
+    <section class="header_text {{lot.large_header.header_type | slugify}} lozad" data-background-image="{{ site.cloudinary_url }}/w_1040{{lot.large_header.background_image}}">
         <div class="header-inner">
             <span>{{lot.large_header.line_1_text}}</span>
             <br><span><i>{{lot.large_header.line_2_text}}</i></span>
@@ -174,7 +174,7 @@
                     <svg style="top:1px" width="8" height="12" viewBox="0 0 8 12" fill="none" xmlns="http://www.w3.org/2000/svg"><path d="M1 1L6 6L1 11" stroke="#008FFC" stroke-width="1.8"/></svg>
                 </a>
                 {%endif%}
-                <button onclick="shareLot(this)">Share Lot</button>
+                <button onclick="shareLot()">Share Lot</button>
             </div>
             <div class="notes-right">
                 <textarea class="notes small-type" id="textarea"></textarea>

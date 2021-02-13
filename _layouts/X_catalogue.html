@@ -305,6 +305,8 @@
                 
             {% endfor %}
             </div>
+            {% assign footerLength = page.footer_pages | size %}
+            {% if footerLength > 0 %}
             <section id="end-content">
                 <div class="inner">
                     {% for footerpage in page.footer_pages %}
@@ -319,6 +321,7 @@
                     {% endfor %}
                 </div>
             </section>
+            {% endif %}
         </div>
         <div class="callout" id="hamburgerCallout">
             <p>You can click this button to return to the table of contents at any time.</p>
