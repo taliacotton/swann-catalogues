@@ -28,7 +28,7 @@ body.loading{
         animation: loading 1s linear both;
     }
     #cover .spine{
-        border-right:1px solid white;
+        border-left:1px solid white;
     }
 }
 
@@ -451,9 +451,10 @@ section{position:relative;z-index:1}
     }
     .spine{
         width:var(--spineWidth);
-        transition: width 500ms;
-        border-left:0.5px solid white;
-        border-right:0.5px solid white;
+        transition: 500ms;
+        // transition-delay:500ms;
+        border-left:0px solid white;
+        border-right:1px solid white;
         height: 100%;
         position:absolute;
         left:50%;
