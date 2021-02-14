@@ -16,6 +16,7 @@
     </section>
     {% endif %}
 {% endif %}
+<!-- LARGE IMAGES -->
 {% if lot.large_img %}
     {% if lot.full_width_image.background_color %}{% assign bgLg = lot.full_width_image.background_color %}{%else%}{%assign bgLg ='#212121'%}{%endif%}
     <section class="large_image" style="background-color: {{bgLg}};">
@@ -32,8 +33,9 @@
             class="lozad" />
     </section>
 {% endif %}
+
 <section id="lot{{lotNum}}" class="lot rec-{{lot.recommended}}">
-    <div class="left">
+    <div class="left {% if lot.images.first %}js-slideshow has-slideshow{% endif %}">
         <div class="printFooter print-content">Lot {{lot.REFNO}}</div>
         {% if lot.images[0] %}
             <div class="slideshow"  style="background-color:{{bg}}">

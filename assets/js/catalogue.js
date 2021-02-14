@@ -29,9 +29,12 @@ let lotSections = document.querySelectorAll("section.lot");
 let bookmarks = document.querySelectorAll(".bookmark-container");
 let highlightTexts = document.querySelectorAll("section.lot .center-column p")
 let leftSections = document.querySelectorAll(".lot > .left");
+let leftSectionsZoom = document.querySelectorAll(".lot > .left:not(.has-slideshow)");
 let rightSections = document.querySelectorAll(".lot > .right");
 let sections = document.querySelectorAll("section");
 let cookieBanner = document.getElementById("cookieBanner");
+
+let slideshows = document.querySelectorAll(".js-slideshow");
 
 let mobileThumbs = document.querySelectorAll(".mobile-thumb");
 
@@ -227,7 +230,7 @@ if(scrollTop > window.innerHeight*2 && document.querySelector(".lot").getBoundin
             let newHash = '#' + l.parentElement.id;
             currentSection = parseInt(l.parentElement.id.substring(3)) + 3;
             if(history.pushState) {
-                history.pushState(null, null, newHash);
+               //  history.pushState(null, null, newHash);
             } else {
                 location.hash = newHash;
             }
@@ -245,7 +248,7 @@ if(scrollTop > window.innerHeight*2 && document.querySelector(".lot").getBoundin
 let imgZoom = false;
 
 // ZOOM IMAGE
-for (let ls of leftSections){
+for (let ls of leftSectionsZoom){
 
     ls.addEventListener("click", function(e){
         imgZoom = !imgZoom;
@@ -278,8 +281,10 @@ for (let ls of leftSections){
 
 function zoomImg(e, ls){
     let img = ls.querySelector("img");
-    ls.classList.add("zoom");
+    let rTop = ls.parentElement.querySelector('.right').getBoundingClientRect().top;
 
+    ls.classList.add("zoom");
+    window.scrollTo(0, rTop + window.scrollY) ;
     let xPos = interpolate(e.clientX, 39, 39 + (window.innerWidth - 39)/2, 0, 100);
     let yPos = interpolate(e.clientY, 39, window.innerHeight, 0, 100);
     
@@ -692,9 +697,10 @@ function declineCookies(){
     usingCookies = false;
 }
 
-
-
-//Window scroll to hide data viz in background
+// ––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––
+// Hide Data Vis once you scroll past it 
+// Window scroll to hide data viz in background
+// ––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––
 window.addEventListener('scroll', showHideElements );
 
 function showHideElements(){ 
@@ -714,3 +720,68 @@ function showHideElements(){
    });
 
 }
+
+
+
+// ––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––
+// Slideshow 
+// ––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––
+// I am doing this because we have multiple scroll listeners on the window and If I turn this off it will turn off all of them
+var allowScrollJack = false
+
+
+
+slideshows.forEach(function (wrapper) { 
+   var slideshow = wrapper.querySelector('.slideshow');
+   let wrapperWidth = 0
+   var xOffset = 0;
+
+   // create slide spacing---------------
+   slideshow.querySelectorAll('.slideshow-img-container').forEach(function (imgWrap) { 
+      var width = wrapper.offsetWidth  - 60;
+      wrapperWidth += width;
+   })
+
+   // Set the wrapper width
+   slideshow.style.width = wrapperWidth+'px';
+   // On mouse enter of left side activate slider
+   wrapper.addEventListener('mouseenter', function () {
+      allowScrollJack = true;
+      // Listen to the mouse event on the left side
+      wrapper.addEventListener('wheel', function (event) {
+         var slideshow = wrapper.querySelector('.slideshow');
+         var bounds = slideshow.getBoundingClientRect();
+         var maxOffset = slideshow.getBoundingClientRect().width - (window.innerWidth/2);
+
+         // If the wrapper is at the top of the page 
+         // bounds.top <= 37 && xOffset <= maxOffset
+         if (bounds.top <= 37 && bounds.bottom >= (window.innerHeight - 1)) {
+            xOffset = xOffset + (event.deltaY * .6);
+            document.body.classList.add('stuck');
+            
+            // if the slides   
+            if (xOffset <= 0) {
+               slideshow.style.transform = 'translate3d(0px, 0,0)'   
+               xOffset = 0
+               allowScrollJack = false;
+               document.body.classList.remove('stuck');
+
+            } else if(xOffset >= maxOffset){
+               slideshow.style.transform = 'translate3d(-'+maxOffset+'px, 0,0)'
+               xOffset = maxOffset
+               allowScrollJack = false;
+               document.body.classList.remove('stuck');
+
+            } else {
+               slideshow.style.transform = 'translate3d(-'+xOffset+'px, 0,0)'
+            }
+         }
+
+      })
+   });
+   
+   wrapper.addEventListener('mouseleave', function () { 
+      allowScrollJack = false;
+      document.body.classList.remove('stuck');
+   });
+})
