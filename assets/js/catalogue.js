@@ -464,15 +464,16 @@ for (let text of highlightTexts){
 document.addEventListener("keydown", function(e){
     document.documentElement.style.scrollBehavior= "auto";
     if (e.key == "ArrowRight"){
-        currentSection++;
-        // console.log(currentSection);
-        jump(sections[currentSection].id)
+        location.href = "#"+document.querySelector(location.hash).nextElementSibling.id;     
     }
     if (e.key == "ArrowLeft"){
-        currentSection--;
-        jump(sections[currentSection].id)
+        location.href = "#"+document.querySelector(location.hash).previousElementSibling.id;     
     }
 })
+
+function hasId(element){
+    return typeof element.id != 'undefined';
+}
 
 function showHideNav(st){
     if (st > 50){nav.classList.add("visible")}
@@ -601,6 +602,7 @@ function shareLot(){
     document.body.removeChild(textarea);
 }
 
+// Function used on key down to skip to the next section
 function jump(h){
     // var url = location.href;               //Save down the URL without hash.
     location.href = "#"+h;                 //Go to the target element.

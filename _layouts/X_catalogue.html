@@ -271,7 +271,7 @@
                 {% for session in page.chapters %}
                     {% for chapter in session.chapters %}
                             {% if lotNum == chapter.lot %}
-                            <section id="{{chapter.chapter_title | slugify}}"  class="chapter-head">
+                            <section id="chp-{{chapter.chapter_title | slugify}}"  class="chapter-head">
                                 <div class="inner">
                                     <h3 class="small-type">{{session.session_title}}</h3>
                                     <h1>{{chapter.chapter_title}}</h1>
@@ -283,7 +283,7 @@
 
                 {% for essay in page.essays %}
                     {% if lotNum == essay.lot %}
-                    <section class="essay">
+                    <section class="essay" id="{{essay.title | slugify}}">
                         <div class="inner">
                             <div class="title-text">
                                 <h1>{{essay.title}}</h1>
