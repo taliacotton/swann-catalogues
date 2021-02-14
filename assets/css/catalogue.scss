@@ -443,6 +443,10 @@ section{position:relative;z-index:1}
         padding:40px;
         width:calc(50% - var(--spineWidth)/2 - var(--coverMargin)*2 - 1px);
         min-height:calc(100% - var(--stripeHeight)*2 - var(--coverMargin)*2);
+        display: flex;
+        flex-direction: column;
+        justify-content: space-between;
+        overflow: scroll;
     }
     .left{
         left:0px;
@@ -517,10 +521,13 @@ section{position:relative;z-index:1}
     }
     h2{
         font-weight:400;
-        position:absolute;
+        // position:absolute;
         bottom:0px;
         margin: var(--coverMargin) 0px;
         line-height:1.2;
+    }
+    .cover-date{
+        margin-bottom:0px;
     }
 }
 .on-the-cover{
@@ -1613,7 +1620,11 @@ section.large_image{
     #cover{
         width:calc(100vw - var(--toolbar-height));
         left:var(--toolbar-height);
-        h1{
+        flex-direction:column-reverse;
+        min-height: calc(100vh - var(--toolbar-height));
+        padding-top: var(--toolbar-height);
+        // display:block;
+        h1, h1.smaller{
             font-family: 'JJannon', serif;
             font-size: 20px;
             line-height: 20px;
@@ -1642,14 +1653,18 @@ section.large_image{
             width:calc(100vw - var(--toolbar-height));
             left: auto;
             right:0px;
+            position: static;
         }
         .right{
-            height: calc(var(--stripeHeight)*2 - var(--toolbar-height) - 40px + 2px);
-            top: var(--toolbar-height);
+            // height: calc(var(--stripeHeight)*2 - var(--toolbar-height) - 40px + 2px);
+            // top: var(--toolbar-height);
             padding: 20px;
             width:calc(100vw - var(--toolbar-height) - 40px);
             display: flex;
             flex-direction: column;
+            justify-content:flex-start;
+            background:black;
+            min-height: auto;
         }
         .on-the-cover{
             display:none;
@@ -1657,7 +1672,8 @@ section.large_image{
         .logo{
             left:auto;
             right:10px;
-            width:100px;
+            width: 90px;
+            top: 63px;
         }
     }
     .subnav ul{
