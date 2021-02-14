@@ -27,7 +27,9 @@ body.loading{
         transform: translate(-50%);
         animation: loading 1s linear both;
     }
-    
+    #cover .spine{
+        border-right:1px solid white;
+    }
 }
 
 .hide-vis{opacity:0;}
@@ -419,6 +421,7 @@ section{position:relative;z-index:1}
     position:relative;
     border-bottom:1px solid white;
     z-index:3;
+    display:flex;
     > * {
         transition: opacity 300ms;
     }
@@ -436,9 +439,10 @@ section{position:relative;z-index:1}
     }
     .right{
         right:0px;
+        top:calc(var(--stripeHeight)*2);
         padding:40px;
         width:calc(50% - var(--spineWidth)/2 - var(--coverMargin)*2 - 1px);
-        height:calc(100% - var(--stripeHeight)*2 - var(--coverMargin)*2);
+        min-height:calc(100% - var(--stripeHeight)*2 - var(--coverMargin)*2);
     }
     .left{
         left:0px;
@@ -448,8 +452,8 @@ section{position:relative;z-index:1}
     .spine{
         width:var(--spineWidth);
         transition: width 500ms;
-        border-right:1px solid white;
-        border-left:1px solid white;
+        border-left:0.5px solid white;
+        border-right:0.5px solid white;
         height: 100%;
         position:absolute;
         left:50%;
@@ -854,7 +858,11 @@ section{position:relative;}
         position:sticky;
         top:var(--toolbar-height);
         height:var(--main-height);
-        cursor: url(../img/zoom-cursor.svg), auto;
+        cursor: url('../img/zoom-cursor.svg'), auto;
+        // cursor: -webkit-image-set(
+        // url('../img/zoom-cursor.png') 1x,
+        // url('../img/zoom-cursor-2x.png') 2x
+        // ), auto;
 
         // width: calc(var(--main-width)/2);
         // position:fixed;
@@ -1290,7 +1298,7 @@ section.large_image{
 // }
 
 
-.lot.lot-recommended {
+.lot.rec-true {
     .lot-number:after{
         content: url(../img/icon-diamon.svg);
         top: -3px;
@@ -1865,6 +1873,13 @@ section.large_image{
 
     body {
         overflow-x: hidden;
+    }
+
+    body.print-recommended .lot:not(.rec-true){
+        display:none;
+    }
+    body.print-bookmarked .lot:not(.lot-bookmarked){
+        display:none;
     }
 
     .print-content{display:block;}
