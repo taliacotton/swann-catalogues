@@ -671,7 +671,7 @@ function checkCookie() {
     cookieBanner.style.display = "none";
   } 
   var access=getCookie("access");
-  if (!access) {
+  if (!access && !document.body.classList.contains("visible-true")) {
     document.body.classList.add("visible-false");
   } 
 //   else {
