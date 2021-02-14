@@ -100,6 +100,15 @@
         -moz-box-shadow: 0px 12px 11px -6px rgba(0,0,0,0);
         box-shadow: 0px 12px 11px -6px rgba(0,0,0,0);
         
+        &:before{
+            content: '';
+            height: 1px;
+            width: 100%;
+            position: absolute;
+            left: 0;
+            top: 0;
+            background-color: white;
+        }
         &:last-child{
            a{
               border-bottom:1px solid white;
