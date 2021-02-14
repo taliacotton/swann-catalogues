@@ -39,7 +39,7 @@
             <div class="slideshow"  style="background-color:{{bg}}">
                     <div class="slideshow-img-container">
                     <img
-                        sizes="(min-width: 726px) 50vw, 100vw"
+                        sizes="auto"
                         data-srcset="{{ site.cloudinary_url }}/f_auto,q_70,w_512{{ lot.image }} 512w,
                                 {{ site.cloudinary_url }}/f_auto,q_70,w_768{{ lot.image }} 768w,
                                 {{ site.cloudinary_url }}/f_auto,q_70,w_1024{{ lot.image }} 1024w,
@@ -52,7 +52,7 @@
                     {% for image in lot.images %}
                     <div class="slideshow-img-container">
                         <img
-                            sizes="(min-width: 726px) 50vw, 100vw"
+                            sizes="auto"
                             data-img="{{ image }}"
                             data-srcset="{{ site.cloudinary_url }}/f_auto,q_70,w_512{{ image }} 512w,
                                 {{ site.cloudinary_url }}/f_auto,q_70,w_768{{ image }} 768w,
@@ -70,7 +70,7 @@
             {% if lot.image %}
                 <!-- <img style="background-color:{{bg}}" src="/assets/img/{{lot.image}}"> -->
                 <img style="background-color:{{bg}}"
-                        sizes="(min-width: 726px) 50vw, 100vw"
+                        sizes="auto"
                         data-img="{{ lot.image }}"
                         data-srcset="{{ site.cloudinary_url }}/f_auto,q_70,w_512{{ lot.image }} 512w,
                                 {{ site.cloudinary_url }}/f_auto,q_70,w_768{{ lot.image }} 768w,
@@ -82,9 +82,10 @@
                         alt="" 
                         class="lozad"/>
             {% elsif lot.REFNO %}
+            <!-- (min-width: 726px) 50vw, 100vw -->
             <img style="background-color:{{bg}}"
-                        sizes="(min-width: 726px) 50vw, 100vw"
-                        data-img="{{ lot.image }}"
+                        sizes="auto"
+                        data-img="/{{page.sale}}/{{ lot.REFNO }}.jpg"
                         data-srcset="{{ site.cloudinary_url }}/f_auto,q_70,w_512/{{page.sale}}/{{ lot.REFNO }}.jpg 512w,
                                 {{ site.cloudinary_url }}/f_auto,q_70,w_768/{{page.sale}}/{{ lot.REFNO }}.jpg 768w,
                                 {{ site.cloudinary_url }}/f_auto,q_70,w_1024/{{page.sale}}/{{ lot.REFNO }}.jpg 1024w,

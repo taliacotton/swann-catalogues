@@ -233,10 +233,15 @@ let imgZoom = false;
 
 // ZOOM IMAGE
 for (let ls of leftSections){
-    ls.addEventListener("mousedown", function(e){
+
+    ls.addEventListener("click", function(e){
         imgZoom = !imgZoom;
-        if (imgZoom){zoomImg(e, ls);} 
-        else {unzoomImg(ls);}
+        if (imgZoom) {
+            zoomImg(e, ls);
+            // zoomChangeSrc(ls);
+        } else {
+            unzoomImg(ls);
+        }
     })
     ls.addEventListener("mousemove", function(e){
         if (imgZoom){zoomImg(e, ls);}
@@ -246,29 +251,35 @@ for (let ls of leftSections){
         unzoomImg(ls);
     });
 }
+//NOTE: should be deleted if ticket is closed
+// function zoomChangeSrc(ls){ 
+//     let img = ls.querySelector("img");
+//     let rTop = ls.parentElement.querySelector('.right').getBoundingClientRect().top;
+//     let src = "https://res.cloudinary.com/dcryyrd42/image/upload/f_auto,q_50,h_" + window.innerHeight + img.getAttribute("data-img");
+
+//     img.removeAttribute('srcset')
+//     img.removeAttribute('sizes')
+//     img.src = src;
+//     window.scrollTo(0, rTop + window.scrollY) ;
+// }
 
 function zoomImg(e, ls){
     let img = ls.querySelector("img");
-    // console.log(img.src)
-    // img.src = "https://res.cloudinary.com/dcryyrd42/image/upload/f_auto,q_70,h_" + window.innerHeight + img.getAttribute("data-img");
-    img.setAttribute("sizes","1200px");
     ls.classList.add("zoom");
-    // let xPos = interpolate(e.clientX, 39, 39 + (window.innerWidth - 39)/2, 0, -74.3);
-    // let yPos = interpolate(e.clientY, 39, window.innerHeight, 0, -35);
-    // img.style.transform = "translateX("+xPos+"%) translateY("+yPos+"%)";
+
     let xPos = interpolate(e.clientX, 39, 39 + (window.innerWidth - 39)/2, 0, 100);
     let yPos = interpolate(e.clientY, 39, window.innerHeight, 0, 100);
-    // img.style.left = xPos+"px";
-    // img.style.top = yPos+"px";
+    
     img.style.objectPosition = xPos + "% " + yPos + "%";
-    // img.style.bottom = yPos + "%";
-    // img.style.left = xPos + "%";
 }
 
 function unzoomImg(ls){
+    let img = ls.querySelector("img");
     ls.classList.remove("zoom");
-    ls.querySelector("img").style.objectPosition = "center";
-    ls.querySelector("img").setAttribute("sizes","(min-width: 726px) 50vw, 100vw");
+    img.style.objectPosition = "center";
+    // "(min-width: 726px) 50vw, 100vw"
+    img.setAttribute("sizes",'auto');
+    img.setAttribute('srcset', img.dataset.srcset)
 }
 
 // NOTES PROMPT MOVE
@@ -673,7 +684,6 @@ function showHideElements(){
       let bounds = el.getBoundingClientRect();
       var dots = document.querySelector(el.dataset.hide);
       
-      console.log(el.dataset.hide, dots)
       // if bounds hits top of screen hide it
       if ( bounds.bottom <= 0) {
          dots.classList.add('hide-vis');
