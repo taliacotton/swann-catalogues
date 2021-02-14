@@ -1274,7 +1274,7 @@ section.large_image{
     // left:-300px;
     // top:-300px;
     z-index:1;
-    padding: 0px 12px;
+    padding: 5px 12px;
     color: #b2b2b2;
     font-weight:500;
     transition: left 300ms;
@@ -1283,6 +1283,7 @@ section.large_image{
     max-width: 184px;
     text-align:left;
     display:none;
+    transform:translateY(-10px);
 }
 .notes-prompt.np-left{
     transform:translateX(-100%);
@@ -1563,6 +1564,29 @@ section.large_image{
         animation-name: s-ripple-dup;
     }
 
+}
+
+
+// NOTES CONSOLIDATE ONE COLUMN IN MID-SIZED SCREENS
+@media screen and (max-width:1375px) and (min-width: 726px){
+    .lot .center-column{
+        margin:inherit;
+        margin-right:auto;
+        max-width: 400px;
+        // width:calc(100% - 80px);
+        width:calc(100% - 120px);
+    }
+    .lot .notes-left, .lot .notes-right{
+        width: 80px;
+        left: calc(100% - 14px);
+        transform: translateX(0px);
+        min-width: 50px;
+    }
+    .notes-prompt.np-right{
+        left: calc(100vw - (var(--main-width)/2 - 430px));
+        width: calc((var(--main-width)/2 - 400px));
+        padding: 5px 0px;
+    }
 }
 
 
