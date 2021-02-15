@@ -928,6 +928,11 @@ section{position:relative;}
             user-select:none;
             pointer-events:none;
             z-index:0;
+            filter:blur(4px);
+            transition:filter 400ms 100ms ease;
+            &[data-loaded=true]{
+                filter:blur(0px);
+            }
         }
         .zoom-container{
             position:fixed;
@@ -1089,7 +1094,7 @@ section{position:relative;}
     .left.active img{
         opacity:1;
         display: block;
-        filter:blur(0px);
+        // filter:blur(0px);
         z-index:1;
         top: var(--toolbar-height);
         left: calc(var(--toolbar-height) + 1px);
