@@ -37,10 +37,17 @@
 <section id="lot{{lotNum}}" class="lot rec-{{lot.recommended}}">
     <div class="left {% if lot.images.first %}js-slideshow has-slideshow{% endif %}">
         <div class="printFooter print-content">Lot {{lot.REFNO}}</div>
+        
         {% if lot.images[0] %}
+            <!-- <div class="slider-actions">
+                <div class="next js-next"><svg width="8" height="14" viewBox="0 0 8 14" fill="none" xmlns="http://www.w3.org/2000/svg"><path d="M0 14V0L8 7L0 14Z" fill="#1893F8"/></svg></div>
+                <div class="previous js-previous"><svg width="8" height="14" viewBox="0 0 8 14" fill="none" xmlns="http://www.w3.org/2000/svg"><path d="M0 14V0L8 7L0 14Z" fill="#1893F8"/></svg></div>
+            </div> -->
+            <div class="zoom-container"></div>
             <div class="slideshow"  style="background-color:{{bg}}">
                     <div class="slideshow-img-container">
                     <img
+                        data-image="{{ lot.image }}"
                         sizes="auto"
                         data-srcset="{{ site.cloudinary_url }}/f_auto,q_70,w_512{{ lot.image }} 512w,
                                 {{ site.cloudinary_url }}/f_auto,q_70,w_768{{ lot.image }} 768w,
@@ -55,7 +62,7 @@
                     <div class="slideshow-img-container">
                         <img
                             sizes="auto"
-                            data-img="{{ image }}"
+                            data-image="{{ image }}"
                             data-srcset="{{ site.cloudinary_url }}/f_auto,q_70,w_512{{ image }} 512w,
                                 {{ site.cloudinary_url }}/f_auto,q_70,w_768{{ image }} 768w,
                                 {{ site.cloudinary_url }}/f_auto,q_70,w_1024{{ image }} 1024w,

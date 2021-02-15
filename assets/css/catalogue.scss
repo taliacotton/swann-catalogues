@@ -876,8 +876,6 @@ section{position:relative;}
         // position:fixed;
         &.has-slideshow{
             overflow: hidden;
-            // overflow-y: scroll;
-            // overflow-x: scroll;
         }
         &:not(.active){
             pointer-events: none;
@@ -901,6 +899,53 @@ section{position:relative;}
             pointer-events:none;
             z-index:0;
         }
+        .zoom-container{
+            position:absolute;
+            top: 0;
+            left: 0;
+            height: 100%;
+            width: 100%;
+            // background: red;
+            opacity:0;
+            z-index: 4;
+            pointer-events: none;
+            background-position: center;
+            background-size: cover;
+            background-color: black;
+            &.active{
+                cursor: url(../img/zoom-out-cursor.svg), auto;
+                opacity:1;
+                pointer-events: auto;
+            }
+            
+        }
+        // .slider-actions{
+        //     position: absolute;
+        //     z-index:3;
+        //     top:0;
+        //     height: var(--main-height);
+        //     width: calc(var(--main-width)/2);
+        //     >div{
+        //         position:absolute;
+        //         top:50%;
+        //         transform:translate3d(0,-50%, 0);
+        //         svg{
+        //             height: 30px;
+        //             width:auto;
+        //             margin:0px;
+        //             display: block;
+        //         }
+        //     }
+        //     .next{
+        //         right:18px;
+        //         left: auto;
+        //     }
+        //     .previous{
+        //         transform:translate3d(0,-50%, 0) rotate(-180deg);
+        //         right:auto;
+        //         left: 26px;
+        //     }
+        // }
         .slideshow {
             // display: flex;
             // flex-direction: column;

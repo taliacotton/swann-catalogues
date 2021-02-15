@@ -30,6 +30,7 @@ let bookmarks = document.querySelectorAll(".bookmark-container");
 let highlightTexts = document.querySelectorAll("section.lot .center-column p")
 let leftSections = document.querySelectorAll(".lot > .left");
 let leftSectionsZoom = document.querySelectorAll(".lot > .left:not(.has-slideshow)");
+let leftSectionsSlideshowZoom = document.querySelectorAll(".lot > .left.has-slideshow");
 let rightSections = document.querySelectorAll(".lot > .right");
 let sections = document.querySelectorAll("section");
 let cookieBanner = document.getElementById("cookieBanner");
@@ -267,6 +268,8 @@ for (let ls of leftSectionsZoom){
         unzoomImg(ls);
     });
 }
+
+
 //NOTE: should be deleted if ticket is closed
 // function zoomChangeSrc(ls){ 
 //     let img = ls.querySelector("img");
@@ -733,17 +736,13 @@ var allowScrollJack = false
 
 slideshows.forEach(function (wrapper) { 
    var slideshow = wrapper.querySelector('.slideshow');
-   let wrapperWidth = 0
+   var next = wrapper.querySelector('.js-next');
+   var previous = wrapper.querySelector('.js-previous');
    var xOffset = 0;
 
    // create slide spacing---------------
-   slideshow.querySelectorAll('.slideshow-img-container').forEach(function (imgWrap) { 
-      var width = wrapper.offsetWidth  - 60;
-      wrapperWidth += width;
-   })
+   resizeSlideshow(slideshow, wrapper);
 
-   // Set the wrapper width
-   slideshow.style.width = wrapperWidth+'px';
    // On mouse enter of left side activate slider
    wrapper.addEventListener('mouseenter', function () {
       allowScrollJack = true;
@@ -779,9 +778,79 @@ slideshows.forEach(function (wrapper) {
 
       })
    });
-   
+
+   // Event listner to remove the lock on the page when you mouse out of the LS
    wrapper.addEventListener('mouseleave', function () { 
       allowScrollJack = false;
       document.body.classList.remove('stuck');
    });
+   
+   // previous.addEventListener('click', function () { 
+   //    // scroll to next image
+   //    var slideshow = wrapper.querySelector('.slideshow');
+   //    var style =  window.getComputedStyle(slideshow)['transform']
+   //    var imgWidth = wrapper.offsetWidth; 
+   //    slideshow.style.transform = 'translate3d(0px, 0,0)';
+   //    console.log(style);
+   // })
 })
+
+window.addEventListener('resize', function () { 
+   slideshows.forEach(function (wrapper) {
+      var slideshow = wrapper.querySelector('.slideshow');
+      resizeSlideshow(slideshow, wrapper);
+   });
+})
+
+
+function resizeSlideshow(slideshow, wrapper){
+   var wrapperWidth = 0;
+   // create slide spacing---------------
+   slideshow.querySelectorAll('.slideshow-img-container').forEach(function () { 
+      
+      var width = wrapper.offsetWidth  - 60;
+      wrapperWidth += width;
+   })
+
+   // Set the wrapper width
+   slideshow.style.width = wrapperWidth+'px';
+}
+
+
+// ZOOM IMAGE
+// TODO:COMMENT
+for (let ls of leftSectionsSlideshowZoom){
+   var images = ls.querySelectorAll('.slideshow-img-container');
+   
+   images.forEach(function (el) {
+      el.addEventListener("click", function(e){
+         var image = el.querySelector('img');
+         var src = 'https://res.cloudinary.com/dcryyrd42/image/upload/f_auto,q_70,h_1200/' + image.dataset.image;
+         var zoomContainer = ls.querySelector('.zoom-container');
+         zoomContainer.style.backgroundImage = "url('"+src+"')";
+         zoomContainer.classList.add('active');
+         ls.addEventListener('mousemove', zoomMouseMove.bind(zoomContainer))         
+      })      
+   })
+
+   ls.querySelector('.zoom-container').addEventListener('click', function (event) {
+      // if (!this.classList.contains('active')) return false;
+      this.classList.remove('active');
+      this.style.backgroundImage = "none";
+      // this was not working
+      // ls.removeEventListener('mousemove', zoomMouseMove, false);
+      console.log('TEST')
+   });
+   
+   
+}
+
+function zoomMouseMove(e){ 
+   if (!this.classList.contains('active')) return false;
+   let xPos = interpolate(e.clientX, 39, 39 + (window.innerWidth - 39)/2, 0, 100);
+   let yPos = interpolate(e.clientY, 39, window.innerHeight, 0, 100);
+   
+   this.style.backgroundPosition = xPos + "% " + yPos + "%";
+   this.classList.add('active');
+}
+
