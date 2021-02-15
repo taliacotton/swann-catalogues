@@ -1620,9 +1620,9 @@ section.large_image{
             a, button{
                 font-size: 14px;
                 text-align: center;
-                padding: 0px;
                 padding: 0px 18px;
                 white-space: nowrap;
+                margin: 0px;
                 flex: 1;
                 line-height: var(--toolbar-height);
             }
