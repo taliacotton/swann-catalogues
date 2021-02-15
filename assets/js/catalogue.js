@@ -72,6 +72,11 @@ if(getCookie("notes")) {
     notes = JSON.parse(getCookie("notes"));
 };
 
+let highlights = [];
+if(getCookie("highlights")) {
+    highlights = JSON.parse(getCookie("highlights"));
+};
+
 // // apply notes from cookie
 // for (let note of notes){
 //     createNote(note.side, note.top, note.content, note.lot);
@@ -386,10 +391,19 @@ else {
 //     resizeAllTextareas();
 // },1000)
 
+
 // apply notes from cookie
 for (let note of notes){
     createNote(note.side, note.top, note.content, note.lot);
+}
+
+document.body.onload = function(){
+    console.log("loaded3");
     resizeAllTextareas();
+    // apply highlights from cookie
+    for (let highlight of highlights){
+        createHighlight(highlight.lot, highlight.pIndex, highlight.startChar, highlight.totalChar);
+    }
 }
 
 window.addEventListener("resize", function(){
@@ -450,13 +464,36 @@ for (let bm of bookmarks){
 for (let text of highlightTexts){
     text.addEventListener('mouseup', function(e){
         if(e.target.tagName == "MARK"){
-           e.target.outerHTML = e.target.innerHTML
+            //delete the highlight
+           e.target.outerHTML = e.target.innerHTML;
+           console.log("X")
         } else if(window.getSelection().toString().length > 0) {
-            let element = document.createElement("mark")
-            window.getSelection().getRangeAt(0).surroundContents(element)
+            //create the highlight
+            let element = document.createElement("mark");
+            let startChar = e.target.innerHTML.search(element.innerHTML);
+            window.getSelection().getRangeAt(0).surroundContents(element);
+
+            // console.log(e.target);
+            // console.log(e.target.closest(".lot").id, e.target.closest(".center-column").innerHTML.search(element.innerHTML), element.innerHTML.length);
+            
+            var child = e.target;
+            var parent = child.parentNode;
+            // The equivalent of parent.children.indexOf(child)
+            var index = Array.prototype.indexOf.call(parent.children, child);
+
+            let highlightObj = 
+                {   startChar: startChar,
+                    totalChar: element.innerHTML.length,
+                    lot: e.target.closest(".lot").id,
+                    pIndex: index}
+            highlights.push(highlightObj);
+            console.log(highlightObj);
+            setCookie("highlights",JSON.stringify(highlights));
         }
         clearSelection();
+        console.log(highlights);
     })
+    
 }
 
 
@@ -635,6 +672,24 @@ function createNote(sideClass, topVal,innerContent, lotId){
     }
     t.innerHTML = innerContent;
     t.style.height = t.scrollHeight+'px';
+}
+
+function createHighlight(lot, childIndex, startChar, totalChar){
+    let m = document.createElement("MARK");
+    if (document.querySelector("#" + lot) != null){
+        let targetParagraph = document.querySelector("#" + lot).querySelector(".center-column").children.item(childIndex)
+        var a = targetParagraph.innerHTML;
+        var b = "<mark>";
+        var position = startChar;
+        var output = [a.slice(0, position), b, a.slice(position)].join('');
+
+        a = output;
+        b = "</mark>";
+        position = startChar + totalChar;
+        output = [a.slice(0, position), b, a.slice(position)].join('');
+
+        targetParagraph.innerHTML = output;
+    }
 }
 
 function testPassword(){
