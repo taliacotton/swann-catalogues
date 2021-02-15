@@ -814,7 +814,10 @@ window.addEventListener('wheel', function (event) {
       
    } else {
       // event.preventDefault();
-      window.scrollTo(0, (right.getBoundingClientRect().top + window.pageYOffset));
+      window.scrollTo({
+         top: (right.getBoundingClientRect().top + window.pageYOffset),
+         behavior: 'smooth'
+      });
       // debounce(function () { });
       slideshow.style.transform = 'translate3d(-'+slideshow.dataset.scroll+'px, 0,0)'
       document.body.classList.add('stuck');
