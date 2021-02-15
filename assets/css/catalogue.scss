@@ -184,11 +184,13 @@ section{position:relative;z-index:1}
     transform:translateY(0%);
 }
 #searchbar{
-    width: 100vw;
+    -webkit-appearance: none;
+    appearance: none;
+    width: 100% ;
     height: var(--toolbar-height);
     position: fixed;
     background: white;
-    top: var(--toolbar-height);
+    // top: var(--toolbar-height);
     transform:translateY(-200%);
     transition:transform 300ms;
     z-index: 99;
@@ -197,9 +199,11 @@ section{position:relative;z-index:1}
     font-family:var(--sans-serif);
     font-weight:bold;
     font-size:15px;
-    padding-left: 10px;
-    padding-right: 10px;
+    box-sizing: border-box;
+    padding: 0 10px;
     color: var(--swann-blue);
+    
+    
 }
 #searchbar.visible, #searchbar.visible + .searchBtns{
     transform:translateY(0px);
@@ -208,6 +212,7 @@ section{position:relative;z-index:1}
     outline:none;
     border:none;
     border-bottom: 1px solid grey;
+    border-radius: 0px;
 }
 #searchbar::placeholder{
     font-family:var(--sans-serif);
@@ -216,8 +221,8 @@ section{position:relative;z-index:1}
     color:lightgrey;
 }
 .searchBtns{
-    height:calc(var(--toolbar-height) + 2px);
-    top: var(--toolbar-height);
+    height:calc(var(--toolbar-height) + 1px);
+    top: calc(var(--toolbar-height) - 1px);
     position: fixed;
     right:0px;
     color:black;
@@ -404,8 +409,10 @@ section{position:relative;z-index:1}
     }
 }
 .main-content{
-    width:var(--main-width);
-    margin-left:calc(var(--toolbar-height) + 1px);
+    // width:var(--main-width);
+    width: 100%;
+    padding-left:calc(var(--toolbar-height) + 1px);
+    box-sizing: border-box;
     // margin-top:calc(var(--toolbar-height) + 1px);
     background:black;
 }
@@ -549,7 +556,10 @@ section{position:relative;z-index:1}
     top:0px;
     right:0px;
     height:100vh;
-    width:calc(100vw - var(--toolbar-height) - 1px);
+    // width:calc(100vw - var(--toolbar-height) - 1px);
+    padding-left:var(--toolbar-height);
+    left: 0;
+    width: 100%;
     z-index:1;
     border-bottom:1px solid white;  
     #toc-dates{
@@ -563,6 +573,7 @@ section{position:relative;z-index:1}
         position:absolute;
         bottom: var(--toolbar-height);
         width: var(--main-width);
+        box-sizing: border-box;
         padding: 10px 0px 10px 10px;
         a > p{margin:5px 0px;}
         a > p:before{
@@ -1614,9 +1625,11 @@ section.large_image{
             display:none;
         }
         .buttons{
-            margin-left: var(--toolbar-height);
+            padding-left: var(--toolbar-height);
             display: flex;
-            width:calc(100vw - var(--toolbar-height));
+            // width:calc(100vw - var(--toolbar-height));
+            width: 100%;
+            box-sizing: border-box;
             a, button{
                 font-size: 14px;
                 text-align: center;
