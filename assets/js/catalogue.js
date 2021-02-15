@@ -775,6 +775,9 @@ slideshows.forEach(function (wrapper) {
    wrapper.addEventListener('wheel', function (event) {
       var slideshow = wrapper.querySelector('.slideshow');
       var maxOffset = slideshow.getBoundingClientRect().width - (window.innerWidth/2);     
+      allowScrollJack = true;
+
+
 
       if (allowScrollJack && document.body.classList.contains('stuck')) {
          xOffset = xOffset + (event.deltaY * .7);
@@ -820,6 +823,7 @@ slideshows.forEach(function (wrapper) {
    // })
 })
 
+// Resize function for recalculating sliderwidth
 window.addEventListener('resize', function () { 
    slideshows.forEach(function (wrapper) {
       var slideshow = wrapper.querySelector('.slideshow');
@@ -828,28 +832,8 @@ window.addEventListener('resize', function () {
 })
 
 
-// SCROLL WATCHER for slideshow
-window.addEventListener('scroll', checkPosition);
 
-function checkPosition(event) {
-
-   slideshows.forEach(function (wrapper) {
-      var slideshow = wrapper.querySelector('.slideshow');
-      var bounds = wrapper.getBoundingClientRect();
-      
-      if (allowScrollJack && bounds.top <= 37 ) {
-         if (bounds.bottom <= window.innerHeight - 37) {
-            document.body.classList.add('stuck');
-         }
-         // event.preventDefault();
-         
-
-      }
-   });
-   
-}
-
-
+// Function to call on resize
 function resizeSlideshow(slideshow, wrapper){
    var wrapperWidth = 0;
    // create slide spacing---------------
@@ -862,6 +846,27 @@ function resizeSlideshow(slideshow, wrapper){
    slideshow.style.width = wrapperWidth+'px';
 }
 
+
+
+// SCROLL WATCHER for slideshow
+window.addEventListener('scroll', checkPosition);
+// scroll event to check if slider right is at the top
+function checkPosition(event) {
+   slideshows.forEach(function (wrapper) {
+      var slideshow = wrapper.querySelector('.slideshow');
+      var bounds = wrapper.getBoundingClientRect();
+      
+      if (allowScrollJack && bounds.top <= 37 ) {
+         if (bounds.bottom >= window.innerHeight - 37) {
+            document.body.classList.add('stuck');
+         }
+         // event.preventDefault();
+         
+
+      }
+   });
+   
+}
 
 // ZOOM IMAGE
 // TODO:COMMENT
