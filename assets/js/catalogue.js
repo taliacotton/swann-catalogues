@@ -811,10 +811,15 @@ function checkPosition(event) {
 
    slideshows.forEach(function (wrapper) {
       var slideshow = wrapper.querySelector('.slideshow');
-      var bounds = slideshow.getBoundingClientRect();
-      if (allowScrollJack && bounds.top <= 37 && bounds.bottom >= window.innerHeight - 37) {
+      var bounds = wrapper.getBoundingClientRect();
+      console.log(bounds.bottom , bounds.top, window.innerHeight)
+      
+      if (allowScrollJack && bounds.top <= 37 ) {
+         if (bounds.bottom >= window.innerHeight - 37) {
+            document.body.classList.add('stuck');
+         }
          // event.preventDefault();
-         document.body.classList.add('stuck');
+         
 
       }
    });
