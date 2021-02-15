@@ -942,10 +942,10 @@ section{position:relative;}
                     display: block;
                     position:relative;
                 img{
-                    object-fit:none;
-                    position:static;
-                    height:inherit;
-                    width:inherit;
+                    // object-fit:none;
+                    // position:static;
+                    // height:inherit;
+                    // width:inherit;
                     transform:rotate(90deg);
                     width:calc(var(--main-width)/2 - 60px);
                     height:var(--main-height);
