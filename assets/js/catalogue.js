@@ -233,10 +233,10 @@ if(scrollTop > window.innerHeight*2 && document.querySelector(".lot").getBoundin
         if (l.classList.contains("active")){
             let newHash = '#' + l.parentElement.id;
             currentSection = parseInt(l.parentElement.id.substring(3)) + 3;
-            if(history.pushState) {
-               //  history.pushState(null, null, newHash);
+            if(history.replaceState) {
+               history.replaceState(null, null, newHash);
             } else {
-                location.hash = newHash;
+               location.hash = newHash;
             }
 
 // MARKER
