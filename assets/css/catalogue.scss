@@ -927,11 +927,11 @@ section{position:relative;}
             z-index:0;
         }
         .zoom-container{
-            position:absolute;
-            top: 0;
-            left: 0;
-            height: 100%;
-            width: 100%;
+            position:fixed;
+            top: var(--toolbar-height);
+            left: calc(var(--toolbar-height) + 1px);
+            height: var(--main-height);
+            width: calc(var(--main-width)/2);
             // background: red;
             opacity:0;
             z-index: 4;
@@ -1001,6 +1001,8 @@ section{position:relative;}
                 position:relative;
                 >div{
                     padding-top:28.125% !important;//this is for the responseive vimeo
+                    pointer-events: none;
+                    // iframe{pointer-events: none;}
                 }
                 img, >div{
                     width: 90%;

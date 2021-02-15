@@ -768,48 +768,15 @@ slideshows.forEach(function (wrapper) {
       resizeSlideshow(slideshow, wrapper);
    })
    // On mouse enter of left side activate slider
-   wrapper.addEventListener('mouseenter', function () {
-      allowScrollJack = true;
-   });
+   // wrapper.addEventListener('mouseover', function () {
+   //    allowScrollJack = true;
+   // });
 
-   wrapper.addEventListener('wheel', function (event) {
-      var slideshow = wrapper.querySelector('.slideshow');
-      var maxOffset = slideshow.getBoundingClientRect().width - (window.innerWidth/2);     
-      allowScrollJack = true;
-
-
-
-      if (allowScrollJack && document.body.classList.contains('stuck')) {
-         xOffset = xOffset + (event.deltaY * .7);
-         
-         // if the slides   
-         if (xOffset <= 0) {
-            slideshow.style.transform = 'translate3d(0px, 0,0)'   
-            xOffset = 0
-            allowScrollJack = false;
-            document.body.classList.remove('stuck');
-
-         } else if(xOffset >= maxOffset){
-            slideshow.style.transform = 'translate3d(-'+maxOffset+'px, 0,0)'
-            xOffset = maxOffset
-            allowScrollJack = false;
-            document.body.classList.remove('stuck');
-
-         } else {
-            slideshow.style.transform = 'translate3d(-'+xOffset+'px, 0,0)'
-         }   
-
-         
-      }
-
-      
-      
-
-   })
+   
 
    // Event listner to remove the lock on the page when you mouse out of the LS
    wrapper.addEventListener('mouseleave', function () { 
-      allowScrollJack = false;
+      // allowScrollJack = false;
       document.body.classList.remove('stuck');
    });
    
@@ -823,6 +790,40 @@ slideshows.forEach(function (wrapper) {
    // })
 })
 
+window.addEventListener('wheel', function (event) {
+
+   if (!event.target.classList.contains('slideshow-img-container')) return false;
+   var slideshow = event.target.parentElement;
+   var maxOffset = slideshow.getBoundingClientRect().width - (window.innerWidth/2);     
+   var right = slideshow.parentElement.parentElement.querySelector('.right');
+   // set value
+   slideshow.dataset.scroll = Number(slideshow.dataset.scroll) + (event.deltaY * .7);
+
+      
+   // if the slides   
+   // console.log(slideshow.getBoundingClientRect().top + window.pageYOffset)
+   if (slideshow.dataset.scroll <= 0) {
+      slideshow.style.transform = 'translate3d(0px, 0,0)'   
+      slideshow.dataset.scroll = 0
+      document.body.classList.remove('stuck');
+      
+   } else if(slideshow.dataset.scroll >= maxOffset){
+      slideshow.style.transform = 'translate3d(-'+maxOffset+'px, 0,0)'
+      slideshow.dataset.scroll = maxOffset
+      document.body.classList.remove('stuck');
+      
+   } else {
+      // event.preventDefault();
+      window.scrollTo(0, (right.getBoundingClientRect().top + window.pageYOffset));
+      // debounce(function () { });
+      slideshow.style.transform = 'translate3d(-'+slideshow.dataset.scroll+'px, 0,0)'
+      document.body.classList.add('stuck');
+      
+   }   
+
+
+})
+
 // Resize function for recalculating sliderwidth
 window.addEventListener('resize', function () { 
    slideshows.forEach(function (wrapper) {
@@ -831,6 +832,14 @@ window.addEventListener('resize', function () {
    });
 })
 
+
+function debounce(func, timeout = 300){
+   let timer;
+   return (...args) => {
+     clearTimeout(timer);
+     timer = setTimeout(() => { func.apply(this, args); }, timeout);
+   };
+ }
 
 
 // Function to call on resize
@@ -848,25 +857,7 @@ function resizeSlideshow(slideshow, wrapper){
 
 
 
-// SCROLL WATCHER for slideshow
-window.addEventListener('scroll', checkPosition);
-// scroll event to check if slider right is at the top
-function checkPosition(event) {
-   slideshows.forEach(function (wrapper) {
-      var slideshow = wrapper.querySelector('.slideshow');
-      var bounds = wrapper.getBoundingClientRect();
-      
-      if (allowScrollJack && bounds.top <= 37 ) {
-         if (bounds.bottom >= window.innerHeight - 37) {
-            document.body.classList.add('stuck');
-         }
-         // event.preventDefault();
-         
 
-      }
-   });
-   
-}
 
 // ZOOM IMAGE
 // TODO:COMMENT
@@ -885,11 +876,8 @@ for (let ls of leftSectionsSlideshowZoom){
    })
       
    ls.querySelector('.zoom-container').addEventListener('click', function (event) {
-      // if (!this.classList.contains('active')) return false;
       this.classList.remove('active');
       this.style.backgroundImage = "none";
-      // this was not working
-      // ls.removeEventListener('mousemove', zoomMouseMove, false);
    });
    
    

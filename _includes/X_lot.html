@@ -46,7 +46,7 @@
                 <div class="previous js-previous"><svg width="8" height="14" viewBox="0 0 8 14" fill="none" xmlns="http://www.w3.org/2000/svg"><path d="M0 14V0L8 7L0 14Z" fill="#1893F8"/></svg></div>
             </div> -->
             <div class="zoom-container"></div>
-            <div class="slideshow"  style="background-color:{{bg}}">
+            <div class="slideshow"  data-scroll='0' style="background-color:{{bg}}">
                     <div class="slideshow-img-container">
                         <img
                             data-image="{{ lot.image }}"
@@ -89,7 +89,7 @@
             </div>
         {% elsif lot.video_id and lot.image %}
             <div class="zoom-container"></div>
-            <div class="slideshow"  style="background-color:{{bg}}">
+            <div class="slideshow" data-scroll='0' style="background-color:{{bg}}">
                 <div class="slideshow-img-container">
                     {% include lot_images.html %}
                 </div>
