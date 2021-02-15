@@ -121,10 +121,10 @@ window.addEventListener('load', function() {
         for (let thumb of document.querySelectorAll(".thumbnail-lockup")) {
             thumb.classList.add("loaded");
             if (thumb.getBoundingClientRect().bottom > window.innerHeight){
-                thumb.classList.add("bottom");
+               thumb.classList.add("bottom");
             }
             if (thumb.getBoundingClientRect().right > window.innerWidth){
-                thumb.classList.add("right");
+               thumb.classList.add("right");
             }
         }
     },500)
@@ -492,31 +492,29 @@ function showHideNav(st){
 }
 
 function showCurrentImage(){
-    if (window.innerWidth > breakpoint){
-        for (let l of leftSections){
-            let bottom = l.getBoundingClientRect().bottom;
-            let top = l.getBoundingClientRect().top;
-            if (top <= window.innerHeight - window.innerHeight/2 && bottom >= window.innerHeight/2){
-                l.classList.add("active")
-                l.parentElement.classList.add("lot-loaded");
-                
-               emitter.emit('lot-loaded', l);
+   for (let l of leftSections){
+      let bottom = l.getBoundingClientRect().bottom;
+      let top = l.getBoundingClientRect().top;
+      if (top <= window.innerHeight - window.innerHeight/2 && bottom >= window.innerHeight/2){
+            l.classList.add("active")
+            l.parentElement.classList.add("lot-loaded");
+            
+         emitter.emit('lot-loaded', l);
 
-            } else {
-                l.classList.remove("active")
-            }
-        }
-    } else {
-        for (let r of rightSections){
-            let bottom = r.getBoundingClientRect().bottom;
-            let top = r.getBoundingClientRect().top;
-            if (top <= 30 && bottom >= window.innerHeight/2){
-                r.classList.add("active")
-            } else {
-                r.classList.remove("active")
-            }
-        }
-    }
+      } else {
+            l.classList.remove("active")
+      }
+   }
+
+   for (let r of rightSections){
+      let bottom = r.getBoundingClientRect().bottom;
+      let top = r.getBoundingClientRect().top;
+      if (top <= 30 && bottom >= window.innerHeight/2){
+            r.classList.add("active")
+      } else {
+            r.classList.remove("active")
+      }
+   }
 }
 
 function clearSelection(){
@@ -556,19 +554,22 @@ for (let d of tocDots){
 
     let img = d.querySelector('img');
     let dot = d.querySelector('.dot');
-
-    if (img.getBoundingClientRect().left >= window.innerWidth-200){
-        d.querySelector(".thumbnail-lockup").style.position="fixed";
-        d.querySelector(".thumbnail-lockup").style.right="0px";
-    }
+   if (img) {
+      
+      if (img.getBoundingClientRect().left >= window.innerWidth-200){
+          d.querySelector(".thumbnail-lockup").style.position="fixed";
+          d.querySelector(".thumbnail-lockup").style.right="0px";
+      }
+      img.addEventListener('load', function() {
+         dot.style.background ="rgb("+colorThief.getColor(img)[0]+","+colorThief.getColor(img)[1]+","+colorThief.getColor(img)[2]+")";
+      });
+   }
 
     // Make sure image is finished loading
     // if (img.complete) {
     //         dot.style.background ="rgb("+colorThief.getColor(img)[0]+","+colorThief.getColor(img)[1]+","+colorThief.getColor(img)[2]+")";
     // } else {
-        img.addEventListener('load', function() {
-            dot.style.background ="rgb("+colorThief.getColor(img)[0]+","+colorThief.getColor(img)[1]+","+colorThief.getColor(img)[2]+")";
-        });
+       
     // }
 }
 
@@ -869,6 +870,7 @@ for (let ls of leftSectionsSlideshowZoom){
    
    images.forEach(function (el) {
       el.addEventListener("click", function(e){
+         if (window.innerWidth < breakpoint) return false;
          var image = el.querySelector('img');
          var src = 'https://res.cloudinary.com/dcryyrd42/image/upload/f_auto,q_70,h_1200/' + image.dataset.image;
          var zoomContainer = ls.querySelector('.zoom-container');
