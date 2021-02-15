@@ -733,7 +733,6 @@ function showHideElements(){
 var allowScrollJack = false
 
 
-
 slideshows.forEach(function (wrapper) { 
    var slideshow = wrapper.querySelector('.slideshow');
    var next = wrapper.querySelector('.js-next');
@@ -746,38 +745,40 @@ slideshows.forEach(function (wrapper) {
    // On mouse enter of left side activate slider
    wrapper.addEventListener('mouseenter', function () {
       allowScrollJack = true;
-      // Listen to the mouse event on the left side
-      wrapper.addEventListener('wheel', function (event) {
-         var slideshow = wrapper.querySelector('.slideshow');
-         var bounds = slideshow.getBoundingClientRect();
-         var maxOffset = slideshow.getBoundingClientRect().width - (window.innerWidth/2);
-
-         // If the wrapper is at the top of the page 
-         // bounds.top <= 37 && xOffset <= maxOffset
-         if (bounds.top <= 37 && bounds.bottom >= (window.innerHeight - 1)) {
-            xOffset = xOffset + (event.deltaY * .6);
-            document.body.classList.add('stuck');
-            
-            // if the slides   
-            if (xOffset <= 0) {
-               slideshow.style.transform = 'translate3d(0px, 0,0)'   
-               xOffset = 0
-               allowScrollJack = false;
-               document.body.classList.remove('stuck');
-
-            } else if(xOffset >= maxOffset){
-               slideshow.style.transform = 'translate3d(-'+maxOffset+'px, 0,0)'
-               xOffset = maxOffset
-               allowScrollJack = false;
-               document.body.classList.remove('stuck');
-
-            } else {
-               slideshow.style.transform = 'translate3d(-'+xOffset+'px, 0,0)'
-            }
-         }
-
-      })
+      console.log('ENTER', allowScrollJack)
    });
+
+   wrapper.addEventListener('wheel', function (event) {
+      var slideshow = wrapper.querySelector('.slideshow');
+
+      var maxOffset = slideshow.getBoundingClientRect().width - (window.innerWidth/2);     
+      if (allowScrollJack && document.body.classList.contains('stuck')) {
+         xOffset = xOffset + (event.deltaY * .7);
+         
+         // if the slides   
+         if (xOffset <= 0) {
+            slideshow.style.transform = 'translate3d(0px, 0,0)'   
+            xOffset = 0
+            allowScrollJack = false;
+            document.body.classList.remove('stuck');
+
+         } else if(xOffset >= maxOffset){
+            slideshow.style.transform = 'translate3d(-'+maxOffset+'px, 0,0)'
+            xOffset = maxOffset
+            allowScrollJack = false;
+            document.body.classList.remove('stuck');
+
+         } else {
+            slideshow.style.transform = 'translate3d(-'+xOffset+'px, 0,0)'
+         }   
+
+         
+      }
+
+      
+      
+
+   })
 
    // Event listner to remove the lock on the page when you mouse out of the LS
    wrapper.addEventListener('mouseleave', function () { 
@@ -803,11 +804,29 @@ window.addEventListener('resize', function () {
 })
 
 
+// SCROLL WATCHER for slideshow
+window.addEventListener('scroll', checkPosition);
+
+function checkPosition(event) {
+
+   slideshows.forEach(function (wrapper) {
+      var slideshow = wrapper.querySelector('.slideshow');
+      var bounds = slideshow.getBoundingClientRect();
+
+      if (allowScrollJack && bounds.top <= 37 && bounds.bottom >= window.innerHeight - 37) {
+         event.preventDefault();
+         document.body.classList.add('stuck');
+
+      }
+   });
+   
+}
+
+
 function resizeSlideshow(slideshow, wrapper){
    var wrapperWidth = 0;
    // create slide spacing---------------
    slideshow.querySelectorAll('.slideshow-img-container').forEach(function () { 
-      
       var width = wrapper.offsetWidth  - 60;
       wrapperWidth += width;
    })
@@ -839,7 +858,7 @@ for (let ls of leftSectionsSlideshowZoom){
       this.style.backgroundImage = "none";
       // this was not working
       // ls.removeEventListener('mousemove', zoomMouseMove, false);
-      console.log('TEST')
+      // console.log('TEST')
    });
    
    

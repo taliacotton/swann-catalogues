@@ -960,11 +960,10 @@ section{position:relative;}
             position:relative;
             pointer-events:none;
             opacity:0;
-            transition:opacity 200ms;
             overflow: hidden;
             transform-origin: right top;
-            // transform:rotate(-90deg) translateY(-100px);
-            // transform: rotate(-90deg) translateY(calc(var(--main-height)* -1));
+            transition: opacity 200ms;
+            // transform 0ms 0ms ease-in-out, 
 
             .slideshow-img-container{
                 height: var(--main-height);
