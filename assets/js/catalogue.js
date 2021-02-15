@@ -812,9 +812,8 @@ function checkPosition(event) {
    slideshows.forEach(function (wrapper) {
       var slideshow = wrapper.querySelector('.slideshow');
       var bounds = slideshow.getBoundingClientRect();
-
       if (allowScrollJack && bounds.top <= 37 && bounds.bottom >= window.innerHeight - 37) {
-         event.preventDefault();
+         // event.preventDefault();
          document.body.classList.add('stuck');
 
       }

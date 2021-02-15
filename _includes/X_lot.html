@@ -29,6 +29,7 @@
                     {{ site.cloudinary_url }}/f_auto,q_70,w_1600{{ lot.full_width_image.image }} 1600w,
                     {{ site.cloudinary_url }}/f_auto,q_70,w_2000{{ lot.full_width_image.image }} 2000w"
             data-src="{{ site.cloudinary_url }}/f_auto,q_70,w_500/{{ lot.full_width_image.image }}"
+            src="{{ site.cloudinary_url }}/f_auto,q_50,w_40/{{ lot.full_width_image.image }}"
             alt=""
             class="lozad" />
     </section>
@@ -55,6 +56,7 @@
                                 {{ site.cloudinary_url }}/f_auto,q_70,w_1200{{ lot.image }} 1200w,
                                 {{ site.cloudinary_url }}/f_auto,q_70,w_1600{{ lot.image }} 1600w"
                         data-src="{{ site.cloudinary_url }}/f_auto,q_70,w_500/{{ lot.image }}"
+                        src="{{ site.cloudinary_url }}/f_auto,q_50,w_40/{{ lot.image }}"
                         alt=""
                         class="lozad" />
                     </div>
@@ -69,6 +71,7 @@
                                 {{ site.cloudinary_url }}/f_auto,q_70,w_1200{{ image }} 1200w,
                                 {{ site.cloudinary_url }}/f_auto,q_70,w_1600{{ image }} 1600w"
                             data-src="{{ site.cloudinary_url }}/f_auto,q_70,w_500/{{ image }}"
+                            src="{{ site.cloudinary_url }}/f_auto,q_50,w_40/{{ image }}"
                             alt=""
                             class="lozad" />
                     </div>
@@ -88,6 +91,7 @@
                                 {{ site.cloudinary_url }}/f_auto,q_70,w_1600{{ lot.image }} 1600w,
                                 {{ site.cloudinary_url }}/f_auto,q_70,w_2400{{ lot.image }} 2400w"
                         data-src="{{ site.cloudinary_url }}/f_auto,q_70,w_500/{{ lot.image }}"
+                        src="{{ site.cloudinary_url }}/f_auto,q_50,w_40/{{ lot.image }}"
                         alt="" 
                         class="lozad"/>
             {% elsif lot.REFNO %}
@@ -102,6 +106,7 @@
                                 {{ site.cloudinary_url }}/f_auto,q_70,w_1600/{{page.sale}}/{{ lot.REFNO }}.jpg 1600w,
                                 {{ site.cloudinary_url }}/f_auto,q_70,w_2400/{{page.sale}}/{{ lot.REFNO }}.jpg 2400w"
                         data-src="{{ site.cloudinary_url }}/f_auto,q_70,w_500/{{page.sale}}/{{ lot.REFNO }}.jpg"
+                        src="{{ site.cloudinary_url }}/f_auto,q_50,w_40/{{page.sale}}/{{ lot.REFNO }}.jpg"
                         alt="" 
                         class="lozad" />
             {% endif %}
