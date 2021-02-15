@@ -1,0 +1,32 @@
+{% if lot.color_background %}{% assign bg = lot.color_background %}{%else%}{%assign bg ='black'%}{%endif%}
+{% if lot.image %}
+      <!-- <img style="background-color:{{bg}}" src="/assets/img/{{lot.image}}"> -->
+      <img style="background-color:{{bg}}"
+            sizes="auto"
+            data-img="{{ lot.image }}"
+            data-srcset="{{ site.cloudinary_url }}/f_auto,q_70,w_250{{ lot.image }} 250w,
+                     {{ site.cloudinary_url }}/f_auto,q_70,w_500{{ lot.image }} 500w,
+                     {{ site.cloudinary_url }}/f_auto,q_70,w_800{{ lot.image }} 800w,
+                     {{ site.cloudinary_url }}/f_auto,q_70,w_1200{{ lot.image }} 1200w,
+                     {{ site.cloudinary_url }}/f_auto,q_70,w_1600{{ lot.image }} 1600w,
+                     {{ site.cloudinary_url }}/f_auto,q_70,w_2400{{ lot.image }} 2400w"
+            data-src="{{ site.cloudinary_url }}/f_auto,q_70,w_500/{{ lot.image }}"
+            src="{{ site.cloudinary_url }}/f_auto,q_50,w_40/{{ lot.image }}"
+            alt="" 
+            class="lozad"/>
+{% elsif lot.REFNO %}
+<!-- (min-width: 726px) 50vw, 100vw -->
+<img style="background-color:{{bg}}"
+            sizes="auto"
+            data-img="/{{page.sale}}/{{ lot.REFNO }}.jpg"
+            data-srcset="{{ site.cloudinary_url }}/f_auto,q_70,w_250/{{page.sale}}/{{ lot.REFNO }}.jpg 250w,
+                     {{ site.cloudinary_url }}/f_auto,q_70,w_500/{{page.sale}}/{{ lot.REFNO }}.jpg 500w,
+                     {{ site.cloudinary_url }}/f_auto,q_70,w_800/{{page.sale}}/{{ lot.REFNO }}.jpg 800w,
+                     {{ site.cloudinary_url }}/f_auto,q_70,w_1200/{{page.sale}}/{{ lot.REFNO }}.jpg 1200w,
+                     {{ site.cloudinary_url }}/f_auto,q_70,w_1600/{{page.sale}}/{{ lot.REFNO }}.jpg 1600w,
+                     {{ site.cloudinary_url }}/f_auto,q_70,w_2400/{{page.sale}}/{{ lot.REFNO }}.jpg 2400w"
+            data-src="{{ site.cloudinary_url }}/f_auto,q_70,w_500/{{page.sale}}/{{ lot.REFNO }}.jpg"
+            src="{{ site.cloudinary_url }}/f_auto,q_50,w_40/{{page.sale}}/{{ lot.REFNO }}.jpg"
+            alt="" 
+            class="lozad" />
+{% endif %}

@@ -6,6 +6,9 @@
 
 const observer = lozad(); // lazy loads elements with default selector as '.lozad'
 observer.observe();
+var emitter = new TinyEmitter();
+
+
 
 // lozad('.lozad', {
 //     loaded: function(el) {
@@ -29,9 +32,13 @@ let lotSections = document.querySelectorAll("section.lot");
 let bookmarks = document.querySelectorAll(".bookmark-container");
 let highlightTexts = document.querySelectorAll("section.lot .center-column p")
 let leftSections = document.querySelectorAll(".lot > .left");
+let leftSectionsZoom = document.querySelectorAll(".lot > .left:not(.has-slideshow)");
+let leftSectionsSlideshowZoom = document.querySelectorAll(".lot > .left.has-slideshow");
 let rightSections = document.querySelectorAll(".lot > .right");
 let sections = document.querySelectorAll("section");
 let cookieBanner = document.getElementById("cookieBanner");
+
+let slideshows = document.querySelectorAll(".js-slideshow");
 
 let mobileThumbs = document.querySelectorAll(".mobile-thumb");
 
@@ -114,10 +121,10 @@ window.addEventListener('load', function() {
         for (let thumb of document.querySelectorAll(".thumbnail-lockup")) {
             thumb.classList.add("loaded");
             if (thumb.getBoundingClientRect().bottom > window.innerHeight){
-                thumb.classList.add("bottom");
+               thumb.classList.add("bottom");
             }
             if (thumb.getBoundingClientRect().right > window.innerWidth){
-                thumb.classList.add("right");
+               thumb.classList.add("right");
             }
         }
     },500)
@@ -245,7 +252,7 @@ if(scrollTop > window.innerHeight*2 && document.querySelector(".lot").getBoundin
 let imgZoom = false;
 
 // ZOOM IMAGE
-for (let ls of leftSections){
+for (let ls of leftSectionsZoom){
 
     ls.addEventListener("click", function(e){
         imgZoom = !imgZoom;
@@ -264,6 +271,8 @@ for (let ls of leftSections){
         unzoomImg(ls);
     });
 }
+
+
 //NOTE: should be deleted if ticket is closed
 // function zoomChangeSrc(ls){ 
 //     let img = ls.querySelector("img");
@@ -278,8 +287,10 @@ for (let ls of leftSections){
 
 function zoomImg(e, ls){
     let img = ls.querySelector("img");
-    ls.classList.add("zoom");
+    let rTop = ls.parentElement.querySelector('.right').getBoundingClientRect().top;
 
+    ls.classList.add("zoom");
+    window.scrollTo(0, rTop + window.scrollY) ;
     let xPos = interpolate(e.clientX, 39, 39 + (window.innerWidth - 39)/2, 0, 100);
     let yPos = interpolate(e.clientY, 39, window.innerHeight, 0, 100);
     
@@ -481,28 +492,29 @@ function showHideNav(st){
 }
 
 function showCurrentImage(){
-    if (window.innerWidth > breakpoint){
-        for (let l of leftSections){
-            let bottom = l.getBoundingClientRect().bottom;
-            let top = l.getBoundingClientRect().top;
-            if (top <= window.innerHeight - window.innerHeight/2 && bottom >= window.innerHeight/2){
-                l.classList.add("active")
-                l.parentElement.classList.add("lot-loaded");
-            } else {
-                l.classList.remove("active")
-            }
-        }
-    } else {
-        for (let r of rightSections){
-            let bottom = r.getBoundingClientRect().bottom;
-            let top = r.getBoundingClientRect().top;
-            if (top <= 30 && bottom >= window.innerHeight/2){
-                r.classList.add("active")
-            } else {
-                r.classList.remove("active")
-            }
-        }
-    }
+   for (let l of leftSections){
+      let bottom = l.getBoundingClientRect().bottom;
+      let top = l.getBoundingClientRect().top;
+      if (top <= window.innerHeight - window.innerHeight/2 && bottom >= window.innerHeight/2){
+            l.classList.add("active")
+            l.parentElement.classList.add("lot-loaded");
+            
+         emitter.emit('lot-loaded', l);
+
+      } else {
+            l.classList.remove("active")
+      }
+   }
+
+   for (let r of rightSections){
+      let bottom = r.getBoundingClientRect().bottom;
+      let top = r.getBoundingClientRect().top;
+      if (top <= 30 && bottom >= window.innerHeight/2){
+            r.classList.add("active")
+      } else {
+            r.classList.remove("active")
+      }
+   }
 }
 
 function clearSelection(){
@@ -542,19 +554,22 @@ for (let d of tocDots){
 
     let img = d.querySelector('img');
     let dot = d.querySelector('.dot');
-
-    if (img.getBoundingClientRect().left >= window.innerWidth-200){
-        d.querySelector(".thumbnail-lockup").style.position="fixed";
-        d.querySelector(".thumbnail-lockup").style.right="0px";
-    }
+   if (img) {
+      
+      if (img.getBoundingClientRect().left >= window.innerWidth-200){
+          d.querySelector(".thumbnail-lockup").style.position="fixed";
+          d.querySelector(".thumbnail-lockup").style.right="0px";
+      }
+      img.addEventListener('load', function() {
+         dot.style.background ="rgb("+colorThief.getColor(img)[0]+","+colorThief.getColor(img)[1]+","+colorThief.getColor(img)[2]+")";
+      });
+   }
 
     // Make sure image is finished loading
     // if (img.complete) {
     //         dot.style.background ="rgb("+colorThief.getColor(img)[0]+","+colorThief.getColor(img)[1]+","+colorThief.getColor(img)[2]+")";
     // } else {
-        img.addEventListener('load', function() {
-            dot.style.background ="rgb("+colorThief.getColor(img)[0]+","+colorThief.getColor(img)[1]+","+colorThief.getColor(img)[2]+")";
-        });
+       
     // }
 }
 
@@ -709,9 +724,10 @@ function declineCookies(){
     usingCookies = false;
 }
 
-
-
-//Window scroll to hide data viz in background
+// ––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––
+// Hide Data Vis once you scroll past it 
+// Window scroll to hide data viz in background
+// ––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––
 window.addEventListener('scroll', showHideElements );
 
 function showHideElements(){ 
@@ -731,3 +747,164 @@ function showHideElements(){
    });
 
 }
+
+
+
+// ––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––
+// Slideshow 
+// ––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––
+// I am doing this because we have multiple scroll listeners on the window and If I turn this off it will turn off all of them
+var allowScrollJack = false
+
+
+slideshows.forEach(function (wrapper) { 
+   var slideshow = wrapper.querySelector('.slideshow');
+   var next = wrapper.querySelector('.js-next');
+   var previous = wrapper.querySelector('.js-previous');
+   var xOffset = 0;
+
+   // create slide spacing---------------
+   emitter.on('lot-loaded', function (lot) {
+
+      resizeSlideshow(slideshow, wrapper);
+   })
+   // On mouse enter of left side activate slider
+   // wrapper.addEventListener('mouseover', function () {
+   //    allowScrollJack = true;
+   // });
+
+   
+
+   // Event listner to remove the lock on the page when you mouse out of the LS
+   wrapper.addEventListener('mouseleave', function () { 
+      // allowScrollJack = false;
+      document.body.classList.remove('stuck');
+   });
+   
+   // previous.addEventListener('click', function () { 
+   //    // scroll to next image
+   //    var slideshow = wrapper.querySelector('.slideshow');
+   //    var style =  window.getComputedStyle(slideshow)['transform']
+   //    var imgWidth = wrapper.offsetWidth; 
+   //    slideshow.style.transform = 'translate3d(0px, 0,0)';
+   //    console.log(style);
+   // })
+})
+
+window.addEventListener('wheel', function (event) {
+
+   if (!event.target.classList.contains('slideshow-img-container')) return false;
+   var slideshow = event.target.parentElement;
+   var maxOffset = slideshow.getBoundingClientRect().width - (window.innerWidth/2);     
+   var right = slideshow.parentElement.parentElement.querySelector('.right');
+   // set value
+   slideshow.dataset.scroll = Number(slideshow.dataset.scroll) + (event.deltaY * .7);
+
+      
+   // if the slides   
+   // console.log(slideshow.getBoundingClientRect().top + window.pageYOffset)
+   if (slideshow.dataset.scroll <= 0) {
+      slideshow.style.transform = 'translate3d(0px, 0,0)'   
+      slideshow.dataset.scroll = 0
+      document.body.classList.remove('stuck');
+      
+   } else if(slideshow.dataset.scroll >= maxOffset){
+      slideshow.style.transform = 'translate3d(-'+maxOffset+'px, 0,0)'
+      slideshow.dataset.scroll = maxOffset
+      document.body.classList.remove('stuck');
+      
+   } else {
+      // event.preventDefault();
+      window.scrollTo({
+         top: (right.getBoundingClientRect().top + window.pageYOffset),
+         behavior: 'smooth'
+      });
+      // debounce(function () { });
+      slideshow.style.transform = 'translate3d(-'+slideshow.dataset.scroll+'px, 0,0)'
+      document.body.classList.add('stuck');
+      
+   }   
+
+
+})
+
+// Resize function for recalculating sliderwidth
+window.addEventListener('resize', function () { 
+   slideshows.forEach(function (wrapper) {
+      var slideshow = wrapper.querySelector('.slideshow');
+      resizeSlideshow(slideshow, wrapper);
+   });
+})
+
+
+function debounce(func, timeout = 300){
+   let timer;
+   return (...args) => {
+     clearTimeout(timer);
+     timer = setTimeout(() => { func.apply(this, args); }, timeout);
+   };
+ }
+
+
+// Function to call on resize
+function resizeSlideshow(slideshow, wrapper){
+   var wrapperWidth = 0;
+   // create slide spacing---------------
+   slideshow.querySelectorAll('.slideshow-img-container').forEach(function () { 
+      var width = wrapper.offsetWidth  - 60;
+      wrapperWidth += width;
+   })
+   
+   // Set the wrapper width
+   slideshow.style.width = wrapperWidth+'px';
+}
+
+
+
+
+
+// ZOOM IMAGE
+// TODO:COMMENT
+for (let ls of leftSectionsSlideshowZoom){
+   var images = ls.querySelectorAll('.slideshow-img-container');
+   
+   images.forEach(function (el) {
+      el.addEventListener("click", function(e){
+         if (window.innerWidth < breakpoint) return false;
+         var image = el.querySelector('img');
+         var src = 'https://res.cloudinary.com/dcryyrd42/image/upload/f_auto,q_70,h_1200/' + image.dataset.image;
+         var zoomContainer = ls.querySelector('.zoom-container');
+         zoomContainer.style.backgroundImage = "url('"+src+"')";
+         zoomContainer.classList.add('active');
+         ls.addEventListener('mousemove', zoomMouseMove.bind(zoomContainer))         
+      })      
+   })
+      
+   ls.querySelector('.zoom-container').addEventListener('click', function (event) {
+      this.classList.remove('active');
+      this.style.backgroundImage = "none";
+   });
+   ls.querySelector('.zoom-container').addEventListener('mouseleave', function (event) {
+      this.classList.remove('active');
+      this.style.backgroundImage = "none";
+   });
+   
+   
+}
+
+function zoomMouseMove(e){ 
+   if (!this.classList.contains('active')) return false;
+   let xPos = interpolate(e.clientX, 39, 39 + (window.innerWidth - 39)/2, 0, 100);
+   let yPos = interpolate(e.clientY, 39, window.innerHeight, 0, 100);
+   
+   this.style.backgroundPosition = xPos + "% " + yPos + "%";
+   this.classList.add('active');
+}
+
+
+
+
+
+
+
+
