@@ -882,6 +882,10 @@ for (let ls of leftSectionsSlideshowZoom){
       this.classList.remove('active');
       this.style.backgroundImage = "none";
    });
+   ls.querySelector('.zoom-container').addEventListener('mouseleave', function (event) {
+      this.classList.remove('active');
+      this.style.backgroundImage = "none";
+   });
    
    
 }
