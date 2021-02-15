@@ -6,6 +6,9 @@
 
 const observer = lozad(); // lazy loads elements with default selector as '.lozad'
 observer.observe();
+var emitter = new TinyEmitter();
+
+
 
 // lozad('.lozad', {
 //     loaded: function(el) {
@@ -496,6 +499,9 @@ function showCurrentImage(){
             if (top <= window.innerHeight - window.innerHeight/2 && bottom >= window.innerHeight/2){
                 l.classList.add("active")
                 l.parentElement.classList.add("lot-loaded");
+                
+               emitter.emit('lot-loaded', l);
+
             } else {
                 l.classList.remove("active")
             }
@@ -757,18 +763,19 @@ slideshows.forEach(function (wrapper) {
    var xOffset = 0;
 
    // create slide spacing---------------
-   resizeSlideshow(slideshow, wrapper);
+   emitter.on('lot-loaded', function (lot) {
 
+      resizeSlideshow(slideshow, wrapper);
+   })
    // On mouse enter of left side activate slider
    wrapper.addEventListener('mouseenter', function () {
       allowScrollJack = true;
-      console.log('ENTER', allowScrollJack)
    });
 
    wrapper.addEventListener('wheel', function (event) {
       var slideshow = wrapper.querySelector('.slideshow');
-
       var maxOffset = slideshow.getBoundingClientRect().width - (window.innerWidth/2);     
+
       if (allowScrollJack && document.body.classList.contains('stuck')) {
          xOffset = xOffset + (event.deltaY * .7);
          
@@ -829,10 +836,9 @@ function checkPosition(event) {
    slideshows.forEach(function (wrapper) {
       var slideshow = wrapper.querySelector('.slideshow');
       var bounds = wrapper.getBoundingClientRect();
-      console.log(bounds.bottom , bounds.top, window.innerHeight)
       
       if (allowScrollJack && bounds.top <= 37 ) {
-         if (bounds.bottom >= window.innerHeight - 37) {
+         if (bounds.bottom <= window.innerHeight - 37) {
             document.body.classList.add('stuck');
          }
          // event.preventDefault();
@@ -851,7 +857,7 @@ function resizeSlideshow(slideshow, wrapper){
       var width = wrapper.offsetWidth  - 60;
       wrapperWidth += width;
    })
-
+   
    // Set the wrapper width
    slideshow.style.width = wrapperWidth+'px';
 }
@@ -872,14 +878,13 @@ for (let ls of leftSectionsSlideshowZoom){
          ls.addEventListener('mousemove', zoomMouseMove.bind(zoomContainer))         
       })      
    })
-
+      
    ls.querySelector('.zoom-container').addEventListener('click', function (event) {
       // if (!this.classList.contains('active')) return false;
       this.classList.remove('active');
       this.style.backgroundImage = "none";
       // this was not working
       // ls.removeEventListener('mousemove', zoomMouseMove, false);
-      // console.log('TEST')
    });
    
    
@@ -893,4 +898,11 @@ function zoomMouseMove(e){
    this.style.backgroundPosition = xPos + "% " + yPos + "%";
    this.classList.add('active');
 }
+
+
+
+
+
+
+
 

@@ -1,3 +1,4 @@
+
 {% if lot.header %}
     {% if lot.large_header.header_type == 'Large' %}
     <section id="header-{{lotNum}}" class="header_text {{lot.large_header.header_type | slugify}}" style="background-color: {{lot.large_header.background_color}}; color: {{lot.large_header.text_color}}">
@@ -36,7 +37,7 @@
 {% endif %}
 
 <section id="lot{{lotNum}}" class="lot rec-{{lot.recommended}}">
-    <div class="left {% if lot.images.first %}js-slideshow has-slideshow{% endif %}">
+    <div class="left {% if lot.images.first or lot.video_id %}js-slideshow has-slideshow{% endif %}">
         <div class="printFooter print-content">Lot {{lot.REFNO}}</div>
         
         {% if lot.images[0] %}
@@ -47,19 +48,28 @@
             <div class="zoom-container"></div>
             <div class="slideshow"  style="background-color:{{bg}}">
                     <div class="slideshow-img-container">
-                    <img
-                        data-image="{{ lot.image }}"
-                        sizes="auto"
-                        data-srcset="{{ site.cloudinary_url }}/f_auto,q_70,w_250{{ lot.image }} 250w,
-                                {{ site.cloudinary_url }}/f_auto,q_70,w_500{{ lot.image }} 500w,
-                                {{ site.cloudinary_url }}/f_auto,q_70,w_800{{ lot.image }} 800w,
-                                {{ site.cloudinary_url }}/f_auto,q_70,w_1200{{ lot.image }} 1200w,
-                                {{ site.cloudinary_url }}/f_auto,q_70,w_1600{{ lot.image }} 1600w"
-                        data-src="{{ site.cloudinary_url }}/f_auto,q_70,w_500/{{ lot.image }}"
-                        src="{{ site.cloudinary_url }}/f_auto,q_50,w_40/{{ lot.image }}"
-                        alt=""
-                        class="lozad" />
+                        <img
+                            data-image="{{ lot.image }}"
+                            sizes="auto"
+                            data-srcset="{{ site.cloudinary_url }}/f_auto,q_70,w_250{{ lot.image }} 250w,
+                                    {{ site.cloudinary_url }}/f_auto,q_70,w_500{{ lot.image }} 500w,
+                                    {{ site.cloudinary_url }}/f_auto,q_70,w_800{{ lot.image }} 800w,
+                                    {{ site.cloudinary_url }}/f_auto,q_70,w_1200{{ lot.image }} 1200w,
+                                    {{ site.cloudinary_url }}/f_auto,q_70,w_1600{{ lot.image }} 1600w"
+                            data-src="{{ site.cloudinary_url }}/f_auto,q_70,w_500/{{ lot.image }}"
+                            src="{{ site.cloudinary_url }}/f_auto,q_50,w_40/{{ lot.image }}"
+                            alt=""
+                            class="lozad" />
                     </div>
+
+                    
+                    {% if lot.video_id %}
+                        <div class="slideshow-img-container"></div>
+                            <div style="padding:56.25% 0 0 0;position:relative;"><iframe src="https://player.vimeo.com/video/{{lot.video_id}}?title=0&byline=0&portrait=0&controls=0" style="position:absolute;top:0;left:0;width:100%;height:100%;" frameborder="0" allow="autoplay; fullscreen; picture-in-picture" allowfullscreen></iframe></div><script src="https://player.vimeo.com/api/player.js"></script>
+                        </div>
+                    {% endif %}
+
+
                     {% for image in lot.images %}
                     <div class="slideshow-img-container">
                         <img
@@ -77,39 +87,22 @@
                     </div>
                     {% endfor %}
             </div>
+        {% elsif lot.video_id and lot.image %}
+            <div class="zoom-container"></div>
+            <div class="slideshow"  style="background-color:{{bg}}">
+                <div class="slideshow-img-container">
+                    {% include lot_images.html %}
+                </div>
+                <div class="slideshow-img-container">
+                    {% if lot.video_id %}
+                        <div style="padding:56.25% 0 0 0;position:relative;"><iframe src="https://player.vimeo.com/video/{{lot.video_id}}?title=0&byline=0&portrait=0&controls=0" style="position:absolute;top:0;left:0;width:100%;height:100%;" frameborder="0" allow="autoplay; fullscreen; picture-in-picture" allowfullscreen></iframe></div><script src="https://player.vimeo.com/api/player.js"></script>
+                    {% endif %}
+                </div>
+                
+            </div>
         {% else %}
-            {% if lot.color_background %}{% assign bg = lot.color_background %}{%else%}{%assign bg ='black'%}{%endif%}
-            {% if lot.image %}
-                <!-- <img style="background-color:{{bg}}" src="/assets/img/{{lot.image}}"> -->
-                <img style="background-color:{{bg}}"
-                        sizes="auto"
-                        data-img="{{ lot.image }}"
-                        data-srcset="{{ site.cloudinary_url }}/f_auto,q_70,w_250{{ lot.image }} 250w,
-                                {{ site.cloudinary_url }}/f_auto,q_70,w_500{{ lot.image }} 500w,
-                                {{ site.cloudinary_url }}/f_auto,q_70,w_800{{ lot.image }} 800w,
-                                {{ site.cloudinary_url }}/f_auto,q_70,w_1200{{ lot.image }} 1200w,
-                                {{ site.cloudinary_url }}/f_auto,q_70,w_1600{{ lot.image }} 1600w,
-                                {{ site.cloudinary_url }}/f_auto,q_70,w_2400{{ lot.image }} 2400w"
-                        data-src="{{ site.cloudinary_url }}/f_auto,q_70,w_500/{{ lot.image }}"
-                        src="{{ site.cloudinary_url }}/f_auto,q_50,w_40/{{ lot.image }}"
-                        alt="" 
-                        class="lozad"/>
-            {% elsif lot.REFNO %}
-            <!-- (min-width: 726px) 50vw, 100vw -->
-            <img style="background-color:{{bg}}"
-                        sizes="auto"
-                        data-img="/{{page.sale}}/{{ lot.REFNO }}.jpg"
-                        data-srcset="{{ site.cloudinary_url }}/f_auto,q_70,w_250/{{page.sale}}/{{ lot.REFNO }}.jpg 250w,
-                                {{ site.cloudinary_url }}/f_auto,q_70,w_500/{{page.sale}}/{{ lot.REFNO }}.jpg 500w,
-                                {{ site.cloudinary_url }}/f_auto,q_70,w_800/{{page.sale}}/{{ lot.REFNO }}.jpg 800w,
-                                {{ site.cloudinary_url }}/f_auto,q_70,w_1200/{{page.sale}}/{{ lot.REFNO }}.jpg 1200w,
-                                {{ site.cloudinary_url }}/f_auto,q_70,w_1600/{{page.sale}}/{{ lot.REFNO }}.jpg 1600w,
-                                {{ site.cloudinary_url }}/f_auto,q_70,w_2400/{{page.sale}}/{{ lot.REFNO }}.jpg 2400w"
-                        data-src="{{ site.cloudinary_url }}/f_auto,q_70,w_500/{{page.sale}}/{{ lot.REFNO }}.jpg"
-                        src="{{ site.cloudinary_url }}/f_auto,q_50,w_40/{{page.sale}}/{{ lot.REFNO }}.jpg"
-                        alt="" 
-                        class="lozad" />
-            {% endif %}
+            {% include lot_images.html %}
+
         {% endif %}
     </div>
     <div class="right">
