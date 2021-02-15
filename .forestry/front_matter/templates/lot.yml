@@ -81,6 +81,13 @@ fields:
       time_format: h:mm A
       display_utc: true
   label: Auction Date & Time(s)
+- name: short_description
+  type: text
+  config:
+    required: false
+  label: Short Description
+  description: 'Used in the page''s meta information, for things like search engines
+    and when the site is shared. '
 - name: color
   type: color
   label: Color

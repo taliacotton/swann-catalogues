@@ -104,6 +104,16 @@ fields:
     type: image_gallery
     config: {}
     label: Image Slideshow (Optional)
+  - name: video_id
+    type: number
+    label: Video ID (Optional)
+    description: 9-digit video ID of Vimeo video. Typically the last 9 digits in url.
+    default: 0
+    required: true
+    config:
+      min: 
+      max: 
+      step: 
   - name: pullquote
     type: text
     config:

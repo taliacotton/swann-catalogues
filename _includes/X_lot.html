@@ -1,6 +1,6 @@
 {% if lot.header %}
     {% if lot.large_header.header_type == 'Large' %}
-    <section class="header_text {{lot.large_header.header_type | slugify}}" style="background-color: {{lot.large_header.background_color}}; color: {{lot.large_header.text_color}}">
+    <section id="header-{{lotNum}}" class="header_text {{lot.large_header.header_type | slugify}}" style="background-color: {{lot.large_header.background_color}}; color: {{lot.large_header.text_color}}">
         <div class="header-inner">
             <span>{{lot.large_header.line_1_text}}</span>
             <br><span><i>{{lot.large_header.line_2_text}}</i></span>
@@ -8,7 +8,7 @@
     </section>
     {% elsif lot.large_header.header_type == 'Large (Image)' %}
     <!-- <section class="header_text {{lot.large_header.header_type | slugify}}" style="background-image: url()"> -->
-    <section class="header_text {{lot.large_header.header_type | slugify}} lozad" data-background-image="{{ site.cloudinary_url }}/w_1040{{lot.large_header.background_image}}">
+    <section id="header-{{lotNum}}" class="header_text {{lot.large_header.header_type | slugify}} lozad" data-background-image="{{ site.cloudinary_url }}/w_1040{{lot.large_header.background_image}}">
         <div class="header-inner">
             <span>{{lot.large_header.line_1_text}}</span>
             <br><span><i>{{lot.large_header.line_2_text}}</i></span>
@@ -19,7 +19,7 @@
 <!-- LARGE IMAGES -->
 {% if lot.large_img %}
     {% if lot.full_width_image.background_color %}{% assign bgLg = lot.full_width_image.background_color %}{%else%}{%assign bgLg ='#212121'%}{%endif%}
-    <section class="large_image" style="background-color: {{bgLg}};">
+    <section id="image-{{lotNum}}" class="large_image" style="background-color: {{bgLg}};">
         <img
             sizes="100vw"
             data-srcset="{{ site.cloudinary_url }}/f_auto,q_70,w_250{{ lot.full_width_image.image }} 250w,

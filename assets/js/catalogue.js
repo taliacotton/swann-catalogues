@@ -76,10 +76,10 @@ if(getCookie("notes")) {
     notes = JSON.parse(getCookie("notes"));
 };
 
-// apply notes from cookie
-for (let note of notes){
-    createNote(note.side, note.top, note.content, note.lot);
-}
+// // apply notes from cookie
+// for (let note of notes){
+//     createNote(note.side, note.top, note.content, note.lot);
+// }
 
 
 let scrollHeight = Math.max(
@@ -211,7 +211,7 @@ if(scrollTop > window.innerHeight*2 && document.querySelector(".lot").getBoundin
 // IMAGE APPEAR ON SCROLL
     showCurrentImage();
 
-// HIDE NOTES BUTTON IF ACTIVE (????)
+// HIDE NOTES PROMPT IF TEXTAREA IS ACTIVE
     if (document.querySelector(".notes-prompt.np-right") != null){
         let npRightContainer = document.querySelector(".notes-prompt.np-right").parentElement.getBoundingClientRect();
         if (npRightContainer.top > window.innerHeight || npRightContainer.bottom < 0){
@@ -361,6 +361,7 @@ for (let np of notesPrompts){
 
         t.addEventListener("blur", function(){
             // console.log("BLURRED");
+            if (t.innerHTML.length <= 0){}
 
             let obj = 
                 {   content: t.value, 
@@ -389,7 +390,19 @@ else {
     };
 }
 
-resizeAllTextareas();
+// setTimeout(function(){
+//     resizeAllTextareas();
+// },1000)
+
+// apply notes from cookie
+for (let note of notes){
+    createNote(note.side, note.top, note.content, note.lot);
+    resizeAllTextareas();
+}
+
+window.addEventListener("resize", function(){
+    resizeAllTextareas();
+})
 
 
 // RESIZE TEXTAREAS. Stolen from http://jsfiddle.net/hmelenok/WM6Gq/
@@ -459,15 +472,16 @@ for (let text of highlightTexts){
 document.addEventListener("keydown", function(e){
     document.documentElement.style.scrollBehavior= "auto";
     if (e.key == "ArrowRight"){
-        currentSection++;
-        // console.log(currentSection);
-        jump(sections[currentSection].id)
+        location.href = "#"+document.querySelector(location.hash).nextElementSibling.id;     
     }
     if (e.key == "ArrowLeft"){
-        currentSection--;
-        jump(sections[currentSection].id)
+        location.href = "#"+document.querySelector(location.hash).previousElementSibling.id;     
     }
 })
+
+function hasId(element){
+    return typeof element.id != 'undefined';
+}
 
 function showHideNav(st){
     if (st > 50){nav.classList.add("visible")}
@@ -596,6 +610,7 @@ function shareLot(){
     document.body.removeChild(textarea);
 }
 
+// Function used on key down to skip to the next section
 function jump(h){
     // var url = location.href;               //Save down the URL without hash.
     location.href = "#"+h;                 //Go to the target element.
@@ -626,11 +641,11 @@ function createNote(sideClass, topVal,innerContent, lotId){
     if (document.querySelector("#" + lotId + " ." + sideClass) != null){
         document.querySelector("#" + lotId + " ." + sideClass).appendChild(t);
     }
-    t.value = innerContent;
+    t.innerHTML = innerContent;
+    t.style.height = t.scrollHeight+'px';
 }
 
 function testPassword(){
-    console.log(document.getElementById("pw").value)
     if (document.getElementById("pw").value == "104East25th"){
         document.body.classList.remove("visible-false");
         if (document.querySelector(".password-modal input[type='checkbox']").checked){
@@ -679,9 +694,11 @@ function checkCookie() {
     cookieBanner.style.display = "none";
   } 
   var access=getCookie("access");
-  if (!access) {
+  if (!access && !document.body.classList.contains("visible-true")) {
     document.body.classList.add("visible-false");
-  } 
+  } else {
+     document.body.classList.remove("visible-false");
+  }
 //   else {
 //      user = prompt("Please enter your name:","");
 //      if (user != "" && user != null) {
