@@ -4,10 +4,20 @@
 //   // Your custom settings go here
 // });
 
-const observer = lozad(); // lazy loads elements with default selector as '.lozad'
-observer.observe();
-var emitter = new TinyEmitter();
+// const observer = lozad(); // lazy loads elements with default selector as '.lozad'
+// observer.observe();
 
+// console.log(window)
+// window.lazySizes.init          = false;
+// window.lazySizes.lazyClass     = 'lozad';
+window.lazySizes.minSize       = '200w';
+window.lazySizes.expand        = 450;
+window.lazySizes.expFactor     = 1.3;
+// window.lazySizes.init          = true;
+// lazySizes.init();
+
+var emitter = new TinyEmitter();
+var colorThief = new ColorThief();
 
 
 // lozad('.lozad', {
@@ -99,18 +109,25 @@ let scrollHeight = Math.max(
 let mouseIsDown = false;
 
 // COLOR THEIF
-const colorThief = new ColorThief();
-const colorImages = document.querySelectorAll('.color-theif');
-for (let img of colorImages){
-    // Make sure image is finished loading
-    // if (img.complete) {
-    //         img.parentElement.style.backgroundColor ="rgb("+colorThief.getColor(img)[0]+","+colorThief.getColor(img)[1]+","+colorThief.getColor(img)[2]+")";
-    // } else {
-        img.addEventListener('load', function() {
-            img.parentElement.style.backgroundColor ="rgb("+colorThief.getColor(img)[0]+","+colorThief.getColor(img)[1]+","+colorThief.getColor(img)[2]+")";
-        });
-    // }
-}
+document.addEventListener('lazyloaded', function (ev) {
+   console.log(ev.target.classList.contains('.color-theif'));
+   if(ev.target.classList.contains('.color-theif')){
+      img.parentElement.style.backgroundColor ="rgb("+colorThief.getColor(img)[0]+","+colorThief.getColor(img)[1]+","+colorThief.getColor(img)[2]+")";
+   }
+      
+})
+
+// const colorImages = document.querySelectorAll('.color-theif');
+// for (let img of colorImages){
+//     // Make sure image is finished loading
+//     // if (img.complete) {
+//     //         img.parentElement.style.backgroundColor ="rgb("+colorThief.getColor(img)[0]+","+colorThief.getColor(img)[1]+","+colorThief.getColor(img)[2]+")";
+//     // } else {
+//         img.addEventListener('load', function() {
+//             img.parentElement.style.backgroundColor ="rgb("+colorThief.getColor(img)[0]+","+colorThief.getColor(img)[1]+","+colorThief.getColor(img)[2]+")";
+//         });
+//     // }
+// }
 
 
 //PAGE LOADER
@@ -258,8 +275,9 @@ let imgZoom = false;
 
 // ZOOM IMAGE
 for (let ls of leftSectionsZoom){
-
+   
     ls.addEventListener("click", function(e){
+      if (window.innerWidth < breakpoint) return false;
         imgZoom = !imgZoom;
         if (imgZoom) {
             zoomImg(e, ls);
