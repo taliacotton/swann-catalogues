@@ -637,7 +637,7 @@ function sortTOC(shape){
     }
 }
 
-function shareLot(){
+function shareLot(elem){
     var textarea = document.createElement('textarea');
     textarea.textContent = window.location.href;
     document.body.appendChild(textarea);
@@ -648,10 +648,11 @@ function shareLot(){
     selection.removeAllRanges();
     selection.addRange(range);
 
-    console.log('copy success', document.execCommand('copy'));
+    document.execCommand('copy');
     selection.removeAllRanges();
 
     document.body.removeChild(textarea);
+    elem.innerHTML = "Link copied!";
 }
 
 // Function used on key down to skip to the next section
