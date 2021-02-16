@@ -49,13 +49,13 @@
 </defs>
 </svg> -->
 
-<svg width="22" height="22" viewBox="0 0 22 22" fill="none" xmlns="http://www.w3.org/2000/svg">
+<svg width="22" height="18" viewBox="0 0 22 18" fill="none" xmlns="http://www.w3.org/2000/svg">
 <g filter="url(#filter0_d)">
-<path d="M10.5 2.75V3.25H11H13.25V14.25H11H10.5V14.75V16.25V16.75H11H13.5C13.9624 16.75 14.3926 16.6102 14.75 16.371C15.1074 16.6102 15.5376 16.75 16 16.75H18.5H19V16.25V14.75V14.25H18.5H16.25V3.25H18.5H19V2.75V1.25V0.75H18.5H16C15.5376 0.75 15.1074 0.889823 14.75 1.12898C14.3926 0.889823 13.9624 0.75 13.5 0.75H11H10.5V1.25V2.75Z" fill="#333333" stroke="white"/>
+<path d="M11.5 15.25L11.5 14.75L11 14.75L8.75 14.75L8.75 3.75L11 3.75L11.5 3.75L11.5 3.25L11.5 1.75L11.5 1.25L11 1.25L8.5 1.25C8.03765 1.25 7.60745 1.3898 7.25 1.62899C6.89255 1.3898 6.46235 1.25 6 1.25L3.5 1.25L3 1.25L3 1.75L3 3.25L3 3.75L3.5 3.75L5.75 3.75L5.75 14.75L3.5 14.75L3 14.75L3 15.25L3 16.75L3 17.25L3.5 17.25L6 17.25C6.46237 17.25 6.89257 17.1102 7.25 16.871C7.60744 17.1102 8.03763 17.25 8.5 17.25L11 17.25L11.5 17.25L11.5 16.75L11.5 15.25Z" fill="#333333" stroke="white"/>
 </g>
-<rect width="9" height="17" fill="#FFF734" fill-opacity="0.5"/>
+<rect x="22" y="18" width="9" height="17" transform="rotate(-180 22 18)" fill="#FFF734" fill-opacity="0.5"/>
 <defs>
-<filter id="filter0_d" x="8" y="0.25" width="13.5" height="21" filterUnits="userSpaceOnUse" color-interpolation-filters="sRGB">
+<filter id="filter0_d" x="0.5" y="0.75" width="13.5" height="21" filterUnits="userSpaceOnUse" color-interpolation-filters="sRGB">
 <feFlood flood-opacity="0" result="BackgroundImageFix"/>
 <feColorMatrix in="SourceAlpha" type="matrix" values="0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 127 0"/>
 <feOffset dy="2"/>
@@ -66,5 +66,4 @@
 </filter>
 </defs>
 </svg>
-
 
