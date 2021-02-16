@@ -413,7 +413,7 @@ document.body.onload = function(){
     resizeAllTextareas();
     // apply highlights from cookie
     for (let highlight of highlights){
-        createHighlight(highlight.lot, highlight.pIndex, highlight.startChar, highlight.totalChar);
+        createHighlight(highlight.lot, highlight.pIndex, highlight.startChar, highlight.totalChar, highlight.id);
     }
 }
 
@@ -476,16 +476,17 @@ for (let text of highlightTexts){
     text.addEventListener('mouseup', function(e){
         if(e.target.tagName == "MARK"){
             //delete the highlight
+            highlights = highlights.filter(function( obj ) {
+                return obj.id !== e.target.id;
+            });
            e.target.outerHTML = e.target.innerHTML;
-           console.log("X")
         } else if(window.getSelection().toString().length > 0) {
             //create the highlight
             let element = document.createElement("mark");
-            let startChar = e.target.innerHTML.search(element.innerHTML);
+            let elemID = "x" + new Date().getTime();
+            element.id = elemID;
             window.getSelection().getRangeAt(0).surroundContents(element);
-
-            // console.log(e.target);
-            // console.log(e.target.closest(".lot").id, e.target.closest(".center-column").innerHTML.search(element.innerHTML), element.innerHTML.length);
+            let startChar = e.target.innerHTML.search(element.innerHTML);
             
             var child = e.target;
             var parent = child.parentNode;
@@ -496,11 +497,13 @@ for (let text of highlightTexts){
                 {   startChar: startChar,
                     totalChar: element.innerHTML.length,
                     lot: e.target.closest(".lot").id,
-                    pIndex: index}
+                    pIndex: index,
+                    id: elemID}
             highlights.push(highlightObj);
             console.log(highlightObj);
-            setCookie("highlights",JSON.stringify(highlights));
+            
         }
+        setCookie("highlights",JSON.stringify(highlights));
         clearSelection();
         console.log(highlights);
     })
@@ -690,17 +693,17 @@ function createNote(sideClass, topVal,innerContent, lotId){
     t.style.height = t.scrollHeight+'px';
 }
 
-function createHighlight(lot, childIndex, startChar, totalChar){
+function createHighlight(lot, childIndex, startChar, totalChar, markID){
     let m = document.createElement("MARK");
     if (document.querySelector("#" + lot) != null){
         let targetParagraph = document.querySelector("#" + lot).querySelector(".center-column").children.item(childIndex)
         var a = targetParagraph.innerHTML;
-        var b = "<mark>";
+        var b = `<mark id="${markID}">`;
         var position = startChar;
         var output = [a.slice(0, position), b, a.slice(position)].join('');
 
         a = output;
-        b = "</mark>";
+        b = `</mark>`;
         position = startChar + totalChar;
         output = [a.slice(0, position), b, a.slice(position)].join('');
 
