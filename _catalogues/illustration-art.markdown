@@ -4,7 +4,7 @@ lots: _data/2556-catalogue.yaml
 color: "#B2392E"
 cover_image:
   lot_number: 228
-  title: 'Lot 228: James Montgomery Flagg, "Follow Through" '
+  title: 'James Montgomery Flagg, "Follow Through" '
   image: "/v1610140384/775581_mkespy.jpg"
 filename: ''
 visible: true
