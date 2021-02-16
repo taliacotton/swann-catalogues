@@ -114,7 +114,8 @@ fields:
     config:
       required: false
     label: Title
-    description: This shows up as the text for the link after "On the Cover"
+    description: This shows up as the text for the link after "On the Cover"<br>DO
+      NOT write Lot number, as it is included automatically.
   - name: image
     type: file
     config:
