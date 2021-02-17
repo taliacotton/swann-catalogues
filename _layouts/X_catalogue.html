@@ -111,9 +111,9 @@
                     {% if page.cover_image.image %}
                     <img style="background-color:{{bg}}"
                         sizes="auto"
-                        
+                        class="lazyload"
                         srcset="{{ site.cloudinary_url }}/f_auto,q_70,w_250{{ page.cover_image.image }} 250w,
-                                {{ site.cloudinary_url }}/f_auto,q_70,w_500{{ page.cover_image.image }} 500w,
+                                {{ site.cloudinary_url }}/f_auto,q_65,w_500{{ page.cover_image.image }} 500w,
                                 {{ site.cloudinary_url }}/f_auto,q_70,w_800{{ page.cover_image.image }} 800w,
                                 {{ site.cloudinary_url }}/f_auto,q_70,w_1200{{ page.cover_image.image }} 1200w,
                                 {{ site.cloudinary_url }}/f_auto,q_70,w_1600{{ page.cover_image.image }} 1600w"
@@ -265,45 +265,42 @@
                 </div>
             </section> -->
             <div class="lots" id="PRINT">
-            {% for lot in lots %}
+               {% for lot in lots %}
 
-                {% assign lotNum = forloop.index %}
+                  {% assign lotNum = forloop.index %}
 
-                {% for session in page.chapters %}
-                    {% for chapter in session.chapters %}
-                            {% if lotNum == chapter.lot %}
-                            <section id="chp-{{chapter.chapter_title | slugify}}"  class="chapter-head">
-                                <div class="inner">
-                                    <h3 class="small-type">{{session.session_title}}</h3>
-                                    <h1>{{chapter.chapter_title}}</h1>
-                                </div>
-                            </section>
-                            {% endif %}
-                    {% endfor %}
-                {% endfor %}
+                  {% for session in page.chapters %}
+                     {% for chapter in session.chapters %}
+                              {% if lotNum == chapter.lot %}
+                              <section id="chp-{{chapter.chapter_title | slugify}}"  class="chapter-head">
+                                 <div class="inner">
+                                       <h3 class="small-type">{{session.session_title}}</h3>
+                                       <h1>{{chapter.chapter_title}}</h1>
+                                 </div>
+                              </section>
+                              {% endif %}
+                     {% endfor %}
+                  {% endfor %}
 
-                {% for essay in page.essays %}
-                    {% if lotNum == essay.lot %}
-                    <section class="essay" id="{{essay.title | slugify}}">
-                        <div class="inner">
-                            <div class="title-text">
-                                <h1>{{essay.title}}</h1>
-                                <h5>{{essay.author}}</h5>
-                            </div>
-                            {{essay.body | markdownify}}
-                            <!-- <div class="image">
-                                <img src="https://www.swanngalleries.com/news/wp-content/uploads/2019/08/M40076-3_5_timothy-ely-3.jpg">
-                                <br><caption>Lot 418: Timothy Ely, Consider Your Phantom Replies, hand-illustrated throughout, New York, 1982. Sold for $5,750.</caption>
-                            </div> -->
-                        </div>
-                    </section>
-                    {% endif %}
-                {% endfor %}
+                  {% for essay in page.essays %}
+                     {% if lotNum == essay.lot %}
+                     <section class="essay" id="{{essay.title | slugify}}">
+                           <div class="inner">
+                              <div class="title-text">
+                                 <h1>{{essay.title}}</h1>
+                                 <h5>{{essay.author}}</h5>
+                              </div>
+                              {{essay.body | markdownify}}
+                           </div>
+                     </section>
+                     {% endif %}
+                  {% endfor %}
 
-                {% include X_lot.html %}
-                
-            {% endfor %}
+                  
+                  
+               {% endfor %}
             </div>
+
             {% assign footerLength = page.footer_pages | size %}
             {% if footerLength > 0 %}
             <section id="end-content">
@@ -358,10 +355,10 @@
 
         <!-- <script src="https://cdn.jsdelivr.net/npm/vanilla-lozadload@17.3.0/dist/lozadload.min.js"></script> -->
         <script src="https://cdnjs.cloudflare.com/ajax/libs/color-thief/2.3.0/color-thief.umd.js"></script>
-        <script src="/assets/js/lazysizes-umd.min.js" ></script>
         <script src="/assets/js/ls.bgset.min.js" ></script>
         <script src="/assets/js/ls.object-fit.min.js" ></script>
         <script src="/assets/js/ls.respimg.min.js" ></script>
+        <script src="/assets/js/lazysizes-umd.min.js" ></script>
         
         <script src="/assets/js/emitter.min.js" ></script>
         <script src="/assets/js/cookies.js" async></script>

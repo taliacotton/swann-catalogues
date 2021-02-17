@@ -43,6 +43,14 @@ body{
     
 }
 
+.lot-wrapper{
+   // display: none;
+   visibility: hidden;
+   &.visible{
+      visibility: visible;
+      // display: block;
+   }
+}
 .hide-vis{opacity:0;}
 
 .thumbnail-lockup{

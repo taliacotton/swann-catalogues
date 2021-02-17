@@ -1,4 +1,4 @@
-
+<div class="lot-wrapper" data-lot="{{lotNum}}">
 {% if lot.header %}
     {% if lot.large_header.header_type == 'Large' %}
     <section id="header-{{lotNum}}" class="header_text {{lot.large_header.header_type | slugify}}" style="background-color: {{lot.large_header.background_color}}; color: {{lot.large_header.text_color}}">
@@ -24,12 +24,12 @@
         <img
             data-sizes="100vw"
             data-srcset="{{ site.cloudinary_url }}/f_auto,q_70,w_250{{ lot.full_width_image.image }} 250w,
-                    {{ site.cloudinary_url }}/f_auto,q_70,w_500{{ lot.full_width_image.image }} 500w,
+                    {{ site.cloudinary_url }}/f_auto,q_65,w_500{{ lot.full_width_image.image }} 500w,
                     {{ site.cloudinary_url }}/f_auto,q_70,w_800{{ lot.full_width_image.image }} 800w,
-                    {{ site.cloudinary_url }}/f_auto,q_70,w_1200{{ lot.full_width_image.image }} 1200w,
+                    {{ site.cloudinary_url }}/f_auto,q_60,w_1200{{ lot.full_width_image.image }} 1200w,
                     {{ site.cloudinary_url }}/f_auto,q_70,w_1600{{ lot.full_width_image.image }} 1600w,
                     {{ site.cloudinary_url }}/f_auto,q_70,w_2000{{ lot.full_width_image.image }} 2000w"
-            data-src="{{ site.cloudinary_url }}/f_auto,q_70,w_500/{{ lot.full_width_image.image }}"
+            data-src="{{ site.cloudinary_url }}/f_auto,q_65,w_500/{{ lot.full_width_image.image }}"
             src="{{ site.cloudinary_url }}/f_auto,q_50,w_40/{{ lot.full_width_image.image }}"
             alt=""
             class="lazyload" />
@@ -52,11 +52,11 @@
                             data-image="{{ lot.image }}"
                             data-sizes="auto"
                             data-srcset="{{ site.cloudinary_url }}/f_auto,q_70,w_250{{ lot.image }} 250w,
-                                    {{ site.cloudinary_url }}/f_auto,q_70,w_500{{ lot.image }} 500w,
+                                    {{ site.cloudinary_url }}/f_auto,q_65,w_500{{ lot.image }} 500w,
                                     {{ site.cloudinary_url }}/f_auto,q_70,w_800{{ lot.image }} 800w,
-                                    {{ site.cloudinary_url }}/f_auto,q_70,w_1200{{ lot.image }} 1200w,
+                                    {{ site.cloudinary_url }}/f_auto,q_60,w_1200{{ lot.image }} 1200w,
                                     {{ site.cloudinary_url }}/f_auto,q_70,w_1600{{ lot.image }} 1600w"
-                            data-src="{{ site.cloudinary_url }}/f_auto,q_70,w_500/{{ lot.image }}"
+                            data-src="{{ site.cloudinary_url }}/f_auto,q_65,w_500/{{ lot.image }}"
                             src="{{ site.cloudinary_url }}/f_auto,q_50,w_40/{{ lot.image }}"
                             alt=""
                             class="lazyload" />
@@ -76,11 +76,11 @@
                             data-sizes="auto"
                             data-image="{{ image }}"
                             data-srcset="{{ site.cloudinary_url }}/f_auto,q_70,w_250{{ image }} 250w,
-                                {{ site.cloudinary_url }}/f_auto,q_70,w_500{{ image }} 500w,
+                                {{ site.cloudinary_url }}/f_auto,q_65,w_500{{ image }} 500w,
                                 {{ site.cloudinary_url }}/f_auto,q_70,w_800{{ image }} 800w,
-                                {{ site.cloudinary_url }}/f_auto,q_70,w_1200{{ image }} 1200w,
+                                {{ site.cloudinary_url }}/f_auto,q_60,w_1200{{ image }} 1200w,
                                 {{ site.cloudinary_url }}/f_auto,q_70,w_1600{{ image }} 1600w"
-                            data-src="{{ site.cloudinary_url }}/f_auto,q_70,w_500/{{ image }}"
+                            data-src="{{ site.cloudinary_url }}/f_auto,q_65,w_500/{{ image }}"
                             src="{{ site.cloudinary_url }}/f_auto,q_50,w_40/{{ image }}"
                             alt=""
                             class="lazyload" />
@@ -205,3 +205,5 @@
     
     <div class="printFooter print-content">Lot {{lot.REFNO}}</div>
 </section>
+
+</div>
