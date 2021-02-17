@@ -626,7 +626,7 @@ section{
         .dot-container{
             position:relative;
             // IF YOU DONT WANT THE LINE-BY-LINE HOVER, COMMENT OUT THIS LINE:
-            flex: 1; 
+            // flex: 1; 
             .dot-container-inner{
                 position:absolute;
                 // width:200px;
@@ -636,7 +636,7 @@ section{
         .dot-container:hover, .dot-container.hover {
             z-index:10;
             // border-top:1px solid white;
-            .thumbnail-lockup{
+            .dot:hover + .thumbnail-lockup{
                 visibility:visible;
                 opacity:1;
             }
