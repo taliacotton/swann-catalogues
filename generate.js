@@ -11,8 +11,9 @@ glob("_data/2557-pentagram-2021-01-21.yaml", function (er, files) {
       
      
       data['lots'].forEach(lot => {
+         fs.existsSync(`_lots`) || fs.mkdirSync(`_lots`);
          fs.existsSync(`_lots/${id}`) || fs.mkdirSync(`_lots/${id}`);
-         fs.writeFile(`_lots/${id}/${lot["LOT"]}.md`, '---\n'+YAML.stringify(lot)+'\n---', (err) => {
+         fs.writeFile(`_lots/${id}/${lot["LOT"]}.md`, `---\nSALE: "${id}"\n`+YAML.stringify(lot)+'\n---', (err) => {
             if (err)
                console.log(err);
             else {

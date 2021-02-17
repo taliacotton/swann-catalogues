@@ -110,11 +110,9 @@ let mouseIsDown = false;
 
 // COLOR THEIF
 document.addEventListener('lazyloaded', function (ev) {
-   console.log(ev.target.classList.contains('.color-theif'));
    if(ev.target.classList.contains('.color-theif')){
       img.parentElement.style.backgroundColor ="rgb("+colorThief.getColor(img)[0]+","+colorThief.getColor(img)[1]+","+colorThief.getColor(img)[2]+")";
    }
-      
 })
 
 // const colorImages = document.querySelectorAll('.color-theif');
@@ -230,9 +228,6 @@ document.addEventListener("scroll", function(){
    //show sections
    document.querySelectorAll('.lot-wrapper').forEach(function (section){
       var bounds = section.getBoundingClientRect();
-      if(section.dataset.lot == 5){
-         console.log(bounds.top);
-      }
       if (
          bounds.top <= window.innerHeight * 3 &&
          bounds.bottom >= window.innerHeight / -3
@@ -441,7 +436,7 @@ for (let note of notes){
 }
 
 document.body.onload = function(){
-    console.log("loaded3");
+   //  console.log("loaded3");
     resizeAllTextareas();
     // apply highlights from cookie
     for (let highlight of highlights){
@@ -532,12 +527,12 @@ for (let text of highlightTexts){
                     pIndex: index,
                     id: elemID}
             highlights.push(highlightObj);
-            console.log(highlightObj);
+            // console.log(highlightObj);
             
         }
         setCookie("highlights",JSON.stringify(highlights));
         clearSelection();
-        console.log(highlights);
+      //   console.log(highlights);
     })
     
 }
@@ -571,35 +566,12 @@ function showCurrentImage() {
          top <= window.innerHeight - window.innerHeight / 2 &&
          bottom >= window.innerHeight / 2
       ) {
-         console.log(l)
          l.classList.add("active");
          l.parentElement.classList.add("lot-loaded");
-
-         // l.parentElement.parentElement.classList.add("visible");
-         // l.parentElement.parentElement.previousElementSibling.classList.add("visible");
-         // l.parentElement.parentElement.nextElementSibling.classList.add("visible");
-
          emitter.emit("lot-loaded", l);
+
       } else {
-         // console.log(l.parentElement.parentElement,l.parentElement.parentElement.nextElementSibling)
-
          l.classList.remove("active");
-         // l.parentElement.parentElement.classList.remove("visible");
-         // l.parentElement.parentElement.classList.remove("visible");
-         
-         // if (
-         //    l.parentElement.parentElement.previousElementSibling && 
-         //    l.parentElement.parentElement.previousElementSibling.classList.contains('visible')
-         // ) {
-         //    l.parentElement.parentElement.previousElementSibling.classList.remove("visible");
-         // }
-
-         // if (
-         //    l.parentElement.parentElement.nextElementSibling &&
-         //    l.parentElement.parentElement.nextElementSibling.classList.contains('visible')
-         // ) {
-         //    l.parentElement.parentElement.nextElementSibling.classList.remove("visible");
-         // }
       }
    }
 
