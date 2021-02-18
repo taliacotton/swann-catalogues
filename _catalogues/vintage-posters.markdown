@@ -1,5 +1,8 @@
 ---
 layout: X_catalogue
+pagination: 
+  enabled: true
+  collection: lots
 lots: _data/2558-posters-withyear-new-formatting_2021-02-01.yaml
 color: "#075B88"
 cover_image:

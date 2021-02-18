@@ -3,7 +3,6 @@ timezone: UTC
 collections:
   lots:
     output: true
-    permalink: /:title
   people:
     output: true
   catalogues:
@@ -20,12 +19,21 @@ sass:
   sass_dir: _sass
   style: compressed
 cloudinary_url: "https://res.cloudinary.com/dcryyrd42/image/upload"
-defaults:
-  -
-    scope:
-      path: "" # an empty string here means all files in the project
-      type: "lots"
-    values:
-      author: "Scott Gallant"
+
+
+# Pagination Settings
+pagination:
+  enabled: true
+  debug: true
+  collection: lots
+  per_page: 10
+  permalink: '/page/:num/'
+  limit: 0
+  sort_field: 'LOT'
+
+
+
 plugins:
   - jekyll-gzip
+gems:
+  - jekyll-paginate-v2

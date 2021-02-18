@@ -1,4 +1,4 @@
-{% include head.html %}
+{%- include head.html -%}
         <!-- <script type="text/javascript" src="https://cdn.jsdelivr.net/npm/lozad/dist/lozad.min.js"></script> -->
         <link rel="stylesheet" href="/assets/css/catalogue.css">
         <style>
@@ -19,14 +19,14 @@
             </div>
         </div>
 
-        {% for x in site.data %}
-            {% assign testName = "_data/" | append: x[0] | append: ".yaml" %}
-            {% if testName == page.lots %}
-                {% assign catalogue = x[1] %}
-            {% endif %}
-        {% endfor %}
+        {%- for x in site.data -%}
+            {%- assign testName = "_data/" | append: x[0] | append: ".yaml" -%}
+            {%- if testName == page.lots -%}
+                {%- assign catalogue = x[1] -%}
+            {%- endif -%}
+        {%- endfor -%}
 
-        {% assign lots = catalogue.lots %}
+        {%- assign lots = catalogue.lots -%}
 
         <img id="cursor" src="/assets/img/cursor.png" alt="custom cursor">
         <div id="cookieBanner">
@@ -36,7 +36,7 @@
         <div id="topbar">
             <a href="/"><img id="logo" src="/assets/img/swann-logo.gif" alt="Swann Logo">
             <a href="#">
-            <div class="catalogue-title">{{page.title}}  <span class="topbar--dot">•</span>  {{ page.datetime.date | date: "%A, %B %d, %Y" }} at {{ page.datetime.time | date: "%l:%M%P"}} {% if page.datetime.time2 %} <i>&</i> {{page.datetime.time2 | date: "%l:%M%P"}} {%endif%}</div>
+            <div class="catalogue-title">{{page.title}}  <span class="topbar--dot">•</span>  {{ page.datetime.date | date: "%A, %B %d, %Y" }} at {{ page.datetime.time | date: "%l:%M%P"}} {%- if page.datetime.time2 -%} <i>&</i> {{page.datetime.time2 | date: "%l:%M%P"}} {%-endif-%}</div>
             </a>
             <div class="buttons small-type">
                 <button onclick="triggerPrintModal()">Print</button>
@@ -60,34 +60,33 @@
             </ul>
             <ul class="sidebar--lots">
                 <span id="marker"></span>
-                {% for lot in lots %}
-                
-                {% assign lotNum = forloop.index %}
+                {%- for lot in lots -%}
 
-                {% for session in page.chapters %}
-                    {% for chapter in session.chapters %}
-                            {% if lotNum == chapter.lot %}
-                            <a class="sidebar-chapter-separation" href="#{{chapter.chapter_title | slugify}}">
-                            <li >
-                                
-                                    {% if forloop.index == 1 %}
-                                    <p class="small-type">{{session.session_title}}</p>
-                                    {% endif%}
-                                    <p class="chapter-title">{{chapter.chapter_title}}</p>
-                                
-                            </li>
-                            </a>
-                            {% endif %}
-                    {% endfor %}
-                {% endfor %}
-                        <a href="#lot{{lotNum}}">
+                  {%- assign lotNum = forloop.index -%}
+                  {%- for session in page.chapters -%}
+                     {%- for chapter in session.chapters -%}
+                              {%- if lotNum == chapter.lot -%}
+                              <a class="sidebar-chapter-separation" href="#{{chapter.chapter_title | slugify}}">
+                              <li >
+                                 
+                                       {%- if forloop.index == 1 -%}
+                                       <p class="small-type">{{session.session_title}}</p>
+                                       {%- endif-%}
+                                       <p class="chapter-title">{{chapter.chapter_title}}</p>
+                                 
+                              </li>
+                              </a>
+                              {%- endif -%}
+                     {%- endfor -%}
+                  {%- endfor -%}
+                  <a href="#lot{{lotNum}}">
                     <li data-id="lot{{lotNum}}">
                             <div class="thumbnail-lockup">
-                                    {% if lot.image %}
+                                    {%- if lot.image -%}
                                     <img class="" src="{{ site.cloudinary_url }}/f_auto,q_50,w_40/{{ lot.image }}" crossorigin="anonymous">
-                                    {% elsif lot.REFNO %}
+                                    {%- elsif lot.REFNO -%}
                                     <img class="" src="{{ site.cloudinary_url }}/f_auto,q_50,w_40/{{page.sale}}/{{ lot.REFNO }}.jpg" crossorigin="anonymous">
-                                    {% endif %}
+                                    {%- endif -%}
                                     <p class="small-type">
                                         Lot {{forloop.index}}
                                         <br>{{lot.DESCRIPT}}
@@ -95,20 +94,20 @@
                                 </p>
                             </div>
                     </li>
-                    </a>
+                  </a>
                     
-            {% endfor %}
+            {%- endfor -%}
             </ul>
         </nav>
         <section id="cover">
-                <a href="/"><img class="logo" src="/assets/img/swann-logo.gif"></a>
+                <img class="logo" src="/assets/img/swann-logo.gif">
                 <a class="on-the-cover small-type" href="#lot{{page.cover_image.lot_number}}">
                     On the cover:
                     <br> Lot {{page.cover_image.lot_number}} • {{page.cover_image.title}}
                 </a>
                 <div class="stripe" style="background-color:var(--catalogueColor)"></div>
                 <div class="left">
-                    {% if page.cover_image.image %}
+                    {%- if page.cover_image.image -%}
                     <img style="background-color:{{bg}}"
                         sizes="auto"
                         class="lazyload"
@@ -119,7 +118,7 @@
                                 {{ site.cloudinary_url }}/f_auto,q_70,w_1600{{ page.cover_image.image }} 1600w"
                         src="{{ site.cloudinary_url }}/f_auto,q_50,w_40/{{ page.cover_image.image }}"
                         alt="" />
-                        {% endif %}
+                        {%- endif -%}
                 </div>
                 <div class="spine">
                     <div class="spine-text">
@@ -128,13 +127,13 @@
                     </div>
                 </div>
                 <div class="right">
-                    {% assign thesize = page.title.size %}
-                    {% if thesize > 65 %}
+                    {%- assign thesize = page.title.size -%}
+                    {%- if thesize > 65 -%}
                     <h1 class="smaller">{{page.title}}</h1>
-                    {% else %}
+                    {%- else -%}
                     <h1>{{page.title}}</h1>
-                    {% endif %}
-                    <h2 class="cover-date">{{ page.datetime.date | date: "%A, %B %d, %Y" }}<br>at {{ page.datetime.time | date: "%l:%M%P" }} {% if page.datetime.time2 %} <i>&</i> {{page.datetime.time2 | date: "%l:%M%P"}} {%endif%}</h2>
+                    {%- endif -%}
+                    <h2 class="cover-date">{{ page.datetime.date | date: "%A, %B %d, %Y" }}<br>at {{ page.datetime.time | date: "%l:%M%P" }} {%- if page.datetime.time2 -%} <i>&</i> {{page.datetime.time2 | date: "%l:%M%P"}} {%-endif-%}</h2>
                     <h3 class="cover-sale mobile-only">Sale {{page.sale}}</h3>
                 </div>
             </section>
@@ -162,36 +161,36 @@
                 <div class="dates small-type" id="toc-dates">
                 </div>
                 <div id="toc-dots">
-                    {% for lot in lots %}
-                    {% assign lotNum = forloop.index %}
+                    {%- for lot in lots -%}
+                    {%- assign lotNum = forloop.index -%}
 
-                    {% for session in page.chapters %}
-                        {% for chapter in session.chapters %}
-                                {% if lotNum == chapter.lot %}
+                    {%- for session in page.chapters -%}
+                        {%- for chapter in session.chapters -%}
+                                {%- if lotNum == chapter.lot -%}
                                 <a href="#{{chapter.chapter_title | slugify}}">
-                                    {% if forloop.index == 1 %}
+                                    {%- if forloop.index == 1 -%}
                                     <p class="small-type">{{session.session_title}}</p>
-                                    {% endif%}
+                                    {%- endif-%}
                                     <p class="chapter-title">{{chapter.chapter_title}}</p>
                                 </a>
-                                {% endif %}
-                        {% endfor %}
-                    {% endfor %}
+                                {%- endif -%}
+                        {%- endfor -%}
+                    {%- endfor -%}
 
                     <a href="#lot{{forloop.index}}" class="dot-container" data-year="{{lot.year}}">
                         <div class="line"></div>
                         <div class="dot-container-inner">
-                            {% if lot.recommended %}
+                            {%- if lot.recommended -%}
                             <div class="dot diamond"></div>
-                            {% else %}
+                            {%- else -%}
                             <div class="dot"></div>
-                            {% endif %}
+                            {%- endif -%}
                             <div class="thumbnail-lockup">
-                                {% if lot.image %}
+                                {%- if lot.image -%}
                                  <img class="lazyload" data-src="{{ site.cloudinary_url }}/f_auto,q_50,w_40/{{ lot.image }}" crossorigin="anonymous" alt="lot thumbnail image">
-                                 {% elsif lot.REFNO %}
+                                 {%- elsif lot.REFNO -%}
                                  <img class="lazyload" data-src="{{ site.cloudinary_url }}/f_auto,q_50,w_40/{{page.sale}}/{{ lot.REFNO }}.jpg" crossorigin="anonymous" alt="lot thumbnail image">
-                                 {% endif %}
+                                 {%- endif -%}
                                  <p class="small-type">
                                      Lot {{forloop.index}}
                                      <br>{{lot.DESCRIPT}}
@@ -200,7 +199,7 @@
                             </div>
                         </div>
                     </a>
-                    {% endfor %}
+                    {%- endfor -%}
                 </div>
             </section>
             <section id="info">
@@ -216,43 +215,43 @@
                 <div class="leftright">
                     <div class="left">
                         <div class="people">
-                            {% for entry in page.people.main_contacts %}
-                            {% assign person = site.people | where: "path", entry | first %}
+                            {%- for entry in page.people.main_contacts -%}
+                            {%- assign person = site.people | where: "path", entry | first -%}
                             <div>
-                                {% if person.image %}
+                                {%- if person.image -%}
                                 <img src="{{ site.cloudinary_url }}/w_100,c_scale/{{ person.image }}" alt="{{person.title}}, {{person.role}}">
-                                {% endif %}
+                                {%- endif -%}
                                 <h4><b>{{person.title}}</b><br>{{person.role}}</h4>
                                 <small>
                                     {{person.email}}
                                     <br>{{person.phone}}
                                 </small>
                             </div>
-                            {% endfor %}
+                            {%- endfor -%}
                         </div>
                     </div>
                     <div class="right">
                         
                         <div class="people">
-                            {% for entry in page.people.officers %}
-                            {% assign person = site.people | where: "path", entry | first %}
+                            {%- for entry in page.people.officers -%}
+                            {%- assign person = site.people | where: "path", entry | first -%}
                             <div>
                                 <h4><b>{{person.title}}</b><br>{{person.role}}</h4>
                                 <small>
                                     {{person.number}}
                                 </small>
                             </div>
-                            {% endfor %}
+                            {%- endfor -%}
                         </div>
                         <h3>Administration</h3>
                         <div class="people">
-                            {% for entry in page.people.administration %}
-                            {% assign person = site.people | where: "path", entry | first %}
-                            <div>
-                                <h4><b>{{person.title}}</b><br>{{person.role}}</h4>
-                                <small>{{person.email}}</small>
-                            </div>
-                            {% endfor %}
+                           {%- for entry in page.people.administration -%}
+                           {%- assign person = site.people | where: "path", entry | first -%}
+                           <div>
+                              <h4><b>{{person.title}}</b><br>{{person.role}}</h4>
+                              <small>{{person.email}}</small>
+                           </div>
+                           {%- endfor -%}
                         </div>
                         {{page.people.general_information | markdownify}}
                     </div>
@@ -265,25 +264,28 @@
                 </div>
             </section> -->
             <div class="lots" id="PRINT">
-               {% for lot in lots %}
+               {% comment %} https://github.com/sverrirs/jekyll-paginate-v2/blob/master/README-GENERATOR.md#paginating-collections {% endcomment %}
+               {%- assign _lots = site.lots | where: "SALE", page.sale | sort: "LOT"  -%}
+               {{paginator.lots | jsonify}}
+               {%- for lot in _lots  -%}
 
-                  {% assign lotNum = forloop.index %}
+                  {%- assign lotNum = forloop.index -%}
 
-                  {% for session in page.chapters %}
-                     {% for chapter in session.chapters %}
-                              {% if lotNum == chapter.lot %}
+                  {%- for session in page.chapters -%}
+                     {%- for chapter in session.chapters -%}
+                              {%- if lotNum == chapter.lot -%}
                               <section id="chp-{{chapter.chapter_title | slugify}}"  class="chapter-head">
                                  <div class="inner">
                                        <h3 class="small-type">{{session.session_title}}</h3>
                                        <h1>{{chapter.chapter_title}}</h1>
                                  </div>
                               </section>
-                              {% endif %}
-                     {% endfor %}
-                  {% endfor %}
+                              {%- endif -%}
+                     {%- endfor -%}
+                  {%-endfor -%}
 
-                  {% for essay in page.essays %}
-                     {% if lotNum == essay.lot %}
+                  {%- for essay in page.essays -%}
+                     {%- if lotNum == essay.lot -%}
                      <section class="essay" id="{{essay.title | slugify}}">
                            <div class="inner">
                               <div class="title-text">
@@ -293,20 +295,20 @@
                               {{essay.body | markdownify}}
                            </div>
                      </section>
-                     {% endif %}
-                  {% endfor %}
+                     {%- endif -%}
+                  {%- endfor -%}
 
-                  {% include X_lot.html %}
+                  {%- include X_lot.html -%}
 
                   
-               {% endfor %}
+               {%- endfor -%}
             </div>
 
-            {% assign footerLength = page.footer_pages | size %}
-            {% if footerLength > 0 %}
+            {%- assign footerLength = page.footer_pages | size -%}
+            {%- if footerLength > 0 -%}
             <section id="end-content">
                 <div class="inner">
-                    {% for footerpage in page.footer_pages %}
+                    {%- for footerpage in page.footer_pages -%}
                     <div class="footer-page">
                         <div class="title-container">
                             <h2>{{footerpage.section_header}}</h2>
@@ -315,10 +317,10 @@
                             {{footerpage.content | markdownify}}
                         </div>
                     </div>
-                    {% endfor %}
+                    {%- endfor -%}
                 </div>
             </section>
-            {% endif %}
+            {%- endif -%}
         </div>
         <div class="callout" id="hamburgerCallout">
             <p>You can click this button to return to the table of contents at any time.</p>
@@ -342,7 +344,7 @@
                         <div class="control_indicator"></div>
                     </label>
                     <label class="control control-radio">
-                        {% assign recommendedSize = lots | where: "recommended", "true" %}
+                        {%- assign recommendedSize = lots | where: "recommended", "true" -%}
                         Recommended Lots Only <span>({{recommendedSize | size}})</span>
                             <input type="radio" name="radio" value="recommended" />
                         <div class="control_indicator"></div>
@@ -365,4 +367,4 @@
         <script src="/assets/js/cookies.js" async></script>
         <script src="/assets/js/catalogue.js" async ></script>
 
-{% include foot.html %}
+{%- include foot.html -%}

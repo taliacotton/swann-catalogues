@@ -1,0 +1,47 @@
+---
+layout: null
+permalink: /api
+pagination:
+  permalink: ''
+  enabled: true
+  limit: 10
+  extension: .json
+  indexpage: 'lots-:num'
+---
+
+
+
+{{site.lots | jsonify}}
+
+{
+  "lots": [
+   {%- for lot in paginator.posts  -%}
+      {% if forloop.first != true -%},{%- endif -%}
+      {
+         "SALE"    : "{{lot.SALE}}",
+         "LOT"     : "{{lot.LOT}}",
+         "REFNO"   : "{{lot.REFNO}}",
+         "DESCRIPT": "{{lot.DESCRIPT | strip_html}}"
+         "LOW"     : "{{lot.LOW}}",
+         "HIGH"    : "{{lot.HIGH}}",
+         {% comment %} "TYPESET" : "{{lot.TYPESET | xml_escape}}", {% endcomment %}
+         {% comment %} "FOOTNOTE": "{{lot.FOOTNOTE | xml_escape}}" {% endcomment %}
+      }
+   {%- endfor -%}
+  ]
+}
+---
+layout: null
+permalink: /api
+pagination:
+  permalink: ''
+  enabled: true
+  limit: 10
+  extension: .json
+  indexpage: 'lots-:num'
+---
+
+
+
+{{site.lots | jsonify}}
+

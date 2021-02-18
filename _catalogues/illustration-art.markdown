@@ -1,5 +1,10 @@
 ---
 layout: X_catalogue
+pagination: 
+  enabled: true
+  debug: true
+  collection: lots
+  category: 2556
 lots: _data/2556-catalogue.yaml
 color: "#B2392E"
 cover_image:

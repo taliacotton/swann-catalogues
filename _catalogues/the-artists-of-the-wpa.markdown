@@ -1,5 +1,8 @@
 ---
 layout: X_catalogue
+pagination: 
+  enabled: true
+  collection: lots
 lots: _data/2557-pentagram-2021-01-21.yaml
 color: "#4582A6"
 cover_image:

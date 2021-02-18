@@ -2,6 +2,9 @@
 title: Test Content
 permalink: "/TEST"
 layout: X_catalogue
+pagination: 
+  enabled: true
+  collection: lots
 sale: 0
 filename: 2551-catalogue-pentagram-old
 color: "#a6dbff"
