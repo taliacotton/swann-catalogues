@@ -11,7 +11,7 @@ pagination:
 
 
 
-{{site.lots | jsonify}}
+{% comment %} {{site.lots | jsonify}} {% endcomment %}
 
 {
   "lots": [
@@ -20,28 +20,14 @@ pagination:
       {
          "SALE"    : "{{lot.SALE}}",
          "LOT"     : "{{lot.LOT}}",
-         "REFNO"   : "{{lot.REFNO}}",
-         "DESCRIPT": "{{lot.DESCRIPT | strip_html}}"
+         "minimum" : "{{lot.minimum}}",
+         "DESCRIPT": "{{lot.DESCRIPT}}",
          "LOW"     : "{{lot.LOW}}",
-         "HIGH"    : "{{lot.HIGH}}",
-         {% comment %} "TYPESET" : "{{lot.TYPESET | xml_escape}}", {% endcomment %}
+         "HIGH"    : "{{lot.HIGH}}"
+         {% comment %} NOTE: Need to remove markdown or \n so the json wont break.  {% endcomment %}
+         {% comment %} "Description" : "{{lot.Description  }}", {% endcomment %}
          {% comment %} "FOOTNOTE": "{{lot.FOOTNOTE | xml_escape}}" {% endcomment %}
       }
    {%- endfor -%}
   ]
 }
----
-layout: null
-permalink: /api
-pagination:
-  permalink: ''
-  enabled: true
-  limit: 10
-  extension: .json
-  indexpage: 'lots-:num'
----
-
-
-
-{{site.lots | jsonify}}
-

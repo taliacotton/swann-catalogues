@@ -265,9 +265,11 @@
             </section> -->
             <div class="lots" id="PRINT">
                {% comment %} https://github.com/sverrirs/jekyll-paginate-v2/blob/master/README-GENERATOR.md#paginating-collections {% endcomment %}
-               {%- assign _lots = site.lots | where: "SALE", page.sale | sort: "LOT"  -%}
-               {{paginator.lots | jsonify}}
-               {%- for lot in _lots  -%}
+               {% comment %} {%- assign _lots = site.lots | where: "SALE", page.sale | sort: "LOT"  -%} {% endcomment %}
+               {% comment %} TODO: Need to update this call to use paginator.posts or dont call anything and use the api call to laod in the lots ----- /api/lots-1.json   {% endcomment %}
+               {% comment %} {{paginator.lots | jsonify}} {% endcomment %}
+
+               {%- for lot in lots  -%}
 
                   {%- assign lotNum = forloop.index -%}
 
