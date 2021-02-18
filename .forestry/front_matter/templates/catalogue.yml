@@ -221,5 +221,3 @@ fields:
       value: true
   config:
     labelField: LOT
-pages:
-- _data/this-is-just-a-test.yaml
