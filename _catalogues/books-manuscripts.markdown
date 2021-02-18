@@ -1,11 +1,11 @@
 ---
 layout: X_catalogue
 lots: _data/2559-books-pulled-02-05_uploaded-02-08.yaml
-color: "#AD926F"
+color: "#FFFFFF"
 cover_image:
   lot_number: 0
   title: ''
-  image: ''
+  image: "/v1613689543/778974_vbagse.jpg"
 filename: ''
 visible: false
 permalink: fine-books-autographs/2559
