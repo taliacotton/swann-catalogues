@@ -498,6 +498,7 @@ lots:
     the education syllabus at its early stage so that a young lad or lass of 15 years
     would be able to render first aid to any person who is in need of it."'
   color_background: "#ffffff"
+  recommended: true
 - REFNO: "779358"
   LOT: "28"
   LOW: "200"
