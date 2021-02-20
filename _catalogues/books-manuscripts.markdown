@@ -19,8 +19,16 @@ short_description: ''
 chapters:
 - session_title: Autographs
   chapters:
-  - lot: 
-    chapter_title: ''
+  - chapter_title: Americana
+    lot: 1
+  - lot: 14
+    chapter_title: General
+  - chapter_title: Presidents
+    lot: 55
+  - chapter_title: Musicians
+    lot: 67
+  - chapter_title: Writers & Artists
+    lot: 94
 - session_title: 19th & 20th Century Literature
   chapters: []
 - session_title: Art, Press & Illustrated Books
