@@ -30,9 +30,19 @@ chapters:
   - chapter_title: Writers & Artists
     lot: 94
 - session_title: 19th & 20th Century Literature
-  chapters: []
+  chapters:
+  - chapter_title: ''
+    lot: 
+  - chapter_title: Charles Dickens
+    lot: 122
+  - chapter_title: Fore-Edge Paintings
+    lot: 144
 - session_title: Art, Press & Illustrated Books
-  chapters: []
+  chapters:
+  - chapter_title: ''
+    lot: 226
+  - chapter_title: Limited Editions Club
+    lot: 246
 people:
   main_contacts:
   - _people/david-rivera.md
