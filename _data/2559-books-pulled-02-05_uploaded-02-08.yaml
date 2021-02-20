@@ -1961,6 +1961,12 @@ lots:
   pullquote: ''
   FOOTNOTE: ''
   color_background: "#ffffff"
+  header: true
+  large_header:
+    header_type: Large
+    line_1_text: Karel Čapek
+    background_color: "#F61B1B"
+    text_color: white
 - REFNO: "778961"
   LOT: "112"
   LOW: "800"
