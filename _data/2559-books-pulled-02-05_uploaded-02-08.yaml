@@ -101,6 +101,7 @@ lots:
     ". . . Isaac P. Chase . . . acknowledged himself to owe the people of the State of Illinois one hundred Dollars . . . . [I]f . . . Chase shall personally appear at the next Circuit Court . . . to give testimony on behalf of the State, and the truth to say touching such matters as may be then and there required of him . . . then this recognizance shall be void . . . ."
     The docketing links the testimony to the trial of Oliver H. Olney, who had been excommunicated by the Mormons in 1842, and who then, in 1843, published The Absurdities of Mormonism Portrayed.
   color_background: "#ffffff"
+  recommended: true
 - REFNO: "777905"
   LOT: "7"
   LOW: "1000"
@@ -385,6 +386,7 @@ lots:
   pullquote: ''
   FOOTNOTE: ''
   color_background: "#ffffff"
+  recommended: true
 - REFNO: "779639"
   LOT: "23"
   LOW: "20000"
