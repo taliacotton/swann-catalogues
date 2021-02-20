@@ -17,6 +17,8 @@ datetime:
   time2: 
 short_description: ''
 chapters:
+- session_title: 19th & 20th Century Literature
+  chapters: []
 - session_title: Autographs
   chapters:
   - lot: 
