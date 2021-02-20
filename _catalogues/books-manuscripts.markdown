@@ -31,8 +31,8 @@ chapters:
     lot: 94
 - session_title: 19th & 20th Century Literature
   chapters:
-  - chapter_title: ''
-    lot: 
+  - chapter_title: General
+    lot: 105
   - chapter_title: Charles Dickens
     lot: 122
   - chapter_title: Fore-Edge Paintings
