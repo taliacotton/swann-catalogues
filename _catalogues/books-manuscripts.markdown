@@ -16,7 +16,11 @@ datetime:
   time: 2021-02-01T12:00:00.000+00:00
   time2: 
 short_description: ''
-chapters: []
+chapters:
+- session_title: Autographs
+  chapters:
+  - lot: 
+    chapter_title: ''
 people:
   main_contacts:
   - _people/david-rivera.md
