@@ -3468,11 +3468,11 @@ lots:
   LOW: "300"
   HIGH: "400"
   DESCRIPT: STOUT, REX.
-  CROSSHEAD: Prisoner's Base * The Golden Spiders.
+  CROSSHEAD: Prisoner's Base & The Golden Spiders.
   at-a-glance: 'New York: Viking, 1952; 1953'
-  TYPESET: Together, 2 volumes. 8vo, publisher's cloth, board edge extremities toned;
-    dust jackets, unclipped, second title with few tiny nicks and one short closed
-    tear; bookplate to second title, else contents clean. First editions.</i>
+  TYPESET: "<p>Together, 2 volumes. 8vo, publisher's cloth, board edge extremities
+    toned; dust jackets, unclipped, second title with few tiny nicks and one short
+    closed tear; bookplate to second title, else contents clean. <strong>First editions.</strong></p>"
   year: 1952
   pullquote: ''
   FOOTNOTE: ''
