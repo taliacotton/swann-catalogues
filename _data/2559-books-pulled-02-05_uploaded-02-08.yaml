@@ -3591,6 +3591,10 @@ lots:
   pullquote: ''
   FOOTNOTE: ''
   color_background: "#ffffff"
+  header: true
+  large_header:
+    header_type: Small
+    line_1_text: S.S. Van Dine
 - REFNO: "779378"
   LOT: "208"
   LOW: "600"
