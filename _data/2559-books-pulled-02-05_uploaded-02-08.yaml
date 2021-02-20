@@ -2993,6 +2993,7 @@ lots:
   pullquote: ''
   FOOTNOTE: ''
   color_background: "#ffffff"
+  recommended: true
 - REFNO: "779577"
   LOT: "174"
   LOW: "800"
