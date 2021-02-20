@@ -1,7 +1,7 @@
 ---
 layout: X_catalogue
 lots: _data/2559-books-pulled-02-05_uploaded-02-08.yaml
-color: "#FFFFFF"
+color: "#9B9999"
 cover_image:
   lot_number: 
   title: ''
