@@ -443,6 +443,7 @@ lots:
     abandoned the pursuit for a unified field theory, but Einstein persisted unsuccessfully
     until his death.
   color_background: "#ffffff"
+  recommended: true
 - REFNO: "779742"
   LOT: "26"
   LOW: "2000"
