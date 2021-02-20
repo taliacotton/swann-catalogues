@@ -3,17 +3,17 @@ layout: X_catalogue
 lots: _data/2559-books-pulled-02-05_uploaded-02-08.yaml
 color: "#FFFFFF"
 cover_image:
-  lot_number: 0
+  lot_number: 
   title: ''
   image: "/v1613689543/778974_vbagse.jpg"
 filename: ''
-visible: false
-permalink: fine-books-autographs/2559
+visible: true
+permalink: "/books-manuscripts/fine-books-autographs/2559"
 sale: 2559
-title: Books & Manuscripts
+title: Fine Books & Autographs
 datetime:
-  date: 2021-02-25 05:00:00 +0000
-  time: 2021-02-01 12:00:00 +0000
+  date: 2021-02-25T05:00:00.000+00:00
+  time: 2021-02-01T12:00:00.000+00:00
   time2: 
 short_description: ''
 chapters: []
