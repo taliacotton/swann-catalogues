@@ -3574,6 +3574,10 @@ lots:
   pullquote: ''
   FOOTNOTE: ''
   color_background: "#ffffff"
+  header: true
+  large_header:
+    header_type: Small
+    line_1_text: Mark Twain's Copy
 - REFNO: "779569"
   LOT: "207"
   LOW: "350"
