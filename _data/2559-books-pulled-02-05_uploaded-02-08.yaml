@@ -3562,22 +3562,23 @@ lots:
   DESCRIPT: "[TWAIN, MARK.]"
   CROSSHEAD: Rubáiyát of Omar Khayyám, the Astronomer-Poet of Persia.
   at-a-glance: 'Boston: James R. Osgood and Company, 1878'
-  TYPESET: Small 8vo, original brown cloth, spine ends chipped, corners bumped; printed
-    on rectos only, hinges cracked, clippings laid down to front free endpapers, title
-    page torn with loss of letters. "First American from the third London edition."
-    Twain's copy, signed and inscribed by him twice.</i> "S.L. Clemens / Hartford
-    / 1878" in pencil, and below in black ink "Transferred to / Mrs. Henry G. Brooks
-    / with the Kindest regards of / S.L. Clemens / May 1884." 11 pages with scribbles
-    and hash-marks in pencil to blank margins, presumably in Twain's hand, similar
-    to the annotated copy (Ninth edition) at the Mark Twain Archive, Elmira College.
+  TYPESET: <p>Small 8vo, original brown cloth, spine ends chipped, corners bumped;
+    printed on rectos only, hinges cracked, clippings laid down to front free endpapers,
+    title page torn with loss of letters. "First American from the third London edition."
+    <strong>Twain's copy, signed and inscribed by him twice.</strong> "S.L. Clemens
+    / Hartford / 1878" in pencil, and below in black ink "Transferred to / Mrs. Henry
+    G. Brooks / with the Kindest regards of / S.L. Clemens / May 1884." 11 pages with
+    scribbles and hash-marks in pencil to blank margins, presumably in Twain's hand,
+    similar to the annotated copy (Ninth edition) at the Mark Twain Archive, Elmira
+    College.</p>
   year: 1878
-  pullquote: ''
+  pullquote: Mark Twain's Copy
   FOOTNOTE: ''
   color_background: "#ffffff"
-  header: true
+  header: false
   large_header:
     header_type: Small
-    line_1_text: Mark Twain's Copy
+    line_1_text: ''
 - REFNO: "779569"
   LOT: "207"
   LOW: "350"
