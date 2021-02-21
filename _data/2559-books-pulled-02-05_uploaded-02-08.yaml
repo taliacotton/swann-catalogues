@@ -316,6 +316,9 @@ lots:
     When you see anything you wish me to say my say on, just tell me and I will try
     what I can do."'
   color_background: "#ffffff"
+  image: "/v1612909922/2559/778580.jpg"
+  images:
+  - "/v1612909921/2559/778580_VIEW_02_02.jpg"
 - REFNO: "778551"
   LOT: "17"
   LOW: "300"
