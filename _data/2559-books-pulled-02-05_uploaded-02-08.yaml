@@ -217,6 +217,7 @@ lots:
   color_background: "#ffffff"
   images:
   - "/v1612910036/2559/779285_VIEW_02_02.jpg"
+  image: "/v1612910037/2559/779285.jpg"
 - REFNO: "778545"
   LOT: "13"
   LOW: "1000"
