@@ -402,6 +402,9 @@ lots:
   pullquote: INSCRIBED WITH HIS SELF-PORTRAIT
   FOOTNOTE: ''
   color_background: "#ffffff"
+  image: "/v1612909687/2559/777225.jpg"
+  images:
+  - "/v1612909686/2559/777225_VIEW_02.jpg"
 - REFNO: "778974"
   LOT: "22"
   LOW: "7000"
