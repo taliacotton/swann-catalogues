@@ -146,6 +146,7 @@ lots:
   color_background: "#ffffff"
   images:
   - "/v1612909776/2559/777957_VIEW_02_02.jpg"
+  image: "/v1612909776/2559/777957.jpg"
 - REFNO: "779364"
   LOT: "9"
   LOW: "2000"
