@@ -70,6 +70,7 @@ lots:
   color_background: "#ffffff"
   images:
   - "/v1612909620/2559/776624_VIEW_02.jpg"
+  image: "/v1612909621/2559/776624.jpg"
 - REFNO: "779283"
   LOT: "5"
   LOW: "800"
