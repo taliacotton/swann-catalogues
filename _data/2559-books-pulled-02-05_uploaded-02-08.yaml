@@ -536,6 +536,9 @@ lots:
     would be able to render first aid to any person who is in need of it."'
   color_background: "#ffffff"
   recommended: true
+  image: "/v1612910161/2559/779638.jpg"
+  images:
+  - "/v1612910160/2559/779638_VIEW_02_02.jpg"
 - REFNO: "779358"
   LOT: "28"
   LOW: "200"
