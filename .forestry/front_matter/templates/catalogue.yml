@@ -1,5 +1,5 @@
 ---
-label: Lots Data
+label: Lot
 hide_body: true
 display_field: title
 fields:
@@ -104,6 +104,16 @@ fields:
     type: image_gallery
     config: {}
     label: Image Slideshow (Optional)
+  - name: video_id
+    type: number
+    label: Video ID (Optional)
+    description: 9-digit video ID of Vimeo video. Typically the last 9 digits in url.
+    default: 0
+    required: true
+    config:
+      min: 
+      max: 
+      step: 
   - name: pullquote
     type: text
     config:
@@ -194,6 +204,17 @@ fields:
       showOnly:
         field: header_type
         value: Large
+    - name: background_image
+      type: file
+      config:
+        maxSize: 64
+      label: Background Image
+      description: This image appears below the large header text as background texture.
+        For best results, use a texture-like zoom of the image. <br>The text will
+        be white above it.
+      showOnly:
+        field: header_type
+        value: Large (Image)
     label: Large Header Text
     showOnly:
       field: header

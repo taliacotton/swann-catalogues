@@ -7,7 +7,7 @@
             }
         </style>
     </head>
-    <body class="loading" onload="checkCookie();">
+    <body class="loading visible-{{page.visible}}" onload="checkCookie();">
 
         <div class="password-modal">
             <p>This page is restricted. <br>Please enter a password to continue.</p>
@@ -34,8 +34,10 @@
             <div class="right"><button onclick="acceptCookies()" aria-label="Cookies Yes">Accept</button><button aria-label="Cookies No" onclick="declineCookies()">Decline</button></div>
         </div>
         <div id="topbar">
-            <a href="/"><img id="logo" src="/assets/img/swann-logo.gif" alt="Swann Logo"></a>
+            <a href="/"><img id="logo" src="/assets/img/swann-logo.gif" alt="Swann Logo">
+            <a href="#">
             <div class="catalogue-title">{{page.title}}  <span class="topbar--dot">•</span>  {{ page.datetime.date | date: "%A, %B %d, %Y" }} at {{ page.datetime.time | date: "%l:%M%P"}} {% if page.datetime.time2 %} <i>&</i> {{page.datetime.time2 | date: "%l:%M%P"}} {%endif%}</div>
+            </a>
             <div class="buttons small-type">
                 <button onclick="triggerPrintModal()">Print</button>
                 <button onclick="triggerSearch()">Search</button>
@@ -65,14 +67,16 @@
                 {% for session in page.chapters %}
                     {% for chapter in session.chapters %}
                             {% if lotNum == chapter.lot %}
-                            <li class="sidebar-chapter-separation">
-                                <a href="#{{chapter.chapter_title | slugify}}">
+                            <a class="sidebar-chapter-separation" href="#{{chapter.chapter_title | slugify}}">
+                            <li >
+                                
                                     {% if forloop.index == 1 %}
                                     <p class="small-type">{{session.session_title}}</p>
                                     {% endif%}
                                     <p class="chapter-title">{{chapter.chapter_title}}</p>
-                                </a>
+                                
                             </li>
+                            </a>
                             {% endif %}
                     {% endfor %}
                 {% endfor %}
@@ -80,9 +84,9 @@
                     <li data-id="lot{{lotNum}}">
                             <div class="thumbnail-lockup">
                                     {% if lot.image %}
-                                    <img class="lozad" data-src="{{ site.cloudinary_url }}/f_auto,q_70,w_60/{{ lot.image }}" crossorigin="anonymous">
+                                    <img class="" src="{{ site.cloudinary_url }}/f_auto,q_50,w_40/{{ lot.image }}" crossorigin="anonymous">
                                     {% elsif lot.REFNO %}
-                                    <img class="lozad" data-src="{{ site.cloudinary_url }}/f_auto,q_70,w_60/{{page.sale}}/{{ lot.REFNO }}.jpg" crossorigin="anonymous">
+                                    <img class="" src="{{ site.cloudinary_url }}/f_auto,q_50,w_40/{{page.sale}}/{{ lot.REFNO }}.jpg" crossorigin="anonymous">
                                     {% endif %}
                                     <p class="small-type">
                                         Lot {{forloop.index}}
@@ -97,7 +101,7 @@
             </ul>
         </nav>
         <section id="cover">
-                <img class="logo" src="/assets/img/swann-logo.gif">
+                <a href="/"><img class="logo" src="/assets/img/swann-logo.gif"></a>
                 <a class="on-the-cover small-type" href="#lot{{page.cover_image.lot_number}}">
                     On the cover:
                     <br> Lot {{page.cover_image.lot_number}} • {{page.cover_image.title}}
@@ -107,18 +111,19 @@
                     {% if page.cover_image.image %}
                     <img style="background-color:{{bg}}"
                         sizes="(min-width: 726px) 50vw, 100vw"
-                        srcset="{{ site.cloudinary_url }}/f_auto,q_70,w_512{{ page.cover_image.image }} 512w,
-                                {{ site.cloudinary_url }}/f_auto,q_70,w_768{{ page.cover_image.image }} 768w,
-                                {{ site.cloudinary_url }}/f_auto,q_70,w_1024{{ page.cover_image.image }} 1024w,
-                                {{ site.cloudinary_url }}/f_auto,q_70,w_1280{{ page.cover_image.image }} 1280w,
+                        class="lozad"
+                        data-srcset="{{ site.cloudinary_url }}/f_auto,q_70,w_250{{ page.cover_image.image }} 250w,
+                                {{ site.cloudinary_url }}/f_auto,q_70,w_500{{ page.cover_image.image }} 500w,
+                                {{ site.cloudinary_url }}/f_auto,q_70,w_800{{ page.cover_image.image }} 800w,
+                                {{ site.cloudinary_url }}/f_auto,q_70,w_1200{{ page.cover_image.image }} 1200w,
                                 {{ site.cloudinary_url }}/f_auto,q_70,w_1600{{ page.cover_image.image }} 1600w"
-                        src="{{ site.cloudinary_url }}/f_auto,q_70,w_512/{{ page.cover_image.image }}"
+                        src="{{ site.cloudinary_url }}/f_auto,q_50,w_40/{{ page.cover_image.image }}"
                         alt="" />
                         {% endif %}
                 </div>
                 <div class="spine">
                     <div class="spine-text">
-                        <span class="spine-date">{{ page.datetime.date | date: "%B %d, %Y" }}</span>
+                        <!-- <span class="spine-date">{{ page.datetime.date | date: "%B %d, %Y" }}</span> -->
                         <span class="spine-title">{{page.title}}</span>
                     </div>
                 </div>
@@ -134,7 +139,7 @@
                 </div>
             </section>
         <div class="main-content">
-            <div class="phantom-toc" id="contents">
+            <div class="phantom-toc" id="contents" data-scroll-watch data-hide="#toc-dots">
                 <div class="subnav">
                     <ul class="filters small-type">
                         <li>View by:</li>
@@ -176,18 +181,16 @@
                     <a href="#lot{{forloop.index}}" class="dot-container" data-year="{{lot.year}}">
                         <div class="line"></div>
                         <div class="dot-container-inner">
-                            {% if dot.bookmark == true %}
-                            <div class="dot square"></div>
-                            {% elsif dot.favorite == true %}
+                            {% if lot.recommended %}
                             <div class="dot diamond"></div>
                             {% else %}
                             <div class="dot"></div>
                             {% endif %}
                             <div class="thumbnail-lockup">
                                 {% if lot.image %}
-                                 <img class="lozad" data-src="{{ site.cloudinary_url }}/f_auto,q_70,w_60/{{ lot.image }}" crossorigin="anonymous" alt="lot thumbnail image">
+                                 <img class="lozad" data-src="{{ site.cloudinary_url }}/f_auto,q_50,w_40/{{ lot.image }}" crossorigin="anonymous" alt="lot thumbnail image">
                                  {% elsif lot.REFNO %}
-                                 <img class="lozad" data-src="{{ site.cloudinary_url }}/f_auto,q_70,w_60/{{page.sale}}/{{ lot.REFNO }}.jpg" crossorigin="anonymous" alt="lot thumbnail image">
+                                 <img class="lozad" data-src="{{ site.cloudinary_url }}/f_auto,q_50,w_40/{{page.sale}}/{{ lot.REFNO }}.jpg" crossorigin="anonymous" alt="lot thumbnail image">
                                  {% endif %}
                                  <p class="small-type">
                                      Lot {{forloop.index}}
@@ -200,51 +203,59 @@
                     {% endfor %}
                 </div>
             </section>
-            <section id="info" class="leftright">
-                <div class="left">
-                    <img class="logo" src="/assets/img/swann-logo-alt.gif" alt="Swann Logo">
+            <section id="info">
+                <div class="leftright">
+                    <div class="left">
+                    <div><img class="logo" src="/assets/img/swann-logo-alt.gif" alt="Swann Logo"></div>
                     <h2>{{page.title}}</h2>
-                    <div class="people">
-                        {% for entry in page.people.main_contacts %}
-                        {% assign person = site.people | where: "path", entry | first %}
-                        <div>
-                            {% if person.image %}
-                            <img src="{{ site.cloudinary_url }}/w_100,c_scale/{{ person.image }}" alt="{{person.title}}, {{person.role}}">
-                            {% endif %}
-                            <h4><b>{{person.title}}</b><br>{{person.role}}</h4>
-                            <small>
-                                {{person.email}}
-                                <br>{{person.phone}}
-                            </small>
-                        </div>
-                        {% endfor %}
+                    </div>
+                    <div class="right">
+                        <h3>Officers</h3>
                     </div>
                 </div>
-                <div class="right">
-                    <img style="visibility:hidden;opacity:0" class="logo" src="/assets/img/swann-logo-alt.gif">
-                    <h3>Officers</h3>
-                     <div class="people">
-                        {% for entry in page.people.officers %}
-                        {% assign person = site.people | where: "path", entry | first %}
-                        <div>
-                            <h4><b>{{person.title}}</b><br>{{person.role}}</h4>
-                            <small>
-                                {{person.number}}
-                            </small>
+                <div class="leftright">
+                    <div class="left">
+                        <div class="people">
+                            {% for entry in page.people.main_contacts %}
+                            {% assign person = site.people | where: "path", entry | first %}
+                            <div>
+                                {% if person.image %}
+                                <img src="{{ site.cloudinary_url }}/w_100,c_scale/{{ person.image }}" alt="{{person.title}}, {{person.role}}">
+                                {% endif %}
+                                <h4><b>{{person.title}}</b><br>{{person.role}}</h4>
+                                <small>
+                                    {{person.email}}
+                                    <br>{{person.phone}}
+                                </small>
+                            </div>
+                            {% endfor %}
                         </div>
-                        {% endfor %}
                     </div>
-                    <h3>Administration</h3>
-                    <div class="people">
-                        {% for entry in page.people.administration %}
-                        {% assign person = site.people | where: "path", entry | first %}
-                        <div>
-                            <h4><b>{{person.title}}</b><br>{{person.role}}</h4>
-                            <small>{{person.email}}</small>
+                    <div class="right">
+                        
+                        <div class="people">
+                            {% for entry in page.people.officers %}
+                            {% assign person = site.people | where: "path", entry | first %}
+                            <div>
+                                <h4><b>{{person.title}}</b><br>{{person.role}}</h4>
+                                <small>
+                                    {{person.number}}
+                                </small>
+                            </div>
+                            {% endfor %}
                         </div>
-                        {% endfor %}
+                        <h3>Administration</h3>
+                        <div class="people">
+                            {% for entry in page.people.administration %}
+                            {% assign person = site.people | where: "path", entry | first %}
+                            <div>
+                                <h4><b>{{person.title}}</b><br>{{person.role}}</h4>
+                                <small>{{person.email}}</small>
+                            </div>
+                            {% endfor %}
+                        </div>
+                        {{page.people.general_information | markdownify}}
                     </div>
-                    {{page.people.general_information | markdownify}}
                 </div>
             </section>
             <!-- <section id="chp1"  class="chapter-head">
@@ -261,7 +272,7 @@
                 {% for session in page.chapters %}
                     {% for chapter in session.chapters %}
                             {% if lotNum == chapter.lot %}
-                            <section id="{{chapter.chapter_title | slugify}}"  class="chapter-head">
+                            <section id="chp-{{chapter.chapter_title | slugify}}"  class="chapter-head">
                                 <div class="inner">
                                     <h3 class="small-type">{{session.session_title}}</h3>
                                     <h1>{{chapter.chapter_title}}</h1>
@@ -273,7 +284,7 @@
 
                 {% for essay in page.essays %}
                     {% if lotNum == essay.lot %}
-                    <section class="essay">
+                    <section class="essay" id="{{essay.title | slugify}}">
                         <div class="inner">
                             <div class="title-text">
                                 <h1>{{essay.title}}</h1>
@@ -288,11 +299,13 @@
                     </section>
                     {% endif %}
                 {% endfor %}
-                
+
                 {% include X_lot.html %}
                 
             {% endfor %}
             </div>
+            {% assign footerLength = page.footer_pages | size %}
+            {% if footerLength > 0 %}
             <section id="end-content">
                 <div class="inner">
                     {% for footerpage in page.footer_pages %}
@@ -307,29 +320,33 @@
                     {% endfor %}
                 </div>
             </section>
+            {% endif %}
         </div>
         <div class="callout" id="hamburgerCallout">
             <p>You can click this button to return to the table of contents at any time.</p>
-            <button onclick="this.parentElement.classList.add('got-it')">Got it!</button>
+            <button onclick="this.parentElement.classList.add('got-it')">close</button>
         </div>
+
+        <textarea id="url_to_copy"></textarea>
 
         <div id="printModal">
             <div class="inner">
                 <h2>Choose a<br>print option:</h2>
                 <div class="control-group">
                     <label class="control control-radio">
-                        Entire catalogue <span>(320)</span>
-                            <input type="radio" name="radio" checked="checked" />
+                        Entire catalogue <span>({{lots|size}})</span>
+                            <input type="radio" name="radio" value="all" checked="checked" />
                         <div class="control_indicator"></div>
                     </label>
                     <label class="control control-radio">
-                        Bookmarked Lots Only <span>(2)</span>
-                            <input type="radio" name="radio" />
+                        Bookmarked Lots Only <span id="bookmarkedCount">(2)</span>
+                            <input type="radio" name="radio" value="bookmarked" />
                         <div class="control_indicator"></div>
                     </label>
                     <label class="control control-radio">
-                        Recommended Lots Only <span>(6)</span>
-                            <input type="radio" name="radio" />
+                        {% assign recommendedSize = lots | where: "recommended", "true" %}
+                        Recommended Lots Only <span>({{recommendedSize | size}})</span>
+                            <input type="radio" name="radio" value="recommended" />
                         <div class="control_indicator"></div>
                     </label>
                 </div>
@@ -337,10 +354,12 @@
                 <button id="cancelBtn" class="small-type" onclick="triggerPrintModal()">Cancel</button>
             </div>
         </div>
+    
 
         <!-- <script src="https://cdn.jsdelivr.net/npm/vanilla-lozadload@17.3.0/dist/lozadload.min.js"></script> -->
         <script src="https://cdnjs.cloudflare.com/ajax/libs/color-thief/2.3.0/color-thief.umd.js"></script>
-        <script src="/assets/js/cookies.js" async defer></script>
-        <script src="/assets/js/catalogue.js" async defer></script>
+        <script src="/assets/js/emitter.min.js" ></script>
+        <script src="/assets/js/cookies.js" async></script>
+        <script src="/assets/js/catalogue.js" async ></script>
 
 {% include foot.html %}

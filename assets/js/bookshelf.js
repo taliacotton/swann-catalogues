@@ -13,23 +13,14 @@ for (let c of catalogues){
     //     audio.currentTime = 0;
     //     audio.play();
     // }
-    // functions to mimic dynamic content,
-    // will delete later
-    c.innerHTML += `<div class="book-cover">
-        <img src="assets/img/cover.png">
-        <div class="top-content">
-            <span class="book-cover--sale">Sale ${c.getAttribute("data-sale")}</span>
-            <h1>${c.querySelector(".department").innerHTML}</h1>
-            <h3>${c.querySelector(".date").innerHTML}</h3>
-        </div>
-        <div class="stripe"></div>
-    </div>`
-    c.querySelector('a').onclick=function(e){
-        e.preventDefault();
-        let URL = this.href;
-        setTimeout( function() { window.location = URL }, 2000 );
-        triggerPageTransition(this.parentElement);
-    }
+
+    // PAGE TRANSITION, deleted to make transition faster
+    // c.querySelector('a').onclick=function(e){
+    //     e.preventDefault();
+    //     let URL = this.href;
+    //     setTimeout( function() { window.location = URL }, 2000 );
+    //     triggerPageTransition(this.parentElement);
+    // }
 }
 
 function toggleMenu(){
@@ -43,12 +34,10 @@ function sortTable(category) {
 
   // switch arrow direction
   if (document.querySelector(".toolbar svg.rotated") != null){
-  document.querySelector(".toolbar svg.rotated").classList.remove("rotated");
+    document.querySelector(".toolbar svg.rotated").classList.remove("rotated");
   }
   document.querySelector(".toolbar ." + category + " svg").classList.add("rotated");
 
-//   let selector = "[data-" + category + "]";
-//   console.log(selector);
   /*Make a loop that will continue until
   no switching has been done:*/
   while (switching) {
@@ -63,6 +52,7 @@ function sortTable(category) {
       /*Get the two elements you want to compare,
       one from current row and one from the next:*/
         if (category == "department"){
+            // alphabetical order
             x = rows[i].querySelectorAll(".department")[0];
             y = rows[i + 1].querySelectorAll(".department")[0];
             if (x.innerHTML.toLowerCase() > y.innerHTML.toLowerCase()) {
@@ -70,6 +60,7 @@ function sortTable(category) {
                 break;
             }
         } else {
+            // ordered by number
             x = rows[i].getAttribute("data-" + category);
             y = rows[i + 1].getAttribute("data-" + category);
             if (parseInt(x) > parseInt(y)) {
@@ -85,6 +76,12 @@ function sortTable(category) {
       switching = true;
     }
   }
+   // Close the menu when sorting is complete
+   // I added an open check since I am not 100% sure how this will affect desktop
+   if (toolbar.classList.contains('open')) {
+      toggleMenu();
+   }
+   
 }
 
 function triggerPageTransition(selection){

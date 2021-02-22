@@ -21,6 +21,7 @@ lots:
     header_type: []
   image: "/v1609710789/776339_g8dxaq.jpg"
   year: 1951
+  recommended: true
 - DESCRIPT: Peter Hujar (1934-1987)
   CROSSHEAD: Ethyl Eichelberger
   at-a-glance: Silver print, the image measuring 371.5x374.7 mm; 14 5/8x14 3/4 inches,
@@ -94,6 +95,7 @@ lots:
   - "/v1609968743/769890_view_04_04_pigmpx.jpg"
   - "/v1609968743/769890_view_02_02_pqabva.jpg"
   year: 1813
+  recommended: true
 - DESCRIPT: Ronald Joseph (1910 - 1992)
   CROSSHEAD: Untitled (Family at the Table)
   at-a-glance: Oil and enamel on a thick wood panel, circa 1940. 565x406 mm; 22 1/4x16
@@ -105,7 +107,10 @@ lots:
   FOOTNOTE: 'Provenance: private collection, Massachussetts.'
   color_background: "#000000"
   large_header:
-    header_type: []
+    header_type: Large (Image)
+    line_1_text: Header Test
+    line_2_text: For Image
+    background_image: "/v1612910061/2559/779330.jpg"
   LOW: "100"
   HIGH: "500"
   images:
@@ -119,6 +124,9 @@ lots:
   - "/v1609968355/770066_view_10_10_nhprcy.jpg"
   image: "/v1609968356/770066_view_03_03_mybtyj.jpg"
   year: 1940
+  header: true
+  recommended: true
+  LOT: X
 - DESCRIPT: Jacob Lawrence (1917–2000)
   CROSSHEAD: Cutting Logs
   at-a-glance: |-
@@ -144,6 +152,7 @@ lots:
     header_type: []
   image: "/v1609968792/772283_jhwt3e.jpg"
   year: 1942
+  video_id: 512213281
 - LOT: "1"
   REFNO: "772283"
   LOW: "6000"
@@ -179,7 +188,7 @@ lots:
     line_2_text: Line 2
     background_color: "#417505"
     text_color: white
-    header_type: Large
+    header_type: Large (Image)
   header: true
   image: "/v1609709167/773409_x8rsbn.jpg"
   pullquote: ''
@@ -219,6 +228,7 @@ lots:
   header: true
   image: "/v1609968816/775374_omstfs.jpg"
   year: 1845
+  recommended: true
 - LOT: "3"
   REFNO: "775332"
   LOW: "2000"

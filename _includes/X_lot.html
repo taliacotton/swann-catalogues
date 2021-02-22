@@ -1,6 +1,7 @@
+
 {% if lot.header %}
     {% if lot.large_header.header_type == 'Large' %}
-    <section class="header_text {{lot.large_header.header_type | slugify}}" style="background-color: {{lot.large_header.background_color}}; color: {{lot.large_header.text_color}}">
+    <section id="header-{{lotNum}}" class="header_text {{lot.large_header.header_type | slugify}}" style="background-color: {{lot.large_header.background_color}}; color: {{lot.large_header.text_color}}">
         <div class="header-inner">
             <span>{{lot.large_header.line_1_text}}</span>
             <br><span><i>{{lot.large_header.line_2_text}}</i></span>
@@ -8,7 +9,7 @@
     </section>
     {% elsif lot.large_header.header_type == 'Large (Image)' %}
     <!-- <section class="header_text {{lot.large_header.header_type | slugify}}" style="background-image: url()"> -->
-    <section class="header_text {{lot.large_header.header_type | slugify}}">
+    <section id="header-{{lotNum}}" class="header_text {{lot.large_header.header_type | slugify}} lozad" data-background-image="{{ site.cloudinary_url }}/w_1040{{lot.large_header.background_image}}">
         <div class="header-inner">
             <span>{{lot.large_header.line_1_text}}</span>
             <br><span><i>{{lot.large_header.line_2_text}}</i></span>
@@ -16,85 +17,92 @@
     </section>
     {% endif %}
 {% endif %}
+<!-- LARGE IMAGES -->
 {% if lot.large_img %}
     {% if lot.full_width_image.background_color %}{% assign bgLg = lot.full_width_image.background_color %}{%else%}{%assign bgLg ='#212121'%}{%endif%}
-    <section class="large_image" style="background-color: {{bgLg}};">
+    <section id="image-{{lotNum}}" class="large_image" style="background-color: {{bgLg}};">
         <img
             sizes="100vw"
-            data-srcset="{{ site.cloudinary_url }}/f_auto,q_70,w_512{{ lot.full_width_image.image }} 512w,
-                    {{ site.cloudinary_url }}/f_auto,q_70,w_768{{ lot.full_width_image.image }} 768w,
-                    {{ site.cloudinary_url }}/f_auto,q_70,w_1024{{ lot.full_width_image.image }} 1024w,
-                    {{ site.cloudinary_url }}/f_auto,q_70,w_1280{{ lot.full_width_image.image }} 1280w,
+            data-srcset="{{ site.cloudinary_url }}/f_auto,q_70,w_250{{ lot.full_width_image.image }} 250w,
+                    {{ site.cloudinary_url }}/f_auto,q_70,w_500{{ lot.full_width_image.image }} 500w,
+                    {{ site.cloudinary_url }}/f_auto,q_70,w_800{{ lot.full_width_image.image }} 800w,
+                    {{ site.cloudinary_url }}/f_auto,q_70,w_1200{{ lot.full_width_image.image }} 1200w,
                     {{ site.cloudinary_url }}/f_auto,q_70,w_1600{{ lot.full_width_image.image }} 1600w,
                     {{ site.cloudinary_url }}/f_auto,q_70,w_2000{{ lot.full_width_image.image }} 2000w"
-            data-src="{{ site.cloudinary_url }}/f_auto,q_70,w_640/{{ lot.full_width_image.image }}"
+            data-src="{{ site.cloudinary_url }}/f_auto,q_70,w_500/{{ lot.full_width_image.image }}"
+            src="{{ site.cloudinary_url }}/f_auto,q_50,w_40/{{ lot.full_width_image.image }}"
             alt=""
             class="lozad" />
     </section>
 {% endif %}
-<section id="lot{{lotNum}}" class="lot">
-    <div class="left">
+
+<section id="lot{{lotNum}}" class="lot rec-{{lot.recommended}}">
+    <div class="left {% if lot.images.first or lot.video_id %}js-slideshow has-slideshow{% endif %}">
         <div class="printFooter print-content">Lot {{lot.REFNO}}</div>
+        
         {% if lot.images[0] %}
-            <div class="slideshow"  style="background-color:{{bg}}">
+            <!-- <div class="slider-actions">
+                <div class="next js-next"><svg width="8" height="14" viewBox="0 0 8 14" fill="none" xmlns="http://www.w3.org/2000/svg"><path d="M0 14V0L8 7L0 14Z" fill="#1893F8"/></svg></div>
+                <div class="previous js-previous"><svg width="8" height="14" viewBox="0 0 8 14" fill="none" xmlns="http://www.w3.org/2000/svg"><path d="M0 14V0L8 7L0 14Z" fill="#1893F8"/></svg></div>
+            </div> -->
+            <div class="zoom-container"></div>
+            <div class="slideshow"  data-scroll='0' style="background-color:{{bg}}">
                     <div class="slideshow-img-container">
-                    <img
-                        sizes="(min-width: 726px) 50vw, 100vw"
-                        data-srcset="{{ site.cloudinary_url }}/f_auto,q_70,w_512{{ lot.image }} 512w,
-                                {{ site.cloudinary_url }}/f_auto,q_70,w_768{{ lot.image }} 768w,
-                                {{ site.cloudinary_url }}/f_auto,q_70,w_1024{{ lot.image }} 1024w,
-                                {{ site.cloudinary_url }}/f_auto,q_70,w_1280{{ lot.image }} 1280w,
-                                {{ site.cloudinary_url }}/f_auto,q_70,w_1600{{ lot.image }} 1600w"
-                        data-src="{{ site.cloudinary_url }}/f_auto,q_70,w_640/{{ lot.image }}"
-                        alt=""
-                        class="lozad" />
+                        <img
+                            data-image="{{ lot.image }}"
+                            sizes="auto"
+                            data-srcset="{{ site.cloudinary_url }}/f_auto,q_70,w_250{{ lot.image }} 250w,
+                                    {{ site.cloudinary_url }}/f_auto,q_70,w_500{{ lot.image }} 500w,
+                                    {{ site.cloudinary_url }}/f_auto,q_70,w_800{{ lot.image }} 800w,
+                                    {{ site.cloudinary_url }}/f_auto,q_70,w_1200{{ lot.image }} 1200w,
+                                    {{ site.cloudinary_url }}/f_auto,q_70,w_1600{{ lot.image }} 1600w"
+                            data-src="{{ site.cloudinary_url }}/f_auto,q_70,w_500/{{ lot.image }}"
+                            src="{{ site.cloudinary_url }}/f_auto,q_50,w_40/{{ lot.image }}"
+                            alt=""
+                            class="lozad" />
                     </div>
+
+                    
+                    {% if lot.video_id %}
+                        <div class="slideshow-img-container"></div>
+                            <div style="padding:56.25% 0 0 0;position:relative;"><iframe src="https://player.vimeo.com/video/{{lot.video_id}}?title=0&byline=0&portrait=0&controls=0&autoplay=1&loop=1" style="position:absolute;top:0;left:0;width:100%;height:100%;" frameborder="0" allow="autoplay; fullscreen; picture-in-picture" allowfullscreen></iframe></div><script src="https://player.vimeo.com/api/player.js"></script>
+                        </div>
+                    {% endif %}
+
+
                     {% for image in lot.images %}
                     <div class="slideshow-img-container">
                         <img
-                            sizes="(min-width: 726px) 50vw, 100vw"
-                            data-img="{{ image }}"
-                            data-srcset="{{ site.cloudinary_url }}/f_auto,q_70,w_512{{ image }} 512w,
-                                {{ site.cloudinary_url }}/f_auto,q_70,w_768{{ image }} 768w,
-                                {{ site.cloudinary_url }}/f_auto,q_70,w_1024{{ image }} 1024w,
-                                {{ site.cloudinary_url }}/f_auto,q_70,w_1280{{ image }} 1280w,
+                            sizes="auto"
+                            data-image="{{ image }}"
+                            data-srcset="{{ site.cloudinary_url }}/f_auto,q_70,w_250{{ image }} 250w,
+                                {{ site.cloudinary_url }}/f_auto,q_70,w_500{{ image }} 500w,
+                                {{ site.cloudinary_url }}/f_auto,q_70,w_800{{ image }} 800w,
+                                {{ site.cloudinary_url }}/f_auto,q_70,w_1200{{ image }} 1200w,
                                 {{ site.cloudinary_url }}/f_auto,q_70,w_1600{{ image }} 1600w"
-                            data-src="{{ site.cloudinary_url }}/f_auto,q_70,w_640/{{ image }}"
+                            data-src="{{ site.cloudinary_url }}/f_auto,q_70,w_500/{{ image }}"
+                            src="{{ site.cloudinary_url }}/f_auto,q_50,w_40/{{ image }}"
                             alt=""
                             class="lozad" />
                     </div>
                     {% endfor %}
             </div>
+        {% elsif lot.video_id and lot.image %}
+            <div class="zoom-container"></div>
+            <div class="slideshow" data-scroll='0' style="background-color:{{bg}}">
+                <div class="slideshow-img-container">
+                    {% include lot_images.html %}
+                </div>
+                <div class="slideshow-img-container">
+                    {% if lot.video_id %}
+                        <div style="padding:56.25% 0 0 0;position:relative;"><iframe src="https://player.vimeo.com/video/{{lot.video_id}}?title=0&byline=0&portrait=0&controls=0" style="position:absolute;top:0;left:0;width:100%;height:100%;" frameborder="0" allow="autoplay; fullscreen; picture-in-picture" allowfullscreen></iframe></div><script src="https://player.vimeo.com/api/player.js"></script>
+                    {% endif %}
+                </div>
+                
+            </div>
         {% else %}
-            {% if lot.color_background %}{% assign bg = lot.color_background %}{%else%}{%assign bg ='black'%}{%endif%}
-            {% if lot.image %}
-                <!-- <img style="background-color:{{bg}}" src="/assets/img/{{lot.image}}"> -->
-                <img style="background-color:{{bg}}"
-                        sizes="(min-width: 726px) 50vw, 100vw"
-                        data-img="{{ lot.image }}"
-                        data-srcset="{{ site.cloudinary_url }}/f_auto,q_70,w_512{{ lot.image }} 512w,
-                                {{ site.cloudinary_url }}/f_auto,q_70,w_768{{ lot.image }} 768w,
-                                {{ site.cloudinary_url }}/f_auto,q_70,w_1024{{ lot.image }} 1024w,
-                                {{ site.cloudinary_url }}/f_auto,q_70,w_1280{{ lot.image }} 1280w,
-                                {{ site.cloudinary_url }}/f_auto,q_70,w_1600{{ lot.image }} 1600w,
-                                {{ site.cloudinary_url }}/f_auto,q_70,w_2400{{ lot.image }} 2400w"
-                        data-src="{{ site.cloudinary_url }}/f_auto,q_70,w_512/{{ lot.image }}"
-                        alt="" 
-                        class="lozad"/>
-            {% elsif lot.REFNO %}
-            <img style="background-color:{{bg}}"
-                        sizes="(min-width: 726px) 50vw, 100vw"
-                        data-img="{{ lot.image }}"
-                        data-srcset="{{ site.cloudinary_url }}/f_auto,q_70,w_512/{{page.sale}}/{{ lot.REFNO }}.jpg 512w,
-                                {{ site.cloudinary_url }}/f_auto,q_70,w_768/{{page.sale}}/{{ lot.REFNO }}.jpg 768w,
-                                {{ site.cloudinary_url }}/f_auto,q_70,w_1024/{{page.sale}}/{{ lot.REFNO }}.jpg 1024w,
-                                {{ site.cloudinary_url }}/f_auto,q_70,w_1280/{{page.sale}}/{{ lot.REFNO }}.jpg 1280w,
-                                {{ site.cloudinary_url }}/f_auto,q_70,w_1600/{{page.sale}}/{{ lot.REFNO }}.jpg 1600w,
-                                {{ site.cloudinary_url }}/f_auto,q_70,w_2400/{{page.sale}}/{{ lot.REFNO }}.jpg 2400w"
-                        data-src="{{ site.cloudinary_url }}/f_auto,q_70,w_512/{{page.sale}}/{{ lot.REFNO }}.jpg"
-                        alt="" 
-                        class="lozad" />
-            {% endif %}
+            {% include lot_images.html %}
+
         {% endif %}
     </div>
     <div class="right">
@@ -116,7 +124,7 @@
             {% if lot.header_text %}
                 {% if lot.header_text.type == 'small' %}
                     <div class="header-text-small">
-                        <span class="lotNum">9</span>
+                        <span class="lotNum">{{lotNum}}</span>
                         <div class="circle"></div>
                         <span>{{lot.header_text.line_1}}</span>
                         <div class="circle"></div>
@@ -174,7 +182,7 @@
                     <svg style="top:1px" width="8" height="12" viewBox="0 0 8 12" fill="none" xmlns="http://www.w3.org/2000/svg"><path d="M1 1L6 6L1 11" stroke="#008FFC" stroke-width="1.8"/></svg>
                 </a>
                 {%endif%}
-                <a href="#">Share Lot</a>
+                <button onclick="shareLot(this)">Share Lot</button>
             </div>
             <div class="notes-right">
                 <textarea class="notes small-type" id="textarea"></textarea>
