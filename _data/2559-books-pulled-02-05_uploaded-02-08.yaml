@@ -753,7 +753,7 @@ lots:
   LOT: "41"
   LOW: "3000"
   HIGH: "4000"
-  DESCRIPT: "(MEDICINE.) NIGHTINGALE, FLORENCE."
+  DESCRIPT: NIGHTINGALE, FLORENCE.
   CROSSHEAD: Autograph Letter Signed, to "My dear Mrs. Fowler" [wife of Dr. Richard
     Fowler?],
   at-a-glance: Np, 30 October 1961
@@ -780,6 +780,14 @@ lots:
     Published as "Letter from Florence Nightingale," The Johns Hopkins Nurses Alumnae Magazine 29, no. 2 (1930): 50.
   color_background: "#ffffff"
   recommended: true
+  image: "/v1612910076/2559/779357.jpg"
+  images:
+  - "/v1612910069/2559/779357_VIEW_02_02.jpg"
+  - "/v1612910070/2559/779357_VIEW_03_03.jpg"
+  - "/v1612910072/2559/779357_VIEW_04_04.jpg"
+  - "/v1612910073/2559/779357_VIEW_06_05.jpg"
+  - "/v1612910074/2559/779357_VIEW_07_06.jpg"
+  - "/v1612910075/2559/779357_VIEW_07.jpg"
 - REFNO: "779373"
   LOT: "42"
   LOW: "500"
