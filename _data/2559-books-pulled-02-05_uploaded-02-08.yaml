@@ -556,6 +556,11 @@ lots:
   pullquote: ''
   FOOTNOTE: ''
   color_background: "#ffffff"
+  header: true
+  large_header:
+    header_type: Large
+    line_1_text: Medical Practicioners
+    line_2_text: Florence Nightingale, Joseph Lister, Marie Curie, Sigmund Freud
 - REFNO: "779237"
   LOT: "29"
   LOW: "400"
