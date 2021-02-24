@@ -3,11 +3,11 @@ layout: X_catalogue
 lots: []
 color: "#AD926F"
 cover_image:
-  lot_number: 0
+  lot_number: 
   title: ''
   image: ''
 filename: ''
-visible: false
+visible: true
 permalink: "/fine-art/19th-20th-century-art/2560"
 sale: 2560
 title: 19th & 20th Century Art
