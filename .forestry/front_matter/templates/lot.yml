@@ -45,7 +45,7 @@ fields:
     options: []
     source:
       type: pages
-      section: catalogue-data-files
+      section: lots
       file: 
       path: 
   label: Lots
