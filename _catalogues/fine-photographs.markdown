@@ -7,7 +7,7 @@ cover_image:
   title: ''
   image: ''
 filename: ''
-visible: false
+visible: true
 permalink: "/photographs/fine-photographs/2561"
 sale: 2561
 title: Fine Photographs
