@@ -420,7 +420,7 @@ document.body.onload = function(){
     resizeAllTextareas();
     // apply highlights from cookie
     for (let highlight of highlights){
-        createHighlight(highlight.lot, highlight.pIndex, highlight.startChar, highlight.totalChar, highlight.id);
+        // createHighlight(highlight.lot, highlight.pIndex, highlight.startChar, highlight.totalChar, highlight.id);
     }
 }
 
