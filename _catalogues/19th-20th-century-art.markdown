@@ -1,6 +1,6 @@
 ---
 layout: X_catalogue
-lots: _data/2560-printscatalogue-2021-02-23.yaml
+lots: _data/2560-printscatalogue-2021-02-19.yaml
 color: "#AD926F"
 cover_image:
   lot_number: 
