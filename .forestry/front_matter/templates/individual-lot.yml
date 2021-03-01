@@ -107,3 +107,53 @@ fields:
   description: Use color to make a lot stand out, perhaps. Default is black, recommended
     is black or white.
   default: "#000000"
+- name: video_id
+  type: number
+  label: Video ID (Optional)
+  description: 9-digit video ID of Vimeo video. Typically the last 9 digits in url.
+  default: 0
+  required: true
+  config:
+    min: 
+    max: 
+    step: 
+- name: pullquote
+  type: text
+  config:
+    required: false
+  label: Pullquote (Optional)
+  description: Suggested to use sparingly. This shows up in large text before the
+    main lot info.<br>Leave blank if no header text.
+- name: large_img
+  type: boolean
+  label: 'Display large full-width image before lot? '
+  description: Recommended to use only on selected lots that demand extra attention.
+- name: full_width_image
+  type: field_group
+  config: {}
+  fields:
+  - name: image
+    type: file
+    config:
+      maxSize: 64
+    label: Image
+  - name: background_color
+    type: color
+    label: Background Color
+    config:
+      required: false
+      color_format: Hex
+  label: Full Width Image
+  showOnly:
+    field: large_img
+    value: true
+- name: header
+  type: boolean
+  label: Will there be special large header text?
+- name: large_header_text
+  type: field_group
+  config: {}
+  label: Large Header Text
+  showOnly:
+    field: header
+    value: true
