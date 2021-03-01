@@ -5,6 +5,11 @@ admin_path: "/admin/"
 webhook_url: 
 sections:
 - type: directory
+  path: _lots
+  label: Individual Lots
+  create: all
+  match: "**/*"
+- type: directory
   path: _catalogues
   label: Catalogues
   create: documents
