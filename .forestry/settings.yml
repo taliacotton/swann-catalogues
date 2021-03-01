@@ -9,6 +9,8 @@ sections:
   label: Individual Lots
   create: all
   match: "**/*"
+  templates:
+  - individual-lot
 - type: directory
   path: _catalogues
   label: Catalogues
