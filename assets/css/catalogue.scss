@@ -16,9 +16,9 @@ body{
             z-index:1000;
             --spineWidth: 80px;
         }
-        #cover > *{
-            opacity:0;
-        }
+      //   #cover > *{
+      //       opacity:0;
+      //   }
         #cover .spine, #cover .stripe{
             opacity:1;
         }
@@ -43,6 +43,14 @@ body{
     
 }
 
+.lot-wrapper{
+   // display: none;
+   visibility: hidden;
+   &.visible{
+      visibility: visible;
+      // display: block;
+   }
+}
 /* Hide scrollbar for Chrome, Safari and Opera */
 *::-webkit-scrollbar {
   display: none;
@@ -1010,9 +1018,10 @@ section{position:relative;}
             pointer-events:none;
             z-index:0;
             filter:blur(4px);
-            transition:filter 400ms 100ms ease;
-            &[data-loaded=true]{
-                filter:blur(0px);
+            transition:filter 400ms 50ms ease;
+            &[data-loaded=true],
+            &.lazyloaded{
+               filter:blur(0px);
             }
         }
         .zoom-container{

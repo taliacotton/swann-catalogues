@@ -1,4 +1,4 @@
-
+<div class="lot-wrapper" data-lot="{{lotNum}}">
 {% if lot.header %}
     {% if lot.large_header.header_type == 'Large' %}
     <section id="header-{{lotNum}}" class="header_text {{lot.large_header.header_type | slugify}}" style="background-color: {{lot.large_header.background_color}}; color: {{lot.large_header.text_color}}">
@@ -9,7 +9,7 @@
     </section>
     {% elsif lot.large_header.header_type == 'Large (Image)' %}
     <!-- <section class="header_text {{lot.large_header.header_type | slugify}}" style="background-image: url()"> -->
-    <section id="header-{{lotNum}}" class="header_text {{lot.large_header.header_type | slugify}} lozad" data-background-image="{{ site.cloudinary_url }}/w_1040{{lot.large_header.background_image}}">
+    <section id="header-{{lotNum}}" class="header_text {{lot.large_header.header_type | slugify}} lazyload" data-background-image="{{ site.cloudinary_url }}/w_1040{{lot.large_header.background_image}}">
         <div class="header-inner">
             <span>{{lot.large_header.line_1_text}}</span>
             <br><span><i>{{lot.large_header.line_2_text}}</i></span>
@@ -22,17 +22,17 @@
     {% if lot.full_width_image.background_color %}{% assign bgLg = lot.full_width_image.background_color %}{%else%}{%assign bgLg ='#212121'%}{%endif%}
     <section id="image-{{lotNum}}" class="large_image" style="background-color: {{bgLg}};">
         <img
-            sizes="100vw"
+            data-sizes="100vw"
             data-srcset="{{ site.cloudinary_url }}/f_auto,q_70,w_250{{ lot.full_width_image.image }} 250w,
-                    {{ site.cloudinary_url }}/f_auto,q_70,w_500{{ lot.full_width_image.image }} 500w,
+                    {{ site.cloudinary_url }}/f_auto,q_65,w_500{{ lot.full_width_image.image }} 500w,
                     {{ site.cloudinary_url }}/f_auto,q_70,w_800{{ lot.full_width_image.image }} 800w,
-                    {{ site.cloudinary_url }}/f_auto,q_70,w_1200{{ lot.full_width_image.image }} 1200w,
+                    {{ site.cloudinary_url }}/f_auto,q_60,w_1200{{ lot.full_width_image.image }} 1200w,
                     {{ site.cloudinary_url }}/f_auto,q_70,w_1600{{ lot.full_width_image.image }} 1600w,
                     {{ site.cloudinary_url }}/f_auto,q_70,w_2000{{ lot.full_width_image.image }} 2000w"
-            data-src="{{ site.cloudinary_url }}/f_auto,q_70,w_500/{{ lot.full_width_image.image }}"
+            data-src="{{ site.cloudinary_url }}/f_auto,q_65,w_500/{{ lot.full_width_image.image }}"
             src="{{ site.cloudinary_url }}/f_auto,q_50,w_40/{{ lot.full_width_image.image }}"
             alt=""
-            class="lozad" />
+            class="lazyload" />
     </section>
 {% endif %}
 
@@ -51,16 +51,16 @@
                     <div class="slideshow-img-container">
                         <img
                             data-image="{{ lot.image }}"
-                            sizes="auto"
+                            data-sizes="auto"
                             data-srcset="{{ site.cloudinary_url }}/f_auto,q_70,w_250{{ lot.image }} 250w,
-                                    {{ site.cloudinary_url }}/f_auto,q_70,w_500{{ lot.image }} 500w,
+                                    {{ site.cloudinary_url }}/f_auto,q_65,w_500{{ lot.image }} 500w,
                                     {{ site.cloudinary_url }}/f_auto,q_70,w_800{{ lot.image }} 800w,
-                                    {{ site.cloudinary_url }}/f_auto,q_70,w_1200{{ lot.image }} 1200w,
+                                    {{ site.cloudinary_url }}/f_auto,q_60,w_1200{{ lot.image }} 1200w,
                                     {{ site.cloudinary_url }}/f_auto,q_70,w_1600{{ lot.image }} 1600w"
-                            data-src="{{ site.cloudinary_url }}/f_auto,q_70,w_500/{{ lot.image }}"
+                            data-src="{{ site.cloudinary_url }}/f_auto,q_65,w_500/{{ lot.image }}"
                             src="{{ site.cloudinary_url }}/f_auto,q_50,w_40/{{ lot.image }}"
                             alt=""
-                            class="lozad" />
+                            class="lazyload" />
                     </div>
 
                     
@@ -74,18 +74,17 @@
                     {% for image in lot.images %}
                     <div class="slideshow-img-container">
                         <img
-                            sizes="auto"
+                            data-sizes="auto"
                             data-image="{{ image }}"
                             data-srcset="{{ site.cloudinary_url }}/f_auto,q_70,w_250{{ image }} 250w,
-                                {{ site.cloudinary_url }}/f_auto,q_70,w_500{{ image }} 500w,
+                                {{ site.cloudinary_url }}/f_auto,q_65,w_500{{ image }} 500w,
                                 {{ site.cloudinary_url }}/f_auto,q_70,w_800{{ image }} 800w,
-                                {{ site.cloudinary_url }}/f_auto,q_70,w_1200{{ image }} 1200w,
+                                {{ site.cloudinary_url }}/f_auto,q_60,w_1200{{ image }} 1200w,
                                 {{ site.cloudinary_url }}/f_auto,q_70,w_1600{{ image }} 1600w"
-                            data-src="{{ site.cloudinary_url }}/f_auto,q_70,w_500/{{ image }}"
+                            data-src="{{ site.cloudinary_url }}/f_auto,q_65,w_500/{{ image }}"
                             src="{{ site.cloudinary_url }}/f_auto,q_50,w_40/{{ image }}"
                             alt=""
-                            class="lozad"
-                            id="lot{{lotNum}}-{{forloop.index}}" />
+                            class="lazyload" />
                     </div>
                     {% endfor %}
             </div>
@@ -161,9 +160,9 @@
                     <!-- <div><img src="https://catalogue.swanngalleries.com/thumb//{{lot.REFNO | slice: -3, 3 }}/{{lot.REFNO}}tn.jpg"></div> -->
                     <div>
                         {% if lot.image %}
-                        <img class="color-theif lozad" data-src="{{ site.cloudinary_url }}/f_auto,q_70,w_60/{{ lot.image }}" crossorigin="anonymous">
+                        <img class="color-theif lazyload" data-src="{{ site.cloudinary_url }}/f_auto,q_50,w_40/{{ lot.image }}" crossorigin="anonymous">
                         {% elsif lot.REFNO %}
-                        <img class="color-theif lozad" data-src="{{ site.cloudinary_url }}/f_auto,q_70,w_60/{{page.sale}}/{{ lot.REFNO }}.jpg" crossorigin="anonymous">
+                        <img class="color-theif lazyload" data-src="{{ site.cloudinary_url }}/f_auto,q_50,w_40/{{page.sale}}/{{ lot.REFNO }}.jpg" crossorigin="anonymous">
                         {% endif %}
                     </div>
                 </div>
@@ -219,3 +218,5 @@
     
     <div class="printFooter print-content">Lot {{lot.REFNO}}</div>
 </section>
+
+</div>
