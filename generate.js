@@ -4,7 +4,7 @@ const YAMLJS = require("yaml-js");
 const YAML = require('json-to-pretty-yaml');
 // const extendify = require('extendify');
 // "_data/*.yaml"
-glob("_data/2556-catalogue.yaml", function (er, files) {
+glob("_data/*.yaml", function (er, files) {
    const contents = files.map((f) => {
       const id = f.split('-')[0].split('/')[1];
       const data = YAMLJS.load(fs.readFileSync(f).toString());
