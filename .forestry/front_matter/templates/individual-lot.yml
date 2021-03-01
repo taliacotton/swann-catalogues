@@ -153,6 +153,71 @@ fields:
 - name: large_header_text
   type: field_group
   config: {}
+  fields:
+  - name: header_type
+    type: select
+    default: []
+    config:
+      required: false
+      options:
+      - Large (Image)
+      - Large
+      - Small
+      source:
+        type: simple
+        section: 
+        file: 
+        path: 
+    label: Header Type
+  - name: line_1_text
+    type: text
+    config:
+      required: false
+    label: Line 1 Text
+    description: 'Suggested: Lot Artist/Author Name'
+  - name: line_2_text
+    type: text
+    config:
+      required: false
+    label: 'Line 2 Text '
+    description: 'Suggested: Lot Title'
+  - name: background_color
+    type: color
+    label: Background Color
+    config:
+      required: false
+      color_format: Hex
+    showOnly:
+      field: header_type
+      value: Large
+  - name: text_color
+    type: select
+    default: []
+    config:
+      required: false
+      options:
+      - white
+      - black
+      source:
+        type: simple
+        section: 
+        file: 
+        path: 
+    label: Text color
+    showOnly:
+      field: header_type
+      value: Large
+  - name: background_image
+    type: file
+    config:
+      maxSize: 64
+    label: Background Image
+    description: This image appears behind the large header text as background texture.
+      For best results, use a texture-like zoom of the image. <br>The text will be
+      white above it.
+    showOnly:
+      field: header_type
+      value: Large (Image)
   label: Large Header Text
   showOnly:
     field: header
