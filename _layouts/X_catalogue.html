@@ -158,7 +158,7 @@
                     </ul>
                 </div>
             </div>
-            <section id="table-of-contents">
+            <section id="table-of-contents" class="hide-vis">
                 <div class="dates small-type" id="toc-dates">
                 </div>
                 <div id="toc-dots">
@@ -324,6 +324,36 @@
             <p>You can click this button to return to the table of contents at any time.</p>
             <button onclick="this.parentElement.classList.add('got-it')">close</button>
         </div>
+        <div class="callout" id="arrowsCallout">
+            <div id="arrow-keys">
+                <!-- <div><span></span></div><br> -->
+                <div>
+                    <span>
+                    <svg width="23" height="12" viewBox="0 0 23 12" fill="none" xmlns="http://www.w3.org/2000/svg">
+                        <path fill-rule="evenodd" clip-rule="evenodd" d="M0 6L10 0L10 5H23V7H10L10 12L0 6Z" fill="white"/>
+                    </svg>
+                    </span>
+                </div>
+                <div>
+                    <span>
+                    <svg width="23" height="12" viewBox="0 0 23 12" fill="none" xmlns="http://www.w3.org/2000/svg">
+                        <path fill-rule="evenodd" clip-rule="evenodd" d="M0 6L10 0L10 5H23V7H10L10 12L0 6Z" fill="white"/>
+                    </svg>
+                    </span>
+                    <span>
+                    <svg width="23" height="12" viewBox="0 0 23 12" fill="none" xmlns="http://www.w3.org/2000/svg">
+                        <path fill-rule="evenodd" clip-rule="evenodd" d="M0 6L10 0L10 5H23V7H10L10 12L0 6Z" fill="white"/>
+                    </svg>
+                    </span>
+                    <span>
+                    <svg width="23" height="12" viewBox="0 0 23 12" fill="none" xmlns="http://www.w3.org/2000/svg">
+                        <path fill-rule="evenodd" clip-rule="evenodd" d="M0 6L10 0L10 5H23V7H10L10 12L0 6Z" fill="white"/>
+                    </svg>
+                    </span>
+                </div>
+            </div>
+            <p>Use the right and left arrow keys to flip between pages.</p>
+        </div>
 
         <textarea id="url_to_copy"></textarea>
 
@@ -362,7 +392,7 @@
         <script src="/assets/js/lazysizes-umd.min.js" ></script>
         
         <script src="/assets/js/emitter.min.js" ></script>
-        <script src="/assets/js/cookies.js" async></script>
+        <!-- <script src="/assets/js/cookies.js" async></script> -->
         <script src="/assets/js/catalogue.js" async ></script>
 
 {% include foot.html %}

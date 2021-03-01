@@ -1,5 +1,5 @@
 ---
-label: Lots Data
+label: Lot
 hide_body: true
 display_field: title
 fields:
@@ -28,6 +28,10 @@ fields:
     config:
       maxSize: 64
     label: Image
+  - name: images
+    type: image_gallery
+    config: {}
+    label: Image Slideshow (Optional)
   - type: text
     name: DESCRIPT
     label: 'First Line: Artist/Author/Owner'
@@ -100,10 +104,6 @@ fields:
     default: "#000000"
     description: 'Use color to make a lot stand out, perhaps. Default is black, recommended
       is black or white. '
-  - name: images
-    type: image_gallery
-    config: {}
-    label: Image Slideshow (Optional)
   - name: video_id
     type: number
     label: Video ID (Optional)

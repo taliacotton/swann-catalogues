@@ -62,7 +62,7 @@ body{
   scrollbar-width: none;  /* Firefox */
 }
 
-.hide-vis{opacity:0;}
+.hide-vis{opacity:0;pointer-events: none;}
 
 .thumbnail-lockup{
     left: -100vw;
@@ -457,7 +457,7 @@ section{
     background:black;
     position:relative;
     border-bottom:1px solid white;
-    z-index:3;
+    z-index:4;
     display:flex;
     > * {
         transition: opacity 300ms;
@@ -592,7 +592,7 @@ section{
     padding-left:var(--toolbar-height);
     left: 0;
     width: 100%;
-    z-index:0;
+    z-index:3;
     border-bottom:1px solid white;  
     #toc-dates{
 
@@ -721,6 +721,15 @@ section{
         }
     }
 }
+#table-of-contents:before {
+    content: '';
+    width: var(--toolbar-height);
+    height: calc(100% - 115px);
+    position: absolute;
+    background: var(--catalogueColor);
+    top: 115px;
+    left: 0px;
+}
 section{position:relative;}
 #info{
     padding-top:var(--toolbar-height);
@@ -728,6 +737,7 @@ section{position:relative;}
     color:black;
     font-family:var(--sans-serif);
     min-height:var(--main-height);
+    z-index:4;
     a{color:black;}
     a:hover{color:var(--swann-blue)}
     .logo{height: 40px;}
@@ -837,7 +847,7 @@ section{position:relative;}
     width:140px;
     top: calc(var(--toolbar-height) - 2px);
     left: -400px;
-    transition: left 300ms;
+    transition: 300ms;
     p{margin:0px; margin-bottom:10px;}
     button{
         text-transform:uppercase;
@@ -848,14 +858,14 @@ section{position:relative;}
         color:var(--swann-blue);
     }
 }
-.callout.visible{
+#hamburgerCallout.visible{
     left: calc(var(--toolbar-height) + 10px);
 }
-.callout.visible.got-it{
+#hamburgerCallout.visible.got-it{
     left: -400px;
 }
 
-.callout:before{
+#hamburgerCallout:before{
     content: '';
     background-image: url('../img/callout-arrow.svg');
     position:absolute;
@@ -864,6 +874,65 @@ section{position:relative;}
     height:16px;
     background-size:contain;
 }
+
+#arrowsCallout{
+    position:fixed;
+    bottom:-200px;
+    right:20px;
+    top:inherit;
+    left:inherit;
+    background:white;
+    border-radius: 8px;
+    padding:10px 20px;
+    z-index:100000;
+    #arrow-keys {
+        margin-bottom:12px;
+        div:first-child{
+            justify-content:center;
+            span {
+                background:#efefef;
+                svg{transform:rotate(90deg);}
+            }
+        }
+        div{
+            display:flex;
+            justify-content:space-between;
+            width:100%;
+            height:44px;
+            margin-bottom:4px;
+            span{
+                display:block;
+                width:44px;
+                height:44px;
+                background:var(--swann-blue);
+                border-radius:8px;
+                display:flex;
+                flex-direction:column;
+                justify-content:center;
+                text-align:center;
+                filter: drop-shadow(0px 1px 1px rgba(0, 0, 0, 0.25));
+                svg{
+                    width:100%;
+                }
+            }
+            span:nth-child(2){
+                background:#efefef;
+                svg{transform:rotate(-90deg);}
+            }
+            span:nth-child(3) {
+                svg{transform:rotate(-180deg);}
+            }
+        }
+    }
+}
+
+#arrowsCallout.visible{
+    bottom: 20px;
+}
+#arrowsCallout.visible.got-it{
+    bottom: -400px;
+}
+
 .chapter-head{
     width:100%;
     display:flex;
@@ -1132,6 +1201,30 @@ section{position:relative;}
     }
     .left.active .slideshow{
         pointer-events:auto;
+    }
+
+    .slideshow--next-btn{
+        position:absolute;
+        right:calc(var(--main-width)/2);
+        top: 50%;
+        height: 100%;
+
+        button {
+            width: 0; 
+            height: 0; 
+            border-top: 20px solid transparent;
+            border-bottom: 20px solid transparent;
+            border-left: 20px solid var(--swann-blue);
+
+            position:sticky;
+            top:50%;
+            transform:translateY(-50%);
+        }
+    }
+    @media screen and (max-width: 726px){
+        .slideshow--next-btn{
+            display:none;
+        }
     }
     
     .right{

@@ -215,15 +215,24 @@ document.addEventListener("scroll", function(){
    // NAV COME IN
    showHideNav(scrollTop);
 
+
    // TOOLTIPS
    if(scrollTop > window.innerHeight*2 && document.querySelector(".lot").getBoundingClientRect().top > window.innerHeight/2){
       document.getElementById("hamburgerCallout").classList.add("visible");
-   } else {
+  } else {
       if (document.getElementById("hamburgerCallout").classList.contains("visible")){
-         document.getElementById("hamburgerCallout").classList.remove("visible");
-         document.getElementById("hamburgerCallout").style.display="none";
+          document.getElementById("hamburgerCallout").classList.remove("visible");
+          document.getElementById("hamburgerCallout").style.display="none";
       }  
-   }
+  }
+  if(scrollTop > window.innerHeight*3 && document.querySelector("#lot3").getBoundingClientRect().top > window.innerHeight/2){
+      document.getElementById("arrowsCallout").classList.add("visible");
+  } else {
+      if (document.getElementById("arrowsCallout").classList.contains("visible")){
+          document.getElementById("arrowsCallout").classList.remove("visible");
+          document.getElementById("arrowsCallout").style.display="none";
+      }  
+  }
 
    //show sections
    document.querySelectorAll('.lot-wrapper').forEach(function (section){
@@ -436,11 +445,11 @@ for (let note of notes){
 }
 
 document.body.onload = function(){
-   //  console.log("loaded3");
+
     resizeAllTextareas();
     // apply highlights from cookie
     for (let highlight of highlights){
-        createHighlight(highlight.lot, highlight.pIndex, highlight.startChar, highlight.totalChar, highlight.id);
+        // createHighlight(highlight.lot, highlight.pIndex, highlight.startChar, highlight.totalChar, highlight.id);
     }
 }
 
@@ -827,9 +836,9 @@ function showHideElements(){
       
       // if bounds hits top of screen hide it
       if ( bounds.bottom <= 0) {
-         dots.classList.add('hide-vis');
+         dots.parentElement.classList.add('hide-vis');
       } else {
-         dots.classList.remove('hide-vis');
+         dots.parentElement.classList.remove('hide-vis');
       }
 
    });
@@ -947,8 +956,13 @@ function resizeSlideshow(slideshow, wrapper){
    slideshow.style.width = wrapperWidth+'px';
 }
 
-
-
+// ————————————————————————
+// Slideshow arrows
+// ————————————————————————
+function scrollSlideshow(lotId){
+    console.log(window.getComputedStyle(document.querySelector("#" + lotId + " .slideshow")).transform.replace(/[^\d.]/g, ''))
+    console.log(document.querySelector("#" + lotId + " .slideshow").style.transform);
+}
 
 
 // ZOOM IMAGE

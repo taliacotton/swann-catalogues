@@ -46,7 +46,8 @@
                 <div class="previous js-previous"><svg width="8" height="14" viewBox="0 0 8 14" fill="none" xmlns="http://www.w3.org/2000/svg"><path d="M0 14V0L8 7L0 14Z" fill="#1893F8"/></svg></div>
             </div> -->
             <div class="zoom-container"></div>
-            <div class="slideshow"  data-scroll='0' style="background-color:{{bg}}">
+            <div class="slideshow"  data-scroll='0' style="background-color:{{bg}}" id="lot{{lotNum}}-0">
+                    
                     <div class="slideshow-img-container">
                         <img
                             data-image="{{ lot.image }}"
@@ -105,6 +106,11 @@
 
         {% endif %}
     </div>
+    {% if lot.images[0] %}
+    <div class="slideshow--next-btn">
+        <button onclick="scrollSlideshow('lot{{lotNum}}')"></button>
+    </div>
+    {% endif %}
     <div class="right">
         <div class="printFooter print-content">Lot {{lot.refno}}</div>
         <button class="bookmark-container"  aria-label="Toggle Bookmark for Lot">
@@ -114,6 +120,11 @@
         <div class="center-column">
             <div class="mobile-only mobile-thumb">
                 <!-- <img src="{{ site.cloudinary_url }}/f_auto,q_70,w_60/{{ lot.image }}"> -->
+                {% if lot.image %}
+                <img class="lozad" data-src="{{ site.cloudinary_url }}/f_auto,q_50,w_40/{{ lot.image }}" crossorigin="anonymous" alt="lot thumbnail image">
+                {% elsif lot.REFNO %}
+                <img class="lozad" data-src="{{ site.cloudinary_url }}/f_auto,q_50,w_40/{{page.sale}}/{{ lot.REFNO }}.jpg" crossorigin="anonymous" alt="lot thumbnail image">
+                {% endif %}
             </div>
             <button class="small-type notes-prompt">
                 Add note...
@@ -121,20 +132,22 @@
             <div class="notes-left">
                 <textarea class="notes small-type" id="textarea"></textarea>
             </div>
-            {% if lot.header_text %}
-                {% if lot.header_text.type == 'small' %}
+            {% if lot.large_header %}
+                {% if lot.large_header.header_type == 'Small' %}
                     <div class="header-text-small">
                         <span class="lotNum">{{lotNum}}</span>
                         <div class="circle"></div>
-                        <span>{{lot.header_text.line_1}}</span>
+                        <span>{{lot.large_header.line_1_text}}</span>
+                        {% if lot.large_header.line_2_text %}
                         <div class="circle"></div>
-                        <span><i>{{lot.header_text.line_2}}</i></span>
+                        <span><i>{{lot.large_header.line_2_text}}</i></span>
+                        {% endif %}
                     </div>
                 {% endif %}
             {% endif %}
-            {% if lot.pullquote != '' %}
+            {% if lot.pullquote %}
                 <p class="pullquote">
-                    {{lot.pullquote}}
+                    “{{lot.pullquote}}“
                 </p>
             {% endif %}
             <span class="lot-number">{{lotNum}}</span>

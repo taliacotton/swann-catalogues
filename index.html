@@ -1,6 +1,6 @@
 ---
 layout: bookshelf
-title: Imprint
+title: Catalogue Archive
 ---
 
 <!-- <audio>
@@ -33,7 +33,8 @@ title: Imprint
     </button></li>
 </ul>
 <ul id="catalogueList">
-  {% for cat in site.catalogues %}
+    {% assign sortedCatalogues = site.catalogues | sort:"sale" | reverse %}
+  {% for cat in sortedCatalogues %}
 
     {% for x in site.data %}
         {% assign testName = "_data/" | append: x[0] | append: ".yaml" %}
