@@ -1,0 +1,2120 @@
+<!DOCTYPE html>
+<!--[if lt IE 7]>      <html class="no-js lt-ie9 lt-ie8 lt-ie7"> <![endif]-->
+<!--[if IE 7]>         <html class="no-js lt-ie9 lt-ie8"> <![endif]-->
+<!--[if IE 8]>         <html class="no-js lt-ie9"> <![endif]-->
+<!--[if gt IE 8]>      <html class="no-js"> <!--<![endif]-->
+<html>
+    <head>
+        <meta charset="utf-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        
+        <meta name="description" content="">
+
+        <meta property="og:title" content="Test Content — Swann Galleries">
+        <meta property="og:description" content="">
+        
+        <meta property="og:url" content="/">
+        <meta property="twitter:title" content="Test Content — Swann Galleries">
+        <meta property="twitter:description" content="">
+        
+        
+        
+        <meta property="twitter:image" content="https://res.cloudinary.com/dcryyrd42/image/upload/f_auto,q_70,w_512/v1609710789/776339_g8dxaq.jpg">
+        <meta property="og:image" content="https://res.cloudinary.com/dcryyrd42/image/upload/f_auto,q_70,w_512/v1609710789/776339_g8dxaq.jpg">
+        
+        
+        <meta property="twitter:image:alt" content="Test Content — Swann Galleries">
+        <meta property="og:site_name" content="Test Content — Swann Galleries">
+
+        <title>Test Content — Swann Galleries</title>
+
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+
+        <link rel="icon" type="image/png" sizes="32x32" href="/assets/favicon/favicon-32x32.png">
+        <link rel="icon" type="image/png" sizes="16x16" href="/assets/favicon/favicon-16x16.png">
+
+        <link rel="stylesheet" href="/assets/css/main.css">
+  
+    </head>
+        <!-- <script type="text/javascript" src="https://cdn.jsdelivr.net/npm/lozad/dist/lozad.min.js"></script> -->
+        <link rel="stylesheet" href="/assets/css/catalogue.css">
+        <style>
+            :root{
+                --catalogueColor: #a6dbff
+            }
+        </style>
+    </head>
+    <body class="loading visible-false" onload="checkCookie();">
+
+        <div class="password-modal">
+            <p>This page is restricted. <br>Please enter a password to continue.</p>
+            <input type="text" placeholder="Password" id="pw"><button onclick="testPassword()" class="small-type">Submit</button>
+            <br>
+            <div class="checkbox-container">
+                <input type="checkbox" name="remember" checked>
+                <label for="remember" class="small-type">Remember Me</label>
+            </div>
+        </div>
+
+        
+        
+        
+
+        <img id="cursor" src="/assets/img/cursor.png" alt="custom cursor">
+        <div id="cookieBanner">
+            <div class="left">We use cookies for the best experience possible. <a href="#">Read More</a></div>
+            <div class="right"><button onclick="acceptCookies()" aria-label="Cookies Yes">Accept</button><button aria-label="Cookies No" onclick="declineCookies()">Decline</button></div>
+        </div>
+        <div id="topbar">
+            <a href="/"><img id="logo" src="/assets/img/swann-logo.gif" alt="Swann Logo">
+            <a href="#">
+            <div class="catalogue-title">Test Content  <span class="topbar--dot">•</span>  Wednesday, December 16, 2020 at 11:30am  <i>&</i>  2:00pm </div>
+            </a>
+            <div class="buttons small-type">
+                <button onclick="triggerPrintModal()">Print</button>
+                <button onclick="triggerSearch()">Search</button>
+            </div>
+        </div>
+        <input type="text" id="searchbar" placeholder="Type name, keyword, date...">
+        <div class="searchBtns">
+            <button id="searchBtn" onclick="search()">Find Next</button>
+            <button onclick="closeSearch()">✕</button>
+        </div>
+        <nav class="sidebar" style="background-color:var(--catalogueColor)">
+            <ul class="topContent">
+                <li><a href="#contents" id="hamburger">
+                    <svg width="18" height="18" viewBox="0 0 18 18" fill="none" xmlns="http://www.w3.org/2000/svg"><circle cx="1.5" cy="1.5" r="1.5" fill="black"/><circle cx="1.5" cy="6.5" r="1.5" fill="black"/><circle cx="1.5" cy="11.5" r="1.5" fill="black"/><circle cx="1.5" cy="16.5" r="1.5" fill="black"/><circle cx="6.5" cy="1.5" r="1.5" fill="black"/><circle cx="6.5" cy="6.5" r="1.5" fill="black"/><circle cx="6.5" cy="11.5" r="1.5" fill="black"/><circle cx="6.5" cy="16.5" r="1.5" fill="black"/><circle cx="11.5" cy="1.5" r="1.5" fill="black"/><circle cx="11.5" cy="6.5" r="1.5" fill="black"/><circle cx="11.5" cy="11.5" r="1.5" fill="black"/><circle cx="11.5" cy="16.5" r="1.5" fill="black"/><circle cx="16.5" cy="1.5" r="1.5" fill="black"/><circle cx="16.5" cy="6.5" r="1.5" fill="black"/><circle cx="16.5" cy="11.5" r="1.5" fill="black"/><circle cx="16.5" cy="16.5" r="1.5" fill="black"/></svg>
+                </a></li>
+                <li><a href="#info" id="infoBtn">
+                    <svg width="21" height="21" viewBox="0 0 21 21" fill="none" xmlns="http://www.w3.org/2000/svg"><circle cx="10.5" cy="10.5" r="10.5" fill="black"/><path d="M8.36292 17.1681C9.9021 17.1681 11.2337 16.044 11.9255 15.0755L11.6142 14.7469C10.9397 15.4387 10.2307 15.9575 9.8848 16.0786C9.83292 16.0786 9.74645 16.0094 9.74645 15.9575C9.97127 15.283 10.2134 14.7296 10.5593 13.8476L11.5969 11.2362C11.8217 10.6828 12.0466 10.0948 12.0466 9.76622C12.0466 9.43763 11.8217 9.26469 11.3548 9.26469C10.0232 9.26469 8.51857 10.3023 7.8441 11.3054L8.1381 11.6686C8.50127 11.2189 9.24492 10.6309 9.57351 10.579C9.65998 10.579 9.71186 10.6309 9.71186 10.7347C9.71186 10.9076 9.27951 11.8934 8.91633 12.7927L7.89598 15.3176C7.68845 15.8538 7.41174 16.459 7.41174 16.6493C7.41174 16.926 7.72304 17.1681 8.36292 17.1681ZM11.8909 7.43152C12.5654 7.43152 13.2226 6.82622 13.2226 5.9961C13.2226 5.32163 12.8075 4.94116 12.1849 4.94116C11.424 4.94116 10.8533 5.63293 10.8533 6.37657C10.8533 7.01646 11.2164 7.43152 11.8909 7.43152Z" fill="white"/></svg>
+
+                </a></li>
+            </ul>
+            <ul class="sidebar--lots">
+                <span id="marker"></span>
+                
+                
+                
+
+                
+                    
+                            
+                    
+                            
+                    
+                
+                    
+                            
+                            <a class="sidebar-chapter-separation" href="#autographs">
+                            <li >
+                                
+                                    
+                                    <p class="small-type">Morning Session at 10:30am</p>
+                                    
+                                    <p class="chapter-title">Autographs</p>
+                                
+                            </li>
+                            </a>
+                            
+                    
+                
+                        <a href="#lot1">
+                    <li data-id="lot1">
+                            <div class="thumbnail-lockup">
+                                    
+                                    <img class="" src="https://res.cloudinary.com/dcryyrd42/image/upload/f_auto,q_50,w_40//v1609709167/773409_x8rsbn.jpg" crossorigin="anonymous">
+                                    
+                                    <p class="small-type">
+                                        Lot 1
+                                        <br>Hancock, John
+                                        <br>Partly-printed Document Signed, as President of the Continental Congress
+                                </p>
+                            </div>
+                    </li>
+                    </a>
+                    
+            
+                
+                
+
+                
+                    
+                            
+                    
+                            
+                    
+                
+                    
+                            
+                    
+                
+                        <a href="#lot2">
+                    <li data-id="lot2">
+                            <div class="thumbnail-lockup">
+                                    
+                                    <img class="" src="https://res.cloudinary.com/dcryyrd42/image/upload/f_auto,q_50,w_40//v1609968816/775374_omstfs.jpg" crossorigin="anonymous">
+                                    
+                                    <p class="small-type">
+                                        Lot 2
+                                        <br>Dix, John A.
+                                        <br> Autograph Letter Signed, as Senator, to President James K. Polk
+                                </p>
+                            </div>
+                    </li>
+                    </a>
+                    
+            
+                
+                
+
+                
+                    
+                            
+                    
+                            
+                    
+                
+                    
+                            
+                    
+                
+                        <a href="#lot3">
+                    <li data-id="lot3">
+                            <div class="thumbnail-lockup">
+                                    
+                                    <img class="" src="https://res.cloudinary.com/dcryyrd42/image/upload/f_auto,q_50,w_40//v1609968833/775152_cof17r.jpg" crossorigin="anonymous">
+                                    
+                                    <p class="small-type">
+                                        Lot 3
+                                        <br>Hamilton, Alexander
+                                        <br>Letter Signed, as Secretary of the Treasury, to Jedediah Huntington
+                                </p>
+                            </div>
+                    </li>
+                    </a>
+                    
+            
+                
+                
+
+                
+                    
+                            
+                    
+                            
+                            <a class="sidebar-chapter-separation" href="#19th-20th-century-literature">
+                            <li >
+                                
+                                    
+                                    <p class="chapter-title">19th & 20th Century Literature</p>
+                                
+                            </li>
+                            </a>
+                            
+                    
+                
+                    
+                            
+                    
+                
+                        <a href="#lot4">
+                    <li data-id="lot4">
+                            <div class="thumbnail-lockup">
+                                    
+                                    <img class="" src="https://res.cloudinary.com/dcryyrd42/image/upload/f_auto,q_50,w_40//v1609709489/774929_lua85p.jpg" crossorigin="anonymous">
+                                    
+                                    <p class="small-type">
+                                        Lot 4
+                                        <br>Utrillo, Maurice (Pétridès, Paul)
+                                        <br>L'oeuvre complet.
+                                </p>
+                            </div>
+                    </li>
+                    </a>
+                    
+            
+                
+                
+
+                
+                    
+                            
+                    
+                            
+                    
+                
+                    
+                            
+                    
+                
+                        <a href="#lot5">
+                    <li data-id="lot5">
+                            <div class="thumbnail-lockup">
+                                    
+                                    <img class="" src="https://res.cloudinary.com/dcryyrd42/image/upload/f_auto,q_50,w_40//v1609709571/2018_CKS_15484_0395_000_maurice_utrillo_la_rue_norvins_a_montmartre091037_cwbizg.jpg" crossorigin="anonymous">
+                                    
+                                    <p class="small-type">
+                                        Lot 5
+                                        <br>Utrillo, Maurice 
+                                        <br>La Rue Norvins à Montmartre
+                                </p>
+                            </div>
+                    </li>
+                    </a>
+                    
+            
+                
+                
+
+                
+                    
+                            
+                    
+                            
+                    
+                
+                    
+                            
+                    
+                
+                        <a href="#lot6">
+                    <li data-id="lot6">
+                            <div class="thumbnail-lockup">
+                                    
+                                    <img class="" src="https://res.cloudinary.com/dcryyrd42/image/upload/f_auto,q_50,w_40//v1609968630/774987_qrpcwj.png" crossorigin="anonymous">
+                                    
+                                    <p class="small-type">
+                                        Lot 6
+                                        <br>Peter Hujar (1934-1987)
+                                        <br>Ethyl Eichelberger
+                                </p>
+                            </div>
+                    </li>
+                    </a>
+                    
+            
+                
+                
+
+                
+                    
+                            
+                            <a class="sidebar-chapter-separation" href="#art-press-illustrated-books">
+                            <li >
+                                
+                                    
+                                    <p class="small-type">Afternoon Session at 2:00pm</p>
+                                    
+                                    <p class="chapter-title">Art, Press & Illustrated Books</p>
+                                
+                            </li>
+                            </a>
+                            
+                    
+                            
+                    
+                
+                    
+                            
+                    
+                
+                        <a href="#lot7">
+                    <li data-id="lot7">
+                            <div class="thumbnail-lockup">
+                                    
+                                    <img class="" src="https://res.cloudinary.com/dcryyrd42/image/upload/f_auto,q_50,w_40//v1609968356/770066_view_03_03_mybtyj.jpg" crossorigin="anonymous">
+                                    
+                                    <p class="small-type">
+                                        Lot 7
+                                        <br>Ronald Joseph (1910 - 1992)
+                                        <br>Untitled (Family at the Table)
+                                </p>
+                            </div>
+                    </li>
+                    </a>
+                    
+            
+            </ul>
+        </nav>
+        <section id="cover">
+                <a href="/"><img class="logo" src="/assets/img/swann-logo.gif"></a>
+                <a class="on-the-cover small-type" href="#lot3">
+                    On the cover:
+                    <br> Lot 3 • Marc Sterling, Untitled (Cubist Still Life)
+                </a>
+                <div class="stripe" style="background-color:var(--catalogueColor)"></div>
+                <div class="left">
+                    
+                    <img style="background-color:"
+                        sizes="auto"
+                        class="lazyload"
+                        srcset="https://res.cloudinary.com/dcryyrd42/image/upload/f_auto,q_70,w_250/v1609710789/776339_g8dxaq.jpg 250w,
+                                https://res.cloudinary.com/dcryyrd42/image/upload/f_auto,q_65,w_500/v1609710789/776339_g8dxaq.jpg 500w,
+                                https://res.cloudinary.com/dcryyrd42/image/upload/f_auto,q_70,w_800/v1609710789/776339_g8dxaq.jpg 800w,
+                                https://res.cloudinary.com/dcryyrd42/image/upload/f_auto,q_70,w_1200/v1609710789/776339_g8dxaq.jpg 1200w,
+                                https://res.cloudinary.com/dcryyrd42/image/upload/f_auto,q_70,w_1600/v1609710789/776339_g8dxaq.jpg 1600w"
+                        src="https://res.cloudinary.com/dcryyrd42/image/upload/f_auto,q_50,w_40//v1609710789/776339_g8dxaq.jpg"
+                        alt="" />
+                        
+                </div>
+                <div class="spine">
+                    <div class="spine-text">
+                        <!-- <span class="spine-date">December 16, 2020</span> -->
+                        <span class="spine-title">Test Content</span>
+                    </div>
+                </div>
+                <div class="right">
+                    
+                    
+                    <h1>Test Content</h1>
+                    
+                    <h2 class="cover-date">Wednesday, December 16, 2020<br>at 11:30am  <i>&</i>  2:00pm </h2>
+                    <h3 class="cover-sale mobile-only">Sale 0</h3>
+                </div>
+            </section>
+        <div class="main-content">
+            <div class="phantom-toc" id="contents" data-scroll-watch data-hide="#toc-dots">
+                <div class="subnav">
+                    <ul class="filters small-type">
+                        <li>View by:</li>
+                        <li><button onclick="sortTOC('square')">
+                            <svg style="top:-1px" width="7" height="7" viewBox="0 0 7 7" fill="none" xmlns="http://www.w3.org/2000/svg"><rect x="0.25" y="0.25" width="6.5" height="6.5" fill="white" stroke="white" stroke-width="0.5"/></svg>
+                            Bookmarked
+                        </button></li>
+                        <li><button onclick="sortTOC('diamond')">
+                            <svg style="top:1px;" width="10" height="12" viewBox="0 0 10 12" fill="none" xmlns="http://www.w3.org/2000/svg"><path d="M1 6L5 1L9 6L5 11L1 6Z" fill="white" stroke="white" stroke-width="0.5"/></svg>
+                            Recommended
+                        </button></li>
+                        <li><button onclick="sortTOC('dot')">
+                            <svg width="9" height="9" viewBox="0 0 9 9" fill="none" xmlns="http://www.w3.org/2000/svg"><circle cx="4.5" cy="4.5" r="4.25" fill="white" stroke="white" stroke-width="0.5"/></svg>
+                            All
+                        </button></li>
+                    </ul>
+                </div>
+            </div>
+            <section id="table-of-contents" class="hide-vis">
+                <div class="dates small-type" id="toc-dates">
+                </div>
+                <div id="toc-dots">
+                    
+                    
+
+                    
+                        
+                                
+                        
+                                
+                        
+                    
+                        
+                                
+                                <a href="#autographs">
+                                    
+                                    <p class="small-type">Morning Session at 10:30am</p>
+                                    
+                                    <p class="chapter-title">Autographs</p>
+                                </a>
+                                
+                        
+                    
+
+                    <a href="#lot1" class="dot-container" data-year="1777">
+                        <div class="line"></div>
+                        <div class="dot-container-inner">
+                            
+                            <div class="dot"></div>
+                            
+                            <div class="thumbnail-lockup">
+                                
+                                 <img class="lazyload" data-src="https://res.cloudinary.com/dcryyrd42/image/upload/f_auto,q_50,w_40//v1609709167/773409_x8rsbn.jpg" crossorigin="anonymous" alt="lot thumbnail image">
+                                 
+                                 <p class="small-type">
+                                     Lot 1
+                                     <br>Hancock, John
+                                     <br>Partly-printed Document Signed, as President of the Continental Congress
+                                </p>
+                            </div>
+                        </div>
+                    </a>
+                    
+                    
+
+                    
+                        
+                                
+                        
+                                
+                        
+                    
+                        
+                                
+                        
+                    
+
+                    <a href="#lot2" class="dot-container" data-year="1845">
+                        <div class="line"></div>
+                        <div class="dot-container-inner">
+                            
+                            <div class="dot diamond"></div>
+                            
+                            <div class="thumbnail-lockup">
+                                
+                                 <img class="lazyload" data-src="https://res.cloudinary.com/dcryyrd42/image/upload/f_auto,q_50,w_40//v1609968816/775374_omstfs.jpg" crossorigin="anonymous" alt="lot thumbnail image">
+                                 
+                                 <p class="small-type">
+                                     Lot 2
+                                     <br>Dix, John A.
+                                     <br> Autograph Letter Signed, as Senator, to President James K. Polk
+                                </p>
+                            </div>
+                        </div>
+                    </a>
+                    
+                    
+
+                    
+                        
+                                
+                        
+                                
+                        
+                    
+                        
+                                
+                        
+                    
+
+                    <a href="#lot3" class="dot-container" data-year="1790">
+                        <div class="line"></div>
+                        <div class="dot-container-inner">
+                            
+                            <div class="dot"></div>
+                            
+                            <div class="thumbnail-lockup">
+                                
+                                 <img class="lazyload" data-src="https://res.cloudinary.com/dcryyrd42/image/upload/f_auto,q_50,w_40//v1609968833/775152_cof17r.jpg" crossorigin="anonymous" alt="lot thumbnail image">
+                                 
+                                 <p class="small-type">
+                                     Lot 3
+                                     <br>Hamilton, Alexander
+                                     <br>Letter Signed, as Secretary of the Treasury, to Jedediah Huntington
+                                </p>
+                            </div>
+                        </div>
+                    </a>
+                    
+                    
+
+                    
+                        
+                                
+                        
+                                
+                                <a href="#19th-20th-century-literature">
+                                    
+                                    <p class="chapter-title">19th & 20th Century Literature</p>
+                                </a>
+                                
+                        
+                    
+                        
+                                
+                        
+                    
+
+                    <a href="#lot4" class="dot-container" data-year="1959">
+                        <div class="line"></div>
+                        <div class="dot-container-inner">
+                            
+                            <div class="dot"></div>
+                            
+                            <div class="thumbnail-lockup">
+                                
+                                 <img class="lazyload" data-src="https://res.cloudinary.com/dcryyrd42/image/upload/f_auto,q_50,w_40//v1609709489/774929_lua85p.jpg" crossorigin="anonymous" alt="lot thumbnail image">
+                                 
+                                 <p class="small-type">
+                                     Lot 4
+                                     <br>Utrillo, Maurice (Pétridès, Paul)
+                                     <br>L'oeuvre complet.
+                                </p>
+                            </div>
+                        </div>
+                    </a>
+                    
+                    
+
+                    
+                        
+                                
+                        
+                                
+                        
+                    
+                        
+                                
+                        
+                    
+
+                    <a href="#lot5" class="dot-container" data-year="1952">
+                        <div class="line"></div>
+                        <div class="dot-container-inner">
+                            
+                            <div class="dot"></div>
+                            
+                            <div class="thumbnail-lockup">
+                                
+                                 <img class="lazyload" data-src="https://res.cloudinary.com/dcryyrd42/image/upload/f_auto,q_50,w_40//v1609709571/2018_CKS_15484_0395_000_maurice_utrillo_la_rue_norvins_a_montmartre091037_cwbizg.jpg" crossorigin="anonymous" alt="lot thumbnail image">
+                                 
+                                 <p class="small-type">
+                                     Lot 5
+                                     <br>Utrillo, Maurice 
+                                     <br>La Rue Norvins à Montmartre
+                                </p>
+                            </div>
+                        </div>
+                    </a>
+                    
+                    
+
+                    
+                        
+                                
+                        
+                                
+                        
+                    
+                        
+                                
+                        
+                    
+
+                    <a href="#lot6" class="dot-container" data-year="1981">
+                        <div class="line"></div>
+                        <div class="dot-container-inner">
+                            
+                            <div class="dot"></div>
+                            
+                            <div class="thumbnail-lockup">
+                                
+                                 <img class="lazyload" data-src="https://res.cloudinary.com/dcryyrd42/image/upload/f_auto,q_50,w_40//v1609968630/774987_qrpcwj.png" crossorigin="anonymous" alt="lot thumbnail image">
+                                 
+                                 <p class="small-type">
+                                     Lot 6
+                                     <br>Peter Hujar (1934-1987)
+                                     <br>Ethyl Eichelberger
+                                </p>
+                            </div>
+                        </div>
+                    </a>
+                    
+                    
+
+                    
+                        
+                                
+                                <a href="#art-press-illustrated-books">
+                                    
+                                    <p class="small-type">Afternoon Session at 2:00pm</p>
+                                    
+                                    <p class="chapter-title">Art, Press & Illustrated Books</p>
+                                </a>
+                                
+                        
+                                
+                        
+                    
+                        
+                                
+                        
+                    
+
+                    <a href="#lot7" class="dot-container" data-year="1940">
+                        <div class="line"></div>
+                        <div class="dot-container-inner">
+                            
+                            <div class="dot diamond"></div>
+                            
+                            <div class="thumbnail-lockup">
+                                
+                                 <img class="lazyload" data-src="https://res.cloudinary.com/dcryyrd42/image/upload/f_auto,q_50,w_40//v1609968356/770066_view_03_03_mybtyj.jpg" crossorigin="anonymous" alt="lot thumbnail image">
+                                 
+                                 <p class="small-type">
+                                     Lot 7
+                                     <br>Ronald Joseph (1910 - 1992)
+                                     <br>Untitled (Family at the Table)
+                                </p>
+                            </div>
+                        </div>
+                    </a>
+                    
+                </div>
+            </section>
+            <section id="info">
+                <div class="leftright">
+                    <div class="left">
+                    <div><img class="logo" src="/assets/img/swann-logo-alt.gif" alt="Swann Logo"></div>
+                    <h2>Test Content</h2>
+                    </div>
+                    <div class="right">
+                        <h3>Officers</h3>
+                    </div>
+                </div>
+                <div class="leftright">
+                    <div class="left">
+                        <div class="people">
+                            
+                            
+                            <div>
+                                
+                                <img src="https://res.cloudinary.com/dcryyrd42/image/upload/w_100,c_scale//v1609708043/nigel-freeman2_kktn1w.jpg" alt="Nigel Freeman, Vice President">
+                                
+                                <h4><b>Nigel Freeman</b><br>Vice President</h4>
+                                <small>
+                                    nfreeman@swanngalleries.com
+                                    <br>212 254 4710 ext. 33
+                                </small>
+                            </div>
+                            
+                        </div>
+                    </div>
+                    <div class="right">
+                        
+                        <div class="people">
+                            
+                            
+                            <div>
+                                <h4><b>George S. Lowry</b><br>Chairman</h4>
+                                <small>
+                                    
+                                </small>
+                            </div>
+                            
+                            
+                            <div>
+                                <h4><b>Nicholas D. Lowry</b><br>President, Principal Auctioneer</h4>
+                                <small>
+                                    924899
+                                </small>
+                            </div>
+                            
+                            
+                            <div>
+                                <h4><b>Andrew M. Ansorge</b><br>Vice President & Controller</h4>
+                                <small>
+                                    
+                                </small>
+                            </div>
+                            
+                            
+                            <div>
+                                <h4><b>Daile Kaplan</b><br>Vice President</h4>
+                                <small>
+                                    
+                                </small>
+                            </div>
+                            
+                            
+                            <div>
+                                <h4><b>Todd Weyman</b><br>Vice President & Director, Prints & Drawings</h4>
+                                <small>
+                                    2345678
+                                </small>
+                            </div>
+                            
+                        </div>
+                        <h3>Administration</h3>
+                        <div class="people">
+                            
+                            
+                            <div>
+                                <h4><b>Andrew M. Ansorge</b><br>Vice President & Controller</h4>
+                                <small>aansorge@swanngalleries.com</small>
+                            </div>
+                            
+                            
+                            <div>
+                                <h4><b>Ariel Kim</b><br>Client Accounting</h4>
+                                <small>akim@swanngalleries.com</small>
+                            </div>
+                            
+                            
+                            <div>
+                                <h4><b>Bette Rothstein</b><br>Art Director</h4>
+                                <small>better@swanngalleries.com</small>
+                            </div>
+                            
+                            
+                            <div>
+                                <h4><b>Alexandra Mann-Nelson</b><br>Chief Marketing Officer</h4>
+                                <small>alexandra@swanngalleries.com</small>
+                            </div>
+                            
+                            
+                            <div>
+                                <h4><b>Diana Gibaldi</b><br>Operations Manager</h4>
+                                <small>diana@swanngalleries.com</small>
+                            </div>
+                            
+                        </div>
+                        <p><strong>For general information and to arrange absentee or phone bidding:</strong><br />
+212 254 4710 ext. 0</p>
+
+<p><strong>For questions on invoicing and shipping:</strong><br />
+212 254 4710 ext. 31</p>
+
+<p><strong>For inquiries regarding the items in this auction:</strong><br />
+Rick Stattler, ext. 27<br />
+<a href="mailto:rstattler@swanngalleries.com">rstattler@swanngalleries.com</a></p>
+
+                    </div>
+                </div>
+            </section>
+            <!-- <section id="chp1"  class="chapter-head">
+                <div class="inner">
+                    <h3 class="small-type">Afternoon Session at 2:30pm</h3>
+                    <h1>19th & 20th Century Literature</h1>
+                </div>
+            </section> -->
+            <div class="lots" id="PRINT">
+               
+
+                  
+
+                  
+                     
+                              
+                     
+                              
+                     
+                  
+                     
+                              
+                              <section id="chp-autographs"  class="chapter-head">
+                                 <div class="inner">
+                                       <h3 class="small-type">Morning Session at 10:30am</h3>
+                                       <h1>Autographs</h1>
+                                 </div>
+                              </section>
+                              
+                     
+                  
+
+                  
+                     
+                  
+
+                  <div class="lot-wrapper" data-lot="1">
+
+    
+    <!-- <section class="header_text large-image" style="background-image: url()"> -->
+    <section id="header-1" class="header_text large-image lazyload" data-background-image="https://res.cloudinary.com/dcryyrd42/image/upload/w_1040">
+        <div class="header-inner">
+            <span>Line 1</span>
+            <br><span><i>Line 2</i></span>
+        </div>
+    </section>
+    
+
+<!-- LARGE IMAGES -->
+
+
+<section id="lot1" class="lot rec-">
+    <div class="left ">
+        <div class="printFooter print-content">Lot 772283</div>
+        
+        
+            
+
+      <!-- <img style="background-color:#FF2B2B" src="/assets/img//v1609709167/773409_x8rsbn.jpg"> -->
+      <img style="background-color:#FF2B2B"
+            data-sizes="auto"
+            data-img="/v1609709167/773409_x8rsbn.jpg"
+            data-srcset="https://res.cloudinary.com/dcryyrd42/image/upload/f_auto,q_70,w_250/v1609709167/773409_x8rsbn.jpg 250w,
+                     https://res.cloudinary.com/dcryyrd42/image/upload/f_auto,q_65,w_500/v1609709167/773409_x8rsbn.jpg 500w,
+                     https://res.cloudinary.com/dcryyrd42/image/upload/f_auto,q_65,w_800/v1609709167/773409_x8rsbn.jpg 800w,
+                     https://res.cloudinary.com/dcryyrd42/image/upload/f_auto,q_65,w_1200/v1609709167/773409_x8rsbn.jpg 1200w,
+                     https://res.cloudinary.com/dcryyrd42/image/upload/f_auto,q_70,w_1600/v1609709167/773409_x8rsbn.jpg 1600w"
+            data-src="https://res.cloudinary.com/dcryyrd42/image/upload/f_auto,q_70,w_500//v1609709167/773409_x8rsbn.jpg"
+            src="https://res.cloudinary.com/dcryyrd42/image/upload/f_auto,q_50,w_40//v1609709167/773409_x8rsbn.jpg"
+            alt="" 
+            class="lazyload"/>
+
+
+
+        
+    </div>
+    
+    <div class="right">
+        <div class="printFooter print-content">Lot </div>
+        <button class="bookmark-container"  aria-label="Toggle Bookmark for Lot">
+            <span class="onhover"></span>
+            <span class="fold-outline"> </span>
+        </button>
+        <div class="center-column">
+            <div class="mobile-only mobile-thumb">
+                <!-- <img src="https://res.cloudinary.com/dcryyrd42/image/upload/f_auto,q_70,w_60//v1609709167/773409_x8rsbn.jpg"> -->
+                
+                <img class="lozad" data-src="https://res.cloudinary.com/dcryyrd42/image/upload/f_auto,q_50,w_40//v1609709167/773409_x8rsbn.jpg" crossorigin="anonymous" alt="lot thumbnail image">
+                
+            </div>
+            <button class="small-type notes-prompt">
+                Add note...
+            </button>
+            <div class="notes-left">
+                <textarea class="notes small-type" id="textarea"></textarea>
+            </div>
+            
+                
+            
+            
+                <p class="pullquote">
+                    ““
+                </p>
+            
+            <span class="lot-number">1</span>
+            <h2>
+                Hancock, John
+                <br><i>Partly-printed Document Signed, as President of the Continental Congress</i>
+            </h2>
+            <div class='at-a-glance'>
+                <div class="silhouette">
+                    <!-- <div><img src="https://catalogue.swanngalleries.com/thumb//283/772283tn.jpg"></div> -->
+                    <div>
+                        
+                        <img class="color-theif lazyload" data-src="https://res.cloudinary.com/dcryyrd42/image/upload/f_auto,q_50,w_40//v1609709167/773409_x8rsbn.jpg" crossorigin="anonymous">
+                        
+                    </div>
+                </div>
+                <div>
+                    <p>8x13 inches; encapsulated (but removable), few separations at folds repaired on verso, faint scattered soiling; matted and framed.</p>
+
+                </div>
+            </div>
+            <p>Uncommon Privateer Commission (American Revolution). Partly-printed Document Signed, as President of the Continental Congress, granting to John Ord, commander of the schooner Security, “Licence and Authority . . . to attack, seize, and take the Ships and other Vessels belonging to the Inhabitants of Great-Britain . . . to some convenient Ports in the . . . Colonies . . . .” Philadelphia, 6 February 1777</p>
+
+            <div class="excerpt"><p>At the start of the Revolution, the military might of the British Navy was unmatched, numbering at over 200 vessels, while the Continental Navy began with fewer than 30. To win victory at sea, the fledgling government commissioned over 1,500 privateer vessels over the course of the War. A “letter of marque” issued by the Continental Congress, such as the one in this lot, offered a private ship owner the opportunity to simultaneously fulfill her duty to the new nation and exercise her enterprising spirit (since her crew often divided the spoils of seized enemy vessels). The life of a privateer, however, was dangerous: thousands were captured and neglected in prison ships anchored near the shores of New York City. Over 10,000 privateers and other American patriots who died of starvation or disease aboard these ships were hastily buried on the shore of the present day Brooklyn Navy Yard. Today, these remains are located in a vault below the Prison Ship Martyrs Monument in the Fort Greene neighborhood of Brooklyn.</p>
+</div>
+            <div class="footnote">
+                <p></p>
+            </div>
+            <div class="estimate">
+                <h5 class="small-type">Estimate</h5>
+                <h2>$6,000 – $9,000</h2>
+
+                
+                
+                
+                <button onclick="shareLot(this)">Share Lot</button>
+            </div>
+            <div class="notes-right">
+                <textarea class="notes small-type" id="textarea"></textarea>
+            </div>
+        </div>
+    </div>
+    <!-- <table class="print-content">
+        <thead><tr><td>
+            <div class="header-space">&nbsp;</div>
+        </td></tr></thead>
+        <tbody><tr><td>
+            <div class="content">...</div>
+        </td></tr></tbody>
+        <tfoot><tr><td>
+            <div class="footer-space">Lot </div>
+        </td></tr></tfoot>
+    </table> -->
+    <!-- <div class="header print-content">...</div> -->
+    <!-- <div class="footer print-content">Lot </div> -->
+    
+    <div class="printFooter print-content">Lot 772283</div>
+</section>
+
+</div>
+
+                  
+               
+
+                  
+
+                  
+                     
+                              
+                     
+                              
+                     
+                  
+                     
+                              
+                     
+                  
+
+                  
+                     
+                  
+
+                  <div class="lot-wrapper" data-lot="2">
+
+    
+
+<!-- LARGE IMAGES -->
+
+
+<section id="lot2" class="lot rec-true">
+    <div class="left ">
+        <div class="printFooter print-content">Lot 773660</div>
+        
+        
+            
+
+      <!-- <img style="background-color:" src="/assets/img//v1609968816/775374_omstfs.jpg"> -->
+      <img style="background-color:"
+            data-sizes="auto"
+            data-img="/v1609968816/775374_omstfs.jpg"
+            data-srcset="https://res.cloudinary.com/dcryyrd42/image/upload/f_auto,q_70,w_250/v1609968816/775374_omstfs.jpg 250w,
+                     https://res.cloudinary.com/dcryyrd42/image/upload/f_auto,q_65,w_500/v1609968816/775374_omstfs.jpg 500w,
+                     https://res.cloudinary.com/dcryyrd42/image/upload/f_auto,q_65,w_800/v1609968816/775374_omstfs.jpg 800w,
+                     https://res.cloudinary.com/dcryyrd42/image/upload/f_auto,q_65,w_1200/v1609968816/775374_omstfs.jpg 1200w,
+                     https://res.cloudinary.com/dcryyrd42/image/upload/f_auto,q_70,w_1600/v1609968816/775374_omstfs.jpg 1600w"
+            data-src="https://res.cloudinary.com/dcryyrd42/image/upload/f_auto,q_70,w_500//v1609968816/775374_omstfs.jpg"
+            src="https://res.cloudinary.com/dcryyrd42/image/upload/f_auto,q_50,w_40//v1609968816/775374_omstfs.jpg"
+            alt="" 
+            class="lazyload"/>
+
+
+
+        
+    </div>
+    
+    <div class="right">
+        <div class="printFooter print-content">Lot </div>
+        <button class="bookmark-container"  aria-label="Toggle Bookmark for Lot">
+            <span class="onhover"></span>
+            <span class="fold-outline"> </span>
+        </button>
+        <div class="center-column">
+            <div class="mobile-only mobile-thumb">
+                <!-- <img src="https://res.cloudinary.com/dcryyrd42/image/upload/f_auto,q_70,w_60//v1609968816/775374_omstfs.jpg"> -->
+                
+                <img class="lozad" data-src="https://res.cloudinary.com/dcryyrd42/image/upload/f_auto,q_50,w_40//v1609968816/775374_omstfs.jpg" crossorigin="anonymous" alt="lot thumbnail image">
+                
+            </div>
+            <button class="small-type notes-prompt">
+                Add note...
+            </button>
+            <div class="notes-left">
+                <textarea class="notes small-type" id="textarea"></textarea>
+            </div>
+            
+                
+            
+            
+            <span class="lot-number">2</span>
+            <h2>
+                Dix, John A.
+                <br><i> Autograph Letter Signed, as Senator, to President James K. Polk</i>
+            </h2>
+            <div class='at-a-glance'>
+                <div class="silhouette">
+                    <!-- <div><img src="https://catalogue.swanngalleries.com/thumb//660/773660tn.jpg"></div> -->
+                    <div>
+                        
+                        <img class="color-theif lazyload" data-src="https://res.cloudinary.com/dcryyrd42/image/upload/f_auto,q_50,w_40//v1609968816/775374_omstfs.jpg" crossorigin="anonymous">
+                        
+                    </div>
+                </div>
+                <div>
+                    <p>2 pages, 4to, with integral blank; faint uneven toning, folds.</p>
+
+                </div>
+            </div>
+            <p>TO PRESIDENT POLK DIX, JOHN A. Autograph Letter Signed, as Senator, to President James K. Polk, recommending the son of Anthony James Bleecker [John V.B. Bleecker] for the position of Purser in the Navy. Washington, 21 November 1845</p>
+
+            <div class="excerpt"><p>“I rec’d a letter last evening from Mr. A[nthony] J[ames] Bleecker relative to his son, whose name is before you as a candidate for the app’t of Purser in the Navy. He understands a vacancy has occurred through the removal of Mr. Todd Young. . . . I presume he would receive the support of most, if not all, the democratic members of Congress from the State of N.Y. . . . . “. . . [M]y regard for his father, who is one of the most estimable citizens, has induced me to make this statement . . . . [T]he appointment of his son would, I am confident, be quite satisfactory to him &amp; at the same time w’d highly gratify his . . . friends in N.Y.” John Van Benthuysen Bleecker (1825-1864) was commissioned Purser in the Navy on January 16, 1847; he served as paymaster of the Mississippi squadron on June 8, 1864, at which time he was suffering from typhoid fever. The illness worsened, and on November 8, at home in New York City, he died.</p>
+</div>
+            <div class="footnote">
+                <p></p>
+            </div>
+            <div class="estimate">
+                <h5 class="small-type">Estimate</h5>
+                <h2>$100 – $200</h2>
+
+                
+                
+                
+                <button onclick="shareLot(this)">Share Lot</button>
+            </div>
+            <div class="notes-right">
+                <textarea class="notes small-type" id="textarea"></textarea>
+            </div>
+        </div>
+    </div>
+    <!-- <table class="print-content">
+        <thead><tr><td>
+            <div class="header-space">&nbsp;</div>
+        </td></tr></thead>
+        <tbody><tr><td>
+            <div class="content">...</div>
+        </td></tr></tbody>
+        <tfoot><tr><td>
+            <div class="footer-space">Lot </div>
+        </td></tr></tfoot>
+    </table> -->
+    <!-- <div class="header print-content">...</div> -->
+    <!-- <div class="footer print-content">Lot </div> -->
+    
+    <div class="printFooter print-content">Lot 773660</div>
+</section>
+
+</div>
+
+                  
+               
+
+                  
+
+                  
+                     
+                              
+                     
+                              
+                     
+                  
+                     
+                              
+                     
+                  
+
+                  
+                     
+                  
+
+                  <div class="lot-wrapper" data-lot="3">
+
+<!-- LARGE IMAGES -->
+
+
+<section id="lot3" class="lot rec-">
+    <div class="left ">
+        <div class="printFooter print-content">Lot 775332</div>
+        
+        
+            
+
+      <!-- <img style="background-color:#FFFFFF" src="/assets/img//v1609968833/775152_cof17r.jpg"> -->
+      <img style="background-color:#FFFFFF"
+            data-sizes="auto"
+            data-img="/v1609968833/775152_cof17r.jpg"
+            data-srcset="https://res.cloudinary.com/dcryyrd42/image/upload/f_auto,q_70,w_250/v1609968833/775152_cof17r.jpg 250w,
+                     https://res.cloudinary.com/dcryyrd42/image/upload/f_auto,q_65,w_500/v1609968833/775152_cof17r.jpg 500w,
+                     https://res.cloudinary.com/dcryyrd42/image/upload/f_auto,q_65,w_800/v1609968833/775152_cof17r.jpg 800w,
+                     https://res.cloudinary.com/dcryyrd42/image/upload/f_auto,q_65,w_1200/v1609968833/775152_cof17r.jpg 1200w,
+                     https://res.cloudinary.com/dcryyrd42/image/upload/f_auto,q_70,w_1600/v1609968833/775152_cof17r.jpg 1600w"
+            data-src="https://res.cloudinary.com/dcryyrd42/image/upload/f_auto,q_70,w_500//v1609968833/775152_cof17r.jpg"
+            src="https://res.cloudinary.com/dcryyrd42/image/upload/f_auto,q_50,w_40//v1609968833/775152_cof17r.jpg"
+            alt="" 
+            class="lazyload"/>
+
+
+
+        
+    </div>
+    
+    <div class="right">
+        <div class="printFooter print-content">Lot </div>
+        <button class="bookmark-container"  aria-label="Toggle Bookmark for Lot">
+            <span class="onhover"></span>
+            <span class="fold-outline"> </span>
+        </button>
+        <div class="center-column">
+            <div class="mobile-only mobile-thumb">
+                <!-- <img src="https://res.cloudinary.com/dcryyrd42/image/upload/f_auto,q_70,w_60//v1609968833/775152_cof17r.jpg"> -->
+                
+                <img class="lozad" data-src="https://res.cloudinary.com/dcryyrd42/image/upload/f_auto,q_50,w_40//v1609968833/775152_cof17r.jpg" crossorigin="anonymous" alt="lot thumbnail image">
+                
+            </div>
+            <button class="small-type notes-prompt">
+                Add note...
+            </button>
+            <div class="notes-left">
+                <textarea class="notes small-type" id="textarea"></textarea>
+            </div>
+            
+                
+            
+            
+            <span class="lot-number">3</span>
+            <h2>
+                Hamilton, Alexander
+                <br><i>Letter Signed, as Secretary of the Treasury, to Jedediah Huntington</i>
+            </h2>
+            <div class='at-a-glance'>
+                <div class="silhouette">
+                    <!-- <div><img src="https://catalogue.swanngalleries.com/thumb//332/775332tn.jpg"></div> -->
+                    <div>
+                        
+                        <img class="color-theif lazyload" data-src="https://res.cloudinary.com/dcryyrd42/image/upload/f_auto,q_50,w_40//v1609968833/775152_cof17r.jpg" crossorigin="anonymous">
+                        
+                    </div>
+                </div>
+                <div>
+                    <p>1 page, 4to; faint toning at edges, horizontal folds.”Treasury Department” [New York], 14 July 1790</p>
+
+                </div>
+            </div>
+            <p>Letter Signed, as Secretary of the Treasury, to Jedediah Huntington, sending a commission appointing him Superintendent of all the Lighthouses, Beacons, Buoys and Public Piers in the State of Connecticut [not present]. Jedediah Huntington (1743-1818) was an American soldier who served in the Continental Army during the American Revolutionary War as Brigadier General beginning in 1777, achieving Brevet Major-General in 1783.</p>
+
+            <div class="excerpt">
+</div>
+            <div class="footnote">
+                <p></p>
+            </div>
+            <div class="estimate">
+                <h5 class="small-type">Estimate</h5>
+                <h2>$2,000 – $3,000</h2>
+
+                
+                
+                
+                <button onclick="shareLot(this)">Share Lot</button>
+            </div>
+            <div class="notes-right">
+                <textarea class="notes small-type" id="textarea"></textarea>
+            </div>
+        </div>
+    </div>
+    <!-- <table class="print-content">
+        <thead><tr><td>
+            <div class="header-space">&nbsp;</div>
+        </td></tr></thead>
+        <tbody><tr><td>
+            <div class="content">...</div>
+        </td></tr></tbody>
+        <tfoot><tr><td>
+            <div class="footer-space">Lot </div>
+        </td></tr></tfoot>
+    </table> -->
+    <!-- <div class="header print-content">...</div> -->
+    <!-- <div class="footer print-content">Lot </div> -->
+    
+    <div class="printFooter print-content">Lot 775332</div>
+</section>
+
+</div>
+
+                  
+               
+
+                  
+
+                  
+                     
+                              
+                     
+                              
+                              <section id="chp-19th-20th-century-literature"  class="chapter-head">
+                                 <div class="inner">
+                                       <h3 class="small-type">Afternoon Session at 2:00pm</h3>
+                                       <h1>19th & 20th Century Literature</h1>
+                                 </div>
+                              </section>
+                              
+                     
+                  
+                     
+                              
+                     
+                  
+
+                  
+                     
+                  
+
+                  <div class="lot-wrapper" data-lot="4">
+
+<!-- LARGE IMAGES -->
+
+
+<section id="lot4" class="lot rec-">
+    <div class="left ">
+        <div class="printFooter print-content">Lot 774929</div>
+        
+        
+            
+
+      <!-- <img style="background-color:#FFFFFF" src="/assets/img//v1609709489/774929_lua85p.jpg"> -->
+      <img style="background-color:#FFFFFF"
+            data-sizes="auto"
+            data-img="/v1609709489/774929_lua85p.jpg"
+            data-srcset="https://res.cloudinary.com/dcryyrd42/image/upload/f_auto,q_70,w_250/v1609709489/774929_lua85p.jpg 250w,
+                     https://res.cloudinary.com/dcryyrd42/image/upload/f_auto,q_65,w_500/v1609709489/774929_lua85p.jpg 500w,
+                     https://res.cloudinary.com/dcryyrd42/image/upload/f_auto,q_65,w_800/v1609709489/774929_lua85p.jpg 800w,
+                     https://res.cloudinary.com/dcryyrd42/image/upload/f_auto,q_65,w_1200/v1609709489/774929_lua85p.jpg 1200w,
+                     https://res.cloudinary.com/dcryyrd42/image/upload/f_auto,q_70,w_1600/v1609709489/774929_lua85p.jpg 1600w"
+            data-src="https://res.cloudinary.com/dcryyrd42/image/upload/f_auto,q_70,w_500//v1609709489/774929_lua85p.jpg"
+            src="https://res.cloudinary.com/dcryyrd42/image/upload/f_auto,q_50,w_40//v1609709489/774929_lua85p.jpg"
+            alt="" 
+            class="lazyload"/>
+
+
+
+        
+    </div>
+    
+    <div class="right">
+        <div class="printFooter print-content">Lot </div>
+        <button class="bookmark-container"  aria-label="Toggle Bookmark for Lot">
+            <span class="onhover"></span>
+            <span class="fold-outline"> </span>
+        </button>
+        <div class="center-column">
+            <div class="mobile-only mobile-thumb">
+                <!-- <img src="https://res.cloudinary.com/dcryyrd42/image/upload/f_auto,q_70,w_60//v1609709489/774929_lua85p.jpg"> -->
+                
+                <img class="lozad" data-src="https://res.cloudinary.com/dcryyrd42/image/upload/f_auto,q_50,w_40//v1609709489/774929_lua85p.jpg" crossorigin="anonymous" alt="lot thumbnail image">
+                
+            </div>
+            <button class="small-type notes-prompt">
+                Add note...
+            </button>
+            <div class="notes-left">
+                <textarea class="notes small-type" id="textarea"></textarea>
+            </div>
+            
+                
+            
+            
+            <span class="lot-number">4</span>
+            <h2>
+                Utrillo, Maurice (Pétridès, Paul)
+                <br><i>L'oeuvre complet.</i>
+            </h2>
+            <div class='at-a-glance'>
+                <div class="silhouette">
+                    <!-- <div><img src="https://catalogue.swanngalleries.com/thumb//929/774929tn.jpg"></div> -->
+                    <div>
+                        
+                        <img class="color-theif lazyload" data-src="https://res.cloudinary.com/dcryyrd42/image/upload/f_auto,q_50,w_40//v1609709489/774929_lua85p.jpg" crossorigin="anonymous">
+                        
+                    </div>
+                </div>
+                <div>
+                    <p>Paris
+1959-74</p>
+
+                </div>
+            </div>
+            <p>Title-pages printed in green and black. Numerous illustrations throughout. 4to, publisher’s printed wrappers; each in board chemise and slipcase (occasional light wear). Limited edition, each one of 1000 numbered copies. Nicely preserved copies.</p>
+
+            <div class="excerpt">
+</div>
+            <div class="footnote">
+                <p></p>
+            </div>
+            <div class="estimate">
+                <h5 class="small-type">Estimate</h5>
+                <h2>$600 – $900</h2>
+
+                
+                
+                
+                <button onclick="shareLot(this)">Share Lot</button>
+            </div>
+            <div class="notes-right">
+                <textarea class="notes small-type" id="textarea"></textarea>
+            </div>
+        </div>
+    </div>
+    <!-- <table class="print-content">
+        <thead><tr><td>
+            <div class="header-space">&nbsp;</div>
+        </td></tr></thead>
+        <tbody><tr><td>
+            <div class="content">...</div>
+        </td></tr></tbody>
+        <tfoot><tr><td>
+            <div class="footer-space">Lot </div>
+        </td></tr></tfoot>
+    </table> -->
+    <!-- <div class="header print-content">...</div> -->
+    <!-- <div class="footer print-content">Lot </div> -->
+    
+    <div class="printFooter print-content">Lot 774929</div>
+</section>
+
+</div>
+
+                  
+               
+
+                  
+
+                  
+                     
+                              
+                     
+                              
+                     
+                  
+                     
+                              
+                     
+                  
+
+                  
+                     
+                     <section class="essay" id="the-sackner-archive-of-concrete-visual-poetry">
+                           <div class="inner">
+                              <div class="title-text">
+                                 <h1>The Sackner Archive of Concrete & Visual Poetry</h1>
+                                 <h5>Lauren Ipson</h5>
+                              </div>
+                              <p><img src="https://res.cloudinary.com/dcryyrd42/image/upload/v1608744184/samples/landscapes/beach-boat.jpg" alt="" /></p>
+
+<p>Founded in Miami Beach in 1979 and col-lected over a 40-year period by Dr. Marvin Sackner and his wife, the late Ruth Sack-ner, the Archive has become the largest and most comprehensive collection of works of art in this genre ever assembled.</p>
+
+<p>International in scope, it includes over 75,000 annotated books, periodicals, drawings, letters, portfolios, ephemera, rare artists’ books, book objects and manuscripts in all media, as well as both traditional and unconventional forms of plastic arts, prints and paintings.</p>
+
+<p>The represents the creative pinnacle for many significant artists and poets working within twentieth-century art movements such as Italian Futurism, Russian and Eastern European Avant Garde, Dada, Surrealism, Bauhaus, De Stijl, Ultra, Tabu-Dada, Lettrisme, Ultra-Lettrisme, and a vast collection of typewriting: a complex, diverse, and visually expressive form of drawing with letters.</p>
+
+<p>Visual poetry is often powerful and brimming with intellectual content, much of which is socially and culturally referential. The enormous wealth of artis-tic expression gathered into the Sackner Archive anticipates the provocative mature word-based works of Tracey Emin, Jenny Holzer, Glenn Ligon, Ed Rus-cha, Christopher Wool, and many others.</p>
+
+<p><img src="https://res.cloudinary.com/dcryyrd42/image/upload/v1609968816/775374_omstfs.jpg" alt="" />Before being moved to its permanent home at the University of Iowa Libraries Special Collections this summer, a choice selection of works from the Archive were selected for deaccession to share with new collectors. The Sackner family chose UI for their reputation as a center for the study of Dadaism and factored in its world-class conservation program, the Iowa Writers’ Workshop, museums, and its location in Iowa City, UNESCO City of Literature. The vast majority of this material will be available to scholars and the public beginning January 2020.</p>
+
+<p>The books chosen for auction at Swann, designated (SA) in their descriptions, include portfolios by notable American artists and writers, foundational Euro-pean Avant-Garde material, sculptural works, and artists’ books that celebrate the vast range of language-based artworks that push the boundaries of what gets defined as a book. We have presented them in a roughly chronological fashion to show the progression of creativity and influence between writers and artists over the decades.</p>
+
+                           </div>
+                     </section>
+                     
+                  
+
+                  <div class="lot-wrapper" data-lot="5">
+
+<!-- LARGE IMAGES -->
+
+
+<section id="lot5" class="lot rec-">
+    <div class="left ">
+        <div class="printFooter print-content">Lot 772271</div>
+        
+        
+            
+
+      <!-- <img style="background-color:" src="/assets/img//v1609709571/2018_CKS_15484_0395_000_maurice_utrillo_la_rue_norvins_a_montmartre091037_cwbizg.jpg"> -->
+      <img style="background-color:"
+            data-sizes="auto"
+            data-img="/v1609709571/2018_CKS_15484_0395_000_maurice_utrillo_la_rue_norvins_a_montmartre091037_cwbizg.jpg"
+            data-srcset="https://res.cloudinary.com/dcryyrd42/image/upload/f_auto,q_70,w_250/v1609709571/2018_CKS_15484_0395_000_maurice_utrillo_la_rue_norvins_a_montmartre091037_cwbizg.jpg 250w,
+                     https://res.cloudinary.com/dcryyrd42/image/upload/f_auto,q_65,w_500/v1609709571/2018_CKS_15484_0395_000_maurice_utrillo_la_rue_norvins_a_montmartre091037_cwbizg.jpg 500w,
+                     https://res.cloudinary.com/dcryyrd42/image/upload/f_auto,q_65,w_800/v1609709571/2018_CKS_15484_0395_000_maurice_utrillo_la_rue_norvins_a_montmartre091037_cwbizg.jpg 800w,
+                     https://res.cloudinary.com/dcryyrd42/image/upload/f_auto,q_65,w_1200/v1609709571/2018_CKS_15484_0395_000_maurice_utrillo_la_rue_norvins_a_montmartre091037_cwbizg.jpg 1200w,
+                     https://res.cloudinary.com/dcryyrd42/image/upload/f_auto,q_70,w_1600/v1609709571/2018_CKS_15484_0395_000_maurice_utrillo_la_rue_norvins_a_montmartre091037_cwbizg.jpg 1600w"
+            data-src="https://res.cloudinary.com/dcryyrd42/image/upload/f_auto,q_70,w_500//v1609709571/2018_CKS_15484_0395_000_maurice_utrillo_la_rue_norvins_a_montmartre091037_cwbizg.jpg"
+            src="https://res.cloudinary.com/dcryyrd42/image/upload/f_auto,q_50,w_40//v1609709571/2018_CKS_15484_0395_000_maurice_utrillo_la_rue_norvins_a_montmartre091037_cwbizg.jpg"
+            alt="" 
+            class="lazyload"/>
+
+
+
+        
+    </div>
+    
+    <div class="right">
+        <div class="printFooter print-content">Lot </div>
+        <button class="bookmark-container"  aria-label="Toggle Bookmark for Lot">
+            <span class="onhover"></span>
+            <span class="fold-outline"> </span>
+        </button>
+        <div class="center-column">
+            <div class="mobile-only mobile-thumb">
+                <!-- <img src="https://res.cloudinary.com/dcryyrd42/image/upload/f_auto,q_70,w_60//v1609709571/2018_CKS_15484_0395_000_maurice_utrillo_la_rue_norvins_a_montmartre091037_cwbizg.jpg"> -->
+                
+                <img class="lozad" data-src="https://res.cloudinary.com/dcryyrd42/image/upload/f_auto,q_50,w_40//v1609709571/2018_CKS_15484_0395_000_maurice_utrillo_la_rue_norvins_a_montmartre091037_cwbizg.jpg" crossorigin="anonymous" alt="lot thumbnail image">
+                
+            </div>
+            <button class="small-type notes-prompt">
+                Add note...
+            </button>
+            <div class="notes-left">
+                <textarea class="notes small-type" id="textarea"></textarea>
+            </div>
+            
+                
+            
+            
+            <span class="lot-number">5</span>
+            <h2>
+                Utrillo, Maurice 
+                <br><i>La Rue Norvins à Montmartre</i>
+            </h2>
+            <div class='at-a-glance'>
+                <div class="silhouette">
+                    <!-- <div><img src="https://catalogue.swanngalleries.com/thumb//271/772271tn.jpg"></div> -->
+                    <div>
+                        
+                        <img class="color-theif lazyload" data-src="https://res.cloudinary.com/dcryyrd42/image/upload/f_auto,q_50,w_40//v1609709571/2018_CKS_15484_0395_000_maurice_utrillo_la_rue_norvins_a_montmartre091037_cwbizg.jpg" crossorigin="anonymous">
+                        
+                    </div>
+                </div>
+                <div>
+                    <p>250 x 208 mm, image
+Paris, 1952</p>
+
+                </div>
+            </div>
+            <p>Aquatint in colors, signed by the artist in pencil, numbered 20/150, with wide margins, a deckle edge at left, laid in loose in paper window mat with guard, within original printed board portfolio, joints cracked, scattered finger soiling, silk tie. Published for the 25th Anniversary of the Societe Francaise d’Assurance pour Favoriser le Credit.</p>
+
+            <div class="excerpt">
+</div>
+            <div class="footnote">
+                <p></p>
+            </div>
+            <div class="estimate">
+                <h5 class="small-type">Estimate</h5>
+                <h2>$2,000 – $3,000</h2>
+
+                
+                
+                
+                <button onclick="shareLot(this)">Share Lot</button>
+            </div>
+            <div class="notes-right">
+                <textarea class="notes small-type" id="textarea"></textarea>
+            </div>
+        </div>
+    </div>
+    <!-- <table class="print-content">
+        <thead><tr><td>
+            <div class="header-space">&nbsp;</div>
+        </td></tr></thead>
+        <tbody><tr><td>
+            <div class="content">...</div>
+        </td></tr></tbody>
+        <tfoot><tr><td>
+            <div class="footer-space">Lot </div>
+        </td></tr></tfoot>
+    </table> -->
+    <!-- <div class="header print-content">...</div> -->
+    <!-- <div class="footer print-content">Lot </div> -->
+    
+    <div class="printFooter print-content">Lot 772271</div>
+</section>
+
+</div>
+
+                  
+               
+
+                  
+
+                  
+                     
+                              
+                     
+                              
+                     
+                  
+                     
+                              
+                     
+                  
+
+                  
+                     
+                  
+
+                  <div class="lot-wrapper" data-lot="6">
+
+<!-- LARGE IMAGES -->
+
+    
+    <section id="image-6" class="large_image" style="background-color: #68C0DF;">
+        <img
+            data-sizes="100vw"
+            data-srcset="https://res.cloudinary.com/dcryyrd42/image/upload/f_auto,q_70,w_250/v1609968630/774987_qrpcwj.png 250w,
+                    https://res.cloudinary.com/dcryyrd42/image/upload/f_auto,q_65,w_500/v1609968630/774987_qrpcwj.png 500w,
+                    https://res.cloudinary.com/dcryyrd42/image/upload/f_auto,q_70,w_800/v1609968630/774987_qrpcwj.png 800w,
+                    https://res.cloudinary.com/dcryyrd42/image/upload/f_auto,q_60,w_1200/v1609968630/774987_qrpcwj.png 1200w,
+                    https://res.cloudinary.com/dcryyrd42/image/upload/f_auto,q_70,w_1600/v1609968630/774987_qrpcwj.png 1600w,
+                    https://res.cloudinary.com/dcryyrd42/image/upload/f_auto,q_70,w_2000/v1609968630/774987_qrpcwj.png 2000w"
+            data-src="https://res.cloudinary.com/dcryyrd42/image/upload/f_auto,q_65,w_500//v1609968630/774987_qrpcwj.png"
+            src="https://res.cloudinary.com/dcryyrd42/image/upload/f_auto,q_50,w_40//v1609968630/774987_qrpcwj.png"
+            alt=""
+            class="lazyload" />
+    </section>
+
+
+<section id="lot6" class="lot rec-">
+    <div class="left js-slideshow has-slideshow">
+        <div class="printFooter print-content">Lot </div>
+        
+        
+            <!-- <div class="slider-actions">
+                <div class="next js-next"><svg width="8" height="14" viewBox="0 0 8 14" fill="none" xmlns="http://www.w3.org/2000/svg"><path d="M0 14V0L8 7L0 14Z" fill="#1893F8"/></svg></div>
+                <div class="previous js-previous"><svg width="8" height="14" viewBox="0 0 8 14" fill="none" xmlns="http://www.w3.org/2000/svg"><path d="M0 14V0L8 7L0 14Z" fill="#1893F8"/></svg></div>
+            </div> -->
+            <div class="zoom-container"></div>
+            <div class="slideshow"  data-scroll='0' style="background-color:" id="lot6-0">
+                    
+                    <div class="slideshow-img-container">
+                        <img
+                            data-image="/v1609968630/774987_qrpcwj.png"
+                            data-sizes="auto"
+                            data-srcset="https://res.cloudinary.com/dcryyrd42/image/upload/f_auto,q_70,w_250/v1609968630/774987_qrpcwj.png 250w,
+                                    https://res.cloudinary.com/dcryyrd42/image/upload/f_auto,q_65,w_500/v1609968630/774987_qrpcwj.png 500w,
+                                    https://res.cloudinary.com/dcryyrd42/image/upload/f_auto,q_70,w_800/v1609968630/774987_qrpcwj.png 800w,
+                                    https://res.cloudinary.com/dcryyrd42/image/upload/f_auto,q_60,w_1200/v1609968630/774987_qrpcwj.png 1200w,
+                                    https://res.cloudinary.com/dcryyrd42/image/upload/f_auto,q_70,w_1600/v1609968630/774987_qrpcwj.png 1600w"
+                            data-src="https://res.cloudinary.com/dcryyrd42/image/upload/f_auto,q_65,w_500//v1609968630/774987_qrpcwj.png"
+                            src="https://res.cloudinary.com/dcryyrd42/image/upload/f_auto,q_50,w_40//v1609968630/774987_qrpcwj.png"
+                            alt=""
+                            class="lazyload" />
+                    </div>
+
+                    
+                    
+
+
+                    
+                    <div class="slideshow-img-container">
+                        <img
+                            data-sizes="auto"
+                            data-image="/v1609968645/774987_view_02_02_krtql1.png"
+                            data-srcset="https://res.cloudinary.com/dcryyrd42/image/upload/f_auto,q_70,w_250/v1609968645/774987_view_02_02_krtql1.png 250w,
+                                https://res.cloudinary.com/dcryyrd42/image/upload/f_auto,q_65,w_500/v1609968645/774987_view_02_02_krtql1.png 500w,
+                                https://res.cloudinary.com/dcryyrd42/image/upload/f_auto,q_70,w_800/v1609968645/774987_view_02_02_krtql1.png 800w,
+                                https://res.cloudinary.com/dcryyrd42/image/upload/f_auto,q_60,w_1200/v1609968645/774987_view_02_02_krtql1.png 1200w,
+                                https://res.cloudinary.com/dcryyrd42/image/upload/f_auto,q_70,w_1600/v1609968645/774987_view_02_02_krtql1.png 1600w"
+                            data-src="https://res.cloudinary.com/dcryyrd42/image/upload/f_auto,q_65,w_500//v1609968645/774987_view_02_02_krtql1.png"
+                            src="https://res.cloudinary.com/dcryyrd42/image/upload/f_auto,q_50,w_40//v1609968645/774987_view_02_02_krtql1.png"
+                            alt=""
+                            class="lazyload" />
+                    </div>
+                    
+            </div>
+        
+    </div>
+    
+    <div class="slideshow--next-btn">
+        <button onclick="scrollSlideshow('lot6')"></button>
+    </div>
+    
+    <div class="right">
+        <div class="printFooter print-content">Lot </div>
+        <button class="bookmark-container"  aria-label="Toggle Bookmark for Lot">
+            <span class="onhover"></span>
+            <span class="fold-outline"> </span>
+        </button>
+        <div class="center-column">
+            <div class="mobile-only mobile-thumb">
+                <!-- <img src="https://res.cloudinary.com/dcryyrd42/image/upload/f_auto,q_70,w_60//v1609968630/774987_qrpcwj.png"> -->
+                
+                <img class="lozad" data-src="https://res.cloudinary.com/dcryyrd42/image/upload/f_auto,q_50,w_40//v1609968630/774987_qrpcwj.png" crossorigin="anonymous" alt="lot thumbnail image">
+                
+            </div>
+            <button class="small-type notes-prompt">
+                Add note...
+            </button>
+            <div class="notes-left">
+                <textarea class="notes small-type" id="textarea"></textarea>
+            </div>
+            
+                
+            
+            
+            <span class="lot-number">6</span>
+            <h2>
+                Peter Hujar (1934-1987)
+                <br><i>Ethyl Eichelberger</i>
+            </h2>
+            <div class='at-a-glance'>
+                <div class="silhouette">
+                    <!-- <div><img src="https://catalogue.swanngalleries.com/thumb///tn.jpg"></div> -->
+                    <div>
+                        
+                        <img class="color-theif lazyload" data-src="https://res.cloudinary.com/dcryyrd42/image/upload/f_auto,q_50,w_40//v1609968630/774987_qrpcwj.png" crossorigin="anonymous">
+                        
+                    </div>
+                </div>
+                <div>
+                    <p>Silver print, the image measuring 371.5x374.7 mm; 14 5/8x14 3/4 inches, the sheet 508x406.4 mm; 20x16 inches, with Hujar’s signature, title, date, edition notation 4/15, and numerical notation, in ink, on verso. 1981.</p>
+
+                </div>
+            </div>
+            <p>Exhibited in the landmark exhibition “Peter Hujar: Speed of Life,” The Morgan Library and Museum, New York, January 26-May 20, 2018.</p>
+
+            <div class="excerpt">
+</div>
+            <div class="footnote">
+                <p>Provenance: Acquired directly from the photographer; to a private New York collector.</p>
+            </div>
+            <div class="estimate">
+                <h5 class="small-type">Estimate</h5>
+                <h2>$ – $</h2>
+
+                
+                
+                
+                <button onclick="shareLot(this)">Share Lot</button>
+            </div>
+            <div class="notes-right">
+                <textarea class="notes small-type" id="textarea"></textarea>
+            </div>
+        </div>
+    </div>
+    <!-- <table class="print-content">
+        <thead><tr><td>
+            <div class="header-space">&nbsp;</div>
+        </td></tr></thead>
+        <tbody><tr><td>
+            <div class="content">...</div>
+        </td></tr></tbody>
+        <tfoot><tr><td>
+            <div class="footer-space">Lot </div>
+        </td></tr></tfoot>
+    </table> -->
+    <!-- <div class="header print-content">...</div> -->
+    <!-- <div class="footer print-content">Lot </div> -->
+    
+    <div class="printFooter print-content">Lot </div>
+</section>
+
+</div>
+
+                  
+               
+
+                  
+
+                  
+                     
+                              
+                              <section id="chp-art-press-illustrated-books"  class="chapter-head">
+                                 <div class="inner">
+                                       <h3 class="small-type">Afternoon Session at 2:00pm</h3>
+                                       <h1>Art, Press & Illustrated Books</h1>
+                                 </div>
+                              </section>
+                              
+                     
+                              
+                     
+                  
+                     
+                              
+                     
+                  
+
+                  
+                     
+                  
+
+                  <div class="lot-wrapper" data-lot="7">
+
+    
+    <!-- <section class="header_text large-image" style="background-image: url()"> -->
+    <section id="header-7" class="header_text large-image lazyload" data-background-image="https://res.cloudinary.com/dcryyrd42/image/upload/w_1040/v1612910061/2559/779330.jpg">
+        <div class="header-inner">
+            <span>Header Test</span>
+            <br><span><i>For Image</i></span>
+        </div>
+    </section>
+    
+
+<!-- LARGE IMAGES -->
+
+
+<section id="lot7" class="lot rec-true">
+    <div class="left js-slideshow has-slideshow">
+        <div class="printFooter print-content">Lot </div>
+        
+        
+            <!-- <div class="slider-actions">
+                <div class="next js-next"><svg width="8" height="14" viewBox="0 0 8 14" fill="none" xmlns="http://www.w3.org/2000/svg"><path d="M0 14V0L8 7L0 14Z" fill="#1893F8"/></svg></div>
+                <div class="previous js-previous"><svg width="8" height="14" viewBox="0 0 8 14" fill="none" xmlns="http://www.w3.org/2000/svg"><path d="M0 14V0L8 7L0 14Z" fill="#1893F8"/></svg></div>
+            </div> -->
+            <div class="zoom-container"></div>
+            <div class="slideshow"  data-scroll='0' style="background-color:" id="lot7-0">
+                    
+                    <div class="slideshow-img-container">
+                        <img
+                            data-image="/v1609968356/770066_view_03_03_mybtyj.jpg"
+                            data-sizes="auto"
+                            data-srcset="https://res.cloudinary.com/dcryyrd42/image/upload/f_auto,q_70,w_250/v1609968356/770066_view_03_03_mybtyj.jpg 250w,
+                                    https://res.cloudinary.com/dcryyrd42/image/upload/f_auto,q_65,w_500/v1609968356/770066_view_03_03_mybtyj.jpg 500w,
+                                    https://res.cloudinary.com/dcryyrd42/image/upload/f_auto,q_70,w_800/v1609968356/770066_view_03_03_mybtyj.jpg 800w,
+                                    https://res.cloudinary.com/dcryyrd42/image/upload/f_auto,q_60,w_1200/v1609968356/770066_view_03_03_mybtyj.jpg 1200w,
+                                    https://res.cloudinary.com/dcryyrd42/image/upload/f_auto,q_70,w_1600/v1609968356/770066_view_03_03_mybtyj.jpg 1600w"
+                            data-src="https://res.cloudinary.com/dcryyrd42/image/upload/f_auto,q_65,w_500//v1609968356/770066_view_03_03_mybtyj.jpg"
+                            src="https://res.cloudinary.com/dcryyrd42/image/upload/f_auto,q_50,w_40//v1609968356/770066_view_03_03_mybtyj.jpg"
+                            alt=""
+                            class="lazyload" />
+                    </div>
+
+                    
+                    
+
+
+                    
+                    <div class="slideshow-img-container">
+                        <img
+                            data-sizes="auto"
+                            data-image="/v1609968356/770066_view_02_02_akbkha.jpg"
+                            data-srcset="https://res.cloudinary.com/dcryyrd42/image/upload/f_auto,q_70,w_250/v1609968356/770066_view_02_02_akbkha.jpg 250w,
+                                https://res.cloudinary.com/dcryyrd42/image/upload/f_auto,q_65,w_500/v1609968356/770066_view_02_02_akbkha.jpg 500w,
+                                https://res.cloudinary.com/dcryyrd42/image/upload/f_auto,q_70,w_800/v1609968356/770066_view_02_02_akbkha.jpg 800w,
+                                https://res.cloudinary.com/dcryyrd42/image/upload/f_auto,q_60,w_1200/v1609968356/770066_view_02_02_akbkha.jpg 1200w,
+                                https://res.cloudinary.com/dcryyrd42/image/upload/f_auto,q_70,w_1600/v1609968356/770066_view_02_02_akbkha.jpg 1600w"
+                            data-src="https://res.cloudinary.com/dcryyrd42/image/upload/f_auto,q_65,w_500//v1609968356/770066_view_02_02_akbkha.jpg"
+                            src="https://res.cloudinary.com/dcryyrd42/image/upload/f_auto,q_50,w_40//v1609968356/770066_view_02_02_akbkha.jpg"
+                            alt=""
+                            class="lazyload" />
+                    </div>
+                    
+                    <div class="slideshow-img-container">
+                        <img
+                            data-sizes="auto"
+                            data-image="/v1609968356/770066_view_04_04_mw4lpp.jpg"
+                            data-srcset="https://res.cloudinary.com/dcryyrd42/image/upload/f_auto,q_70,w_250/v1609968356/770066_view_04_04_mw4lpp.jpg 250w,
+                                https://res.cloudinary.com/dcryyrd42/image/upload/f_auto,q_65,w_500/v1609968356/770066_view_04_04_mw4lpp.jpg 500w,
+                                https://res.cloudinary.com/dcryyrd42/image/upload/f_auto,q_70,w_800/v1609968356/770066_view_04_04_mw4lpp.jpg 800w,
+                                https://res.cloudinary.com/dcryyrd42/image/upload/f_auto,q_60,w_1200/v1609968356/770066_view_04_04_mw4lpp.jpg 1200w,
+                                https://res.cloudinary.com/dcryyrd42/image/upload/f_auto,q_70,w_1600/v1609968356/770066_view_04_04_mw4lpp.jpg 1600w"
+                            data-src="https://res.cloudinary.com/dcryyrd42/image/upload/f_auto,q_65,w_500//v1609968356/770066_view_04_04_mw4lpp.jpg"
+                            src="https://res.cloudinary.com/dcryyrd42/image/upload/f_auto,q_50,w_40//v1609968356/770066_view_04_04_mw4lpp.jpg"
+                            alt=""
+                            class="lazyload" />
+                    </div>
+                    
+                    <div class="slideshow-img-container">
+                        <img
+                            data-sizes="auto"
+                            data-image="/v1609968355/770066_view_05_05_rj69rp.jpg"
+                            data-srcset="https://res.cloudinary.com/dcryyrd42/image/upload/f_auto,q_70,w_250/v1609968355/770066_view_05_05_rj69rp.jpg 250w,
+                                https://res.cloudinary.com/dcryyrd42/image/upload/f_auto,q_65,w_500/v1609968355/770066_view_05_05_rj69rp.jpg 500w,
+                                https://res.cloudinary.com/dcryyrd42/image/upload/f_auto,q_70,w_800/v1609968355/770066_view_05_05_rj69rp.jpg 800w,
+                                https://res.cloudinary.com/dcryyrd42/image/upload/f_auto,q_60,w_1200/v1609968355/770066_view_05_05_rj69rp.jpg 1200w,
+                                https://res.cloudinary.com/dcryyrd42/image/upload/f_auto,q_70,w_1600/v1609968355/770066_view_05_05_rj69rp.jpg 1600w"
+                            data-src="https://res.cloudinary.com/dcryyrd42/image/upload/f_auto,q_65,w_500//v1609968355/770066_view_05_05_rj69rp.jpg"
+                            src="https://res.cloudinary.com/dcryyrd42/image/upload/f_auto,q_50,w_40//v1609968355/770066_view_05_05_rj69rp.jpg"
+                            alt=""
+                            class="lazyload" />
+                    </div>
+                    
+                    <div class="slideshow-img-container">
+                        <img
+                            data-sizes="auto"
+                            data-image="/v1609968356/770066_view_06_06_feb5ks.jpg"
+                            data-srcset="https://res.cloudinary.com/dcryyrd42/image/upload/f_auto,q_70,w_250/v1609968356/770066_view_06_06_feb5ks.jpg 250w,
+                                https://res.cloudinary.com/dcryyrd42/image/upload/f_auto,q_65,w_500/v1609968356/770066_view_06_06_feb5ks.jpg 500w,
+                                https://res.cloudinary.com/dcryyrd42/image/upload/f_auto,q_70,w_800/v1609968356/770066_view_06_06_feb5ks.jpg 800w,
+                                https://res.cloudinary.com/dcryyrd42/image/upload/f_auto,q_60,w_1200/v1609968356/770066_view_06_06_feb5ks.jpg 1200w,
+                                https://res.cloudinary.com/dcryyrd42/image/upload/f_auto,q_70,w_1600/v1609968356/770066_view_06_06_feb5ks.jpg 1600w"
+                            data-src="https://res.cloudinary.com/dcryyrd42/image/upload/f_auto,q_65,w_500//v1609968356/770066_view_06_06_feb5ks.jpg"
+                            src="https://res.cloudinary.com/dcryyrd42/image/upload/f_auto,q_50,w_40//v1609968356/770066_view_06_06_feb5ks.jpg"
+                            alt=""
+                            class="lazyload" />
+                    </div>
+                    
+                    <div class="slideshow-img-container">
+                        <img
+                            data-sizes="auto"
+                            data-image="/v1609968356/770066_view_07_07_cilnzq.jpg"
+                            data-srcset="https://res.cloudinary.com/dcryyrd42/image/upload/f_auto,q_70,w_250/v1609968356/770066_view_07_07_cilnzq.jpg 250w,
+                                https://res.cloudinary.com/dcryyrd42/image/upload/f_auto,q_65,w_500/v1609968356/770066_view_07_07_cilnzq.jpg 500w,
+                                https://res.cloudinary.com/dcryyrd42/image/upload/f_auto,q_70,w_800/v1609968356/770066_view_07_07_cilnzq.jpg 800w,
+                                https://res.cloudinary.com/dcryyrd42/image/upload/f_auto,q_60,w_1200/v1609968356/770066_view_07_07_cilnzq.jpg 1200w,
+                                https://res.cloudinary.com/dcryyrd42/image/upload/f_auto,q_70,w_1600/v1609968356/770066_view_07_07_cilnzq.jpg 1600w"
+                            data-src="https://res.cloudinary.com/dcryyrd42/image/upload/f_auto,q_65,w_500//v1609968356/770066_view_07_07_cilnzq.jpg"
+                            src="https://res.cloudinary.com/dcryyrd42/image/upload/f_auto,q_50,w_40//v1609968356/770066_view_07_07_cilnzq.jpg"
+                            alt=""
+                            class="lazyload" />
+                    </div>
+                    
+                    <div class="slideshow-img-container">
+                        <img
+                            data-sizes="auto"
+                            data-image="/v1609968356/770066_view_08_08_vacjie.jpg"
+                            data-srcset="https://res.cloudinary.com/dcryyrd42/image/upload/f_auto,q_70,w_250/v1609968356/770066_view_08_08_vacjie.jpg 250w,
+                                https://res.cloudinary.com/dcryyrd42/image/upload/f_auto,q_65,w_500/v1609968356/770066_view_08_08_vacjie.jpg 500w,
+                                https://res.cloudinary.com/dcryyrd42/image/upload/f_auto,q_70,w_800/v1609968356/770066_view_08_08_vacjie.jpg 800w,
+                                https://res.cloudinary.com/dcryyrd42/image/upload/f_auto,q_60,w_1200/v1609968356/770066_view_08_08_vacjie.jpg 1200w,
+                                https://res.cloudinary.com/dcryyrd42/image/upload/f_auto,q_70,w_1600/v1609968356/770066_view_08_08_vacjie.jpg 1600w"
+                            data-src="https://res.cloudinary.com/dcryyrd42/image/upload/f_auto,q_65,w_500//v1609968356/770066_view_08_08_vacjie.jpg"
+                            src="https://res.cloudinary.com/dcryyrd42/image/upload/f_auto,q_50,w_40//v1609968356/770066_view_08_08_vacjie.jpg"
+                            alt=""
+                            class="lazyload" />
+                    </div>
+                    
+                    <div class="slideshow-img-container">
+                        <img
+                            data-sizes="auto"
+                            data-image="/v1609968354/770066_view_09_09_uzf3q4.jpg"
+                            data-srcset="https://res.cloudinary.com/dcryyrd42/image/upload/f_auto,q_70,w_250/v1609968354/770066_view_09_09_uzf3q4.jpg 250w,
+                                https://res.cloudinary.com/dcryyrd42/image/upload/f_auto,q_65,w_500/v1609968354/770066_view_09_09_uzf3q4.jpg 500w,
+                                https://res.cloudinary.com/dcryyrd42/image/upload/f_auto,q_70,w_800/v1609968354/770066_view_09_09_uzf3q4.jpg 800w,
+                                https://res.cloudinary.com/dcryyrd42/image/upload/f_auto,q_60,w_1200/v1609968354/770066_view_09_09_uzf3q4.jpg 1200w,
+                                https://res.cloudinary.com/dcryyrd42/image/upload/f_auto,q_70,w_1600/v1609968354/770066_view_09_09_uzf3q4.jpg 1600w"
+                            data-src="https://res.cloudinary.com/dcryyrd42/image/upload/f_auto,q_65,w_500//v1609968354/770066_view_09_09_uzf3q4.jpg"
+                            src="https://res.cloudinary.com/dcryyrd42/image/upload/f_auto,q_50,w_40//v1609968354/770066_view_09_09_uzf3q4.jpg"
+                            alt=""
+                            class="lazyload" />
+                    </div>
+                    
+                    <div class="slideshow-img-container">
+                        <img
+                            data-sizes="auto"
+                            data-image="/v1609968355/770066_view_10_10_nhprcy.jpg"
+                            data-srcset="https://res.cloudinary.com/dcryyrd42/image/upload/f_auto,q_70,w_250/v1609968355/770066_view_10_10_nhprcy.jpg 250w,
+                                https://res.cloudinary.com/dcryyrd42/image/upload/f_auto,q_65,w_500/v1609968355/770066_view_10_10_nhprcy.jpg 500w,
+                                https://res.cloudinary.com/dcryyrd42/image/upload/f_auto,q_70,w_800/v1609968355/770066_view_10_10_nhprcy.jpg 800w,
+                                https://res.cloudinary.com/dcryyrd42/image/upload/f_auto,q_60,w_1200/v1609968355/770066_view_10_10_nhprcy.jpg 1200w,
+                                https://res.cloudinary.com/dcryyrd42/image/upload/f_auto,q_70,w_1600/v1609968355/770066_view_10_10_nhprcy.jpg 1600w"
+                            data-src="https://res.cloudinary.com/dcryyrd42/image/upload/f_auto,q_65,w_500//v1609968355/770066_view_10_10_nhprcy.jpg"
+                            src="https://res.cloudinary.com/dcryyrd42/image/upload/f_auto,q_50,w_40//v1609968355/770066_view_10_10_nhprcy.jpg"
+                            alt=""
+                            class="lazyload" />
+                    </div>
+                    
+            </div>
+        
+    </div>
+    
+    <div class="slideshow--next-btn">
+        <button onclick="scrollSlideshow('lot7')"></button>
+    </div>
+    
+    <div class="right">
+        <div class="printFooter print-content">Lot </div>
+        <button class="bookmark-container"  aria-label="Toggle Bookmark for Lot">
+            <span class="onhover"></span>
+            <span class="fold-outline"> </span>
+        </button>
+        <div class="center-column">
+            <div class="mobile-only mobile-thumb">
+                <!-- <img src="https://res.cloudinary.com/dcryyrd42/image/upload/f_auto,q_70,w_60//v1609968356/770066_view_03_03_mybtyj.jpg"> -->
+                
+                <img class="lozad" data-src="https://res.cloudinary.com/dcryyrd42/image/upload/f_auto,q_50,w_40//v1609968356/770066_view_03_03_mybtyj.jpg" crossorigin="anonymous" alt="lot thumbnail image">
+                
+            </div>
+            <button class="small-type notes-prompt">
+                Add note...
+            </button>
+            <div class="notes-left">
+                <textarea class="notes small-type" id="textarea"></textarea>
+            </div>
+            
+                
+            
+            
+            <span class="lot-number">7</span>
+            <h2>
+                Ronald Joseph (1910 - 1992)
+                <br><i>Untitled (Family at the Table)</i>
+            </h2>
+            <div class='at-a-glance'>
+                <div class="silhouette">
+                    <!-- <div><img src="https://catalogue.swanngalleries.com/thumb///tn.jpg"></div> -->
+                    <div>
+                        
+                        <img class="color-theif lazyload" data-src="https://res.cloudinary.com/dcryyrd42/image/upload/f_auto,q_50,w_40//v1609968356/770066_view_03_03_mybtyj.jpg" crossorigin="anonymous">
+                        
+                    </div>
+                </div>
+                <div>
+                    <p>Oil and enamel on a thick wood panel, circa 1940. 565x406 mm; 22 1/4x16 inches. Signed in oil, verso.</p>
+
+                </div>
+            </div>
+            <p>This striking, modernist painting is one of the earliest works by Ronald Joseph that we have located. Ronald Joseph was a student at the Harlem Community Art Center in 1939, where he studied lithography under Reva Helfond, befriended Robert Blackburn and later taught. Displaying the apparent influence of Matisse and Picasso, Joseph’s early oil paintings were more influenced by European sources than many of his contemporaries who instead focused on social realism.</p>
+
+<p>A native of St. Kitts in the British West Indies, Ronald Joseph moved to New York as a child. His student works were included in an exhibition at the Metropolitan Museum of Art, and he studied at the Ethical Culture School, Fieldston School and Pratt Institute. He worked in the mural section of the Federal Art Project of the WPA, and was a representative of the Harlem Artists’ Guild to the New York World’s Fair (1939-1940). After service in the Army Air Corps, Joseph was awarded a Rosenwald Fellowship in 1948. The funds allowed him to live and work abroad–first in Peru, then Paris, before settling in Brussels. Two of his works from this Rosenwald period are included in the 2009-10 traveling museum exhibition, A Force for Change: African American Art and the Julius Rosenwald Fund.</p>
+
+            <div class="excerpt"><p>Provenance: private collection, Massachussetts.</p>
+</div>
+            <div class="footnote">
+                <p></p>
+            </div>
+            <div class="estimate">
+                <h5 class="small-type">Estimate</h5>
+                <h2>$100 – $500</h2>
+
+                
+                
+                
+                <button onclick="shareLot(this)">Share Lot</button>
+            </div>
+            <div class="notes-right">
+                <textarea class="notes small-type" id="textarea"></textarea>
+            </div>
+        </div>
+    </div>
+    <!-- <table class="print-content">
+        <thead><tr><td>
+            <div class="header-space">&nbsp;</div>
+        </td></tr></thead>
+        <tbody><tr><td>
+            <div class="content">...</div>
+        </td></tr></tbody>
+        <tfoot><tr><td>
+            <div class="footer-space">Lot </div>
+        </td></tr></tfoot>
+    </table> -->
+    <!-- <div class="header print-content">...</div> -->
+    <!-- <div class="footer print-content">Lot </div> -->
+    
+    <div class="printFooter print-content">Lot </div>
+</section>
+
+</div>
+
+                  
+               
+            </div>
+
+            
+            
+            <section id="end-content">
+                <div class="inner">
+                    
+                    <div class="footer-page">
+                        <div class="title-container">
+                            <h2>Advice to Prospective Bidders</h2>
+                        </div>
+                        <div class="columns">
+                            <p>1. ALL PROPERTY IS SOLD SUBJECT TO THIS ADVICE, THE CONDITIONS OF SALE, AND TERMS OF WARRANTY PRINTED IN THE CATALOGUE.</p>
+
+<p>2. INSPECTION OF PROPERTY. Prospective bidders or their agents should inspect property prior to the auction. Swann staff are available to advise prospective bidders at all pre-sale exhibitions and by appointment. 3. BUYER’S PREMIUM. The purchase price pay-able on any lot purchased will be the total of the final bid plus the Buyer’s Premium as defined in paragraph 7 of the Conditions of Sale, plus all applicable sales taxes. 4. SALES TAX. All items purchased are subject to payment of the New York City and State sales tax of 8.875% on the total purchase price (final bid plus the Buyer’s Premium as defined in paragraph 7 of the Conditions of Sale) unless the purchaser presents proof of exemption therefrom. An exempt purchaser must provide a properly completed New York State Resale Certificate (Form ST-120) evidencing possession of a valid New York State Resale or, for non-New York State businesses, the equivalent resale authorization from another locale. Purchases shipped outside of New York State may be subject to sales tax imposed by another state, and any such sales taxes will also be due and payable unless proper proof of exemption there-from is provided. Purchases will not be released unless all sales tax requirements are satisfied. 5. BIDDING INCREMENTS. $10 up to $150; then $25 to $500; $50 to $1,000; $100 to $2,000; $200 to $6,000; $500 to $10,000; $1,000 to $20,000; $2,000 to $50,000; and approximately 10% of the current bid thereafter. However, the auctioneer may modify the increments at any time. 6. RESERVES. All lots are subject to a reserve, which is the confidential minimum price agreed to with the seller below which the lot will not be sold. The reserve will never be higher than the low pre-sale estimate, and will never be lower than half the low estimate. Swami may implement such reserve by opening the bidding on behalf of the seller and may bid up to the amount of the reserve by placing successive or consecutive bids for a lot in response to other bidders. 7. ESTIMATES. The estimates provided are intend-ed as a guide to bidding. The figures are educated guesses, based on recent values. A bid between the listed figures would, in our opinion, have a chance of success (at the time the catalogue was prepared). The estimates are exclusive of the buyer’s premium, and may be revised at any time prior to the auction.</p>
+
+<p>8. BIDDING. All persons attending the auction must obtain a bidding number prior to bidding. If bids cannot be made in person or by an agent, they may be made by mail, fax, e-mail, or telephone and such bids will be executed without charge. 9. ABSENTEE BIDS will be executed by Swami on the bidder’s behalf in competition with other absentee bids and bidding in the room. Every effort will be made to carry out the bidder’s instructions, but Swami shall in no event be responsible for failing correctly to carry out instructions, and Swami reserves the right to decline to undertake such bids. Bids by mail should be made in U.S. dollars on the bid sheet found at the end of the catalogue and in accordance with the instruc-tions on the bid sheet.</p>
+
+<p>10. REMOVAL OF PROPERTY. All lots purchased shall be removed at the purchaser’s risk and expense by the end of the fifth business day following the sale. Purchases not so removed will be treated as set forth in paragraph 9 of the Conditions of Sale. 11. SHIPMENT Upon request, Swami will facilitate the shipping of purchases to out-of-town buyers at an additional charge for packing, postage and insurance, but will not be responsible for any loss, damage or delay resulting from the packing, handling and shipping thereof. Unless specific instructions are received, Swann is the sole judge of the method to be used for shipment. 12. PRICES REALIZED. A list of prices realized is published on our website www.swanngalleries.com at the conclusion of the sale. The Prices Realized is also available at Swann and will be mailed upon request.</p>
+
+<p>13. CREDIT Bidders whose credit is unknown to Swami should submit acceptable credit references or make prior arrangements for payment, failing which purchases will not be released until funds have cleared. Mail bidders should submit references or a deposit of 25% of their maximum bid. If successful, the deposit will be applied to the purchase; if unsuccessful, the deposit will be returned. 14. LOTS NOT RETURNABLE. Paragraph 3 of the Limited Warranty describes lots which are sold as is and not returnable. Books, manuscripts, prints, draw-ings, photographs, signatures, or any other property offered in a lot comprising more than 3 items, whether or not such items are individually named, constitute “Grouped Lots:’ Such “Grouped Lots” are not subject to return for any reason.</p>
+
+                        </div>
+                    </div>
+                    
+                    <div class="footer-page">
+                        <div class="title-container">
+                            <h2>Limited Warranty</h2>
+                        </div>
+                        <div class="columns">
+                            <p>We warrant the authenticity and condition of each lot catalogued herein on the terms and conditions set forth below.</p>
+
+<p>1. Unless otherwise indicated in the respective cata-logue descriptions (which are subject to amendment by oral or written notices or announcements made by Swami prior to sale), we warrant for a period of three (3) years from the date of sale the authenticity of each lot catalogued herein. (Please note Paragraphs 3 and 5 below.) 2. Except as noted above, or unless otherwise indi-cated in the respective catalogue description, we warrant for a period of thirty (30) days from the date of sale to the original buyer of record, that each book or manuscript is complete in text and illustration and generally is in such physical condition as may reason-ably be expected considering the age and provenance. This warranty does not cover damages to binding, stains or foxing, wormholes, short leaves of text or plates or any defect not affecting the completeness of the text. Moreover, this warranty does not cover the lack of inserted advertisements, blank leaves, cancels or subsequently published volumes.</p>
+
+<p>3. Serial publications, books in original parts, extra-illustrated books, made up “albums” and lots described as “sold as is,” “sold not subject to return,” “not collat-ed,” “collection of” or “group of,” and any lot containing more than three (3) items, are sold as is and therefore not covered by these warranties. 4. The benefits of these warranties are not assignable and are applicable only to the original buyer of the lot, and are conditioned on the buyer returning the work in the same condition as at time of sale and in the time period specified.</p>
+
+<p>5. (a) The buyer’s sole remedy under these war-ranties shall be the rescission of the sale and refund of the original purchase price paid for the item, and this remedy shall be exclusive and in lieu of any other remedy which might otherwise be available to the buyer as a matter of law.</p>
+
+<p>(b) In the event that a buyer claims that an item is not authentic, Swami shall have no obligation to rescind the sale unless the buyer has obtained, at the buyer’s expense, the opinion of two recognized experts in the field, who are mutually agreeable to Swami and the buyer, that a lot or portion thereof is not authentic.</p>
+
+                        </div>
+                    </div>
+                    
+                    <div class="footer-page">
+                        <div class="title-container">
+                            <h2>Conditions of Sale</h2>
+                        </div>
+                        <div class="columns">
+                            <p>The property described in this catalogue, as amended by any posted notices or oral announcements during the sale, will be sold by Swann Galleries, Inc. (Swann) as agent for various owners (the Consignors). These CONDITIONS OF SALE, and the LIMITED WARRANTY and ADVICE TO PROSPECTIVE BIDDERS set forth elsewhere in the catalogue are the complete and only terms and conditions on which all property is offered for sale. By bidding at auction (whether present in person or by agent, by written or telephone bid, or by any other means) the buyer agrees to be bound by these Conditions of Sale.</p>
+
+<p>1. THE AUTHENTICITY OF PROPERTY LISTED IN THIS CATALOGUE IS WAR-RANTED TO THE EXTENT STATED IN THE “LIMITED WARRANTY.” EXCEPT AS PRO-VIDED THEREIN, ALL PROPERTY IS SOLD “AS IS” AND NEITHER SWANN NOR THE CONSIGNOR MAKES ANY WARRANTIES OR REPRESENTATIONS OF ANY KIND OR NATURE WITH RESPECT TO THE PROPERTY OR ITS VALUE, AND IN NO EVENT SHALL THEY BE RESPONSIBLE FOR CORRECT-NESS OF DESCRIPTION, GEN-UINENESS, ATTRIBUTION, PROVENANCE, AUTHENTICITY, AUTHORSHIP, COMPLETE-NESS, CONDITION OF THE PROPERTY OR ESTIMATE OF VALUE. NO STATEMENT (ORAL OR WRITTEN) IN THE CATALOGUE, AT THE SALE, OR ELSEWHERE SHALL BE DEEMED SUCH A WARRANTY OR RE-PRESENTATION, OR ANY ASSUMPTION OF RESPONSIBILITY.</p>
+
+<p>2. All bids are to be per lot as numbered in the cata-logue. 3. NEITHER SWANN NOR THE CONSIGN-OR MAKES ANY REPRESENTATION THAT THE PURCHASER OF MANUSCRIPT MAT-ERIAL, PHOTOGRAPHS, PRINTS, OR WORKS OF ART WILL ACQUIRE ANY COPYRIGHT OR REPRODUCTION RIGHTS THERETO.</p>
+
+<p>4. Swann reserves the absolute right (a) to withdraw any property at any time before its actual final sale, including during the bidding, and (b) to refuse any bid from any bidder. The auctioneer is the sole judge as to the amount to be advanced by each succeeding bid.</p>
+
+<p>5. Any right of the purchaser under this agree-ment or under the law shall not be assignable and shall be enforceable only by the original purchaser and not by any subsequent owner or any person who shall subsequently acquire any interest. No purchaser shall be entitled to any remedy, relief or damages beyond return of the property, rescission of the sale and refund of the purchase price; and without limitation, no purchaser shall be entitled to damages of any kind. 6. The highest bidder acknowledged by the auc-tioneer shall be the purchaser. In the event of any dispute between bidders, the auctioneer shall have the absolute discretion either to determine the suc-cessful bidder or to re-offer and resell the lot in dispute. If any dispute arises after the sale, Swann’s sales records shall be conclusive as to the purchaser, amount of highest bid, and in all other respects. 7. The purchase price paid by a purchaser shall be the sum of the final bid and a buyer’s premium of 25% of the hammer price up to and including $100,000; 20% of the portion of the hammer price above $100,000 up to and including $1,000,000; and 12% of the portion of the hammer price above $1,000,000 (“the Buyer’s Premium”), plus all applicable sales tax. An additional buyer’s premium may be charged on any purchase made through a live online auction as posted by Swarm in accordance with such live online auction.</p>
+
+<p>8. On the fall of the auctioneer’s hammer, title to the offered lot or article will pass to the highest acknowl-edged bidder, who thereupon (a) immediately assumes full risk and responsibility therefor, (b) will immediately sign a confirmation of the purchase therefor, setting forth his name and address, and (c) will immediately pay the full purchase price therefor. If the foregoing condi-tions or any other applicable conditions herein are not complied with, in addition to other remedies available to Swann and the Consignor by law (including without limitation the right to hold the purchaser liable for the bid price), Swann, at its option, may either (a) cancel the sale, retaining as liquidated damages all payments made by the purchaser, or (b) resell the property, either pub-licly or privately, for the account and risk of the purchaser, and in such event the purchaser shall be liable for the payment of all deficiencies plus all costs, includ-ing warehousing, the expenses of both sales, and Swann’s commission at its regular rates and all other charges due hereunder. Swann may also impose late charges of 1.5% per month (or the highest rate allowed under applicable law, whichever is lower) on any amounts unpaid.</p>
+
+<p>9. All property shall be removed from Swami by the purchaser at his expense no later than five (5) days fol-lowing its sale, and if not so removed may, at Swann’s option, be sent by Swann to a public warehouse at the account, risk and expense of the purchaser. Whether sent to a warehouse or stored by Swann, the purchaser shall be liable for all actual expenses incurred plus a storage charge of 5% of the purchase price. 10. Except as noted in this paragraph, all lots in this sale are offered for the account of a third party, without any interest (direct or indirect) of the auctioneer or Swann. Where Swami or an affiliate of Swann is the sole or partial owner of the property it is noted by the symbol ♦ next to the description of that lot. Under no circumstances will the Consignor receive any rebate commission. Under no circumstances may the Consignor bid upon or buy back his property. 11. Except as may be otherwise expressly provided herein, any and all claims of a purchaser shall be deemed to be waived and without validity unless delivered in writing by registered mail return receipt requested to Swann within thirty (30) days of the date of sale. 12. The rights and obligations of the parties shall be governed by the laws of the State of New York. All bidders and the purchaser submit to the personal juris-diction of the New York State courts and their rules and procedures in the event of any dispute. 13. No waiver or alteration of any of these Conditions of Sale, the Advice to Prospective Bidders, the Limited Warranty, the estimates, or any other matter in this cat-alogue or any other matter whatever (whether made by the auctioneer, or Consignor, or any representative of Swann) shall be effective unless it is in writing and signed by a representative of Swann.</p>
+
+<p>14. THE “LIMITED WARRANTY” APPEARING BELOW AND THE “ADVICE TO PROSPECTIVE BIDDERS” APPEARING OVERLEAF FORM PART OF THESE CONDITIONS OF SALE.</p>
+
+                        </div>
+                    </div>
+                    
+                </div>
+            </section>
+            
+        </div>
+        <div class="callout" id="hamburgerCallout">
+            <p>You can click this button to return to the table of contents at any time.</p>
+            <button onclick="this.parentElement.classList.add('got-it')">close</button>
+        </div>
+        <div class="callout" id="arrowsCallout">
+            <div id="arrow-keys">
+                <!-- <div><span></span></div><br> -->
+                <div>
+                    <span>
+                    <svg width="23" height="12" viewBox="0 0 23 12" fill="none" xmlns="http://www.w3.org/2000/svg">
+                        <path fill-rule="evenodd" clip-rule="evenodd" d="M0 6L10 0L10 5H23V7H10L10 12L0 6Z" fill="white"/>
+                    </svg>
+                    </span>
+                </div>
+                <div>
+                    <span>
+                    <svg width="23" height="12" viewBox="0 0 23 12" fill="none" xmlns="http://www.w3.org/2000/svg">
+                        <path fill-rule="evenodd" clip-rule="evenodd" d="M0 6L10 0L10 5H23V7H10L10 12L0 6Z" fill="white"/>
+                    </svg>
+                    </span>
+                    <span>
+                    <svg width="23" height="12" viewBox="0 0 23 12" fill="none" xmlns="http://www.w3.org/2000/svg">
+                        <path fill-rule="evenodd" clip-rule="evenodd" d="M0 6L10 0L10 5H23V7H10L10 12L0 6Z" fill="white"/>
+                    </svg>
+                    </span>
+                    <span>
+                    <svg width="23" height="12" viewBox="0 0 23 12" fill="none" xmlns="http://www.w3.org/2000/svg">
+                        <path fill-rule="evenodd" clip-rule="evenodd" d="M0 6L10 0L10 5H23V7H10L10 12L0 6Z" fill="white"/>
+                    </svg>
+                    </span>
+                </div>
+            </div>
+            <p>Use the right and left arrow keys to flip between pages.</p>
+        </div>
+
+        <textarea id="url_to_copy"></textarea>
+
+        <div id="printModal">
+            <div class="inner">
+                <h2>Choose a<br>print option:</h2>
+                <div class="control-group">
+                    <label class="control control-radio">
+                        Entire catalogue <span>(7)</span>
+                            <input type="radio" name="radio" value="all" checked="checked" />
+                        <div class="control_indicator"></div>
+                    </label>
+                    <label class="control control-radio">
+                        Bookmarked Lots Only <span id="bookmarkedCount">(2)</span>
+                            <input type="radio" name="radio" value="bookmarked" />
+                        <div class="control_indicator"></div>
+                    </label>
+                    <label class="control control-radio">
+                        
+                        Recommended Lots Only <span>(2)</span>
+                            <input type="radio" name="radio" value="recommended" />
+                        <div class="control_indicator"></div>
+                    </label>
+                </div>
+                <button id="printBtn" class="small-type" onclick="printBook()">Print</button>
+                <button id="cancelBtn" class="small-type" onclick="triggerPrintModal()">Cancel</button>
+            </div>
+        </div>
+    
+
+        <!-- <script src="https://cdn.jsdelivr.net/npm/vanilla-lozadload@17.3.0/dist/lozadload.min.js"></script> -->
+        <script src="https://cdnjs.cloudflare.com/ajax/libs/color-thief/2.3.0/color-thief.umd.js"></script>
+        <script src="/assets/js/ls.bgset.min.js" ></script>
+        <script src="/assets/js/ls.object-fit.min.js" ></script>
+        <script src="/assets/js/ls.respimg.min.js" ></script>
+        <script src="/assets/js/lazysizes-umd.min.js" ></script>
+        
+        <script src="/assets/js/emitter.min.js" ></script>
+        <!-- <script src="/assets/js/cookies.js" async></script> -->
+        <script src="/assets/js/catalogue.js" async ></script>
+
+        
+        <script src="/assets/js/script.js" async defer></script>
+    </body>
+</html>

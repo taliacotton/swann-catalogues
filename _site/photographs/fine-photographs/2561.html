@@ -1,0 +1,282 @@
+<!DOCTYPE html>
+<!--[if lt IE 7]>      <html class="no-js lt-ie9 lt-ie8 lt-ie7"> <![endif]-->
+<!--[if IE 7]>         <html class="no-js lt-ie9 lt-ie8"> <![endif]-->
+<!--[if IE 8]>         <html class="no-js lt-ie9"> <![endif]-->
+<!--[if gt IE 8]>      <html class="no-js"> <!--<![endif]-->
+<html>
+    <head>
+        <meta charset="utf-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        
+        <meta name="description" content="">
+
+        <meta property="og:title" content="Fine Photographs — Swann Galleries">
+        <meta property="og:description" content="">
+        
+        <meta property="og:url" content="/">
+        <meta property="twitter:title" content="Fine Photographs — Swann Galleries">
+        <meta property="twitter:description" content="">
+        
+        
+        
+        <meta property="twitter:image" content="https://res.cloudinary.com/dcryyrd42/image/upload/f_auto,q_70,w_512">
+        <meta property="og:image" content="https://res.cloudinary.com/dcryyrd42/image/upload/f_auto,q_70,w_512">
+        
+        
+        <meta property="twitter:image:alt" content="Fine Photographs — Swann Galleries">
+        <meta property="og:site_name" content="Fine Photographs — Swann Galleries">
+
+        <title>Fine Photographs — Swann Galleries</title>
+
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+
+        <link rel="icon" type="image/png" sizes="32x32" href="/assets/favicon/favicon-32x32.png">
+        <link rel="icon" type="image/png" sizes="16x16" href="/assets/favicon/favicon-16x16.png">
+
+        <link rel="stylesheet" href="/assets/css/main.css">
+  
+    </head>
+        <!-- <script type="text/javascript" src="https://cdn.jsdelivr.net/npm/lozad/dist/lozad.min.js"></script> -->
+        <link rel="stylesheet" href="/assets/css/catalogue.css">
+        <style>
+            :root{
+                --catalogueColor: #AD926F
+            }
+        </style>
+    </head>
+    <body class="loading visible-true" onload="checkCookie();">
+
+        <div class="password-modal">
+            <p>This page is restricted. <br>Please enter a password to continue.</p>
+            <input type="text" placeholder="Password" id="pw"><button onclick="testPassword()" class="small-type">Submit</button>
+            <br>
+            <div class="checkbox-container">
+                <input type="checkbox" name="remember" checked>
+                <label for="remember" class="small-type">Remember Me</label>
+            </div>
+        </div>
+
+        
+        
+        
+
+        <img id="cursor" src="/assets/img/cursor.png" alt="custom cursor">
+        <div id="cookieBanner">
+            <div class="left">We use cookies for the best experience possible. <a href="#">Read More</a></div>
+            <div class="right"><button onclick="acceptCookies()" aria-label="Cookies Yes">Accept</button><button aria-label="Cookies No" onclick="declineCookies()">Decline</button></div>
+        </div>
+        <div id="topbar">
+            <a href="/"><img id="logo" src="/assets/img/swann-logo.gif" alt="Swann Logo">
+            <a href="#">
+            <div class="catalogue-title">Fine Photographs  <span class="topbar--dot">•</span>  Thursday, March 11, 2021 at 10:30am </div>
+            </a>
+            <div class="buttons small-type">
+                <button onclick="triggerPrintModal()">Print</button>
+                <button onclick="triggerSearch()">Search</button>
+            </div>
+        </div>
+        <input type="text" id="searchbar" placeholder="Type name, keyword, date...">
+        <div class="searchBtns">
+            <button id="searchBtn" onclick="search()">Find Next</button>
+            <button onclick="closeSearch()">✕</button>
+        </div>
+        <nav class="sidebar" style="background-color:var(--catalogueColor)">
+            <ul class="topContent">
+                <li><a href="#contents" id="hamburger">
+                    <svg width="18" height="18" viewBox="0 0 18 18" fill="none" xmlns="http://www.w3.org/2000/svg"><circle cx="1.5" cy="1.5" r="1.5" fill="black"/><circle cx="1.5" cy="6.5" r="1.5" fill="black"/><circle cx="1.5" cy="11.5" r="1.5" fill="black"/><circle cx="1.5" cy="16.5" r="1.5" fill="black"/><circle cx="6.5" cy="1.5" r="1.5" fill="black"/><circle cx="6.5" cy="6.5" r="1.5" fill="black"/><circle cx="6.5" cy="11.5" r="1.5" fill="black"/><circle cx="6.5" cy="16.5" r="1.5" fill="black"/><circle cx="11.5" cy="1.5" r="1.5" fill="black"/><circle cx="11.5" cy="6.5" r="1.5" fill="black"/><circle cx="11.5" cy="11.5" r="1.5" fill="black"/><circle cx="11.5" cy="16.5" r="1.5" fill="black"/><circle cx="16.5" cy="1.5" r="1.5" fill="black"/><circle cx="16.5" cy="6.5" r="1.5" fill="black"/><circle cx="16.5" cy="11.5" r="1.5" fill="black"/><circle cx="16.5" cy="16.5" r="1.5" fill="black"/></svg>
+                </a></li>
+                <li><a href="#info" id="infoBtn">
+                    <svg width="21" height="21" viewBox="0 0 21 21" fill="none" xmlns="http://www.w3.org/2000/svg"><circle cx="10.5" cy="10.5" r="10.5" fill="black"/><path d="M8.36292 17.1681C9.9021 17.1681 11.2337 16.044 11.9255 15.0755L11.6142 14.7469C10.9397 15.4387 10.2307 15.9575 9.8848 16.0786C9.83292 16.0786 9.74645 16.0094 9.74645 15.9575C9.97127 15.283 10.2134 14.7296 10.5593 13.8476L11.5969 11.2362C11.8217 10.6828 12.0466 10.0948 12.0466 9.76622C12.0466 9.43763 11.8217 9.26469 11.3548 9.26469C10.0232 9.26469 8.51857 10.3023 7.8441 11.3054L8.1381 11.6686C8.50127 11.2189 9.24492 10.6309 9.57351 10.579C9.65998 10.579 9.71186 10.6309 9.71186 10.7347C9.71186 10.9076 9.27951 11.8934 8.91633 12.7927L7.89598 15.3176C7.68845 15.8538 7.41174 16.459 7.41174 16.6493C7.41174 16.926 7.72304 17.1681 8.36292 17.1681ZM11.8909 7.43152C12.5654 7.43152 13.2226 6.82622 13.2226 5.9961C13.2226 5.32163 12.8075 4.94116 12.1849 4.94116C11.424 4.94116 10.8533 5.63293 10.8533 6.37657C10.8533 7.01646 11.2164 7.43152 11.8909 7.43152Z" fill="white"/></svg>
+
+                </a></li>
+            </ul>
+            <ul class="sidebar--lots">
+                <span id="marker"></span>
+                
+            </ul>
+        </nav>
+        <section id="cover">
+                <a href="/"><img class="logo" src="/assets/img/swann-logo.gif"></a>
+                <a class="on-the-cover small-type" href="#lot0">
+                    On the cover:
+                    <br> Lot 0 • 
+                </a>
+                <div class="stripe" style="background-color:var(--catalogueColor)"></div>
+                <div class="left">
+                    
+                    <img style="background-color:"
+                        sizes="auto"
+                        class="lazyload"
+                        srcset="https://res.cloudinary.com/dcryyrd42/image/upload/f_auto,q_70,w_250 250w,
+                                https://res.cloudinary.com/dcryyrd42/image/upload/f_auto,q_65,w_500 500w,
+                                https://res.cloudinary.com/dcryyrd42/image/upload/f_auto,q_70,w_800 800w,
+                                https://res.cloudinary.com/dcryyrd42/image/upload/f_auto,q_70,w_1200 1200w,
+                                https://res.cloudinary.com/dcryyrd42/image/upload/f_auto,q_70,w_1600 1600w"
+                        src="https://res.cloudinary.com/dcryyrd42/image/upload/f_auto,q_50,w_40/"
+                        alt="" />
+                        
+                </div>
+                <div class="spine">
+                    <div class="spine-text">
+                        <!-- <span class="spine-date">March 11, 2021</span> -->
+                        <span class="spine-title">Fine Photographs</span>
+                    </div>
+                </div>
+                <div class="right">
+                    
+                    
+                    <h1>Fine Photographs</h1>
+                    
+                    <h2 class="cover-date">Thursday, March 11, 2021<br>at 10:30am </h2>
+                    <h3 class="cover-sale mobile-only">Sale 2561</h3>
+                </div>
+            </section>
+        <div class="main-content">
+            <div class="phantom-toc" id="contents" data-scroll-watch data-hide="#toc-dots">
+                <div class="subnav">
+                    <ul class="filters small-type">
+                        <li>View by:</li>
+                        <li><button onclick="sortTOC('square')">
+                            <svg style="top:-1px" width="7" height="7" viewBox="0 0 7 7" fill="none" xmlns="http://www.w3.org/2000/svg"><rect x="0.25" y="0.25" width="6.5" height="6.5" fill="white" stroke="white" stroke-width="0.5"/></svg>
+                            Bookmarked
+                        </button></li>
+                        <li><button onclick="sortTOC('diamond')">
+                            <svg style="top:1px;" width="10" height="12" viewBox="0 0 10 12" fill="none" xmlns="http://www.w3.org/2000/svg"><path d="M1 6L5 1L9 6L5 11L1 6Z" fill="white" stroke="white" stroke-width="0.5"/></svg>
+                            Recommended
+                        </button></li>
+                        <li><button onclick="sortTOC('dot')">
+                            <svg width="9" height="9" viewBox="0 0 9 9" fill="none" xmlns="http://www.w3.org/2000/svg"><circle cx="4.5" cy="4.5" r="4.25" fill="white" stroke="white" stroke-width="0.5"/></svg>
+                            All
+                        </button></li>
+                    </ul>
+                </div>
+            </div>
+            <section id="table-of-contents" class="hide-vis">
+                <div class="dates small-type" id="toc-dates">
+                </div>
+                <div id="toc-dots">
+                    
+                </div>
+            </section>
+            <section id="info">
+                <div class="leftright">
+                    <div class="left">
+                    <div><img class="logo" src="/assets/img/swann-logo-alt.gif" alt="Swann Logo"></div>
+                    <h2>Fine Photographs</h2>
+                    </div>
+                    <div class="right">
+                        <h3>Officers</h3>
+                    </div>
+                </div>
+                <div class="leftright">
+                    <div class="left">
+                        <div class="people">
+                            
+                        </div>
+                    </div>
+                    <div class="right">
+                        
+                        <div class="people">
+                            
+                        </div>
+                        <h3>Administration</h3>
+                        <div class="people">
+                            
+                        </div>
+                        
+
+                    </div>
+                </div>
+            </section>
+            <!-- <section id="chp1"  class="chapter-head">
+                <div class="inner">
+                    <h3 class="small-type">Afternoon Session at 2:30pm</h3>
+                    <h1>19th & 20th Century Literature</h1>
+                </div>
+            </section> -->
+            <div class="lots" id="PRINT">
+               
+            </div>
+
+            
+            
+        </div>
+        <div class="callout" id="hamburgerCallout">
+            <p>You can click this button to return to the table of contents at any time.</p>
+            <button onclick="this.parentElement.classList.add('got-it')">close</button>
+        </div>
+        <div class="callout" id="arrowsCallout">
+            <div id="arrow-keys">
+                <!-- <div><span></span></div><br> -->
+                <div>
+                    <span>
+                    <svg width="23" height="12" viewBox="0 0 23 12" fill="none" xmlns="http://www.w3.org/2000/svg">
+                        <path fill-rule="evenodd" clip-rule="evenodd" d="M0 6L10 0L10 5H23V7H10L10 12L0 6Z" fill="white"/>
+                    </svg>
+                    </span>
+                </div>
+                <div>
+                    <span>
+                    <svg width="23" height="12" viewBox="0 0 23 12" fill="none" xmlns="http://www.w3.org/2000/svg">
+                        <path fill-rule="evenodd" clip-rule="evenodd" d="M0 6L10 0L10 5H23V7H10L10 12L0 6Z" fill="white"/>
+                    </svg>
+                    </span>
+                    <span>
+                    <svg width="23" height="12" viewBox="0 0 23 12" fill="none" xmlns="http://www.w3.org/2000/svg">
+                        <path fill-rule="evenodd" clip-rule="evenodd" d="M0 6L10 0L10 5H23V7H10L10 12L0 6Z" fill="white"/>
+                    </svg>
+                    </span>
+                    <span>
+                    <svg width="23" height="12" viewBox="0 0 23 12" fill="none" xmlns="http://www.w3.org/2000/svg">
+                        <path fill-rule="evenodd" clip-rule="evenodd" d="M0 6L10 0L10 5H23V7H10L10 12L0 6Z" fill="white"/>
+                    </svg>
+                    </span>
+                </div>
+            </div>
+            <p>Use the right and left arrow keys to flip between pages.</p>
+        </div>
+
+        <textarea id="url_to_copy"></textarea>
+
+        <div id="printModal">
+            <div class="inner">
+                <h2>Choose a<br>print option:</h2>
+                <div class="control-group">
+                    <label class="control control-radio">
+                        Entire catalogue <span>(0)</span>
+                            <input type="radio" name="radio" value="all" checked="checked" />
+                        <div class="control_indicator"></div>
+                    </label>
+                    <label class="control control-radio">
+                        Bookmarked Lots Only <span id="bookmarkedCount">(2)</span>
+                            <input type="radio" name="radio" value="bookmarked" />
+                        <div class="control_indicator"></div>
+                    </label>
+                    <label class="control control-radio">
+                        
+                        Recommended Lots Only <span>(0)</span>
+                            <input type="radio" name="radio" value="recommended" />
+                        <div class="control_indicator"></div>
+                    </label>
+                </div>
+                <button id="printBtn" class="small-type" onclick="printBook()">Print</button>
+                <button id="cancelBtn" class="small-type" onclick="triggerPrintModal()">Cancel</button>
+            </div>
+        </div>
+    
+
+        <!-- <script src="https://cdn.jsdelivr.net/npm/vanilla-lozadload@17.3.0/dist/lozadload.min.js"></script> -->
+        <script src="https://cdnjs.cloudflare.com/ajax/libs/color-thief/2.3.0/color-thief.umd.js"></script>
+        <script src="/assets/js/ls.bgset.min.js" ></script>
+        <script src="/assets/js/ls.object-fit.min.js" ></script>
+        <script src="/assets/js/ls.respimg.min.js" ></script>
+        <script src="/assets/js/lazysizes-umd.min.js" ></script>
+        
+        <script src="/assets/js/emitter.min.js" ></script>
+        <!-- <script src="/assets/js/cookies.js" async></script> -->
+        <script src="/assets/js/catalogue.js" async ></script>
+
+        
+        <script src="/assets/js/script.js" async defer></script>
+    </body>
+</html>
