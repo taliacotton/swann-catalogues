@@ -20,14 +20,6 @@ sections:
   templates:
   - lot
 - type: directory
-  path: _data
-  label: Lots
-  create: documents
-  match: "**"
-  new_doc_ext: yaml
-  templates:
-  - catalogue
-- type: directory
   path: _people
   label: People
   create: documents
