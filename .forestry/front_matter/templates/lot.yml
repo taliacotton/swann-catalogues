@@ -34,6 +34,8 @@ fields:
     step: 1
     min: 0
     required: true
+  description: If this number matches the first four characters (numbers) of the uploaded
+    LOTS file, it will automatically connect.
 - type: text
   name: title
   label: Title/Department
