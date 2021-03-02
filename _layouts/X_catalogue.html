@@ -19,14 +19,13 @@
             </div>
         </div>
 
-        {% for x in site.data %}
-            {% assign testName = "_data/" | append: x[0] | append: ".yaml" %}
-            {% if testName == page.lots %}
-                {% assign catalogue = x[1] %}
+        {% assign lotsFilepath = '_lots/' | append: page.sale %}
+        {% assign lots = '' | split: '' %}
+        {% for x in site.lots %}
+            {% if x.path contains lotsFilepath %}
+                {% assign lots = lots | push: x | order: LOT %}
             {% endif %}
         {% endfor %}
-
-        {% assign lots = catalogue.lots %}
 
         <img id="cursor" src="/assets/img/cursor.png" alt="custom cursor">
         <div id="cookieBanner">
