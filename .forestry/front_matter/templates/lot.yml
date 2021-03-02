@@ -45,7 +45,7 @@ fields:
     options: []
     source:
       type: pages
-      section: lots
+      section: individual-lots
       file: 
       path: 
   label: Lots
