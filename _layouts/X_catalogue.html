@@ -20,11 +20,30 @@
         </div>
 
         {% assign lotsFilepath = '_lots/' | append: page.sale %}
+        {% assign lotsOutOfOrder = '' | split: '' %}
         {% assign lots = '' | split: '' %}
+        {% assign lotsOrder = '' | split: '' %}
+        {% assign counter = 1 %}
+
+        <!-- LOTS ARE GETTING ORDERED BY THEIR LOT NUMBER ALPHABETICALLY -->
+
         {% for x in site.lots %}
             {% if x.path contains lotsFilepath %}
-                {% assign lots = lots | push: x | order: LOT %}
+                {% assign lotsOutOfOrder = lotsOutOfOrder | push: x %}
+                {% assign lotsOrder = lotsOrder | push: counter %}
+                {% assign counter = counter | plus: 1 %}
             {% endif %}
+        {% endfor %}
+
+        <!-- THIS REORDERS THEM -->
+
+        {% for num in lotsOrder %}
+            {% for lot in lotsOutOfOrder %}
+                {% assign lotNumLoop = lot.LOT | times: 1 %}
+                {% if lotNumLoop == num %}
+                    {% assign lots = lots | push: lot %}
+                {% endif %}
+            {% endfor %}
         {% endfor %}
 
         <img id="cursor" src="/assets/img/cursor.png" alt="custom cursor">
@@ -61,7 +80,7 @@
                 <span id="marker"></span>
                 {% for lot in lots %}
                 
-                {% assign lotNum = forloop.index %}
+                {% assign lotNum = lot.LOT %}
 
                 {% for session in page.chapters %}
                     {% for chapter in session.chapters %}
@@ -264,9 +283,10 @@
                 </div>
             </section> -->
             <div class="lots" id="PRINT">
+        
                {% for lot in lots %}
 
-                  {% assign lotNum = forloop.index %}
+                  {% assign lotNum = lot.LOT | round %}
 
                   {% for session in page.chapters %}
                      {% for chapter in session.chapters %}
