@@ -1,7 +1,7 @@
 ---
 layout: X_catalogue
 lots: []
-color: "#AD926F"
+color: "#D9A82F"
 cover_image:
   lot_number: 53
   title: Loïs Mailou Jones, Twelve American Women calendar, 1942.
