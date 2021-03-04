@@ -47,10 +47,11 @@ fields:
     options: []
     source:
       type: pages
-      section: lots
+      section: ''
       file: 
       path: 
   label: Lots
+  hidden: true
 - name: datetime
   type: field_group
   config: {}
