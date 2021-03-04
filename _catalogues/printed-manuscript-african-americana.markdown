@@ -68,6 +68,16 @@ people:
   - _people/shannon-licitra.md
   general_information: ''
 essays:
+- lot: 218
+  title: Katherine Dunham (1909-2006)
+  author: ''
+  body: Katherine Dunham was one of the most important American dancers of the 20th
+    century. She led her own dance company, and ran her own school of dance in New
+    York. A graduate of the University of Chicago, she was an accomplished anthropologist
+    and scholar of dance in addition to her career on stage, and authored three books.
+    Raised in Joliet, IL, she toured widely across several continents, residing at
+    various points in New York, Hollywood, Haiti, and Tokyo as a true citizen of the
+    world.
 - lot: 58
   title: 'Masood Ali Wilbert Warren  (1907-1995) '
   author: ''
