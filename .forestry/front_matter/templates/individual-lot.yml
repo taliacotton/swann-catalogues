@@ -99,7 +99,7 @@ fields:
     min: 
     max: 
     step: 
-- name: color_background
+- name: background_color
   type: color
   label: Color Background (Optional)
   config:
