@@ -67,7 +67,15 @@ people:
   - _people/kelsie-jankowski.md
   - _people/shannon-licitra.md
   general_information: ''
-essays: []
+essays:
+- lot: 58
+  title: 'Masood Ali Wilbert Warren  (1907-1995) '
+  author: ''
+  body: Masood Ali Wilbert Warren, of New York, attended the Art Students League in
+    the 1930s, graduated from New York University in 1939, served in the United States
+    Army for many years as a quartermaster sergeant, and received a Masters in the
+    Arts from Temple University in 1961. His work was exhibited at the National Academy
+    of Design, the American Watercolor Society, and the National Arts Club.![](https://res.cloudinary.com/dcryyrd42/image/upload/v1614809195/2562/770330_VIEW_09.jpg)
 footer_pages: []
 
 ---
