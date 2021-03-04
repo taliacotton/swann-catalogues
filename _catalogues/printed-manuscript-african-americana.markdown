@@ -7,7 +7,7 @@ cover_image:
   title: ''
   image: ''
 filename: ''
-visible: false
+visible: true
 permalink: "/books-manuscripts/printed-manuscript-african-americana/2562"
 sale: 2562
 title: Printed & Manuscript African Americana
