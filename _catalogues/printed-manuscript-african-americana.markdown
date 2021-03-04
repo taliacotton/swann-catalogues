@@ -46,8 +46,19 @@ chapters:
   - chapter_title: Music
     lot: 295
 people:
-  main_contacts: []
-  officers: []
+  main_contacts:
+  - _people/rick-stattler.md
+  - _people/david-rivera.md
+  officers:
+  - _people/george-s.lowry.md
+  - _people/Blank Spot.md
+  - _people/Blank Spot.md
+  - _people/nicholas-d.lowry.md
+  - _people/vice-president-controller.md
+  - _people/communications-director-auctioneer.md
+  - _people/todd-weyman.md
+  - _people/director.md
+  - _people/rick-stattler.md
   administration: []
   general_information: ''
 essays: []
