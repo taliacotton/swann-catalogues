@@ -10,10 +10,13 @@
     "json-to-pretty-yaml": "^1.2.2",
     "yaml-js": "^0.2.3"
   },
-  "devDependencies": {},
+  "devDependencies": {
+    "pre-git": "^3.17.1"
+  },
   "scripts": {
-    "build": "node generate.js &&  bundle exec jekyll build",
-    "serve": "node generate.js &&  bundle exec jekyll serve --trace"
+    "build": "node generate.js && bundle exec jekyll build",
+    "serve": "node generate.js && bundle exec jekyll serve --trace",
+    "commit": "commit-wizard"
   },
   "repository": {
     "type": "git",
@@ -24,5 +27,22 @@
   "bugs": {
     "url": "https://github.com/taliacotton/swann-catalogues/issues"
   },
-  "homepage": "https://github.com/taliacotton/swann-catalogues#readme"
+  "homepage": "https://github.com/taliacotton/swann-catalogues#readme",
+  "release": {
+    "analyzeCommits": "simple-commit-message"
+  },
+  "config": {
+    "pre-git": {
+      "allow-untracked-files": true,
+      "enabled": true,
+      "msg-pattern": "^(US|DE)\\d+ - .+",
+      "commit-msg": "new files generated",
+      "pre-commit": [
+        "node generate.js && bundle exec jekyll build"
+      ],
+      "post-commit": "git status",
+      "post-checkout": "npm install",
+      "post-merge": "npm install"
+    }
+  }
 }

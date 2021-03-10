@@ -12,8 +12,8 @@
   },
   "devDependencies": {},
   "scripts": {
-    "build": "node generate.js &&  bundle exec jekyll build",
-    "serve": "node generate.js &&  bundle exec jekyll serve --trace"
+    "build": "node generate.js && bundle exec jekyll build",
+    "serve": "node generate.js && bundle exec jekyll serve --trace"
   },
   "repository": {
     "type": "git",
