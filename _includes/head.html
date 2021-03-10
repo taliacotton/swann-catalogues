@@ -14,19 +14,19 @@
         <meta property="og:description" content="{{page.short_description}}">
         
         <meta property="og:url" content="/">
-        <meta property="twitter:title" content="{{page.title}} — Swann Galleries">
-        <meta property="twitter:description" content="{{page.short_description}}">
+        <meta name="twitter:title" content="{{page.title}} — Swann Galleries">
+        <meta name="twitter:description" content="{{page.short_description}}">
         
         
         {% if page.cover_image %}
-        <meta property="twitter:image" content="{{ site.cloudinary_url }}/f_auto,q_70,w_512{{ page.cover_image.image }}">
+        <meta name="twitter:image" content="{{ site.cloudinary_url }}/f_auto,q_70,w_1200{{ page.cover_image.image }}">
         <meta property="og:image" content="{{ site.cloudinary_url }}/f_auto,q_70,w_512{{ page.cover_image.image }}">
         {% else %}
-        <meta property="twitter:image" content="https://imprint.swanngalleries.com/assets/img/og-image.png">
+        <meta name="twitter:image" content="https://imprint.swanngalleries.com/assets/img/og-image.png">
         <meta property="og:image" content="https://imprint.swanngalleries.com/assets/img/og-image.png">
         {% endif %}
         
-        <meta property="twitter:image:alt" content="{{page.title}} — Swann Galleries">
+        <meta name="twitter:image:alt" content="{{page.title}} — Swann Galleries">
         <meta property="og:site_name" content="{{page.title}} — Swann Galleries">
 
         <title>{{page.title}} — Swann Galleries</title>

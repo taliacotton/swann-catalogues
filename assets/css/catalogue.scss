@@ -682,6 +682,7 @@ section{
         position:absolute;
         bottom:0px;
         width:calc(100% - 20px);
+        left: calc(var(--toolbar-height) + 1px);
         // line-height: var(--toolbar-height);
         justify-content:space-between;
         padding: 10px;

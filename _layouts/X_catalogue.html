@@ -80,25 +80,24 @@
                 <span id="marker"></span>
                 {% for lot in lots %}
                 
-                {% assign lotNum = lot.LOT %}
+                {% assign lotNum = lot.LOT | plus: '' %}
 
                 {% for session in page.chapters %}
                     {% for chapter in session.chapters %}
-                            {% if lotNum == chapter.lot %}
-                            <a class="sidebar-chapter-separation" href="#{{chapter.chapter_title | slugify}}">
-                            <li >
-                                
+                        {% assign chapterLotNum = chapter.lot | plus: '' %}
+                        {% if lotNum == chapterLotNum %}
+                            <a class="sidebar-chapter-separation" href="#chp-{{chapter.chapter_title | slugify}}">
+                            <li>
                                     {% if forloop.index == 1 %}
                                     <p class="small-type">{{session.session_title}}</p>
                                     {% endif%}
                                     <p class="chapter-title">{{chapter.chapter_title}}</p>
-                                
                             </li>
                             </a>
-                            {% endif %}
+                        {% endif %}
                     {% endfor %}
                 {% endfor %}
-                        <a href="#lot{{lotNum}}">
+                    <a href="#lot{{lotNum}}">
                     <li data-id="lot{{lotNum}}">
                             <div class="thumbnail-lockup">
                                     {% if lot.image %}
@@ -186,7 +185,7 @@
                     {% for session in page.chapters %}
                         {% for chapter in session.chapters %}
                                 {% if lotNum == chapter.lot %}
-                                <a href="#{{chapter.chapter_title | slugify}}">
+                                <a href="#chp-{{chapter.chapter_title | slugify}}">
                                     {% if forloop.index == 1 %}
                                     <p class="small-type">{{session.session_title}}</p>
                                     {% endif%}
