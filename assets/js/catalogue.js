@@ -110,8 +110,9 @@ let mouseIsDown = false;
 
 // COLOR THEIF
 document.addEventListener('lazyloaded', function (ev) {
-   if(ev.target.classList.contains('.color-theif')){
-      img.parentElement.style.backgroundColor ="rgb("+colorThief.getColor(img)[0]+","+colorThief.getColor(img)[1]+","+colorThief.getColor(img)[2]+")";
+   if(ev.target.classList.contains('color-theif')){
+       let img = ev.target;
+       img.parentElement.style.backgroundColor ="rgb("+colorThief.getColor(img)[0]+","+colorThief.getColor(img)[1]+","+colorThief.getColor(img)[2]+")";
    }
 })
 
@@ -235,7 +236,7 @@ document.addEventListener("scroll", function(){
   }
 
    //show sections
-   document.querySelectorAll('.lot-wrapper').forEach(function (section){
+   document.querySelectorAll('section').forEach(function (section){
       var bounds = section.getBoundingClientRect();
       if (
          bounds.top <= window.innerHeight * 3 &&

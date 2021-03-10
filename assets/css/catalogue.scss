@@ -604,7 +604,7 @@ section{
         height:calc(var(--main-height) - var(--toolbar-height)*2 - 4px - 20px);
         position:absolute;
         bottom: var(--toolbar-height);
-        width: var(--main-width);
+        width: calc(var(--main-width) - 15px);
         box-sizing: border-box;
         padding: 10px 0px 10px 10px;
         a > p{margin:5px 0px;}
@@ -924,6 +924,9 @@ section{position:relative;}
             }
         }
     }
+    @media screen and (max-width: 726px){
+        display:none;
+    }
 }
 
 #arrowsCallout.visible{
@@ -1014,8 +1017,8 @@ section{position:relative;}
             position:fixed;
             // transition:opacity 200ms;
             // filter:blur(10px);
-            user-select:none;
-            pointer-events:none;
+            // user-select:none;
+            // pointer-events:none;
             z-index:0;
             filter:blur(4px);
             transition:filter 400ms 50ms ease;
