@@ -1464,6 +1464,9 @@ section.header_text.large-image .header-inner:before {
     top: 0px;
     opacity: 0.2;
 }
+.header_text .header-inner{
+    max-width: calc(100% - var(--toolbar-height));
+}
 .header-text-small{
     text-align:center;
     padding:50px 0px 200px;
@@ -1578,6 +1581,7 @@ section.large_image{
         // margin: auto;
         width: calc(100% + 120px);
         margin-left: -60px;
+        max-width: calc(100vw - var(--toolbar-height));
     }
     .title-text{
         padding-bottom: 80px;
@@ -1623,11 +1627,17 @@ section.large_image{
     .footer-page{
         width:calc(50% - 60px);
         margin: 30px;
+        @media screen and (max-width: 726px){
+            margin: 0px;
+        }
     }
     .footer-page:last-child:nth-child(odd){
         column-count: 2;
         column-gap: 56px;
         width:100%;
+        @media screen and (max-width: 726px){
+            column-count: 1;
+        }
     }
     .title-container{
         width:100%;
