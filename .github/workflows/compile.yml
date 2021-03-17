@@ -24,6 +24,9 @@ jobs:
       # Checks-out your repository under $GITHUB_WORKSPACE, so your job can access it
       - uses: actions/checkout@v2
 
+      - name: Install NPM dependencies for compiler
+        run: npm install
+        
       - name: Compile YAML files in _data/, put them in _lots/
         run: node generate.js
       
