@@ -1,7 +1,7 @@
 ---
 layout: X_catalogue
 lots: []
-color: "#EEC747"
+color: "#FFF68C"
 cover_image:
   lot_number: 248
   title: Johann Zahn, Oculus Artificialis Teledioptricus sive Telescopium, 1685-86.
