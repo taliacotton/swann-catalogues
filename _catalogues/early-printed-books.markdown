@@ -16,7 +16,11 @@ datetime:
   time: 2021-03-01 12:00:00 +0000
   time2: 
 short_description: ''
-chapters: []
+chapters:
+- session_title: ''
+  chapters:
+  - lot: 1
+    chapter_title: Printed Books & Manuscripts
 people:
   main_contacts: []
   officers: []
