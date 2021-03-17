@@ -12,8 +12,8 @@ permalink: "/books-manuscripts/early-printed-books/2563"
 sale: 2563
 title: Early Printed Books
 datetime:
-  date: 
-  time: 
+  date: 2021-04-08 04:00:00 +0000
+  time: 2021-03-01 12:00:00 +0000
   time2: 
 short_description: ''
 chapters: []
