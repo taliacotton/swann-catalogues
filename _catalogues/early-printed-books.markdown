@@ -21,6 +21,12 @@ chapters:
   chapters:
   - lot: 1
     chapter_title: Printed Books & Manuscripts
+  - chapter_title: Medicine
+    lot: 143
+  - chapter_title: Science
+    lot: 190
+  - chapter_title: Travel
+    lot: 250
 people:
   main_contacts: []
   officers: []
@@ -28,6 +34,5 @@ people:
   general_information: ''
 essays: []
 footer_pages: []
-published: false
 
 ---
