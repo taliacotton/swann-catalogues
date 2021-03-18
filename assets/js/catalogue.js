@@ -112,7 +112,8 @@ let mouseIsDown = false;
 document.addEventListener('lazyloaded', function (ev) {
    if(ev.target.classList.contains('color-theif')){
        let img = ev.target;
-       img.parentElement.style.backgroundColor ="rgb("+colorThief.getColor(img)[0]+","+colorThief.getColor(img)[1]+","+colorThief.getColor(img)[2]+")";
+       let color = colorThief.getColor(img);
+       img.parentElement.style.backgroundColor ="rgb("+color[0]+","+color[1]+","+color[2]+")";
    }
 })
 
@@ -182,8 +183,8 @@ function triggerPrintModal(){
 }
 
 // PRINT COMMAND
-function printBook(){ 
-    // print select pages  
+function printBook(){
+    // print select pages
     let pagesToPrint = document.querySelector('input[name = "radio"]:checked').value;
     if (pagesToPrint == "bookmarked"){
         document.body.classList.add("print-bookmarked");
@@ -224,7 +225,7 @@ document.addEventListener("scroll", function(){
       if (document.getElementById("hamburgerCallout").classList.contains("visible")){
           document.getElementById("hamburgerCallout").classList.remove("visible");
           document.getElementById("hamburgerCallout").style.display="none";
-      }  
+      }
   }
   if(scrollTop > window.innerHeight*3 && document.querySelector("#lot3").getBoundingClientRect().top > window.innerHeight/2){
       document.getElementById("arrowsCallout").classList.add("visible");
@@ -232,7 +233,7 @@ document.addEventListener("scroll", function(){
       if (document.getElementById("arrowsCallout").classList.contains("visible")){
           document.getElementById("arrowsCallout").classList.remove("visible");
           document.getElementById("arrowsCallout").style.display="none";
-      }  
+      }
   }
 
    //show sections
@@ -281,10 +282,10 @@ document.addEventListener("scroll", function(){
          }
 
          // MARKER
-         document.querySelector(".sidebar--lots li[data-id='"+l.parentElement.id+"']").classList.add("current"); 
+         document.querySelector(".sidebar--lots li[data-id='"+l.parentElement.id+"']").classList.add("current");
 
       } else {
-         document.querySelector(".sidebar--lots li[data-id='"+l.parentElement.id+"']").classList.remove("current"); 
+         document.querySelector(".sidebar--lots li[data-id='"+l.parentElement.id+"']").classList.remove("current");
       }
    }
 })
@@ -294,7 +295,7 @@ let imgZoom = false;
 
 // ZOOM IMAGE
 for (let ls of leftSectionsZoom){
-   
+
    ls.addEventListener("click", function(e){
    if (window.innerWidth < breakpoint) return false;
       imgZoom = !imgZoom;
@@ -316,7 +317,7 @@ for (let ls of leftSectionsZoom){
 
 
 //NOTE: should be deleted if ticket is closed
-// function zoomChangeSrc(ls){ 
+// function zoomChangeSrc(ls){
 //     let img = ls.querySelector("img");
 //     let rTop = ls.parentElement.querySelector('.right').getBoundingClientRect().top;
 //     let src = "https://res.cloudinary.com/dcryyrd42/image/upload/f_auto,q_50,h_" + window.innerHeight + img.getAttribute("data-img");
@@ -335,7 +336,7 @@ function zoomImg(e, ls){
     window.scrollTo(0, rTop + window.scrollY) ;
     let xPos = interpolate(e.clientX, 39, 39 + (window.innerWidth - 39)/2, 0, 100);
     let yPos = interpolate(e.clientY, 39, window.innerHeight, 0, 100);
-    
+
     img.style.objectPosition = xPos + "% " + yPos + "%";
 }
 
@@ -402,15 +403,15 @@ for (let np of notesPrompts){
         //  hide button when typing
         // t.onblur=function(){np.style.display="block"}
 
-        
+
 
         t.addEventListener("blur", function(){
             // console.log("BLURRED");
             if (t.innerHTML.length <= 0){}
 
-            let obj = 
-                {   content: t.value, 
-                    top: pct, 
+            let obj =
+                {   content: t.value,
+                    top: pct,
                     side: targetMargin.classList[0],
                     lot: targetMargin.parentElement.parentElement.parentElement.id}
             notes.push(obj);
@@ -524,13 +525,13 @@ for (let text of highlightTexts){
             element.id = elemID;
             window.getSelection().getRangeAt(0).surroundContents(element);
             let startChar = e.target.innerHTML.search(element.innerHTML);
-            
+
             var child = e.target;
             var parent = child.parentNode;
             // The equivalent of parent.children.indexOf(child)
             var index = Array.prototype.indexOf.call(parent.children, child);
 
-            let highlightObj = 
+            let highlightObj =
                 {   startChar: startChar,
                     totalChar: element.innerHTML.length,
                     lot: e.target.closest(".lot").id,
@@ -538,13 +539,13 @@ for (let text of highlightTexts){
                     id: elemID}
             highlights.push(highlightObj);
             // console.log(highlightObj);
-            
+
         }
         setCookie("highlights",JSON.stringify(highlights));
         clearSelection();
       //   console.log(highlights);
     })
-    
+
 }
 
 
@@ -552,10 +553,10 @@ for (let text of highlightTexts){
 document.addEventListener("keydown", function(e){
     document.documentElement.style.scrollBehavior= "auto";
     if (e.key == "ArrowRight"){
-        location.href = "#"+document.querySelector(location.hash).nextElementSibling.id;     
+        location.href = "#"+document.querySelector(location.hash).nextElementSibling.id;
     }
     if (e.key == "ArrowLeft"){
-        location.href = "#"+document.querySelector(location.hash).previousElementSibling.id;     
+        location.href = "#"+document.querySelector(location.hash).previousElementSibling.id;
     }
 })
 
@@ -586,8 +587,9 @@ function showCurrentImage() {
    }
 
    for (let r of rightSections) {
-      let bottom = r.getBoundingClientRect().bottom;
-      let top = r.getBoundingClientRect().top;
+       let boundingRect = r.getBoundingClientRect();
+      let bottom = boundingRect.bottom;
+      let top = boundingRect.top;
       if (top <= 30 && bottom >= window.innerHeight / 2) {
          r.classList.add("active");
       } else {
@@ -625,6 +627,8 @@ document.getElementById("toc-dates").innerHTML = `<p>${minYear}</p>
                                                   <p>${Math.floor(maxYear-(maxYear - minYear)/6)}</p>
                                                   <p>${maxYear}</p>`
 }
+
+
 for (let d of tocDots){
     let container = d.querySelector(".dot-container-inner");
     let left = interpolate(d.getAttribute("data-year"), Math.min(...years), Math.max(...years), 0, 100);
@@ -633,22 +637,23 @@ for (let d of tocDots){
 
     let img = d.querySelector('img');
     let dot = d.querySelector('.dot');
-   if (img) {
-      
-      if (img.getBoundingClientRect().left >= window.innerWidth-200){
-          d.querySelector(".thumbnail-lockup").style.position="fixed";
-          d.querySelector(".thumbnail-lockup").style.right="0px";
-      }
-      img.addEventListener('load', function() {
-         dot.style.background ="rgb("+colorThief.getColor(img)[0]+","+colorThief.getColor(img)[1]+","+colorThief.getColor(img)[2]+")";
-      });
-   }
+    if (img) {
+
+    if (img.getBoundingClientRect().left >= window.innerWidth-200){
+        d.querySelector(".thumbnail-lockup").style.position="fixed";
+        d.querySelector(".thumbnail-lockup").style.right="0px";
+    }
+    img.addEventListener('load', function() {
+        var color = colorThief.getColor(img);
+        dot.style.background ="rgb("+color[0]+","+color[1]+","+color[2]+")";
+    });
+    }
 
     // Make sure image is finished loading
     // if (img.complete) {
     //         dot.style.background ="rgb("+colorThief.getColor(img)[0]+","+colorThief.getColor(img)[1]+","+colorThief.getColor(img)[2]+")";
     // } else {
-       
+
     // }
 }
 
@@ -661,14 +666,14 @@ for (let d of tocDots){
 //         let dCenterY = d.querySelector(".dot").getBoundingClientRect().top + d.querySelector(".dot").getBoundingClientRect().height/2;
 //         if (distance(dCenterX, dCenterY, e.clientX, e.clientY) < 50){
 //             elems.push(d);
-//         } 
+//         }
 //     }
 //     elems[0].classList.add("hover");
 // })
 
 
 // TOC filters
-function sortTOC(shape){  
+function sortTOC(shape){
     let allDots = toc.querySelectorAll(".dot")
     for (let d of allDots){
         if (d.classList.contains(shape)){
@@ -797,7 +802,7 @@ function checkCookie() {
   var permission=getCookie("permission");
   if (permission) {
     cookieBanner.style.display = "none";
-  } 
+  }
   var access=getCookie("access");
   if (!access && !document.body.classList.contains("visible-true")) {
     document.body.classList.add("visible-false");
@@ -823,18 +828,18 @@ function declineCookies(){
 }
 
 // ––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––
-// Hide Data Vis once you scroll past it 
+// Hide Data Vis once you scroll past it
 // Window scroll to hide data viz in background
 // ––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––
 window.addEventListener('scroll', showHideElements );
 
-function showHideElements(){ 
+function showHideElements(){
    var scrollEl = document.querySelectorAll('[data-scroll-watch]');
    scrollEl.forEach(el => {
       // get element
       let bounds = el.getBoundingClientRect();
       var dots = document.querySelector(el.dataset.hide);
-      
+
       // if bounds hits top of screen hide it
       if ( bounds.bottom <= 0) {
          dots.parentElement.classList.add('hide-vis');
@@ -849,13 +854,13 @@ function showHideElements(){
 
 
 // ––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––
-// Slideshow 
+// Slideshow
 // ––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––
 // I am doing this because we have multiple scroll listeners on the window and If I turn this off it will turn off all of them
 var allowScrollJack = false
 
 
-slideshows.forEach(function (wrapper) { 
+slideshows.forEach(function (wrapper) {
    var slideshow = wrapper.querySelector('.slideshow');
    var next = wrapper.querySelector('.js-next');
    var previous = wrapper.querySelector('.js-previous');
@@ -871,19 +876,19 @@ slideshows.forEach(function (wrapper) {
    //    allowScrollJack = true;
    // });
 
-   
+
 
    // Event listner to remove the lock on the page when you mouse out of the LS
-   wrapper.addEventListener('mouseleave', function () { 
+   wrapper.addEventListener('mouseleave', function () {
       // allowScrollJack = false;
       document.body.classList.remove('stuck');
    });
-   
-   // previous.addEventListener('click', function () { 
+
+   // previous.addEventListener('click', function () {
    //    // scroll to next image
    //    var slideshow = wrapper.querySelector('.slideshow');
    //    var style =  window.getComputedStyle(slideshow)['transform']
-   //    var imgWidth = wrapper.offsetWidth; 
+   //    var imgWidth = wrapper.offsetWidth;
    //    slideshow.style.transform = 'translate3d(0px, 0,0)';
    //    console.log(style);
    // })
@@ -893,24 +898,24 @@ window.addEventListener('wheel', function (event) {
 
    if (!event.target.classList.contains('slideshow-img-container')) return false;
    var slideshow = event.target.parentElement;
-   var maxOffset = slideshow.getBoundingClientRect().width - (window.innerWidth/2);     
+   var maxOffset = slideshow.getBoundingClientRect().width - (window.innerWidth/2);
    var right = slideshow.parentElement.parentElement.querySelector('.right');
    // set value
    slideshow.dataset.scroll = Number(slideshow.dataset.scroll) + (event.deltaY * .7);
 
-      
-   // if the slides   
+
+   // if the slides
    // console.log(slideshow.getBoundingClientRect().top + window.pageYOffset)
    if (slideshow.dataset.scroll <= 0) {
-      slideshow.style.transform = 'translate3d(0px, 0,0)'   
+      slideshow.style.transform = 'translate3d(0px, 0,0)'
       slideshow.dataset.scroll = 0
       document.body.classList.remove('stuck');
-      
+
    } else if(slideshow.dataset.scroll >= maxOffset){
       slideshow.style.transform = 'translate3d(-'+maxOffset+'px, 0,0)'
       slideshow.dataset.scroll = maxOffset
       document.body.classList.remove('stuck');
-      
+
    } else {
       // event.preventDefault();
       window.scrollTo({
@@ -920,14 +925,14 @@ window.addEventListener('wheel', function (event) {
       // debounce(function () { });
       slideshow.style.transform = 'translate3d(-'+slideshow.dataset.scroll+'px, 0,0)'
       document.body.classList.add('stuck');
-      
-   }   
+
+   }
 
 
 })
 
 // Resize function for recalculating sliderwidth
-window.addEventListener('resize', function () { 
+window.addEventListener('resize', function () {
    slideshows.forEach(function (wrapper) {
       var slideshow = wrapper.querySelector('.slideshow');
       resizeSlideshow(slideshow, wrapper);
@@ -948,11 +953,11 @@ function debounce(func, timeout = 300){
 function resizeSlideshow(slideshow, wrapper){
    var wrapperWidth = 0;
    // create slide spacing---------------
-   slideshow.querySelectorAll('.slideshow-img-container').forEach(function () { 
+   slideshow.querySelectorAll('.slideshow-img-container').forEach(function () {
       var width = wrapper.offsetWidth  - 60;
       wrapperWidth += width;
    })
-   
+
    // Set the wrapper width
    slideshow.style.width = wrapperWidth+'px';
 }
@@ -970,7 +975,7 @@ function scrollSlideshow(lotId){
 // TODO:COMMENT
 for (let ls of leftSectionsSlideshowZoom){
    var images = ls.querySelectorAll('.slideshow-img-container');
-   
+
    images.forEach(function (el) {
       el.addEventListener("click", function(e){
          if (window.innerWidth < breakpoint) return false;
@@ -979,10 +984,10 @@ for (let ls of leftSectionsSlideshowZoom){
          var zoomContainer = ls.querySelector('.zoom-container');
          zoomContainer.style.backgroundImage = "url('"+src+"')";
          zoomContainer.classList.add('active');
-         ls.addEventListener('mousemove', zoomMouseMove.bind(zoomContainer))         
-      })      
+         ls.addEventListener('mousemove', zoomMouseMove.bind(zoomContainer))
+      })
    })
-      
+
    ls.querySelector('.zoom-container').addEventListener('click', function (event) {
       this.classList.remove('active');
       this.style.backgroundImage = "none";
@@ -991,15 +996,15 @@ for (let ls of leftSectionsSlideshowZoom){
       this.classList.remove('active');
       this.style.backgroundImage = "none";
    });
-   
-   
+
+
 }
 
-function zoomMouseMove(e){ 
+function zoomMouseMove(e){
    if (!this.classList.contains('active')) return false;
    let xPos = interpolate(e.clientX, 39, 39 + (window.innerWidth - 39)/2, 0, 100);
    let yPos = interpolate(e.clientY, 39, window.innerHeight, 0, 100);
-   
+
    this.style.backgroundPosition = xPos + "% " + yPos + "%";
    this.classList.add('active');
 }
