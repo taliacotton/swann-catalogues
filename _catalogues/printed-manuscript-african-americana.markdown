@@ -12,8 +12,8 @@ permalink: "/books-manuscripts/printed-manuscript-african-americana/2562"
 sale: 2562
 title: Printed & Manuscript African Americana
 datetime:
-  date: 2021-03-25 04:00:00 +0000
-  time: 2021-03-01 10:30:00 +0000
+  date: 2021-03-25T04:00:00.000+00:00
+  time: 2021-03-01T10:30:00.000+00:00
   time2: 
 short_description: ''
 chapters:
@@ -68,6 +68,10 @@ people:
   - _people/shannon-licitra.md
   general_information: ''
 essays:
+- lot: 0
+  title: ''
+  author: ''
+  body: ''
 - lot: 218
   title: Katherine Dunham (1909-2006)
   author: ''
@@ -81,10 +85,13 @@ essays:
 - lot: 58
   title: 'Masood Ali Wilbert Warren  (1907-1995) '
   author: ''
-  body: |-
-    Masood Ali Wilbert Warren, of New York, attended the Art Students League in the 1930s, graduated from New York University in 1939, served in the United States Army for many years as a quartermaster sergeant, and received a Masters in the Arts from Temple University in 1961. His work was exhibited at the National Academy of Design, the American Watercolor Society, and the National Arts Club.
-
-    ![](https://res.cloudinary.com/dcryyrd42/image/upload/v1614809195/2562/770330_VIEW_09.jpg "portrait of Masood Ali Wilbert Warren")
+  body: "**Masood Ali Wilbert Warren**, of New York, attended the Art Students League
+    in the 1930s, graduated from New York University in 1939, served in the United
+    States Army for many years as a quartermaster sergeant, and received a Masters
+    in the Arts from Temple University in 1961. \n\nHis work was exhibited at the
+    National Academy of Design, the American Watercolor Society, and the National
+    Arts Club.\n\n![](https://res.cloudinary.com/dcryyrd42/image/upload/v1614809195/2562/770330_VIEW_09.jpg
+    \"portrait of Masood Ali Wilbert Warren\")"
 footer_pages: []
 
 ---
