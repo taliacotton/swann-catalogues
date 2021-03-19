@@ -101,9 +101,9 @@
                     <li data-id="lot{{lotNum}}">
                             <div class="thumbnail-lockup">
                                     {% if lot.image %}
-                                    <img class="" src="{{ site.cloudinary_url }}/f_auto,q_50,w_40/{{ lot.image }}" crossorigin="anonymous">
+                                    <img class="lazyload" data-src="{{ site.cloudinary_url }}/f_auto,q_50,w_40/{{ lot.image }}" crossorigin="anonymous">
                                     {% elsif lot.REFNO %}
-                                    <img class="" src="{{ site.cloudinary_url }}/f_auto,q_50,w_40/{{page.sale}}/{{ lot.REFNO }}.jpg" crossorigin="anonymous">
+                                    <img class="lazyload" data-src="{{ site.cloudinary_url }}/f_auto,q_50,w_40/{{page.sale}}/{{ lot.REFNO }}.jpg" crossorigin="anonymous">
                                     {% endif %}
                                     <p class="small-type">
                                         Lot {{forloop.index}}
