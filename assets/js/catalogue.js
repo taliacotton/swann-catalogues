@@ -66,22 +66,25 @@ if(getCookie("bookmarked")) {
 
 // apply bookmarks from cookie
 // Classlist of Null?
-for (let lotId of bookmarked){
-    if (document.getElementById(lotId)){
-        document.getElementById(lotId).classList.add("lot-bookmarked");
-    }
-    for (let lot of document.querySelectorAll(".sidebar--lots li")){
-        if (lotId == lot.getAttribute("data-id")){
-            lot.classList.add("bookmarked");
+function applyBookmarks() {
+    for (let lotId of bookmarked){
+        if (document.getElementById(lotId)){
+            document.getElementById(lotId).classList.add("lot-bookmarked");
         }
+        for (let lot of document.querySelectorAll(".sidebar--lots li")){
+            if (lotId == lot.getAttribute("data-id")){
+                lot.classList.add("bookmarked");
+            }
+        }
+        //Table of contents square label
+        for(let dot of document.querySelectorAll("#table-of-contents #toc-dots .dot-container[href='#"+lotId+"']")){
+            dot.querySelector(".dot").classList.add("square");
+        }
+        //Print modal quantity of bookmarked lots
+        document.getElementById("bookmarkedCount").innerHTML = `(${bookmarked.length})`
     }
-    //Table of contents square label
-    for(let dot of document.querySelectorAll("#table-of-contents #toc-dots .dot-container[href='#"+lotId+"']")){
-        dot.querySelector(".dot").classList.add("square");
-    }
-    //Print modal quantity of bookmarked lots
-    document.getElementById("bookmarkedCount").innerHTML = `(${bookmarked.length})`
 }
+applyBookmarks()
 
 // define notes object
 let notes = [];
@@ -140,14 +143,16 @@ document.body.classList.remove("loading");
 
 window.addEventListener('load', function() {
     setTimeout(function(){
-        for (let thumb of document.querySelectorAll(".thumbnail-lockup")) {
-            thumb.classList.add("loaded");
-            if (thumb.getBoundingClientRect().bottom > window.innerHeight){
-               thumb.classList.add("bottom");
+        const thumbnails = document.querySelectorAll(".thumbnail-lockup")
+        for (let thumb of thumbnails) {
+            const boundingRect = thumb.getBoundingClientRect()
+            if (boundingRect.bottom > window.innerHeight){
+                thumb.classList.add("bottom");
             }
-            if (thumb.getBoundingClientRect().right > window.innerWidth){
-               thumb.classList.add("right");
+            if (boundingRect.right > window.innerWidth){
+                thumb.classList.add("right");
             }
+            thumb.classList.add('loaded')
         }
     },500)
 });
@@ -206,8 +211,12 @@ for (let thumb of mobileThumbs){
 }
 
 // NAV COME IN
-let scrollTop = window.pageYOffset || (document.documentElement || document.body.parentNode || document.body).scrollTop;
-showHideNav(scrollTop);
+let scrollTop = 0
+function applyNav() {
+    scrollTop = window.pageYOffset || (document.documentElement || document.body.parentNode || document.body).scrollTop;
+    showHideNav(scrollTop);
+}
+applyNav()
 
 showCurrentImage();
 
@@ -294,27 +303,28 @@ document.addEventListener("scroll", function(){
 let imgZoom = false;
 
 // ZOOM IMAGE
-for (let ls of leftSectionsZoom){
-
-   ls.addEventListener("click", function(e){
-   if (window.innerWidth < breakpoint) return false;
-      imgZoom = !imgZoom;
-      if (imgZoom) {
-         zoomImg(e, ls);
-         // zoomChangeSrc(ls);
-      } else {
-         unzoomImg(ls);
-      }
-   })
-   ls.addEventListener("mousemove", function(e){
-      if (imgZoom){zoomImg(e, ls);}
-   })
-   ls.addEventListener("mouseout", function(e){
-      imgZoom = false;
-      unzoomImg(ls);
-   });
+function applyZoomImage() {
+    for (let ls of leftSectionsZoom){
+        ls.addEventListener("click", function(e){
+        if (window.innerWidth < breakpoint) return false;
+            imgZoom = !imgZoom;
+            if (imgZoom) {
+                zoomImg(e, ls);
+                // zoomChangeSrc(ls);
+            } else {
+                unzoomImg(ls);
+            }
+        })
+        ls.addEventListener("mousemove", function(e){
+            if (imgZoom){zoomImg(e, ls);}
+        })
+        ls.addEventListener("mouseout", function(e){
+            imgZoom = false;
+            unzoomImg(ls);
+        });
+    }
 }
-
+applyZoomImage()
 
 //NOTE: should be deleted if ticket is closed
 // function zoomChangeSrc(ls){
@@ -442,18 +452,20 @@ else {
 
 
 // apply notes from cookie
-for (let note of notes){
-    createNote(note.side, note.top, note.content, note.lot);
-}
-
-document.body.onload = function(){
-
-    resizeAllTextareas();
-    // apply highlights from cookie
-    for (let highlight of highlights){
-        // createHighlight(highlight.lot, highlight.pIndex, highlight.startChar, highlight.totalChar, highlight.id);
+function applyNotes() {
+    for (let note of notes){
+        createNote(note.side, note.top, note.content, note.lot);
     }
 }
+applyNotes()
+
+window.addEventListener('load', function(){
+    resizeAllTextareas();
+    // apply highlights from cookie
+    // for (let highlight of highlights){
+    //   createHighlight(highlight.lot, highlight.pIndex, highlight.startChar, highlight.totalChar, highlight.id);
+    // }
+})
 
 window.addEventListener("resize", function(){
     resizeAllTextareas();
@@ -482,7 +494,7 @@ function resizeAllTextareas(){
     }
 }
 
-// BOOKMARK
+// BOOKMARK CLICK
 for (let bm of bookmarks){
     bm.addEventListener("click", function(){
         let parent = bm.parentElement.parentElement;
@@ -509,7 +521,7 @@ for (let bm of bookmarks){
     })
 }
 
-//HIGHLIGHT TEXT
+// HIGHLIGHT TEXT MOUSEUP
 for (let text of highlightTexts){
     text.addEventListener('mouseup', function(e){
         if(e.target.tagName == "MARK"){
@@ -609,53 +621,56 @@ function interpolate(value, low1, high1, low2, high2) {
 
 
 // TABLE OF CONTENTS
-let tocDots = document.querySelectorAll(".dot-container");
-let years = []
-for (let d of tocDots){
-    let year = d.getAttribute("data-year");
-    if (year != ""){
-        years.push(year);
+function applyTocDots() {
+    let tocDots = document.querySelectorAll(".dot-container");
+    let years = []
+    for (let d of tocDots){
+        let year = d.getAttribute("data-year");
+        if (year != ""){
+            years.push(year);
+        }
     }
-}
-let minYear = Math.floor(Math.min(...years)/5)*5;
-let maxYear = Math.ceil(Math.max(...years)/5)*5;
-if (document.getElementById("toc-dates") != null){
-document.getElementById("toc-dates").innerHTML = `<p>${minYear}</p>
-                                                  <p>${Math.floor(minYear + (maxYear - minYear)/6)}</p>
-                                                  <p>${Math.floor(minYear+(maxYear - minYear)/6*2)}</p>
-                                                  <p>${Math.floor(minYear+(maxYear - minYear)/6*3)}</p>
-                                                  <p>${Math.floor(maxYear-(maxYear - minYear)/6)}</p>
-                                                  <p>${maxYear}</p>`
-}
-
-
-for (let d of tocDots){
-    let container = d.querySelector(".dot-container-inner");
-    let left = interpolate(d.getAttribute("data-year"), Math.min(...years), Math.max(...years), 0, 100);
-    container.style.left = left + "%";
-    d.querySelector(".line").style.width = "calc(" + left + "% + var(--toolbar-height) + 12px)";
-
-    let img = d.querySelector('img');
-    let dot = d.querySelector('.dot');
-    if (img) {
-
-    if (img.getBoundingClientRect().left >= window.innerWidth-200){
-        d.querySelector(".thumbnail-lockup").style.position="fixed";
-        d.querySelector(".thumbnail-lockup").style.right="0px";
-    }
-    img.addEventListener('load', function() {
-        var color = colorThief.getColor(img);
-        dot.style.background ="rgb("+color[0]+","+color[1]+","+color[2]+")";
-    });
+    let minYear = Math.floor(Math.min(...years)/5)*5;
+    let maxYear = Math.ceil(Math.max(...years)/5)*5;
+    if (document.getElementById("toc-dates") != null) {
+        document.getElementById("toc-dates").innerHTML = `
+            <p>${minYear}</p>
+            <p>${Math.floor(minYear + (maxYear - minYear)/6)}</p>
+            <p>${Math.floor(minYear+(maxYear - minYear)/6*2)}</p>
+            <p>${Math.floor(minYear+(maxYear - minYear)/6*3)}</p>
+            <p>${Math.floor(maxYear-(maxYear - minYear)/6)}</p>
+            <p>${maxYear}</p>`
     }
 
-    // Make sure image is finished loading
-    // if (img.complete) {
-    //         dot.style.background ="rgb("+colorThief.getColor(img)[0]+","+colorThief.getColor(img)[1]+","+colorThief.getColor(img)[2]+")";
-    // } else {
+    for (let d of tocDots){
+        let container = d.querySelector(".dot-container-inner");
+        let left = interpolate(d.getAttribute("data-year"), Math.min(...years), Math.max(...years), 0, 100);
+        container.style.left = left + "%";
+        d.querySelector(".line").style.width = "calc(" + left + "% + var(--toolbar-height) + 12px)";
 
-    // }
+        let img = d.querySelector('img');
+        let dot = d.querySelector('.dot');
+        if (img) {
+
+        if (img.getBoundingClientRect().left >= window.innerWidth-200){
+                d.querySelector(".thumbnail-lockup").style.position="fixed";
+                d.querySelector(".thumbnail-lockup").style.right="0px";
+            }
+            img.addEventListener('load', function() {
+                var color = colorThief.getColor(img);
+                dot.style.background ="rgb("+color[0]+","+color[1]+","+color[2]+")";
+            });
+        }
+
+        // Make sure image is finished loading
+        // if (img.complete) {
+        //         dot.style.background ="rgb("+colorThief.getColor(img)[0]+","+colorThief.getColor(img)[1]+","+colorThief.getColor(img)[2]+")";
+        // } else {
+
+        // }
+    }
 }
+applyTocDots()
 
 // TOC move vicinity function
 // toc.addEventListener("mousemove", function(e){
@@ -774,9 +789,9 @@ function testPassword(){
 
 
 function setCookie(cname,cvalue) {
-//   var d = new Date();
-//   d.setTime(d.getTime() + (exdays*24*60*60*1000));
-//   var expires = "expires=" + d.toGMTString();
+    //   var d = new Date();
+    //   d.setTime(d.getTime() + (exdays*24*60*60*1000));
+    //   var expires = "expires=" + d.toGMTString();
     if (usingCookies){
         document.cookie = cname + "=" + cvalue + "; max-age=94608000;path=null";
     }
@@ -811,12 +826,12 @@ function checkCookie() {
   } else {
      document.body.classList.remove("visible-false");
   }
-//   else {
-//      user = prompt("Please enter your name:","");
-//      if (user != "" && user != null) {
-//        setCookie("username", user, 30);
-//      }
-//   }
+    //   else {
+    //      user = prompt("Please enter your name:","");
+    //      if (user != "" && user != null) {
+    //        setCookie("username", user, 30);
+    //      }
+    //   }
 }
 
 
@@ -833,7 +848,7 @@ function declineCookies(){
 // Hide Data Vis once you scroll past it
 // Window scroll to hide data viz in background
 // ––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––
-window.addEventListener('scroll', showHideElements );
+window.addEventListener('scroll', showHideElements);
 
 function showHideElements(){
    var scrollEl = document.querySelectorAll('[data-scroll-watch]');
@@ -861,40 +876,39 @@ function showHideElements(){
 // I am doing this because we have multiple scroll listeners on the window and If I turn this off it will turn off all of them
 var allowScrollJack = false
 
+function applySlideshows() {
+    slideshows.forEach(function (wrapper) {
+        var slideshow = wrapper.querySelector('.slideshow');
+        var next = wrapper.querySelector('.js-next');
+        var previous = wrapper.querySelector('.js-previous');
+        var xOffset = 0;
 
-slideshows.forEach(function (wrapper) {
-   var slideshow = wrapper.querySelector('.slideshow');
-   var next = wrapper.querySelector('.js-next');
-   var previous = wrapper.querySelector('.js-previous');
-   var xOffset = 0;
+        // create slide spacing---------------
+        emitter.on('lot-loaded', function (lot) {
+            resizeSlideshow(slideshow, wrapper);
+        })
+        // On mouse enter of left side activate slider
+        // wrapper.addEventListener('mouseover', function () {
+        //    allowScrollJack = true;
+        // });
 
-   // create slide spacing---------------
-   emitter.on('lot-loaded', function (lot) {
+        // Event listner to remove the lock on the page when you mouse out of the LS
+        wrapper.addEventListener('mouseleave', function () {
+            // allowScrollJack = false;
+            document.body.classList.remove('stuck');
+        });
 
-      resizeSlideshow(slideshow, wrapper);
-   })
-   // On mouse enter of left side activate slider
-   // wrapper.addEventListener('mouseover', function () {
-   //    allowScrollJack = true;
-   // });
-
-
-
-   // Event listner to remove the lock on the page when you mouse out of the LS
-   wrapper.addEventListener('mouseleave', function () {
-      // allowScrollJack = false;
-      document.body.classList.remove('stuck');
-   });
-
-   // previous.addEventListener('click', function () {
-   //    // scroll to next image
-   //    var slideshow = wrapper.querySelector('.slideshow');
-   //    var style =  window.getComputedStyle(slideshow)['transform']
-   //    var imgWidth = wrapper.offsetWidth;
-   //    slideshow.style.transform = 'translate3d(0px, 0,0)';
-   //    console.log(style);
-   // })
-})
+        // previous.addEventListener('click', function () {
+        //    // scroll to next image
+        //    var slideshow = wrapper.querySelector('.slideshow');
+        //    var style =  window.getComputedStyle(slideshow)['transform']
+        //    var imgWidth = wrapper.offsetWidth;
+        //    slideshow.style.transform = 'translate3d(0px, 0,0)';
+        //    console.log(style);
+        // })
+    })
+}
+applySlideshows()
 
 window.addEventListener('wheel', function (event) {
 
@@ -975,32 +989,35 @@ function scrollSlideshow(lotId){
 
 // ZOOM IMAGE
 // TODO:COMMENT
-for (let ls of leftSectionsSlideshowZoom){
-   var images = ls.querySelectorAll('.slideshow-img-container');
+function applyZoomImage () {
+    for (let ls of leftSectionsSlideshowZoom){
+    var images = ls.querySelectorAll('.slideshow-img-container');
 
-   images.forEach(function (el) {
-      el.addEventListener("click", function(e){
-         if (window.innerWidth < breakpoint) return false;
-         var image = el.querySelector('img');
-         var src = 'https://res.cloudinary.com/dcryyrd42/image/upload/f_auto,q_70,h_1200/' + image.dataset.image;
-         var zoomContainer = ls.querySelector('.zoom-container');
-         zoomContainer.style.backgroundImage = "url('"+src+"')";
-         zoomContainer.classList.add('active');
-         ls.addEventListener('mousemove', zoomMouseMove.bind(zoomContainer))
-      })
-   })
+    images.forEach(function (el) {
+        el.addEventListener("click", function(e){
+            if (window.innerWidth < breakpoint) return false;
+            var image = el.querySelector('img');
+            var src = 'https://res.cloudinary.com/dcryyrd42/image/upload/f_auto,q_70,h_1200/' + image.dataset.image;
+            var zoomContainer = ls.querySelector('.zoom-container');
+            zoomContainer.style.backgroundImage = "url('"+src+"')";
+            zoomContainer.classList.add('active');
+            ls.addEventListener('mousemove', zoomMouseMove.bind(zoomContainer))
+        })
+    })
 
-   ls.querySelector('.zoom-container').addEventListener('click', function (event) {
-      this.classList.remove('active');
-      this.style.backgroundImage = "none";
-   });
-   ls.querySelector('.zoom-container').addEventListener('mouseleave', function (event) {
-      this.classList.remove('active');
-      this.style.backgroundImage = "none";
-   });
+    ls.querySelector('.zoom-container').addEventListener('click', function (event) {
+        this.classList.remove('active');
+        this.style.backgroundImage = "none";
+    });
+    ls.querySelector('.zoom-container').addEventListener('mouseleave', function (event) {
+        this.classList.remove('active');
+        this.style.backgroundImage = "none";
+    });
 
 
+    }
 }
+applyZoomImage()
 
 function zoomMouseMove(e){
    if (!this.classList.contains('active')) return false;
@@ -1010,11 +1027,3 @@ function zoomMouseMove(e){
    this.style.backgroundPosition = xPos + "% " + yPos + "%";
    this.classList.add('active');
 }
-
-
-
-
-
-
-
-
