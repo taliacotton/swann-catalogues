@@ -34,8 +34,8 @@ let cover = document.getElementById("cover");
 let toc = document.getElementById("table-of-contents");
 let sb = document.getElementById("searchbar");
 
-let stripe = document.querySelector("#cover .stripe");
-let stripeWidth = stripe.getBoundingClientRect().width;
+// let stripe = document.querySelector("#cover .stripe");
+// let stripeWidth = stripe.getBoundingClientRect().width; // CAUSES RENDER BLOCKING
 
 let mainImgs = document.querySelectorAll("section.lot .left img");
 let lotSections = document.querySelectorAll("section.lot");
@@ -99,12 +99,12 @@ if(getCookie("highlights")) {
 //     createNote(note.side, note.top, note.content, note.lot);
 // }
 
-
-let scrollHeight = Math.max(
-  document.body.scrollHeight, document.documentElement.scrollHeight,
-  document.body.offsetHeight, document.documentElement.offsetHeight,
-  document.body.clientHeight, document.documentElement.clientHeight
-);
+// UNUSED - VERY HEAVY IN THE REENDERING PHASE
+// let scrollHeight = Math.max(
+//   document.body.scrollHeight, document.documentElement.scrollHeight,
+//   document.body.offsetHeight, document.documentElement.offsetHeight,
+//   document.body.clientHeight, document.documentElement.clientHeight
+// );
 
 let mouseIsDown = false;
 
