@@ -12,8 +12,8 @@ permalink: "/books-manuscripts/early-printed-books/2563"
 sale: 2563
 title: Early Printed Books
 datetime:
-  date: 2021-04-08 04:00:00 +0000
-  time: 2021-03-01 12:00:00 +0000
+  date: 2021-04-08T04:00:00.000+00:00
+  time: 2021-03-01T12:00:00.000+00:00
   time2: 
 short_description: ''
 chapters:
@@ -29,6 +29,7 @@ chapters:
     lot: 250
 people:
   main_contacts:
+  - _people/devon-eastland.md
   - _people/david-rivera.md
   officers:
   - _people/george-s.lowry.md
