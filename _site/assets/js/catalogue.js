@@ -793,6 +793,8 @@ function getCookie(cname) {
   return false;
 }
 
+setTimeout(checkCookie, 100)
+
 function checkCookie() {
   var permission=getCookie("permission");
   if (permission) {
