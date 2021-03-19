@@ -9,8 +9,7 @@
                      {{ site.cloudinary_url }}/f_auto,q_65,w_800{{ lot.image }} 800w,
                      {{ site.cloudinary_url }}/f_auto,q_65,w_1200{{ lot.image }} 1200w,
                      {{ site.cloudinary_url }}/f_auto,q_70,w_1600{{ lot.image }} 1600w"
-            data-src="{{ site.cloudinary_url }}/f_auto,q_70,w_500/{{ lot.image }}"
-            src="{{ site.cloudinary_url }}/f_auto,q_50,w_40/{{ lot.image }}"
+            data-src="{{ site.cloudinary_url }}/f_auto,q_50,w_40/{{ lot.image }}"
             alt="" 
             class="lazyload"/>
 {% elsif lot.REFNO %}
@@ -23,8 +22,7 @@
                      {{ site.cloudinary_url }}/f_auto,q_65,w_800/{{page.sale}}/{{ lot.REFNO }}.jpg 800w,
                      {{ site.cloudinary_url }}/f_auto,q_50,w_1200/{{page.sale}}/{{ lot.REFNO }}.jpg 1200w,
                      {{ site.cloudinary_url }}/f_auto,q_70,w_1600/{{page.sale}}/{{ lot.REFNO }}.jpg 1600w"
-            data-src="{{ site.cloudinary_url }}/f_auto,q_70,w_500/{{page.sale}}/{{ lot.REFNO }}.jpg"
-            src="{{ site.cloudinary_url }}/f_auto,q_50,w_40/{{page.sale}}/{{ lot.REFNO }}.jpg"
+            data-src="{{ site.cloudinary_url }}/f_auto,q_50,w_400/{{page.sale}}/{{ lot.REFNO }}.jpg"
             alt="" 
             class="lazyload" />
 {% endif %}
