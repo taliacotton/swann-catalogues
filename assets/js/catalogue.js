@@ -990,7 +990,7 @@ function scrollSlideshow(lotId, amt){
 
 // ZOOM IMAGE
 // TODO:COMMENT
-function applyZoomImage () {
+function applyZoomImage2 () {
     for (let ls of leftSectionsSlideshowZoom){
     var images = ls.querySelectorAll('.slideshow-img-container');
 
@@ -1037,9 +1037,10 @@ setTimeout(applyThumbnails, 500)
 applyBookmarks()
 applyNav()
 showCurrentImage()
-applyZoomImage()
+setTimeout(applyZoomImage, 500)
 applyNotes()
 applyTocDots()
 setTimeout(checkCookie, 100)
 applySlideshows()
-applyZoomImage()
+setTimeout(applyZoomImage2, 500)
+
