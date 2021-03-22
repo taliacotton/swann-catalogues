@@ -91,7 +91,7 @@
                     {% endfor %}
             </div>
         {% elsif lot.video_id %}
-            <div class="zoom-container"></div>
+            <!-- <div class="zoom-container"></div> -->
             <div class="slideshow" data-scroll='0' style="background-color:{{bg}}">
                 <div class="slideshow-img-container">
                     {% include lot_images.html %}
@@ -103,7 +103,7 @@
                 </div>
             </div>
         {% else %}
-            <div class="zoom-container"></div>
+            <!-- <div class="zoom-container"></div> -->
             {% if lot.background_color %}{% assign bg = lot.background_color %}{%else%}{%assign bg ='black'%}{%endif%}
             {% if lot.image %}
                 <!-- <img style="background-color:{{bg}}" src="/assets/img/{{lot.image}}"> -->
@@ -119,6 +119,7 @@
                         src="{{ site.cloudinary_url }}/f_auto,q_50,w_40/{{ lot.image }}"
                         alt="" 
                         class="lazyload"/>
+                <img class="print-content" src="{{ site.cloudinary_url }}/f_auto,q_100,w_528/{{ lot.image }}" style="border:5px solid red;">
             {% elsif lot.REFNO %}
             <!-- (min-width: 726px) 50vw, 100vw -->
             <img style="background-color:{{bg}}"
@@ -133,6 +134,7 @@
                         src="{{ site.cloudinary_url }}/f_auto,q_50,w_40/{{page.sale}}/{{ lot.REFNO }}.jpg"
                         alt="" 
                         class="lazyload" />
+            <img class="print-content" src="{{ site.cloudinary_url }}/f_auto,q_100,w_528/{{page.sale}}/{{ lot.REFNO }}.jpg" style="border:5px solid red;">
             {% endif %}
 
         {% endif %}
@@ -146,7 +148,6 @@
     </div>
     {% endif %}
     <div class="right">
-        <div class="printFooter print-content">Lot {{lot.refno}}</div>
         <button class="bookmark-container"  aria-label="Toggle Bookmark for Lot">
             <span class="onhover"></span>
             <span class="fold-outline"> </span>
@@ -250,7 +251,43 @@
     <!-- <div class="header print-content">...</div> -->
     <!-- <div class="footer print-content">Lot {{lot.refno}}</div> -->
     
-    <div class="printFooter print-content">Lot {{lotNum}}</div>
+    <!-- <div class="printFooter print-content">Lot {{lotNum}}</div> -->
 </section>
+
+
+<table>
+  <thead><tr><td>
+    <div class="header-space">&nbsp;</div>
+  </td></tr></thead>
+  <tbody><tr><td>
+    <div class="content">Lot {{lotNum}}</div>
+  </td></tr></tbody>
+  <!-- <tfoot><tr><td>
+    <div class="footer-space">&nbsp;</div>
+  </td></tr></tfoot> -->
+</table>
+
+<div class="header">Lot {{lotNum}}</div>
+<!-- <div class="footer">...</div> -->
+
+<style>
+
+    .header, .header-space,
+    .footer, .footer-space {
+    height: 100px;
+    color:black;
+    }
+    .header {
+    position: fixed;
+    top: 0;
+    color:black;
+    }
+    .footer {
+    position: fixed;
+    bottom: 0;
+    color:black;
+    }
+
+</style>
 
 <!-- </div> -->
