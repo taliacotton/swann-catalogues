@@ -31,6 +31,9 @@ body{
         #cover .spine{
             border-right:1px solid white;
         }
+        // .thumbnail-lockup img{
+        //     display:none;
+        // }
     }
 
     &.stuck{
@@ -544,7 +547,7 @@ section{
     h1{
         font-family: 'JJannon Display', serif;
         font-size: 100px;
-        line-height: 90px;
+        line-height: 1;
         font-weight:300;
         margin:10px 0px;
         max-width:750px;
@@ -1080,7 +1083,7 @@ section{position:relative;}
             // flex-direction: column;
             // overflow: scroll;
             width: calc(var(--main-width)/2);
-            height: var(--main-height);
+            height: 100%;
             
             // left: calc(var(--toolbar-height) + 1px);
             // top: var(--toolbar-height);
@@ -1091,7 +1094,7 @@ section{position:relative;}
             opacity:0;
             overflow: hidden;
             transform-origin: right top;
-            transition: opacity 200ms;
+            transition: opacity 200ms, transform 200ms ease-in;
             @media screen and (max-width: 726px){
                 position: relative;
                 width: var(--main-width);
@@ -1163,7 +1166,7 @@ section{position:relative;}
         cursor: url(../img/zoom-out-cursor.svg), auto;
         .slideshow{
             transform:none;
-            height:var(--main-height);
+            height:100%;
             width:calc(var(--main-width)/2);
         }
         img, .slideshow .slideshow-img-container img{
@@ -1207,7 +1210,7 @@ section{position:relative;}
         pointer-events:auto;
     }
 
-    .slideshow--next-btn{
+    .slideshow--next-btn, .slideshow--prev-btn{
         position:absolute;
         right:calc(var(--main-width)/2);
         top: 50%;
@@ -1219,14 +1222,20 @@ section{position:relative;}
             border-top: 20px solid transparent;
             border-bottom: 20px solid transparent;
             border-left: 20px solid var(--swann-blue);
-
             position:sticky;
             top:50%;
             transform:translateY(-50%);
         }
     }
+    .slideshow--prev-btn{
+        right:inherit;
+        left:0px;
+        button{
+            transform:rotate(180deg) translateY(50%);
+        }
+    }
     @media screen and (max-width: 726px){
-        .slideshow--next-btn{
+        .slideshow--next-btn, .slideshow--prev-btn{
             display:none;
         }
     }

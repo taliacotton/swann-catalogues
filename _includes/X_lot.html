@@ -1,18 +1,18 @@
 <!-- <div class="lot-wrapper" data-lot="{{lotNum}}"> -->
-{% if lot.header %}
-    {% if lot.large_header.header_type == 'Large' %}
+{% if lot.large_header_text %}
+    {% if lot.large_header_text.header_type == 'Large' %}
     <section id="header-{{lotNum}}" class="header_text {{lot.large_header.header_type | slugify}}" style="background-color: {{lot.large_header.background_color}}; color: {{lot.large_header.text_color}}">
         <div class="header-inner">
             <span>{{lot.large_header.line_1_text}}</span>
             <br><span><i>{{lot.large_header.line_2_text}}</i></span>
         </div>
     </section>
-    {% elsif lot.large_header.header_type == 'Large (Image)' %}
+    {% elsif lot.large_header_text.header_type == 'Large (Image)' %}
     <!-- <section class="header_text {{lot.large_header.header_type | slugify}}" style="background-image: url()"> -->
-    <section id="header-{{lotNum}}" class="header_text {{lot.large_header.header_type | slugify}} lazyload" data-background-image="{{ site.cloudinary_url }}/w_1040{{lot.large_header.background_image}}">
+    <section id="header-{{lotNum}}" class="lazyload header_text {{lot.large_header_text.header_type | slugify}}" data-background-image="{{ site.cloudinary_url }}/f_auto,w_800/{{lot.large_header_text.background_image}}'">
         <div class="header-inner">
-            <span>{{lot.large_header.line_1_text}}</span>
-            <br><span><i>{{lot.large_header.line_2_text}}</i></span>
+            <span>{{lot.large_header_text.line_1_text}}</span>
+            <br><span><i>{{lot.large_header_text.line_2_text}}</i></span>
         </div>
     </section>
     {% endif %}
@@ -21,19 +21,33 @@
 {% if lot.large_img %}
     {% if lot.full_width_image.background_color %}{% assign bgLg = lot.full_width_image.background_color %}{%else%}{%assign bgLg ='#212121'%}{%endif%}
     <section id="image-{{lotNum}}" class="large_image" style="background-color: {{bgLg}};">
-        <!-- <img
-            data-sizes="100vw"
-            data-srcset="{{ site.cloudinary_url }}/f_auto,q_70,w_250{{ lot.full_width_image.image }} 250w,
-                    {{ site.cloudinary_url }}/f_auto,q_65,w_500{{ lot.full_width_image.image }} 500w,
-                    {{ site.cloudinary_url }}/f_auto,q_70,w_800{{ lot.full_width_image.image }} 800w,
-                    {{ site.cloudinary_url }}/f_auto,q_60,w_1200{{ lot.full_width_image.image }} 1200w,
-                    {{ site.cloudinary_url }}/f_auto,q_70,w_1600{{ lot.full_width_image.image }} 1600w,
-                    {{ site.cloudinary_url }}/f_auto,q_70,w_2000{{ lot.full_width_image.image }} 2000w"
-            data-src="{{ site.cloudinary_url }}/f_auto,q_65,w_500/{{ lot.full_width_image.image }}"
-            src="{{ site.cloudinary_url }}/f_auto,q_50,w_40/{{ lot.full_width_image.image }}"
-            alt=""
-            class="lazyload" /> -->
-        {% include lot_images.html %}
+        {% if lot.image %}
+            <!-- <img style="background-color:{{bg}}" src="/assets/img/{{lot.image}}"> -->
+            <img
+                    data-sizes="auto"
+                    data-img="{{ lot.image }}"
+                    data-srcset="{{ site.cloudinary_url }}/f_auto,q_70,w_250{{ lot.image }} 250w,
+                            {{ site.cloudinary_url }}/f_auto,q_65,w_500{{ lot.image }} 500w,
+                            {{ site.cloudinary_url }}/f_auto,q_65,w_800{{ lot.image }} 800w,
+                            {{ site.cloudinary_url }}/f_auto,q_65,w_1200{{ lot.image }} 1200w,
+                            {{ site.cloudinary_url }}/f_auto,q_70,w_1600{{ lot.image }} 1600w"
+                    data-src="{{ site.cloudinary_url }}/f_auto,q_50,w_40/{{ lot.image }}"
+                    alt="" 
+                    class="lazyload"/>
+        {% elsif lot.REFNO %}
+        <!-- (min-width: 726px) 50vw, 100vw -->
+        <img
+                    data-sizes="auto"
+                    data-img="/{{page.sale}}/{{ lot.REFNO }}.jpg"
+                    data-srcset="{{ site.cloudinary_url }}/f_auto,q_70,w_250/{{page.sale}}/{{ lot.REFNO }}.jpg 250w,
+                            {{ site.cloudinary_url }}/f_auto,q_65,w_500/{{page.sale}}/{{ lot.REFNO }}.jpg 500w,
+                            {{ site.cloudinary_url }}/f_auto,q_65,w_800/{{page.sale}}/{{ lot.REFNO }}.jpg 800w,
+                            {{ site.cloudinary_url }}/f_auto,q_50,w_1200/{{page.sale}}/{{ lot.REFNO }}.jpg 1200w,
+                            {{ site.cloudinary_url }}/f_auto,q_70,w_1600/{{page.sale}}/{{ lot.REFNO }}.jpg 1600w"
+                    data-src="{{ site.cloudinary_url }}/f_auto,q_50,w_400/{{page.sale}}/{{ lot.REFNO }}.jpg"
+                    alt="" 
+                    class="lazyload" />
+        {% endif %}
     </section>
 {% endif %}
 
@@ -71,7 +85,6 @@
                                 {{ site.cloudinary_url }}/f_auto,q_60,w_1200{{ image }} 1200w,
                                 {{ site.cloudinary_url }}/f_auto,q_70,w_1600{{ image }} 1600w"
                             data-src="{{ site.cloudinary_url }}/f_auto,q_65,w_500/{{ image }}"
-                            src="{{ site.cloudinary_url }}/f_auto,q_50,w_40/{{ image }}"
                             alt=""
                             class="lazyload" />
                     </div>
@@ -90,12 +103,45 @@
                 </div>
             </div>
         {% else %}
-            {% include lot_images.html %}
+            {% if lot.background_color %}{% assign bg = lot.background_color %}{%else%}{%assign bg ='black'%}{%endif%}
+            {% if lot.image %}
+                <!-- <img style="background-color:{{bg}}" src="/assets/img/{{lot.image}}"> -->
+                <img style="background-color:{{bg}}"
+                        data-sizes="auto"
+                        data-img="{{ lot.image }}"
+                        data-srcset="{{ site.cloudinary_url }}/f_auto,q_70,w_250{{ lot.image }} 250w,
+                                {{ site.cloudinary_url }}/f_auto,q_65,w_500{{ lot.image }} 500w,
+                                {{ site.cloudinary_url }}/f_auto,q_65,w_800{{ lot.image }} 800w,
+                                {{ site.cloudinary_url }}/f_auto,q_65,w_1200{{ lot.image }} 1200w,
+                                {{ site.cloudinary_url }}/f_auto,q_70,w_1600{{ lot.image }} 1600w"
+                        data-src="{{ site.cloudinary_url }}/f_auto,q_50,w_40/{{ lot.image }}"
+                        src="{{ site.cloudinary_url }}/f_auto,q_50,w_40/{{ lot.image }}"
+                        alt="" 
+                        class="lazyload"/>
+            {% elsif lot.REFNO %}
+            <!-- (min-width: 726px) 50vw, 100vw -->
+            <img style="background-color:{{bg}}"
+                        data-sizes="auto"
+                        data-img="/{{page.sale}}/{{ lot.REFNO }}.jpg"
+                        data-srcset="{{ site.cloudinary_url }}/f_auto,q_70,w_250/{{page.sale}}/{{ lot.REFNO }}.jpg 250w,
+                                {{ site.cloudinary_url }}/f_auto,q_65,w_500/{{page.sale}}/{{ lot.REFNO }}.jpg 500w,
+                                {{ site.cloudinary_url }}/f_auto,q_65,w_800/{{page.sale}}/{{ lot.REFNO }}.jpg 800w,
+                                {{ site.cloudinary_url }}/f_auto,q_50,w_1200/{{page.sale}}/{{ lot.REFNO }}.jpg 1200w,
+                                {{ site.cloudinary_url }}/f_auto,q_70,w_1600/{{page.sale}}/{{ lot.REFNO }}.jpg 1600w"
+                        data-src="{{ site.cloudinary_url }}/f_auto,q_50,w_400/{{page.sale}}/{{ lot.REFNO }}.jpg"
+                        src="{{ site.cloudinary_url }}/f_auto,q_50,w_40/{{page.sale}}/{{ lot.REFNO }}.jpg"
+                        alt="" 
+                        class="lazyload" />
+            {% endif %}
+
         {% endif %}
     </div>
     {% if lot.images[0] %}
     <div class="slideshow--next-btn">
-        <button onclick="scrollSlideshow('lot{{lotNum}}')"></button>
+        <button onclick="scrollSlideshow('lot{{lotNum}}', -200)"></button>
+    </div>
+    <div class="slideshow--prev-btn" style="display: none">
+        <button onclick="scrollSlideshow('lot{{lotNum}}', 200)"></button>
     </div>
     {% endif %}
     <div class="right">
