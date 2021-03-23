@@ -176,6 +176,16 @@
                 </div>
             </div>
             <section id="table-of-contents" class="hide-vis">
+                <div class="print-content">
+                    <br>
+                    <h2>{{page.title}} </h2>
+                    <h2 class="cover-date">{{ page.datetime.date | date: "%A, %B %d, %Y" }}<br>at {{ page.datetime.time | date: "%l:%M%P" }} {% if page.datetime.time2 %} <i>&</i> {{page.datetime.time2 | date: "%l:%M%P"}} {%endif%}</h2>
+                    <a class="on-the-cover small-type" href="#lot{{page.cover_image.lot_number}}">
+                        On the cover:
+                        <br> Lot {{page.cover_image.lot_number}} • {{page.cover_image.title}}
+                    </a>
+                    <br><br>
+                </div>
                 <div class="dates small-type" id="toc-dates">
                 </div>
                 <div id="toc-dots">

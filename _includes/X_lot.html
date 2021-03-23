@@ -9,7 +9,10 @@
     </section>
     {% elsif lot.large_header_text.header_type == 'Large (Image)' %}
     <!-- <section class="header_text {{lot.large_header.header_type | slugify}}" style="background-image: url()"> -->
-    <section id="header-{{lotNum}}" class="lazyload header_text {{lot.large_header_text.header_type | slugify}}" data-background-image="{{ site.cloudinary_url }}/f_auto,w_800/{{lot.large_header_text.background_image}}'">
+    <section id="header-{{lotNum}}" class="lazyload header_text {{lot.large_header_text.header_type | slugify}}" data-script="/assets/js/ls.unveilhooks.min.js" data-bg="{{ site.cloudinary_url }}/f_auto,w_800/{{lot.large_header_text.background_image}}">
+        <div class="header-bg-image">
+            <img class="lazyload" src="{{ site.cloudinary_url }}/f_auto,w_800/{{lot.large_header_text.background_image}}">
+        </div>
         <div class="header-inner">
             <span>{{lot.large_header_text.line_1_text}}</span>
             <br><span><i>{{lot.large_header_text.line_2_text}}</i></span>
@@ -64,6 +67,7 @@
             <div class="slideshow"  data-scroll='0' style="background-color:{{bg}}" id="lot{{lotNum}}-0">
                     
                     <div class="slideshow-img-container">
+                        <div class="printFooter print-content">Lot {{lotNum}}</div>
                         {% include lot_images.html %}
                     </div>
 
@@ -76,6 +80,7 @@
 
                     {% for image in lot.images %}
                     <div class="slideshow-img-container">
+                        <div class="printFooter print-content">Lot {{lotNum}}</div>
                         <img
                             data-sizes="auto"
                             data-image="{{ image }}"
@@ -119,7 +124,7 @@
                         src="{{ site.cloudinary_url }}/f_auto,q_50,w_40/{{ lot.image }}"
                         alt="" 
                         class="lazyload"/>
-                <img class="print-content" src="{{ site.cloudinary_url }}/f_auto,q_100,w_528/{{ lot.image }}" style="border:5px solid red;">
+                <img class="print-content" src="{{ site.cloudinary_url }}/f_auto,q_100,w_528/{{ lot.image }}">
             {% elsif lot.REFNO %}
             <!-- (min-width: 726px) 50vw, 100vw -->
             <img style="background-color:{{bg}}"
@@ -134,7 +139,7 @@
                         src="{{ site.cloudinary_url }}/f_auto,q_50,w_40/{{page.sale}}/{{ lot.REFNO }}.jpg"
                         alt="" 
                         class="lazyload" />
-            <img class="print-content" src="{{ site.cloudinary_url }}/f_auto,q_100,w_528/{{page.sale}}/{{ lot.REFNO }}.jpg" style="border:5px solid red;">
+            <img class="print-content" src="{{ site.cloudinary_url }}/f_auto,q_100,w_528/{{page.sale}}/{{ lot.REFNO }}.jpg">
             {% endif %}
 
         {% endif %}
@@ -148,11 +153,13 @@
     </div>
     {% endif %}
     <div class="right">
+        <div class="printFooter print-content">Lot {{lotNum}}</div>
         <button class="bookmark-container"  aria-label="Toggle Bookmark for Lot">
             <span class="onhover"></span>
             <span class="fold-outline"> </span>
         </button>
         <div class="center-column">
+            <div class="printFooter print-content">Lot {{lotNum}}</div>
             <div class="mobile-only mobile-thumb">
                 <!-- <img src="{{ site.cloudinary_url }}/f_auto,q_70,w_60/{{ lot.image }}"> -->
                 {% if lot.image %}
@@ -255,19 +262,19 @@
 </section>
 
 
-<table class="print-content">
+<!-- <table class="print-content">
   <thead><tr><td>
     <div class="header-space">&nbsp;</div>
   </td></tr></thead>
   <tbody><tr><td>
     <div class="content">Lot {{lotNum}}</div>
-  </td></tr></tbody>
+  </td></tr></tbody> -->
   <!-- <tfoot><tr><td>
     <div class="footer-space">&nbsp;</div>
   </td></tr></tfoot> -->
 </table>
 
-<div class="header">Lot {{lotNum}}</div>
+<!-- <div class="header">Lot {{lotNum}}</div> -->
 <!-- <div class="footer">...</div> -->
 
 <style>
