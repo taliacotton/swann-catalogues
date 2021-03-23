@@ -54,7 +54,7 @@ essays:
   title: 'Welcome! '
   author: ''
   body: |-
-    Welcome to Swann's digital imprint—a new editorial experience of the traditional auction catalogue. Swann takes pride in our catalogues, but until now, technology had not caught up with the scholarship and care we take with every lot. We're proud to share this new platform with you. All the same lots as can be found elsewhere on our website, but in a reading-friendly format.
+    Welcome to Swann's digital imprint—a new editorial experience of the traditional auction catalogue. Swann takes pride in our catalogues, but until now, technology had not caught up with the scholarship and care we give to every lot. We're proud to share this new platform with you, which presents all the same lots as can be found elsewhere on our website, but in a reading-friendly format.
 
     Special features:
 
@@ -66,7 +66,7 @@ essays:
 
     • Searching by keyword throughout the catalogue.
 
-    This new version of our online catalogue is currently being BETA tested. We welcome your feedback and patience as we make it even better. Please feel free to contact Alexandra Nelson, CMO, with any questions about the site: alexandra@swanngalleries.com.
+    This new version of our online catalogue is currently being beta tested. We welcome your feedback and patience as we make it even better. Please feel free to contact Alexandra Nelson, CMO, with any questions about the site: alexandra@swanngalleries.com.
 footer_pages: []
 
 ---
