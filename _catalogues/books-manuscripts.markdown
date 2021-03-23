@@ -7,7 +7,7 @@ cover_image:
   title: ''
   image: "/v1613689543/778974_vbagse.jpg"
 filename: ''
-visible: true
+visible: false
 permalink: "/books-manuscripts/fine-books-autographs/2559"
 sale: 2559
 title: Fine Books & Autographs
@@ -66,6 +66,5 @@ people:
   general_information: ''
 essays: []
 footer_pages: []
-# published: false
 
 ---
