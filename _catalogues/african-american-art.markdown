@@ -18,7 +18,9 @@ datetime:
 short_description: ''
 chapters: []
 people:
-  main_contacts: []
+  main_contacts:
+  - _people/corey-serrant.md
+  - _people/director.md
   officers:
   - _people/george-s.lowry.md
   - _people/Blank Spot.md
