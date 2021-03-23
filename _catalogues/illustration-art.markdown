@@ -7,7 +7,7 @@ cover_image:
   title: 'James Montgomery Flagg, "Follow Through" '
   image: "/v1610140384/775581_mkespy.jpg"
 filename: ''
-visible: true
+visible: false
 permalink: "/illustration-art/illustration-feat-dick-mcdonough-collection/2556"
 sale: 2556
 title: Illustration Art Featuring the Dick McDonough Collection of Golf Illustration
@@ -65,6 +65,5 @@ essays:
 
     Despite criticism about its “tokenism” and its being written by a white Jewish man who falsely represented (or ignored) African-American culture, the book overcame these accusations and was embraced by generations of young readers who could identify with a boy whose skin color resembled theirs and, more universally, of an adventure every child could relate to. In addition to its hero, the book was also groundbreaking in its use of mixed media illustration techniques of collaged decorative papers, fabric, stamps, and cloth; a method Keats would employ in future books.
 footer_pages: []
-# published: false
 
 ---
