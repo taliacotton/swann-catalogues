@@ -5,7 +5,7 @@ color: "#AD926F"
 cover_image:
   lot_number: 0
   title: ''
-  image: ''
+  image: "/v1616604502/2565/780622.jpg"
 filename: ''
 visible: false
 permalink: "/fine-art/african-american-art/2565"
