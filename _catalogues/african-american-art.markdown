@@ -27,8 +27,8 @@ chapters:
     lot: 44
   - chapter_title: Collection of the Ness Oleson Trust
     lot: 100
-  - chapter_title: ''
-    lot: 
+  - chapter_title: Abstraction & Contemporary Art
+    lot: 115
 people:
   main_contacts:
   - _people/corey-serrant.md
