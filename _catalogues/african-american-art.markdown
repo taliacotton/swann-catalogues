@@ -16,7 +16,11 @@ datetime:
   time: 2021-03-01T12:00:00.000+00:00
   time2: 
 short_description: ''
-chapters: []
+chapters:
+- session_title: ''
+  chapters:
+  - chapter_title: Early 20th Century & Harlem Renaissance
+    lot: 1
 people:
   main_contacts:
   - _people/corey-serrant.md
