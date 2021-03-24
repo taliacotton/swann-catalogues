@@ -21,6 +21,14 @@ chapters:
   chapters:
   - chapter_title: Early 20th Century & Harlem Renaissance
     lot: 1
+  - chapter_title: Modernism
+    lot: 24
+  - chapter_title: Postwar Art
+    lot: 44
+  - chapter_title: ''
+    lot: 
+  - chapter_title: ''
+    lot: 
 people:
   main_contacts:
   - _people/corey-serrant.md
