@@ -3,17 +3,17 @@ layout: X_catalogue
 lots: []
 color: "#6ED67B"
 cover_image:
-  lot_number: 0
-  title: ''
-  image: "/v1616604470/2565/780587.jpg"
+  lot_number: 10
+  title: Aaron Douglas, Head of Boy (Portrait of Langston Hughes), circa 1926.
+  image: "/v1616621324/CoverA-Aaron-Douglas-rev_lc2jei.jpg"
 filename: ''
 visible: false
 permalink: "/fine-art/african-american-art/2565"
 sale: 2565
 title: African American Art
 datetime:
-  date: 2021-04-22 04:00:00 +0000
-  time: 2021-03-01 12:00:00 +0000
+  date: 2021-04-22T04:00:00.000+00:00
+  time: 2021-03-01T12:00:00.000+00:00
   time2: 
 short_description: ''
 chapters: []
