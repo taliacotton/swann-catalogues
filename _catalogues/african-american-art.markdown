@@ -25,8 +25,8 @@ chapters:
     lot: 24
   - chapter_title: Postwar Art
     lot: 44
-  - chapter_title: ''
-    lot: 
+  - chapter_title: Collection of the Ness Oleson Trust
+    lot: 100
   - chapter_title: ''
     lot: 
 people:
