@@ -1,7 +1,7 @@
 ---
 layout: X_catalogue
 lots: []
-color: "#AD926F"
+color: "#6ED67B"
 cover_image:
   lot_number: 0
   title: ''
