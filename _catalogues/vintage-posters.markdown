@@ -7,7 +7,7 @@ cover_image:
   title: La Maison Moderne
   image: "/v1611788325/2558/776950.jpg"
 filename: ''
-visible: true
+visible: false
 permalink: "/vintage-posters/february-sale/2558"
 sale: 2558
 title: Vintage Posters

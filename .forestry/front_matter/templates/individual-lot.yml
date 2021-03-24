@@ -1,0 +1,225 @@
+---
+label: Individual Lot
+hide_body: true
+display_field: LOT
+fields:
+- name: LOT
+  type: text
+  config:
+    required: false
+  label: Lot Number
+- name: recommended
+  type: boolean
+  label: Recommended
+  description: Does Swann recommend this lot to potentially draw more attention to
+    it?
+- name: image
+  type: file
+  config:
+    maxSize: 64
+  label: Image
+  description: If left blank, the site will automatically use the image uploaded to
+    Cloudinary by its Ref Number.
+- name: images
+  type: image_gallery
+  config: {}
+  label: Image Slideshow (Optional)
+- name: DESCRIPT
+  type: text
+  config:
+    required: false
+  label: 'First Line: Artist/Author/Owner'
+- name: CROSSHEAD
+  type: text
+  config:
+    required: false
+  label: 'Second Line: Title of Piece'
+- name: at-a-glance
+  type: textarea
+  default: ''
+  config:
+    required: false
+    wysiwyg: false
+    schema:
+      format: markdown
+  label: At-a-glance
+  description: At-a-glance specifications such as size, material, quality. This information
+    appears immediately under the title next to the silhouette.
+- name: TYPESET
+  type: textarea
+  default: ''
+  config:
+    required: false
+    wysiwyg: true
+    schema:
+      format: html-blocks
+  label: Main Description
+- name: FOOTNOTE
+  type: textarea
+  default: ''
+  config:
+    required: false
+    wysiwyg: false
+    schema:
+      format: markdown
+  label: Excerpt
+  description: If you're quoting from the lot, write the excerpt here. This shows
+    up in italicized type right below the main description.
+- name: footnote_provenance
+  type: text
+  config:
+    required: false
+  label: Footnote/Provenance
+  description: This shows up in small at-a-glance type underneath the main text.
+- name: LOW
+  type: text
+  config:
+    required: false
+  label: Low Estimate
+- name: HIGH
+  type: text
+  config:
+    required: false
+  label: High Estimate
+- name: REFNO
+  type: text
+  config:
+    required: false
+  hidden: true
+  label: Reference Number
+  description: Edit this with caution, as it's tied dynamically to the lot in other
+    places on the web.
+- name: year
+  type: number
+  label: Year
+  description: Can be approximate.<br>Used for table of contents placement.
+  default: 0
+  required: true
+  config:
+    min: 
+    max: 
+    step: 
+- name: background_color
+  type: color
+  label: Color Background (Optional)
+  config:
+    required: false
+    color_format: Hex
+  description: Use color to make a lot stand out, perhaps. Default is black, recommended
+    is black or white.
+  default: "#000000"
+- name: video_id
+  type: number
+  label: Video ID (Optional)
+  description: 9-digit video ID of Vimeo video. Typically the last 9 digits in url.
+  default: 0
+  required: true
+  config:
+    min: 
+    max: 
+    step: 
+- name: pullquote
+  type: text
+  config:
+    required: false
+  label: Pullquote (Optional)
+  description: Suggested to use sparingly. This shows up in large text before the
+    main lot info.<br>Leave blank if no header text.
+- name: large_img
+  type: boolean
+  label: 'Display large full-width image before lot? '
+  description: Recommended to use only on selected lots that demand extra attention.
+- name: full_width_image
+  type: field_group
+  config: {}
+  fields:
+  - name: image
+    type: file
+    config:
+      maxSize: 64
+    label: Image
+  - name: background_color
+    type: color
+    label: Background Color
+    config:
+      required: false
+      color_format: Hex
+  label: Full Width Image
+  showOnly:
+    field: large_img
+    value: true
+- name: header
+  type: boolean
+  label: Will there be special large header text?
+- name: large_header_text
+  type: field_group
+  config: {}
+  fields:
+  - name: header_type
+    type: select
+    default: []
+    config:
+      required: false
+      options:
+      - Large (Image)
+      - Large
+      - Small
+      source:
+        type: simple
+        section: 
+        file: 
+        path: 
+    label: Header Type
+  - name: line_1_text
+    type: text
+    config:
+      required: false
+    label: Line 1 Text
+    description: 'Suggested: Lot Artist/Author Name'
+  - name: line_2_text
+    type: text
+    config:
+      required: false
+    label: 'Line 2 Text '
+    description: 'Suggested: Lot Title'
+  - name: background_color
+    type: color
+    label: Background Color
+    config:
+      required: false
+      color_format: Hex
+    showOnly:
+      field: header_type
+      value: Large
+  - name: text_color
+    type: select
+    default: []
+    config:
+      required: false
+      options:
+      - white
+      - black
+      source:
+        type: simple
+        section: 
+        file: 
+        path: 
+    label: Text color
+    showOnly:
+      field: header_type
+      value: Large
+  - name: background_image
+    type: file
+    config:
+      maxSize: 64
+    label: Background Image
+    description: This image appears behind the large header text as background texture.
+      For best results, use a texture-like zoom of the image. <br>The text will be
+      white above it.
+    showOnly:
+      field: header_type
+      value: Large (Image)
+  label: Large Header Text
+  showOnly:
+    field: header
+    value: true

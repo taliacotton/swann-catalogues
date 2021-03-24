@@ -1,18 +1,21 @@
-
-{% if lot.header %}
-    {% if lot.large_header.header_type == 'Large' %}
+<!-- <div class="lot-wrapper" data-lot="{{lotNum}}"> -->
+{% if lot.large_header_text %}
+    {% if lot.large_header_text.header_type == 'Large' %}
     <section id="header-{{lotNum}}" class="header_text {{lot.large_header.header_type | slugify}}" style="background-color: {{lot.large_header.background_color}}; color: {{lot.large_header.text_color}}">
         <div class="header-inner">
             <span>{{lot.large_header.line_1_text}}</span>
             <br><span><i>{{lot.large_header.line_2_text}}</i></span>
         </div>
     </section>
-    {% elsif lot.large_header.header_type == 'Large (Image)' %}
+    {% elsif lot.large_header_text.header_type == 'Large (Image)' %}
     <!-- <section class="header_text {{lot.large_header.header_type | slugify}}" style="background-image: url()"> -->
-    <section id="header-{{lotNum}}" class="header_text {{lot.large_header.header_type | slugify}} lozad" data-background-image="{{ site.cloudinary_url }}/w_1040{{lot.large_header.background_image}}">
+    <section id="header-{{lotNum}}" class="lazyload header_text {{lot.large_header_text.header_type | slugify}}" data-script="/assets/js/ls.unveilhooks.min.js" data-bg="{{ site.cloudinary_url }}/f_auto,w_800/{{lot.large_header_text.background_image}}">
+        <div class="header-bg-image">
+            <img class="lazyload" src="{{ site.cloudinary_url }}/f_auto,w_800/{{lot.large_header_text.background_image}}">
+        </div>
         <div class="header-inner">
-            <span>{{lot.large_header.line_1_text}}</span>
-            <br><span><i>{{lot.large_header.line_2_text}}</i></span>
+            <span>{{lot.large_header_text.line_1_text}}</span>
+            <br><span><i>{{lot.large_header_text.line_2_text}}</i></span>
         </div>
     </section>
     {% endif %}
@@ -21,99 +24,149 @@
 {% if lot.large_img %}
     {% if lot.full_width_image.background_color %}{% assign bgLg = lot.full_width_image.background_color %}{%else%}{%assign bgLg ='#212121'%}{%endif%}
     <section id="image-{{lotNum}}" class="large_image" style="background-color: {{bgLg}};">
+        {% if lot.image %}
+            <!-- <img style="background-color:{{bg}}" src="/assets/img/{{lot.image}}"> -->
+            <img
+                    data-sizes="auto"
+                    data-img="{{ lot.image }}"
+                    data-srcset="{{ site.cloudinary_url }}/f_auto,q_70,w_250{{ lot.image }} 250w,
+                            {{ site.cloudinary_url }}/f_auto,q_65,w_500{{ lot.image }} 500w,
+                            {{ site.cloudinary_url }}/f_auto,q_65,w_800{{ lot.image }} 800w,
+                            {{ site.cloudinary_url }}/f_auto,q_65,w_1200{{ lot.image }} 1200w,
+                            {{ site.cloudinary_url }}/f_auto,q_70,w_1600{{ lot.image }} 1600w"
+                    data-src="{{ site.cloudinary_url }}/f_auto,q_50,w_40/{{ lot.image }}"
+                    alt="" 
+                    class="lazyload"/>
+        {% elsif lot.REFNO %}
+        <!-- (min-width: 726px) 50vw, 100vw -->
         <img
-            sizes="100vw"
-            data-srcset="{{ site.cloudinary_url }}/f_auto,q_70,w_250{{ lot.full_width_image.image }} 250w,
-                    {{ site.cloudinary_url }}/f_auto,q_70,w_500{{ lot.full_width_image.image }} 500w,
-                    {{ site.cloudinary_url }}/f_auto,q_70,w_800{{ lot.full_width_image.image }} 800w,
-                    {{ site.cloudinary_url }}/f_auto,q_70,w_1200{{ lot.full_width_image.image }} 1200w,
-                    {{ site.cloudinary_url }}/f_auto,q_70,w_1600{{ lot.full_width_image.image }} 1600w,
-                    {{ site.cloudinary_url }}/f_auto,q_70,w_2000{{ lot.full_width_image.image }} 2000w"
-            data-src="{{ site.cloudinary_url }}/f_auto,q_70,w_500/{{ lot.full_width_image.image }}"
-            src="{{ site.cloudinary_url }}/f_auto,q_50,w_40/{{ lot.full_width_image.image }}"
-            alt=""
-            class="lozad" />
+                    data-sizes="auto"
+                    data-img="/{{page.sale}}/{{ lot.REFNO }}.jpg"
+                    data-srcset="{{ site.cloudinary_url }}/f_auto,q_70,w_250/{{page.sale}}/{{ lot.REFNO }}.jpg 250w,
+                            {{ site.cloudinary_url }}/f_auto,q_65,w_500/{{page.sale}}/{{ lot.REFNO }}.jpg 500w,
+                            {{ site.cloudinary_url }}/f_auto,q_65,w_800/{{page.sale}}/{{ lot.REFNO }}.jpg 800w,
+                            {{ site.cloudinary_url }}/f_auto,q_50,w_1200/{{page.sale}}/{{ lot.REFNO }}.jpg 1200w,
+                            {{ site.cloudinary_url }}/f_auto,q_70,w_1600/{{page.sale}}/{{ lot.REFNO }}.jpg 1600w"
+                    data-src="{{ site.cloudinary_url }}/f_auto,q_50,w_400/{{page.sale}}/{{ lot.REFNO }}.jpg"
+                    alt="" 
+                    class="lazyload" />
+        {% endif %}
     </section>
 {% endif %}
 
 <section id="lot{{lotNum}}" class="lot rec-{{lot.recommended}}">
     <div class="left {% if lot.images.first or lot.video_id %}js-slideshow has-slideshow{% endif %}">
-        <div class="printFooter print-content">Lot {{lot.REFNO}}</div>
+        <div class="printFooter print-content">Lot {{lotNum}}</div>
         
-        {% if lot.images[0] %}
+        {% if lot.images.first %}
             <!-- <div class="slider-actions">
                 <div class="next js-next"><svg width="8" height="14" viewBox="0 0 8 14" fill="none" xmlns="http://www.w3.org/2000/svg"><path d="M0 14V0L8 7L0 14Z" fill="#1893F8"/></svg></div>
                 <div class="previous js-previous"><svg width="8" height="14" viewBox="0 0 8 14" fill="none" xmlns="http://www.w3.org/2000/svg"><path d="M0 14V0L8 7L0 14Z" fill="#1893F8"/></svg></div>
             </div> -->
             <div class="zoom-container"></div>
-            <div class="slideshow"  data-scroll='0' style="background-color:{{bg}}">
+            <div class="slideshow"  data-scroll='0' style="background-color:{{bg}}" id="lot{{lotNum}}-0">
+                    
                     <div class="slideshow-img-container">
-                        <img
-                            data-image="{{ lot.image }}"
-                            sizes="auto"
-                            data-srcset="{{ site.cloudinary_url }}/f_auto,q_70,w_250{{ lot.image }} 250w,
-                                    {{ site.cloudinary_url }}/f_auto,q_70,w_500{{ lot.image }} 500w,
-                                    {{ site.cloudinary_url }}/f_auto,q_70,w_800{{ lot.image }} 800w,
-                                    {{ site.cloudinary_url }}/f_auto,q_70,w_1200{{ lot.image }} 1200w,
-                                    {{ site.cloudinary_url }}/f_auto,q_70,w_1600{{ lot.image }} 1600w"
-                            data-src="{{ site.cloudinary_url }}/f_auto,q_70,w_500/{{ lot.image }}"
-                            src="{{ site.cloudinary_url }}/f_auto,q_50,w_40/{{ lot.image }}"
-                            alt=""
-                            class="lozad" />
+                        <div class="printFooter print-content">Lot {{lotNum}}</div>
+                        {% include lot_images.html %}
                     </div>
 
                     
                     {% if lot.video_id %}
                         <div class="slideshow-img-container"></div>
-                            <div style="padding:56.25% 0 0 0;position:relative;"><iframe src="https://player.vimeo.com/video/{{lot.video_id}}?title=0&byline=0&portrait=0&controls=0&autoplay=1&loop=1" style="position:absolute;top:0;left:0;width:100%;height:100%;" frameborder="0" allow="autoplay; fullscreen; picture-in-picture" allowfullscreen></iframe></div><script src="https://player.vimeo.com/api/player.js"></script>
+                            <div style="padding:56.25% 0 0 0;position:relative;"><iframe src="https://player.vimeo.com/video/{{lot.video_id}}?title=0&byline=0&portrait=0&controls=0&autoplay=1&loop=1&muted=1" allow="autoplay;" style="position:absolute;top:0;left:0;width:100%;height:100%;" frameborder="0" allow="autoplay; fullscreen; picture-in-picture" allowfullscreen></iframe></div><script src="https://player.vimeo.com/api/player.js"></script>
                         </div>
                     {% endif %}
 
-
                     {% for image in lot.images %}
                     <div class="slideshow-img-container">
+                        <div class="printFooter print-content">Lot {{lotNum}}</div>
                         <img
-                            sizes="auto"
+                            data-sizes="auto"
                             data-image="{{ image }}"
                             data-srcset="{{ site.cloudinary_url }}/f_auto,q_70,w_250{{ image }} 250w,
-                                {{ site.cloudinary_url }}/f_auto,q_70,w_500{{ image }} 500w,
+                                {{ site.cloudinary_url }}/f_auto,q_65,w_500{{ image }} 500w,
                                 {{ site.cloudinary_url }}/f_auto,q_70,w_800{{ image }} 800w,
-                                {{ site.cloudinary_url }}/f_auto,q_70,w_1200{{ image }} 1200w,
+                                {{ site.cloudinary_url }}/f_auto,q_60,w_1200{{ image }} 1200w,
                                 {{ site.cloudinary_url }}/f_auto,q_70,w_1600{{ image }} 1600w"
-                            data-src="{{ site.cloudinary_url }}/f_auto,q_70,w_500/{{ image }}"
-                            src="{{ site.cloudinary_url }}/f_auto,q_50,w_40/{{ image }}"
+                            data-src="{{ site.cloudinary_url }}/f_auto,q_65,w_500/{{ image }}"
                             alt=""
-                            class="lozad" />
+                            class="lazyload" />
                     </div>
                     {% endfor %}
             </div>
-        {% elsif lot.video_id and lot.image %}
-            <div class="zoom-container"></div>
+        {% elsif lot.video_id %}
+            <!-- <div class="zoom-container"></div> -->
             <div class="slideshow" data-scroll='0' style="background-color:{{bg}}">
                 <div class="slideshow-img-container">
                     {% include lot_images.html %}
                 </div>
                 <div class="slideshow-img-container">
                     {% if lot.video_id %}
-                        <div style="padding:56.25% 0 0 0;position:relative;"><iframe src="https://player.vimeo.com/video/{{lot.video_id}}?title=0&byline=0&portrait=0&controls=0" style="position:absolute;top:0;left:0;width:100%;height:100%;" frameborder="0" allow="autoplay; fullscreen; picture-in-picture" allowfullscreen></iframe></div><script src="https://player.vimeo.com/api/player.js"></script>
+                        <div style="padding:56.25% 0 0 0;position:relative;"><iframe src="https://player.vimeo.com/video/{{lot.video_id}}?title=0&byline=0&portrait=0&controls=0&autoplay=1&loop=1&muted=1" allow="autoplay;" style="position:absolute;top:0;left:0;width:100%;height:100%;" frameborder="0" allow="autoplay; fullscreen; picture-in-picture" allowfullscreen></iframe></div><script src="https://player.vimeo.com/api/player.js"></script>
                     {% endif %}
                 </div>
-                
             </div>
         {% else %}
-            {% include lot_images.html %}
+            <!-- <div class="zoom-container"></div> -->
+            {% if lot.background_color %}{% assign bg = lot.background_color %}{%else%}{%assign bg ='black'%}{%endif%}
+            {% if lot.image %}
+                <!-- <img style="background-color:{{bg}}" src="/assets/img/{{lot.image}}"> -->
+                <img style="background-color:{{bg}}"
+                        data-sizes="auto"
+                        data-img="{{ lot.image }}"
+                        data-srcset="{{ site.cloudinary_url }}/f_auto,q_70,w_250{{ lot.image }} 250w,
+                                {{ site.cloudinary_url }}/f_auto,q_65,w_500{{ lot.image }} 500w,
+                                {{ site.cloudinary_url }}/f_auto,q_65,w_800{{ lot.image }} 800w,
+                                {{ site.cloudinary_url }}/f_auto,q_65,w_1200{{ lot.image }} 1200w,
+                                {{ site.cloudinary_url }}/f_auto,q_70,w_1600{{ lot.image }} 1600w"
+                        data-src="{{ site.cloudinary_url }}/f_auto,q_50,w_40/{{ lot.image }}"
+                        src="{{ site.cloudinary_url }}/f_auto,q_50,w_40/{{ lot.image }}"
+                        alt="" 
+                        class="lazyload"/>
+                <img class="print-content" src="{{ site.cloudinary_url }}/f_auto,q_100,w_528/{{ lot.image }}">
+            {% elsif lot.REFNO %}
+            <!-- (min-width: 726px) 50vw, 100vw -->
+            <img style="background-color:{{bg}}"
+                        data-sizes="auto"
+                        data-img="/{{page.sale}}/{{ lot.REFNO }}.jpg"
+                        data-srcset="{{ site.cloudinary_url }}/f_auto,q_70,w_250/{{page.sale}}/{{ lot.REFNO }}.jpg 250w,
+                                {{ site.cloudinary_url }}/f_auto,q_65,w_500/{{page.sale}}/{{ lot.REFNO }}.jpg 500w,
+                                {{ site.cloudinary_url }}/f_auto,q_65,w_800/{{page.sale}}/{{ lot.REFNO }}.jpg 800w,
+                                {{ site.cloudinary_url }}/f_auto,q_50,w_1200/{{page.sale}}/{{ lot.REFNO }}.jpg 1200w,
+                                {{ site.cloudinary_url }}/f_auto,q_70,w_1600/{{page.sale}}/{{ lot.REFNO }}.jpg 1600w"
+                        data-src="{{ site.cloudinary_url }}/f_auto,q_50,w_400/{{page.sale}}/{{ lot.REFNO }}.jpg"
+                        src="{{ site.cloudinary_url }}/f_auto,q_50,w_40/{{page.sale}}/{{ lot.REFNO }}.jpg"
+                        alt="" 
+                        class="lazyload" />
+            <img class="print-content" src="{{ site.cloudinary_url }}/f_auto,q_100,w_528/{{page.sale}}/{{ lot.REFNO }}.jpg">
+            {% endif %}
 
         {% endif %}
     </div>
+    {% if lot.images[0] %}
+    <div class="slideshow--next-btn">
+        <button onclick="scrollSlideshow('lot{{lotNum}}', -200)"></button>
+    </div>
+    <div class="slideshow--prev-btn" style="display: none">
+        <button onclick="scrollSlideshow('lot{{lotNum}}', 200)"></button>
+    </div>
+    {% endif %}
     <div class="right">
-        <div class="printFooter print-content">Lot {{lot.refno}}</div>
+        <div class="printFooter print-content">Lot {{lotNum}}</div>
         <button class="bookmark-container"  aria-label="Toggle Bookmark for Lot">
             <span class="onhover"></span>
             <span class="fold-outline"> </span>
         </button>
         <div class="center-column">
+            <div class="printFooter print-content">Lot {{lotNum}}</div>
             <div class="mobile-only mobile-thumb">
                 <!-- <img src="{{ site.cloudinary_url }}/f_auto,q_70,w_60/{{ lot.image }}"> -->
+                {% if lot.image %}
+                <img class="lazyload" data-src="{{ site.cloudinary_url }}/f_auto,q_30,w_40/{{ lot.image }}" crossorigin="anonymous" alt="lot thumbnail image">
+                {% elsif lot.REFNO %}
+                <img class="lazyload" data-src="{{ site.cloudinary_url }}/f_auto,q_30,w_40/{{page.sale}}/{{ lot.REFNO }}.jpg" crossorigin="anonymous" alt="lot thumbnail image">
+                {% endif %}
             </div>
             <button class="small-type notes-prompt">
                 Add note...
@@ -121,18 +174,20 @@
             <div class="notes-left">
                 <textarea class="notes small-type" id="textarea"></textarea>
             </div>
-            {% if lot.header_text %}
-                {% if lot.header_text.type == 'small' %}
+            {% if lot.large_header %}
+                {% if lot.large_header.header_type == 'Small' %}
                     <div class="header-text-small">
                         <span class="lotNum">{{lotNum}}</span>
                         <div class="circle"></div>
-                        <span>{{lot.header_text.line_1}}</span>
+                        <span>{{lot.large_header.line_1_text}}</span>
+                        {% if lot.large_header.line_2_text %}
                         <div class="circle"></div>
-                        <span><i>{{lot.header_text.line_2}}</i></span>
+                        <span><i>{{lot.large_header.line_2_text}}</i></span>
+                        {% endif %}
                     </div>
                 {% endif %}
             {% endif %}
-            {% if lot.pullquote != '' %}
+            {% if lot.pullquote %}
                 <p class="pullquote">
                     {{lot.pullquote}}
                 </p>
@@ -147,9 +202,9 @@
                     <!-- <div><img src="https://catalogue.swanngalleries.com/thumb//{{lot.REFNO | slice: -3, 3 }}/{{lot.REFNO}}tn.jpg"></div> -->
                     <div>
                         {% if lot.image %}
-                        <img class="color-theif lozad" data-src="{{ site.cloudinary_url }}/f_auto,q_70,w_60/{{ lot.image }}" crossorigin="anonymous">
+                        <img class="color-theif lazyload" data-src="{{ site.cloudinary_url }}/f_auto,q_50,w_40/{{ lot.image }}" crossorigin="anonymous">
                         {% elsif lot.REFNO %}
-                        <img class="color-theif lozad" data-src="{{ site.cloudinary_url }}/f_auto,q_70,w_60/{{page.sale}}/{{ lot.REFNO }}.jpg" crossorigin="anonymous">
+                        <img class="color-theif lazyload" data-src="{{ site.cloudinary_url }}/f_auto,q_50,w_40/{{page.sale}}/{{ lot.REFNO }}.jpg" crossorigin="anonymous">
                         {% endif %}
                     </div>
                 </div>
@@ -203,5 +258,43 @@
     <!-- <div class="header print-content">...</div> -->
     <!-- <div class="footer print-content">Lot {{lot.refno}}</div> -->
     
-    <div class="printFooter print-content">Lot {{lot.REFNO}}</div>
+    <!-- <div class="printFooter print-content">Lot {{lotNum}}</div> -->
 </section>
+
+
+<!-- <table class="print-content">
+  <thead><tr><td>
+    <div class="header-space">&nbsp;</div>
+  </td></tr></thead>
+  <tbody><tr><td>
+    <div class="content">Lot {{lotNum}}</div>
+  </td></tr></tbody> -->
+  <!-- <tfoot><tr><td>
+    <div class="footer-space">&nbsp;</div>
+  </td></tr></tfoot> -->
+</table>
+
+<!-- <div class="header">Lot {{lotNum}}</div> -->
+<!-- <div class="footer">...</div> -->
+
+<style>
+
+    .header, .header-space,
+    .footer, .footer-space {
+    height: 100px;
+    color:black;
+    }
+    .header {
+    position: fixed;
+    top: 0;
+    color:black;
+    }
+    .footer {
+    position: fixed;
+    bottom: 0;
+    color:black;
+    }
+
+</style>
+
+<!-- </div> -->

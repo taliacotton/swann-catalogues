@@ -10,26 +10,30 @@
         
         <meta name="description" content="{{page.short_description}}">
 
-        <meta property="og:title" content="{{page.title}} Swann Gallery Catalogue Archive">
+        <meta property="og:title" content="{{page.title}} — Swann Galleries">
         <meta property="og:description" content="{{page.short_description}}">
         
-        <meta property="og:url" content="/">
-        <meta property="twitter:title" content="{{page.title}} Swann Gallery Catalogue Archive">
-        <meta property="twitter:description" content="{{page.short_description}}">
+        <meta property="og:url" content="{{page.url}}">
+        <meta property="og:type" content="website" />
+        <meta name="twitter:title" content="{{page.title}} — Swann Galleries">
+        <meta name="twitter:description" content="{{page.short_description}}">
         
+        <meta name="twitter:card" content="summary_large_image"/>
+        <meta name="twitter:site" content="@SwannGalleries"/>
+        <meta name="twitter:creator" content="@SwannGalleries"/>
         
         {% if page.cover_image %}
-        <meta property="twitter:image" content="{{ site.cloudinary_url }}/f_auto,q_70,w_512{{ page.cover_image.image }}">
+        <meta name="twitter:image" content="{{ site.cloudinary_url }}/f_auto,q_70,w_1200{{ page.cover_image.image }}">
         <meta property="og:image" content="{{ site.cloudinary_url }}/f_auto,q_70,w_512{{ page.cover_image.image }}">
         {% else %}
-        <meta property="twitter:image" content="https://imprint.swanngalleries.com/assets/img/og-image.png">
+        <meta name="twitter:image" content="https://imprint.swanngalleries.com/assets/img/og-image.png">
         <meta property="og:image" content="https://imprint.swanngalleries.com/assets/img/og-image.png">
         {% endif %}
         
-        <meta property="twitter:image:alt" content="{{page.title}} Swann Gallery Catalogue Archive">
-        <meta property="og:site_name" content="{{page.title}} Swann Gallery Catalogue Archive">
+        <meta name="twitter:image:alt" content="{{page.title}} — Swann Galleries">
+        <meta property="og:site_name" content="{{page.title}} — Swann Galleries">
 
-        <title>{{page.title}} — Swann Gallery Catalogue Archive</title>
+        <title>{{page.title}} — Swann Galleries</title>
 
         <meta name="viewport" content="width=device-width, initial-scale=1">
 

@@ -7,12 +7,12 @@ cover_image:
   title: Abram Tromka, Third Avenue El, 1941.
   image: "/v1611082438/2557/778611.jpg"
 filename: ''
-visible: true
+visible: false
 permalink: "/fine-art/the-artists-of-the-wpa/2557"
 sale: 2557
 title: The Artists of the WPA
 datetime:
-  date: 2021-02-04 05:00:00 +0000
+  date: 2021-02-04T05:00:00.000+00:00
   time: 2021-01-01T12:00:00.000+00:00
   time2: 
 chapters:

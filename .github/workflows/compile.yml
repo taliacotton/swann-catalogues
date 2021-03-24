@@ -1,0 +1,76 @@
+# This is a workflow to compile files from _data/ to _lots, in order
+# to make them readable from Forestry CMS.
+
+name: Lots compilation
+
+# Controls when the action will run. 
+on:
+  push:
+    branches: [ main ]
+    paths: [ '_data/*' ] # Will only run if something in _data/ is modified
+
+  # Allows you to run this workflow manually from the Actions tab
+  workflow_dispatch:
+
+# A workflow run is made up of one or more jobs that can run sequentially or in parallel
+jobs:
+  # This workflow contains a single job called "build"
+  build:
+    # The type of runner that the job will run on
+    runs-on: ubuntu-latest
+
+    # Steps represent a sequence of tasks that will be executed as part of the job
+    steps:
+      # Checks-out your repository under $GITHUB_WORKSPACE, so your job can access it
+      - uses: actions/checkout@v2
+
+      - name: Install NPM dependencies for compiler
+        run: npm install
+        
+      - name: Compile YAML files in _data/, put them in _lots/
+        run: node generate.js
+      
+      - name: Push new files in _lots/
+        uses: stefanzweifel/git-auto-commit-action@v4
+        with:
+          # Optional but recommended
+          # Defaults to "Apply automatic changes"
+          commit_message: "[automated] Compile YAML files in _data/, put them in _lots/"
+
+          # Optional branch name where commit should be pushed to
+          # Defaults to the current branch
+          #branch: feature-123
+
+          # Optional options appended to `git-commit`
+          # See https://git-scm.com/docs/git-commit for a list of available options
+          #commit_options: '--no-verify --signoff'
+
+          # Optional glob pattern of files which should be added to the commit
+          # Defaults to all (.)
+          # See the `pathspec`-documentation for git
+          # - https://git-scm.com/docs/git-add#Documentation/git-add.txt-ltpathspecgt82308203
+          # - https://git-scm.com/docs/gitglossary#Documentation/gitglossary.txt-aiddefpathspecapathspec
+          file_pattern: _lots/**/*
+
+          # Optional local file path to the repository
+          # Defaults to the root of the repository
+          #repository: .
+
+          # Optional commit user and author settings
+          commit_user_name: GitHub Actions
+          commit_user_email: actions@github.com
+          #commit_author: Author <actions@github.com> # defaults to author of the commit that triggered the run
+
+          # Optional tag message 
+          # Action will create and push a new tag to the remote repository and the defined branch
+          #tagging_message: 'v1.0.0'
+
+          # Optional options appended to `git-push`
+          # See git-push documentation for details: https://git-scm.com/docs/git-push#_options
+          #push_options: '--force'
+
+          # Optional: Disable dirty check and always try to create a commit and push
+          skip_dirty_check: true    
+
+          # Optional: Skip internal call to `git fetch`
+          #skip_fetch: true

@@ -1,5 +1,5 @@
 {% include head.html %}
-        <script type="text/javascript" src="https://cdn.jsdelivr.net/npm/lozad/dist/lozad.min.js"></script>
+        <!-- <script type="text/javascript" src="https://cdn.jsdelivr.net/npm/lozad/dist/lozad.min.js"></script> -->
         <link rel="stylesheet" href="/assets/css/catalogue.css">
         <style>
             :root{
@@ -19,14 +19,32 @@
             </div>
         </div>
 
-        {% for x in site.data %}
-            {% assign testName = "_data/" | append: x[0] | append: ".yaml" %}
-            {% if testName == page.lots %}
-                {% assign catalogue = x[1] %}
+        {% assign lotsFilepath = '_lots/' | append: page.sale %}
+        {% assign lotsOutOfOrder = '' | split: '' %}
+        {% assign lots = '' | split: '' %}
+        {% assign lotsOrder = '' | split: '' %}
+        {% assign counter = 1 %}
+
+        <!-- LOTS ARE GETTING ORDERED BY THEIR LOT NUMBER ALPHABETICALLY -->
+
+        {% for x in site.lots %}
+            {% if x.path contains lotsFilepath %}
+                {% assign lotsOutOfOrder = lotsOutOfOrder | push: x %}
+                {% assign lotsOrder = lotsOrder | push: counter %}
+                {% assign counter = counter | plus: 1 %}
             {% endif %}
         {% endfor %}
 
-        {% assign lots = catalogue.lots %}
+        <!-- THIS REORDERS THEM -->
+
+        {% for num in lotsOrder %}
+            {% for lot in lotsOutOfOrder %}
+                {% assign lotNumLoop = lot.LOT | times: 1 %}
+                {% if lotNumLoop == num %}
+                    {% assign lots = lots | push: lot %}
+                {% endif %}
+            {% endfor %}
+        {% endfor %}
 
         <img id="cursor" src="/assets/img/cursor.png" alt="custom cursor">
         <div id="cookieBanner">
@@ -62,31 +80,30 @@
                 <span id="marker"></span>
                 {% for lot in lots %}
                 
-                {% assign lotNum = forloop.index %}
+                {% assign lotNum = lot.LOT | plus: '' %}
 
                 {% for session in page.chapters %}
                     {% for chapter in session.chapters %}
-                            {% if lotNum == chapter.lot %}
-                            <a class="sidebar-chapter-separation" href="#{{chapter.chapter_title | slugify}}">
-                            <li >
-                                
+                        {% assign chapterLotNum = chapter.lot | plus: '' %}
+                        {% if lotNum == chapterLotNum %}
+                            <a class="sidebar-chapter-separation" href="#chp-{{chapter.chapter_title | slugify}}">
+                            <li>
                                     {% if forloop.index == 1 %}
                                     <p class="small-type">{{session.session_title}}</p>
                                     {% endif%}
                                     <p class="chapter-title">{{chapter.chapter_title}}</p>
-                                
                             </li>
                             </a>
-                            {% endif %}
+                        {% endif %}
                     {% endfor %}
                 {% endfor %}
-                        <a href="#lot{{lotNum}}">
+                    <a href="#lot{{lotNum}}">
                     <li data-id="lot{{lotNum}}">
                             <div class="thumbnail-lockup">
                                     {% if lot.image %}
-                                    <img class="" src="{{ site.cloudinary_url }}/f_auto,q_50,w_40/{{ lot.image }}" crossorigin="anonymous">
+                                    <img class="lazyload" data-src="{{ site.cloudinary_url }}/f_auto,q_50,w_40/{{ lot.image }}" crossorigin="anonymous">
                                     {% elsif lot.REFNO %}
-                                    <img class="" src="{{ site.cloudinary_url }}/f_auto,q_50,w_40/{{page.sale}}/{{ lot.REFNO }}.jpg" crossorigin="anonymous">
+                                    <img class="lazyload" data-src="{{ site.cloudinary_url }}/f_auto,q_50,w_40/{{page.sale}}/{{ lot.REFNO }}.jpg" crossorigin="anonymous">
                                     {% endif %}
                                     <p class="small-type">
                                         Lot {{forloop.index}}
@@ -110,10 +127,10 @@
                 <div class="left">
                     {% if page.cover_image.image %}
                     <img style="background-color:{{bg}}"
-                        sizes="(min-width: 726px) 50vw, 100vw"
-                        class="lozad"
-                        data-srcset="{{ site.cloudinary_url }}/f_auto,q_70,w_250{{ page.cover_image.image }} 250w,
-                                {{ site.cloudinary_url }}/f_auto,q_70,w_500{{ page.cover_image.image }} 500w,
+                        sizes="auto"
+                        class="lazyload"
+                        srcset="{{ site.cloudinary_url }}/f_auto,q_70,w_250{{ page.cover_image.image }} 250w,
+                                {{ site.cloudinary_url }}/f_auto,q_65,w_500{{ page.cover_image.image }} 500w,
                                 {{ site.cloudinary_url }}/f_auto,q_70,w_800{{ page.cover_image.image }} 800w,
                                 {{ site.cloudinary_url }}/f_auto,q_70,w_1200{{ page.cover_image.image }} 1200w,
                                 {{ site.cloudinary_url }}/f_auto,q_70,w_1600{{ page.cover_image.image }} 1600w"
@@ -158,7 +175,17 @@
                     </ul>
                 </div>
             </div>
-            <section id="table-of-contents">
+            <section id="table-of-contents" class="hide-vis">
+                <div class="print-content">
+                    <br>
+                    <h2>{{page.title}} </h2>
+                    <h2 class="cover-date">{{ page.datetime.date | date: "%A, %B %d, %Y" }}<br>at {{ page.datetime.time | date: "%l:%M%P" }} {% if page.datetime.time2 %} <i>&</i> {{page.datetime.time2 | date: "%l:%M%P"}} {%endif%}</h2>
+                    <a class="on-the-cover small-type" href="#lot{{page.cover_image.lot_number}}">
+                        On the cover:
+                        <br> Lot {{page.cover_image.lot_number}} • {{page.cover_image.title}}
+                    </a>
+                    <br><br>
+                </div>
                 <div class="dates small-type" id="toc-dates">
                 </div>
                 <div id="toc-dots">
@@ -168,7 +195,7 @@
                     {% for session in page.chapters %}
                         {% for chapter in session.chapters %}
                                 {% if lotNum == chapter.lot %}
-                                <a href="#{{chapter.chapter_title | slugify}}">
+                                <a href="#chp-{{chapter.chapter_title | slugify}}">
                                     {% if forloop.index == 1 %}
                                     <p class="small-type">{{session.session_title}}</p>
                                     {% endif%}
@@ -188,9 +215,9 @@
                             {% endif %}
                             <div class="thumbnail-lockup">
                                 {% if lot.image %}
-                                 <img class="lozad" data-src="{{ site.cloudinary_url }}/f_auto,q_50,w_40/{{ lot.image }}" crossorigin="anonymous" alt="lot thumbnail image">
+                                 <img class="lazyload color-theif toc-img" src="{{ site.cloudinary_url }}/f_auto,q_50,w_40/{{ lot.image }}" crossorigin="anonymous" alt="lot thumbnail image">
                                  {% elsif lot.REFNO %}
-                                 <img class="lozad" data-src="{{ site.cloudinary_url }}/f_auto,q_50,w_40/{{page.sale}}/{{ lot.REFNO }}.jpg" crossorigin="anonymous" alt="lot thumbnail image">
+                                 <img class="lazyload color-theif toc-img" src="{{ site.cloudinary_url }}/f_auto,q_50,w_40/{{page.sale}}/{{ lot.REFNO }}.jpg" crossorigin="anonymous" alt="lot thumbnail image">
                                  {% endif %}
                                  <p class="small-type">
                                      Lot {{forloop.index}}
@@ -265,45 +292,44 @@
                 </div>
             </section> -->
             <div class="lots" id="PRINT">
-            {% for lot in lots %}
+        
+               {% for lot in lots %}
 
-                {% assign lotNum = forloop.index %}
+                  {% assign lotNum = lot.LOT | round %}
 
-                {% for session in page.chapters %}
-                    {% for chapter in session.chapters %}
-                            {% if lotNum == chapter.lot %}
-                            <section id="chp-{{chapter.chapter_title | slugify}}"  class="chapter-head">
-                                <div class="inner">
-                                    <h3 class="small-type">{{session.session_title}}</h3>
-                                    <h1>{{chapter.chapter_title}}</h1>
-                                </div>
-                            </section>
-                            {% endif %}
-                    {% endfor %}
-                {% endfor %}
+                  {% for session in page.chapters %}
+                     {% for chapter in session.chapters %}
+                              {% if lotNum == chapter.lot %}
+                              <section id="chp-{{chapter.chapter_title | slugify}}"  class="chapter-head">
+                                 <div class="inner">
+                                       <h3 class="small-type">{{session.session_title}}</h3>
+                                       <h1>{{chapter.chapter_title}}</h1>
+                                 </div>
+                              </section>
+                              {% endif %}
+                     {% endfor %}
+                  {% endfor %}
 
-                {% for essay in page.essays %}
-                    {% if lotNum == essay.lot %}
-                    <section class="essay" id="{{essay.title | slugify}}">
-                        <div class="inner">
-                            <div class="title-text">
-                                <h1>{{essay.title}}</h1>
-                                <h5>{{essay.author}}</h5>
-                            </div>
-                            {{essay.body | markdownify}}
-                            <!-- <div class="image">
-                                <img src="https://www.swanngalleries.com/news/wp-content/uploads/2019/08/M40076-3_5_timothy-ely-3.jpg">
-                                <br><caption>Lot 418: Timothy Ely, Consider Your Phantom Replies, hand-illustrated throughout, New York, 1982. Sold for $5,750.</caption>
-                            </div> -->
-                        </div>
-                    </section>
-                    {% endif %}
-                {% endfor %}
+                  {% for essay in page.essays %}
+                     {% if lotNum == essay.lot %}
+                     <section class="essay" id="{{essay.title | slugify}}">
+                           <div class="inner">
+                              <div class="title-text">
+                                 <h1>{{essay.title}}</h1>
+                                 <h5>{{essay.author}}</h5>
+                              </div>
+                              {{essay.body | markdownify}}
+                           </div>
+                     </section>
+                     {% endif %}
+                  {% endfor %}
 
-                {% include X_lot.html %}
-                
-            {% endfor %}
+                  {% include X_lot.html %}
+
+                  
+               {% endfor %}
             </div>
+
             {% assign footerLength = page.footer_pages | size %}
             {% if footerLength > 0 %}
             <section id="end-content">
@@ -325,6 +351,36 @@
         <div class="callout" id="hamburgerCallout">
             <p>You can click this button to return to the table of contents at any time.</p>
             <button onclick="this.parentElement.classList.add('got-it')">close</button>
+        </div>
+        <div class="callout" id="arrowsCallout">
+            <div id="arrow-keys">
+                <!-- <div><span></span></div><br> -->
+                <div>
+                    <span>
+                    <svg width="23" height="12" viewBox="0 0 23 12" fill="none" xmlns="http://www.w3.org/2000/svg">
+                        <path fill-rule="evenodd" clip-rule="evenodd" d="M0 6L10 0L10 5H23V7H10L10 12L0 6Z" fill="white"/>
+                    </svg>
+                    </span>
+                </div>
+                <div>
+                    <span>
+                    <svg width="23" height="12" viewBox="0 0 23 12" fill="none" xmlns="http://www.w3.org/2000/svg">
+                        <path fill-rule="evenodd" clip-rule="evenodd" d="M0 6L10 0L10 5H23V7H10L10 12L0 6Z" fill="white"/>
+                    </svg>
+                    </span>
+                    <span>
+                    <svg width="23" height="12" viewBox="0 0 23 12" fill="none" xmlns="http://www.w3.org/2000/svg">
+                        <path fill-rule="evenodd" clip-rule="evenodd" d="M0 6L10 0L10 5H23V7H10L10 12L0 6Z" fill="white"/>
+                    </svg>
+                    </span>
+                    <span>
+                    <svg width="23" height="12" viewBox="0 0 23 12" fill="none" xmlns="http://www.w3.org/2000/svg">
+                        <path fill-rule="evenodd" clip-rule="evenodd" d="M0 6L10 0L10 5H23V7H10L10 12L0 6Z" fill="white"/>
+                    </svg>
+                    </span>
+                </div>
+            </div>
+            <p>Use the right and left arrow keys to flip between pages.</p>
         </div>
 
         <textarea id="url_to_copy"></textarea>
@@ -358,8 +414,13 @@
 
         <!-- <script src="https://cdn.jsdelivr.net/npm/vanilla-lozadload@17.3.0/dist/lozadload.min.js"></script> -->
         <script src="https://cdnjs.cloudflare.com/ajax/libs/color-thief/2.3.0/color-thief.umd.js"></script>
+        <script src="/assets/js/ls.bgset.min.js" ></script>
+        <script src="/assets/js/ls.object-fit.min.js" ></script>
+        <script src="/assets/js/ls.respimg.min.js" ></script>
+        <script src="/assets/js/lazysizes-umd.min.js" ></script>
+        
         <script src="/assets/js/emitter.min.js" ></script>
-        <script src="/assets/js/cookies.js" async></script>
+        <!-- <script src="/assets/js/cookies.js" async></script> -->
         <script src="/assets/js/catalogue.js" async ></script>
 
 {% include foot.html %}

@@ -1,0 +1,28 @@
+{
+  "name": "swann-catalogues",
+  "version": "1.0.0",
+  "description": "",
+  "main": "generate.js",
+  "dependencies": {
+    "colorthief": "^2.3.2",
+    "fs": "^0.0.1-security",
+    "glob": "^7.1.6",
+    "json-to-pretty-yaml": "^1.2.2",
+    "yaml-js": "^0.2.3"
+  },
+  "devDependencies": {},
+  "scripts": {
+    "build": "node generate.js && bundle exec jekyll build",
+    "serve": "node generate.js && bundle exec jekyll serve --trace"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/taliacotton/swann-catalogues.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/taliacotton/swann-catalogues/issues"
+  },
+  "homepage": "https://github.com/taliacotton/swann-catalogues#readme"
+}
