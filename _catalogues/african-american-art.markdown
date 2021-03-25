@@ -18,6 +18,8 @@ datetime:
 short_description: ''
 chapters:
 - session_title: ''
+  chapters: []
+- session_title: ''
   chapters:
   - chapter_title: Early 20th Century & Harlem Renaissance
     lot: 1
@@ -27,8 +29,10 @@ chapters:
     lot: 44
   - chapter_title: Collection of the Ness Oleson Trust
     lot: 100
-  - chapter_title: Abstraction & Contemporary Art
-    lot: 115
+  - chapter_title: 2Oth Century Contemporary Art
+    lot: 122
+  - chapter_title: 21st Century Contemporary
+    lot: 183
 people:
   main_contacts:
   - _people/corey-serrant.md
