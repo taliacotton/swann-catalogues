@@ -55,7 +55,19 @@ people:
   - _people/kelsie-jankowski.md
   - _people/shannon-licitra.md
   general_information: ''
-essays: []
+essays:
+- lot: 21
+  title: Richmond Barthé
+  author: ''
+  body: |-
+    Some basic text to go here
+
+    ![](https://res.cloudinary.com/dcryyrd42/image/upload/v1616687492/RichmondBarthe_zljekj.jpg)
+- lot: 100
+  author: ''
+  body: The late Frannie Ness and Gary Oleson were the proprietors of Waiting for
+    Godot Books of Hadley, MA. The collection includes both fine and self-taught artists.
+  title: ''
 footer_pages: []
 
 ---
