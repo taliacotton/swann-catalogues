@@ -3,9 +3,9 @@ layout: X_catalogue
 lots: []
 color: "#6ED67B"
 cover_image:
-  lot_number: 10
-  title: Aaron Douglas, Head of Boy (Portrait of Langston Hughes), circa 1926.
-  image: "/v1616621324/CoverA-Aaron-Douglas-rev_lc2jei.jpg"
+  lot_number: 86
+  title: Nelson  Stevens, Yes,  We Will, 1972.
+  image: "/v1616604470/2565/780587.jpg"
 filename: ''
 visible: false
 permalink: "/fine-art/african-american-art/2565"
