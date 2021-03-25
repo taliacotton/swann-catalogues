@@ -29,7 +29,7 @@ chapters:
     lot: 44
   - chapter_title: Collection of the Ness Oleson Trust
     lot: 100
-  - chapter_title: 2Oth Century Contemporary Art
+  - chapter_title: 2Oth Century Contemporary
     lot: 122
   - chapter_title: 21st Century Contemporary
     lot: 183
