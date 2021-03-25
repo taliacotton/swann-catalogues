@@ -63,6 +63,8 @@ essays:
     Some basic text to go here
 
     ![](https://res.cloudinary.com/dcryyrd42/image/upload/v1616687492/RichmondBarthe_zljekj.jpg)
+
+    Image caption
 - lot: 100
   author: ''
   body: The late Frannie Ness and Gary Oleson were the proprietors of Waiting for
