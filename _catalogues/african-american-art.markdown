@@ -20,19 +20,9 @@ chapters:
 - session_title: ''
   chapters: []
 - session_title: ''
-  chapters:
-  - chapter_title: Early 20th Century & Harlem Renaissance
-    lot: 1
-  - chapter_title: Modernism
-    lot: 24
-  - chapter_title: Postwar Art
-    lot: 44
-  - chapter_title: Collection of the Ness Oleson Trust
-    lot: 100
-  - chapter_title: 2Oth Century Contemporary
-    lot: 122
-  - chapter_title: 21st Century Contemporary
-    lot: 183
+  chapters: []
+- session_title: ''
+  chapters: []
 people:
   main_contacts:
   - _people/corey-serrant.md
@@ -74,7 +64,9 @@ essays:
 - lot: 100
   author: ''
   body: The late Frannie Ness and Gary Oleson were the proprietors of Waiting for
-    Godot Books of Hadley, MA. The collection includes both fine and self-taught artists.
+    Godot Books of Hadley, MA. They specialized in rare modern literary books by American
+    and English writers. Their art collection includes works by both fine and self-taught
+    African American artists.
   title: ''
 footer_pages: []
 
