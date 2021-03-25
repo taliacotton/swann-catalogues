@@ -51,16 +51,17 @@ essays:
   author: ''
   body: "These three sculptures by Richmond Barthé (lots 21-23) display the work of
     an artist at the height of his career. Barthé was establishing himself as a leading
-    American sculptor of the modern period with his new representation of the modern
-    male figure – dynamic, muscular and Black. His vision culminated in his mid-1930s
-    series of African dancers, including _Feral Benga._ By 1937, Barthé had reached
-    new levels of naturalism in bronze; his passion for his subjects were perfectly
-    in synch with his superb technical skill. This was reinforced with the wide acclaim
-    Barthé received for his figures, including _African Boy Dancing_, shown at _Dance
-    International, 1900 – 1937_ at the Rockefeller Center, New York.\n\n![](https://res.cloudinary.com/dcryyrd42/image/upload/v1616687492/RichmondBarthe_zljekj.jpg)\n\nCarl
+    American sculptor of the modern period with his new representation of the male
+    figure – dynamic, muscular and black. His vision culminated in his mid-1930s series
+    of African dancers, including the iconic _Feral Benga._ Barthé achieved new levels
+    of naturalism in bronze as his passion for his subjects was perfectly matched
+    with his superb technical skill. This was reinforced with the wide acclaim Barthé
+    received for his figures, including _African Boy Dancing_, shown at the 1937 prestigious
+    exhibition _Dance International, 1900 – 1937_ at the Rockefeller Center, New York.
+    \n\n![](https://res.cloudinary.com/dcryyrd42/image/upload/v1616687492/RichmondBarthe_zljekj.jpg)\n\nCarl
     Van Vechten, <i>Richmond Barthé, September 23, 1939</i>. Carl Van Vechten Papers,
     Beinecke Rare Book and Manuscript Library, Yale University. Used with permission
-    of the Van Vechten Trust. ©Van Vechten Trust. "
+    of the Van Vechten Trust. ©Van Vechten Trust."
 - lot: 100
   author: ''
   body: The late Frannie Ness and Gary Oleson were the proprietors of Waiting for
