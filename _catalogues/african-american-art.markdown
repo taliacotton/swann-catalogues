@@ -52,7 +52,9 @@ essays:
   body: ''
 - lot: 101
   title: Beauford Delaney in 1951
-  author: ''
+  author: Carl Van Vechten, <i>Beauford Delaney</i>. Carl Van Vechten Papers, Beinecke
+    Rare Book and Manuscript Library, Yale University. Used with permission of the
+    Van Vechten Trust. ©Van Vechten Trust.
   body: "![](https://res.cloudinary.com/dcryyrd42/image/upload/v1616722081/BeaufordDelaney_xdevcs.jpg)"
 - lot: 21
   title: Richmond Barthé in 1937
