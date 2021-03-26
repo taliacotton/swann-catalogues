@@ -18,6 +18,24 @@ datetime:
 short_description: ''
 chapters:
 - session_title: ''
+  chapters:
+  - chapter_title: ''
+    lot: 
+  - chapter_title: 21st Century Contemporary
+    lot: 183
+  - lot: 115
+    chapter_title: 20th Century Contemporary
+  - chapter_title: Collection of the Ness Oleson Trust
+    lot: 100
+  - chapter_title: Postwar Art
+    lot: 44
+  - chapter_title: Modernism
+    lot: 24
+  - chapter_title: 'Richmond Barthé '
+    lot: 21
+  - chapter_title: Early 20th Century & Harlem Renaissance
+    lot: 1
+- session_title: ''
   chapters: []
 - session_title: ''
   chapters:
@@ -27,10 +45,6 @@ chapters:
   chapters: []
 - session_title: ''
   chapters: []
-- session_title: Early 20th Century & Harlem Renaissance
-  chapters:
-  - chapter_title: ''
-    lot: 
 - session_title: ''
   chapters: []
 people:
