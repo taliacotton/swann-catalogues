@@ -38,9 +38,7 @@ chapters:
 - session_title: ''
   chapters: []
 - session_title: ''
-  chapters:
-  - chapter_title: Early 20th Century & Harlem Renaissance
-    lot: 1
+  chapters: []
 - session_title: ''
   chapters: []
 - session_title: ''
