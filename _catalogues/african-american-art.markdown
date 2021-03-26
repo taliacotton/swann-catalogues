@@ -55,9 +55,10 @@ essays:
   author: ' In 1951, writer Brooks Atkinson noted, "No one knows exactly how Beauford
     lives. Pegging away at a style of painting that few people understand or appreciate,
     he has disciplined himself, not only physically but spiritually, to live with
-    a kind of personal magnetism in a barren world."<br><br>"Carl Van Vechten, <i>Beauford
-    Delaney</i>. Carl Van Vechten Papers, Beinecke Rare Book and Manuscript Library,
-    Yale University. Used with permission of the Van Vechten Trust. ©Van Vechten Trust.'
+    a kind of personal magnetism in a barren world." Two years later, Delaney left
+    New York for Paris.<br><br>"Carl Van Vechten, <i>Beauford Delaney</i>. Carl Van
+    Vechten Papers, Beinecke Rare Book and Manuscript Library, Yale University. Used
+    with permission of the Van Vechten Trust. ©Van Vechten Trust.'
   body: "> ![](https://res.cloudinary.com/dcryyrd42/image/upload/v1616722081/BeaufordDelaney_xdevcs.jpg)"
 - lot: 21
   title: Richmond Barthé in 1937
