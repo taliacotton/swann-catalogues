@@ -46,6 +46,14 @@ people:
   - _people/shannon-licitra.md
   general_information: ''
 essays:
+- lot: 
+  title: ''
+  author: ''
+  body: ''
+- lot: 101
+  title: Beauford Delaney in 1951
+  author: ''
+  body: "![](https://res.cloudinary.com/dcryyrd42/image/upload/v1616722081/BeaufordDelaney_xdevcs.jpg)"
 - lot: 21
   title: Richmond Barthé in 1937
   author: ''
