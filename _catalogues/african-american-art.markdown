@@ -54,8 +54,12 @@ essays:
   title: Beauford Delaney in 1951
   author: Carl Van Vechten, <i>Beauford Delaney</i>. Carl Van Vechten Papers, Beinecke
     Rare Book and Manuscript Library, Yale University. Used with permission of the
-    Van Vechten Trust. ©Van Vechten Trust.
-  body: "![](https://res.cloudinary.com/dcryyrd42/image/upload/v1616722081/BeaufordDelaney_xdevcs.jpg)"
+    Van Vechten Trust. ©Van Vechten Trust.<br><br><br>. In 1951, writer Brooks Atkinson
+    noted, "No one knows exactly how Beauford lives. Pegging away at a style of painting
+    that few people understand or appreciate, he has disciplined himself, not only
+    physically but spiritually, to live with a kind of personal magnetism in a barren
+    world."
+  body: "> ![](https://res.cloudinary.com/dcryyrd42/image/upload/v1616722081/BeaufordDelaney_xdevcs.jpg)"
 - lot: 21
   title: Richmond Barthé in 1937
   author: ''
