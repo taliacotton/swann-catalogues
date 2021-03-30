@@ -78,7 +78,7 @@ essays:
     >
     > ###### ![](https://res.cloudinary.com/dcryyrd42/image/upload/v1616722081/BeaufordDelaney_xdevcs.jpg)
     >
-    > Carl Van Vechten, _Beauford Delaney_. Carl Van Vechten Papers, Beinecke Rare Book and Manuscript Library, Yale University. Used with permission of the Van Vechten Trust. ©Van Vechten Trust.
+    > Carl Van Vechten, _Beauford Delaney_. Carl Van Vechten Papers, Beinecke Rare Book and Manuscript Library, Yale University. Used with permission of the Van Vechten Trust. © Van Vechten Trust.
 - lot: 21
   title: Richmond Barthé in 1937
   author: ''
