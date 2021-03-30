@@ -1,7 +1,7 @@
 ---
 layout: X_catalogue
 lots: []
-color: "#6ED67B"
+color: "#44BB77"
 cover_image:
   lot_number: 86
   title: Nelson  Stevens, Yes,  We Will, 1972.
