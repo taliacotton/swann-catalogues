@@ -589,7 +589,7 @@ function showCurrentImage() {
    }
 
    for (let r of rightSections) {
-       let boundingRect = r.getBoundingClientRect();
+      let boundingRect = r.getBoundingClientRect();
       let bottom = boundingRect.bottom;
       let top = boundingRect.top;
       if (top <= 30 && bottom >= window.innerHeight / 2) {
@@ -598,6 +598,12 @@ function showCurrentImage() {
          r.classList.remove("active");
       }
    }
+}
+
+function makeLinksExternal(){
+    for (let link of document.querySelectorAll(".lot .center-column a")){
+        link.setAttribute('target', '_blank');
+    }
 }
 
 function clearSelection(){
@@ -1043,4 +1049,5 @@ applyTocDots()
 setTimeout(checkCookie, 100)
 applySlideshows()
 setTimeout(applyZoomImage2, 500)
+setTimeout(makeLinksExternal, 100)
 

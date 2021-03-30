@@ -23,38 +23,30 @@
 <!-- LARGE IMAGES -->
 {% if lot.large_img %}
     {% if lot.full_width_image.background_color %}{% assign bgLg = lot.full_width_image.background_color %}{%else%}{%assign bgLg ='#212121'%}{%endif%}
+    {% if lot.full_width_image.image %}
+        {% assign largeImage = lot.full_width_image.image %}
+    {% elsif lot.image %}
+        {% assign largeImage = lot.image %}
+    {% elsif lot.REFNO %}
+        {% assign largeImage = "/" | append: page.sale | append: "/" | append: lot.REFNO | append: ".jpg" %}
+    {% endif %}
     <section id="image-{{lotNum}}" class="large_image" style="background-color: {{bgLg}};">
-        {% if lot.image %}
             <!-- <img style="background-color:{{bg}}" src="/assets/img/{{lot.image}}"> -->
             <img
                     data-sizes="auto"
-                    data-img="{{ lot.image }}"
-                    data-srcset="{{ site.cloudinary_url }}/f_auto,q_70,w_250{{ lot.image }} 250w,
-                            {{ site.cloudinary_url }}/f_auto,q_65,w_500{{ lot.image }} 500w,
-                            {{ site.cloudinary_url }}/f_auto,q_65,w_800{{ lot.image }} 800w,
-                            {{ site.cloudinary_url }}/f_auto,q_65,w_1200{{ lot.image }} 1200w,
-                            {{ site.cloudinary_url }}/f_auto,q_70,w_1600{{ lot.image }} 1600w"
-                    data-src="{{ site.cloudinary_url }}/f_auto,q_50,w_40/{{ lot.image }}"
+                    data-img="{{ largeImage }}"
+                    data-srcset="{{ site.cloudinary_url }}/f_auto,q_70,w_250{{ largeImage }} 250w,
+                            {{ site.cloudinary_url }}/f_auto,q_65,w_500{{ largeImage }} 500w,
+                            {{ site.cloudinary_url }}/f_auto,q_65,w_800{{ largeImage }} 800w,
+                            {{ site.cloudinary_url }}/f_auto,q_65,w_1200{{ largeImage }} 1200w,
+                            {{ site.cloudinary_url }}/f_auto,q_70,w_1600{{ largeImage }} 1600w"
+                    data-src="{{ site.cloudinary_url }}/f_auto,q_50,w_40/{{ largeImage }}"
                     alt="" 
                     class="lazyload"/>
-        {% elsif lot.REFNO %}
-        <!-- (min-width: 726px) 50vw, 100vw -->
-        <img
-                    data-sizes="auto"
-                    data-img="/{{page.sale}}/{{ lot.REFNO }}.jpg"
-                    data-srcset="{{ site.cloudinary_url }}/f_auto,q_70,w_250/{{page.sale}}/{{ lot.REFNO }}.jpg 250w,
-                            {{ site.cloudinary_url }}/f_auto,q_65,w_500/{{page.sale}}/{{ lot.REFNO }}.jpg 500w,
-                            {{ site.cloudinary_url }}/f_auto,q_65,w_800/{{page.sale}}/{{ lot.REFNO }}.jpg 800w,
-                            {{ site.cloudinary_url }}/f_auto,q_50,w_1200/{{page.sale}}/{{ lot.REFNO }}.jpg 1200w,
-                            {{ site.cloudinary_url }}/f_auto,q_70,w_1600/{{page.sale}}/{{ lot.REFNO }}.jpg 1600w"
-                    data-src="{{ site.cloudinary_url }}/f_auto,q_50,w_400/{{page.sale}}/{{ lot.REFNO }}.jpg"
-                    alt="" 
-                    class="lazyload" />
-        {% endif %}
     </section>
 {% endif %}
 
-<section id="lot{{lotNum}}" class="lot rec-{{lot.recommended}}">
+<section id="lot{{lot.LOT}}" class="lot rec-{{lot.recommended}}">
     <div class="left {% if lot.images.first or lot.video_id %}js-slideshow has-slideshow{% endif %}">
         <div class="printFooter print-content">Lot {{lotNum}}</div>
         
@@ -177,7 +169,7 @@
             {% if lot.large_header %}
                 {% if lot.large_header.header_type == 'Small' %}
                     <div class="header-text-small">
-                        <span class="lotNum">{{lotNum}}</span>
+                        <span class="lotNum">{{lot.LOT}}</span>
                         <div class="circle"></div>
                         <span>{{lot.large_header.line_1_text}}</span>
                         {% if lot.large_header.line_2_text %}
@@ -192,7 +184,7 @@
                     {{lot.pullquote}}
                 </p>
             {% endif %}
-            <span class="lot-number">{{lotNum}}</span>
+            <span class="lot-number">{{lot.LOT}}</span>
             <h2>
                 {{lot.DESCRIPT}}
                 <br><i>{{lot.CROSSHEAD}}</i>
@@ -272,29 +264,10 @@
   <!-- <tfoot><tr><td>
     <div class="footer-space">&nbsp;</div>
   </td></tr></tfoot> -->
-</table>
+
 
 <!-- <div class="header">Lot {{lotNum}}</div> -->
 <!-- <div class="footer">...</div> -->
 
-<style>
-
-    .header, .header-space,
-    .footer, .footer-space {
-    height: 100px;
-    color:black;
-    }
-    .header {
-    position: fixed;
-    top: 0;
-    color:black;
-    }
-    .footer {
-    position: fixed;
-    bottom: 0;
-    color:black;
-    }
-
-</style>
 
 <!-- </div> -->
