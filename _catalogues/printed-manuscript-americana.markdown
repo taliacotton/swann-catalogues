@@ -3,9 +3,9 @@ layout: X_catalogue
 lots: []
 color: "#1E46D8"
 cover_image:
-  lot_number: 75
-  title: An Emblem of America
-  image: "/v1617120443/M43119-5_1crop_ikyupp.jpg"
+  lot_number: 22
+  title: An Exact View of the Late Battle at Charlestown
+  image: "/v1617132746/777709.cover22_hz1c7n.jpg"
 filename: ''
 visible: false
 permalink: "/books-manuscripts/printed-manuscript-americana/2564"
