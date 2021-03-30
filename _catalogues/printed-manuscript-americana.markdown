@@ -3,9 +3,9 @@ layout: X_catalogue
 lots: []
 color: "#AD926F"
 cover_image:
-  lot_number: 0
-  title: ''
-  image: ''
+  lot_number: 75
+  title: An Emblem of America
+  image: "/v1616783724/2564/777676.jpg"
 filename: ''
 visible: false
 permalink: "/books-manuscripts/printed-manuscript-americana/2564"
