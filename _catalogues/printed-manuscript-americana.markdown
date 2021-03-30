@@ -1,7 +1,7 @@
 ---
 layout: X_catalogue
 lots: []
-color: "#1E46D8"
+color: "#F1AD73"
 cover_image:
   lot_number: 22
   title: An Exact View of the Late Battle at Charlestown
