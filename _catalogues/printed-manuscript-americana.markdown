@@ -5,7 +5,7 @@ color: "#455695"
 cover_image:
   lot_number: 75
   title: An Emblem of America
-  image: "/v1616783724/2564/777676.jpg"
+  image: "/v1617120443/M43119-5_1crop_ikyupp.jpg"
 filename: ''
 visible: false
 permalink: "/books-manuscripts/printed-manuscript-americana/2564"
