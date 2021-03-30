@@ -1,7 +1,7 @@
 ---
 layout: X_catalogue
 lots: []
-color: "#455695"
+color: "#1E46D8"
 cover_image:
   lot_number: 75
   title: An Emblem of America
