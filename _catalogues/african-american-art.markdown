@@ -72,14 +72,15 @@ essays:
   body: ''
 - lot: 101
   title: Beauford Delaney in 1951
-  author: ' In 1951, writer Brooks Atkinson noted, "No one knows exactly how Beauford
+  author: ''
+  body: "> In 1951, writer Brooks Atkinson noted, \"No one knows exactly how Beauford
     lives. Pegging away at a style of painting that few people understand or appreciate,
     he has disciplined himself, not only physically but spiritually, to live with
-    a kind of personal magnetism in a barren world." Two years later, Delaney left
-    New York for Paris.<br><br>Carl Van Vechten, <i>Beauford Delaney</i>. Carl Van
-    Vechten Papers, Beinecke Rare Book and Manuscript Library, Yale University. Used
-    with permission of the Van Vechten Trust. ©Van Vechten Trust.'
-  body: "> ![](https://res.cloudinary.com/dcryyrd42/image/upload/v1616722081/BeaufordDelaney_xdevcs.jpg)"
+    a kind of personal magnetism in a barren world.\" Two years later, Delaney left
+    New York for Paris. \n>\n> ###### ![](https://res.cloudinary.com/dcryyrd42/image/upload/v1616722081/BeaufordDelaney_xdevcs.jpg)\n>\n>
+    ###### Carl Van Vechten, _Beauford Delaney_. Carl Van Vechten Papers, Beinecke
+    Rare Book and Manuscript Library, Yale University. Used with permission of the
+    Van Vechten Trust. ©Van Vechten Trust."
 - lot: 21
   title: Richmond Barthé in 1937
   author: ''
