@@ -76,26 +76,19 @@ essays:
     lives. Pegging away at a style of painting that few people understand or appreciate,
     he has disciplined himself, not only physically but spiritually, to live with
     a kind of personal magnetism in a barren world." Two years later, Delaney left
-    New York for Paris.<br><br>"Carl Van Vechten, <i>Beauford Delaney</i>. Carl Van
+    New York for Paris.<br><br>Carl Van Vechten, <i>Beauford Delaney</i>. Carl Van
     Vechten Papers, Beinecke Rare Book and Manuscript Library, Yale University. Used
     with permission of the Van Vechten Trust. ©Van Vechten Trust.'
   body: "> ![](https://res.cloudinary.com/dcryyrd42/image/upload/v1616722081/BeaufordDelaney_xdevcs.jpg)"
 - lot: 21
   title: Richmond Barthé in 1937
   author: ''
-  body: "These three sculptures by Richmond Barthé (lots 21-23) display the work of
-    an artist at the height of his career. Barthé was establishing himself as a leading
-    American sculptor of the modern period with his new representation of the male
-    figure – dynamic, muscular and black. His vision culminated in his mid-1930s series
-    of African dancers, including the iconic _Feral Benga._ Barthé achieved new levels
-    of naturalism in bronze as his passion for his subjects was perfectly matched
-    with his superb technical skill. This was reinforced with the wide acclaim Barthé
-    received for his figures, including _African Boy Dancing_, shown at the 1937 prestigious
-    exhibition _Dance International, 1900 – 1937_ at the Rockefeller Center, New York.
-    \n\n![](https://res.cloudinary.com/dcryyrd42/image/upload/v1616687492/RichmondBarthe_zljekj.jpg)\n\nCarl
-    Van Vechten, <i>Richmond Barthé, September 23, 1939</i>. Carl Van Vechten Papers,
-    Beinecke Rare Book and Manuscript Library, Yale University. Used with permission
-    of the Van Vechten Trust. ©Van Vechten Trust."
+  body: |-
+    These three sculptures by Richmond Barthé (lots 21-23) display the work of an artist at the height of his career. Barthé was establishing himself as a leading American sculptor of the modern period with his new representation of the male figure – dynamic, muscular and black. His vision culminated in his mid-1930s series of African dancers, including the iconic _Feral Benga._ Barthé achieved new levels of naturalism in bronze as his passion for his subjects was perfectly matched with his superb technical skill. This was reinforced with the wide acclaim Barthé received for his figures, including _African Boy Dancing_, shown at the 1937 prestigious exhibition _Dance International, 1900 – 1937_ at the Rockefeller Center.
+
+    ![](https://res.cloudinary.com/dcryyrd42/image/upload/v1616687492/RichmondBarthe_zljekj.jpg)
+
+    Carl Van Vechten, <i>Richmond Barthé, September 23, 1939</i>. Carl Van Vechten Papers, Beinecke Rare Book and Manuscript Library, Yale University. Used with permission of the Van Vechten Trust. ©Van Vechten Trust.
 - lot: 100
   author: ''
   body: The late Frannie Ness and Gary Oleson were the proprietors of Waiting for
