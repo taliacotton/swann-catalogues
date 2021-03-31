@@ -2194,6 +2194,7 @@ section.large_image{
         display:flex;
         justify-content: center;
         flex-direction:column;
+        border-bottom:1px solid white;
     }
     
     .lots > *:not(.rec-true){
