@@ -2175,7 +2175,7 @@ section.large_image{
 
 
 @media screen and (max-width:585px){
-    .lots{
+    section:not(#cover, #table-of-contents, .visible){
         display:none;
     }
     .sidebar--lots .thumbnail-lockup{
