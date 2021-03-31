@@ -2173,6 +2173,31 @@ section.large_image{
     visibility: hidden;
 }
 
+
+@media screen and (max-width:585px){
+    .lots{
+        display:none;
+    }
+    .sidebar--lots .thumbnail-lockup{
+        display:none;
+    }
+    #topbar .buttons{
+        display:none !important;
+    }
+    #topbar{
+        border-bottom:0px;
+        background:transparent;
+    }
+    #cover{
+        padding-top:0px;
+    }
+    .subnav{
+        top:0px;
+    }
+}
+
+
+
 .print-content{display:none !important;}
 
 // PRINT STYLESHEET
