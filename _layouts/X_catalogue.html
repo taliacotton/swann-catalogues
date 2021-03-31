@@ -291,6 +291,12 @@
                     <h1>19th & 20th Century Literature</h1>
                 </div>
             </section> -->
+
+            <div class="temp-lots-error mobile-only">
+                The full catalogue is temporarily unavailable on mobile devices. To view the lots, please visit the website on a desktop computer or larger device.
+                <br>
+                To view a select preview of recommended lots, continue scrolling.
+            </div>
             <div class="lots" id="PRINT">
         
                {% for lot in lots %}
@@ -328,11 +334,6 @@
 
                   
                {% endfor %}
-            </div>
-            <div class="temp-lots-error mobile-only">
-                The catalogue is temporarily unavailable on mobile devices. To view the lots, please visit the website on a desktop computer or larger device.
-                <br>
-                To view a select preview of recommended lots, continue scrolling.
             </div>
 
             {% assign footerLength = page.footer_pages | size %}
