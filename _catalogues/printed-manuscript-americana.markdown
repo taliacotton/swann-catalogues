@@ -16,7 +16,25 @@ datetime:
   time: 2021-03-01 10:30:00 +0000
   time2: 
 short_description: ''
-chapters: []
+chapters:
+- session_title: ''
+  chapters:
+  - chapter_title: A Noteworthy Collection of American Historical Prints
+    lot: 1
+  - chapter_title: First Nations
+    lot: 123
+  - chapter_title: The American Revolution
+    lot: 141
+  - chapter_title: The Civil War
+    lot: 168
+  - chapter_title: Judaica
+    lot: 225
+  - chapter_title: Mormonism
+    lot: 254
+  - chapter_title: The West
+    lot: 315
+  - chapter_title: Latin America & The Caribbean
+    lot: 350
 people:
   main_contacts: []
   officers: []
