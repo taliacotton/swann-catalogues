@@ -2189,7 +2189,7 @@ section.large_image{
         text-align:center;
         font-size:20px;
         height:calc(100vh - 100px);
-        width:calc(100vw - 100px);
+        width:calc(var(--main-width) - 100px);
         padding:50px;
         display:flex;
         justify-content: center;
@@ -2215,6 +2215,9 @@ section.large_image{
     }
     .subnav{
         top:0px;
+    }
+    #cover .logo{
+        top:36px;
     }
 }
 
