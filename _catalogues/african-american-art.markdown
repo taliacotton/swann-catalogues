@@ -7,7 +7,7 @@ cover_image:
   title: Nelson  Stevens, Yes,  We Will, 1972.
   image: "/v1617112317/Stevens-cover_hmiqzi.jpg"
 filename: ''
-visible: false
+visible: true
 permalink: "/fine-art/african-american-art/2565"
 sale: 2565
 title: African American Art
