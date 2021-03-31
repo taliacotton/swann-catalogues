@@ -2173,9 +2173,30 @@ section.large_image{
     visibility: hidden;
 }
 
+.temp-lots-error{
+    display:none;
+}
 
 @media screen and (max-width:585px){
-    .lots > section:not(.visible){
+    // .lots > section:not(.visible){
+    //     display:none;
+    // }
+
+    .temp-lots-error{
+        display:block;
+        color:white;
+        background:black;
+        text-align:center;
+        font-size:20px;
+        height:calc(100vh - 100px);
+        width:calc(100vw - 100px);
+        padding:50px;
+        display:flex;
+        justify-content: center;
+        flex-direction:column;
+    }
+    
+    .lots > *:not(.rec-true){
         display:none;
     }
     .sidebar--lots .thumbnail-lockup{
