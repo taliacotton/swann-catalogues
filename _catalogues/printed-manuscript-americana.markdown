@@ -58,6 +58,14 @@ people:
   - _people/shannon-licitra.md
   general_information: ''
 essays:
+- lot: 101
+  title: ''
+  author: ''
+  body: Closing out this noteworthy print collection are lots 101 through 121, relating
+    broadly to the rapidly expanding commerce and westward exploration of the young
+    nation, covering American Indians, the Mexican War, Perry's arrival in Japan,
+    the whaling industry, and a lone Civil War print, described as "an enduring image
+    of the Lost Cause."
 - lot: 86
   title: ''
   author: ''
