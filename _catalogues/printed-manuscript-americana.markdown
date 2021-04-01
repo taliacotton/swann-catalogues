@@ -58,6 +58,15 @@ people:
   - _people/shannon-licitra.md
   general_information: ''
 essays:
+- lot: 72
+  title: ''
+  author: ''
+  body: As seen in lots 72 through 80, the birth of the United States required a seismic
+    shift in world view on both sides of the Atlantic. Printmakers tried to make sense
+    of this shift using symbols and allegories--often by elevating America to the
+    status of one of the four great continents (apologies to South America, Australia,
+    and Antarctica). These are followed by four examples of the early American engraving
+    craft including Amos Doolittle's famous Prodigal Son series from 1814.
 - lot: 38
   title: ''
   author: ''
