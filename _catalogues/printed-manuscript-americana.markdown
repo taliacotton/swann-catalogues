@@ -7,7 +7,7 @@ cover_image:
   title: An Exact View of the Late Battle at Charlestown
   image: "/v1617132746/777709.cover22_hz1c7n.jpg"
 filename: ''
-visible: false
+visible: true
 permalink: "/books-manuscripts/printed-manuscript-americana/2564"
 sale: 2564
 title: Printed & Manuscript Americana
@@ -58,10 +58,6 @@ people:
   - _people/shannon-licitra.md
   general_information: ''
 essays:
-- lot: 350
-  title: Latin Americana
-  author: ''
-  body: ''
 - lot: 122
   title: Printed & Manuscript Americana (various consignors)
   author: ''
