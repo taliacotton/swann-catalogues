@@ -58,6 +58,14 @@ people:
   - _people/shannon-licitra.md
   general_information: ''
 essays:
+- lot: 122
+  title: ''
+  author: ''
+  body: 'We now continue with our regularly scheduled Americana programming, lots
+    122-349: Americana from a variety of consignors, spanning the 17th through 20th
+    centuries, including books, broadsides, manuscripts, archives, photographs, prints,
+    original art, and even a sculpture. This will be followed by a selection of Latin
+    Americana (lots 350-388) which extends back as far as 1566.'
 - lot: 101
   title: ''
   author: ''
