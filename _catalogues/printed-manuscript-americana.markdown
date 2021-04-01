@@ -58,6 +58,15 @@ people:
   - _people/shannon-licitra.md
   general_information: ''
 essays:
+- lot: 38
+  title: ''
+  author: ''
+  body: Lot 38 through 63 all depict George Washington and related scenes, including
+    three of the first printed portraits ever produced (apparently from the active
+    imagination of engravers), a fascinating variety of more reliable portraits, and
+    several poignant memorial prints. These are followed by portraits of other founding
+    fathers--Hancock, Lee, Franklin, Hamilton, Lafayette, and Jefferson through lot
+    71.
 - lot: 14
   title: ''
   author: ''
