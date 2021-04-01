@@ -59,7 +59,7 @@ people:
   general_information: ''
 essays:
 - lot: 122
-  title: ''
+  title: Printed & Manuscript Americana (various consignors)
   author: ''
   body: 'We now continue with our regularly scheduled Americana programming, lots
     122-349: Americana from a variety of consignors, spanning the 17th through 20th
