@@ -58,6 +58,10 @@ people:
   - _people/shannon-licitra.md
   general_information: ''
 essays:
+- lot: 350
+  title: Latin Americana
+  author: ''
+  body: ''
 - lot: 122
   title: Printed & Manuscript Americana (various consignors)
   author: ''
