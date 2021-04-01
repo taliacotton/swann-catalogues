@@ -58,10 +58,13 @@ people:
   - _people/shannon-licitra.md
   general_information: ''
 essays:
-- lot: 
+- lot: 14
   title: ''
   author: ''
-  body: ''
+  body: Lots 14 through 37 tell the story of the American Revolution, from three depictions
+    of the Boston Massacre, the opening salvos of Lexington and Bunkers Hill, the
+    victory of John Paul Jones at Flamborough Head, through the British surrender
+    at Yorktown
 - lot: 1
   title: ''
   author: ''
