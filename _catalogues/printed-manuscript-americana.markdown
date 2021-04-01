@@ -57,7 +57,27 @@ people:
   - _people/kelsie-jankowski.md
   - _people/shannon-licitra.md
   general_information: ''
-essays: []
+essays:
+- lot: 1
+  title: ''
+  author: ''
+  body: "We begin this auction with a noteworthy collection of historical prints which
+    spins a narrative of America stretching from the arrival of Columbus to the start
+    of the Civil War. This collection was compiled over the past three decades by
+    a Virginia gentleman, buying mostly from the leading dealers and auction houses
+    in the field. \n\nHere you can find famed rarities such as the 1776 London engraving
+    of the Romans view of Bunker Hill (lot 22, only one seen at auction since 1973);
+    unknown gems such as the Battle of Buena Vista lithographed by Frances Palmer
+    (lot 106, none traced in OCLC); beautiful copies of old favorites including the
+    southeast and southwest views of Manhattan from the 1768 Scenographia Americana
+    series (lots 6 and 7); at least one previously unknown item, a circa 1832 printing
+    of the Constitution featuring a portrait of Washington (lot 60); and a few bargains
+    to catch the attention of all ranks of collectors. \n\nDramatic battle scenes
+    (land and sea) alternate with portraiture of the founding fathers, city views,
+    and a thought-provoking section of allegorical prints which reflect on independent
+    America's new place in the world after the Revolution. A small selection of important
+    illustrated books and pamphlets on the Revolution (lots 15, 25, 26, and 40) complements
+    the mezzotints, etchings, lithographs, and copper engravings."
 footer_pages: []
 
 ---
