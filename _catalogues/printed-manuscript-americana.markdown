@@ -21,7 +21,7 @@ chapters:
   chapters:
   - chapter_title: A Noteworthy Collection of American Historical Prints
     lot: 1
-  - chapter_title: First Nations
+  - chapter_title: American Indians
     lot: 123
   - chapter_title: The American Revolution
     lot: 141
@@ -107,7 +107,7 @@ essays:
   body: Lots 14 through 37 tell the story of the American Revolution, from three depictions
     of the Boston Massacre, the opening salvos of Lexington and Bunkers Hill, the
     victory of John Paul Jones at Flamborough Head, through the British surrender
-    at Yorktown
+    at Yorktown.
 - lot: 1
   title: ''
   author: ''
