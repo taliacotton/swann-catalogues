@@ -58,6 +58,11 @@ people:
   - _people/shannon-licitra.md
   general_information: ''
 essays:
+- lot: 86
+  title: ''
+  author: ''
+  body: The War of 1812 is covered in lots 86 through 100, with naval battles a particular
+    strength.
 - lot: 72
   title: ''
   author: ''
