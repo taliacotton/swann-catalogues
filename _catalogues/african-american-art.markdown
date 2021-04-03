@@ -67,6 +67,10 @@ people:
   general_information: ''
 essays:
 - lot: 
+  body: ''
+  title: ''
+  author: ''
+- lot: 
   title: ''
   author: ''
   body: ''
