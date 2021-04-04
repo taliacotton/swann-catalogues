@@ -74,10 +74,10 @@ essays:
     nation, covering American Indians, the Mexican War, Perry's arrival in Japan,
     the whaling industry, and a lone Civil War print, described as "an enduring image
     of the Lost Cause."
-- lot: 86
+- lot: 85
   title: ''
   author: ''
-  body: The War of 1812 is covered in lots 86 through 100, with naval battles a particular
+  body: The War of 1812 is covered in lots 85 through 100, with naval battles a particular
     strength.
 - lot: 72
   title: ''
