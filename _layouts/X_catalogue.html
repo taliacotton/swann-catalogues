@@ -98,6 +98,7 @@
                     {% endfor %}
                 {% endfor %}
                     <a href="#lot{{lotNum}}">
+                        
                     <li data-id="lot{{lotNum}}">
                             <div class="thumbnail-lockup">
                                     {% if lot.image %}
@@ -113,6 +114,7 @@
                             </div>
                     </li>
                     </a>
+                    
                     
             {% endfor %}
             </ul>
@@ -292,18 +294,22 @@
                 </div>
             </section> -->
 
-            <div class="temp-lots-error mobile-only">
+
+            <!-- <div class="temp-lots-error mobile-only">
                 The full catalogue is temporarily unavailable on mobile devices. 
                 <br><br>
                 To view a select preview of recommended lots, continue scrolling.
                 <br><br>To view the full catalogue, please visit the website on a desktop computer or larger device.
-            </div>
+            </div> -->
+
+
             <div class="lots" id="PRINT">
         
                {% for lot in lots %}
 
                   {% assign lotNum = lot.LOT | round %}
 
+                  
                   {% for session in page.chapters %}
                      {% for chapter in session.chapters %}
                               {% if lotNum == chapter.lot %}

@@ -1,7 +1,12 @@
+{% if forloop.index > 25 %}
+    {% assign displayClass = "none" %}
+{% else %}
+    {% assign displayClass = "true" %}
+{% endif %}
 <!-- <div class="lot-wrapper" data-lot="{{lotNum}}"> -->
 {% if lot.large_header_text %}
     {% if lot.large_header_text.header_type == 'Large' %}
-    <section id="header-{{lotNum}}" class="header_text {{lot.large_header.header_type | slugify}}" style="background-color: {{lot.large_header.background_color}}; color: {{lot.large_header.text_color}}">
+    <section id="header-{{lotNum}}" class="header_text {{lot.large_header.header_type | slugify}} display-{{displayClass}}" style="background-color: {{lot.large_header.background_color}}; color: {{lot.large_header.text_color}}">
         <div class="header-inner">
             <span>{{lot.large_header.line_1_text}}</span>
             <br><span><i>{{lot.large_header.line_2_text}}</i></span>
@@ -9,7 +14,7 @@
     </section>
     {% elsif lot.large_header_text.header_type == 'Large (Image)' %}
     <!-- <section class="header_text {{lot.large_header.header_type | slugify}}" style="background-image: url()"> -->
-    <section id="header-{{lotNum}}" class="lazyload header_text {{lot.large_header_text.header_type | slugify}}" data-script="/assets/js/ls.unveilhooks.min.js" data-bg="{{ site.cloudinary_url }}/f_auto,w_800/{{lot.large_header_text.background_image}}">
+    <section id="header-{{lotNum}}" class="lazyload header_text {{lot.large_header_text.header_type | slugify}} display-{{displayClass}}" data-script="/assets/js/ls.unveilhooks.min.js" data-bg="{{ site.cloudinary_url }}/f_auto,w_800/{{lot.large_header_text.background_image}}">
         <div class="header-bg-image">
             <img class="lazyload" src="{{ site.cloudinary_url }}/f_auto,w_800/{{lot.large_header_text.background_image}}">
         </div>
@@ -30,7 +35,7 @@
     {% elsif lot.REFNO %}
         {% assign largeImage = "/" | append: page.sale | append: "/" | append: lot.REFNO | append: ".jpg" %}
     {% endif %}
-    <section id="image-{{lotNum}}" class="large_image" style="background-color: {{bgLg}};">
+    <section id="image-{{lotNum}}" class="large_image display-{{displayClass}}" style="background-color: {{bgLg}};">
             <!-- <img style="background-color:{{bg}}" src="/assets/img/{{lot.image}}"> -->
             <img
                     data-sizes="auto"
@@ -46,7 +51,7 @@
     </section>
 {% endif %}
 
-<section id="lot{{lot.LOT}}" class="lot rec-{{lot.recommended}}">
+<section id="lot{{lot.LOT}}" class="lot rec-{{lot.recommended}} display-{{displayClass}}">
     <div class="left {% if lot.images.first or lot.video_id %}js-slideshow has-slideshow{% endif %}">
         <div class="printFooter print-content">Lot {{lotNum}}</div>
         
@@ -236,38 +241,4 @@
             </div>
         </div>
     </div>
-    <!-- <table class="print-content">
-        <thead><tr><td>
-            <div class="header-space">&nbsp;</div>
-        </td></tr></thead>
-        <tbody><tr><td>
-            <div class="content">...</div>
-        </td></tr></tbody>
-        <tfoot><tr><td>
-            <div class="footer-space">Lot {{lot.refno}}</div>
-        </td></tr></tfoot>
-    </table> -->
-    <!-- <div class="header print-content">...</div> -->
-    <!-- <div class="footer print-content">Lot {{lot.refno}}</div> -->
-    
-    <!-- <div class="printFooter print-content">Lot {{lotNum}}</div> -->
 </section>
-
-
-<!-- <table class="print-content">
-  <thead><tr><td>
-    <div class="header-space">&nbsp;</div>
-  </td></tr></thead>
-  <tbody><tr><td>
-    <div class="content">Lot {{lotNum}}</div>
-  </td></tr></tbody> -->
-  <!-- <tfoot><tr><td>
-    <div class="footer-space">&nbsp;</div>
-  </td></tr></tfoot> -->
-
-
-<!-- <div class="header">Lot {{lotNum}}</div> -->
-<!-- <div class="footer">...</div> -->
-
-
-<!-- </div> -->

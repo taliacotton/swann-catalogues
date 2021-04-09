@@ -2178,10 +2178,12 @@ section.large_image{
     display:none;
 }
 
+.lots > section.display-none{
+    display:none;
+}
+
 @media screen and (max-width:585px){
-    // .lots > section:not(.visible){
-    //     display:none;
-    // }
+    
 
     .temp-lots-error{
         display:block;

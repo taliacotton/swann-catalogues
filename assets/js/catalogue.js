@@ -48,6 +48,9 @@ let rightSections = document.querySelectorAll(".lot > .right");
 let sections = document.querySelectorAll("section");
 let cookieBanner = document.getElementById("cookieBanner");
 
+let displayedElems = document.querySelectorAll(".display-true");
+let lastElement = displayedElems[displayedElems.length -1];
+
 let slideshows = document.querySelectorAll(".js-slideshow");
 
 let mobileThumbs = document.querySelectorAll(".mobile-thumb");
@@ -243,6 +246,26 @@ document.addEventListener("scroll", function(){
       }
   }
 
+
+    // LOAD MORE LOTS when you get to the bottom
+    let lastElementTop = lastElement.getBoundingClientRect().top;
+
+    if (lastElementTop < window.innerHeight/2 && lastElementTop > -10){
+        console.log("LOAD MORE");
+        let nextNode = lastElement.nextElementSibling;
+        for (let i=0;i<25;i++){
+            nextNode.classList.remove("display-none");
+            nextNode.classList.add("display-true");
+            nextNode = nextNode.nextElementSibling;
+
+            displayedElems = document.querySelectorAll(".display-true");
+            lastElement = displayedElems[displayedElems.length -1];
+            lastElementTop = lastElement.getBoundingClientRect().top;
+        }
+    }
+
+    // if (lastElement.getBoundingClientRect().top )
+
    //show sections
    document.querySelectorAll('section').forEach(function (section){
       var bounds = section.getBoundingClientRect();
@@ -254,6 +277,7 @@ document.addEventListener("scroll", function(){
       }else{
          section.classList.remove('visible')
       }
+      
    })
    // MARKER ON SCROLL
    // if (scrollTop >= document.querySelector(".lots").offsetTop){
