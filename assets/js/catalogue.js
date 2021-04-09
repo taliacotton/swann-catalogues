@@ -250,8 +250,7 @@ document.addEventListener("scroll", function(){
     // LOAD MORE LOTS when you get to the bottom
     let lastElementTop = lastElement.getBoundingClientRect().top;
 
-    if (lastElementTop < window.innerHeight/2 && lastElementTop > -10){
-        console.log("LOAD MORE");
+    if (lastElementTop < window.innerHeight/2){
         let nextNode = lastElement.nextElementSibling;
         for (let i=0;i<25;i++){
             nextNode.classList.remove("display-none");
