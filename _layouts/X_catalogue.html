@@ -97,6 +97,7 @@
                         {% endif %}
                     {% endfor %}
                 {% endfor %}
+
                     <a href="#lot{{lotNum}}">
                         
                     <li data-id="lot{{lotNum}}">
@@ -107,13 +108,14 @@
                                     <img class="lazyload" data-src="{{ site.cloudinary_url }}/f_auto,q_50,w_40/{{page.sale}}/{{ lot.REFNO }}.jpg" crossorigin="anonymous">
                                     {% endif %}
                                     <p class="small-type">
-                                        Lot {{forloop.index}}
+                                        Lot {{lotNum}}
                                         <br>{{lot.DESCRIPT}}
                                         <br>{{lot.CROSSHEAD}}
                                 </p>
                             </div>
                     </li>
                     </a>
+
                     
                     
             {% endfor %}
@@ -192,7 +194,7 @@
                 </div>
                 <div id="toc-dots">
                     {% for lot in lots %}
-                    {% assign lotNum = forloop.index %}
+                    {% assign lotNum = lot.LOT %}
 
                     {% for session in page.chapters %}
                         {% for chapter in session.chapters %}
@@ -206,7 +208,7 @@
                                 {% endif %}
                         {% endfor %}
                     {% endfor %}
-
+                    {% if lot.hide != true %}
                     <a href="#lot{{forloop.index}}" class="dot-container" data-year="{{lot.year}}">
                         <div class="line"></div>
                         <div class="dot-container-inner">
@@ -229,6 +231,7 @@
                             </div>
                         </div>
                     </a>
+                    {% endif %}
                     {% endfor %}
                 </div>
             </section>
@@ -325,7 +328,7 @@
 
                   {% for essay in page.essays %}
                      {% if lotNum == essay.lot %}
-                     <section class="essay" id="{{essay.title | slugify}}">
+                     <section class="essay" id="essay-lot{{lotNum}}">
                            <div class="inner">
                               <div class="title-text">
                                  <h1>{{essay.title}}</h1>
