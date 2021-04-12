@@ -3,9 +3,9 @@ layout: X_catalogue
 lots: []
 color: "#AD926F"
 cover_image:
-  lot_number: 0
+  lot_number: 47
   title: ''
-  image: ''
+  image: "/v1618253362/2566/781519.jpg"
 filename: ''
 visible: false
 permalink: "/fine-art/old-master-through-modern-prints/2566"
