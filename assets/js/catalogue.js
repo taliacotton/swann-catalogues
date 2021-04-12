@@ -320,6 +320,30 @@ document.addEventListener("scroll", function(){
    }
 })
 
+var currentHash = function() {
+  return location.hash.replace(/^#/, '')
+}
+// function to load a lot when you visit a sidebar link
+window.addEventListener('hashchange', function(e) {
+    e.preventDefault();
+    let hash = currentHash();
+    let elem = document.getElementById(hash);
+    console.log(hash);
+    elem.classList.remove("display-none");
+    elem.classList.add("display-true");
+    console.log(elem);
+    console.log("#" + hash);
+    location.href = "#"+hash;
+});
+
+
+// function loadLot(lotID){
+//     console.log("working");
+//     document.getElementById(lotID).classList.remove("display-none");
+//     document.getElementById(lotID).classList.add("display-true");
+//     location.href = "#"+lotID;
+// }
+
 
 let imgZoom = false;
 
@@ -943,7 +967,7 @@ window.addEventListener('wheel', function (event) {
       // event.preventDefault();
       window.scrollTo({
          top: (right.getBoundingClientRect().top + window.pageYOffset),
-         behavior: 'smooth'
+        //  behavior: 'smooth'
       });
       // debounce(function () { });
       slideshow.style.transform = 'translate3d(-'+slideshow.dataset.scroll+'px, 0,0)'
