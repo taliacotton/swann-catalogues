@@ -194,11 +194,11 @@
                 </div>
                 <div id="toc-dots">
                     {% for lot in lots %}
-                    {% assign lotNum = lot.LOT %}
-
+                    {% assign lotNum = lot.LOT | plus: 0 %}
                     {% for session in page.chapters %}
                         {% for chapter in session.chapters %}
-                                {% if lotNum == chapter.lot %}
+                                {% assign chapterLotNum = chapter.lot | plus: 0 %}
+                                {% if lotNum == chapterLotNum %}
                                 <a href="#chp-{{chapter.chapter_title | slugify}}">
                                     {% if forloop.index == 1 %}
                                     <p class="small-type">{{session.session_title}}</p>
