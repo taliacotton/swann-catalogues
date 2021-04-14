@@ -68,7 +68,7 @@ people:
   - _people/shannon-licitra.md
   general_information: ''
 essays:
-- lot: 0
+- lot: 
   title: ''
   author: ''
   body: ''
@@ -92,6 +92,8 @@ essays:
     National Academy of Design, the American Watercolor Society, and the National
     Arts Club.\n\n![](https://res.cloudinary.com/dcryyrd42/image/upload/v1614809195/2562/770330_VIEW_09.jpg
     \"portrait of Masood Ali Wilbert Warren\")"
-footer_pages: []
+footer_pages:
+- section_header: Testing
+  content: Testing footer content
 
 ---
