@@ -4,7 +4,7 @@ lots: []
 color: "#6CC9E9"
 cover_image:
   lot_number: 47
-  title: ''
+  title: Hendrick Goltzius, Mars and Venus Surprised by Vulcan.
   image: "/v1618253362/2566/781519.jpg"
 filename: ''
 visible: true
