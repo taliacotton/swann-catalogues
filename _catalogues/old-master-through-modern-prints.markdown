@@ -7,7 +7,7 @@ cover_image:
   title: ''
   image: "/v1618253362/2566/781519.jpg"
 filename: ''
-visible: false
+visible: true
 permalink: "/fine-art/old-master-through-modern-prints/2566"
 sale: 2566
 title: Old Master Through Modern Prints
