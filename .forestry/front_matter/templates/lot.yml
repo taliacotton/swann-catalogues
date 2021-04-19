@@ -84,6 +84,16 @@ fields:
       time_format: h:mm A
       display_utc: true
   label: Auction Date & Time(s)
+- name: starts_at
+  type: number
+  label: Starts at Lot Number (optional)
+  description: If left blank, catalogue will start counting at "1"
+  default: 0
+  required: true
+  config:
+    min: 
+    max: 
+    step: 
 - name: short_description
   type: text
   config:
