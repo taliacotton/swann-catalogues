@@ -19,11 +19,20 @@
             </div>
         </div>
 
+
+
         {% assign lotsFilepath = '_lots/' | append: page.sale %}
         {% assign lotsOutOfOrder = '' | split: '' %}
         {% assign lots = '' | split: '' %}
         {% assign lotsOrder = '' | split: '' %}
         {% assign counter = 1 %}
+
+
+        {% if page.starts_at %}
+            {% assign counter = page.starts_at %}
+        {% else %}
+            {% assign counter = 1 %}
+        {% endif %}
 
         <!-- LOTS ARE GETTING ORDERED BY THEIR LOT NUMBER ALPHABETICALLY -->
 
@@ -45,7 +54,7 @@
                 {% endif %}
             {% endfor %}
         {% endfor %}
-
+        
         <img id="cursor" src="/assets/img/cursor.png" alt="custom cursor">
         <div id="cookieBanner">
             <div class="left">We use cookies for the best experience possible. <a href="#">Read More</a></div>
