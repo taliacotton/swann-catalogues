@@ -68,6 +68,6 @@ essays:
 
     This new version of our online catalogue is currently being beta tested. We welcome your feedback and patience as we make it even better. Please feel free to contact Alexandra Nelson, CMO, with any questions about the site: alexandra@swanngalleries.com.
 footer_pages: []
-published: false
+# published: false
 
 ---
