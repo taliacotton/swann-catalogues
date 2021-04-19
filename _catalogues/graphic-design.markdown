@@ -11,7 +11,6 @@ visible: false
 permalink: "/vintage-posters/graphic-design/2568"
 sale: 2568
 title: Graphic Design
-starts_at: 201
 datetime:
   date: 2021-05-13T04:00:00.000+00:00
   time: 2021-04-01T12:00:00.000+00:00
@@ -30,5 +29,6 @@ people:
   general_information: ''
 essays: []
 footer_pages: []
+starts_at: 201
 
 ---
