@@ -218,7 +218,7 @@
                         {% endfor %}
                     {% endfor %}
                     {% if lot.hide != true %}
-                    <a href="#lot{{forloop.index}}" class="dot-container" data-year="{{lot.year}}">
+                    <a href="#lot{{lotNum}}" class="dot-container" data-year="{{lot.year}}">
                         <div class="line"></div>
                         <div class="dot-container-inner">
                             {% if lot.recommended %}
@@ -233,7 +233,7 @@
                                  <img class="lazyload color-theif toc-img" src="{{ site.cloudinary_url }}/f_auto,q_50,w_40/{{page.sale}}/{{ lot.REFNO }}.jpg" crossorigin="anonymous" alt="lot thumbnail image">
                                  {% endif %}
                                  <p class="small-type">
-                                     Lot {{forloop.index}}
+                                     Lot {{lotNum}}
                                      <br>{{lot.DESCRIPT}}
                                      <br>{{lot.CROSSHEAD}}
                                 </p>
