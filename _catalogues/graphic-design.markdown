@@ -15,7 +15,7 @@ datetime:
   date: 2021-05-13T04:00:00.000+00:00
   time: 2021-04-01T12:00:00.000+00:00
   time2: 
-short_description: GRAFA / I. GRAPHISCHE FACHAUSSTELLUNG
+short_description: ''
 chapters: []
 people:
   main_contacts:
@@ -37,6 +37,6 @@ people:
   general_information: ''
 essays: []
 footer_pages: []
-starts_at: 228
+starts_at: 201
 
 ---
