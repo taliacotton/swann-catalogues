@@ -19,7 +19,7 @@ short_description: ''
 chapters:
 - session_title: ''
   chapters:
-  - chapter_title: Film, Art, Rock & Roll, & Contemporary
+  - chapter_title: Film, Art Exhibition & Rock & Roll
     lot: 371
   - chapter_title: Paul Rand
     lot: 352
