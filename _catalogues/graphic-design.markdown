@@ -19,6 +19,8 @@ short_description: ''
 chapters:
 - session_title: ''
   chapters:
+  - chapter_title: European Secession & Art Nouveau
+    lot: 201
   - chapter_title: Modern Swiss Graphics
     lot: 337
   - chapter_title: Mid-Century Design
@@ -29,8 +31,8 @@ chapters:
     lot: 235
   - chapter_title: Swiss Designers
     lot: 219
-  - chapter_title: European Secession & Art Nouveau
-    lot: 201
+  - chapter_title: Modern American Design
+    lot: 351
   - chapter_title: Film, Art Exhibition & Rock n' Roll
     lot: 371
 people:
