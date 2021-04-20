@@ -5,7 +5,7 @@ color: "#AD926F"
 cover_image:
   lot_number: 268
   title: Ford
-  image: "/v1618518778/2568/780848.jpg"
+  image: "/v1618951655/M42029-60_1_tvcyap.jpg"
 filename: ''
 visible: false
 permalink: "/vintage-posters/graphic-design/2568"
