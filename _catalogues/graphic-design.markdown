@@ -19,10 +19,6 @@ short_description: ''
 chapters:
 - session_title: ''
   chapters:
-  - chapter_title: Film, Art Exhibition & Rock & Roll
-    lot: 371
-  - chapter_title: Modern American Design
-    lot: 352
   - chapter_title: Modern Swiss Graphics
     lot: 337
   - chapter_title: Mid-Century Design
