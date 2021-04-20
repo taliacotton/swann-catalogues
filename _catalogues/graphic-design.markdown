@@ -3,8 +3,8 @@ layout: X_catalogue
 lots: []
 color: "#F51304"
 cover_image:
-  lot_number: 268
-  title: Ford
+  lot_number: 228
+  title: GRAFA / I. GRAPHISCHE FACHAUSSTELLUNG.
   image: "/v1618951655/M42029-60_1_tvcyap.jpg"
 filename: ''
 visible: false
