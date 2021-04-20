@@ -5,7 +5,7 @@ color: "#F51304"
 cover_image:
   lot_number: 228
   title: GRAFA / I. GRAPHISCHE FACHAUSSTELLUNG.
-  image: "/v1618951655/M42029-60_1_tvcyap.jpg"
+  image: "/v1618518790/2568/780866.jpg"
 filename: ''
 visible: false
 permalink: "/vintage-posters/graphic-design/2568"
