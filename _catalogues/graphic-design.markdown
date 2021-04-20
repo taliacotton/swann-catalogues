@@ -19,7 +19,21 @@ short_description: ''
 chapters:
 - session_title: ''
   chapters:
-  - chapter_title: Early Graphic Design
+  - chapter_title: Film, Art, Rock & Roll, & Contemporary
+    lot: 371
+  - chapter_title: Paul Rand
+    lot: 352
+  - chapter_title: Modern Swiss Graphics
+    lot: 337
+  - chapter_title: Mid-Century Design
+    lot: 319
+  - chapter_title: Art Deco
+    lot: 281
+  - chapter_title: Dada & Bauhaus
+    lot: 235
+  - chapter_title: Swiss Designers
+    lot: 219
+  - chapter_title: European Secession & Art Nouveau
     lot: 201
 people:
   main_contacts:
