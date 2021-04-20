@@ -21,7 +21,7 @@ chapters:
   chapters:
   - chapter_title: Film, Art Exhibition & Rock & Roll
     lot: 371
-  - chapter_title: Paul Rand
+  - chapter_title: Modern American Design
     lot: 352
   - chapter_title: Modern Swiss Graphics
     lot: 337
