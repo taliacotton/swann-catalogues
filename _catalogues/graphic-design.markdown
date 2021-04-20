@@ -20,7 +20,8 @@ chapters: []
 people:
   main_contacts:
   - _people/nicholas-d.lowry.md
-  officers: []
+  officers:
+  - _people/rick-stattler.md
   administration: []
   general_information: ''
 essays: []
