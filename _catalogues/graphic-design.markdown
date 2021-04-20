@@ -31,6 +31,8 @@ chapters:
     lot: 219
   - chapter_title: European Secession & Art Nouveau
     lot: 201
+  - chapter_title: Film, Art Exhibition & Rock n' Roll
+    lot: 371
 people:
   main_contacts:
   - _people/nicholas-d.lowry.md
