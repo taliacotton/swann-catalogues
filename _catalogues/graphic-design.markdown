@@ -1,7 +1,7 @@
 ---
 layout: X_catalogue
 lots: []
-color: "#AD926F"
+color: "#F51304"
 cover_image:
   lot_number: 268
   title: Ford
@@ -15,7 +15,7 @@ datetime:
   date: 2021-05-13T04:00:00.000+00:00
   time: 2021-04-01T12:00:00.000+00:00
   time2: 
-short_description: ''
+short_description: GRAFA / I. GRAPHISCHE FACHAUSSTELLUNG
 chapters: []
 people:
   main_contacts:
@@ -25,6 +25,6 @@ people:
   general_information: ''
 essays: []
 footer_pages: []
-starts_at: 201
+starts_at: 228
 
 ---
