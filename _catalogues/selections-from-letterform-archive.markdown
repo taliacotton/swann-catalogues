@@ -4,9 +4,9 @@ lots: []
 starts_at: 
 color: "#AD926F"
 cover_image:
-  lot_number: 2
-  title: Welk gegooten worden in de Nieuwe Haerlemsche Lettergietery
-  image: "/v1619035997/781154_VIEW_03_03-1_wzm2ex.jpg"
+  lot_number: 142
+  title: Westvaco - Inspirations for Printers.
+  image: "/v1619040934/781306_05-1_eysgc4.jpg"
 filename: ''
 visible: false
 permalink: "/vintage-posters/selections-from-letterform-archive/2567"
