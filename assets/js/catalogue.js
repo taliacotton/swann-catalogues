@@ -237,13 +237,15 @@ document.addEventListener("scroll", function(){
           document.getElementById("hamburgerCallout").style.display="none";
       }
   }
-  if(scrollTop > window.innerHeight*3 && document.querySelector("#lot3").getBoundingClientRect().top > window.innerHeight/2){
-      document.getElementById("arrowsCallout").classList.add("visible");
-  } else {
-      if (document.getElementById("arrowsCallout").classList.contains("visible")){
-          document.getElementById("arrowsCallout").classList.remove("visible");
-          document.getElementById("arrowsCallout").style.display="none";
-      }
+  if (document.querySelector("#lot3") != null){
+    if(scrollTop > window.innerHeight*3 && document.querySelector("#lot3").getBoundingClientRect().top > window.innerHeight/2){
+        document.getElementById("arrowsCallout").classList.add("visible");
+    } else {
+        if (document.getElementById("arrowsCallout").classList.contains("visible")){
+            document.getElementById("arrowsCallout").classList.remove("visible");
+            document.getElementById("arrowsCallout").style.display="none";
+        }
+    }
   }
 
 
