@@ -6,7 +6,7 @@ color: "#05BE8B"
 cover_image:
   lot_number: 142
   title: Westvaco - Inspirations for Printers.
-  image: "/v1619040934/781306_05-1_eysgc4.jpg"
+  image: "/v1619043504/781306A_st3ex2.jpg"
 filename: ''
 visible: false
 permalink: "/vintage-posters/selections-from-letterform-archive/2567"
