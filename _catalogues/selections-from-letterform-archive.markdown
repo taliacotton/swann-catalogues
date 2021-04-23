@@ -29,7 +29,7 @@ chapters:
   - chapter_title: 1940s, Paul Rand, Ladislav Sutnar
     lot: 111
   - chapter_title: 1930s Graphics & Type
-    lot: 91
+    lot: 89
   - chapter_title: Bauhaus Postcards & Typography
     lot: 67
   - chapter_title: 1920s Specimen Books & Dada
