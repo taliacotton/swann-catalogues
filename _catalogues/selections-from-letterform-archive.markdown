@@ -8,7 +8,7 @@ cover_image:
   title: Westvaco - Inspirations for Printers.
   image: "/v1619043504/781306A_st3ex2.jpg"
 filename: ''
-visible: false
+visible: true
 permalink: "/vintage-posters/selections-from-letterform-archive/2567"
 sale: 2567
 title: Selections from Letterform Archive
@@ -26,10 +26,10 @@ chapters:
     lot: 
   - chapter_title: Saul Bass & Willem Sandberg
     lot: 122
-  - chapter_title: 1940s, Paul Rand, Ladislav Sutnar
-    lot: 111
+  - chapter_title: Paul Rand & Ladislav Sutnar
+    lot: 113
   - chapter_title: 1930s Graphics & Type
-    lot: 91
+    lot: 89
   - chapter_title: Bauhaus Postcards & Typography
     lot: 67
   - chapter_title: 1920s Specimen Books & Dada
@@ -63,7 +63,7 @@ essays:
   title: ''
   author: ''
   body: |-
-    ![](https://res.cloudinary.com/dcryyrd42/image/upload/v1619188118/Letterform_Logo_u36mac.jpg)
+    ![](https://res.cloudinary.com/dcryyrd42/image/upload/v1619202191/Letterform-Archive-logo-web-transparent_ur8fhf.png)
 
     Letterform Archive has one of the world’s best collections of typographic history. With over 60,000 objects, there are hundreds of duplicates to be deaccessioned, and the nonprofit organization has reserved the rarest of these gems for its first-ever auction. Swann Galleries is honored present this offering of type specimens, periodicals, ephemera and books by giants of typographic design from the past two centuries.
 footer_pages: []
