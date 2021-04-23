@@ -30,12 +30,10 @@ essays:
 - lot: 1
   title: Selections from Letterform Archive
   author: ''
-  body: "![](https://res.cloudinary.com/dcryyrd42/image/upload/v1619188118/Letterform_Logo_u36mac.jpg)\n\nLetterform
-    Archive has one of the world’s best collections of typographic history. With over
-    60,000 objects, there are hundreds of duplicates to be deaccessioned, and the
-    nonprofit organization has reserved the rarest of these gems for its first-ever
-    auction. Swann Galleries is honored present this offering of type specimens, periodicals,
-    ephemera, "
+  body: |-
+    ![](https://res.cloudinary.com/dcryyrd42/image/upload/v1619188118/Letterform_Logo_u36mac.jpg)
+
+    Letterform Archive has one of the world’s best collections of typographic history. With over 60,000 objects, there are hundreds of duplicates to be deaccessioned, and the nonprofit organization has reserved the rarest of these gems for its first-ever auction. Swann Galleries is honored present this offering of type specimens, periodicals, ephemera and books by giants of typographic design from the past two centuries.
 footer_pages: []
 
 ---
