@@ -17,7 +17,11 @@ datetime:
   time: 2021-04-01T12:00:00.000+00:00
   time2: 
 short_description: ''
-chapters: []
+chapters:
+- session_title: ''
+  chapters:
+  - chapter_title: 18th Century Lettering
+    lot: 1
 people:
   main_contacts:
   - _people/nicholas-d.lowry.md
