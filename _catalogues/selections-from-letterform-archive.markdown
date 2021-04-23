@@ -20,6 +20,8 @@ short_description: ''
 chapters:
 - session_title: ''
   chapters:
+  - chapter_title: 1980s - 21st Century Design
+    lot: 148
   - chapter_title: 1950s - 1970s Design and Type
     lot: 
   - chapter_title: Saul Bass & Willem Sandberg
