@@ -8,7 +8,7 @@ cover_image:
   title: Westvaco - Inspirations for Printers.
   image: "/v1619043504/781306A_st3ex2.jpg"
 filename: ''
-visible: false
+visible: true
 permalink: "/vintage-posters/selections-from-letterform-archive/2567"
 sale: 2567
 title: Selections from Letterform Archive
