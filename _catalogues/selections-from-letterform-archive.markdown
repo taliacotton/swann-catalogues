@@ -20,6 +20,8 @@ short_description: ''
 chapters:
 - session_title: ''
   chapters:
+  - chapter_title: 19th Century Specimen Books
+    lot: 6
   - chapter_title: 18th Century Lettering
     lot: 1
 people:
