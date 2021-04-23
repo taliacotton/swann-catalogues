@@ -28,7 +28,7 @@ people:
   general_information: ''
 essays:
 - lot: 1
-  title: Selections from Letterform Archive
+  title: ''
   author: ''
   body: |-
     ![](https://res.cloudinary.com/dcryyrd42/image/upload/v1619188118/Letterform_Logo_u36mac.jpg)
