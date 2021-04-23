@@ -20,7 +20,7 @@ short_description: ''
 chapters:
 - session_title: ''
   chapters:
-  - chapter_title: 1920s Type & Dada
+  - chapter_title: 1920s Specimen Books & Dada
     lot: 55
   - chapter_title: Turn of the Century Specimen Books
     lot: 25
