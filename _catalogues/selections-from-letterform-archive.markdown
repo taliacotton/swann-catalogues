@@ -63,7 +63,7 @@ essays:
   title: ''
   author: ''
   body: |-
-    ![](https://res.cloudinary.com/dcryyrd42/image/upload/v1619188118/Letterform_Logo_u36mac.jpg)
+    ![](https://res.cloudinary.com/dcryyrd42/image/upload/v1619202191/Letterform-Archive-logo-web-transparent_ur8fhf.png)
 
     Letterform Archive has one of the world’s best collections of typographic history. With over 60,000 objects, there are hundreds of duplicates to be deaccessioned, and the nonprofit organization has reserved the rarest of these gems for its first-ever auction. Swann Galleries is honored present this offering of type specimens, periodicals, ephemera and books by giants of typographic design from the past two centuries.
 footer_pages: []
