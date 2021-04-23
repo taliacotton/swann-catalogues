@@ -20,6 +20,8 @@ short_description: ''
 chapters:
 - session_title: ''
   chapters:
+  - chapter_title: Bauhaus Design
+    lot: 67
   - chapter_title: 1920s Specimen Books & Dada
     lot: 55
   - chapter_title: Turn of the Century Specimen Books
