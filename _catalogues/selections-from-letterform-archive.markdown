@@ -20,7 +20,7 @@ short_description: ''
 chapters:
 - session_title: ''
   chapters:
-  - chapter_title: Bauhaus Design
+  - chapter_title: Bauhaus Postcards
     lot: 67
   - chapter_title: 1920s Specimen Books & Dada
     lot: 55
