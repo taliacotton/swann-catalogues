@@ -38,8 +38,6 @@ chapters:
     lot: 25
   - chapter_title: 19th Century Specimen Books
     lot: 6
-  - chapter_title: 18th Century Lettering
-    lot: 1
 people:
   main_contacts:
   - _people/nicholas-d.lowry.md
