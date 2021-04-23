@@ -26,8 +26,8 @@ chapters:
     lot: 
   - chapter_title: Saul Bass & Willem Sandberg
     lot: 122
-  - chapter_title: 1940s, Paul Rand, Ladislav Sutnar
-    lot: 111
+  - chapter_title: Paul Rand & Ladislav Sutnar
+    lot: 113
   - chapter_title: 1930s Graphics & Type
     lot: 89
   - chapter_title: Bauhaus Postcards & Typography
