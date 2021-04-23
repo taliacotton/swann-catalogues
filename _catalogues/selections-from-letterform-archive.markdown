@@ -19,7 +19,10 @@ datetime:
 short_description: ''
 chapters: []
 people:
-  main_contacts: []
+  main_contacts:
+  - _people/nicholas-d.lowry.md
+  - _people/lauren-goldberg.md
+  - _people/jennifer-de-candia.md
   officers: []
   administration: []
   general_information: ''
