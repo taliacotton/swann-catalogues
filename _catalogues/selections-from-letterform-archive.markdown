@@ -20,6 +20,8 @@ short_description: ''
 chapters:
 - session_title: ''
   chapters:
+  - chapter_title: 1930s Graphics & Design
+    lot: 91
   - chapter_title: Bauhaus Postcards & Typography
     lot: 67
   - chapter_title: 1920s Specimen Books & Dada
