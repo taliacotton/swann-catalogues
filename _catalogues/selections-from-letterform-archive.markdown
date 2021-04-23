@@ -20,6 +20,10 @@ short_description: ''
 chapters:
 - session_title: ''
   chapters:
+  - chapter_title: ''
+    lot: 
+  - chapter_title: Turn of the Century Specimen Books
+    lot: 25
   - chapter_title: 19th Century Specimen Books
     lot: 6
   - chapter_title: 18th Century Lettering
