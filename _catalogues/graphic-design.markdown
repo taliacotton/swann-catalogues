@@ -37,6 +37,8 @@ chapters:
     lot: 371
 people:
   main_contacts:
+  - _people/jennifer-de-candia.md
+  - _people/lauren-goldberg.md
   - _people/nicholas-d.lowry.md
   officers:
   - _people/nicholas-d.lowry.md
