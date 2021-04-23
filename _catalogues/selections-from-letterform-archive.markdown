@@ -20,6 +20,8 @@ short_description: ''
 chapters:
 - session_title: ''
   chapters:
+  - chapter_title: Saul Bass & Willem Sandberg
+    lot: 122
   - chapter_title: 1940s, Paul Rand, Ladislav Sutnar
     lot: 111
   - chapter_title: 1930s Graphics & Type
