@@ -20,7 +20,7 @@ short_description: ''
 chapters:
 - session_title: ''
   chapters:
-  - chapter_title: 1930s Graphics & Design
+  - chapter_title: 1930s Graphics & Type
     lot: 91
   - chapter_title: Bauhaus Postcards & Typography
     lot: 67
