@@ -38,6 +38,8 @@ chapters:
 people:
   main_contacts:
   - _people/nicholas-d.lowry.md
+  - _people/lauren-goldberg.md
+  - _people/jennifer-de-candia.md
   officers:
   - _people/nicholas-d.lowry.md
   - _people/vice-president-controller.md
