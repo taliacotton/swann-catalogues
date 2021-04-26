@@ -31,7 +31,7 @@ chapters:
     lot: 319
   - chapter_title: Modern Swiss Graphics
     lot: 337
-  - chapter_title: Modern American Design
+  - chapter_title: American Design
     lot: 351
   - chapter_title: Film, Art Exhibition & Rock 'n Roll
     lot: 371
