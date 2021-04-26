@@ -2,7 +2,7 @@
 layout: X_catalogue
 lots: []
 starts_at: 
-color: "#F51304"
+color: "#FDA715"
 cover_image:
   lot_number: 142
   title: Westvaco - Inspirations for Printers.
