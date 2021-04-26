@@ -7,7 +7,7 @@ cover_image:
   title: GRAFA / I. GRAPHISCHE FACHAUSSTELLUNG.
   image: "/v1618518790/2568/780866.jpg"
 filename: ''
-visible: false
+visible: true
 permalink: "/vintage-posters/graphic-design/2568"
 sale: 2568
 title: Graphic Design
