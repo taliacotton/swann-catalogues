@@ -2,7 +2,7 @@
 layout: X_catalogue
 lots: []
 starts_at: 
-color: "#AD926F"
+color: "#FFA710"
 cover_image:
   lot_number: 62
   title: Bacchus
