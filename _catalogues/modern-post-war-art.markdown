@@ -19,7 +19,23 @@ datetime:
 short_description: ''
 chapters:
 - session_title: ''
-  chapters: []
+  chapters:
+  - chapter_title: American Surrealism
+    lot: 89
+  - chapter_title: Color Field, Pop & Minimalism
+    lot: 72
+  - chapter_title: The Irascibles
+    lot: 52
+  - chapter_title: The Club
+    lot: 31
+  - chapter_title: American Abstract Artists
+    lot: 21
+  - chapter_title: Museum of Non-Objective Painting
+    lot: 9
+  - chapter_title: Cubism & Synchronism
+    lot: 4
+  - chapter_title: Modernist Illustration
+    lot: 1
 people:
   main_contacts:
   - _people/harold-porcher.md
