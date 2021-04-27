@@ -5,7 +5,7 @@ starts_at:
 color: "#FF8110"
 cover_image:
   lot_number: 62
-  title: Bacchus
+  title: Elaine de Kooning, Bacchus, 1983.
   image: "/v1619209782/2569/778959.jpg"
 filename: ''
 visible: false
