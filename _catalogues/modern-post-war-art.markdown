@@ -21,7 +21,8 @@ chapters:
 - session_title: ''
   chapters: []
 people:
-  main_contacts: []
+  main_contacts:
+  - _people/harold-porcher.md
   officers:
   - _people/george-s.lowry.md
   - _people/Blank Spot.md
