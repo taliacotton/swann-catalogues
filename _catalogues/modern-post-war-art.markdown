@@ -32,7 +32,7 @@ chapters:
     lot: 21
   - chapter_title: Museum of Non-Objective Painting
     lot: 9
-  - chapter_title: Cubism & Synchronism
+  - chapter_title: Cubism & Synchromism
     lot: 4
   - chapter_title: Modernist Illustration
     lot: 1
