@@ -40,6 +40,9 @@ chapters:
     lot: 6
 people:
   main_contacts:
+  - _people/george-s.lowry.md
+  - _people/Blank Spot.md
+  - _people/Blank Spot.md
   - _people/nicholas-d.lowry.md
   - _people/lauren-goldberg.md
   - _people/jennifer-de-candia.md
