@@ -8,7 +8,7 @@ cover_image:
   title: Elaine de Kooning, Bacchus, 1983.
   image: "/v1619209782/2569/778959.jpg"
 filename: ''
-visible: false
+visible: true
 permalink: "/fine-art/modern-and-postwar-art/2569"
 sale: 2569
 title: Modern & Post-War Art
