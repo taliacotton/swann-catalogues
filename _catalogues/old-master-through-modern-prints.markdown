@@ -76,5 +76,6 @@ essays:
     The Mougins workshop remained open for a year after Picasso’s death in 1973. Piero and Aldo returned to Paris, where they continued their collaborations with André Masson, Marino Marini (see lots 434-438), and Hans Hartung. Recognized for their renowned talent as intaglio printers, the Crommelyncks attracted the talents of contemporary artists Louise Bourgeois, David Hockney, Jasper Johns, Alex Katz, and Jim Dine. Aldo eventually relocated to New York and partnered with Pace Prints and Piero opened his own studio in Paris in the 1980s and continued printing into the 1990s.
 footer_pages: []
 starts_at: 
+# published: false
 
 ---

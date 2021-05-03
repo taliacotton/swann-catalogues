@@ -254,14 +254,16 @@ document.addEventListener("scroll", function(){
 
     if (lastElementTop < window.innerHeight/2){
         let nextNode = lastElement.nextElementSibling;
-        for (let i=0;i<25;i++){
-            nextNode.classList.remove("display-none");
-            nextNode.classList.add("display-true");
-            nextNode = nextNode.nextElementSibling;
+        if (nextNode != null){
+            for (let i=0;i<25;i++){
+                nextNode.classList.remove("display-none");
+                nextNode.classList.add("display-true");
+                nextNode = nextNode.nextElementSibling;
 
-            displayedElems = document.querySelectorAll(".display-true");
-            lastElement = displayedElems[displayedElems.length -1];
-            lastElementTop = lastElement.getBoundingClientRect().top;
+                displayedElems = document.querySelectorAll(".display-true");
+                lastElement = displayedElems[displayedElems.length -1];
+                lastElementTop = lastElement.getBoundingClientRect().top;
+            }
         }
     }
 
@@ -307,6 +309,7 @@ document.addEventListener("scroll", function(){
       if (l.classList.contains("active")){
          let newHash = '#' + l.parentElement.id;
          currentSection = parseInt(l.parentElement.id.substring(3)) + 3;
+         console.log(currentSection);
          if(history.replaceState) {
             history.replaceState(null, null, newHash);
          } else {
@@ -330,12 +333,16 @@ window.addEventListener('hashchange', function(e) {
     e.preventDefault();
     let hash = currentHash();
     let elem = document.getElementById(hash);
-    console.log(hash);
+    // console.log(hash);
     elem.classList.remove("display-none");
     elem.classList.add("display-true");
-    console.log(elem);
+    // console.log(elem);
     console.log("#" + hash);
     location.href = "#"+hash;
+    currentSection = hash;
+    setTimeout(function(){
+        elem.scrollIntoView();
+    },300)
 });
 
 

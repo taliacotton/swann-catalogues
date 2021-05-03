@@ -100,5 +100,6 @@ essays:
     African American artists.
   title: ''
 footer_pages: []
+# published: false
 
 ---

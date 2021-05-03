@@ -116,5 +116,5 @@ essays:
 
     The collection begins with 13 prints representing the colonial era, including city views and scenes from the French and Indian War, lots 1 to 13.
 footer_pages: []
-
+# published: false
 ---

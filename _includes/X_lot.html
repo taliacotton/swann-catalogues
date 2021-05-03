@@ -6,10 +6,10 @@
 <!-- <div class="lot-wrapper" data-lot="{{lotNum}}"> -->
 {% if lot.large_header_text %}
     {% if lot.large_header_text.header_type == 'Large' %}
-    <section id="header-{{lotNum}}" class="header_text {{lot.large_header.header_type | slugify}} display-{{displayClass}}" style="background-color: {{lot.large_header.background_color}}; color: {{lot.large_header.text_color}}">
+    <section id="header-{{lotNum}}" class="header_text {{lot.large_header_text.header_type | slugify}} display-{{displayClass}}" style="background-color: {{lot.large_header_text.background_color}}; color: {{lot.large_header_text.text_color}}">
         <div class="header-inner">
-            <span>{{lot.large_header.line_1_text}}</span>
-            <br><span><i>{{lot.large_header.line_2_text}}</i></span>
+            <span>{{lot.large_header_text.line_1_text}}</span>
+            <br><span><i>{{lot.large_header_text.line_2_text}}</i></span>
         </div>
     </section>
     {% elsif lot.large_header_text.header_type == 'Large (Image)' %}
