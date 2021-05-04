@@ -9,7 +9,7 @@ cover_image:
   image: ''
 filename: ''
 visible: false
-permalink: "/photographs/fine-photographs/2470"
+permalink: "/photographs/fine-photographs/2570"
 sale: 2570
 title: Fine Photographs
 datetime:
