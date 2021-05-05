@@ -20,6 +20,8 @@ short_description: ''
 chapters:
 - session_title: ''
   chapters:
+  - chapter_title: Landscapes
+    lot: 122
   - chapter_title: Considering the Human Figure
     lot: 97
   - chapter_title: Early American Documentary and WPA-era Photography
