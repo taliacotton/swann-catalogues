@@ -20,16 +20,7 @@ short_description: ''
 chapters: []
 people:
   main_contacts: []
-  officers:
-  - _people/george-s.lowry.md
-  - _people/Blank Spot.md
-  - _people/Blank Spot.md
-  - _people/nicholas-d.lowry.md
-  - _people/vice-president-controller.md
-  - _people/communications-director-auctioneer.md
-  - _people/todd-weyman.md
-  - _people/director.md
-  - _people/rick-stattler.md
+  officers: []
   administration:
   - _people/vice-president-controller.md
   - _people/client-accounting.md
@@ -39,6 +30,30 @@ people:
   - _people/shannon-licitra.md
   general_information: ''
 essays:
+- lot: 235
+  title: Roy DeCarava
+  author: ''
+  body: "Born in Harlem in 1919, Roy DeCarava began his formal artist career studying
+    painting at The Cooper Union Institute, then painting and printmaking at the Harlem
+    Community Arts Center, and subsequently drawing and painting under Charles White.
+    He picked up a camera with the intention of documenting his printmaking progress,
+    and it became his sole artistic focus in the 1940s. He brought an attuned sense
+    of composition and tonal sophistication to the photographic medium. \n\nDeCarava's
+    key subjects of interests are the streets, the home, and jazz. Instead of taking
+    a purely documentary approach to photographing everyday Harlem life, he sought
+    to personally understand, capture, and elevate the varied textures and soul of
+    his neighborhood. DeCarava said of his work, \"It's not the subject that interests
+    me as much as my perception of the subject.\" \n\nAn innovative and skilled darkroom
+    technician, DeCarava's prints are known for their darkness. He started printing
+    in a shadowy, murky tonal range in the early 1950s, and the stylistic choice was
+    further encouraged by the New York jazz scene. The result is alluring and mysterious
+    photographs, that reveal meaning in layers of gray. \n\nThe early classic still
+    life _Catsup Bottles, Table and Coat, New York_, was taken in 1952 and exemplifies
+    DeCarava's ability to render intimate, expressive qualities in form and tone.
+    The balanced composition of light and shadow produces a subtle gradation that
+    never quite deliveries a pure white. When considered carefully DeCarava's images
+    disclose themes of social, cultural, and historical significance in their complex
+    tonality."
 - lot: 233
   title: Robert Frank
   author: ''
