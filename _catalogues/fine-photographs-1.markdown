@@ -115,7 +115,7 @@ essays:
     carpenter snoozes in house with wife, and TV, all under palm trees for nothing,
     in the cemeterial California night.\""
 - lot: 20
-  title: Imogen Cunningham
+  title: 'Imogen Cunningham''s Still Life '
   author: ''
   body: "Cunningham's _Shell Collection 3_ features an array of textures and values,
     including detail-rich dark grays and blacks and luminous, glittering highlights.
