@@ -20,13 +20,15 @@ short_description: ''
 chapters:
 - session_title: ''
   chapters:
+  - chapter_title: Vernacular
+    lot: 328
   - chapter_title: Color Photography
     lot: 271
   - chapter_title: American Photography of the 1950s-70s
     lot: 221
   - chapter_title: New York City
     lot: 194
-  - chapter_title: European Photography
+  - chapter_title: 20th-century European Photography
     lot: 153
   - chapter_title: Landscapes
     lot: 122
