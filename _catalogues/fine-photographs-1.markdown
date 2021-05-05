@@ -17,25 +17,7 @@ datetime:
   time: 2021-05-01T10:30:00.000+00:00
   time2: 
 short_description: ''
-chapters:
-- session_title: ''
-  chapters:
-  - chapter_title: Color Photography
-    lot: 271
-  - chapter_title: American Photography of the 1950s-70s
-    lot: 221
-  - chapter_title: New York City
-    lot: 194
-  - chapter_title: 20th Century European Photography
-    lot: 153
-  - chapter_title: Landscapes
-    lot: 122
-  - chapter_title: Considering the Human Figure
-    lot: 97
-  - chapter_title: Early American Documentary and WPA-era Photography
-    lot: 31
-  - chapter_title: Vernacular Photography
-    lot: 328
+chapters: []
 people:
   main_contacts: []
   officers:
