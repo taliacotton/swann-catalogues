@@ -20,7 +20,7 @@ short_description: ''
 chapters:
 - session_title: ''
   chapters:
-  - chapter_title: Vernacular
+  - chapter_title: Vernacular Photography
     lot: 328
   - chapter_title: Color Photography
     lot: 271
