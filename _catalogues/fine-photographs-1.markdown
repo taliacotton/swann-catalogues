@@ -39,6 +39,10 @@ people:
   - _people/shannon-licitra.md
   general_information: ''
 essays:
+- lot: 328
+  title: Vernacular Photography
+  author: ''
+  body: "![](https://res.cloudinary.com/dcryyrd42/image/upload/v1620163984/2570/782931_VIEW_02_02.jpg)"
 - lot: 288
   title: Peter Beard
   author: ''
