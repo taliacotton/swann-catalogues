@@ -20,6 +20,8 @@ short_description: ''
 chapters:
 - session_title: ''
   chapters:
+  - chapter_title: 20th Century European Photography
+    lot: 153
   - chapter_title: Landscapes
     lot: 122
   - chapter_title: Considering the Human Figure
