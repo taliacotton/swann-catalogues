@@ -40,7 +40,7 @@ essays:
     in 1929. By 1932 she would be a charter member of the West Coast Group f.64, whose
     members favored sharp, unfiltered, and unmanipulated imagery. Their direct, or
     \"straight,\" photographic approach eschewed compositional manipulation in favor
-    of recording, and certainly this influence can be seen in S_hell Collection_.\n\nHowever,
+    of recording, and certainly this influence can be seen in _Shell Collection_.\n\nHowever,
     Cunningham explored other photographic styles and subjects throughout her long
     career. \"I photograph anything that can be exposed to light,\" she said, and
     indeed here her apparent desire to look closely from all angles and translate
