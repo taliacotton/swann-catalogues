@@ -4,9 +4,9 @@ lots: []
 starts_at: 
 color: "#AD926F"
 cover_image:
-  lot_number: 
-  title: ''
-  image: ''
+  lot_number: 65
+  title: August Sander / Gunther Sander, Handlanger [Bricklayer]
+  image: "/v1620163906/2570/782878.jpg"
 filename: ''
 visible: false
 permalink: "/photographs/fine-photographs/2570"
