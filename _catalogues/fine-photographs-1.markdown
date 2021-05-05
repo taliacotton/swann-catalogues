@@ -20,6 +20,8 @@ short_description: ''
 chapters:
 - session_title: ''
   chapters:
+  - chapter_title: Color Photography
+    lot: 271
   - chapter_title: American Photography of the 1950s-70s
     lot: 221
   - chapter_title: New York City
