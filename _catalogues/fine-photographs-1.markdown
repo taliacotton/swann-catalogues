@@ -2,7 +2,7 @@
 layout: X_catalogue
 lots: []
 starts_at: 
-color: "#AD926F"
+color: "#CF786A"
 cover_image:
   lot_number: 65
   title: August Sander / Gunther Sander, Handlanger [Bricklayer]
