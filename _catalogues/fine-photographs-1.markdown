@@ -17,7 +17,11 @@ datetime:
   time: 2021-05-01T10:30:00.000+00:00
   time2: 
 short_description: ''
-chapters: []
+chapters:
+- session_title: ''
+  chapters:
+  - chapter_title: Vernacular Photography
+    lot: 328
 people:
   main_contacts: []
   officers:
@@ -39,10 +43,6 @@ people:
   - _people/shannon-licitra.md
   general_information: ''
 essays:
-- lot: 328
-  title: Vernacular Photography
-  author: ''
-  body: "![](https://res.cloudinary.com/dcryyrd42/image/upload/v1620163984/2570/782931_VIEW_02_02.jpg)"
 - lot: 288
   title: Peter Beard
   author: ''
