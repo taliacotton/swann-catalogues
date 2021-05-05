@@ -17,7 +17,17 @@ datetime:
   time: 2021-05-01T10:30:00.000+00:00
   time2: 
 short_description: ''
-chapters: []
+chapters:
+- session_title: ''
+  chapters:
+  - chapter_title: European Photography
+    lot: 153
+  - chapter_title: Landscapes
+    lot: 122
+  - chapter_title: The Human Form
+    lot: 97
+  - chapter_title: WPA-era Photography
+    lot: 31
 people:
   main_contacts: []
   officers:
