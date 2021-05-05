@@ -20,6 +20,8 @@ short_description: ''
 chapters:
 - session_title: ''
   chapters:
+  - chapter_title: Considering the Human Figure
+    lot: 97
   - chapter_title: Early American Documentary and WPA-era Photography
     lot: 31
   - chapter_title: Vernacular Photography
