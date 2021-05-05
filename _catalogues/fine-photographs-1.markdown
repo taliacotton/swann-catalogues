@@ -20,6 +20,8 @@ short_description: ''
 chapters:
 - session_title: ''
   chapters:
+  - chapter_title: Early American Documentary and WPA-era Photography
+    lot: 31
   - chapter_title: Vernacular Photography
     lot: 328
 people:
