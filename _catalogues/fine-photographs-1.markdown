@@ -58,7 +58,7 @@ people:
   general_information: ''
 essays:
 - lot: 288
-  title: Peter Beard
+  title: 'Peter Beard''s Diaristic Photographs '
   author: ''
   body: "Peter Beard was a photographer well-known for his pictures of Africans and
     African wildlife. He made his first trip to the continent when he was 17, photographing
