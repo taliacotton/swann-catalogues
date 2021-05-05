@@ -91,7 +91,7 @@ essays:
 
     The early classic still life _Catsup Bottles, Table and Coat, New York_, was taken in 1952 and exemplifies DeCarava's ability to render intimate, expressive qualities in form and tone. The balanced composition of light and shadow produces a subtle gradation that never quite deliveries a pure white. When considered carefully DeCarava's images disclose themes of social, cultural, and historical significance in their complex tonality.
 - lot: 233
-  title: Robert Frank
+  title: Robert Frank and the American Scene
   author: ''
   body: "Robert Frank, a photographer who is indelibly associated with the inequity,
     grit, beauty, and paradox of the American social landscape, included a number
