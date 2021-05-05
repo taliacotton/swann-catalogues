@@ -20,6 +20,8 @@ short_description: ''
 chapters:
 - session_title: ''
   chapters:
+  - chapter_title: New York City
+    lot: 194
   - chapter_title: 20th Century European Photography
     lot: 153
   - chapter_title: Landscapes
