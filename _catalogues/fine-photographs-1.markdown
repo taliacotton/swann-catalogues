@@ -24,6 +24,30 @@ people:
   administration: []
   general_information: ''
 essays:
+- lot: 233
+  title: Robert Frank
+  author: ''
+  body: "Robert Frank, a photographer who is indelibly associated with the inequity,
+    grit, beauty, and paradox of the American social landscape, included a number
+    of images featuring cars in his seminal photo book _The Americans_. In his vision,
+    Americans are on the road together, alone, for pleasure, out of necessity, sometimes
+    in gleaming autos, sometimes a blur of speed and joy, sometimes a means of endured
+    transport, sometimes a means of finding connection with others, sometimes a means
+    of displaying and establishing identity. Memorably, the last image in the volume
+    features Frank's family huddled in a car (_U.S. 90, en route to Del Rio, Texas_),
+    a marker of his own cross-country road trip to make images, and his own relationship
+    with an automobile. \n\n_Covered Car, Long Beach, California_ features an automobile
+    shrouded and situated under two looming palm trees, its form made distinct and
+    hard in the California light, is the most iconic. The folds of the cover offer
+    an elegant visual counterweight to the rest of the composition, the draping lines
+    and the gleaming textile subtly suggesting their own sensuality. The image seemingly
+    speaks to 1950s economic comfort and to the glamorous (if mysterious) California
+    lifestyle, while simultaneously offering a sly commentary on our national obsession
+    with cars.\n\nJack Kerouac, in his iconic introduction to _The Americans_, comments
+    on this photograph: \"Car shrouded in fancy expensive designed tarpolian to keep
+    soots of no-soot Malibu from falling on new simonize job as owner who is two-dollar-an-hour
+    carpenter snoozes in house with wife, and TV, all under palm trees for nothing,
+    in the cemeterial California night.\""
 - lot: 20
   title: Imogen Cunningham
   author: ''
