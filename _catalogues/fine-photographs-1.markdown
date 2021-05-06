@@ -37,7 +37,10 @@ chapters:
   - chapter_title: WPA-era Photography
     lot: 31
 people:
-  main_contacts: []
+  main_contacts:
+  - _people/jessica-hunter.md
+  - _people/florence-poynor.md
+  - _people/deborah-rogal.md
   officers:
   - _people/george-s.lowry.md
   - _people/Blank Spot.md
