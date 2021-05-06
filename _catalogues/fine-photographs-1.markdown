@@ -8,7 +8,7 @@ cover_image:
   title: August Sander / Gunther Sander, Handlanger [Bricklayer]
   image: "/v1620163906/2570/782878.jpg"
 filename: ''
-visible: false
+visible: true
 permalink: "/photographs/fine-photographs/2570"
 sale: 2570
 title: Fine Photographs
