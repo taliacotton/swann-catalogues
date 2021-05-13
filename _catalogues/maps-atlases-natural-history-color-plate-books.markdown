@@ -6,7 +6,7 @@ color: "#A1BD8A"
 cover_image:
   lot_number: 65
   title: George Schlegel, New York, Taken from Central Park
-  image: "/v1620931623/crop_781411_hpwfer.jpg"
+  image: "/v1620935223/781411_asz5mh.jpg"
 filename: ''
 visible: false
 permalink: "/books-manuscripts/maps-and-atlases/2571"
