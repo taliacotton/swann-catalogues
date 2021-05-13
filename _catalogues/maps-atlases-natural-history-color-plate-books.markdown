@@ -6,7 +6,7 @@ color: "#AD926F"
 cover_image:
   lot_number: 
   title: ''
-  image: ''
+  image: "/v1620931623/crop_781411_hpwfer.jpg"
 filename: ''
 visible: false
 permalink: "/books-manuscripts/maps-and-atlases/2571"
