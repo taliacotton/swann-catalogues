@@ -1,10 +1,10 @@
 ---
 layout: X_catalogue
 lots: []
-starts_at: 
+starts_at: 65
 color: "#AD926F"
 cover_image:
-  lot_number: 0
+  lot_number: 
   title: ''
   image: ''
 filename: ''
@@ -13,10 +13,10 @@ permalink: "/books-manuscripts/maps-and-atlases/2571"
 sale: 2571
 title: Maps & Atlases, Natural History & Color Plate Books
 datetime:
-  date: 2021-06-03 04:00:00 +0000
-  time: 2021-05-01 10:30:00 +0000
+  date: 2021-06-03T04:00:00.000+00:00
+  time: 2021-05-01T10:30:00.000+00:00
   time2: 
-short_description: ''
+short_description: George Schlegel, New York, Taken from Central Park
 chapters: []
 people:
   main_contacts: []
