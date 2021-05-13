@@ -4,8 +4,8 @@ lots: []
 starts_at: 65
 color: "#AD926F"
 cover_image:
-  lot_number: 
-  title: ''
+  lot_number: 65
+  title: George Schlegel, New York, Taken from Central Park
   image: "/v1620931623/crop_781411_hpwfer.jpg"
 filename: ''
 visible: false
