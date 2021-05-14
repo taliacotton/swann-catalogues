@@ -17,7 +17,17 @@ datetime:
   time: 2021-05-01T10:30:00.000+00:00
   time2: 
 short_description: George Schlegel, New York, Taken from Central Park
-chapters: []
+chapters:
+- session_title: ''
+  chapters:
+  - chapter_title: Maps
+    lot: 1
+  - chapter_title: Atlases & Books with Maps
+    lot: 131
+  - chapter_title: Plate & Illustrated Books
+    lot: 158
+  - chapter_title: Historical Prints & Drawings
+    lot: 208
 people:
   main_contacts:
   - _people/caleb-kiffer.md
