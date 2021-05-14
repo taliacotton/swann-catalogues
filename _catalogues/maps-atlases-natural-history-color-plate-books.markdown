@@ -8,7 +8,7 @@ cover_image:
   title: George Schlegel, New York, Taken from Central Park
   image: "/v1620937513/781411_dsmcnt.jpg"
 filename: ''
-visible: false
+visible: true
 permalink: "/books-manuscripts/maps-and-atlases/2571"
 sale: 2571
 title: Maps & Atlases, Natural History & Color Plate Books
