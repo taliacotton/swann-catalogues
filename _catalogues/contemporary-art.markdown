@@ -18,8 +18,10 @@ datetime:
   time2: 
 short_description: ''
 chapters:
-- session_title: 'Abstract Expressionism '
+- session_title: European Abstraction, Art Brut and COBRA
   chapters:
+  - chapter_title: ''
+    lot: 
   - chapter_title: ''
     lot: 1
   - chapter_title: ''
