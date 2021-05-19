@@ -34,7 +34,13 @@ chapters:
     lot: 
 - session_title: American Abstract Expressionism (Second Generation) and European
     Geometric Abstraction
-  chapters: []
+  chapters:
+  - chapter_title: ''
+    lot: 
+  - chapter_title: ''
+    lot: 
+  - chapter_title: ''
+    lot: 
 people:
   main_contacts: []
   officers: []
