@@ -48,7 +48,13 @@ chapters:
 people:
   main_contacts: []
   officers: []
-  administration: []
+  administration:
+  - _people/vice-president-controller.md
+  - _people/client-accounting.md
+  - _people/operations-manager.md
+  - _people/art-director.md
+  - _people/kelsie-jankowski.md
+  - _people/shannon-licitra.md
   general_information: ''
 essays: []
 footer_pages: []
