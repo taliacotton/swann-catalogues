@@ -4,9 +4,9 @@ lots: []
 starts_at: 
 color: "#AD926F"
 cover_image:
-  lot_number: 
-  title: ''
-  image: ''
+  lot_number: 405
+  title: Bram Bogart, Fleur d'Atelier
+  image: "/v1621467068/COVER_M43566-2_1_dx7tax.jpg"
 filename: ''
 visible: false
 permalink: "/fine-art/contemporary-art/2572"
@@ -35,6 +35,10 @@ chapters:
 - session_title: American Abstract Expressionism (Second Generation) and European
     Geometric Abstraction
   chapters:
+  - lot: 
+    chapter_title: ''
+  - lot: 
+    chapter_title: ''
   - chapter_title: ''
     lot: 
   - chapter_title: ''
