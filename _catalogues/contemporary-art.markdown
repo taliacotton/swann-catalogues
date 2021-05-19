@@ -21,6 +21,8 @@ chapters:
 - session_title: 'Abstract Expressionism '
   chapters:
   - chapter_title: ''
+    lot: 1
+  - chapter_title: ''
     lot: 
 - session_title: ''
   chapters: []
