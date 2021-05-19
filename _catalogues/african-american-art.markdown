@@ -19,8 +19,6 @@ short_description: ''
 chapters:
 - session_title: ''
   chapters:
-  - chapter_title: ''
-    lot: 
   - chapter_title: 21st Century Contemporary
     lot: 183
   - lot: 115
@@ -33,16 +31,6 @@ chapters:
     lot: 24
   - chapter_title: Early 20th Century & Harlem Renaissance
     lot: 1
-- session_title: ''
-  chapters: []
-- session_title: ''
-  chapters: []
-- session_title: ''
-  chapters: []
-- session_title: ''
-  chapters: []
-- session_title: ''
-  chapters: []
 people:
   main_contacts:
   - _people/corey-serrant.md
@@ -100,6 +88,6 @@ essays:
     African American artists.
   title: ''
 footer_pages: []
-# published: false
+starts_at: 
 
 ---
