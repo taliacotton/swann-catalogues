@@ -18,7 +18,7 @@ datetime:
   time2: 
 short_description: ''
 chapters:
-- session_title: European Abstraction, Art Brut and COBRA
+- session_title: 'European Abstraction, Art Brut and COBRA '
   chapters:
   - chapter_title: ''
     lot: 
@@ -32,7 +32,8 @@ chapters:
     lot: 1
   - chapter_title: ''
     lot: 
-- session_title: ''
+- session_title: American Abstract Expressionism (Second Generation) and European
+    Geometric Abstraction
   chapters: []
 people:
   main_contacts: []
