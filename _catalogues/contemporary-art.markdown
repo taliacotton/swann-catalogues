@@ -19,8 +19,6 @@ datetime:
 short_description: ''
 chapters:
 - chapters:
-  - chapter_title: Pop Art
-    lot: 236
   - chapter_title: Abstract Expressionism
     lot: 1
   - chapter_title: European Abstraction, Art Brut & COBRA
@@ -33,6 +31,8 @@ chapters:
     lot: 186
   - chapter_title: Pop-Art Precursors, Including Rauschenberg & Johns
     lot: 187
+  - chapter_title: Pop Art
+    lot: 236
   - chapter_title: Photorealism & New Realism
     lot: 298
   - chapter_title: Feminist Art from the Collection of Harriet Lyons
