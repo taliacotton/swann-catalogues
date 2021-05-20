@@ -2,7 +2,7 @@
 layout: X_catalogue
 lots: []
 starts_at: 
-color: "#AD926F"
+color: "#0612F8"
 cover_image:
   lot_number: 405
   title: Bram Bogart, Fleur d'Atelier
