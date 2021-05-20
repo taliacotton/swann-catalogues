@@ -6,7 +6,7 @@ color: "#AD926F"
 cover_image:
   lot_number: 405
   title: Bram Bogart, Fleur d'Atelier
-  image: "/v1621467068/COVER_M43566-2_1_dx7tax.jpg"
+  image: "/v1621474698/780737_ue9vk3.jpg"
 filename: ''
 visible: false
 permalink: "/fine-art/contemporary-art/2572"
