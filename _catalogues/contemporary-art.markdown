@@ -46,7 +46,12 @@ chapters:
   - chapter_title: ''
     lot: 
 people:
-  main_contacts: []
+  main_contacts:
+  - _people/todd-weyman.md
+  - _people/lisa-crecenzo.md
+  - _people/sarah-mcmillan.md
+  - _people/meagan-gandolfo.md
+  - _people/gabriella-moreno.md
   officers:
   - _people/george-s.lowry.md
   - _people/Blank Spot.md
