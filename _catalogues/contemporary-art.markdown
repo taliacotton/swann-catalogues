@@ -19,8 +19,8 @@ datetime:
 short_description: ''
 chapters:
 - chapters:
-  - chapter_title: Color Theory, Post-Painterly Abstraction & Op-Art
-    lot: 186
+  - chapter_title: Pop-Art Precursors, Including Rauschenberg & Johns
+    lot: 187
   - chapter_title: Abstract Expressionism
     lot: 1
   - chapter_title: European Abstraction, Art Brut & COBRA
@@ -29,6 +29,8 @@ chapters:
     lot: 127
   - chapter_title: Alexander Calder & Kinetic Sculpture
     lot: 127
+  - chapter_title: Color Theory, Post-Painterly Abstraction & Op-Art
+    lot: 186
   session_title: ''
 people:
   main_contacts:
