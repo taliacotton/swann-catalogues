@@ -8,7 +8,7 @@ cover_image:
   title: Bram Bogart, Fleur d'Atelier
   image: "/v1621474698/780737_ue9vk3.jpg"
 filename: ''
-visible: false
+visible: true
 permalink: "/fine-art/contemporary-art/2572"
 sale: 2572
 title: Contemporary Art
