@@ -19,8 +19,8 @@ datetime:
 short_description: ''
 chapters:
 - chapters:
-  - chapter_title: Minimalism & Abstract Sculpture
-    lot: 363
+  - chapter_title: Neo-Expressionism & the Pictures Generation
+    lot: 406
   - chapter_title: Abstract Expressionism
     lot: 1
   - chapter_title: European Abstraction, Art Brut & COBRA
@@ -39,6 +39,8 @@ chapters:
     lot: 318
   - chapter_title: 'British Contemporary Art & Contemporary British Printmakers '
     lot: 326
+  - chapter_title: Minimalism & Abstract Sculpture
+    lot: 363
   session_title: ''
 people:
   main_contacts:
