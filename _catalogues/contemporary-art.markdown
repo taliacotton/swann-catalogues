@@ -24,6 +24,9 @@ chapters:
   chapters: []
 - session_title: ''
   chapters:
+  - chapter_title: Art of the Last Two Decades Including Koons, Doig, Cattelan, Hirst,
+      Banksy and Kusama, 449-488
+    lot: 449
   - chapter_title: Neo-Expressionism and the Pictures Generation, 406-449
     lot: 406
   - chapter_title: Minimalism, Lyrical Abstraction, Process Art and Abstract Sculpture,
