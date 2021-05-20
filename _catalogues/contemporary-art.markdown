@@ -18,14 +18,9 @@ datetime:
   time2: 
 short_description: ''
 chapters:
-- session_title: ''
-  chapters: []
-- session_title: ''
-  chapters: []
-- session_title: ''
+- session_title: Placeholder - Make blank before publishing
   chapters:
-  - chapter_title: Art of the Last Two Decades Including Koons, Doig, Cattelan, Hirst,
-      Banksy and Kusama, 449-488
+  - chapter_title: Art of the Last Two Decades
     lot: 449
   - chapter_title: Neo-Expressionism and the Pictures Generation, 406-449
     lot: 406
