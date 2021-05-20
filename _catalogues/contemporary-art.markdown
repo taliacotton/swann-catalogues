@@ -37,7 +37,7 @@ chapters:
     lot: 298
   - chapter_title: Feminist Art from the Collection of Harriet Lyons
     lot: 318
-  - chapter_title: 'British Contemporary Art & Contemporary British Printmakers '
+  - chapter_title: 'British Contemporary Art & Printmakers '
     lot: 326
   - chapter_title: Minimalism & Abstract Sculpture
     lot: 363
