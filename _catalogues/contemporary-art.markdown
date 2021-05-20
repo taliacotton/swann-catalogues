@@ -24,6 +24,9 @@ chapters:
   chapters: []
 - session_title: ''
   chapters:
+  - chapter_title: Pop Art, Including Warhol, Lichtenstein, Indiana, Dine, Rosenquist,
+      and Ruscha, 236-297
+    lot: 236
   - chapter_title: Pop-Art Precursors, Including Rauschenberg and Johns, 187-235
     lot: 187
   - chapter_title: Color Theory, Post-Painterly Abstraction and Op-Art, 186-212
