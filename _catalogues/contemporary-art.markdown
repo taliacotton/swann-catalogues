@@ -24,6 +24,10 @@ chapters:
   chapters: []
 - session_title: ''
   chapters:
+  - chapter_title: Pop-Art Precursors, Including Rauschenberg and Johns, 187-235
+    lot: 187
+  - chapter_title: Color Theory, Post-Painterly Abstraction and Op-Art, 186-212
+    lot: 186
   - chapter_title: American Abstract Expressionism (Second Generation) and European
       Geometric Abstraction, 127-153
     lot: 127
