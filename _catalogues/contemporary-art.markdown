@@ -19,6 +19,9 @@ datetime:
 short_description: ''
 chapters:
 - chapters:
+  - chapter_title: British Contemporary Art and Contemporary British Printmakers from
+      a Private European Collection
+    lot: 326
   - chapter_title: Feminist Art from the Collection of Harriet Lyons
     lot: 318
   - chapter_title: Photorealism and New Realism
