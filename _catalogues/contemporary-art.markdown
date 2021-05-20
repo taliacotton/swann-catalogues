@@ -19,8 +19,8 @@ datetime:
 short_description: ''
 chapters:
 - chapters:
-  - chapter_title: Neo-Expressionism & the Pictures Generation
-    lot: 406
+  - chapter_title: 'The Last Two Decades: Koons, Doig, Cattelan, Hirst, Banksy & Kusama'
+    lot: 449
   - chapter_title: Abstract Expressionism
     lot: 1
   - chapter_title: European Abstraction, Art Brut & COBRA
@@ -41,6 +41,8 @@ chapters:
     lot: 326
   - chapter_title: Minimalism & Abstract Sculpture
     lot: 363
+  - chapter_title: Neo-Expressionism & the Pictures Generation
+    lot: 406
   session_title: ''
 people:
   main_contacts:
