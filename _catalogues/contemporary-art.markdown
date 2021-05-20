@@ -19,6 +19,8 @@ datetime:
 short_description: ''
 chapters:
 - chapters:
+  - chapter_title: Neo-Expressionism and the Pictures Generation
+    lot: 406
   - chapter_title: Minimalism, Lyrical Abstraction, Process Art and Abstract Sculpture
     lot: 363
   - chapter_title: British Contemporary Art and Contemporary British Printmakers from
