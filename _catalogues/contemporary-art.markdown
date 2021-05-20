@@ -17,7 +17,11 @@ datetime:
   time: 2021-05-01T10:30:00.000+00:00
   time2: 
 short_description: ''
-chapters: []
+chapters:
+- chapters:
+  - chapter_title: Abstract Expressionism
+    lot: 1
+  session_title: ''
 people:
   main_contacts:
   - _people/todd-weyman.md
