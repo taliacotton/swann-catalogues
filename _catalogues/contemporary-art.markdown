@@ -21,8 +21,8 @@ chapters:
 - chapters:
   - lot: 154
     chapter_title: Alexander Calder and Kinetic Sculpture
-  - lot: 
-    chapter_title: ''
+  - lot: 186
+    chapter_title: Color Theory, Post-Painterly Abstraction and Op-Art
   - lot: 
     chapter_title: ''
   session_title: ''
