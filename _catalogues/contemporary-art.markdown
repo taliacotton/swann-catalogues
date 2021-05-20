@@ -23,8 +23,8 @@ chapters:
     chapter_title: Alexander Calder and Kinetic Sculpture
   - lot: 186
     chapter_title: Color Theory, Post-Painterly Abstraction and Op-Art
-  - lot: 
-    chapter_title: ''
+  - lot: 187
+    chapter_title: Pop-Art Precursors, Including Rauschenberg and Johns
   session_title: ''
 - session_title: 'European Abstraction, Art Brut and COBRA '
   chapters:
