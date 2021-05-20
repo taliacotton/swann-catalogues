@@ -18,6 +18,14 @@ datetime:
   time2: 
 short_description: ''
 chapters:
+- chapters:
+  - lot: 154
+    chapter_title: Alexander Calder and Kinetic Sculpture
+  - lot: 
+    chapter_title: ''
+  - lot: 
+    chapter_title: ''
+  session_title: ''
 - session_title: 'European Abstraction, Art Brut and COBRA '
   chapters:
   - chapter_title: ''
