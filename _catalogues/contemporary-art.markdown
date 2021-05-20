@@ -20,6 +20,9 @@ short_description: ''
 chapters:
 - session_title: Placeholder - Make blank before publishing
   chapters:
+  - chapter_title: American Abstract Expressionism (Second Generation) and European
+      Geometric Abstraction, 127-153
+    lot: 127
   - chapter_title: Art of the Last Two Decades
     lot: 449
   - chapter_title: Neo-Expressionism and the Pictures Generation, 406-449
@@ -40,9 +43,6 @@ chapters:
     lot: 187
   - chapter_title: Color Theory, Post-Painterly Abstraction and Op-Art, 186-212
     lot: 186
-  - chapter_title: American Abstract Expressionism (Second Generation) and European
-      Geometric Abstraction, 127-153
-    lot: 127
   - chapter_title: Alexander Calder and Kinetic Sculpture, 154-185
     lot: 154
 - chapters:
