@@ -40,7 +40,7 @@ chapters:
   - lot: 187
     chapter_title: Pop-Art Precursors, Including Rauschenberg and Johns
   session_title: ''
-- session_title: 'European Abstraction, Art Brut and COBRA '
+- session_title: 'European Abstraction, Art Brut and COBRA, 96 -126 '
   chapters:
   - chapter_title: ''
     lot: 
@@ -55,7 +55,7 @@ chapters:
   - chapter_title: ''
     lot: 
 - session_title: American Abstract Expressionism (Second Generation) and European
-    Geometric Abstraction
+    Geometric Abstraction, 127-153
   chapters:
   - lot: 127
     chapter_title: ''
