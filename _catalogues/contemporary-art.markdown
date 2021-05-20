@@ -24,6 +24,14 @@ chapters:
   chapters: []
 - session_title: ''
   chapters:
+  - chapter_title: Neo-Expressionism and the Pictures Generation, 406-449
+    lot: 406
+  - chapter_title: Minimalism, Lyrical Abstraction, Process Art and Abstract Sculpture,
+      363-405
+    lot: 363
+  - chapter_title: British Contemporary Art and Contemporary British Printmakers from
+      a Private European Collection, 326-362
+    lot: 326
   - chapter_title: Feminist Art from the Collection of Harriet Lyons, 318-325
     lot: 318
   - chapter_title: Photorealism and New Realism, 298-317
