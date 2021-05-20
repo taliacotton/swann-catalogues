@@ -24,6 +24,10 @@ chapters:
   chapters: []
 - session_title: ''
   chapters:
+  - chapter_title: ''
+    lot: 
+  - chapter_title: Photorealism and New Realism, 298-317
+    lot: 298
   - chapter_title: Pop Art, Including Warhol, Lichtenstein, Indiana, Dine, Rosenquist,
       and Ruscha, 236-297
     lot: 236
