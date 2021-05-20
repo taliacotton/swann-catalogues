@@ -19,8 +19,8 @@ datetime:
 short_description: ''
 chapters:
 - chapters:
-  - chapter_title: Feminist Art from the Collection of Harriet Lyons
-    lot: 318
+  - chapter_title: 'British Contemporary Art & Contemporary British Printmakers '
+    lot: 326
   - chapter_title: Abstract Expressionism
     lot: 1
   - chapter_title: European Abstraction, Art Brut & COBRA
@@ -35,6 +35,8 @@ chapters:
     lot: 187
   - chapter_title: Photorealism & New Realism
     lot: 298
+  - chapter_title: Feminist Art from the Collection of Harriet Lyons
+    lot: 318
   session_title: ''
 people:
   main_contacts:
