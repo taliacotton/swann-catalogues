@@ -19,6 +19,9 @@ datetime:
 short_description: ''
 chapters:
 - chapters:
+  - chapter_title: Pop Art, Including Warhol, Lichtenstein, Indiana, Dine, Rosenquist,
+      and Ruscha
+    lot: 236
   - lot: 154
     chapter_title: Alexander Calder and Kinetic Sculpture
   - lot: 186
