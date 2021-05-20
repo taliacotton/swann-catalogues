@@ -19,15 +19,15 @@ datetime:
 short_description: ''
 chapters:
 - chapters:
-  - chapter_title: 'British Contemporary Art & Contemporary British Printmakers '
-    lot: 326
+  - chapter_title: Minimalism & Abstract Sculpture
+    lot: 363
   - chapter_title: Abstract Expressionism
     lot: 1
   - chapter_title: European Abstraction, Art Brut & COBRA
     lot: 96
-  - chapter_title: Abstract Expressionism & European Geometric Abstraction
-    lot: 127
   - chapter_title: Alexander Calder & Kinetic Sculpture
+    lot: 127
+  - chapter_title: Abstract Expressionism & European Geometric Abstraction
     lot: 127
   - chapter_title: Color Theory, Post-Painterly Abstraction & Op-Art
     lot: 186
@@ -37,6 +37,8 @@ chapters:
     lot: 298
   - chapter_title: Feminist Art from the Collection of Harriet Lyons
     lot: 318
+  - chapter_title: 'British Contemporary Art & Contemporary British Printmakers '
+    lot: 326
   session_title: ''
 people:
   main_contacts:
