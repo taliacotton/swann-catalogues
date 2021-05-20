@@ -18,6 +18,17 @@ datetime:
   time2: 
 short_description: ''
 chapters:
+- session_title: ''
+  chapters: []
+- session_title: ''
+  chapters: []
+- session_title: ''
+  chapters:
+  - chapter_title: American Abstract Expressionism (Second Generation) and European
+      Geometric Abstraction, 127-153
+    lot: 127
+  - chapter_title: Alexander Calder and Kinetic Sculpture, 154-185
+    lot: 154
 - chapters:
   - chapter_title: ''
     lot: 
