@@ -19,6 +19,10 @@ datetime:
 short_description: ''
 chapters:
 - chapters:
+  - chapter_title: Feminist Art from the Collection of Harriet Lyons
+    lot: 318
+  - chapter_title: Photorealism and New Realism
+    lot: 298
   - chapter_title: Pop Art, Including Warhol, Lichtenstein, Indiana, Dine, Rosenquist,
       and Ruscha
     lot: 236
