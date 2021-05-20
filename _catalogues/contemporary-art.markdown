@@ -19,10 +19,12 @@ datetime:
 short_description: ''
 chapters:
 - chapters:
-  - chapter_title: European Abstraction, Art Brut & COBRA
-    lot: 96
+  - chapter_title: Abstract Expressionism & European Geometric Abstraction
+    lot: 127
   - chapter_title: Abstract Expressionism
     lot: 1
+  - chapter_title: European Abstraction, Art Brut & COBRA
+    lot: 96
   session_title: ''
 people:
   main_contacts:
