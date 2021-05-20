@@ -19,6 +19,8 @@ datetime:
 short_description: ''
 chapters:
 - chapters:
+  - chapter_title: ''
+    lot: 
   - chapter_title: Neo-Expressionism and the Pictures Generation
     lot: 406
   - chapter_title: Minimalism, Lyrical Abstraction, Process Art and Abstract Sculpture
@@ -39,7 +41,7 @@ chapters:
     chapter_title: Color Theory, Post-Painterly Abstraction and Op-Art
   - lot: 187
     chapter_title: Pop-Art Precursors, Including Rauschenberg and Johns
-  session_title: ''
+  session_title: Abstract Expressionism, 1 - 95
 - session_title: 'European Abstraction, Art Brut and COBRA, 96 -126 '
   chapters:
   - chapter_title: ''
