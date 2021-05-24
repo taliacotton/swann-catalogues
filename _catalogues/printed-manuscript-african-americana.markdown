@@ -95,5 +95,5 @@ essays:
 footer_pages:
 - section_header: Testing
   content: Testing footer content
-
+# published: false
 ---
