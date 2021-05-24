@@ -53,7 +53,7 @@
 
 <section id="lot{{lot.LOT}}" class="lot rec-{{lot.recommended}} display-{{displayClass}}">
     {% if lot.background_color %}{% assign bg = lot.background_color %}{%endif%}
-    <div class="left {% if lot.images.first or lot.video_id %}js-slideshow has-slideshow{% endif %}" style="background-color:{{bg}}">
+    <div class="left {% if lot.images.first or lot.video_id %}js-slideshow has-slideshow{% endif %}">
         <div class="printFooter print-content">Lot {{lotNum}}</div>
         {% if lot.background_color %}{% assign bg = lot.background_color %}{%else%}{%assign bg ='black'%}{%endif%}
         {% if lot.images.first %}
@@ -145,10 +145,10 @@
     </div>
     {% if lot.images[0] %}
     <div class="slideshow--next-btn">
-        <button onclick="scrollSlideshow('lot{{lotNum}}', -200)"></button>
+        <button onclick="scrollSlideshow('lot{{lot.LOT}}', -200)"></button>
     </div>
     <div class="slideshow--prev-btn" style="display: none">
-        <button onclick="scrollSlideshow('lot{{lotNum}}', 200)"></button>
+        <button onclick="scrollSlideshow('lot{{lot.LOT}}', 200)"></button>
     </div>
     {% endif %}
     <div class="right">

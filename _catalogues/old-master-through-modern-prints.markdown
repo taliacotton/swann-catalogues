@@ -17,6 +17,10 @@ datetime:
   time2: 
 short_description: ''
 chapters:
+- chapters:
+  - lot: 
+    chapter_title: ''
+  session_title: ''
 - session_title: ''
   chapters:
   - chapter_title: Old Masters
@@ -77,5 +81,4 @@ essays:
 footer_pages: []
 starts_at: 
 # published: false
-
 ---

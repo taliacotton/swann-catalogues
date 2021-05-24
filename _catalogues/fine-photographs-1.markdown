@@ -141,5 +141,5 @@ essays:
     for form and abstraction.\n\n> _\"The formula for doing a good job in photography
     is to think like a poet.\"_  \n> Imogen Cunningham"
 footer_pages: []
-
+# published: false
 ---

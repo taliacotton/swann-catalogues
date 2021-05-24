@@ -309,7 +309,7 @@ document.addEventListener("scroll", function(){
       if (l.classList.contains("active")){
          let newHash = '#' + l.parentElement.id;
          currentSection = parseInt(l.parentElement.id.substring(3)) + 3;
-         console.log(currentSection);
+        //  console.log(currentSection);
          if(history.replaceState) {
             history.replaceState(null, null, newHash);
          } else {
@@ -337,7 +337,7 @@ window.addEventListener('hashchange', function(e) {
     elem.classList.remove("display-none");
     elem.classList.add("display-true");
     // console.log(elem);
-    console.log("#" + hash);
+    // console.log("#" + hash);
     location.href = "#"+hash;
     currentSection = hash;
     setTimeout(function(){
