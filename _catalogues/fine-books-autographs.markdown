@@ -20,10 +20,10 @@ short_description: ''
 chapters:
 - session_title: ''
   chapters:
-  - chapter_title: Art, Press & Illustrated Books
-    lot: 271
   - chapter_title: 19th & 20th Century Literature
     lot: 165
+  - chapter_title: Art, Press & Illustrated Books
+    lot: 271
 - session_title: Autographs
   chapters:
   - chapter_title: Americana
