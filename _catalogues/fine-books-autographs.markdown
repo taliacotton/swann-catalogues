@@ -6,7 +6,7 @@ color: "#06778A"
 cover_image:
   lot_number: 244
   title: Pablo Neruda, Canto General
-  image: "/v1621977224/cvr780816_mevhgz.jpg"
+  image: "/v1621977999/cvr780816_uwaukd.jpg"
 filename: ''
 visible: false
 permalink: "/books-manuscripts/fine-books-autographs/2573"
