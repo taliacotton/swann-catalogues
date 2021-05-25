@@ -2,7 +2,7 @@
 layout: X_catalogue
 lots: []
 starts_at: 
-color: "#146953"
+color: "#157908"
 cover_image:
   lot_number: 244
   title: Pablo Neruda, Canto General
