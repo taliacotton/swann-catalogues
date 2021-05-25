@@ -20,6 +20,8 @@ short_description: ''
 chapters:
 - session_title: ''
   chapters:
+  - chapter_title: Musicians
+    lot: 107
   - chapter_title: Presidents
     lot: 76
   - chapter_title: General, including world leaders, revolutionaries, suffragists,
