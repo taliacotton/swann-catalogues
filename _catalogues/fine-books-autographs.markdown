@@ -19,7 +19,9 @@ datetime:
 short_description: ''
 chapters: []
 people:
-  main_contacts: []
+  main_contacts:
+  - _people/marco-tomaschett.md
+  - _people/john-d.larson.md
   officers:
   - _people/george-s.lowry.md
   - _people/Blank Spot.md
