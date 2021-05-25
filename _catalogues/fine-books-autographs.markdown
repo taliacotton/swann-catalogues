@@ -4,8 +4,8 @@ lots: []
 starts_at: 
 color: "#AD926F"
 cover_image:
-  lot_number: 
-  title: ''
+  lot_number: 244
+  title: Pablo Neruda, Canto General
   image: ''
 filename: ''
 visible: false
