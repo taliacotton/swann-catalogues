@@ -18,6 +18,10 @@ datetime:
   time2: 
 short_description: ''
 chapters:
+- session_title: ''
+  chapters:
+  - chapter_title: 19th & 20th Century Literature
+    lot: 165
 - session_title: Autographs
   chapters:
   - chapter_title: Americana
