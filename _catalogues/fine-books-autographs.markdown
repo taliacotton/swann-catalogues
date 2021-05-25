@@ -20,6 +20,9 @@ short_description: ''
 chapters:
 - session_title: ''
   chapters:
+  - chapter_title: General, including world leaders, revolutionaries, suffragists,
+      etc.
+    lot: 9
   - chapter_title: Americana
     lot: 1
 people:
