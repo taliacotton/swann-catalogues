@@ -18,17 +18,21 @@ datetime:
   time2: 
 short_description: ''
 chapters:
-- session_title: ''
+- session_title: Autographs
   chapters:
-  - chapter_title: Musicians
-    lot: 107
-  - chapter_title: Presidents
-    lot: 76
+  - chapter_title: Americana
+    lot: 1
   - chapter_title: General, including world leaders, revolutionaries, suffragists,
       etc.
     lot: 9
-  - chapter_title: Americana
-    lot: 1
+  - chapter_title: Presidents
+    lot: 76
+  - chapter_title: Musicians
+    lot: 107
+  - chapter_title: Writers
+    lot: 136
+  - chapter_title: Artists
+    lot: 156
 people:
   main_contacts:
   - _people/marco-tomaschett.md
