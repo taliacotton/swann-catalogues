@@ -17,7 +17,11 @@ datetime:
   time: 
   time2: 
 short_description: ''
-chapters: []
+chapters:
+- session_title: ''
+  chapters:
+  - chapter_title: Americana
+    lot: 1
 people:
   main_contacts:
   - _people/marco-tomaschett.md
