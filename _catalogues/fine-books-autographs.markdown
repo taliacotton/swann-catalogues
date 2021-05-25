@@ -1,10 +1,10 @@
 ---
 layout: X_catalogue
 lots: []
-starts_at: 0
+starts_at: 
 color: "#AD926F"
 cover_image:
-  lot_number: 0
+  lot_number: 
   title: ''
   image: ''
 filename: ''
@@ -13,7 +13,7 @@ permalink: "/books-manuscripts/fine-books-autographs/2573"
 sale: 2573
 title: Fine Books & Autographs
 datetime:
-  date: 2021-06-17 04:00:00 +0000
+  date: 2021-06-17T04:00:00.000+00:00
   time: 
   time2: 
 short_description: ''
@@ -21,7 +21,13 @@ chapters: []
 people:
   main_contacts: []
   officers: []
-  administration: []
+  administration:
+  - _people/vice-president-controller.md
+  - _people/client-accounting.md
+  - _people/operations-manager.md
+  - _people/art-director.md
+  - _people/kelsie-jankowski.md
+  - _people/shannon-licitra.md
   general_information: ''
 essays: []
 footer_pages: []
