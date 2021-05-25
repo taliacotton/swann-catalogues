@@ -33,6 +33,8 @@ chapters:
     lot: 136
   - chapter_title: Artists
     lot: 156
+- session_title: Fine Books
+  chapters: []
 people:
   main_contacts:
   - _people/marco-tomaschett.md
