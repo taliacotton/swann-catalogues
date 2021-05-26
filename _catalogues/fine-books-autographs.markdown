@@ -45,6 +45,7 @@ people:
   main_contacts:
   - _people/marco-tomaschett.md
   - _people/john-d.larson.md
+  - _people/david-rivera.md
   officers:
   - _people/george-s.lowry.md
   - _people/Blank Spot.md
