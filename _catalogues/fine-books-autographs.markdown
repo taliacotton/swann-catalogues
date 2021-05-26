@@ -24,7 +24,7 @@ chapters:
     lot: 165
   - chapter_title: Art, Press & Illustrated Books
     lot: 271
-- session_title: Autographs
+- session_title: ''
   chapters:
   - chapter_title: Americana
     lot: 1
@@ -39,8 +39,6 @@ chapters:
     lot: 136
   - chapter_title: Artists
     lot: 156
-- session_title: Fine Books
-  chapters: []
 people:
   main_contacts:
   - _people/marco-tomaschett.md
