@@ -8,7 +8,7 @@ cover_image:
   title: Pablo Neruda, Canto General
   image: "/v1622050616/M43596-5_1_ngtvvh.jpg"
 filename: ''
-visible: false
+visible: true
 permalink: "/books-manuscripts/fine-books-autographs/2573"
 sale: 2573
 title: Fine Books & Autographs
