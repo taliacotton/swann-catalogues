@@ -80,8 +80,6 @@ essays:
   title: WILLIAM PÈNE DU BOIS
   author: ''
   body: |-
-    # **_Lots 43 to 45_**
-
     ## Lots 43 to 45
 
     Pène du Bois' whimsical illustrations and beloved cast of characters made serious themes accessible and engaging for children. The American author and illustrator is among a select few who have been presented with both a Newbery Medal (for _The Twenty-One Balloons_, 1947) and Caldecott Honors (for _Bear Party_, 1951 and _Lion_, 1956). As both artist and author, Pène du Bois captivated generations of readers with his unique combination of humor and imagination.
@@ -96,6 +94,8 @@ essays:
     his most famous are the 1986 Metallica album _Master of Puppets_, Mötley Crüe's
     1989 album _Dr. Feelgood_, and numerous covers for the wildly popular Signet paperbacks
     of Stephen King novels including _The Stand_ and _The Dark Half_.
-footer_pages: []
+footer_pages:
+- content: ''
+  section_header: ''
 
 ---
