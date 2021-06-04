@@ -6,7 +6,7 @@ color: "#AD926F"
 cover_image:
   lot_number: 
   title: ''
-  image: ''
+  image: "/v1622782888/M44029-20_1_fpckns.jpg"
 filename: ''
 visible: false
 permalink: "/illustration-art/illustration-art/2574"
