@@ -6,7 +6,7 @@ color: "#BEEEFF"
 cover_image:
   lot_number: 42
   title: C.F. Payne, Micawber - Imitating Norman Rockwell's "Triple self-Portrait"
-  image: "/v1622823864/783471_rgm0tk.jpg"
+  image: ''
 filename: ''
 visible: false
 permalink: "/illustration-art/illustration-art/2574"
@@ -55,40 +55,6 @@ people:
   - _people/shannon-licitra.md
   general_information: ''
 essays:
-- lot: 87
-  title: JILL DEGROFF (1954- )
-  author: 'Lots 87 & 88 '
-  body: Jill DeGroff is a fine artist and sought-after caricaturist of the craft cocktail
-    era with a passionate cult following. Inspired by Al Hirschfeld's illustrations
-    of speakeasies in his 1932 book _Manhattan Oases,_ she began painting and sketching
-    in bars and jazz clubs over two decades ago, often accompanying her husband, Dale
-    DeGroff, the James Beard award-winning mixologist and author of _The Craft of
-    the Cocktail_ (and its recent update _The New Craft of the Cocktail_) and with
-    whom she co-founded the Museum of the American Cocktail in New Orleans in 2004.
-    Her book, _Lush Life Portraits from the Bar,_ (New York, 2009) is an anthology
-    of the colorful characters she met in bars around the world and the tales they
-    told.
-- lot: 91
-  title: JOHN FALTER (1910-1982)
-  author: Lots 91 to 93
-  body: Falter was a prolific illustrator and is best known for his more than 120
-    covers produced for _The Saturday Evening Post_. He received commissions for other
-    leading publications of the day, including _Esquire_, _McCall's_, _Good Housekeeping_,
-    _Cosmopolitan_, _Life_, and _Look_.
-- lot: 154
-  title: NICKY ZANN (1943-2020)
-  author: Lots 154 & 155
-  body: |-
-    Zann was a New York-based artist whose career spanned five decades and reached far and wide across New York's pop and culture scene. Recognized as one of the most innovative and prolific cartoonists and illustrators of his generation, Zann's work has appeared in magazines such as _Newsweek_, _Esquire_, _Fortune_; daily newspapers such as _The New York Times_; and in comics and on mystery covers. His celebrity caricatures have been featured in ads for ABC, MTV, CBS and NBC networks, as well as for HBO. In the early 1970s, the Disney Corporation endorsed Zann to draw Disney characters, all personally approved by Roy Disney. His work has been exhibited around the world including at London's Victoria and Albert Museum, and the Textile Museum in the Netherlands.
-
-    [****](javascript:void(0))
-- lot: 191
-  title: ADRIANNE LOBEL (1955- )
-  author: Lots 191 to 193
-  body: |-
-    Lobel has designed sets for Broadway, off-Broadway, and metropolitan and regional theater productions worldwide, including the Metropolitan Opera, Le Chatelet, The Royal National Theater, BAM, the Yale Repertory Theatre, Théatre Royal de la Monnai, New York City Opera, SUNY Purchase, and Central Park's Delacorte Theater. Her prolific work for the Mark Morris Dance Group is widely acclaimed. Many of her stage maquettes and designs are housed in the permanent collection of the McNay Art Museum, San Antonio, Texas, including those for the Houston Grand Opera productions of "Nixon in China" and "Street Scene." In 2002 she produced and was nominated for the Tony Award for Best Musical for "A Year With Frog and Toad" based upon the famous children's books by her late father, Arnold Lobel, whom she credits for instilling much of her work ethic and love of art.
-
-    [****](javascript:void(0))
 - lot: 80
   title: BRALDT BRALDS (1951- )
   author: Lots 80 & 81
