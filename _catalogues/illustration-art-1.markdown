@@ -37,18 +37,21 @@ essays:
     Post, Rolling Stone, Atlantic Monthly, Esquire, Playboy, Penthouse, National Geographic,_
     and more. His work has been featured in ad campaigns for Alfa Romeo, Atlantic
     Records, Grand Marnier, Gucci, IBM International, Kahlua, Levi-Strauss, Pirelli
-    Brazil, among others. \n\nHe has designed three stamp issues for the United Nations
+    Brazil, among others.\n\nHe has designed three stamp issues for the United Nations
     Postal Service and the United States Postal Service. In the late 1990s, Bralds
     transitioned to a fine art career, displaying his work in exhibits and galleries
-    throughout the world.   \n A long list of awards includes a Hall of Fame recognition
+    throughout the world.  \nA long list of awards includes a Hall of Fame recognition
     from the Dutch Society of Illustrators, an Andy Award, and a Clio Award. From
     The Society of Illustrators, he has won several medals, the coveted Hamilton King
     Award in 1984 and, just this spring of 2021, was inducted into their prestigious
     Hall of Fame."
-- lot: 
-  title: ''
+- lot: 43
+  title: WILLIAM PÈNE DU BOIS
   author: ''
-  body: ''
+  body: |-
+    Pène du Bois' whimsical illustrations and beloved cast of characters made serious themes accessible and engaging for children. The American author and illustrator is among a select few who have been presented with both a Newbery Medal (for The Twenty-One Balloons, 1947) and Caldecott Honors (for Bear Party, 1951 and Lion, 1956). As both artist and author, Pène du Bois captivated generations of readers with his unique combination of humor and imagination.
+
+    Read more about William Pène du Bois in [this Illustrator Profile](https://www.swanngalleries.com/news/illustration-art/2020/04/illustrator-profile-william-pene-du-bois/ "Blog Post").
 - lot: 
   title: ''
   author: ''
