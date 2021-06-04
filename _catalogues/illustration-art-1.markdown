@@ -58,7 +58,7 @@ essays:
 - lot: 80
   title: Braldt Bralds (1951- )
   author: ''
-  body: "\n## Lots 80 to 81\n\nBralds, a mostly self-taught artist from the Netherlands,
+  body: "## Lots 80 to 81\n\nBralds, a mostly self-taught artist from the Netherlands,
     has been a prolific and sought-after illustrator for several decades. He was launched
     into fame beginning in 1978 when he received his first commission with a cover
     for _TIME_ magazine soon followed by his indelible image of the proud Morgaine
