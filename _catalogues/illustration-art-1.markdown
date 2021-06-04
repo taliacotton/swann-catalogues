@@ -55,6 +55,13 @@ people:
   - _people/shannon-licitra.md
   general_information: ''
 essays:
+- lot: 154
+  title: NICKY ZANN (1943-2020)
+  author: Lots 154 & 155
+  body: |-
+    Zann was a New York-based artist whose career spanned five decades and reached far and wide across New York's pop and culture scene. Recognized as one of the most innovative and prolific cartoonists and illustrators of his generation, Zann's work has appeared in magazines such as _Newsweek_, _Esquire_, _Fortune_; daily newspapers such as _The New York Times_; and in comics and on mystery covers. His celebrity caricatures have been featured in ads for ABC, MTV, CBS and NBC networks, as well as for HBO. In the early 1970s, the Disney Corporation endorsed Zann to draw Disney characters, all personally approved by Roy Disney. His work has been exhibited around the world including at London's Victoria and Albert Museum, and the Textile Museum in the Netherlands.
+
+    [****](javascript:void(0))
 - lot: 191
   title: ADRIANNE LOBEL (1955- )
   author: Lots 191 to 193
