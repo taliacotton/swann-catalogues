@@ -87,7 +87,7 @@ essays:
     Read more about William Pène du Bois in [this Illustrator Profile](https://www.swanngalleries.com/news/illustration-art/2020/04/illustrator-profile-william-pene-du-bois/ "Illustrator Profile").
 - lot: 74
   title: Don Brautigam (1946-2008)
-  author: ''
+  author: Lots 74 to 79
   body: Brautigam was a highly skilled illustrator who pioneered the use of black
     paint against striking colors to create some of the most iconic heavy metal album
     covers and thriller/horror genre book covers throughout the 1980s and 90s. Among
