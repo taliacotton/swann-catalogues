@@ -21,6 +21,8 @@ chapters:
 - chapters:
   - chapter_title: 'Children''s Book & Magazine Illustration '
     lot: 1
+  - chapter_title: 'The New Yorker '
+    lot: 254
   session_title: ''
 people:
   main_contacts:
