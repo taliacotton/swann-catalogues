@@ -55,6 +55,19 @@ people:
   - _people/shannon-licitra.md
   general_information: ''
 essays:
+- lot: 87
+  title: JILL DEGROFF (1954- )
+  author: Lots 87 & 88
+  body: Jill DeGroff is a fine artist and sought-after caricaturist of the craft cocktail
+    era with a passionate cult following. Inspired by Al Hirschfeld's illustrations
+    of speakeasies in his 1932 book _Manhattan Oases,_ she began painting and sketching
+    in bars and jazz clubs over two decades ago, often accompanying her husband, Dale
+    DeGroff, the James Beard award-winning mixologist and author of _The Craft of
+    the Cocktail_ (and its recent update _The New Craft of the Cocktail_) and with
+    whom she co-founded the Museum of the American Cocktail in New Orleans in 2004.
+    Her book, _Lush Life Portraits from the Bar,_ (New York, 2009) is an anthology
+    of the colorful characters she met in bars around the world and the tales they
+    told.
 - lot: 80
   title: BRALDT BRALDS (1951- )
   author: Lots 80 & 81
