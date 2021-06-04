@@ -80,7 +80,7 @@ essays:
   title: WILLIAM PÈNE DU BOIS
   author: ''
   body: |-
-    ## Lots 43 to 45
+    ## **Lots 43 to 45**
 
     Pène du Bois' whimsical illustrations and beloved cast of characters made serious themes accessible and engaging for children. The American author and illustrator is among a select few who have been presented with both a Newbery Medal (for _The Twenty-One Balloons_, 1947) and Caldecott Honors (for _Bear Party_, 1951 and _Lion_, 1956). As both artist and author, Pène du Bois captivated generations of readers with his unique combination of humor and imagination.
 
