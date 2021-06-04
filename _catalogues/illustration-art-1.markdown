@@ -83,10 +83,15 @@ essays:
     Pène du Bois' whimsical illustrations and beloved cast of characters made serious themes accessible and engaging for children. The American author and illustrator is among a select few who have been presented with both a Newbery Medal (for T_he Twenty-One Balloons_, 1947) and Caldecott Honors (for _Bear Party_, 1951 and _Lion_, 1956). As both artist and author, Pène du Bois captivated generations of readers with his unique combination of humor and imagination.
 
     Read more about William Pène du Bois in [this Illustrator Profile](https://www.swanngalleries.com/news/illustration-art/2020/04/illustrator-profile-william-pene-du-bois/ "Illustrator Profile").
-- lot: 
-  title: ''
+- lot: 74
+  title: Don Brautigam (1946-2008)
   author: ''
-  body: ''
+  body: Brautigam was a highly skilled illustrator who pioneered the use of black
+    paint against striking colors to create some of the most iconic heavy metal album
+    covers and thriller/horror genre book covers throughout the 1980s and 90s. Among
+    his most famous are the 1986 Metallica album _Master of Puppets_, Mötley Crüe's
+    1989 album _Dr. Feelgood_, and numerous covers for the wildly popular Signet paperbacks
+    of Stephen King novels including _The Stand_ and _The Dark Half_.
 footer_pages: []
 
 ---
