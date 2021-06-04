@@ -6,7 +6,7 @@ color: "#BEEEFF"
 cover_image:
   lot_number: 42
   title: C.F. Payne, Micawber - Imitating Norman Rockwell's "Triple self-Portrait"
-  image: ''
+  image: "/v1622834645/M44029-20_1_lucybs.jpg"
 filename: ''
 visible: false
 permalink: "/illustration-art/illustration-art/2574"
