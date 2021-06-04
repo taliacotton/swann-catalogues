@@ -21,6 +21,14 @@ chapters:
 - chapters:
   - chapter_title: 'Children''s Book & Magazine Illustration '
     lot: 1
+  - chapter_title: 'General Book & Magazine Illustration '
+    lot: 66
+  - chapter_title: 'Advertising & Design '
+    lot: 156
+  - chapter_title: "  Theater, Fashion, & Film "
+    lot: 179
+  - chapter_title: 'Comics, Cartoons & Caricatures '
+    lot: 200
   - chapter_title: 'The New Yorker '
     lot: 254
   session_title: ''
