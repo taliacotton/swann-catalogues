@@ -55,6 +55,13 @@ people:
   - _people/shannon-licitra.md
   general_information: ''
 essays:
+- lot: 191
+  title: ADRIANNE LOBEL (1955- )
+  author: Lots 191 to 193
+  body: |-
+    Lobel has designed sets for Broadway, off-Broadway, and metropolitan and regional theater productions worldwide, including the Metropolitan Opera, Le Chatelet, The Royal National Theater, BAM, the Yale Repertory Theatre, Théatre Royal de la Monnai, New York City Opera, SUNY Purchase, and Central Park's Delacorte Theater. Her prolific work for the Mark Morris Dance Group is widely acclaimed. Many of her stage maquettes and designs are housed in the permanent collection of the McNay Art Museum, San Antonio, Texas, including those for the Houston Grand Opera productions of "Nixon in China" and "Street Scene." In 2002 she produced and was nominated for the Tony Award for Best Musical for "A Year With Frog and Toad" based upon the famous children's books by her late father, Arnold Lobel, whom she credits for instilling much of her work ethic and love of art.
+
+    [****](javascript:void(0))
 - lot: 80
   title: BRALDT BRALDS (1951- )
   author: Lots 80 & 81
