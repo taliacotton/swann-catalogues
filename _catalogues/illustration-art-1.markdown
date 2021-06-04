@@ -55,6 +55,13 @@ people:
   - _people/shannon-licitra.md
   general_information: ''
 essays:
+- lot: 91
+  title: JOHN FALTER (1910-1982)
+  author: Lots 91 to 93
+  body: Falter was a prolific illustrator and is best known for his more than 120
+    covers produced for _The Saturday Evening Post_. He received commissions for other
+    leading publications of the day, including _Esquire_, _McCall's_, _Good Housekeeping_,
+    _Cosmopolitan_, _Life_, and _Look_.
 - lot: 154
   title: NICKY ZANN (1943-2020)
   author: Lots 154 & 155
