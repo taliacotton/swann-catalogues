@@ -69,7 +69,7 @@ essays:
     nominated for the Tony Award for Best Musical for "A Year With Frog and Toad"
     based upon the famous children's books by her late father, Arnold Lobel, whom
     she credits for instilling much of her work ethic and love of art.
-- lot: 
+- lot: 87
   body: Jill DeGroff is a fine artist and sought-after caricaturist of the craft cocktail
     era with a passionate cult following. Inspired by Al Hirschfeld's illustrations
     of speakeasies in his 1932 book _Manhattan Oases,_ she began painting and sketching
