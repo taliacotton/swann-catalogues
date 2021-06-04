@@ -56,7 +56,7 @@ people:
   general_information: ''
 essays:
 - lot: 80
-  title: Braldt Bralds (1951- )
+  title: BRALDT BRALDS (1951- )
   author: Lots 80 & 81
   body: "Bralds, a mostly self-taught artist from the Netherlands, has been a prolific
     and sought-after illustrator for several decades. He was launched into fame beginning
