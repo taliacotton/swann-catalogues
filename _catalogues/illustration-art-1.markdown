@@ -78,7 +78,7 @@ essays:
     Hall of Fame."
 - lot: 43
   title: WILLIAM PÈNE DU BOIS
-  author: Lots 43 to 45
+  author: ''
   body: |-
     # **_Lots 43 to 45_**
 
