@@ -17,7 +17,11 @@ datetime:
   time: 2021-06-01T12:00:00.000+00:00
   time2: 
 short_description: ''
-chapters: []
+chapters:
+- chapters:
+  - chapter_title: 'Children''s Book & Magazine Illustration '
+    lot: 1
+  session_title: ''
 people:
   main_contacts:
   - _people/christine-von-der-linn.md
