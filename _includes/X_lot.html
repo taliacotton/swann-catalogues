@@ -90,7 +90,8 @@
                                 {{ site.cloudinary_url }}/f_auto,q_70,w_1600{{ image }} 1600w"
                             data-src="{{ site.cloudinary_url }}/f_auto,q_65,w_500/{{ image }}"
                             alt=""
-                            class="lazyload" />
+                            class="lazyload dont-print" />
+                        <img class="print-content" src="{{ site.cloudinary_url }}/f_auto,q_100,w_528/{{ image }}">
                     </div>
                     {% endfor %}
             </div>
@@ -122,7 +123,7 @@
                         data-src="{{ site.cloudinary_url }}/f_auto,q_50,w_40/{{ lot.image }}"
                         src="{{ site.cloudinary_url }}/f_auto,q_50,w_40/{{ lot.image }}"
                         alt="" 
-                        class="lazyload"/>
+                        class="lazyload dont-print"/>
                 <img class="print-content" src="{{ site.cloudinary_url }}/f_auto,q_100,w_528/{{ lot.image }}">
             {% elsif lot.REFNO %}
             <!-- (min-width: 726px) 50vw, 100vw -->
@@ -137,7 +138,7 @@
                         data-src="{{ site.cloudinary_url }}/f_auto,q_50,w_400/{{page.sale}}/{{ lot.REFNO }}.jpg"
                         src="{{ site.cloudinary_url }}/f_auto,q_50,w_40/{{page.sale}}/{{ lot.REFNO }}.jpg"
                         alt="" 
-                        class="lazyload" />
+                        class="lazyload dont-print" />
             <img class="print-content" src="{{ site.cloudinary_url }}/f_auto,q_100,w_528/{{page.sale}}/{{ lot.REFNO }}.jpg">
             {% endif %}
 
@@ -193,8 +194,8 @@
             {% endif %}
             <span class="lot-number">{{lot.LOT}}</span>
             <h2>
-                {{lot.DESCRIPT}}
-                <br><i>{{lot.CROSSHEAD}}</i>
+                {{lot.DESCRIPT | smartify | capitalize}}
+                <br><i>{{lot.CROSSHEAD | smartify}}</i>
             </h2>
             <div class='at-a-glance'>
                 <div class="silhouette">
