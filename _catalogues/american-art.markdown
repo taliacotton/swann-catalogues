@@ -6,7 +6,7 @@ color: "#AD926F"
 cover_image:
   lot_number: 172
   title: Alice Beach Winter, Pond Gloucester
-  image: ''
+  image: "/v1623442308/782300_cqkeoa.jpg"
 filename: ''
 visible: false
 permalink: "/fine-art/american-art/2575"
