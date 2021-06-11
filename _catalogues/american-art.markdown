@@ -41,7 +41,7 @@ chapters:
     lot: 335
   - chapter_title: Landscape New Realism
     lot: 341
-  session_title: Temporary Session Title
+  session_title: ''
 people:
   main_contacts:
   - _people/todd-weyman.md
