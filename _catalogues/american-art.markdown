@@ -21,33 +21,27 @@ chapters:
 - chapters:
   - chapter_title: 19th Century
     lot: 1
-  - chapter_title: Impressionism, Aestheticism and Tonalism
+  - chapter_title: Impressionism, Aestheticism & Tonalism
     lot: 38
-  - chapter_title: Ash Can School
+  - chapter_title: Ashcan School
     lot: 80
   - chapter_title: Early 20th Century Modernism
     lot: 89
-  - chapter_title: New York and Industrial Scenes
+  - chapter_title: New York & Industrial Scenes
     lot: 145
   - chapter_title: Post Impressionism
     lot: 168
-  - chapter_title: Mid-Century Modernism and Symbolic Realism
+  - chapter_title: Mid-Century Modernism & Symbolic Realism
     lot: 213
   - chapter_title: Social Realism
     lot: 287
-  - chapter_title: Post Surreal and Expressionist Figures and Landscapes
+  - chapter_title: Post-Surreal & Expressionist Figures & Landscapes
     lot: 313
   - chapter_title: Abstract Art
     lot: 335
   - chapter_title: Landscape New Realism
     lot: 341
-  session_title: ''
-- chapters:
-  - chapter_title: Landscape New Realism
-    lot: 341
-  - lot: 
-    chapter_title: ''
-  session_title: ''
+  session_title: Temporary Session Title
 people:
   main_contacts:
   - _people/todd-weyman.md
