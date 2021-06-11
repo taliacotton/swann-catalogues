@@ -8,7 +8,7 @@ cover_image:
   title: Alice Beach Winter, Pond Gloucester
   image: "/v1623442308/782300_cqkeoa.jpg"
 filename: ''
-visible: false
+visible: true
 permalink: "/fine-art/american-art/2575"
 sale: 2575
 title: American Art
