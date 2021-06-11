@@ -4,8 +4,8 @@ lots: []
 starts_at: 0
 color: "#AD926F"
 cover_image:
-  lot_number: 0
-  title: ''
+  lot_number: 172
+  title: Alice Beach Winter, Pond Gloucester
   image: ''
 filename: ''
 visible: false
