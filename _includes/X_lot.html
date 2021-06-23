@@ -193,8 +193,14 @@
                 </p>
             {% endif %}
             <span class="lot-number">{{lot.LOT}}</span>
+            
+                {% if !lot.customCapitalization %}
             <h2>
+                {{lot.DESCRIPT | smartify}}
+                {% else %}
+            <h2 class="capitalize">
                 {{lot.DESCRIPT | smartify | capitalize}}
+                {% endif %}
                 <br><i>{{lot.CROSSHEAD | smartify}}</i>
             </h2>
             <div class='at-a-glance'>
