@@ -41,6 +41,9 @@ fields:
   - name: customCapitalization
     type: boolean
     label: Custom Capitalization (for first line)
+    description: If left off, an all-caps title will revert to title case. <br>If
+      turned on, the title will reflect the exact capitalization used in the field
+      above.
   - name: at-a-glance
     type: textarea
     default: ''
