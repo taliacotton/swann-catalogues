@@ -38,6 +38,9 @@ fields:
   - type: text
     name: CROSSHEAD
     label: 'Second Line: Title of Piece'
+  - name: customCapitalization
+    type: boolean
+    label: Custom Capitalization (for first line)
   - name: at-a-glance
     type: textarea
     default: ''
