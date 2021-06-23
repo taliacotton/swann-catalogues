@@ -34,6 +34,11 @@ fields:
   config:
     required: false
   label: 'Second Line: Title of Piece'
+- name: customCapitalization
+  type: boolean
+  description: If left off, an all-caps title will revert to title case. <br>If turned
+    on, the title will reflect the exact capitalization used in the field above.
+  label: Custom Capitalization (for first line)
 - name: at-a-glance
   type: textarea
   default: ''
