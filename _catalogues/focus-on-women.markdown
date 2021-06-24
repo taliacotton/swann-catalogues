@@ -6,7 +6,7 @@ color: "#AD926F"
 cover_image:
   lot_number: 
   title: ''
-  image: ''
+  image: "/v1624546503/2576/781335.jpg"
 filename: ''
 visible: false
 permalink: "/books-manuscripts/focus-on-women/2576"
