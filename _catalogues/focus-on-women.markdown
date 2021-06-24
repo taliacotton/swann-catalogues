@@ -2,7 +2,7 @@
 layout: X_catalogue
 lots: []
 starts_at: 
-color: "#AD926F"
+color: "#FFEC00"
 cover_image:
   lot_number: 176
   title: 'Women''s Graphics Collective, Dia Internacional De La Mujer: International
