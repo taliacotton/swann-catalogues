@@ -4,8 +4,9 @@ lots: []
 starts_at: 
 color: "#AD926F"
 cover_image:
-  lot_number: 
-  title: ''
+  lot_number: 176
+  title: 'Women''s Graphics Collective, Dia Internacional De La Mujer: International
+    Women''s Day Poster'
   image: "/v1624546503/2576/781335.jpg"
 filename: ''
 visible: false
