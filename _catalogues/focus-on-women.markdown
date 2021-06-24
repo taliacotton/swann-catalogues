@@ -18,7 +18,15 @@ datetime:
   time: 2021-06-01T12:00:00.000+00:00
   time2: 
 short_description: ''
-chapters: []
+chapters:
+- session_title: ''
+  chapters:
+  - chapter_title: '18th Century  '
+    lot: 1
+  - chapter_title: '19th Century  '
+    lot: 35
+  - chapter_title: '20th Century  '
+    lot: 126
 people:
   main_contacts:
   - _people/devon-eastland.md
