@@ -7,7 +7,7 @@ cover_image:
   lot_number: 176
   title: 'Women''s Graphics Collective, Dia Internacional De La Mujer: International
     Women''s Day Poster'
-  image: "/v1624642800/781335_imct8p.jpg"
+  image: "/v1624770167/retouched2_M43672-1_1_forzje.jpg"
 filename: ''
 visible: false
 permalink: "/books-manuscripts/focus-on-women/2576"
