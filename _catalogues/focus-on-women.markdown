@@ -9,7 +9,7 @@ cover_image:
     Women''s Day Poster'
   image: "/v1624770167/retouched2_M43672-1_1_forzje.jpg"
 filename: ''
-visible: false
+visible: true
 permalink: "/books-manuscripts/focus-on-women/2576"
 sale: 2576
 title: Focus on Women
