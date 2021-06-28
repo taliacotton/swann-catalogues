@@ -49,7 +49,20 @@ people:
   - _people/kelsie-jankowski.md
   - _people/shannon-licitra.md
   general_information: ''
-essays: []
+essays:
+- lot: 1
+  title: ''
+  author: ''
+  body: Focus on Women includes material created by women who are household names,
+    and others whose stories have been almost entirely forgotten. In the course of
+    selecting and cataloging material for the sale, the truths of many women's struggles
+    and accomplishments—both mundane and record-making—manifested in several ways,
+    with a core of interlocking patterns. Piecing together the untold stories required
+    research guided by trails of breadcrumbs left by the objects themselves. We at
+    Swann hope that our audience of scholars, collectors, and institutions will enjoy
+    the early printed books, manuscripts, fine bindings, photographs, prints, drawings,
+    and archives we have assembled to celebrate and highlight the contributions of
+    women.
 footer_pages: []
 
 ---
