@@ -15,7 +15,7 @@ sale: 2576
 title: Focus on Women
 datetime:
   date: 2021-07-15T04:00:00.000+00:00
-  time: 2021-06-01T12:00:00.000+00:00
+  time: 2021-06-01 13:00:00 +0000
   time2: 
 short_description: ''
 chapters:
