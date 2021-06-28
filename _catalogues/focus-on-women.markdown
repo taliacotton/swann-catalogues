@@ -21,7 +21,7 @@ short_description: ''
 chapters:
 - session_title: ''
   chapters:
-  - chapter_title: '18th Century  '
+  - chapter_title: Pre-1800
     lot: 1
   - chapter_title: '19th Century  '
     lot: 35
