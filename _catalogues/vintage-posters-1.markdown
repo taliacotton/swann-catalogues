@@ -6,7 +6,7 @@ color: "#AD926F"
 cover_image:
   lot_number: 
   title: ''
-  image: "/v1625849759/crop_M33453-6_1_wnovbj.tiff"
+  image: "/v1625860432/crop_M33453-6_1_ogcbvt.jpg"
 filename: ''
 visible: false
 permalink: "/vintage-posters/august-sale/2577"
