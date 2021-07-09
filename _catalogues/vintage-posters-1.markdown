@@ -20,31 +20,31 @@ short_description: ''
 chapters:
 - session_title: ''
   chapters:
-  - chapter_title: World War I - Lots 1-78
+  - chapter_title: World War I
     lot: 1
-  - chapter_title: " World War II - Lots 82-119"
+  - chapter_title: " World War II "
     lot: 82
-  - chapter_title: Post-War, Propaganda & Counterculture - Lots 120-142
+  - chapter_title: Post-War, Propaganda & Counterculture
     lot: 120
-  - chapter_title: Early American & Art Nouveau - Lots 148-177
+  - chapter_title: Early American & Art Nouveau
     lot: 148
-  - chapter_title: Drinks & Liquor - Lots 178-190
+  - chapter_title: 'Drinks & Liquor '
     lot: 178
-  - chapter_title: " Bicycles & Automobiles - Lots 193-205"
+  - chapter_title: " Bicycles & Automobiles "
     lot: 193
-  - chapter_title: German, Swiss, & European Art Deco- Lots 206-217
+  - chapter_title: German, Swiss, & European Art Deco
     lot: 206
-  - chapter_title: " Ocean Liner & Airlines- Lots 218-249"
+  - chapter_title: " Ocean Liner & Airlines"
     lot: 218
-  - chapter_title: Beach & Summer Resort - Lots 250-293
+  - chapter_title: Beach & Summer Resort
     lot: 250
-  - chapter_title: Maps & Travel - Lots 294-338
+  - chapter_title: 'Maps & Travel '
     lot: 294
-  - chapter_title: Sports & Olympics - Lots 339-342
+  - chapter_title: 'Sports & Olympics '
     lot: 339
-  - chapter_title: Mather Work Incentive - Lots 343-353
+  - chapter_title: Mather Work Incentive
     lot: 343
-  - chapter_title: " Products & Exhibition 354-365"
+  - chapter_title: " Products & Exhibition"
     lot: 354
 people:
   main_contacts: []
