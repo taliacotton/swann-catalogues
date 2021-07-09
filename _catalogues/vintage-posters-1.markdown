@@ -47,7 +47,10 @@ chapters:
   - chapter_title: " Products & Exhibition"
     lot: 354
 people:
-  main_contacts: []
+  main_contacts:
+  - _people/nicholas-d.lowry.md
+  - _people/lauren-goldberg.md
+  - _people/jennifer-de-candia.md
   officers:
   - _people/george-s.lowry.md
   - _people/Blank Spot.md
