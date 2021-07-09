@@ -4,8 +4,8 @@ lots: []
 starts_at: 
 color: "#AD926F"
 cover_image:
-  lot_number: 
-  title: ''
+  lot_number: 197
+  title: Plinio Codognato, Cicli Fiat
   image: "/v1625860432/crop_M33453-6_1_ogcbvt.jpg"
 filename: ''
 visible: false
