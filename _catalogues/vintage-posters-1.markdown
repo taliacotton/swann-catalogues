@@ -8,7 +8,7 @@ cover_image:
   title: Plinio Codognato, Cicli Fiat
   image: "/v1625860432/crop_M33453-6_1_ogcbvt.jpg"
 filename: ''
-visible: false
+visible: true
 permalink: "/vintage-posters/august-sale/2577"
 sale: 2577
 title: Vintage Posters
