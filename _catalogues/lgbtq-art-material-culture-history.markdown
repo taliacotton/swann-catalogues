@@ -4,7 +4,7 @@ lots: []
 starts_at: 
 color: "#AD926F"
 cover_image:
-  lot_number: 0
+  lot_number: 
   title: ''
   image: ''
 filename: ''
@@ -13,15 +13,21 @@ permalink: "/swann/lgbtq-art-material-culture-history/2578"
 sale: 2578
 title: LGBTQ+ Art, Material Culture & History
 datetime:
-  date: 2021-08-19 04:00:00 +0000
-  time: 2021-07-01 12:00:00 +0000
+  date: 2021-08-19T04:00:00.000+00:00
+  time: 2021-07-01T12:00:00.000+00:00
   time2: 
 short_description: ''
 chapters: []
 people:
   main_contacts: []
   officers: []
-  administration: []
+  administration:
+  - _people/vice-president-controller.md
+  - _people/client-accounting.md
+  - _people/operations-manager.md
+  - _people/art-director.md
+  - _people/kelsie-jankowski.md
+  - _people/shannon-licitra.md
   general_information: ''
 essays: []
 footer_pages: []
