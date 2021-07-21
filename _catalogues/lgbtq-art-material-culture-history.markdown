@@ -17,7 +17,9 @@ datetime:
   time: 2021-07-01T12:00:00.000+00:00
   time2: 
 short_description: ''
-chapters: []
+chapters:
+- session_title: ''
+  chapters: []
 people:
   main_contacts: []
   officers:
@@ -38,7 +40,23 @@ people:
   - _people/kelsie-jankowski.md
   - _people/shannon-licitra.md
   general_information: ''
-essays: []
+essays:
+- lot: 146
+  title: Tom of Finland (1920-1991)
+  author: ''
+  body: Tom of Finland (born Touko Laaksonen) pioneered a new freedom and aesthetic
+    in gay erotic art. Coming of age in a time and place of extreme censorship, he
+    was inspired by the "beefcake" photographs that were primarily distributed through
+    body building magazines of the 1940s and \`50s to create a visual language for
+    gay men that was hyper-masculine and, over time, increasingly graphic, depicting
+    the wildest sexual fantasies. Always instilled with a playfulness and joyful involvement
+    of the participants, they also toyed with rebellion and put sex, politics, history,
+    and aesthetics on a level playing field. His work became an inspiration for generations
+    of artists to find their own voice and expression. His drawings, photographs,
+    and collages can be found in several important collections and museums, including
+    the Metropolitan Museum of Art, the Museum of Modern Art, the Art Institute of
+    Chicago, Los Angeles County Museum of Art, San Francisco Museum of Modern Art,
+    among others.
 footer_pages: []
 
 ---
