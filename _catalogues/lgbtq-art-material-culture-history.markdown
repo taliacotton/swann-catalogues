@@ -4,8 +4,8 @@ lots: []
 starts_at: 
 color: "#AD926F"
 cover_image:
-  lot_number: 
-  title: ''
+  lot_number: 151
+  title: Tom of Finland, Home Secured
   image: "/v1627081949/cropM44183-1_1_u7chiq.jpg"
 filename: ''
 visible: false
