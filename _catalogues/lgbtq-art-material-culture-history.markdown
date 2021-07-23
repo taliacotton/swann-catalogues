@@ -6,7 +6,7 @@ color: "#AD926F"
 cover_image:
   lot_number: 
   title: ''
-  image: ''
+  image: "/v1627081949/cropM44183-1_1_u7chiq.jpg"
 filename: ''
 visible: false
 permalink: "/swann/lgbtq-art-material-culture-history/2578"
