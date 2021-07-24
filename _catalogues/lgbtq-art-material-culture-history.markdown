@@ -2,7 +2,7 @@
 layout: X_catalogue
 lots: []
 starts_at: 
-color: "#D3A871"
+color: "#F8B55C"
 cover_image:
   lot_number: 151
   title: Tom of Finland, Home Secured
