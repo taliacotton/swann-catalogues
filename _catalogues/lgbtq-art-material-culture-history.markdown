@@ -31,7 +31,8 @@ chapters:
   - chapter_title: Keith Haring
     lot: 192
 people:
-  main_contacts: []
+  main_contacts:
+  - _people/nicholas-d.lowry.md
   officers:
   - _people/george-s.lowry.md
   - _people/Blank Spot.md
