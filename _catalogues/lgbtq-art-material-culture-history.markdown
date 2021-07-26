@@ -2,7 +2,7 @@
 layout: X_catalogue
 lots: []
 starts_at: 
-color: "#FF0280"
+color: "#CF026A"
 cover_image:
   lot_number: 222
   title: Hugh Steers, Gold Fringe
