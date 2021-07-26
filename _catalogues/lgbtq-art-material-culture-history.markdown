@@ -6,7 +6,7 @@ color: "#F8B55C"
 cover_image:
   lot_number: 151
   title: Tom of Finland, Home Secured
-  image: "/v1627081949/cropM44183-1_1_u7chiq.jpg"
+  image: "/v1627320853/cropM44328-1_1_k76aca.jpg"
 filename: ''
 visible: false
 permalink: "/swann/lgbtq-art-material-culture-history/2578"
