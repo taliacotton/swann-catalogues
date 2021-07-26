@@ -5,7 +5,7 @@ starts_at:
 color: "#F8B55C"
 cover_image:
   lot_number: 222
-  title: Tom of Finland, Home Secured
+  title: Hugh Steers, Gold Fringe
   image: "/v1627320853/cropM44328-1_1_k76aca.jpg"
 filename: ''
 visible: false
