@@ -19,7 +19,17 @@ datetime:
 short_description: ''
 chapters:
 - session_title: ''
-  chapters: []
+  chapters:
+  - chapter_title: JEAN COCTEAU
+    lot: 10
+  - chapter_title: Carl van Vechten & George Platt Lynes
+    lot: 28
+  - chapter_title: Paul Cadmus
+    lot: 88
+  - chapter_title: Gay Rights
+    lot: 120
+  - chapter_title: Keith Haring
+    lot: 192
 people:
   main_contacts: []
   officers:
