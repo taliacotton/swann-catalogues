@@ -8,7 +8,7 @@ cover_image:
   title: Hugh Steers, Gold Fringe
   image: "/v1627320853/cropM44328-1_1_k76aca.jpg"
 filename: ''
-visible: false
+visible: true
 permalink: "/swann/lgbtq-art-material-culture-history/2578"
 sale: 2578
 title: LGBTQ+ Art, Material Culture & History
@@ -17,19 +17,7 @@ datetime:
   time: 2021-07-01T12:00:00.000+00:00
   time2: 
 short_description: ''
-chapters:
-- session_title: ''
-  chapters:
-  - chapter_title: JEAN COCTEAU
-    lot: 10
-  - chapter_title: Carl van Vechten & George Platt Lynes
-    lot: 28
-  - chapter_title: Paul Cadmus
-    lot: 88
-  - chapter_title: Gay Rights
-    lot: 120
-  - chapter_title: Keith Haring
-    lot: 192
+chapters: []
 people:
   main_contacts:
   - _people/nicholas-d.lowry.md
