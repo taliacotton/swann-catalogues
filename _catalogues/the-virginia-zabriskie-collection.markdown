@@ -9,7 +9,7 @@ cover_image:
   image: ''
 filename: ''
 visible: false
-permalink: "/fine-art/virginia-zabriskie-collection"
+permalink: "/fine-art/virginia-zabriskie-collection/2579"
 sale: 2579
 title: The Virginia Zabriskie Collection
 datetime:
