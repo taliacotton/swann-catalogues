@@ -23,7 +23,7 @@ sections:
   path: _people
   label: People
   create: documents
-  match: "**/*"
+  match: "**"
   templates:
   - person
 upload_dir: ''
