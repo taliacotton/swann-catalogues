@@ -71,6 +71,78 @@ people:
   - _people/shannon-licitra.md
   general_information: ''
 essays:
+- lot: 202
+  title: LESTER JOHNSON
+  author: ''
+  body: "Johnson came to New York in 1947 after studying at the Minneapolis School
+    of Art and the St. Paul Art School.  He was befriended by his neighbors Wolf Kahn
+    and Larry Rivers during the 1950s before moving to Columbus as an Artist-in-Residence
+    at Ohio State University from 1961-62.  He followed this post with a residence
+    at the University of Wisconsin and a supplementary academic career at Yale University.\n\nJohnson
+    was one of a group of young New York School artists who summered in Springs, East
+    Hampton in the 1950s and 60s.  He would return to Springs throughout his career
+    and counted Saul Steinberg and Willem and Elaine Kooning as neighbors.\n\nThough
+    Johnson’s work was characterized as Abstract Expressionism, he departed from this
+    already loosely defined canon by including figures and interior forms.  His physically
+    vigorous technique of action painting created portraits with a breadth of tangible
+    presences--from exuberant joy to isolated stoicism to existential despair.   In
+    the 1970s Johnson moved to portraying colorful narrative crowded street scenes.
+    \ \n\nLike Pat Adams (born 1928) and Clinton Hill (1922-2003),  Johnson was represented
+    by Korman Galleries before the roster was inherited by Virginia Zabriskie.  His
+    work would be shown by Zabriskie in New York and Paris several times from 1954
+    to 1985, helping to cement his position as a leading figure in the New York school."
+- lot: 188
+  title: RICHARD STANKIEWICZ
+  author: ''
+  body: "Zabriskie Gallery represented Stankiewicz from 1972 to 2009, and promoted
+    his work with conviction.  Often called “Junk Art”, Stankiewicz’s works were created
+    from discarded scrap metal welded together into abstract figures.  He titled his
+    works in reference to what the figures were according to his imagination, which
+    often had a sense of humor.  As the separate scraps come together in rhythmic,
+    buoyant forms, the culmination transcends the “Junk Art” label.  \n\nstankiewicz’s
+    work is an extension of his biography.  In 1928, Stankiewicz and his mother moved
+    from Philadelphia to the Rust Belt city of Detroit.  During the Great Depression,
+    they lived in a small apartment neighboring a foundry dump, where Stankiewicz
+    used to play and create his own toys from the scrap.  He studied mechanical drafting
+    before entering the Navy in 1941.  While he was stationed in the Pacific, Stankiewicz
+    would carve figures from found wood and animal bones.  After his service, he moved
+    to New York and studied under Hans Hofmann, followed by instruction from Fernand
+    Léger and sculptor Ossip Zadkine in Paris.  Back in New York by 1952, Stankiewicz
+    helped to found the Hansa Gallery alongside Wolf Kahn, where he would show his
+    welded scrap metal sculptures.  He was widely exhibited in New York and internationally,
+    though Stankiewicz felt that the market for his work had cooled in 1965 since
+    he had moved to Massachusetts.  Finding fault with his representation at Stable
+    Gallery at the time, he did not exhibit in New York until connecting with Zabriskie
+    in 1972.  His work came back to New York with new vigor.  Stankiewicz had discovered
+    new materials and was working at a larger scale with the same levity as before,
+    occasionally including kinetic elements in his works.  The Zabriskie Gallery held
+    eighteen solo exhibitions of Stankiewicz’s work over two decades."
+- lot: 184
+  title: ROBERT CONOVER
+  author: ''
+  body: Conover was born in Philadelphia and studied at the Philadelphia Museum School
+    before moving to New York where he attended the Art Students League and the Brooklyn
+    Museum School.  His first solo exhibition was held at Laurel Gallery, New York
+    in 1950 and before long Conover became noticed for his flat, angular abstractions.  Only
+    a year after being represented in The Museum of Modern Art's "Abstract Painting
+    and Sculpture in America," Conover was lauded by one critic as "one of our most
+    talented newcomers."  Conover exhibited at the New Gallery, New York and his prints
+    were exhibited at The MoMA in the 1953 "Young American Printmakers" exhibition
+    before showing his paintings at Zabriskie Gallery in 1960.
+- lot: 153
+  title: WILFRID ZOGBAUM
+  author: ''
+  body: Zogbaum studied art at the Rhode Island School of Design and Yale School of
+    Art, but it was his time spent with Hans Hofmann that greatly influenced his career.  After
+    his studies, he won a Guggenheim Fellowship and traveled extensively throughout
+    Europe, meeting artists such as Wassily Kandinsky and Fernand Léger, which cemented
+    his interest in pursuing abstraction as an art form. Returning to New York, he
+    worked as a commercial photographer professionally to survive, while continuing
+    to create his own abstract art before dedicating himself exclusively to his career
+    as an artist in 1948.  Having started his career as a painter, he switched to
+    creating sculptures in the 1950s.  He gained his reputation mostly for his sculptural
+    work, which was extremely innovative for its time, and incorporated found objects
+    such as machine parts and natural elements like stones.
 - lot: 111
   title: ELLA BERGMANN-MICHEL
   author: ''
