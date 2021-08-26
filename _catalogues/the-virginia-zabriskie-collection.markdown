@@ -71,6 +71,32 @@ people:
   - _people/shannon-licitra.md
   general_information: ''
 essays:
+- lot: 104
+  title: PAULE VÉZELAY
+  author: ''
+  body: |-
+    Vézelay was born Marjorie Watson-Williams in Bristol, England.  She studied at the Slade School of Fine Art and the London School of Art before starting her career in London, as a figurative painter, where she had her first show in 1921.
+
+    In 1926, she moved to France and changed her name to Paule Vézelay, possibly with the intention of aligning herself with the _avant-garde_ School of Paris. Her move to Paris coincided with her abandonment of figurative painting in 1928 and she dedicated herself exclusively to abstraction.  While living in France she gained success and recognition, and in the 1930s she became a member of the French abstract movement, _Abstraction-Création_.  During her time in Paris she also met and fell in love with André Masson (1896-1987) with whom she had a relationship for several years.
+
+    The onset of World War II forced her return to London where she had difficulty gaining the same type of respect from the British art community as she had in France. Nevertheless, she remained committed to abstract art, often in the form of floating, quasi-biomorphic shapes.  She engaged in innovative approaches to abstraction through her thread and wire constructions, which are seen as a significant contribution to the modern abstract artistic movement and rank among her most original works.
+
+    In 1952, the artist and publisher André Bloc (1896-1966) invited her to form a London branch of the Parisian Constructivist abstract movement _Groupe Espace_. She also formed a small group of British abstract artists who held an exhibition in 1955 at the Royal Festival Hall, which predated and anticipated the watershed 1956 Whitechapel Gallery exhibition, "This is Tomorrow."  She was one of the first British artists to commit wholly to abstraction and her achievements were recognized with a retrospective exhibition at the Tate, London in 1983.
+- lot: 99
+  title: BALCOMB AND GERTRUDE GREENE
+  author: ''
+  body: |-
+    Balcomb and Gertrude Greene (1904-1956) were among the earliest American artists to produce abstract art, creating experimental, non-objective works in the 1930s.  Balcomb began his career studying and teaching psychology, while Gertrude focused her early studies on sculpture at the Leonardo da Vinci School in New York.  When the couple married in 1926, they moved to Vienna where Balcomb continued his studies in psychology before moving to New Hampshire for three years when Balcomb was hired by Dartmouth.  After his tenure at the university, Balcomb recognized his true passion was painting and in 1931 he went to Paris to study at the Academie de la Grande Chaumière.  During this time, Gertrude was committed to her work as a sculptor and was inspired by abstract movements such as Constructivism and Neo-plasticism.
+
+    Both artists produced and championed abstract art in their artistic output as well as through activism, particularly during the 1930s.  Gertrude continued her three-dimensional work through the 1930s to the mid-1940s before pivoting to painting for the remainder of her career.  Balcomb focused on non-objective art through the 1940s before reintroducing the figure into his work later in his career.  They were founding members of the American Abstract Artists group when it was formed in 1937.  Gertrude was its first paid employee, working the desk at the Squibb Gallery exhibition in 1937 (the organization’s first yearly show), and Balcomb was its first chairman.  Its mission was to gain acceptance of abstract art within the mainstream artistic communities.  In addition to its group exhibitions, the Greenes along with other members took a more active approach and routinely picketed art museums that did not feature abstract art.
+- lot: 82
+  title: TURKU TRAJAN
+  author: ''
+  body: Trajan was born in Hungary and moved to New York at age 21, where he remained
+    for his entire career.  Though he earned his living as a cook and baker, his passion
+    was for art, and he pursued both painting and sculpture actively.  He had his
+    first solo exhibition in 1944 in New York and was exhibited frequently at Zabriskie
+    Gallery, despite having very little commercial success throughout his career.
 - lot: 77
   title: ARNOLD FRIEDMAN
   author: ''
@@ -127,7 +153,7 @@ essays:
 
     In his mature career, he found inspiration in Old Master works and he approached his canvases with a measure of dignity and mysticism.  His portraits are powerful, standing out boldly from their flattened back drops.  Simultaneously, Graham conveyed a delicate luminosity and vulnerability; his courtesans’ askew eyes act to ground the figure in a plane between fantasy and reality.  This merging of worlds characterizes not only Graham’s work but also his storied, monumental life.
 - lot: 
-  title: JOSEPH STELLA & COLLAGE
+  title: JOSEPH STELLA  AND COLLAGE
   author: ''
   body: |-
     Stella completed more than sixty-five collages during his career, using items like dirty paper, cigarette wrappers, theater tickets and leaves, all tremendously _avant-garde_ for their time.  They highlight each element’s tactility in a relatively unaltered state by the artist, allowing their natural decomposition and decay to show.  They were not exhibited during Stella's lifetime, and he spoke and wrote very little of them.  Not until a selection was first exhibited at the Zabriskie Gallery in 1960-61 were they brought to the attention of the broader artistic community.
