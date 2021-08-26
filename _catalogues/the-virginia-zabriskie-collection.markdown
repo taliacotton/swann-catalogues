@@ -71,6 +71,19 @@ people:
   - _people/shannon-licitra.md
   general_information: ''
 essays:
+- lot: 51
+  title: JOHN GRAHAM
+  author: ''
+  body: |-
+    Graham’s significant, influential career of four decades was marked by reinvention and a commitment to his vision of the endless possibilities of American Art.
+
+    Born Ivan Dabrowsky in Kiev, Graham was a law student and a czarist soldier in the 1917 revolution.  After imprisonment and the downfall of Nicholas II, Graham left Russia and arrived in the United States in 1920.  Though it is unclear if he showed artistic inclination in Russia, Graham recreated himself as an art student in New York.  He attended the Art Students League from 1922 to 1924, where he studied under John Sloan (1871-1951).  In a meteoric rise to recognition, Graham’s first solo museum exhibition was organized by Duncan Philips in 1929.
+
+    Like many early career artists, Graham traveled to Paris (his work would later be exhibited at Galerie Zabriskie, Paris) and he came under the influence of the Surrealists and their psychoanalytical approach, however he remained dedicated to his mission of creating a new American Art.  Along with Stuart Davis (1892-1964) and Arshile Gorky (1904-1948), Graham would provide a foundation for American Modernism and would be sought out by a new generation of the New York School (his watershed 1937 treatise, _System and Dialectics of Art_ had advanced the Abstract Expressionist movement).
+
+    During the 1940s, Graham departed from his post-Cubist style, and adopted a new loosened, abstract style.  At this time, he served as a mentor to younger artists such as Jackson Pollock, Willem de Kooning and Arshile Gorky, whose works would shape the Abstract Expressionist movement.  Graham was also considered influential to Lee Krasner, David Smith, Dorothy Dehner, and Mark Rothko.
+
+    In his mature career, he found inspiration in Old Master works and he approached his canvases with a measure of dignity and mysticism.  His portraits are powerful, standing out boldly from their flattened back drops.  Simultaneously, Graham conveyed a delicate luminosity and vulnerability; his courtesans’ askew eyes act to ground the figure in a plane between fantasy and reality.  This merging of worlds characterizes not only Graham’s work but also his storied, monumental life.
 - lot: 
   title: JOSEPH STELLA & COLLAGE
   author: ''
