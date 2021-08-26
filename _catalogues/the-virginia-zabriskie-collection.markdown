@@ -25,9 +25,19 @@ people:
   general_information: ''
 essays:
 - lot: 
-  title: ''
+  title: FRANÇOIS KOLLAR
   author: ''
-  body: ''
+  body: François Kollar (1904-1979), a native of Hungary, established a gallery in
+    Paris in 1930.  He began his career in advertising and fashion, photographing
+    famous models and creating ads for iconic fashion lines, most notably in _Harper's
+    Bazaar_.  His first model was his wife, who worked closely with him throughout
+    his life.  Kollar, who had early experience working in factory and industrial
+    settings, also became well-known as a master of industrial reportage. His imagery
+    examined the changing nature of work during the transitional early 20th century,
+    representing in expressive and modern compositions the changing landscape and
+    the place of the individual.  All of Kollar's compositions demonstrate his deft
+    treatment of light and texture, and feature numerous modern techniques, including
+    abstracted lighting, superimosition, double exposures and solarization.
 - lot: 138
   title: LAURE ALBIN-GUILLOT
   author: ''
