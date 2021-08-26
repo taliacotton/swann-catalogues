@@ -71,6 +71,59 @@ people:
   - _people/shannon-licitra.md
   general_information: ''
 essays:
+- lot: 283
+  title: JUNKO YODA
+  author: ''
+  body: Yoda was born in Tokushima, Japan and studied at Musashino Art University
+    in Tokyo.  She moved to New York in 1969 and had her first solo exhibition with
+    the Zabriskie Gallery in New York and Paris in 1980.  Originally working with
+    oil on canvas, she then switched to working with acrylic and washi, a traditional
+    Japanese paper.  Layering two to three sheets of handmade washi, she then colors
+    it with acrylic paint creating textural works that are inspired by topographical
+    views of nature.
+- lot: 247
+  title: MARY FRANK
+  author: ''
+  body: Frank was born in London and moved to the United States as a child in 1940.  Dance,
+    rather than painting or sculpture, was her early passion.  She studied with Martha
+    Graham (1894-1991) who influenced the remainder of her career even after she stopped
+    dancing and began working as a sculptor and painter.  Largely self-taught, she
+    had some formal artistic training, studying wood carving at Alfred van Loen’s
+    studio, drawing with Max Beckmann (1884-1950) at the Brooklyn Museum Art School,
+    and taking night classes with Hans Hofmann (1880-1966) at his Eight Street School.  Her
+    early works explored mythological and primitive themes in a variety of sculpture
+    mediums and drawing. During the late 1960s and early 1970s, she began to work
+    with clay, which became a preferred medium for its malleability.  Her ceramic
+    sculptures often depict the human body in motion in fluid form, evoking her time
+    spent studying dance.  Later in her career, she turned increasingly towards painting
+    and embracing color.  In 1969, she started exhibiting with the Zabriskie Gallery
+    who would show her work over the following decades. Her work can be found in the
+    permanent collections of The Metropolitan Museum of Art, The National Museum of
+    American Art at the Smithsonian Institution and The Art Institute of Chicago,
+    among others.
+- lot: 223
+  title: SHIRLEY GOLDFARB
+  author: ''
+  body: Goldfarb was represented by Virginia Zabriskie in Paris and New York.  Goldfarb
+    was a contemporary of the New York School, attending the Art Students League in
+    1949 where she met Jackson Pollock (1912-1956).  Goldfarb did not stay in New
+    York for long after her studies. She continued to paint in the Abstract Expressionist
+    style into the 1960s.  In 1954, she moved to Paris, where she forged her career
+    as an abstract artist with an unshakable identity.  Goldfarb embraced the Parisian
+    art scene and was welcomed into the same circles as Man Ray (1890-1976) and other
+    American ex-pats.  Distance from New York perhaps led her to develop her unique
+    style which blended French pointillism, sophisticated color theory, and her roots
+    in abstraction.
+- lot: 219
+  title: EMILIO CRUZ
+  author: ''
+  body: A New York native, Cruz began his career associated with New York artists
+    Lester Johnson, Jan Muller and Bob Thompson--artists who all applied the principles
+    of Abstract Expressionism to figurative imagery.  Of Cuban descent, Cruz spent
+    the majority of his life in New York, excluding the 1970s when he taught at the
+    School of the Art Institute of Chicago.  His work is also found in the collections
+    of the Museum of Modern Art, the Brooklyn Museum, the Studio Museum in Harlem,
+    New York and the Hirshhorn Museum, Washington, D.C.
 - lot: 202
   title: LESTER JOHNSON
   author: ''
@@ -238,7 +291,7 @@ essays:
     During the 1940s, Graham departed from his post-Cubist style, and adopted a new loosened, abstract style.  At this time, he served as a mentor to younger artists such as Jackson Pollock, Willem de Kooning and Arshile Gorky, whose works would shape the Abstract Expressionist movement.  Graham was also considered influential to Lee Krasner, David Smith, Dorothy Dehner, and Mark Rothko.
 
     In his mature career, he found inspiration in Old Master works and he approached his canvases with a measure of dignity and mysticism.  His portraits are powerful, standing out boldly from their flattened back drops.  Simultaneously, Graham conveyed a delicate luminosity and vulnerability; his courtesans’ askew eyes act to ground the figure in a plane between fantasy and reality.  This merging of worlds characterizes not only Graham’s work but also his storied, monumental life.
-- lot: 
+- lot: 44
   title: JOSEPH STELLA  AND COLLAGE
   author: ''
   body: |-
