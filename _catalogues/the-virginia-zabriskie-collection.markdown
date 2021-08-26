@@ -24,6 +24,22 @@ people:
   administration: []
   general_information: ''
 essays:
+- lot: 116
+  title: SURREALISM
+  author: ''
+  body: Through a succession of exhibitions, Virginia Zabriskie expanded the public’s
+    knowledge of Surrealism as an integrated literary and artist movement. She was
+    first made aware of Surrealist photographs through her interest in Man Ray’s work.
+    As she expanded her apprehension of Surrealist photography, she tracked down French
+    photographers involved in the movement using the Parisian phonebook. In 1985 after
+    establishing strong relationships with both known and unknown Surrealist artists
+    in France, Galerie Zabriskie, Paris hosted an exhibit titled “Surrealist Photographs”
+    which included the works of Hans Bellmer, Pierre Boucher, Brassaï, George Hugnet,
+    André Kertész, François Kollar, Roger Parry, Man Ray, and others. Just one year
+    later Gallery Zabriskie, New York held a major show titled “Surrealism 1936-Objects,
+    Photographs, Collages and Documents” that furthered the understanding of Surrealism
+    as a multidisciplinary school of thought and widened several French artists’ markets
+    in America.
 - lot: 84
   title: VIRGINIA ZABRISKIE AND PHOTOGRAPHY
   author: ''
