@@ -24,7 +24,7 @@ people:
   administration: []
   general_information: ''
 essays:
-- lot: 
+- lot: 93
   title: FRANÇOIS KOLLAR
   author: ''
   body: François Kollar, a native of Hungary, established a gallery in Paris in 1930.  He
