@@ -19,7 +19,11 @@ datetime:
 short_description: ''
 chapters: []
 people:
-  main_contacts: []
+  main_contacts:
+  - _people/todd-weyman.md
+  - _people/lisa-crecenzo.md
+  - _people/sarah-mcmillan.md
+  - _people/meagan-gandolfo.md
   officers:
   - _people/george-s.lowry.md
   - _people/Blank Spot.md
