@@ -71,6 +71,48 @@ people:
   - _people/shannon-licitra.md
   general_information: ''
 essays:
+- lot: 77
+  title: ARNOLD FRIEDMAN
+  author: ''
+  body: Friedman was born in Corona, Queens and worked at the post office while painting
+    on the weekends and in the evenings.  While maintaining his full-time job to support
+    his family, he developed his art career, first taking classes at the Art Students
+    League in 1905 under Robert Henri (1865-1929) and Kenneth Hayes Miller (1876-1952)
+    and then, in 1909, taking a leave of absence from his job to go to Paris where
+    he was introduced to Impressionism and burgeoning modern art movements such as
+    Cubism.  His style evolved throughout his career, but he maintained his focus
+    on color and nature, paying tribute to Impressionism, particularly Camille Pissarro (1820-1903).  He
+    did not dedicate himself full-time to art until 1933 when he was 59 years old.
+- lot: 73
+  title: EMILE BRANCHARD
+  author: ''
+  body: Branchard was born in Greenwich Village and lived in a boarding house in the
+    area that was run by his mother and catered to artists.  Before becoming an artist,
+    he worked as a stevedore, truck driver, and policeman on the Home Defense Fund
+    during World War I.  He contracted tuberculosis early in his career, and confined
+    to his home for long periods, began to paint.  A self-taught artist, his only
+    exposure to art had been during his childhood when he used to watch his stepfather
+    paint.  A fellow boarder saw Branchard's work and helped get his paintings into
+    the “Society of Independent Artists Exhibition” of 1919 where they were appreciated
+    by the critic and art dealer Stephan Bourgeois.  This led to further exhibitions,
+    including at the Marie Harriman Gallery and The MoMA’s “Masters of Popular Painting”
+    show in 1938.  His style, marked by flat forms with subtle, undulating contours,
+    recalls Symbolist abstraction and the Precisionist artists working in New York
+    during the 1920s and 1930s.
+- lot: 55
+  title: 'KATHERINE SHUBERT-KUNIYOSHI SCHMIDT '
+  author: ''
+  body: Schmidt began her training at the Art Students League in New York, where she
+    met her husband Yasuo Kuniyoshi (1889-1953).  Throughout the 1920s, she received
+    critical praise for her still lifes, landscapes and portrayals of New York urban
+    life, exhibiting frequently at prominent, modern New York galleries such as the
+    Downtown Gallery, the Daniel Gallery and the Whitney Studio Club (of which she
+    was a founding member and where she had her first solo exhibition in 1923).  She
+    became dissatisfied with her work from around 1939 until 1960, producing less
+    though still participating in group exhibitions, when a crumpled paper towel on
+    a table inspired her to explore the motif of dead leaves and discarded paper,
+    the style of which approached "magical realism."  She is known for her impeccable
+    technique and her elevation of everyday, overlooked subjects.
 - lot: 51
   title: JOHN GRAHAM
   author: ''
