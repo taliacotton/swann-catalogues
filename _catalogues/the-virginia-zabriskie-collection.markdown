@@ -390,7 +390,7 @@ essays:
     of the French Société des Artistes, among other key posts, and served as president
     of the Union féminine des carrières libérales et commerciales, an organization
     bent on supporting the interests of women in professional life.
-- lot: 113
+- lot: 114
   title: SURREALISM
   author: ''
   body: Through a succession of exhibitions, Virginia Zabriskie expanded the public’s
