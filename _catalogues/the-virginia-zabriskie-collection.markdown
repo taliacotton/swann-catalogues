@@ -25,7 +25,6 @@ people:
   - _people/Blank Spot.md
   - _people/Blank Spot.md
   - _people/nicholas-d.lowry.md
-  - _people/director.md
   - _people/vice-president-controller.md
   - _people/communications-director-auctioneer.md
   - _people/todd-weyman.md
