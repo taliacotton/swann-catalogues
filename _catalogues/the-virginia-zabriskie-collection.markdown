@@ -24,6 +24,22 @@ people:
   administration: []
   general_information: ''
 essays:
+- lot: 101
+  title: 'THEODORE ROSZAK '
+  author: ''
+  body: Theodore Roszak was a Polish-born American artist who experimented in several
+    mediums including photography, sculpture, painting, and print making throughout
+    his career. During a fellowship in Prague, Roszak was introduced to the aesthetics
+    and ideology of Constructivism. He explored the Constructivist movement mainly
+    through three-dimensional structures created from plaster, metal, and wood. Roszak
+    was first introduced to the practice of photography in the 1930s when he began
+    photographing his sculptural work in the studio. Inspired by Moholy-Nagy, Roszak
+    quickly began experimenting with photograms and incorporated his constructivist
+    style into his photographic compositions. Virginia Zabriskie was drawn to artists
+    who could successfully demonstrate the link between sculpture and photography
+    and the similarity of their depiction of formal compositional elements. Zabriskie
+    was an early supporter of Roszak's career and continued to work extensively with
+    the Theodore Roszak Estate.
 - lot: 93
   title: FRANÇOIS KOLLAR
   author: ''
