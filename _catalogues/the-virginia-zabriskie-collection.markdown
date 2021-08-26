@@ -71,6 +71,20 @@ people:
   - _people/shannon-licitra.md
   general_information: ''
 essays:
+- lot: 111
+  title: ELLA BERGMANN-MICHEL
+  author: ''
+  body: Born in Paderborn, Germany, Bergmann-Michel was an early espouser of Constructivism.  She
+    started making collages by 1915 and from 1917-20 studied at the Weimar Hochschule
+    für Bildenden Kunste under the German painter Walther Klemm (1893-1957).  Throughout
+    her career, she introduced innovations to the collage medium, including incorporating
+    poetry and being among the first artists to utilize photography.  Together with
+    her husband, Robert Michel (1897-1983), she became known as a pioneer of using
+    photographs in collage.  In 1920, the couple moved to Vockenhausen, near Frankfurt,
+    Germany, where she continued her work in photo-collages and ink drawings in the
+    Constructivist style, however, during World War II her artistic output waned until
+    the political climate was safer for her to continue to make and promote abstract
+    art.
 - lot: 104
   title: PAULE VÉZELAY
   author: ''
