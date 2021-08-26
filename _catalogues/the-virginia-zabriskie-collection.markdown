@@ -24,7 +24,7 @@ people:
   administration: []
   general_information: ''
 essays:
-- lot: 116
+- lot: 113
   title: SURREALISM
   author: ''
   body: Through a succession of exhibitions, Virginia Zabriskie expanded the public’s
