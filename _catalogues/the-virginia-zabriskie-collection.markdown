@@ -24,6 +24,26 @@ people:
   administration: []
   general_information: ''
 essays:
+- lot: 
+  title: ''
+  author: ''
+  body: ''
+- lot: 138
+  title: LAURE ALBIN-GUILLOT
+  author: ''
+  body: Laure Albin-Guillot's work is not easily categorized. She produced well-known
+    portraits of celebrities of her day, as well as modernist nudes, microphotography
+    of fauna, still lifes, landscapes, and portfolios of work in tandem with noted
+    French writers. Her visual approach is best characterized as semi-pictorialist,
+    with soft, luxurious values and a quiet gaze, her technical skill rendering the
+    imagery in both beautiful and precise terms. She published and exhibited widely,
+    and had the first one-person exhibition at the Salon d'Automne in Paris in 1925,
+    which garnered her increasing attention and helped establish her reputation. Her
+    fashion work appeared in _Vogue_ (the first in 1922), and other imagery was published
+    in both _Vu_ and Arts & _Metiers Graphiques_ magazines. She was named president
+    of the French Société des Artistes, among other key posts, and served as president
+    of the Union féminine des carrières libérales et commerciales, an organization
+    bent on supporting the interests of women in professional life.
 - lot: 113
   title: SURREALISM
   author: ''
