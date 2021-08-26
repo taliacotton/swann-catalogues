@@ -20,38 +20,15 @@ short_description: ''
 chapters:
 - session_title: ''
   chapters: []
-- session_title: ''
-  chapters: []
-- session_title: ''
-  chapters:
-  - chapter_title: American Early Modernism
-    lot: 1
-  - chapter_title: American Realism, Precisionism & Naîve Art
-    lot: 54
-  - chapter_title: American & European Cubism, Modernism & Abstraction
-    lot: 84
-  - chapter_title: Dada, Surrealism & Modern Photography
-    lot: 114
-  - chapter_title: American & European Modernism
-    lot: 143
-  - chapter_title: American & European Abstract Expressionism, Mixed-Media Abstraction
-      & Figural Abstraction
-    lot: 182
-  - chapter_title: American & European Nouveau Réalisme & Assemblagist Art
-    lot: 229
-  - chapter_title: Modern Figuratism & Social Landscape Photography
-    lot: 240
-  - chapter_title: Abstract & Kinetic Sculpture
-    lot: 260
-  - chapter_title: Modern & Contemporary Photojournalism, Fashion & Portrait Photography,
-      Sculpture & Abstraction
-    lot: 267
 people:
   main_contacts:
   - _people/todd-weyman.md
   - _people/lisa-crecenzo.md
   - _people/sarah-mcmillan.md
   - _people/meagan-gandolfo.md
+  - _people/deborah-rogal.md
+  - _people/jessica-hunter.md
+  - _people/florence-poynor.md
   officers:
   - _people/george-s.lowry.md
   - _people/Blank Spot.md
