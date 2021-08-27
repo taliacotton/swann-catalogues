@@ -124,29 +124,10 @@ essays:
 - lot: 188
   title: RICHARD STANKIEWICZ
   author: ''
-  body: "Zabriskie Gallery represented Stankiewicz from 1972 to 2009, and promoted
-    his work with conviction.  Often called “Junk Art”, Stankiewicz’s works were created
-    from discarded scrap metal welded together into abstract figures.  He titled his
-    works in reference to what the figures were according to his imagination, which
-    often had a sense of humor.  As the separate scraps come together in rhythmic,
-    buoyant forms, the culmination transcends the “Junk Art” label.  \n\nstankiewicz’s
-    work is an extension of his biography.  In 1928, Stankiewicz and his mother moved
-    from Philadelphia to the Rust Belt city of Detroit.  During the Great Depression,
-    they lived in a small apartment neighboring a foundry dump, where Stankiewicz
-    used to play and create his own toys from the scrap.  He studied mechanical drafting
-    before entering the Navy in 1941.  While he was stationed in the Pacific, Stankiewicz
-    would carve figures from found wood and animal bones.  After his service, he moved
-    to New York and studied under Hans Hofmann, followed by instruction from Fernand
-    Léger and sculptor Ossip Zadkine in Paris.  Back in New York by 1952, Stankiewicz
-    helped to found the Hansa Gallery alongside Wolf Kahn, where he would show his
-    welded scrap metal sculptures.  He was widely exhibited in New York and internationally,
-    though Stankiewicz felt that the market for his work had cooled in 1965 since
-    he had moved to Massachusetts.  Finding fault with his representation at Stable
-    Gallery at the time, he did not exhibit in New York until connecting with Zabriskie
-    in 1972.  His work came back to New York with new vigor.  Stankiewicz had discovered
-    new materials and was working at a larger scale with the same levity as before,
-    occasionally including kinetic elements in his works.  The Zabriskie Gallery held
-    eighteen solo exhibitions of Stankiewicz’s work over two decades."
+  body: |-
+    Zabriskie Gallery represented Stankiewicz from 1972 to 2009, and promoted his work with conviction.  Often called “Junk Art”, Stankiewicz’s works were created from discarded scrap metal welded together into abstract figures.  He titled his works in reference to what the figures were according to his imagination, which often had a sense of humor.  As the separate scraps come together in rhythmic, buoyant forms, the culmination transcends the “Junk Art” label.
+
+    Stankiewicz’s work is an extension of his biography.  In 1928, Stankiewicz and his mother moved from Philadelphia to the Rust Belt city of Detroit.  During the Great Depression, they lived in a small apartment neighboring a foundry dump, where Stankiewicz used to play and create his own toys from the scrap.  He studied mechanical drafting before entering the Navy in 1941.  While he was stationed in the Pacific, Stankiewicz would carve figures from found wood and animal bones.  After his service, he moved to New York and studied under Hans Hofmann, followed by instruction from Fernand Léger and sculptor Ossip Zadkine in Paris.  Back in New York by 1952, Stankiewicz helped to found the Hansa Gallery alongside Wolf Kahn, where he would show his welded scrap metal sculptures.  He was widely exhibited in New York and internationally, though Stankiewicz felt that the market for his work had cooled in 1965 since he had moved to Massachusetts.  Finding fault with his representation at Stable Gallery at the time, he did not exhibit in New York until connecting with Zabriskie in 1972.  His work came back to New York with new vigor.  Stankiewicz had discovered new materials and was working at a larger scale with the same levity as before, occasionally including kinetic elements in his works.  The Zabriskie Gallery held eighteen solo exhibitions of Stankiewicz’s work over two decades.
 - lot: 184
   title: ROBERT CONOVER
   author: ''
