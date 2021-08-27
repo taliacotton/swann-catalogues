@@ -48,6 +48,19 @@ people:
   - _people/shannon-licitra.md
   general_information: ''
 essays:
+- lot: 133
+  title: NAOMI SAVAGE
+  author: ''
+  body: Born Naomi Siegler, Savage was a native of Princeton, New Jersey.  Her parents
+    were Samuel Siegler and Elsie Siegler (née Radnitzky), a sister of Man Ray.  She
+    first studied photography under Berenice Abbott at the New School for Social Research
+    in 1943, and afterward attended Bennington College from 1944 until 1947 to study
+    art, photography and music.  She spent a year after her graduation in California
+    with her uncle, Man Ray, studying his techniques.  In 1950 she married the architect
+    and sculptor David Savage, with whom she moved to Paris, living there for some
+    years.  Savage was heavily influenced by Man Ray, prompting her to experiment
+    with the medium of photography, combining traditional techniques with more unusual
+    processes, including some of her own design.
 - lot: 283
   title: JUNKO YODA
   author: ''
