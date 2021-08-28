@@ -266,7 +266,7 @@ essays:
 
     During the 1940s, Graham departed from his post-Cubist style, and adopted a new loosened, abstract style.  At this time, he served as a mentor to younger artists such as Jackson Pollock, Willem de Kooning and Arshile Gorky, whose works would shape the Abstract Expressionist movement.  Graham was also considered influential to Lee Krasner, David Smith, Dorothy Dehner, and Mark Rothko.
 
-    In his mature career, he found inspiration in Old Master works and he approached his canvases with a measure of dignity and mysticism.  His portraits are powerful, standing out boldly from their flattened back drops.  Simultaneously, Graham conveyed a delicate luminosity and vulnerability; his courtesans’ askew eyes act to ground the figure in a plane between fantasy and reality.  This merging of worlds characterizes not only Graham’s work but also his storied, monumental life.
+    In his mature career, he found inspiration in Old Master works and he approached his canvases with a measure of dignity and mysticism.  His portraits are powerful, standing out boldly from their flattened back drops.  Simultaneously, Graham conveyed a delicate luminosity and vulnerability; his sitters’ askew eyes act to ground the figure in a plane between fantasy and reality.  This merging of worlds characterizes not only Graham’s work but also his storied, monumental life.
 - lot: 44
   title: JOSEPH STELLA  AND COLLAGE
   author: ''
