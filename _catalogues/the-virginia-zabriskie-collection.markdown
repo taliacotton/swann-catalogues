@@ -206,7 +206,12 @@ essays:
     for his entire career.  Though he earned his living as a cook and baker, his passion
     was for art, and he pursued both painting and sculpture actively.  He had his
     first solo exhibition in 1944 in New York and was exhibited frequently at Zabriskie
-    Gallery, despite having very little commercial success throughout his career.
+    Gallery.  His richly-colored, thickly-impastoed oils show the influence of Post
+    Impressionist movements including Fauvism and Expressionism.  Despite having little
+    commercial success throughout his career, Trajan's work was supported fervently
+    by Virginia Zabriskie, going against popular currents as she frequently did, and
+    he thereby became an important influence on the new generation of New York abstract
+    artists.
 - lot: 77
   title: ARNOLD FRIEDMAN
   author: ''
