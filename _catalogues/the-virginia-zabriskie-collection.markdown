@@ -161,12 +161,12 @@ essays:
     his studies, he won a Guggenheim Fellowship and traveled extensively throughout
     Europe, meeting artists such as Wassily Kandinsky and Fernand Léger, which cemented
     his interest in pursuing abstraction as an art form. Returning to New York, he
-    worked as a commercial photographer professionally to survive, while continuing
-    to create his own abstract art before dedicating himself exclusively to his career
-    as an artist in 1948.  Having started his career as a painter, he switched to
-    creating sculptures in the 1950s.  He gained his reputation mostly for his sculptural
-    work, which was extremely innovative for its time, and incorporated found objects
-    such as machine parts and natural elements like stones.
+    worked professionally as a commercial photographer, while continuing to create
+    his own abstract art before dedicating himself exclusively to his career as an
+    artist in 1948.  Having begun his career as a painter, he switched to sculpture
+    in the 1950s.  He gained his reputation mostly for his sculptural work, which
+    was extremely innovative for its time, and incorporated found objects such as
+    machine parts and natural elements like stones.
 - lot: 111
   title: ELLA BERGMANN-MICHEL
   author: ''
