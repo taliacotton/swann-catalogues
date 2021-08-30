@@ -382,6 +382,8 @@ essays:
 
     ![](https://res.cloudinary.com/dcryyrd42/image/upload/v1629999931/Zab-Blog_1_ivn5fb.jpg)
 
+    _Caption text: Style Check - heading 6_
+
     Swann Auction Galleries would like the express our sincerest thanks to Deborah Eigen, Assistant Gallery Director, Zabriskie Gallery, New York, from 1975 to 1990, for her extraordinary efforts and assistance with this auction. During her fifteen years at the gallery, an important time of its growth to prominence, Deborah Eigen was Virginia Zabriskie's close assistant, advisor, collaborator, friend and confidante. She was instrumental to the groundbreaking exhibition program and the acquisition of numerous key works, central to the gallery's focus. After the New York gallery was closed in 2010, Deborah Eigen returned to work with Virginia Zabriskie as her assistant and steadfast friend until Ms. Zabriskie's death in 2019. Over a period of more than twenty five years working with Virginia Zabriskie, and now as an advisor to the Estate of Virginia Zabriskie, Deborah Eigen has upheld the legacy of this renowned New York gallery and its storied owner. She has been an indefatigable source of knowledge, inspiration and care for all things Zabriskie, to many of us at Swann, through the preparation of this catalogue and the organization of this "Collection of Virginia Zabriskie" auction.
   author: ''
 footer_pages: []
