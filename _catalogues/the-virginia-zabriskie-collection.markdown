@@ -4,8 +4,8 @@ lots: []
 starts_at: 0
 color: "#AD926F"
 cover_image:
-  lot_number: 0
-  title: ''
+  lot_number: 98
+  title: 'George L. K. Morris, Composition #9.'
   image: "/v1630291630/cover_M44274-37_1_q1rmyp.jpg"
 filename: ''
 visible: false
