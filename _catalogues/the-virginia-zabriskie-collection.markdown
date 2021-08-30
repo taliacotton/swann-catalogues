@@ -362,10 +362,8 @@ essays:
 
     **_Image Captions:_**
 
-    1. _Virginia Zabriskie in front of Galerie Zabriskie, Paris_, chromogenic print, Circa 1980.
-
-       Courtesy the Estate of Virginia Zabriskie.
-    2. Paul Maurer, _Brassai and Harry Callahan at Galerie Zabriskie, Paris_, silver print, 1978.
+    1. _Virginia Zabriskie in front of Galerie Zabriskie, Paris,_ chromogenic print, circa 1980. Courtesy the Estate of Virginia Zabriskie.
+    2. Paul Maurer, _Brassai and Harry Callahan at Galerie Zabriskie, Paris,_ silver print, 1978.
 - lot: 1
   title: THE VIRGINIA ZABRISKIE COLLECTION
   body: "![](https://res.cloudinary.com/dcryyrd42/image/upload/v1629999650/_MG_1005_yhkmlw.jpg)We
