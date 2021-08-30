@@ -422,14 +422,14 @@ essays:
 
     **_Image Captions:_**
 
-    1. Hans Namuth, _Virginia Zabriskie,_ silver print, 1978.
-    2. Virginia Zabriskie, _Self Portrait,_ etching, 1949.
+    1. Hans Namuth, _Virginia Zabriskie_, silver print, 1978.
+    2. Virginia Zabriskie, _Self Portrait_, etching, 1949.
 
        Courtesy the Estate of Virginia Zabriskie.
     3. Paul Maurer, _Zabriskie Gallery, New York_, Silver print.
     4. Paul Maurer, _Pierre Boucher, Pierre Jahan, Virginia Zabriskie and others at Galerie Zabriskie, Paris_, silver print, 1978.
-    5. Paul Maurer, _Virginia Zabriskie's apartment including works by Sidney Geist, Man Ray, Timothy Woodman, and William Klein_, New York, silver print.
-    6. Timothy Woodman, _Virginia Zabriskie,_ painted aluminum, 1979.
+    5. Paul Maurer, _Virginia Zabriskie's apartment including works by Sidney Geist, Man Ray, Timothy Woodman, William Klein, and others, New York_, silver print.
+    6. Timothy Woodman, _Virginia Zabriskie_, painted aluminum, 1979.
 
        Courtesy the Estate of Virginia Zabriskie.
   author: ''
