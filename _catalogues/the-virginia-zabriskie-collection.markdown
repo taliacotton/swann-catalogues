@@ -6,7 +6,7 @@ color: "#AD926F"
 cover_image:
   lot_number: 0
   title: ''
-  image: ''
+  image: "/v1630291630/cover_M44274-37_1_q1rmyp.jpg"
 filename: ''
 visible: false
 permalink: "/fine-art/virginia-zabriskie-collection/2579"
