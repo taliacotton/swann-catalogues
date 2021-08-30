@@ -2,7 +2,7 @@
 layout: X_catalogue
 lots: []
 starts_at: 0
-color: "#BB6BAD"
+color: "#BF8DB4"
 cover_image:
   lot_number: 98
   title: 'George L. K. Morris, Composition #9.'
