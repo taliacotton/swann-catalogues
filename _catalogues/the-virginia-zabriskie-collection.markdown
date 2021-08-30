@@ -345,20 +345,56 @@ essays:
 - lot: 84
   title: VIRGINIA ZABRISKIE AND PHOTOGRAPHY
   author: ''
-  body: |-
-    ![](https://res.cloudinary.com/dcryyrd42/image/upload/v1630000888/_MG_1010_kdxkcw.jpg)
-
-    Virginia Zabriskie’s groundbreaking contributions to the photography market stemmed from her distinctive sensibilities and audacious spirit. Beginning with a trove of Alfred Stieglitz photogravures she discovered, Zabriskie began to consider the ways in which photography was marketed and exhibited, and how growing commercial interest in the medium related to its classification as an art form. The result was both innovative exhibitions that juxtaposed and corresponded photography to other mediums and photo-centric shows that brought both historical and modern material to public in innovative and dynamic ways.
-
-    Perhaps most interestingly, Zabriskie’s program established a connection between sculpture and photography, likening their sense of reality, depiction of three-dimensional space, and subject matter. One of her notable, early shows that included photography titled _Sculpture: A Photographer’s Vision,_ shown in 1977, paired Mary Frank with Jerry Thompson, Brancusi with Brancusi, Rodin with Steichen, and Gaston Lachaise with Paul Strand. The exhibition drew connections between form, line, space, and movement and helped establish the gallery as a serious authority in the medium of photography.
-
-    In 1977, Zabriskie’s association with photography grew further significant with her opening of Galerie Zabriskie in Paris. At Galerie Zabriskie, Virginia endeavored to introduce photography as a significant art form to the European market. Due to the gallery’s low ceilings and small square footage, the space naturally lent itself to photographic exhibitions, and for the first few years of Galerie Zabriskie photographic shows were the only exhibitions mounted. Her attention to the conceptual and research aspects of the program promptly made Galerie Zabriskie one of the most important photography galleries in Europe at the time. The space became a Parisian sanctuary for individuals who were serious about practicing, curating, and collecting photography. The popular openings often attracted a crowd that would spill out onto the streets, and many principal minds of the medium had their first encounter at Galerie Zabriskie. Perhaps the most important consequence of those introductions was the melding of American and French photographers.
-
-    One of Galerie Zabriskie’s goals was to introduce both contemporary and historical American photography to the French and vice versa. By the closing of Galerie Zabriskie in 1998, Virginia had introduced 26 American photographers to the European market by giving them their first international exhibition. Of those artists were historical names such as Berenice Abbott, Diane Arbus, Lee Friedlander, Robert Frank, Walker Evans, Alfred Stieglitz, and more. Zabriskie performed the same exchange for French photographers in New York. Laure Albin-Guillot, Brassaï, Georges Hugnet, Claude Cahun, Francois Kollar, and more, all had their first American exposure at the Zabriskie Gallery. She was the first gallerist to exhibit Eugène Atget’s work in a commercial setting in France; the show paired Atget’s albumen prints of Paris with Berenice Abbott’s New York cityscapes. Zabriskie’s talent for research, impeccable curatorial skills, and a discerning eye lead to museum quality exhibitions that spurred new conversations and ideas across the Atlantic.
-
-    ![](https://res.cloudinary.com/dcryyrd42/image/upload/v1630000246/_MG_0996_clgxxf.jpg)
-
-    Virginia Zabriskie changed the way we perceive and understand 20th-century photography. She introduced new photographers to the market, explored trans-Atlantic connections, and related the medium to a broader art historical cannon. With immense energy and care Virginia Zabriskie and her galleries played a major role in the expansion of the photography market and collector base.
+  body: "![](https://res.cloudinary.com/dcryyrd42/image/upload/v1630000888/_MG_1010_kdxkcw.jpg)\n\nVirginia
+    Zabriskie’s groundbreaking contributions to the photography market stemmed from
+    her distinctive sensibilities and audacious spirit. Beginning with a trove of
+    Alfred Stieglitz photogravures she discovered, Zabriskie began to consider the
+    ways in which photography was marketed and exhibited, and how growing commercial
+    interest in the medium related to its classification as an art form. The result
+    was both innovative exhibitions that juxtaposed and corresponded photography to
+    other mediums and photo-centric shows that brought both historical and modern
+    material to public in innovative and dynamic ways.\n\nPerhaps most interestingly,
+    Zabriskie’s program established a connection between sculpture and photography,
+    likening their sense of reality, depiction of three-dimensional space, and subject
+    matter. One of her notable, early shows that included photography titled _Sculpture:
+    A Photographer’s Vision,_ shown in 1977, paired Mary Frank with Jerry Thompson,
+    Brancusi with Brancusi, Rodin with Steichen, and Gaston Lachaise with Paul Strand.
+    The exhibition drew connections between form, line, space, and movement and helped
+    establish the gallery as a serious authority in the medium of photography.\n\nIn
+    1977, Zabriskie’s association with photography grew further significant with her
+    opening of Galerie Zabriskie in Paris. At Galerie Zabriskie, Virginia endeavored
+    to introduce photography as a significant art form to the European market. Due
+    to the gallery’s low ceilings and small square footage, the space naturally lent
+    itself to photographic exhibitions, and for the first few years of Galerie Zabriskie
+    photographic shows were the only exhibitions mounted. Her attention to the conceptual
+    and research aspects of the program promptly made Galerie Zabriskie one of the
+    most important photography galleries in Europe at the time. The space became a
+    Parisian sanctuary for individuals who were serious about practicing, curating,
+    and collecting photography. The popular openings often attracted a crowd that
+    would spill out onto the streets, and many principal minds of the medium had their
+    first encounter at Galerie Zabriskie. Perhaps the most important consequence of
+    those introductions was the melding of American and French photographers.\n\nOne
+    of Galerie Zabriskie’s goals was to introduce both contemporary and historical
+    American photography to the French and vice versa. By the closing of Galerie Zabriskie
+    in 1998, Virginia had introduced 26 American photographers to the European market
+    by giving them their first international exhibition. Of those artists were historical
+    names such as Berenice Abbott, Diane Arbus, Lee Friedlander, Robert Frank, Walker
+    Evans, Alfred Stieglitz, and more. Zabriskie performed the same exchange for French
+    photographers in New York. Laure Albin-Guillot, Brassaï, Georges Hugnet, Claude
+    Cahun, Francois Kollar, and more, all had their first American exposure at the
+    Zabriskie Gallery. She was the first gallerist to exhibit Eugène Atget’s work
+    in a commercial setting in France; the show paired Atget’s albumen prints of Paris
+    with Berenice Abbott’s New York cityscapes. Zabriskie’s talent for research, impeccable
+    curatorial skills, and a discerning eye lead to museum quality exhibitions that
+    spurred new conversations and ideas across the Atlantic.\n\n![](https://res.cloudinary.com/dcryyrd42/image/upload/v1630000246/_MG_0996_clgxxf.jpg)\n\nVirginia
+    Zabriskie changed the way we perceive and understand 20th-century photography.
+    She introduced new photographers to the market, explored trans-Atlantic connections,
+    and related the medium to a broader art historical cannon. With immense energy
+    and care Virginia Zabriskie and her galleries played a major role in the expansion
+    of the photography market and collector base.\n\n**_Image Captions:_** \n\n1.
+    _Virginia Zabriskie in front of Galerie Zabriskie, Paris,_ chromogenic print,
+    Circa 1980.\n\n   Courtesy the Estate of Virginia Zabriskie.\n2. Paul Maurer,
+    _Brassai and Harry Callahan at Galerie Zabriskie, Paris,_ silver print, 1978."
 - lot: 1
   title: THE VIRGINIA ZABRISKIE COLLECTION
   body: "![](https://res.cloudinary.com/dcryyrd42/image/upload/v1629999650/_MG_1005_yhkmlw.jpg)We
