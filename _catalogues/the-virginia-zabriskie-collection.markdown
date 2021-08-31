@@ -411,7 +411,7 @@ essays:
 
     ![](https://res.cloudinary.com/dcryyrd42/image/upload/v1629999931/Zab-Blog_1_ivn5fb.jpg)
 
-    1. Hans Namuth, _Virginia Zabriskie,_ silver print, 1978.
+    1. Hans Namuth, _Virginia Zabriskie before a painting by Pat Adams on the occasion of Zabriskie Gallery's 25th Anniversary,_ silver print, 1978.
     2. Virginia Zabriskie, _Self Portrait_, etching, 1949. Courtesy the Estate of Virginia Zabriskie.
     3. Paul Maurer, _Zabriskie Gallery, New York,_ silver print.
     4. Paul Maurer, _Pierre Boucher, Pierre Jahan, Virginia Zabriskie and others at Galerie Zabriskie, Paris,_ silver print, 1978.
