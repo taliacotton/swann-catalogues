@@ -8,7 +8,7 @@ cover_image:
   title: 'George L. K. Morris, Composition #9.'
   image: "/v1630291630/cover_M44274-37_1_q1rmyp.jpg"
 filename: ''
-visible: false
+visible: true
 permalink: "/fine-art/virginia-zabriskie-collection/2579"
 sale: 2579
 title: The Virginia Zabriskie Collection
