@@ -413,6 +413,8 @@ essays:
 
     * Swann Auction Galleries would like to express our sincerest thanks to Deborah Eigen, Assistant Gallery Director, Zabriskie Gallery, New York, from 1975 to 1990, for her extraordinary efforts and assistance with this auction. During her fifteen years at the gallery, an important time of its growth to prominence, Deborah Eigen was Virginia Zabriskie's close assistant, collaborator, friend and confidante. She was instrumental to the groundbreaking exhibition program and the acquisition of numerous key works, central to the gallery's focus. After the New York gallery was closed in 2010, Deborah returned to work with Virginia Zabriskie as her assistant and steadfast friend until Ms. Zabriskie's death in 2019. Over a period of more than twenty-five years working with Virginia Zabriskie, and now as an advisor to the Estate of Virginia Zabriskie, Deborah has upheld the legacy of this renowned New York gallery and its storied owner. She has been an indefatigable source of knowledge, inspiration and care for all things Zabriskie, to many of us at Swann, through the preparation of this catalogue and the organization of this "Collection of Virginia Zabriskie" auction.
 
+    <br><br>
+
     1. Hans Namuth, _Virginia Zabriskie before a painting by Pat Adams on the occasion of Zabriskie Gallery's 25th Anniversary,_ silver print, 1978.
     2. Virginia Zabriskie, _Self Portrait_, etching, 1949. Courtesy the Estate of Virginia Zabriskie.
     3. Paul Maurer, _Zabriskie Gallery, New York,_ silver print.
