@@ -8,7 +8,7 @@ cover_image:
   title: 'George L. K. Morris, Composition #9.'
   image: "/v1630291630/cover_M44274-37_1_q1rmyp.jpg"
 filename: ''
-visible: false
+visible: true
 permalink: "/fine-art/virginia-zabriskie-collection/2579"
 sale: 2579
 title: The Virginia Zabriskie Collection
@@ -17,9 +17,7 @@ datetime:
   time: 2021-08-01T10:30:00.000+00:00
   time2: 
 short_description: ''
-chapters:
-- session_title: ''
-  chapters: []
+chapters: []
 people:
   main_contacts:
   - _people/todd-weyman.md
@@ -360,106 +358,39 @@ essays:
 
     Virginia Zabriskie changed the way we perceive and understand 20th-century photography. She introduced new photographers to the market, explored trans-Atlantic connections, and related the medium to a broader art historical cannon. With immense energy and care Virginia Zabriskie and her galleries played a major role in the expansion of the photography market and collector base.
 
-    **_Image Captions:_**
-
     1. _Virginia Zabriskie in front of Galerie Zabriskie, Paris,_ chromogenic print, circa 1980. Courtesy the Estate of Virginia Zabriskie.
     2. Paul Maurer, _Brassai and Harry Callahan at Galerie Zabriskie, Paris,_ silver print, 1978.
 - lot: 1
   title: THE VIRGINIA ZABRISKIE COLLECTION
-  body: "![](https://res.cloudinary.com/dcryyrd42/image/upload/v1629999650/_MG_1005_yhkmlw.jpg)We
-    are honored to offer the collection of Virginia Zabriskie in this special single-owner
-    auction that opens our 2021 fall season. Virginia Zabriskie built her personal
-    collection during a pioneering career that spanned more than five decades, marked
-    by audacity and innovation in a field that was seldom encouraging to professional
-    women.\n\nAfter acquiring her New York gallery in 1954, at the age of 26, Zabriskie
-    inherited a promising roster of young artists, including Pat Adams, Clinton Hill
-    and Lester Johnson, all well-represented in this auction. As a young art student,
-    she had recognized her calling, musing later that, \"My ability to interpret and
-    criticize art grew faster than my ability to make it.\n\n![](https://res.cloudinary.com/dcryyrd42/image/upload/v1630001868/M44274-238_1_cyymip.jpg)Pursuing
-    art history, she became friends with and was mentored by the artist, critic and
-    modern art promoter Walter Pach while she was a college student; through him,
-    she met Marcel Duchamp, Edward Hopper and other contemporary artists in New York.
-    \ Moreover, Pach had been instrumental assisting the artist Arthur B. Davies,
-    president of the landmark 1913 \"International Exhibition of Modern Art\" also
-    known as the Armory Show, as well as one of its founders, Walt Kuhn, by bringing
-    together leading contemporary European and American artists for the show. This
-    influence doubtlessly cemented Zabriskie's connoisseurship and faith in artists’
-    visions and informed her groundbreaking exhibitions, developed around the juxtaposition
-    of media and historical eras. The risks she took with artists outside the market
-    mainstream and the opportunities she saw in promoting a new vision of modern art
-    as a neophyte New York gallery owner certainly harkened back to reminiscences
-    Walter Pach would have shared with her about the 1913 Armory Show and that watershed
-    period in modern art.  She is responsible for both launching the careers of artists
-    and bringing forgotten, unappreciated artists to light. Zabriskie’s diverse program—a
-    reflection of her unique curatorial vision and individual aesthetic—brought photography
-    to the forefront at a time when the medium was still considered vanguard, and
-    encompassed a wide range of work, from early 20th century Dada and Surrealist
-    masters to American photography icons like William Klein and Harry Callahan.![](https://res.cloudinary.com/dcryyrd42/image/upload/v1630000164/_MG_1019_mfku75.jpg)\n\nIn
-    1966, the Zabriskie Gallery, which had been in a small space on the second floor
-    of 835 Madison Avenue that had originally been established by Marvin Korman (a
-    fellow graduate student at the Institute of Fine Arts at New York University from
-    whom she had acquired the gallery), relocated to 699 Madison Avenue, and after
-    five years to 29 West 57th Street. By the early 1980s, Zabriskie Gallery had expanded
-    into three spaces, two in New York, and one in Paris. The gallery at 724 Fifth
-    Avenue specialized in painting; sculpture was highlighted at the 521 West 57th
-    Street location. In addition to featuring contemporary and modernist American
-    painters, Zabriskie's trailblazing programming included the exhibition of sculpture
-    by Mary Frank, Saul Baizerman, George Rickey, Kenneth Snelson, Theodore Roszak
-    and Richard Stankiewicz, among others.\n\nIn 1977, Galerie Zabriskie opened in
-    Paris at 29 rue Aubry le Boucher. It was the first gallery of its kind, joining
-    an exhibition space for photographic works with a bookstore devoted to selling
-    photo-related literature. Zabriskie not only presented individual American and
-    French photographers, but also organized numerous landmark group shows which united
-    these photographers from both sides of the Atlantic.![](https://res.cloudinary.com/dcryyrd42/image/upload/v1630000130/_MG_1002_bkzlwh.jpg)\n\nShe
-    was a champion of 19th-century photographers such as Felice Beato, Edouard Baldus
-    and Eadweard Muybridge, and extraordinarily held the first commercial exhibition
-    in France of Eugene Atget's photographs of Paris (thanks in part to the photographer
-    and Zabriskie Gallery artist Berenice Abbott, who had acquired Atget's negatives,
-    through the studio of Man Ray and the art dealer Julien Levy, both of whom were
-    also intrinsically linked to Zabriskie). Through this trans-Atlantic exchange,
-    Zabriskie introduced many modern and contemporary European photographers to America,
-    and brought American photography to Europe, creating a wider audience for Harry
-    Callahan, Alfred Stieglitz, Paul Strand, Lee Friedlander, Brassaï, Man Ray, Berenice
-    Abbott, Robert Frank and Nicholas Nixon, all artists included among this auction.\n\nHer
-    full roster, most of whom appear in this auction, boasted a wide range of artists,
-    including Abraham Walkowitz (Zabriskie held numerous exhibitions of his work and
-    handled the artist's estate), Elie Nadelman, Alexander Archipenko, Marcel Duchamp,
-    Joseph Stella, Ralston Crawford, Lucas Samaras, Nell Blaine, Milton Resnick, Ben
-    Vautier, and many others.\n\nThe Paris gallery closed in 1998 with \"Au Revoir
-    Paris,\" a group show highlighting all the American photographers whose first
-    European exposure came at Galerie Zabriskie. In 1999 Virginia Zabriskie received
-    the Médaille de la Ville de Paris, presented at the Hotel de Ville in Paris, for
-    her significant contribution to French culture. Zabriskie continued to helm her
-    New York gallery, at its last public exhibition space, in the Fuller Building
-    on Madison Avenue, until its closing in December 2010. She continued to work as
-    a private art dealer thereafter.\n\n![](https://res.cloudinary.com/dcryyrd42/image/upload/v1629999841/_MG_1018_mi5rgn.jpg)Though
-    Zabriskie had said “to survive is to succeed,\" it is universally acknowledged
-    that through her unwavering vision and determination, she left a legacy that has
-    transformed our industry, both visually and professionally, which will persist
-    for generations to come.\n\n![](https://res.cloudinary.com/dcryyrd42/image/upload/v1629999931/Zab-Blog_1_ivn5fb.jpg)\n\nSwann
-    Auction Galleries would like the express our sincerest thanks to Deborah Eigen,
-    Assistant Gallery Director, Zabriskie Gallery, New York, from 1975 to 1990, for
-    her extraordinary efforts and assistance with this auction. During her fifteen
-    years at the gallery, an important time of its growth to prominence, Deborah Eigen
-    was Virginia Zabriskie's close assistant, advisor, collaborator, friend and confidante.
-    She was instrumental to the groundbreaking exhibition program and the acquisition
-    of numerous key works, central to the gallery's focus. After the New York gallery
-    was closed in 2010, Deborah Eigen returned to work with Virginia Zabriskie as
-    her assistant and steadfast friend until Ms. Zabriskie's death in 2019. Over a
-    period of more than twenty five years working with Virginia Zabriskie, and now
-    as an advisor to the Estate of Virginia Zabriskie, Deborah Eigen has upheld the
-    legacy of this renowned New York gallery and its storied owner. She has been an
-    indefatigable source of knowledge, inspiration and care for all things Zabriskie,
-    to many of us at Swann, through the preparation of this catalogue and the organization
-    of this \"Collection of Virginia Zabriskie\" auction.\n\n**_Image Captions:_**\n\n1.
-    Hans Namuth, _Virginia Zabriskie,_ silver print, 1978.\n2. Virginia Zabriskie,
-    _Self Portrait_, etching, 1949. Courtesy the Estate of Virginia Zabriskie.\n3.
-    Paul Maurer, _Zabriskie Gallery, New York,_ silver print.\n4. Paul Maurer, _Pierre
-    Boucher, Pierre Jahan, Virginia Zabriskie and others at Galerie Zabriskie, Paris,_
-    silver print, 1978. \n5. Paul Maurer, _Virginia Zabriskie's apartment, including
-    works by Sidney Geist, Man Ray, Timothy Woodman, William Klein and others, New
-    York,_ silver print. \n6. Timothy Woodman, _Virginia Zabriskie,_ painted aluminum,
-    1979. Courtesy the Estate of Virginia Zabriskie. "
+  body: |-
+    ![](https://res.cloudinary.com/dcryyrd42/image/upload/v1629999650/_MG_1005_yhkmlw.jpg)We are honored to offer the collection of Virginia Zabriskie in this special single-owner auction that opens our 2021 fall season. Virginia Zabriskie built her personal collection during a pioneering career that spanned more than five decades, marked by audacity and innovation in a field that was seldom encouraging to professional women.
+
+    After acquiring her New York gallery in 1954, at the age of 26, Zabriskie inherited a promising roster of young artists, including Pat Adams, Clinton Hill and Lester Johnson, all well-represented in this auction. As a young art student, she had recognized her calling, musing later that, "My ability to interpret and criticize art grew faster than my ability to make it.
+
+    ![](https://res.cloudinary.com/dcryyrd42/image/upload/v1630422279/self_portrait_final_w4fgjn.jpg)Pursuing art history, she became friends with and was mentored by the artist, critic and modern art promoter Walter Pach while she was a college student; through him, she met Marcel Duchamp, Edward Hopper and other contemporary artists in New York.  Moreover, Pach had been instrumental assisting the artist Arthur B. Davies, president of the landmark 1913 "International Exhibition of Modern Art" also known as the Armory Show, as well as one of its founders, Walt Kuhn, by bringing together leading contemporary European and American artists for the show. This influence doubtlessly cemented Zabriskie's connoisseurship and faith in artists’ visions and informed her groundbreaking exhibitions, developed around the juxtaposition of media and historical eras. The risks she took with artists outside the market mainstream and the opportunities she saw in promoting a new vision of modern art as a neophyte New York gallery owner certainly harkened back to reminiscences Walter Pach would have shared with her about the 1913 Armory Show and that watershed period in modern art.  She is responsible for both launching the careers of artists and bringing forgotten, unappreciated artists to light. Zabriskie’s diverse program—a reflection of her unique curatorial vision and individual aesthetic—brought photography to the forefront at a time when the medium was still considered vanguard, and encompassed a wide range of work, from early 20th century Dada and Surrealist masters to American photography icons like William Klein and Harry Callahan.![](https://res.cloudinary.com/dcryyrd42/image/upload/v1630000164/_MG_1019_mfku75.jpg)
+
+    In 1966, the Zabriskie Gallery, which had been in a small space on the second floor of 835 Madison Avenue that had originally been established by Marvin Korman (a fellow graduate student at the Institute of Fine Arts at New York University from whom she had acquired the gallery), relocated to 699 Madison Avenue, and after five years to 29 West 57th Street. By the early 1980s, Zabriskie Gallery had expanded into three spaces, two in New York, and one in Paris. The gallery at 724 Fifth Avenue specialized in painting; sculpture was highlighted at the 521 West 57th Street location. In addition to featuring contemporary and modernist American painters, Zabriskie's trailblazing programming included the exhibition of sculpture by Mary Frank, Saul Baizerman, George Rickey, Kenneth Snelson, Theodore Roszak and Richard Stankiewicz, among others.
+
+    In 1977, Galerie Zabriskie opened in Paris at 29 rue Aubry le Boucher. It was the first gallery of its kind, joining an exhibition space for photographic works with a bookstore devoted to selling photo-related literature. Zabriskie not only presented individual American and French photographers, but also organized numerous landmark group shows which united these photographers from both sides of the Atlantic.![](https://res.cloudinary.com/dcryyrd42/image/upload/v1630000130/_MG_1002_bkzlwh.jpg)
+
+    She was a champion of 19th-century photographers such as Felice Beato, Edouard Baldus and Eadweard Muybridge, and extraordinarily held the first commercial exhibition in France of Eugene Atget's photographs of Paris (thanks in part to the photographer and Zabriskie Gallery artist Berenice Abbott, who had acquired Atget's negatives, through the studio of Man Ray and the art dealer Julien Levy, both of whom were also intrinsically linked to Zabriskie). Through this trans-Atlantic exchange, Zabriskie introduced many modern and contemporary European photographers to America, and brought American photography to Europe, creating a wider audience for Harry Callahan, Alfred Stieglitz, Paul Strand, Lee Friedlander, Brassaï, Man Ray, Berenice Abbott, Robert Frank and Nicholas Nixon, all artists included among this auction.
+
+    Her full roster, most of whom appear in this auction, boasted a wide range of artists, including Abraham Walkowitz (Zabriskie held numerous exhibitions of his work and handled the artist's estate), Elie Nadelman, Alexander Archipenko, Marcel Duchamp, Joseph Stella, Ralston Crawford, Lucas Samaras, Nell Blaine, Milton Resnick, Ben Vautier, and many others.
+
+    The Paris gallery closed in 1998 with "Au Revoir Paris," a group show highlighting all the American photographers whose first European exposure came at Galerie Zabriskie. In 1999 Virginia Zabriskie received the Médaille de la Ville de Paris, presented at the Hotel de Ville in Paris, for her significant contribution to French culture. Zabriskie continued to helm her New York gallery, at its last public exhibition space, in the Fuller Building on Madison Avenue, until its closing in December 2010. She continued to work as a private art dealer thereafter.
+
+    ![](https://res.cloudinary.com/dcryyrd42/image/upload/v1629999841/_MG_1018_mi5rgn.jpg)Though Zabriskie had said “to survive is to succeed," it is universally acknowledged that through her unwavering vision and determination, she left a legacy that has transformed our industry, both visually and professionally, which will persist for generations to come.
+
+    ![](https://res.cloudinary.com/dcryyrd42/image/upload/v1629999931/Zab-Blog_1_ivn5fb.jpg)
+
+    * Swann Auction Galleries would like to express our sincerest thanks to Deborah Eigen, Assistant Gallery Director, Zabriskie Gallery, New York, from 1975 to 1990, for her extraordinary efforts and assistance with this auction. During her fifteen years at the gallery, an important time of its growth to prominence, Deborah Eigen was Virginia Zabriskie's close assistant, collaborator, friend and confidante. She was instrumental to the groundbreaking exhibition program and the acquisition of numerous key works, central to the gallery's focus. After the New York gallery was closed in 2010, Deborah returned to work with Virginia Zabriskie as her assistant and steadfast friend until Ms. Zabriskie's death in 2019. Over a period of more than twenty-five years working with Virginia Zabriskie, and now as an advisor to the Estate of Virginia Zabriskie, Deborah has upheld the legacy of this renowned New York gallery and its storied owner. She has been an indefatigable source of knowledge, inspiration and care for all things Zabriskie, to many of us at Swann, through the preparation of this catalogue and the organization of this "Collection of Virginia Zabriskie" auction.
+
+    1. Hans Namuth, _Virginia Zabriskie before a painting by Pat Adams on the occasion of Zabriskie Gallery's 25th Anniversary,_ silver print, 1978.
+    2. Virginia Zabriskie, _Self Portrait_, etching, 1949. Courtesy the Estate of Virginia Zabriskie.
+    3. Paul Maurer, _Zabriskie Gallery, New York,_ silver print.
+    4. Paul Maurer, _Pierre Boucher, Pierre Jahan, Virginia Zabriskie and others at Galerie Zabriskie, Paris,_ silver print, 1978.
+    5. Paul Maurer, _Virginia Zabriskie's apartment, including works by Sidney Geist, Man Ray, Timothy Woodman, William Klein and others, New York,_ silver print.
+    6. Timothy Woodman, _Virginia Zabriskie,_ painted aluminum, 1979. Courtesy the Estate of Virginia Zabriskie.
   author: ''
 footer_pages:
 - section_header: End of Catalogue.
