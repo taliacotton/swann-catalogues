@@ -18,7 +18,19 @@ datetime:
   time: 2021-09-01 10:30:00 +0000
   time2: 
 short_description: ''
-chapters: []
+chapters:
+- session_title: ''
+  chapters:
+  - chapter_title: American Indians
+    lot: 2
+  - lot: 25
+    chapter_title: The American Revolution
+  - lot: 81
+    chapter_title: The Civil War
+  - chapter_title: The West
+    lot: 248
+  - chapter_title: Latin Americana
+    lot: 293
 people:
   main_contacts:
   - _people/rick-stattler.md
