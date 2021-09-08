@@ -1,10 +1,10 @@
 ---
 layout: X_catalogue
 lots: []
-starts_at: 0
+starts_at: 
 color: "#AD926F"
 cover_image:
-  lot_number: 0
+  lot_number: 
   title: ''
   image: ''
 filename: ''
@@ -13,8 +13,8 @@ permalink: "/books-manuscripts/printed-manuscript-americana/2580"
 sale: 2580
 title: Printed & Manuscript Americana
 datetime:
-  date: 2021-09-30 04:00:00 +0000
-  time: 
+  date: 2021-09-30T04:00:00.000+00:00
+  time: 2021-09-01 10:30:00 +0000
   time2: 
 short_description: ''
 chapters: []
