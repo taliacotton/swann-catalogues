@@ -2,11 +2,12 @@
 layout: X_catalogue
 lots: []
 starts_at: 
-color: "#AD926F"
+color: "#FDA633"
 cover_image:
-  lot_number: 
-  title: ''
-  image: ''
+  lot_number: 28
+  title: St. John Honeywood, The Battles of Lexington and Concord, after the famous
+    engravings by Doolittle, circa 1778.
+  image: "/v1631112594/M44539-30_1_bpg8qp.jpg"
 filename: ''
 visible: false
 permalink: "/books-manuscripts/printed-manuscript-americana/2580"
