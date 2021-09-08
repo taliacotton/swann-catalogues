@@ -9,7 +9,7 @@ cover_image:
     engravings by Doolittle, circa 1778.
   image: "/v1631112594/M44539-30_1_bpg8qp.jpg"
 filename: ''
-visible: false
+visible: true
 permalink: "/books-manuscripts/printed-manuscript-americana/2580"
 sale: 2580
 title: Printed & Manuscript Americana
