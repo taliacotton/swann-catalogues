@@ -1,10 +1,10 @@
 ---
 layout: X_catalogue
 lots: []
-starts_at: 0
+starts_at: 
 color: "#AD926F"
 cover_image:
-  lot_number: 0
+  lot_number: 
   title: ''
   image: ''
 filename: ''
@@ -13,7 +13,7 @@ permalink: "/fine-art/african-american-art/2581"
 sale: 2581
 title: African American Art
 datetime:
-  date: 2021-10-07 04:00:00 +0000
+  date: 2021-10-07T04:00:00.000+00:00
   time: 
   time2: 
 short_description: ''
