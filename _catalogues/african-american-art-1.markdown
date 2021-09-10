@@ -17,7 +17,11 @@ datetime:
   time: 
   time2: 
 short_description: ''
-chapters: []
+chapters:
+- session_title: ''
+  chapters:
+  - chapter_title: 19th Century and Harlem Renaissance
+    lot: 1
 people:
   main_contacts: []
   officers: []
