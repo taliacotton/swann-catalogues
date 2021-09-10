@@ -19,19 +19,7 @@ datetime:
 short_description: ''
 chapters:
 - session_title: ''
-  chapters:
-  - chapter_title: Contemporary - 21st Century
-    lot: 191
-  - chapter_title: Contemporary - 20th Century
-    lot: 144
-  - chapter_title: Brandywine Workshop Collection
-    lot: 120
-  - chapter_title: Post War
-    lot: 31
-  - chapter_title: Modern
-    lot: 14
-  - chapter_title: '19th Century & Harlem Renaissance '
-    lot: 1
+  chapters: []
 people:
   main_contacts:
   - _people/director.md
