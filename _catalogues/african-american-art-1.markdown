@@ -4,9 +4,9 @@ lots: []
 starts_at: 
 color: "#AD926F"
 cover_image:
-  lot_number: 
+  lot_number: 173
   title: ''
-  image: ''
+  image: "/v1631049443/2581/787094.jpg"
 filename: ''
 visible: false
 permalink: "/fine-art/african-american-art/2581"
