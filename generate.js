@@ -8,9 +8,7 @@ glob("_data/*.yaml", function (er, files) {
       const contents = files.map((f) => {
          const id = f.split('-')[0].split('/')[1];
          const data = YAMLJS.load(fs.readFileSync(f).toString());
-
          if(!fs.existsSync(`_lots/${id}`)){
-      
             data['lots'].forEach(lot => {
                fs.existsSync(`_lots`) || fs.mkdirSync(`_lots`);
                fs.existsSync(`_lots/${id}`) || fs.mkdirSync(`_lots/${id}`);

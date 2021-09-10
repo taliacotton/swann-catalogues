@@ -1,12 +1,12 @@
 ﻿---
 lots:
-- REFNO: '785955'
-  LOT: '1'
-  LOW: '15000'
-  HIGH: '25000'
+- REFNO: "785955"
+  LOT: "1"
+  LOW: "15000"
+  HIGH: "25000"
   DESCRIPT: HENRY OSSAWA TANNER (1859 - 1937)
   CROSSHEAD: Head of a Sheep.
-  year: '1880'
+  year: "1880"
   TYPESET: >-
     Oil on canvas, mounted on board, circa 1880-81. 248x229 mm; 9¾x9 inches.
     Signed in oil, lower left.<br><br>Provenance: the estate of the artist, with
@@ -27,15 +27,15 @@ lots:
     passages of painterly brushwork are closer to his naturalist study of lions,
     <i>Pomp at the Zoo</i>, circa 1880, and <i>Lion Licking its Paw</i>, 1886.
     Marley p. 19; Mosby pp. 74-75.
-  FOOTNOTE: ''
-  background_color: '#ffffff'
-- REFNO: '786528'
-  LOT: '2'
-  LOW: '40000'
-  HIGH: '60000'
+  FOOTNOTE: ""
+  background_color: "#ffffff"
+- REFNO: "786528"
+  LOT: "2"
+  LOW: "40000"
+  HIGH: "60000"
   DESCRIPT: EDWARD M. BANNISTER (1828 - 1901)
   CROSSHEAD: Crossing the Bridge before Sunset.
-  year: '1893'
+  year: "1893"
   TYPESET: >-
     Oil on linen canvas, 1893. 406x660 mm; 16x26 inches. Signed and dated in
     oil, lower right.<br><br>Provenance: Benjamin E. Perry; thence by descent,
@@ -53,15 +53,15 @@ lots:
     of the day, filtered through an atmospheric sky, traverses a rich and
     verdant countryside. Bannister draws the viewer into the scene by placing
     the horse drawn cart moving into the center of the composition.
-  FOOTNOTE: ''
-  background_color: '#ffffff'
-- REFNO: '786736'
-  LOT: '3'
-  LOW: '7000'
-  HIGH: '10000'
+  FOOTNOTE: ""
+  background_color: "#ffffff"
+- REFNO: "786736"
+  LOT: "3"
+  LOW: "7000"
+  HIGH: "10000"
   DESCRIPT: JAMES BOLIVAR NEEDHAM (1850 - 1931)
   CROSSHEAD: Untitled (Chicago River Scene).
-  year: '1905'
+  year: "1905"
   TYPESET: >-
     Oil on linen canvas, mounted on wood panel, 1905. 191x254 mm; 7½x10 inches.
     Signed in oil, lower right recto. Inscribed within a diamond "7½x10 inches"
@@ -82,15 +82,15 @@ lots:
     paintings from the collection of the Chicago Historical Society were
     included in the 2004 exhibition <i>Chicago Modern 1893 - 1945</i> at the
     Terra Museum of American Art, Chicago. Schulman pp. 132-34.
-  FOOTNOTE: ''
-  background_color: '#ffffff'
-- REFNO: '785621'
-  LOT: '4'
-  LOW: '5000'
-  HIGH: '7000'
+  FOOTNOTE: ""
+  background_color: "#ffffff"
+- REFNO: "785621"
+  LOT: "4"
+  LOW: "5000"
+  HIGH: "7000"
   DESCRIPT: WILLIAM A. HARPER (1873 - 1910)
   CROSSHEAD: Untitled (Landscape).
-  year: '1907'
+  year: "1907"
   TYPESET: >-
     Oil on thick cardstock, circa 1907. 324x387 mm; 12¾x15¼ inches. Signed in
     oil, lower right.<br><br>Provenance: estate of the artist; private
@@ -115,43 +115,43 @@ lots:
     Dr. Walter O. Evans.<br><br>Thank you to Janet Nussbaum for her assistance
     with this painting with her extensive research of William A. Harper and the
     provenance of his paintings. Barnwell p. 157; Kennedy p. 119.
-  FOOTNOTE: ''
-  background_color: '#ffffff'
-- REFNO: '787271'
-  LOT: '5'
-  LOW: '3000'
-  HIGH: '5000'
+  FOOTNOTE: ""
+  background_color: "#ffffff"
+- REFNO: "787271"
+  LOT: "5"
+  LOW: "3000"
+  HIGH: "5000"
   DESCRIPT: JAMES VANDERZEE (1886 -1983)
   CROSSHEAD: Shoe Store Salesman and Customer.
-  year: '1925'
+  year: "1925"
   TYPESET: >-
     Silver print, circa 1925. 240x190 mm; 9½x7½ inches. Printed in the
     1920-30s.<br><br>Provenance: acquired directly from the artist; private
     collection, New York; private collection, New York, acquired from Swann
     Galleries, Feburary 17, 2009.
-  FOOTNOTE: ''
-  background_color: '#ffffff'
-- REFNO: '786923'
-  LOT: '6'
-  LOW: '3000'
-  HIGH: '5000'
+  FOOTNOTE: ""
+  background_color: "#ffffff"
+- REFNO: "786923"
+  LOT: "6"
+  LOW: "3000"
+  HIGH: "5000"
   DESCRIPT: JAMES VANDERZEE (1886 - 1983)
   CROSSHEAD: Untitled (Portrait of a Boy in a Sailor Suit).
-  year: '1927'
+  year: "1927"
   TYPESET: >-
     Silver print, 1927. 171x127 mm; 6¾x5 inches. Signed and dated in pencil with
     Vanderzee's "G.G.G. Photo Studio, Inc., 109 West 135th St." ink stamp,
     verso.<br><br>Provenance: Howard Greenberg/Photofind, New York, with the
     gallery label on the mat; private collection, New York.
-  FOOTNOTE: ''
-  background_color: '#ffffff'
-- REFNO: '786838'
-  LOT: '7'
-  LOW: '40000'
-  HIGH: '60000'
+  FOOTNOTE: ""
+  background_color: "#ffffff"
+- REFNO: "786838"
+  LOT: "7"
+  LOW: "40000"
+  HIGH: "60000"
   DESCRIPT: JAMES VANDERZEE (1886 - 1983)
   CROSSHEAD: Eighteen Photographs.
-  year: '1938'
+  year: "1938"
   TYPESET: >-
     Portfolio of 18 mounted silver and sepia-toned silver prints, 1905-1938.
     Each approximately 184x241 mm; 7¼x9½ inches, loose as issued.<br><br>Edition
@@ -172,56 +172,56 @@ lots:
     photographic career. It includes various subjects of the Harlem Renaissance,
     as well as studies of Marcus Garvey, Daddy Grace, and formal family
     portraits.
-  FOOTNOTE: ''
-  background_color: '#ffffff'
-- REFNO: '770075'
-  LOT: '8'
-  LOW: '1500'
-  HIGH: '2500'
+  FOOTNOTE: ""
+  background_color: "#ffffff"
+- REFNO: "770075"
+  LOT: "8"
+  LOW: "1500"
+  HIGH: "2500"
   DESCRIPT: JAMES VANDERZEE (1886 - 1983)
   CROSSHEAD: Swimming Team.
-  year: '1925'
+  year: "1925"
   TYPESET: >-
     Silver print, 1925. 64x236 mm; 2½x9⅜ inches. Signed and numbered XI and
     70/75 in pencil on the mount. Printed and published by Richard Berson and
     Graphics International Ltd., Washington, DC in 1974. From <i>Eighteen
     Photographs</i>.
-  FOOTNOTE: ''
-  background_color: '#ffffff'
-- REFNO: '770079'
-  LOT: '9'
-  LOW: '2000'
-  HIGH: '3000'
+  FOOTNOTE: ""
+  background_color: "#ffffff"
+- REFNO: "770079"
+  LOT: "9"
+  LOW: "2000"
+  HIGH: "3000"
   DESCRIPT: JAMES VANDERZEE (1886 - 1983)
-  CROSSHEAD: 'Wedding Day, Harlem.'
-  year: '1926'
+  CROSSHEAD: "Wedding Day, Harlem."
+  year: "1926"
   TYPESET: >-
     Silver print, 1926. 236x178 mm; 9⅜x7 inches. Signed and numbered XII and
     70/75 in pencil on the mount. Printed and published by Richard Berson and
     Graphics International Ltd., Washington, DC in 1974. From <i>Eighteen
     Photographs</i>.
-  FOOTNOTE: ''
-  background_color: '#ffffff'
-- REFNO: '786924'
-  LOT: '10'
-  LOW: '3000'
-  HIGH: '5000'
+  FOOTNOTE: ""
+  background_color: "#ffffff"
+- REFNO: "786924"
+  LOT: "10"
+  LOW: "3000"
+  HIGH: "5000"
   DESCRIPT: JAMES VANDERZEE (1886 - 1983)
   CROSSHEAD: Untitled (Woman in Fur Holding Cat).
-  year: '1935'
+  year: "1935"
   TYPESET: >-
     Silver print, 1935. 171x127 mm; 9⅜x7⅝ inches.<br><br>Provenance: Howard
     Greenberg/Photofind, New York, with the gallery label on the mat; private
     collection, New York.
-  FOOTNOTE: ''
-  background_color: '#ffffff'
-- REFNO: '785074'
-  LOT: '11'
-  LOW: '75000'
-  HIGH: '100000'
+  FOOTNOTE: ""
+  background_color: "#ffffff"
+- REFNO: "785074"
+  LOT: "11"
+  LOW: "75000"
+  HIGH: "100000"
   DESCRIPT: RICHMOND BARTHÉ (1901 - 1989)
   CROSSHEAD: Feral Benga.
-  year: '1935'
+  year: "1935"
   TYPESET: >-
     Bronze with a dark brown patina, modeled in 1935, cast circa 1960.
     Approximately 483 mm; 19 inches high (not including the marble base). Cast
@@ -258,15 +258,15 @@ lots:
     casting. Under the supervision of the artist and the Richmond Barthé Trust,
     an edition of 10 numbered casts and a small number of artist's proofs of
     <i>Feral Benga</i> were made in 1986. Vendryes pp. 66-69.
-  FOOTNOTE: ''
-  background_color: '#ffffff'
-- REFNO: '784401'
-  LOT: '12'
-  LOW: '15000'
-  HIGH: '25000'
+  FOOTNOTE: ""
+  background_color: "#ffffff"
+- REFNO: "784401"
+  LOT: "12"
+  LOW: "15000"
+  HIGH: "25000"
   DESCRIPT: RICHMOND BARTHÉ (1901 - 1989)
   CROSSHEAD: Head of a Dancer (Harald Kreutzberg).
-  year: '1937'
+  year: "1937"
   TYPESET: >-
     Bronze with a brown patina, mounted on a white marble base, 1937.
     Approximately 311 mm; 12¼ inches high (not including the base). A later
@@ -289,15 +289,15 @@ lots:
     Collection, the Walter O. Evans Collection of African American Art at the
     Savannah College of Art and Design, and the Kinsey Collection of
     African-American Art and History. Kinard p. 40; Auzenne, p. 42.
-  FOOTNOTE: ''
-  background_color: '#ffffff'
-- REFNO: '779807'
-  LOT: '13'
-  LOW: '8000'
-  HIGH: '12000'
+  FOOTNOTE: ""
+  background_color: "#ffffff"
+- REFNO: "779807"
+  LOT: "13"
+  LOW: "8000"
+  HIGH: "12000"
   DESCRIPT: JAMES LESESNE WELLS (1902 - 1992)
   CROSSHEAD: Group of 5 linoleum cuts.
-  year: '1930'
+  year: "1930"
   TYPESET: >-
     Each on cream thin Japan paper, circa 1930. 387x273 mm; 15¼x10¾ inches
     (sheet), full margins.<br><br>This illustrative series is a very scarce
@@ -308,15 +308,15 @@ lots:
     <i>Opportunity</i>; his illustrations accompanied the writing of the likes
     of writers Alain Locke, Marianne Moore, Willis Richardson and Carter
     Woodson.
-  FOOTNOTE: ''
-  background_color: '#ffffff'
-- REFNO: '785826'
-  LOT: '14'
-  LOW: '7000'
-  HIGH: '10000'
+  FOOTNOTE: ""
+  background_color: "#ffffff"
+- REFNO: "785826"
+  LOT: "14"
+  LOW: "7000"
+  HIGH: "10000"
   DESCRIPT: ALLAN ROHAN CRITE (1910 - 2007)
   CROSSHEAD: Way Down in Egypt's Land.
-  year: '1937'
+  year: "1937"
   TYPESET: >-
     Pen, brush and ink on cream illustration board, 1937. 432x305 mm; 17x12
     inches. Signed and dated in ink, lower right.<br><br>Provenance: private
@@ -324,28 +324,28 @@ lots:
     impressively illustrates the second verse of the refrain from the spiritual
     <i>Go Down Moses</i>, popularized by Fisk University Jubilee Singers: "Go
     down, Moses! Way down in Egypt's land. Tell old Pharoah. Let my people go!"
-  FOOTNOTE: ''
-  background_color: '#ffffff'
-- REFNO: '784014'
-  LOT: '15'
-  LOW: '1200'
-  HIGH: '1800'
+  FOOTNOTE: ""
+  background_color: "#ffffff"
+- REFNO: "784014"
+  LOT: "15"
+  LOW: "1200"
+  HIGH: "1800"
   DESCRIPT: FREDERICK D. JONES (1914 - 2004)
   CROSSHEAD: Go Down Moses.
-  year: '1940'
+  year: "1940"
   TYPESET: >-
     Wood engraving on cream wove paper, circa 1937-40. 178x127 mm; 7x5 inches,
     wide margins. Signed and titled in pencil, lower margin. A very good, dark
     impression of this scarce, early print.
-  FOOTNOTE: ''
-  background_color: '#ffffff'
-- REFNO: '785616'
-  LOT: '16'
-  LOW: '6000'
-  HIGH: '9000'
+  FOOTNOTE: ""
+  background_color: "#ffffff"
+- REFNO: "785616"
+  LOT: "16"
+  LOW: "6000"
+  HIGH: "9000"
   DESCRIPT: LOÏS MAILOU JONES (1905 - 1998)
   CROSSHEAD: Untitled (Street Scene in Cabris).
-  year: '1938'
+  year: "1938"
   TYPESET: >-
     Gouache and pencil on artist's gesso board, 1938. 406x305 mm; 16x12 inches.
     Signed and dated in gouache, lower right recto. Inscribed "Lois M. Jones
@@ -359,30 +359,30 @@ lots:
     her first year of studies in Paris, and returned numerous times over a
     period of some 50 years. Jones and her husband Pierre-Noël were also married
     there in 1953.
-  FOOTNOTE: ''
-  background_color: '#ffffff'
-- REFNO: '786979'
-  LOT: '17'
-  LOW: '1500'
-  HIGH: '2500'
+  FOOTNOTE: ""
+  background_color: "#ffffff"
+- REFNO: "786979"
+  LOT: "17"
+  LOW: "1500"
+  HIGH: "2500"
   DESCRIPT: CLAUDE CLARK (1915 - 2001)
   CROSSHEAD: Three Men.
-  year: '1939'
+  year: "1939"
   TYPESET: >-
     Etching on wove paper, 1939. 114x152mm; 4½x6 inches, full margins. Signed
     and titled in pencil, lower margin.<br><br>This scarce etching is based on
     Claude Clark's same-titled 1939 painting of soldiers carrying their wounded
     compatriots during the Spanish Civil War. Clark also made a carborundum
     mezzotint entitled <i>Three Men in Spain</i> of the same subject.
-  FOOTNOTE: ''
-  background_color: '#ffffff'
-- REFNO: '787042'
-  LOT: '18'
-  LOW: '3000'
-  HIGH: '5000'
+  FOOTNOTE: ""
+  background_color: "#ffffff"
+- REFNO: "787042"
+  LOT: "18"
+  LOW: "3000"
+  HIGH: "5000"
   DESCRIPT: WILLIAM E. SMITH  (1913-1997)
   CROSSHEAD: War Fatigue.
-  year: '1940'
+  year: "1940"
   TYPESET: >-
     Linoleum cut on wove paper, 1940. 304x254 mm; 12x10 inches, full margins.
     Signed, titled, dated and numbered 7/10 in pencil, lower
@@ -397,15 +397,15 @@ lots:
     both as an artist and cultural activist. He helped found the group Art West
     Associated in 1960, an organization formed to promote African American
     artists in California.
-  FOOTNOTE: ''
-  background_color: '#ffffff'
-- REFNO: '786977'
-  LOT: '19'
-  LOW: '1500'
-  HIGH: '2500'
+  FOOTNOTE: ""
+  background_color: "#ffffff"
+- REFNO: "786977"
+  LOT: "19"
+  LOW: "1500"
+  HIGH: "2500"
   DESCRIPT: CLAUDE CLARK (1915 - 2001)
   CROSSHEAD: Medal of Honor.
-  year: '1944'
+  year: "1944"
   TYPESET: >-
     Crayon and graphite on printed cream wove paper, 1944. 127x203 mm; 5x8
     inches. Signed in pencil, lower edge.<br><br>Provenance: the estate of the
@@ -414,15 +414,15 @@ lots:
     image of American soldiers. Troop integration did not occur in basic
     training camps until after World War II when President Harry Truman
     reluctantly integrated the Armed Forces in 1948.
-  FOOTNOTE: ''
-  background_color: '#ffffff'
-- REFNO: '782266'
-  LOT: '20'
-  LOW: '12000'
-  HIGH: '18000'
+  FOOTNOTE: ""
+  background_color: "#ffffff"
+- REFNO: "782266"
+  LOT: "20"
+  LOW: "12000"
+  HIGH: "18000"
   DESCRIPT: JOHN N. ROBINSON (1912 - 1994)
   CROSSHEAD: A Black Man at the White House.
-  year: '1943'
+  year: "1943"
   TYPESET: >-
     Oil on canvas board, 1943. 292x292 mm; 11½x11½ inches (image); 406x508 mm;
     16x20 inches (board). Signed, titled and dated in felt tip marker and blue
@@ -460,29 +460,29 @@ lots:
     in the permanent collections of the National Portrait Gallery, the
     Birmingham Museum of Art, the Anacostia Community Museum, the Smithsonian
     American Art Museum and the Howard University Gallery of Art.
-  FOOTNOTE: ''
-  background_color: '#ffffff'
-- REFNO: '787270'
-  LOT: '21'
-  LOW: '5000'
-  HIGH: '7000'
+  FOOTNOTE: ""
+  background_color: "#ffffff"
+- REFNO: "787270"
+  LOT: "21"
+  LOW: "5000"
+  HIGH: "7000"
   DESCRIPT: GORDON PARKS (1912 - 2006)
-  CROSSHEAD: 'American Gothic, Washington, D.C.'
-  year: '1942'
+  CROSSHEAD: "American Gothic, Washington, D.C."
+  year: "1942"
   TYPESET: >-
     Silver print, 1942, printed circa 1970s. 254x203 mm; 10x8 inches. Signed
     (twice) in ink, lower edge verso.<br><br>Provenance: the estate of the
     artist, New York; private collection, New York, acquired from Swann
     Galleries, Feburary 21, 2008.
-  FOOTNOTE: ''
-  background_color: '#ffffff'
-- REFNO: '784013'
-  LOT: '22'
-  LOW: '12000'
-  HIGH: '18000'
+  FOOTNOTE: ""
+  background_color: "#ffffff"
+- REFNO: "784013"
+  LOT: "22"
+  LOW: "12000"
+  HIGH: "18000"
   DESCRIPT: NORMAN LEWIS (1909 - 1979)
   CROSSHEAD: Untitled (New York Park Crowd).
-  year: '1943'
+  year: "1943"
   TYPESET: >-
     Watercolor, ink and gouache on cream wove paper, 1943. 356x508 mm; 14x20
     inches. Signed and dated "7-21-43" in ink, lower left recto.<br><br>With an
@@ -499,15 +499,15 @@ lots:
     Carver School in Harlem, where he joined an impressive staff, including
     Ernest Crichlow (painting), Charles White (drawing), and Elizabeth Catlett
     (sculpture). Lewis taught there through 1944. Fine p. 252.
-  FOOTNOTE: ''
-  background_color: '#ffffff'
-- REFNO: '783542'
-  LOT: '23'
-  LOW: '10000'
-  HIGH: '15000'
+  FOOTNOTE: ""
+  background_color: "#ffffff"
+- REFNO: "783542"
+  LOT: "23"
+  LOW: "10000"
+  HIGH: "15000"
   DESCRIPT: HENRY W. BANNARN (1910 - 1965)
-  CROSSHEAD: 'Rowhouses, Charleston, SC.'
-  year: '1943'
+  CROSSHEAD: "Rowhouses, Charleston, SC."
+  year: "1943"
   TYPESET: >-
     Oil on board, 1943.  454x606 mm; 17⅞x23⅞ inches. Signed "P.F.C. H. Bannarn",
     inscribed "Charleston S.C." and dated "19[4]3" in oil, lower left recto.
@@ -536,30 +536,30 @@ lots:
     some of the the first service and support images to depict African American
     soldiers as a fighting men. Bannarn continued to paint his own work at the
     time, and returned to his studio practice in New York in 1949.
-  FOOTNOTE: ''
-  background_color: '#ffffff'
-- REFNO: '785627'
-  LOT: '24'
-  LOW: '6000'
-  HIGH: '9000'
+  FOOTNOTE: ""
+  background_color: "#ffffff"
+- REFNO: "785627"
+  LOT: "24"
+  LOW: "6000"
+  HIGH: "9000"
   DESCRIPT: HALE WOODRUFF (1900 - 1980)
   CROSSHEAD: Untitled (Georgia Landscape).
-  year: '1940'
+  year: "1940"
   TYPESET: >-
     Watercolor on paper, mounted to cardstock, circa 1940. 470x635 mm; 18½x25
     inches. Signed in watercolor, lower left.<br><br>Provenance: private
     collection, Massachusetts.<br><br><br><br>This vivid watercolor is an
     excellent example of the landscapes of the eroded, wooded rural hills that
     Hale Woodruff painted around Atlanta in the late 1930s and early 40s.
-  FOOTNOTE: ''
-  background_color: '#ffffff'
-- REFNO: '786734'
-  LOT: '25'
-  LOW: '6000'
-  HIGH: '9000'
+  FOOTNOTE: ""
+  background_color: "#ffffff"
+- REFNO: "786734"
+  LOT: "25"
+  LOW: "6000"
+  HIGH: "9000"
   DESCRIPT: CHARLES ALSTON (1907 - 1977)
-  CROSSHEAD: 'Santa Ana Winds, Ariz. (Arizona).'
-  year: '1944'
+  CROSSHEAD: "Santa Ana Winds, Ariz. (Arizona)."
+  year: "1944"
   TYPESET: >-
     Goauche and watercolor on wove paper, 1944. 305x457 mm; 12x18 inches.
     Signed, dated and titled in pencil, lower right.<br><br>Provenance: Bill
@@ -571,28 +571,28 @@ lots:
     Both artists were preparing for the pair of large historical murals they
     would complete the following year for the Golden State Mutual Life Insurance
     Company in Los Angeles.
-  FOOTNOTE: ''
-  background_color: '#ffffff'
-- REFNO: '785617'
-  LOT: '26'
-  LOW: '3000'
-  HIGH: '5000'
+  FOOTNOTE: ""
+  background_color: "#ffffff"
+- REFNO: "785617"
+  LOT: "26"
+  LOW: "3000"
+  HIGH: "5000"
   DESCRIPT: LOÏS MAILOU JONES (1905 - 1998)
   CROSSHEAD: Untitled (Geraniums).
-  year: '1940'
+  year: "1940"
   TYPESET: >-
     Watercolor on thin cream laid paper, circa 1940s. 305x305 mm; 12x12 inches.
     Signed in watercolor, lower right.<br><br>Provenance: Merton Simpson, New
     York; private collection, North Carolina.
-  FOOTNOTE: ''
-  background_color: '#ffffff'
-- REFNO: '785964'
-  LOT: '27'
-  LOW: '20000'
-  HIGH: '30000'
+  FOOTNOTE: ""
+  background_color: "#ffffff"
+- REFNO: "785964"
+  LOT: "27"
+  LOW: "20000"
+  HIGH: "30000"
   DESCRIPT: CLAUDE CLARK (1915 - 2001)
   CROSSHEAD: The Plow.
-  year: '1944'
+  year: "1944"
   TYPESET: >-
     Oil on burlap canvas, 1944. 505x610 mm; 20x24 inches. Signed in oil, lower
     right recto. Signed and tited in ink, upper stretcher bar
@@ -613,15 +613,15 @@ lots:
     in many institutional collections including the Metropolitan Museum of Art,
     the Saint Louis Art Museum, the Newark Museum, the Smithsonian Institution,
     and the De Young Museum. Messenger p. 48.
-  FOOTNOTE: ''
-  background_color: '#ffffff'
-- REFNO: '785260'
-  LOT: '28'
-  LOW: '150000'
-  HIGH: '250000'
+  FOOTNOTE: ""
+  background_color: "#ffffff"
+- REFNO: "785260"
+  LOT: "28"
+  LOW: "150000"
+  HIGH: "250000"
   DESCRIPT: ELIZABETH CATLETT  (1915 - 2012)
   CROSSHEAD: Head.
-  year: '1943'
+  year: "1943"
   TYPESET: >-
     Carved limestone, 1943. Approximately 343x241x184 mm; 13½x9½x7¼ inches.
     Incised initials at rear lower edge.<br><br>Provenance: Charles White, New
@@ -659,15 +659,15 @@ lots:
     human figure. <i>Head</i> displays Catlett's emerging modern approach to an
     African-American subjects in the 1940s. Herzog pp. 19-21, 30-34; Porter p.
     132; Lewis p. 188.
-  FOOTNOTE: ''
-  background_color: '#ffffff'
-- REFNO: '783751'
-  LOT: '29'
-  LOW: '6000'
-  HIGH: '9000'
+  FOOTNOTE: ""
+  background_color: "#ffffff"
+- REFNO: "783751"
+  LOT: "29"
+  LOW: "6000"
+  HIGH: "9000"
   DESCRIPT: CHARLES WHITE (1918 - 1979)
   CROSSHEAD: Joven (Youth).
-  year: '1946'
+  year: "1946"
   TYPESET: >-
     Lithograph on cream wove paper, 1946. 343x273 mm; 13½x10¾ inches, wide
     margins. Proof, from an edition of unknown size. Signed and dated in pencil,
@@ -677,15 +677,15 @@ lots:
     <i>In the Spirit of Resistance</i>. According to Lucinda Gedeon, another
     impression is illustrated in the album <i>El Taller de Gráfica Popular</i>,
     Mexico, published in 1949. Gedeon Ea7.
-  FOOTNOTE: ''
-  background_color: '#ffffff'
-- REFNO: '785635'
-  LOT: '30'
-  LOW: '20000'
-  HIGH: '30000'
+  FOOTNOTE: ""
+  background_color: "#ffffff"
+- REFNO: "785635"
+  LOT: "30"
+  LOW: "20000"
+  HIGH: "30000"
   DESCRIPT: HUGHIE LEE-SMITH (1915 - 1999)
   CROSSHEAD: Untitled (Portrait of a Young Girl).
-  year: '1949'
+  year: "1949"
   TYPESET: >-
     Oil on masonite, 1949. 290x230 mm; 16x12 inches. Incised signature and date
     in oil, upper left.<br><br>Provenance: acquired directly from the artist;
@@ -702,15 +702,15 @@ lots:
     factories in 1945 and 1947 between teaching stints. In 1949, he exhibited
     paintings both at the Detroit Arts Market and the Karamu House Art Gallery,
     Cleveland.
-  FOOTNOTE: ''
-  background_color: '#ffffff'
-- REFNO: '785126'
-  LOT: '31'
-  LOW: '3000'
-  HIGH: '5000'
+  FOOTNOTE: ""
+  background_color: "#ffffff"
+- REFNO: "785126"
+  LOT: "31"
+  LOW: "3000"
+  HIGH: "5000"
   DESCRIPT: NORMAN LEWIS (1909 - 1979)
   CROSSHEAD: Untitled (Figure Study).
-  year: '1940'
+  year: "1940"
   TYPESET: >-
     Pen and ink with wash on wove paper, circa 1940s. 229x159 mm; 9x6¼ inches.
     Signed "Norman Lewis/OBL" in ink, lower right, posthumously by the artist's
@@ -718,29 +718,29 @@ lots:
     Gallery, New York; private collection, New York.<br><br>Illustrated:
     <i>Norman W. Lewis: Works on Paper, 1935 - 1979</i>, Bill Hodges Gallery,
     New York, p. 66.
-  FOOTNOTE: ''
-  background_color: '#ffffff'
-- REFNO: '785127'
-  LOT: '32'
-  LOW: '2000'
-  HIGH: '3000'
+  FOOTNOTE: ""
+  background_color: "#ffffff"
+- REFNO: "785127"
+  LOT: "32"
+  LOW: "2000"
+  HIGH: "3000"
   DESCRIPT: NORMAN LEWIS (1909 - 1979)
   CROSSHEAD: Untitled (Three Figures).
-  year: '1940'
+  year: "1940"
   TYPESET: >-
     Pen and ink on cream thin wove paper, circa 1940s. 184x121 mm; 7¼x4⅞
     inches.<br><br>Provenance: the estate of the artist; Bill Hodges Gallery,
     New York, with the gallery label on the frame back; private collection, New
     York.
-  FOOTNOTE: ''
-  background_color: '#ffffff'
-- REFNO: '785075'
-  LOT: '33'
-  LOW: '60000'
-  HIGH: '90000'
+  FOOTNOTE: ""
+  background_color: "#ffffff"
+- REFNO: "785075"
+  LOT: "33"
+  LOW: "60000"
+  HIGH: "90000"
   DESCRIPT: NORMAN LEWIS (1909 - 1979)
   CROSSHEAD: Untitled (Gate Composition).
-  year: '1947'
+  year: "1947"
   TYPESET: >-
     Oil on masonite board, 1947. 356x457 mm; 14x18 inches. Signed and dated in
     oil, lower right. Also incised "To Dorothy, Leonard, Glenn" in oil, lower
@@ -757,15 +757,15 @@ lots:
     circa 1950, were included in his 2016 retrospective <i>Procession: The Art
     of Norman Lewis</i> organized by Ruth Fine. Fine plate 14, fig 27; pp.
     42-43.
-  FOOTNOTE: ''
-  background_color: '#ffffff'
-- REFNO: '787201'
-  LOT: '34'
-  LOW: '20000'
-  HIGH: '30000'
+  FOOTNOTE: ""
+  background_color: "#ffffff"
+- REFNO: "787201"
+  LOT: "34"
+  LOW: "20000"
+  HIGH: "30000"
   DESCRIPT: NORMAN LEWIS (1909 - 1979)
   CROSSHEAD: Untitled (Procession Composition).
-  year: '1949'
+  year: "1949"
   TYPESET: >-
     Oil, pen and ink with wash on cream wove paper, 1949. 610x483 mm; 24x19
     inches. Signed and dated '49 in pencil, lower right.<br><br>Provenance:
@@ -775,15 +775,15 @@ lots:
     Lewis. This descending calvacade predates his inventive calligraphy of small
     figures of the early 1950s - figures that will inhabit his paintings and
     works on paper for over a decade.
-  FOOTNOTE: ''
-  background_color: '#ffffff'
-- REFNO: '785076'
-  LOT: '35'
-  LOW: '150000'
-  HIGH: '250000'
+  FOOTNOTE: ""
+  background_color: "#ffffff"
+- REFNO: "785076"
+  LOT: "35"
+  LOW: "150000"
+  HIGH: "250000"
   DESCRIPT: NORMAN LEWIS (1909 - 1979)
   CROSSHEAD: Untitled.
-  year: '1950'
+  year: "1950"
   TYPESET: >-
     Oil on linen canvas, circa 1950-51. 991x610 mm; 39x24 inches. Signed in oil,
     lower right.<br><br>Provenance: acquired directly from the artist; Margradel
@@ -797,30 +797,30 @@ lots:
     <i>Abstract Painting and Sculpture in America</i> exhibition at the Museum
     of Modern Art, New York where his 1950 painting <i>Urban</i> was hung
     alongside works by Stuart Davis, Arshile Gorky and Man Ray. Fine p. 256.
-  FOOTNOTE: ''
-  background_color: '#ffffff'
-- REFNO: '785141'
-  LOT: '36'
-  LOW: '3000'
-  HIGH: '5000'
+  FOOTNOTE: ""
+  background_color: "#ffffff"
+- REFNO: "785141"
+  LOT: "36"
+  LOW: "3000"
+  HIGH: "5000"
   DESCRIPT: ROBERT BLACKBURN (1920 - 2003)
   CROSSHEAD: Untitled (Reclining Nude).
-  year: '1945'
+  year: "1945"
   TYPESET: >-
     Pen and ink on buff wove paper, circa 1945-1950. 305x445 mm; 12x17½ inches.
     Signed in ink, lower right.<br><br>Provenance: private collection, New
     Jersey; private collection, New York, acquired at Swann Galleries, February
     17, 2009.<br><br>This early and fine ink drawing by Blackburn shows the
     influence of Picasso and Matisse on the young artist.
-  FOOTNOTE: ''
-  background_color: '#ffffff'
-- REFNO: '785268'
-  LOT: '37'
-  LOW: '8000'
-  HIGH: '12000'
+  FOOTNOTE: ""
+  background_color: "#ffffff"
+- REFNO: "785268"
+  LOT: "37"
+  LOW: "8000"
+  HIGH: "12000"
   DESCRIPT: JOHN WOODROW WILSON (1922 - 2015)
   CROSSHEAD: Green Checked Table Cloth.
-  year: '1949'
+  year: "1949"
   TYPESET: >-
     Tempera on cream wove paper, 1949. 610x457 mm; 24x18 inches. Signed and
     dated in red ink, lower right recto. Titled in blue ink, lower left
@@ -834,15 +834,15 @@ lots:
     social and political consciousness of his art. After returning to the US in
     1950, Wilson earned the John Hay Whitney Fellowship and moved to Mexico
     City.
-  FOOTNOTE: ''
-  background_color: '#ffffff'
-- REFNO: '785148'
-  LOT: '38'
-  LOW: '5000'
-  HIGH: '7000'
+  FOOTNOTE: ""
+  background_color: "#ffffff"
+- REFNO: "785148"
+  LOT: "38"
+  LOW: "5000"
+  HIGH: "7000"
   DESCRIPT: MERTON D. SIMPSON (1928 - 2013)
   CROSSHEAD: Untitled (Portrait of a Young Woman).
-  year: '1950'
+  year: "1950"
   TYPESET: >-
     Oil on masonite, circa 1950-52. 502x248 mm; 19¾x9¾ inches. Signed in ink,
     lower left recto. With a partial figure sketch on the
@@ -850,41 +850,41 @@ lots:
     collection, New York.<br><br>This intimate, modernist portrait was painted
     during Merton Simpson's first years in New York, when he studied visual art
     at Cooper Union and at New York University with Hale Woodruff.
-  FOOTNOTE: ''
-  background_color: '#ffffff'
-- REFNO: '787025'
-  LOT: '39'
-  LOW: '6000'
-  HIGH: '9000'
+  FOOTNOTE: ""
+  background_color: "#ffffff"
+- REFNO: "787025"
+  LOT: "39"
+  LOW: "6000"
+  HIGH: "9000"
   DESCRIPT: CHARLES WHITE (1918 - 1979)
   CROSSHEAD: Gideon.
-  year: '1951'
+  year: "1951"
   TYPESET: >-
     Lithograph on cream wove paper, 1951. 565x375 mm; 22¼x14¾ inches, full
     margins. Edition of 50. Titled and inscribed "Ed. 50" in pencil, lower
     right. Printed by the Robert Blackburn Printmaking Workshop, New York.
     Gedeon Ea10.
-  FOOTNOTE: ''
-  background_color: '#ffffff'
-- REFNO: '754368'
-  LOT: '40'
-  LOW: '1500'
-  HIGH: '2500'
+  FOOTNOTE: ""
+  background_color: "#ffffff"
+- REFNO: "754368"
+  LOT: "40"
+  LOW: "1500"
+  HIGH: "2500"
   DESCRIPT: MARGARET BURROUGHS  (1917 - 2010)
   CROSSHEAD: Sojourner Truth.
-  year: '1956'
+  year: "1956"
   TYPESET: >-
     Lithograph on cream wove paper, 1955. 425x311 mm; 16¾x12¼ inches, narrow
     margins. Signed, titled, dated and numbered 17/20 in pencil, lower margin.
-  FOOTNOTE: ''
-  background_color: '#ffffff'
-- REFNO: '787204'
-  LOT: '41'
-  LOW: '20000'
-  HIGH: '30000'
+  FOOTNOTE: ""
+  background_color: "#ffffff"
+- REFNO: "787204"
+  LOT: "41"
+  LOW: "20000"
+  HIGH: "30000"
   DESCRIPT: ROY DECARAVA (1919 - 2009)
-  CROSSHEAD: 'Bass Player, Small''s, New York.'
-  year: '1956'
+  CROSSHEAD: "Bass Player, Small's, New York."
+  year: "1956"
   TYPESET: >-
     Silver print, 1956, printed in 1981. 355x279 mm; 14x11 inches. Signed, dated
     and inscribed "printed in 1981" in ink, left edge verso.<br><br>Provenance:
@@ -902,29 +902,29 @@ lots:
     only well-known of the Harlem nightclubs to be African American owned and
     integrated. It became the longest-operating jazz club in Harlem before it
     closed in 1986.
-  FOOTNOTE: ''
-  background_color: '#ffffff'
-- REFNO: '787203'
-  LOT: '42'
-  LOW: '12000'
-  HIGH: '18000'
+  FOOTNOTE: ""
+  background_color: "#ffffff"
+- REFNO: "787203"
+  LOT: "42"
+  LOW: "12000"
+  HIGH: "18000"
   DESCRIPT: NORMAN LEWIS (1909 - 1979)
   CROSSHEAD: Untitled.
-  year: '1954'
+  year: "1954"
   TYPESET: >-
     Brush and ink on cream wove paper, 1954. 483x610 mm; 19x24 inches. Signed
     and dated in pencil, lower left.<br><br>Provenance: acquired directly from
     the artist, private collection; thence by descent, private collection,
     Texas.
-  FOOTNOTE: ''
-  background_color: '#ffffff'
-- REFNO: '785146'
-  LOT: '43'
-  LOW: '4000'
-  HIGH: '6000'
+  FOOTNOTE: ""
+  background_color: "#ffffff"
+- REFNO: "785146"
+  LOT: "43"
+  LOW: "4000"
+  HIGH: "6000"
   DESCRIPT: CHARLES ALSTON (1907 - 1977)
   CROSSHEAD: Untitled.
-  year: '1957'
+  year: "1957"
   TYPESET: >-
     Gouache, pen and ink on buff, fibrous Japan paper, 1957. 368x317 mm; 14½x12½
     inches. Signed and dated in pencil, lower right recto. Signed in pencil,
@@ -933,15 +933,15 @@ lots:
     private collection, New York (2011), acquired at Swann Galleries, February
     7, 2011.<br><br>Exhibited: The Artist's Gallery, New York, with the ink
     stamp on the mount verso.
-  FOOTNOTE: ''
-  background_color: '#ffffff'
-- REFNO: '787284'
-  LOT: '44'
-  LOW: '250000'
-  HIGH: '350000'
+  FOOTNOTE: ""
+  background_color: "#ffffff"
+- REFNO: "787284"
+  LOT: "44"
+  LOW: "250000"
+  HIGH: "350000"
   DESCRIPT: HALE WOODRUFF (1900 - 1980)
   CROSSHEAD: Carnival.
-  year: '1958'
+  year: "1958"
   TYPESET: >-
     Oil on linen canvas, circa 1958. 1029x1727 mm; 40½x68 inches. Signed in oil,
     lower left recto. Signed and titled in oil across the
@@ -977,69 +977,69 @@ lots:
     landscape as the structure of his abstract painting through the late 1960s -
     see in such later works as <i>Primordial Landscape</i>, 1967, (sold at Swann
     Galleries on April 22, 2021) with similar jewel-like colors.
-  FOOTNOTE: ''
-  background_color: '#ffffff'
-- REFNO: '785298'
-  LOT: '45'
-  LOW: '3000'
-  HIGH: '5000'
+  FOOTNOTE: ""
+  background_color: "#ffffff"
+- REFNO: "785298"
+  LOT: "45"
+  LOW: "3000"
+  HIGH: "5000"
   DESCRIPT: WALTER H. WILLIAMS (1920 - 1998)
   CROSSHEAD: Sunflowers.
-  year: '1959'
+  year: "1959"
   TYPESET: >-
     Color woodcut on thin imitation Japan paper, 1959. 431x558 mm; 17x22 inches,
     full margins. Signed, titled, dated and numbered 127/200 in pencil, lower
     margin.
-  FOOTNOTE: ''
-  background_color: '#ffffff'
-- REFNO: '783775'
-  LOT: '46'
-  LOW: '1500'
-  HIGH: '2500'
+  FOOTNOTE: ""
+  background_color: "#ffffff"
+- REFNO: "783775"
+  LOT: "46"
+  LOW: "1500"
+  HIGH: "2500"
   DESCRIPT: WALTER H. WILLIAMS (1920 - 1998)
   CROSSHEAD: Marguerite.
-  year: '1961'
+  year: "1961"
   TYPESET: >-
     Color linoleum cut on thin imitation Japan paper, 1961. 317x826 mm; 12½x32½
     inches, full margins. Signed, titled, dated, inscribed "imp" and numbered
     54/210 in pencil, lower margin.
-  FOOTNOTE: ''
-  background_color: '#ffffff'
-- REFNO: '787032'
-  LOT: '47'
-  LOW: '1000'
-  HIGH: '1500'
+  FOOTNOTE: ""
+  background_color: "#ffffff"
+- REFNO: "787032"
+  LOT: "47"
+  LOW: "1000"
+  HIGH: "1500"
   DESCRIPT: CALVIN BURNETT (1921 - 2007)
   CROSSHEAD: Edna.
-  year: '1960'
+  year: "1960"
   TYPESET: >-
     Linoleum cut on thin imitation Japan paper, 1960. 214x133 mm; 9½x5¾ inches,
     full margin. Artist's proof, aside from an unknown edition size. Signed,
     titled, dated and inscribed "linocut" and "AP" in pencil, lower
     margin.<br><br>Provenance: the Melvin Holmes Collection, San Francisco;
     private collection.
-  FOOTNOTE: ''
-  background_color: '#ffffff'
-- REFNO: '788013'
-  LOT: '48'
-  LOW: '3000'
-  HIGH: '5000'
+  FOOTNOTE: ""
+  background_color: "#ffffff"
+- REFNO: "788013"
+  LOT: "48"
+  LOW: "3000"
+  HIGH: "5000"
   DESCRIPT: SAM MIDDLETON  (1927 - 2015)
   CROSSHEAD: Sunken Meadow.
-  year: '1960'
+  year: "1960"
   TYPESET: >-
     Mixed media and collage on buff wove paper, 1960. 483x622 mm; 19x24½ inches.
     Signed and dated in ink, lower right recto. Titled in pencil,
     verso.<br><br>Provenance: private collection, Toronto.
-  FOOTNOTE: ''
-  background_color: '#ffffff'
-- REFNO: '787037'
-  LOT: '49'
-  LOW: '4000'
-  HIGH: '6000'
+  FOOTNOTE: ""
+  background_color: "#ffffff"
+- REFNO: "787037"
+  LOT: "49"
+  LOW: "4000"
+  HIGH: "6000"
   DESCRIPT: EARL HOOKS (1927 - 2005)
   CROSSHEAD: Untitled (Five-footed Vase Form).
-  year: '1960'
+  year: "1960"
   TYPESET: >-
     Thrown and hand-built glazed stoneware, circa 1960. 215x165x165 mm; 8½x6½x6½
     inches. Inscribed signature on base with the artist's address
@@ -1048,15 +1048,15 @@ lots:
     collection.<br><br>This unique ceramic vessel featuring biomorphic shapes
     shows Hooks’ commitment to exploring the relationships between color,
     balance, and form.
-  FOOTNOTE: ''
-  background_color: '#ffffff'
-- REFNO: '786735'
-  LOT: '50'
-  LOW: '80000'
-  HIGH: '120000'
+  FOOTNOTE: ""
+  background_color: "#ffffff"
+- REFNO: "786735"
+  LOT: "50"
+  LOW: "80000"
+  HIGH: "120000"
   DESCRIPT: CHARLES ALSTON (1907 - 1977)
   CROSSHEAD: Moon Haze (Standing in the Moonlight).
-  year: '1960'
+  year: "1960"
   TYPESET: >-
     Oil on linen canvas, 1960. 1270x1270 mm; 50x50 inches. Signed and dated in
     oil, lower right recto. Signed and titled in graphite across the verso, and
@@ -1077,28 +1077,28 @@ lots:
     4, 2018. In <i>Moon Haze<D>, Alston masterfully creates a subtle, hazy
     atmosphere of thin layers of silvery grey paint which blurs boundaries.
     Bearden/Henderson, Jr., p. 269; Wardlaw p. 91 and 93.
-  FOOTNOTE: ''
-  background_color: '#ffffff'
-- REFNO: '786400'
-  LOT: '51'
-  LOW: '20000'
-  HIGH: '30000'
+  FOOTNOTE: ""
+  background_color: "#ffffff"
+- REFNO: "786400"
+  LOT: "51"
+  LOW: "20000"
+  HIGH: "30000"
   DESCRIPT: NORMAN LEWIS (1909 - 1979)
   CROSSHEAD: Untitled (Abstraction.).
-  year: '1964'
+  year: "1964"
   TYPESET: >-
     Oil with crayon, pen and ink on wove paper, 1964. 603x480 mm; 23¾x19 inches.
     Signed and dated in pencil, lower center.<br><br>Provenance: private
     collection, Columbus, OH; private collection, New York.
-  FOOTNOTE: ''
-  background_color: '#ffffff'
-- REFNO: '785142'
-  LOT: '52'
-  LOW: '4000'
-  HIGH: '6000'
+  FOOTNOTE: ""
+  background_color: "#ffffff"
+- REFNO: "785142"
+  LOT: "52"
+  LOW: "4000"
+  HIGH: "6000"
   DESCRIPT: ROBERT BLACKBURN (1920 - 2003)
   CROSSHEAD: Color Symphony.
-  year: '1960'
+  year: "1960"
   TYPESET: >-
     Color lithograph, 1960. 400x560 mm; 15¾x22⅛ inches, full margins. Edition of
     15. Signed, titled, dated and inscribed "Ed. 15" in pencil, lower margin. A
@@ -1112,15 +1112,15 @@ lots:
     artists of diverse social and economic backgrounds, styles, and levels of
     expertise. Under his direction, the Printmaking Workshop became one of the
     most vital collaborative art studios in the world.
-  FOOTNOTE: ''
-  background_color: '#ffffff'
-- REFNO: '785139'
-  LOT: '53'
-  LOW: '2000'
-  HIGH: '3000'
+  FOOTNOTE: ""
+  background_color: "#ffffff"
+- REFNO: "785139"
+  LOT: "53"
+  LOW: "2000"
+  HIGH: "3000"
   DESCRIPT: ROBERT BLACKBURN (1920 - 2003)
   CROSSHEAD: Untitled (14 x 14).
-  year: '1962'
+  year: "1962"
   TYPESET: >-
     Etching and aquatint on cream wove paper, 1962. 349x349 mm; 13¾x13¾ inches,
     wide margins. Edition of 10, printed in 1979. Signed, titled, dated and
@@ -1128,30 +1128,30 @@ lots:
     the permanent collection of the Library of Congress, Prints & Photographs
     Division, Washington DC and the Georgia Museum of Art, University of
     Georiga, Athens.
-  FOOTNOTE: ''
-  background_color: '#ffffff'
-- REFNO: '785140'
-  LOT: '54'
-  LOW: '3000'
-  HIGH: '5000'
+  FOOTNOTE: ""
+  background_color: "#ffffff"
+- REFNO: "785140"
+  LOT: "54"
+  LOW: "3000"
+  HIGH: "5000"
   DESCRIPT: ROBERT BLACKBURN (1920 - 2003)
   CROSSHEAD: Man in Top Hat.
-  year: '1960'
+  year: "1960"
   TYPESET: >-
     Color lithograph, circa 1960. 307x225 mm; 12⅛x8¾ inches, full margins.
     Artist's proof, aside from an unknown edition. Signed and titled in pencil,
     lower margin.<br><br> A very good impression of this scarce print - two
     other impressions, each printed with different colors, are in the Cochran
     Collection of Wes and Missy Cochran.
-  FOOTNOTE: ''
-  background_color: '#ffffff'
-- REFNO: '785966'
-  LOT: '55'
-  LOW: '30000'
-  HIGH: '40000'
+  FOOTNOTE: ""
+  background_color: "#ffffff"
+- REFNO: "785966"
+  LOT: "55"
+  LOW: "30000"
+  HIGH: "40000"
   DESCRIPT: BOB THOMPSON (1937 - 1966)
   CROSSHEAD: Tree God.
-  year: '1960'
+  year: "1960"
   TYPESET: >-
     Oil on wood panel, 1960. 187x546 mm; 7⅜x21½ inches. Signed, titled and dated
     in oil, verso.<br><br>Provenance: private collection, New York, acquired
@@ -1169,58 +1169,58 @@ lots:
     New York at the Delancey Street Museum, founded by Red Grooms, and a
     two-person exhibition with Jay Milder at the Zabriskie Gallery. In December,
     he married Carol Plenda whom he had also met in Provincetown.
-  FOOTNOTE: ''
-  background_color: '#ffffff'
-- REFNO: '785967'
-  LOT: '56'
-  LOW: '10000'
-  HIGH: '15000'
+  FOOTNOTE: ""
+  background_color: "#ffffff"
+- REFNO: "785967"
+  LOT: "56"
+  LOW: "10000"
+  HIGH: "15000"
   DESCRIPT: BOB THOMPSON (1937 - 1966)
   CROSSHEAD: Untitled (Blue Figure in Profile).
-  year: '1963'
+  year: "1963"
   TYPESET: >-
     Oil on linen canvas, mounted to wood panel, 1963. 275x350 mm; 3¾x11½ inches.
     Signed and dated in ink, verso.<br><br>Provenance: John and Kimiko Powers;
     gifted to a non-profit orginization; private collection, New York, acquired
     at Shannon's Fine Art Auctioneers, Milford, CT, April 28, 2011.
-  FOOTNOTE: ''
-  background_color: '#ffffff'
-- REFNO: '785968'
-  LOT: '57'
-  LOW: '8000'
-  HIGH: '12000'
+  FOOTNOTE: ""
+  background_color: "#ffffff"
+- REFNO: "785968"
+  LOT: "57"
+  LOW: "8000"
+  HIGH: "12000"
   DESCRIPT: BOB THOMPSON (1937 - 1966)
   CROSSHEAD: Winter.
-  year: '1960'
+  year: "1960"
   TYPESET: >-
     Oil on wood panel, 1960. 275x350 mm; 7⅜x13½ inches.<br><br>Provenance: the
     artist; Carol Thompson, the artist's wife; Vanderwoude Tananbaum Gallery,
     New York, with the label on the frame back; private collection, New York,
     acquired at Christie's New York, July 28, 2015.
-  FOOTNOTE: ''
-  background_color: '#ffffff'
-- REFNO: '785969'
-  LOT: '58'
-  LOW: '7000'
-  HIGH: '10000'
+  FOOTNOTE: ""
+  background_color: "#ffffff"
+- REFNO: "785969"
+  LOT: "58"
+  LOW: "7000"
+  HIGH: "10000"
   DESCRIPT: BOB THOMPSON (1937 - 1966)
   CROSSHEAD: The Ten Plagues.
-  year: '1963'
+  year: "1963"
   TYPESET: >-
     Goauche and pencil on cream wove paper, mounted to illustration board,
     1963.  216x178 mm; 8½ x 7 inches. Signed and dated in ink twice, lower right
     and lower right margin, with an inscription in the lower
     margin.<br><br>Provenance: private collection, New York, acquired at
     Christie's East, New York, November 7, 2000.
-  FOOTNOTE: ''
-  background_color: '#ffffff'
-- REFNO: '786538'
-  LOT: '59'
-  LOW: '5000'
-  HIGH: '7000'
+  FOOTNOTE: ""
+  background_color: "#ffffff"
+- REFNO: "786538"
+  LOT: "59"
+  LOW: "5000"
+  HIGH: "7000"
   DESCRIPT: BOB THOMPSON (1937 - 1966)
   CROSSHEAD: Untitled (Study for Satyr Painting).
-  year: '1966'
+  year: "1966"
   TYPESET: >-
     Felt tip pens and color inks with pencil on cream wove paper, 1966. 279x216
     mm; 11x8½ inches.<br><br>Provenance: acquired directly from the artist's
@@ -1229,15 +1229,15 @@ lots:
     paintings that inspired him in person. While recovering from gall bladder
     surgery in Rome in 1966, Thompson died in Rome just before his 29th
     birthday, only eight years after the start of his career in Provincetown.
-  FOOTNOTE: ''
-  background_color: '#ffffff'
-- REFNO: '786512'
-  LOT: '60'
-  LOW: '4000'
-  HIGH: '6000'
+  FOOTNOTE: ""
+  background_color: "#ffffff"
+- REFNO: "786512"
+  LOT: "60"
+  LOW: "4000"
+  HIGH: "6000"
   DESCRIPT: PALMER HAYDEN (1890 - 1973)
   CROSSHEAD: Sardine Boats (of Concarneau).
-  year: '1961'
+  year: "1961"
   TYPESET: >-
     Watercolor on wove paper, 1961. 306x408 mm; 12⅜x16⅜ inches. Signed (twice)
     and dated in watercolor, lower right.<br><br>Provenance: estate of Miriam
@@ -1248,15 +1248,15 @@ lots:
     along the Brittany coast. His first images of these are found in several of
     his sketchbooks from Concarneau in the Archives of American Art, Smithsonian
     Institution.
-  FOOTNOTE: ''
-  background_color: '#ffffff'
-- REFNO: '785266'
-  LOT: '61'
-  LOW: '4000'
-  HIGH: '6000'
+  FOOTNOTE: ""
+  background_color: "#ffffff"
+- REFNO: "785266"
+  LOT: "61"
+  LOW: "4000"
+  HIGH: "6000"
   DESCRIPT: JAMES A. PORTER (1905 - 1970)
-  CROSSHEAD: 'Seraphim and Cherubim, Lagos.'
-  year: '1964'
+  CROSSHEAD: "Seraphim and Cherubim, Lagos."
+  year: "1964"
   TYPESET: >-
     Oil on cotton canvas, 1964. 508x356 mm; 20x14 inches.<br><br>Provenance: the
     estate of Adelaide Cromwell; private collection, Massachusetts. Adelaide
@@ -1264,41 +1264,41 @@ lots:
     University.<br><br>Exhibited: <i>Retrospective Exhibition: Paintings of the
     Years 1954-1964</i>, Howard University, Gallery of Art, Washington, DC,
     January 22 - February 26, 1965, cat no. 24.
-  FOOTNOTE: ''
-  background_color: '#ffffff'
-- REFNO: '785269'
-  LOT: '62'
-  LOW: '6000'
-  HIGH: '9000'
+  FOOTNOTE: ""
+  background_color: "#ffffff"
+- REFNO: "785269"
+  LOT: "62"
+  LOW: "6000"
+  HIGH: "9000"
   DESCRIPT: JOHN WOODROW WILSON (1922 - 2015)
   CROSSHEAD: Untitled (Portrait of a Young Woman).
-  year: '1964'
+  year: "1964"
   TYPESET: >-
     Black and sanguine conte crayon on cream wove paper, 1964. 445x340 mm;
     17½x13½ inches. Signed and dated in crayon, lower right.<br><br>Provenance:
     private collection, Massachusetts.
-  FOOTNOTE: ''
-  background_color: '#ffffff'
-- REFNO: '778214'
-  LOT: '63'
-  LOW: '4000'
-  HIGH: '6000'
+  FOOTNOTE: ""
+  background_color: "#ffffff"
+- REFNO: "778214"
+  LOT: "63"
+  LOW: "4000"
+  HIGH: "6000"
   DESCRIPT: CHARLES SEARLES (1937 - 2004)
   CROSSHEAD: Standing Woman<D>.
-  year: '1967'
+  year: "1967"
   TYPESET: >-
     Watercolor with pen and ink on cream wove paper, circa 1967. 660x357 mm;
     26x14 inches.  Signed in pen and ink, lower left recto.  With figure studies
     in pencil, verso.<br><br>Provenance: private collection, New Jersey.
-  FOOTNOTE: ''
-  background_color: '#ffffff'
-- REFNO: '779006'
-  LOT: '64'
-  LOW: '12000'
-  HIGH: '18000'
+  FOOTNOTE: ""
+  background_color: "#ffffff"
+- REFNO: "779006"
+  LOT: "64"
+  LOW: "12000"
+  HIGH: "18000"
   DESCRIPT: CHARLES SEARLES (1937 - 2004)
   CROSSHEAD: Untitled (Portrait of a Young Man).
-  year: '1968'
+  year: "1968"
   TYPESET: >-
     Oil on cotton canvas, circa 1968-69.  455x555 mm; 18x22 inches.
     <br><br>Provenance: private collection, New Jersey.<br><br>This striking
@@ -1315,15 +1315,15 @@ lots:
     Montclair Museum of Art, the Dallas Museum of Art, the Smithsonian National
     Museum of American Art, the Afro-American Historical and Cultural Museum,
     Philadelphia and Howard University.
-  FOOTNOTE: ''
-  background_color: '#ffffff'
-- REFNO: '785990'
-  LOT: '65'
-  LOW: '2000'
-  HIGH: '3000'
+  FOOTNOTE: ""
+  background_color: "#ffffff"
+- REFNO: "785990"
+  LOT: "65"
+  LOW: "2000"
+  HIGH: "3000"
   DESCRIPT: CARL RICHARD "DINGBAT" SMITH (1927 - 1980S)
   CROSSHEAD: Three Brothers.
-  year: '1966'
+  year: "1966"
   TYPESET: >-
     Assemblage of nails on a wood panel, 1966. 1219x1219 mm; 48x48 inches.
     Signed, dated "66" and titled in ink, verso.<br><br>Provenance: private
@@ -1335,15 +1335,15 @@ lots:
     highly prized by collectors, and deserve much wider recognition. Two other
     examples of his work are in the Petrucci Family Foundation Collection of
     African American Art.
-  FOOTNOTE: ''
-  background_color: '#ffffff'
-- REFNO: '786511'
-  LOT: '66'
-  LOW: '5000'
-  HIGH: '7000'
+  FOOTNOTE: ""
+  background_color: "#ffffff"
+- REFNO: "786511"
+  LOT: "66"
+  LOW: "5000"
+  HIGH: "7000"
   DESCRIPT: SAMELLA LEWIS (1924 - )
   CROSSHEAD: Migrants.
-  year: '1967'
+  year: "1967"
   TYPESET: >-
     Linoleum cut on thin imitation Japan paper, 1967. 432x610 mm; 17x24 inches,
     full margins. Signed, titled, dated and numbered 7/25 in pencil, lower
@@ -1354,15 +1354,15 @@ lots:
     very rich, dark impression of this scarce print; other impressions are in
     the collections of the Museum of Modern Art, New York and the Hammer Museum,
     Los Angeles.
-  FOOTNOTE: ''
-  background_color: '#ffffff'
-- REFNO: '787035'
-  LOT: '67'
-  LOW: '4000'
-  HIGH: '6000'
+  FOOTNOTE: ""
+  background_color: "#ffffff"
+- REFNO: "787035"
+  LOT: "67"
+  LOW: "4000"
+  HIGH: "6000"
   DESCRIPT: BARBARA JONES-HOGU (1938 - 2017)
   CROSSHEAD: America III.
-  year: '1968'
+  year: "1968"
   TYPESET: >-
     Color screenprint on brown wove paper, 1968. 647x622 mm; 25½x24½ inches,
     full margins. From the edition of fewer than 10 impressions printed by the
@@ -1379,15 +1379,15 @@ lots:
     really free to do whatever we and he really wanted to do and could do due to
     radical oppression and suppression.." She used similar imagery in her 1968
     prints<i>Land Where My Father Died</i> and <i>Be Your Brother's Keeper</i>.
-  FOOTNOTE: ''
-  background_color: '#ffffff'
-- REFNO: '787036'
-  LOT: '68'
-  LOW: '5000'
-  HIGH: '7000'
+  FOOTNOTE: ""
+  background_color: "#ffffff"
+- REFNO: "787036"
+  LOT: "68"
+  LOW: "5000"
+  HIGH: "7000"
   DESCRIPT: BARBARA JONES-HOGU (1938 - 2017)
   CROSSHEAD: I'm Better Than These Motherfuckers and They Know It.
-  year: '1968'
+  year: "1968"
   TYPESET: >-
     Color screenprint on yellow artificial Japan paper, 1968. 635x927 mm; 25x36½
     inches (sheet). From the edition of 10 or fewer impressions printed by the
@@ -1405,15 +1405,15 @@ lots:
     different, screenprint that Jones-Hogu made using this title is in the
     collection of the Brooklyn Museum. Both prints use the image of an African
     American woman on a beach with white sunbathers.
-  FOOTNOTE: ''
-  background_color: '#ffffff'
-- REFNO: '785831'
-  LOT: '69'
-  LOW: '50000'
-  HIGH: '75000'
+  FOOTNOTE: ""
+  background_color: "#ffffff"
+- REFNO: "785831"
+  LOT: "69"
+  LOW: "50000"
+  HIGH: "75000"
   DESCRIPT: TIMOTHY WASHINGTON (1946 -    )
   CROSSHEAD: Triptych.
-  year: '1968'
+  year: "1968"
   TYPESET: >-
     Triptych of engraving on aluminum, mounted on wood panels, 1968. Each
     914x914mm; 36x36 inches. Center panel signed and dated "September 16, 1968"
@@ -1454,15 +1454,15 @@ lots:
     recently, Washington's artwork was featured in the 2017-2020 important
     traveling museum exhibtion <i>Soul of a Nation: Art in the Age of Black
     Power</i> organized by the Tate Modern.
-  FOOTNOTE: ''
-  background_color: '#ffffff'
-- REFNO: '787039'
-  LOT: '70'
-  LOW: '5000'
-  HIGH: '7000'
+  FOOTNOTE: ""
+  background_color: "#ffffff"
+- REFNO: "787039"
+  LOT: "70"
+  LOW: "5000"
+  HIGH: "7000"
   DESCRIPT: LEV MILLS (1938 - )
   CROSSHEAD: Gemini I.
-  year: '1969'
+  year: "1969"
   TYPESET: >-
     Etching and aquatint on cream wove paper, 1969. 305x305 mm; 12x12 inches,
     full margins. Signed, titled, and numbered 6/30 in pencil, lower
@@ -1481,15 +1481,15 @@ lots:
     2009. Several museums hold work by Mills including Brooklyn Museum, the
     Museum of Modern Art, the Victoria and Albert Museum, London, the British
     Museum, London, and MOCA Georgia.
-  FOOTNOTE: ''
-  background_color: '#ffffff'
-- REFNO: '785834'
-  LOT: '71'
-  LOW: '12000'
-  HIGH: '18000'
+  FOOTNOTE: ""
+  background_color: "#ffffff"
+- REFNO: "785834"
+  LOT: "71"
+  LOW: "12000"
+  HIGH: "18000"
   DESCRIPT: CHARLES WHITE (1981 - 1979)
   CROSSHEAD: Elijah.
-  year: '1969'
+  year: "1969"
   TYPESET: >-
     Etching printed in brown on cream wove paper, 1969. 324x552 mm; 12¾x21¾
     inches, full margins. Artist's proof, one of only a few signed artist's
@@ -1498,15 +1498,15 @@ lots:
     Printed by Joseph and Hugo Mugnani, Los Angeles. <br><br>A superb impression
     of this scarce etching - another impression is in the collection of the
     Metropolitan Museum of Art. Gedeon Ec1.
-  FOOTNOTE: ''
-  background_color: '#ffffff'
-- REFNO: '785656'
-  LOT: '72'
-  LOW: '8000'
-  HIGH: '12000'
+  FOOTNOTE: ""
+  background_color: "#ffffff"
+- REFNO: "785656"
+  LOT: "72"
+  LOW: "8000"
+  HIGH: "12000"
   DESCRIPT: CHARLES WHITE (1918 - 1979)
   CROSSHEAD: Untitled (Study for Matriarch)
-  year: '1967'
+  year: "1967"
   TYPESET: >-
     Charcoal, graphite and pencil on thin artificial vellum, circa 1967. 483x406
     mm; 19x16 inches. With the artist's estate signature ink stamp, lower
@@ -1520,15 +1520,15 @@ lots:
     of the Charles White's later work, and his use of preparatory drawings. His
     final oil painting <i>Matriarch</i>, 1967, is in the collection of the
     National Academy of Design, New York.
-  FOOTNOTE: ''
-  background_color: '#ffffff'
-- REFNO: '785121'
-  LOT: '73'
-  LOW: '35000'
-  HIGH: '50000'
+  FOOTNOTE: ""
+  background_color: "#ffffff"
+- REFNO: "785121"
+  LOT: "73"
+  LOW: "35000"
+  HIGH: "50000"
   DESCRIPT: RICHMOND BARTHÉ (1901 - 1989)
   CROSSHEAD: Black Majesty.
-  year: '1969'
+  year: "1969"
   TYPESET: >-
     Bronze with a brown patina, 1969. Approximately 610x260x133 mm; 24x10¼x 5¼
     inches. Incised signature at the base edge.<br><br>Provenance: acquired
@@ -1541,71 +1541,71 @@ lots:
     clay" but with a regal air of remove. <i>Black Majesty<i> was made in
     Barthé's last year living in Jamaica, before his move to Florence, Italy
     where he lived until 1975. Vendryes p. 177.
-  FOOTNOTE: ''
-  background_color: '#ffffff'
-- REFNO: '787269'
-  LOT: '74'
-  LOW: '15000'
-  HIGH: '25000'
+  FOOTNOTE: ""
+  background_color: "#ffffff"
+- REFNO: "787269"
+  LOT: "74"
+  LOW: "15000"
+  HIGH: "25000"
   DESCRIPT: NORMAN LEWIS (1917 - 1979)
   CROSSHEAD: Untitled.
-  year: '1968'
+  year: "1968"
   TYPESET: >-
     Oil, pen, ink and wash on wove paper, 1968. 482x698 mm; 19½x27½ inches.
     Signed and dated in ink, lower left.<br><br>Provenance: the estate of the
     artist; Bill Hodges Gallery, New York, with the gallery label on the frame
     back; private collection, New York.<br><br>Illustrated: <i>Norman W. Lewis:
     Works on Paper, 1935 - 1979<D>, Billl Hodges Gallery, New York, p. 69.
-  FOOTNOTE: ''
-  background_color: '#ffffff'
-- REFNO: '787202'
-  LOT: '75'
-  LOW: '15000'
-  HIGH: '25000'
+  FOOTNOTE: ""
+  background_color: "#ffffff"
+- REFNO: "787202"
+  LOT: "75"
+  LOW: "15000"
+  HIGH: "25000"
   DESCRIPT: NORMAN LEWIS (1909 - 1979)
   CROSSHEAD: Untitled (Abstract Composition).
-  year: '1968'
+  year: "1968"
   TYPESET: >-
     Oil on wove paper, 1968. 508x660 mm; 20x26 inches. Signed and dated in ink,
     lower left.<br><br>Provenance: acquired directly from the artist, private
     collection; thence by descent, private collection, Texas.<br><br>The sheet
     has the printed Inkweed Arts illustrations on the verso - found on many
     Lewis works on paper from the late 1950s and 1960s.
-  FOOTNOTE: ''
-  background_color: '#ffffff'
-- REFNO: '786139'
-  LOT: '76'
-  LOW: '25000'
-  HIGH: '35000'
+  FOOTNOTE: ""
+  background_color: "#ffffff"
+- REFNO: "786139"
+  LOT: "76"
+  LOW: "25000"
+  HIGH: "35000"
   DESCRIPT: SAM GILLIAM (1933 -   )
   CROSSHEAD: Untitled (Abstraction with Silver).
-  year: '1970'
+  year: "1970"
   TYPESET: >-
     Watercolor, ink, acrylic and aluminum powder on distressed hand made paper,
     1970. 571x724 mm; 22½x28½ inches. Signed and dated in ink, lower right (and
     upper left, reversed).<br><br>Provenance: private collection, New York.
-  FOOTNOTE: ''
-  background_color: '#ffffff'
-- REFNO: '786140'
-  LOT: '77'
-  LOW: '25000'
-  HIGH: '35000'
+  FOOTNOTE: ""
+  background_color: "#ffffff"
+- REFNO: "786140"
+  LOT: "77"
+  LOW: "25000"
+  HIGH: "35000"
   DESCRIPT: SAM GILLIAM (1933 -   )
   CROSSHEAD: Untitled (Abstraction with Magenta).
-  year: '1970'
+  year: "1970"
   TYPESET: >-
     Watercolor, ink, acrylic and aluminum powder on distressed hand made paper,
     1970. Approximately 559x686 mm; 22x27 inches. Signed and dated in ink, lower
     right.<br><br>Provenance: private collection, New York.
-  FOOTNOTE: ''
-  background_color: '#ffffff'
-- REFNO: '784771'
-  LOT: '78'
-  LOW: '5000'
-  HIGH: '7000'
+  FOOTNOTE: ""
+  background_color: "#ffffff"
+- REFNO: "784771"
+  LOT: "78"
+  LOW: "5000"
+  HIGH: "7000"
   DESCRIPT: GLORIA R. BOHANON  (1941 - )
   CROSSHEAD: Out of Reach.
-  year: '1970'
+  year: "1970"
   TYPESET: >-
     Oil and enamel paint on cotton canvas, circa 1970. 610x457 mm; 24x18 inches.
     Initialed in ink, upper right recto. Signed in ink,
@@ -1628,28 +1628,28 @@ lots:
     was sold in the Johnson Publishing Company Collection of African American
     Art, auction at Swann Galleries, January 30, 2020. .Jones p. 25; Waddy/Lewis
     p. 51 and 134.
-  FOOTNOTE: ''
-  background_color: '#ffffff'
-- REFNO: '782034'
-  LOT: '79'
-  LOW: '5000'
-  HIGH: '7000'
+  FOOTNOTE: ""
+  background_color: "#ffffff"
+- REFNO: "782034"
+  LOT: "79"
+  LOW: "5000"
+  HIGH: "7000"
   DESCRIPT: DAN CONCHOLAR (1939 - 2017)
   CROSSHEAD: Group of 4 untitled drawings (Organic Forms).
-  year: '1970'
+  year: "1970"
   TYPESET: >-
     Each colored pencils and ink on cream wove paper, circa 1970. Each
     553x524mm; 21⅛x20⅞ inches. Each signed in ink, lower
     right.<br><br>Provenance: private collection, Colorado.
-  FOOTNOTE: ''
-  background_color: '#ffffff'
-- REFNO: '785554'
-  LOT: '80'
-  LOW: '10000'
-  HIGH: '15000'
+  FOOTNOTE: ""
+  background_color: "#ffffff"
+- REFNO: "785554"
+  LOT: "80"
+  LOW: "10000"
+  HIGH: "15000"
   DESCRIPT: BERNARD HARMON (1935 - 1989)
   CROSSHEAD: Untitled (Young Man and Woman in a Striped Dress).
-  year: '1970'
+  year: "1970"
   TYPESET: >-
     Oil on board, circa 1970. 1067x914 mm; 42x36 inches.<br><br>Provenance:
     private collection, Pennslyvania.<br><br>This expressive and captivating
@@ -1664,55 +1664,55 @@ lots:
     1800-1969</i>, produced by the Division of Art Education of the School
     District of Philadelphia in cooperation with the Museum of the Philadelphia
     Civic Center.
-  FOOTNOTE: ''
-  background_color: '#ffffff'
-- REFNO: '787028'
-  LOT: '81'
-  LOW: '2000'
-  HIGH: '3000'
+  FOOTNOTE: ""
+  background_color: "#ffffff"
+- REFNO: "787028"
+  LOT: "81"
+  LOW: "2000"
+  HIGH: "3000"
   DESCRIPT: ALVIN C. HOLLINGSWORTH (1928 -2000)
   CROSSHEAD: Untitled (Angela Davis).
-  year: '1970'
+  year: "1970"
   TYPESET: >-
     Acrylic on wood panel, circa 1970. 470 mm; 18½ inches diameter (tondo).
     Signed in acrylic, lower right.<br><br>Provenance: private collection, New
     York.
-  FOOTNOTE: ''
-  background_color: '#ffffff'
-- REFNO: '783916'
-  LOT: '82'
-  LOW: '2000'
-  HIGH: '3000'
-  DESCRIPT: 'DANA C. CHANDLER, JR. (1941 - )'
+  FOOTNOTE: ""
+  background_color: "#ffffff"
+- REFNO: "783916"
+  LOT: "82"
+  LOW: "2000"
+  HIGH: "3000"
+  DESCRIPT: "DANA C. CHANDLER, JR. (1941 - )"
   CROSSHEAD: 'Genocide Series No. 2, Lil Junkies Waiting on "Bro" Pusher.'
-  year: '1970'
+  year: "1970"
   TYPESET: >-
     Screenprint on red wove paper, 1970. 406x279 mm; 16x11 inches, wide
     margins.<br><br>A very scarce impression from the artist's 1970-71
     <i>Genocide Series</i>.
-  FOOTNOTE: ''
-  background_color: '#ffffff'
-- REFNO: '787038'
-  LOT: '83'
-  LOW: '2000'
-  HIGH: '3000'
+  FOOTNOTE: ""
+  background_color: "#ffffff"
+- REFNO: "787038"
+  LOT: "83"
+  LOW: "2000"
+  HIGH: "3000"
   DESCRIPT: DINDGA MCCANNON (1947 - )
   CROSSHEAD: Disposessed!
-  year: '1970'
+  year: "1970"
   TYPESET: >-
     Linoleum cut on burnt orange coated paper, 1970. 169x304 mm; 6⅞x12 inches,
     full margins. Signed, dated, titled and numbered 2/10 in pencil, lower
     margin.<br><br>Provenance: collection of the artist; private collection,
     acquired directly from the artist.
-  FOOTNOTE: ''
-  background_color: '#ffffff'
-- REFNO: '786861'
-  LOT: '84'
-  LOW: '2000'
-  HIGH: '3000'
+  FOOTNOTE: ""
+  background_color: "#ffffff"
+- REFNO: "786861"
+  LOT: "84"
+  LOW: "2000"
+  HIGH: "3000"
   DESCRIPT: DINDGA MCCANNON (1947 - )
   CROSSHEAD: The Last Farewell.
-  year: '1973'
+  year: "1973"
   TYPESET: >-
     Linoleum cut on wove paper, 1973. 305x305 mm; 12x12 inches, wide (full?)
     margins. Signed, dated, titled and numbered 10/100 in ink, lower
@@ -1720,15 +1720,15 @@ lots:
     same-titled oil painting. McCannon's important 1970 painting <i>The Last
     Farewell</i> was part of the Johnson Publishing Company Collection of
     African American Art, sold at Swann Galleries on January 30, 2020.
-  FOOTNOTE: ''
-  background_color: '#ffffff'
-- REFNO: '787043'
-  LOT: '85'
-  LOW: '6000'
-  HIGH: '8000'
+  FOOTNOTE: ""
+  background_color: "#ffffff"
+- REFNO: "787043"
+  LOT: "85"
+  LOW: "6000"
+  HIGH: "8000"
   DESCRIPT: GERALD WILLIAMS (1941 - )
   CROSSHEAD: Wake Up.
-  year: '1971'
+  year: "1971"
   TYPESET: >-
     Color screenprint on wove paper, 1971. 1066x711 mm; 42x28
     inches.<br><br>Provenance: acquired directly from the artist, private
@@ -1742,15 +1742,15 @@ lots:
     screenprints published and printed by AfriCOBRA in 1971. Other impressions
     are in the permanent collections of the Brooklyn Museum and Tate Modern,
     London.
-  FOOTNOTE: ''
-  background_color: '#ffffff'
-- REFNO: '787031'
-  LOT: '86'
-  LOW: '1500'
-  HIGH: '2500'
+  FOOTNOTE: ""
+  background_color: "#ffffff"
+- REFNO: "787031"
+  LOT: "86"
+  LOW: "1500"
+  HIGH: "2500"
   DESCRIPT: CASPER BANJO (1937 - 2008)
   CROSSHEAD: Self Portrait.
-  year: '1973'
+  year: "1973"
   TYPESET: >-
     Etching and aquatint with embossing on wove paper, 1973. 577x469 mm; 22¾x18½
     inches, full margins. Signed, titled, dated and numbered 2/4 in pencil,
@@ -1777,15 +1777,15 @@ lots:
     in Harlem, traveling from 1979 - 1981, and <i>Aesthetics of Graffiti,</i>
     San Francisco Museum of Modern Art, 1978. His work is in the permanent
     collection of the Brooklyn Museum, New York.
-  FOOTNOTE: ''
-  background_color: '#ffffff'
-- REFNO: '785261'
-  LOT: '87'
-  LOW: '15000'
-  HIGH: '25000'
+  FOOTNOTE: ""
+  background_color: "#ffffff"
+- REFNO: "785261"
+  LOT: "87"
+  LOW: "15000"
+  HIGH: "25000"
   DESCRIPT: ERNIE BARNES  (1938 - 2009)
   CROSSHEAD: Loose Ball.
-  year: '1971'
+  year: "1971"
   TYPESET: >-
     Oil on cotton canvas, 1971. 1219x1534 mm; 48x60 inches. Signed in oil, lower
     right recto. Inscribed with the artist's copyright statement in ink,
@@ -1802,15 +1802,15 @@ lots:
     able to launch his career with the patronage of Sonny Werblin, owner of the
     New York Jets, and his acclaimed one person exhibition at Grand Central Art
     Galleries in 1968 of these football paintings.
-  FOOTNOTE: ''
-  background_color: '#ffffff'
-- REFNO: '785262'
-  LOT: '88'
-  LOW: '20000'
-  HIGH: '30000'
+  FOOTNOTE: ""
+  background_color: "#ffffff"
+- REFNO: "785262"
+  LOT: "88"
+  LOW: "20000"
+  HIGH: "30000"
   DESCRIPT: ERNIE BARNES (1938 - 2009)
   CROSSHEAD: Untitled.
-  year: '1971'
+  year: "1971"
   TYPESET: >-
     Oil on cotton canvas, 1971. 914x1219 mm; 36x48 inches. Signed in oil, lower
     right recto. Dated "4/10/71" and inscribed with the artist's copyright
@@ -1823,15 +1823,15 @@ lots:
     In 1971, Barnes moved to the Fairfax district of Los Angeles, and created
     his iconic painting <i>The Sugar Shack</i>, later used to illustrate the
     cover of Marvin Gaye's 1976 album <i>I Want You</i>.
-  FOOTNOTE: ''
-  background_color: '#ffffff'
-- REFNO: '785832'
-  LOT: '89'
-  LOW: '3000'
-  HIGH: '5000'
+  FOOTNOTE: ""
+  background_color: "#ffffff"
+- REFNO: "785832"
+  LOT: "89"
+  LOW: "3000"
+  HIGH: "5000"
   DESCRIPT: JACOB LAWRENCE (1917 - 2000)
   CROSSHEAD: Olympic Games.
-  year: '1971'
+  year: "1971"
   TYPESET: >-
     Color screenprint on Schoellers Parole Paper, 1971. 1092x695 mm; 43x27⅜
     inches, full margins. Signed, dated and numbered 41/200 in pencil, lower
@@ -1839,15 +1839,15 @@ lots:
     Verlag + Druck, Munich.<br><br>Additional impressions are in the permanent
     collections of the Philadelphia Museum of Art, Philadelpha and the National
     Gallery of Art, Washington, DC . Nesbett L71-1.
-  FOOTNOTE: ''
-  background_color: '#ffffff'
-- REFNO: '784407'
-  LOT: '90'
-  LOW: '30000'
-  HIGH: '50000'
+  FOOTNOTE: ""
+  background_color: "#ffffff"
+- REFNO: "784407"
+  LOT: "90"
+  LOW: "30000"
+  HIGH: "50000"
   DESCRIPT: ROMARE BEARDEN (1911 - 1988)
   CROSSHEAD: Ritual Bayou.
-  year: '1971'
+  year: "1971"
   TYPESET: >-
     Set of 6 editioned collages, color photo-lithograph mounted on finished
     plywood, as issued, 1971. Each approx. 394x508 mm; 15½x20 inches. Each
@@ -1871,81 +1871,81 @@ lots:
     project. But the artist only made multiples from the first six collages.
     Swann Galleries sold the only other known complete set at auction on
     February 27, 2011. Corlett p. 13.
-  FOOTNOTE: ''
-  background_color: '#ffffff'
-- REFNO: '785147'
-  LOT: '91'
-  LOW: '3000'
-  HIGH: '5000'
+  FOOTNOTE: ""
+  background_color: "#ffffff"
+- REFNO: "785147"
+  LOT: "91"
+  LOW: "3000"
+  HIGH: "5000"
   DESCRIPT: ROMARE BEARDEN (1911 - 1988).
   CROSSHEAD: Tropical Flowers.
-  year: '1971'
+  year: "1971"
   TYPESET: >-
     Color etching and aquatint, circa 1971-72. 395x535 mm; 15½x21 inches, full
     margins. Artist's proof, aside from the edition of 100. Signed "Romie" and
     inscribed "St. Maartens" and "For Jerrie & Herb" in pencil, lower margin.
     Gelburd/Rosenberg GG#79A.
-  FOOTNOTE: ''
-  background_color: '#ffffff'
-- REFNO: '785610'
-  LOT: '92'
-  LOW: '4000'
-  HIGH: '6000'
+  FOOTNOTE: ""
+  background_color: "#ffffff"
+- REFNO: "785610"
+  LOT: "92"
+  LOW: "4000"
+  HIGH: "6000"
   DESCRIPT: ROMARE BEARDEN (1911 - 1988)
   CROSSHEAD: Sorcerer's Village (Sorcerer).
-  year: '1972'
+  year: "1972"
   TYPESET: >-
     Color screenprint, 1972. 417x500 mm; 16⅜x19¾ inches, full margins. Signed,
     titled and numbered 90/125 in pencil, lower margin. Printed by NYIT Print
     Workshop, New York, with the blind stamp lower right. Gelburd/Rosenberg
     GG#32.
-  FOOTNOTE: ''
-  background_color: '#ffffff'
-- REFNO: '783777'
-  LOT: '93'
-  LOW: '5000'
-  HIGH: '7000'
+  FOOTNOTE: ""
+  background_color: "#ffffff"
+- REFNO: "783777"
+  LOT: "93"
+  LOW: "5000"
+  HIGH: "7000"
   DESCRIPT: ROMARE BEARDEN (1911 - 1988)
   CROSSHEAD: Mother and Child.
-  year: '1972'
+  year: "1972"
   TYPESET: >-
     Color screenprint, 1972. 500x147 mm; 19¾x16 ⅜ inches, full margins. Signed
     and numbered 56/200 in pencil, lower margin. Gelburd/Rosenberg GG#59.
-  FOOTNOTE: ''
-  background_color: '#ffffff'
-- REFNO: '782970'
-  LOT: '94'
-  LOW: '3000'
-  HIGH: '5000'
+  FOOTNOTE: ""
+  background_color: "#ffffff"
+- REFNO: "782970"
+  LOT: "94"
+  LOW: "3000"
+  HIGH: "5000"
   DESCRIPT: JOHN WILSON (1922 - 2015)
   CROSSHEAD: Street Children.
-  year: '1973'
+  year: "1973"
   TYPESET: >-
     Etching on wove paper, 1973. 254x445 mm; 10x17½ inches, full margins.
     Signed, titled, dated and numbered 4/75 in pencil, lower margin. Printed by
     George Lockwood, with the blindstamp lower left.
-  FOOTNOTE: ''
-  background_color: '#ffffff'
-- REFNO: '784177'
-  LOT: '95'
-  LOW: '4000'
-  HIGH: '6000'
+  FOOTNOTE: ""
+  background_color: "#ffffff"
+- REFNO: "784177"
+  LOT: "95"
+  LOW: "4000"
+  HIGH: "6000"
   DESCRIPT: ROMARE BEARDEN (1911 - 1988)
   CROSSHEAD: Before the First Whistle (Early Morning).
-  year: '1973'
+  year: "1973"
   TYPESET: >-
     Color lithograph, 1973. 558x457 mm; 22x18 inches, full margins. Artist's
     proof, aside from the edition of 50. Signed, dated and inscribed "for Jean &
     Jacqueline" in pencil, lower margin. Gelburd/Rosenberg GG#33.
-  FOOTNOTE: ''
-  background_color: '#ffffff'
-- REFNO: '786837'
-  LOT: '96'
-  LOW: '25000'
-  HIGH: '35000'
+  FOOTNOTE: ""
+  background_color: "#ffffff"
+- REFNO: "786837"
+  LOT: "96"
+  LOW: "25000"
+  HIGH: "35000"
   DESCRIPT: ROMARE BEARDEN (1911 - 1988)
   CROSSHEAD: Prevalence of Ritual.
-  year: '1974'
+  year: "1974"
   TYPESET: >-
     Set of 5 color screenprints on wove paper, 1974. Four appox. 1016x812 mm;
     40x35 inches; one appox. 812x1016 mm; 32x40 inches, full margins. Each
@@ -1960,15 +1960,15 @@ lots:
     Print Graphic Works by Romare Bearden<i>, essay by Mary Lee Corlett,
     Pomegranante, San Francisco, 2009, pp. 95-99 (different impressions).
     Gelburd/Rosenberg GG#71-75.
-  FOOTNOTE: ''
-  background_color: '#ffffff'
-- REFNO: '786732'
-  LOT: '97'
-  LOW: '10000'
-  HIGH: '15000'
+  FOOTNOTE: ""
+  background_color: "#ffffff"
+- REFNO: "786732"
+  LOT: "97"
+  LOW: "10000"
+  HIGH: "15000"
   DESCRIPT: LOUIS B. SLOAN (1932 -  2008)
   CROSSHEAD: Untitled (Storm Approaching Shore).
-  year: '1973'
+  year: "1973"
   TYPESET: >-
     Oil on linen canvas, 1973. 1117x1842 mm; 44x72½ inches. Signed and dated in
     oil, lower right.<br><br>Provenance: Ms. Roxie Haines, Philadelphia (the
@@ -1986,15 +1986,15 @@ lots:
     <i>Self-Portrait<D>, 1956, sold at Swann Galleries on October 8, 2009, now
     in the collection of the Sheldon Museum of Art, University of
     Nebraska-Lincoln.
-  FOOTNOTE: ''
-  background_color: '#ffffff'
-- REFNO: '782028'
-  LOT: '98'
-  LOW: '30000'
-  HIGH: '40000'
+  FOOTNOTE: ""
+  background_color: "#ffffff"
+- REFNO: "782028"
+  LOT: "98"
+  LOW: "30000"
+  HIGH: "40000"
   DESCRIPT: HUGHIE LEE-SMITH (1915 - 1999)
   CROSSHEAD: Untitled (Urban Landscape).
-  year: '1975'
+  year: "1975"
   TYPESET: >-
     Oil on linen canvas, circa 1975. 813x660 mm; 32x26 inches. Signed in oil,
     lower right.<br><br>Provenance: private collection, Florida.<br><br>This
@@ -2013,52 +2013,52 @@ lots:
     vision. With little drama, he evokes the existentialism of the 1970s --the
     deterioration of America's historic urban areas and communities during
     periods of great growth and prosperity in the country at large.
-  FOOTNOTE: ''
-  background_color: '#ffffff'
-- REFNO: '782029'
-  LOT: '99'
-  LOW: '7000'
-  HIGH: '10000'
+  FOOTNOTE: ""
+  background_color: "#ffffff"
+- REFNO: "782029"
+  LOT: "99"
+  LOW: "7000"
+  HIGH: "10000"
   DESCRIPT: HUGHIE LEE-SMITH (1915 - 1999)
   CROSSHEAD: Untitled (Still Life with Three Wine Bottles).
-  year: '1975'
+  year: "1975"
   TYPESET: >-
     Oil on linen canvas, circa 1975. 660x610 mm; 26x20 inches. Signed in oil,
     lower right.<br><br>Provenance: private collection, Florida.
-  FOOTNOTE: ''
-  background_color: '#ffffff'
-- REFNO: '782030'
-  LOT: '100'
-  LOW: '5000'
-  HIGH: '7000'
+  FOOTNOTE: ""
+  background_color: "#ffffff"
+- REFNO: "782030"
+  LOT: "100"
+  LOW: "5000"
+  HIGH: "7000"
   DESCRIPT: HUGHIE LEE-SMITH (1915 - 1999)
   CROSSHEAD: Untitled (Still Life with Two Wine Bottles).
-  year: '1975'
+  year: "1975"
   TYPESET: >-
     Oil on linen canvas, circa 1975. 457x305 mm; 18x12 inches. Signed in oil
     (twice), upper and lower right.<br><br>Provenance: private collection,
     Florida.
-  FOOTNOTE: ''
-  background_color: '#ffffff'
-- REFNO: '782031'
-  LOT: '101'
-  LOW: '4000'
-  HIGH: '6000'
+  FOOTNOTE: ""
+  background_color: "#ffffff"
+- REFNO: "782031"
+  LOT: "101"
+  LOW: "4000"
+  HIGH: "6000"
   DESCRIPT: HUGHIE LEE-SMITH (1915 - 1999)
   CROSSHEAD: Untitled (Still Life With Oranges).
-  year: '1975'
+  year: "1975"
   TYPESET: >-
     Oil on cotton canvas, circa 1975. 229x305 mm; 9x12 inches. Signed in oil,
     lower right.<br><br>Provenance: private collection, Florida.
-  FOOTNOTE: ''
-  background_color: '#ffffff'
-- REFNO: '785137'
-  LOT: '102'
-  LOW: '7000'
-  HIGH: '10000'
+  FOOTNOTE: ""
+  background_color: "#ffffff"
+- REFNO: "785137"
+  LOT: "102"
+  LOW: "7000"
+  HIGH: "10000"
   DESCRIPT: INGE HARDISON (1904 - 2016)
   CROSSHEAD: Untitled (Study for Sojourner Truth).
-  year: '1976'
+  year: "1976"
   TYPESET: >-
     Modelling wax, circa 1976. Approximately 229x229x178 mm; 9x9x7
     inches.<br><br>Provenance: estate of the artist; private collection, New
@@ -2093,15 +2093,15 @@ lots:
     Woman's Party, Washington, DC, the New York State Harlem Art Collection, New
     York, and the Schomburg Center for Research in Black Culture, New York.
     iraaa.museum.hampton.edu; St. James pp. 229-30.
-  FOOTNOTE: ''
-  background_color: '#ffffff'
-- REFNO: '785138'
-  LOT: '103'
-  LOW: '6000'
-  HIGH: '9000'
+  FOOTNOTE: ""
+  background_color: "#ffffff"
+- REFNO: "785138"
+  LOT: "103"
+  LOW: "6000"
+  HIGH: "9000"
   DESCRIPT: INGE HARDISON (1904 - 2016)
   CROSSHEAD: Untitled (Mother and Child).
-  year: '1988'
+  year: "1988"
   TYPESET: >-
     Modelling clay, 1988. Approximately 241x127x76 mm; 9½x5x3 inches. Inscribed
     signature "Inge" and date at the left rear edge.<br><br>Provenance: the
@@ -2113,41 +2113,41 @@ lots:
     Hospital in Manhattan in gratitude for the hospital’s role in the birth of
     her daughter, Yolande. The artist's creation and presentation of the figure
     to the hospital was covered by <i>The New York Times</i> at the time.
-  FOOTNOTE: ''
-  background_color: '#ffffff'
-- REFNO: '787067'
-  LOT: '104'
-  LOW: '1500'
-  HIGH: '2500'
+  FOOTNOTE: ""
+  background_color: "#ffffff"
+- REFNO: "787067"
+  LOT: "104"
+  LOW: "1500"
+  HIGH: "2500"
   DESCRIPT: ANTHONY BARBOZA (1944 - )
-  CROSSHEAD: 'James Baldwin, Writer.'
-  year: '1975'
+  CROSSHEAD: "James Baldwin, Writer."
+  year: "1975"
   TYPESET: >-
     Silver print, 1975. 330x330 mm; 13x13 inches. Signed, titled and dated in
     ink, lower margin.<br><br>Provenance: the estate of Howard C. Daitz, New
     York.
-  FOOTNOTE: ''
-  background_color: '#ffffff'
-- REFNO: '785145'
-  LOT: '105'
-  LOW: '5000'
-  HIGH: '7000'
+  FOOTNOTE: ""
+  background_color: "#ffffff"
+- REFNO: "785145"
+  LOT: "105"
+  LOW: "5000"
+  HIGH: "7000"
   DESCRIPT: GORDON PARKS (1912 - 2006)
   CROSSHEAD: Untitled (Self-Portrait).
-  year: '1979'
+  year: "1979"
   TYPESET: >-
     Dye gel C-print, 1979. 483x381 mm; 19x15 inches. Signed and dated in ink,
     lower right.<br><br>Provenance: estate of the artist; private collection,
     New York, acquired at Swann Galleries, February 21, 2008.
-  FOOTNOTE: ''
-  background_color: '#ffffff'
-- REFNO: '787000'
-  LOT: '106'
-  LOW: '50000'
-  HIGH: '75000'
+  FOOTNOTE: ""
+  background_color: "#ffffff"
+- REFNO: "787000"
+  LOT: "106"
+  LOW: "50000"
+  HIGH: "75000"
   DESCRIPT: NORMAN LEWIS (1917 - 1979)
   CROSSHEAD: Untitled.
-  year: '1970'
+  year: "1970"
   TYPESET: >-
     Oil on Arches paper, circa 1970s. 660x1054 mm; 29½x41½
     inches.<br><br>Provenance: the estate of the artist; Bill Hodges Gallery,
@@ -2166,15 +2166,15 @@ lots:
     retrospective, with 63 artworks included in <i>Norman Lewis: A
     Retrospective<D>, at The Graduate School and University Center of City
     College, New York. Fine pp. 181, 245-46 and 267.
-  FOOTNOTE: ''
-  background_color: '#ffffff'
-- REFNO: '786862'
-  LOT: '107'
-  LOW: '4000'
-  HIGH: '6000'
+  FOOTNOTE: ""
+  background_color: "#ffffff"
+- REFNO: "786862"
+  LOT: "107"
+  LOW: "4000"
+  HIGH: "6000"
   DESCRIPT: NORMAN LEWIS (1917 - 1979)
   CROSSHEAD: Playtime.
-  year: '1972'
+  year: "1972"
   TYPESET: >-
     Embossing from open-bite etching on cream wove paper, 1972. 405x568 mm;
     16x22⅜ inches, full margins. Signed, titled, dated, and numbered 8/20 in
@@ -2183,15 +2183,15 @@ lots:
     using ink. The other titles are <i>Carnavale<i>, <i>New World A'Coming</i>,
     <i>Togetherness</i> and <i>Trio</i>; each were printed in an edition of 20.
     Acton and Fine 29; Fine p. 140.
-  FOOTNOTE: ''
-  background_color: '#ffffff'
-- REFNO: '785143'
-  LOT: '108'
-  LOW: '3000'
-  HIGH: '5000'
+  FOOTNOTE: ""
+  background_color: "#ffffff"
+- REFNO: "785143"
+  LOT: "108"
+  LOW: "3000"
+  HIGH: "5000"
   DESCRIPT: NORMAN LEWIS (1909 - 1979)
   CROSSHEAD: Getting It Together.
-  year: '1975'
+  year: "1975"
   TYPESET: >-
     Etching and relief printed in blue on cream Arches paper, 1975. 450x445 mm;
     17¾x17½ inches, full margins. Artist's proof, aside from the edition of 50.
@@ -2201,15 +2201,15 @@ lots:
     side of a text page from the 1972 portfolio <i>Impressions: Our World Volume
     I<D> - the page was rejected as the artist Eldzier Cortor's name had been
     misspelled. Acton/Fine 34; Fine p. 142.
-  FOOTNOTE: ''
-  background_color: '#ffffff'
-- REFNO: '784096'
-  LOT: '109'
-  LOW: '30000'
-  HIGH: '40000'
+  FOOTNOTE: ""
+  background_color: "#ffffff"
+- REFNO: "784096"
+  LOT: "109"
+  LOW: "30000"
+  HIGH: "40000"
   DESCRIPT: HOWARDENA PINDELL  (1943-   )
-  CROSSHEAD: 'Untitled #57.'
-  year: '1974'
+  CROSSHEAD: "Untitled #57."
+  year: "1974"
   TYPESET: >-
     Acrylic, watercolor, punched graph papers, gold and computer tape, 1974-75.
     Approx. 210x318 mm; 8¼x12½ inches; 406x508x38 mm; 16x20x1½ inches (including
@@ -2223,15 +2223,15 @@ lots:
     retrospective, <i>Howardena Pindell: What Remains To Be Seen</i>, curated by
     Naomi Beckwith and Valerie Cassel Oliver, organized at the Museum of
     Contemporary Art, Chicago.
-  FOOTNOTE: ''
-  background_color: '#ffffff'
-- REFNO: '786908'
-  LOT: '110'
-  LOW: '5000'
-  HIGH: '7000'
+  FOOTNOTE: ""
+  background_color: "#ffffff"
+- REFNO: "786908"
+  LOT: "110"
+  LOW: "5000"
+  HIGH: "7000"
   DESCRIPT: BETYE SAAR (1926 - )
   CROSSHEAD: Untitled.
-  year: '1978'
+  year: "1978"
   TYPESET: >-
     Mixed media assemblage, including photogravure copper plate on one side and
     copper repousse and collage on the other, on a wooden block, 1978. 
@@ -2239,123 +2239,123 @@ lots:
     underside<br><br>Provenance: acquired directly from the artist, Los Angeles,
     private collection, California (1997); thence by descent to the current
     owner, California (2005).
-  FOOTNOTE: ''
-  background_color: '#ffffff'
-- REFNO: '785144'
-  LOT: '111'
-  LOW: '2000'
-  HIGH: '3000'
+  FOOTNOTE: ""
+  background_color: "#ffffff"
+- REFNO: "785144"
+  LOT: "111"
+  LOW: "2000"
+  HIGH: "3000"
   DESCRIPT: BENNY ANDREWS (1930 - 2006)
   CROSSHEAD: Top of the World.
-  year: '1977'
+  year: "1977"
   TYPESET: >-
     Color etching on cream wove paper, 1977. 451x298 mm; 17¾x11¾ inches, full
     margins. Artist's proof, aside from the edition of 100. Signed, titled,
     dated and inscribed "Artist's Proof" in pencil, lower margin.
-  FOOTNOTE: ''
-  background_color: '#ffffff'
-- REFNO: '785957'
-  LOT: '112'
-  LOW: '2000'
-  HIGH: '3000'
+  FOOTNOTE: ""
+  background_color: "#ffffff"
+- REFNO: "785957"
+  LOT: "112"
+  LOW: "2000"
+  HIGH: "3000"
   DESCRIPT: ELDZIER CORTOR (1916 - 2015)
   CROSSHEAD: Dance (Dance Composition No. 31).
-  year: '1978'
+  year: "1978"
   TYPESET: >-
     Color etching and aquatint, 1978. 552x394 mm; 21¾x15½ inches, full margins.
     Second state impression, aside from the edition of 40. Signed, titled,
     inscribed "II state impression" and numbered 6/10 in graphite, lower margin.
-  FOOTNOTE: ''
-  background_color: '#ffffff'
-- REFNO: '782264'
-  LOT: '113'
-  LOW: '3000'
-  HIGH: '5000'
+  FOOTNOTE: ""
+  background_color: "#ffffff"
+- REFNO: "782264"
+  LOT: "113"
+  LOW: "3000"
+  HIGH: "5000"
   DESCRIPT: ROMARE BEARDEN (1911 - 1988)
   CROSSHEAD: The Lantern.
-  year: '1979'
+  year: "1979"
   TYPESET: >-
     Color lithograph on cream wove paper, 1979. 610x394 mm; 24x15½ inches, full
     margins. Signed and numbered 55/175 in pencil, lower margin.
     Gelburd/Rosenberg GG#89.
-  FOOTNOTE: ''
-  background_color: '#ffffff'
-- REFNO: '785611'
-  LOT: '114'
-  LOW: '4000'
-  HIGH: '6000'
+  FOOTNOTE: ""
+  background_color: "#ffffff"
+- REFNO: "785611"
+  LOT: "114"
+  LOW: "4000"
+  HIGH: "6000"
   DESCRIPT: ROMARE BEARDEN (1911 - 1988)
   CROSSHEAD: Morning.
-  year: '1979'
+  year: "1979"
   TYPESET: >-
     Color lithograph on wove paper, 1979. 490x635 mm; 19¼x24⅞ inches, full
     margins. Signed and numbered 21/175 in pencil, lower margin.
     Gelburg/Rosenberg GG#91.
-  FOOTNOTE: ''
-  background_color: '#ffffff'
-- REFNO: '785608'
-  LOT: '115'
-  LOW: '6000'
-  HIGH: '9000'
+  FOOTNOTE: ""
+  background_color: "#ffffff"
+- REFNO: "785608"
+  LOT: "115"
+  LOW: "6000"
+  HIGH: "9000"
   DESCRIPT: ROMARE BEARDEN (1911 - 1988)
   CROSSHEAD: Quilting Time.
-  year: '1979'
+  year: "1979"
   TYPESET: >-
     Color lithograph, 1979. 460x590 mm; 18x23⅛ inches, full margins. Artist's
     proof, aside from the edition of 175. Signed, titled, inscribed "AP," and
     numbered 11/20 in ink, lower margin. Geldburd/Rosenberg GG#93.
-  FOOTNOTE: ''
-  background_color: '#ffffff'
-- REFNO: '784112'
-  LOT: '116'
-  LOW: '3000'
-  HIGH: '5000'
+  FOOTNOTE: ""
+  background_color: "#ffffff"
+- REFNO: "784112"
+  LOT: "116"
+  LOW: "3000"
+  HIGH: "5000"
   DESCRIPT: RICHARD HUNT (1935 - )
-  CROSSHEAD: 'Spiral Figure, #2.'
-  year: '1978'
+  CROSSHEAD: "Spiral Figure, #2."
+  year: "1978"
   TYPESET: >-
     Bronze with a dark brown patina, mounted on a wooden base, 1978.
     Approximately 140x64x64 mm; 5½x2½x2½ inches, not including the base. Number
     4 from an edition of 7. Initialed at the base rear edge.<br><br>Provenance:
     Wendell Street Gallery, Cambridge, MA; private collection, Massachusetts
     (1994).
-  FOOTNOTE: ''
-  background_color: '#ffffff'
-- REFNO: '785956'
-  LOT: '117'
-  LOW: '4000'
-  HIGH: '6000'
+  FOOTNOTE: ""
+  background_color: "#ffffff"
+- REFNO: "785956"
+  LOT: "117"
+  LOW: "4000"
+  HIGH: "6000"
   DESCRIPT: SAM GILLIAM (1933 - )
   CROSSHEAD: G.D.S.
-  year: '1978'
+  year: "1978"
   TYPESET: >-
     Color screenprint, 1978. 612x660 mm; 24⅛x26 inches, full margins. Signed,
     titled, dated and numbered 31/50 in pencil, lower margin. Printed by Sam
     Gilliam and the Stovall Printmaking Workshop, Washington, DC.<br><br>Another
     impression of this scarce print is in the collection of the Smithsonian
     American Art Museum.
-  FOOTNOTE: ''
-  background_color: '#ffffff'
-- REFNO: '784319'
-  LOT: '118'
-  LOW: '3000'
-  HIGH: '5000'
+  FOOTNOTE: ""
+  background_color: "#ffffff"
+- REFNO: "784319"
+  LOT: "118"
+  LOW: "3000"
+  HIGH: "5000"
   DESCRIPT: ED CLARK (1926 - 2019)
   CROSSHEAD: Untitled.
-  year: '1979'
+  year: "1979"
   TYPESET: >-
     Offset color lithograph, 1979. 609x825 mm; 24x32½ inches, full margins.
     Artist's proof, aside from an edition of unknown size. Signed, dated and
     inscribed "A/P" in pencil, lower margin.
-  FOOTNOTE: ''
-  background_color: '#ffffff'
-- REFNO: '786999'
-  LOT: '119'
-  LOW: '10000'
-  HIGH: '15000'
+  FOOTNOTE: ""
+  background_color: "#ffffff"
+- REFNO: "786999"
+  LOT: "119"
+  LOW: "10000"
+  HIGH: "15000"
   DESCRIPT: BARKLEY L. HENDRICKS  (1945 - 2017)
-  CROSSHEAD: 'Mount Mersey, St. Kitts, West Indies.'
-  year: '1979'
+  CROSSHEAD: "Mount Mersey, St. Kitts, West Indies."
+  year: "1979"
   TYPESET: >-
     Watercolor on wove paper, 1979. 370x500 mm; 14⅝x19¾ inches. Titled in ink on
     the frame back board.<br><br>Provenance: the artist, New London, CT; private
@@ -2365,15 +2365,15 @@ lots:
     had his first solo show of watercolors at Lyman Allyn Art Museum in New
     London, CT. He also later exhibited his watercolors of St. Kitts at ACA
     Galleries in 1982.
-  FOOTNOTE: ''
-  background_color: '#ffffff'
-- REFNO: '785222'
-  LOT: '120'
-  LOW: '25000'
-  HIGH: '35000'
-  DESCRIPT: 'PAUL F. KEENE, JR. (1920 - 2009)'
+  FOOTNOTE: ""
+  background_color: "#ffffff"
+- REFNO: "785222"
+  LOT: "120"
+  LOW: "25000"
+  HIGH: "35000"
+  DESCRIPT: "PAUL F. KEENE, JR. (1920 - 2009)"
   CROSSHEAD: Late Summer Studio Window.
-  year: '1968'
+  year: "1968"
   TYPESET: >-
     Oil on linen canvas, 1968. 1828x1333 mm; 72x52½ inches. Signed in oil, lower
     right recto. Signed and titled in oil, right stretcher bar, verso. From the
@@ -2401,15 +2401,15 @@ lots:
     Bucks County Community College. His work is in the collections of the
     Philadelphia Museum of Art, the Pennsylvania Academy of the Fine Arts, the
     Woodmere Museum of Art and the James A. Michener Museum.
-  FOOTNOTE: ''
-  background_color: '#ffffff'
-- REFNO: '785221'
-  LOT: '121'
-  LOW: '2000'
-  HIGH: '3000'
+  FOOTNOTE: ""
+  background_color: "#ffffff"
+- REFNO: "785221"
+  LOT: "121"
+  LOW: "2000"
+  HIGH: "3000"
   DESCRIPT: CHARLES WHITE (1918 - 1979)
   CROSSHEAD: I Have A Dream Portfolio.
-  year: '1969'
+  year: "1969"
   TYPESET: >-
     Portfolio of six offset lithographs, with the printed folder, 1969. Each
     508x355 mm; 20x14 inches, full margins. Edition of 150. Signed in ink on the
@@ -2418,15 +2418,15 @@ lots:
     Wall</i> * <i>The Brother</i> * <i>Nat Turner, Yesterday, Today, And
     Tomorrow</i> * Vision</i>.<br><br>Provenance: private collection, Oakland,
     acquired from Swann Galleries, Feburary 25, 2010.
-  FOOTNOTE: 'Los Angeles: Heritage Galleries, 1969'
-  background_color: '#ffffff'
-- REFNO: '785219'
-  LOT: '122'
-  LOW: '3000'
-  HIGH: '5000'
+  FOOTNOTE: "Los Angeles: Heritage Galleries, 1969"
+  background_color: "#ffffff"
+- REFNO: "785219"
+  LOT: "122"
+  LOW: "3000"
+  HIGH: "5000"
   DESCRIPT: LEON N. HICKS (1933 - )
-  CROSSHEAD: 'New Faces: Series VII #1A.'
-  year: '1970'
+  CROSSHEAD: "New Faces: Series VII #1A."
+  year: "1970"
   TYPESET: >-
     Color engraving on wove paper, 1970. 685x473 mm; 27x18⅝ inches, full
     margins. Artist's proof, aside from an edition of less than 10. Signed,
@@ -2452,29 +2452,29 @@ lots:
     engravings. His prints are many institutional collections including the
     Saint Louis Art Museum, the University of Florida, Miami, the Oakland Art
     Museum, the Tuskegee Institute and the Library of Congress.
-  FOOTNOTE: ''
-  background_color: '#ffffff'
-- REFNO: '785218'
-  LOT: '123'
-  LOW: '1000'
-  HIGH: '1500'
+  FOOTNOTE: ""
+  background_color: "#ffffff"
+- REFNO: "785218"
+  LOT: "123"
+  LOW: "1000"
+  HIGH: "1500"
   DESCRIPT: LEON N. HICKS (1933 - )
-  CROSSHEAD: 'New Faces: Series IV #3.'
-  year: '1970'
+  CROSSHEAD: "New Faces: Series IV #3."
+  year: "1970"
   TYPESET: >-
     Engraving on wove paper, 1970. 330x279 mm; 13x11 inches, full margins.
     Artist's proof, aside from an edition of less than 10. Signed, titled, dated
     and inscribed "Artist's Proof" in pencil, lower margin.<br><br>Provenance:
     collection of the artist.
-  FOOTNOTE: ''
-  background_color: '#ffffff'
-- REFNO: '785242'
-  LOT: '124'
-  LOW: '1200'
-  HIGH: '1800'
-  DESCRIPT: 'JOHN E. DOWELL, JR. (1941 - )'
+  FOOTNOTE: ""
+  background_color: "#ffffff"
+- REFNO: "785242"
+  LOT: "124"
+  LOW: "1200"
+  HIGH: "1800"
+  DESCRIPT: "JOHN E. DOWELL, JR. (1941 - )"
   CROSSHEAD: L.P.W.S. (Lines Played With Soul).
-  year: '1976'
+  year: "1976"
   TYPESET: >-
     Color screenprint on wove paper, 1976. 760x560 mm; 30x22 inches, full
     margins. Signed, titled, dated and numbered 8/22 in pencil, lower edge.
@@ -2498,15 +2498,15 @@ lots:
     Carter Museum of American Art, the Art Institute of Chicago, the
     Metropolitan Museum of Art, the Philadelphia Museum of Art and the Worcester
     Art Museum,.
-  FOOTNOTE: ''
-  background_color: '#ffffff'
-- REFNO: '785235'
-  LOT: '125'
-  LOW: '4000'
-  HIGH: '6000'
+  FOOTNOTE: ""
+  background_color: "#ffffff"
+- REFNO: "785235"
+  LOT: "125"
+  LOW: "4000"
+  HIGH: "6000"
   DESCRIPT: STANLEY WHITNEY (1946 - )
-  CROSSHEAD: 'Untitled #1.'
-  year: '1979'
+  CROSSHEAD: "Untitled #1."
+  year: "1979"
   TYPESET: >-
     Color screenprint on cream wove paper, 1979. 584x905 mm; 23x35⅜ inches.
     State proof, one of only several state proofs with unique coloring, aside
@@ -2517,15 +2517,15 @@ lots:
     editioned print, made under Allan Edmunds' supervision at Brandywine, while
     Whitney was teaching at the Tyler School of Art and Architecture in
     Philadelphia.
-  FOOTNOTE: ''
-  background_color: '#ffffff'
-- REFNO: '785236'
-  LOT: '126'
-  LOW: '1000'
-  HIGH: '1500'
+  FOOTNOTE: ""
+  background_color: "#ffffff"
+- REFNO: "785236"
+  LOT: "126"
+  LOW: "1000"
+  HIGH: "1500"
   DESCRIPT: RICHARD HUNT (1935 - )
   CROSSHEAD: Untitled.
-  year: '1974'
+  year: "1974"
   TYPESET: >-
     Lithograph on Copperplate Deluxe paper, 1974. 596x838 mm; 23½x33 inches.
     Signed and numbered 40/50 in pencil, lower edge. Printed and published by
@@ -2533,29 +2533,29 @@ lots:
     right.<br><br>Provenance: the collection of Anne & Allan
     Edmunds.<br><br>Another impression of this print is in the collection of the
     Art Institute of Chicago.
-  FOOTNOTE: ''
-  background_color: '#ffffff'
-- REFNO: '785237'
-  LOT: '127'
-  LOW: '1500'
-  HIGH: '2500'
+  FOOTNOTE: ""
+  background_color: "#ffffff"
+- REFNO: "785237"
+  LOT: "127"
+  LOW: "1500"
+  HIGH: "2500"
   DESCRIPT: RICHARD HUNT (1935 - )
   CROSSHEAD: Untitled.
-  year: '1980'
+  year: "1980"
   TYPESET: >-
     Color screenprint on handmade paper, circa 1980. 558x774 mm; 22x30 1/2
     inches. Signed, and numbered 3/40 in pencil, lower edge. Printed and
     published by the Brandywine Workshop, Philadelphia, with the printer's blind
     stamp.<br><br>Provenance: the collection of Anne & Allan Edmunds.
-  FOOTNOTE: ''
-  background_color: '#ffffff'
-- REFNO: '785241'
-  LOT: '128'
-  LOW: '3000'
-  HIGH: '5000'
+  FOOTNOTE: ""
+  background_color: "#ffffff"
+- REFNO: "785241"
+  LOT: "128"
+  LOW: "3000"
+  HIGH: "5000"
   DESCRIPT: ELIZABETH CATLETT (1915 - 2012)
   CROSSHEAD: Blues.
-  year: '1983'
+  year: "1983"
   TYPESET: >-
     Color offset lithograph on wove paper, 1983. 699x451 mm; 27½x17¾ inches,
     full margins. Artist's proof, one of 20, aside from the edition of 130.
@@ -2568,15 +2568,15 @@ lots:
     the 2010 <i>Beyond The Blues</i> exhibition of the collection of the Amistad
     Research Center, Tulane University, New Orleans, and is reproduced on the
     cover of the catalogue.
-  FOOTNOTE: ''
-  background_color: '#ffffff'
-- REFNO: '785223'
-  LOT: '129'
-  LOW: '20000'
-  HIGH: '30000'
-  DESCRIPT: 'PAUL F. KEENE, JR. (1920 - 2009)'
+  FOOTNOTE: ""
+  background_color: "#ffffff"
+- REFNO: "785223"
+  LOT: "129"
+  LOW: "20000"
+  HIGH: "30000"
+  DESCRIPT: "PAUL F. KEENE, JR. (1920 - 2009)"
   CROSSHEAD: The Guitarist (Jazz Icon Series).
-  year: '1985'
+  year: "1985"
   TYPESET: >-
     Acrylic on paper, 1985. 1054x749 mm; 41¼x29½ inches. Signed and dated in
     acrylic, lower left.<br><br>Provenance: the estate of the
@@ -2594,15 +2594,15 @@ lots:
     viewer must hear it.” He admired the musician Miles Davis and said he could
     "create a picture in your mind with his music.” Biography courtesy of the
     Michener Art Museum.
-  FOOTNOTE: ''
-  background_color: '#ffffff'
-- REFNO: '785225'
-  LOT: '130'
-  LOW: '20000'
-  HIGH: '30000'
+  FOOTNOTE: ""
+  background_color: "#ffffff"
+- REFNO: "785225"
+  LOT: "130"
+  LOW: "20000"
+  HIGH: "30000"
   DESCRIPT: BELKIS AYÓN (1967 - 1999)
   CROSSHEAD: Temores Infundados.
-  year: '1997'
+  year: "1997"
   TYPESET: >-
     Collograph on cream wove paper, 1997. 723 mm; 28½ inches diameter (tondo),
     full margins. Signed, titled, dated and numbered 9/10 in pencil, lower
@@ -2655,30 +2655,30 @@ lots:
     pioneer in the world of large-scale print installations and collographs, a
     labor-intensive art practice that cemented her place in today both in art
     history and the art world.
-  FOOTNOTE: ''
-  background_color: '#ffffff'
-- REFNO: '785224'
-  LOT: '131'
-  LOW: '20000'
-  HIGH: '30000'
+  FOOTNOTE: ""
+  background_color: "#ffffff"
+- REFNO: "785224"
+  LOT: "131"
+  LOW: "20000"
+  HIGH: "30000"
   DESCRIPT: BELKIS AYÓN (1967 - 1999)
   CROSSHEAD: Hay Que Tener Pacienca (You Have To Be Patient).
-  year: '1998'
+  year: "1998"
   TYPESET: >-
     Collograph on cream wove paper, 1998. 723 mm; 28½ inches diameter (tondo),
     full margins. Signed, titled, dated and numbered 1/10 in pencil, with the
     printer's blind stamp, lower margin. Printed by the artist at the Brandywine
     Workshop, Philadelphia.<br><br>Provenance: collection of Anne & Allan
     Edmunds.
-  FOOTNOTE: ''
-  background_color: '#ffffff'
-- REFNO: '785243'
-  LOT: '132'
-  LOW: '1200'
-  HIGH: '1800'
+  FOOTNOTE: ""
+  background_color: "#ffffff"
+- REFNO: "785243"
+  LOT: "132"
+  LOW: "1200"
+  HIGH: "1800"
   DESCRIPT: CAMILLE BILLOPS (1933 - 2019)
   CROSSHEAD: KKK Boutique II.
-  year: '1996'
+  year: "1996"
   TYPESET: >-
     Etching and aquatint on cream wove paper, 1996. 533x444 mm; 21x17½ inches,
     full margins. Signed, titled, dated and numbered 22/35 in pencil, lower
@@ -2691,15 +2691,15 @@ lots:
     confront their own potential for and participation in prejudice toward
     people who are different from themselves. Other impressions are in the
     collections of Emory University and the Library of Congress.
-  FOOTNOTE: ''
-  background_color: '#ffffff'
-- REFNO: '785240'
-  LOT: '133'
-  LOW: '4000'
-  HIGH: '6000'
+  FOOTNOTE: ""
+  background_color: "#ffffff"
+- REFNO: "785240"
+  LOT: "133"
+  LOW: "4000"
+  HIGH: "6000"
   DESCRIPT: SAMELLA LEWIS (1924 - )
   CROSSHEAD: Together We Stand.
-  year: '1997'
+  year: "1997"
   TYPESET: >-
     Color lithograph on cream wove paper, 1997. 559x755 mm; 22x29¾ inches, full
     margins. A unique artist's proof, aside from the edition of 10. Signed,
@@ -2712,29 +2712,29 @@ lots:
     written for her friend, Samella Lewis,<i>Our Grandmother:</i>: “However I am
     perceived and deceived, however my ignorance and conceits, lay aside your
     fears that I will be undone, for I shall not be moved.”
-  FOOTNOTE: ''
-  background_color: '#ffffff'
-- REFNO: '785227'
-  LOT: '134'
-  LOW: '1000'
-  HIGH: '1500'
+  FOOTNOTE: ""
+  background_color: "#ffffff"
+- REFNO: "785227"
+  LOT: "134"
+  LOW: "1000"
+  HIGH: "1500"
   DESCRIPT: JOHN T. SCOTT (1940 - 2007)
   CROSSHEAD: St. George.
-  year: '1992'
+  year: "1992"
   TYPESET: >-
     Woodcut on laid Japan paper, 1992. 304x228 mm; 12x9 inches, full margins.
     Signed, titled and numbered 6/20 in pencil, lower margin. Printed and
     published by the Brandywine Workshop, Philadelphia.<br><br>Provenance:
     collection of Anne & Allan Edmunds.
-  FOOTNOTE: ''
-  background_color: '#ffffff'
-- REFNO: '785226'
-  LOT: '135'
-  LOW: '10000'
-  HIGH: '15000'
+  FOOTNOTE: ""
+  background_color: "#ffffff"
+- REFNO: "785226"
+  LOT: "135"
+  LOW: "10000"
+  HIGH: "15000"
   DESCRIPT: JOHN T. SCOTT (1940 - 2007)
   CROSSHEAD: Waiting at the Station.
-  year: '2002'
+  year: "2002"
   TYPESET: >-
     Hand-pressed woodcut, 2002. 2006x1219 mm; 79x48 inches, full margins.
     Edition of 4.<br><br>Provenance: collection of Anne & Allan
@@ -2782,15 +2782,15 @@ lots:
     Museum of Fine Arts, Houston, the Amistad Research Center at Tulane
     University, the Smithsonian American Art Museum, Washington, DC. Edmunds p.
     5; Stedman p. 17.
-  FOOTNOTE: ''
-  background_color: '#ffffff'
-- REFNO: '785238'
-  LOT: '136'
-  LOW: '3000'
-  HIGH: '5000'
+  FOOTNOTE: ""
+  background_color: "#ffffff"
+- REFNO: "785238"
+  LOT: "136"
+  LOW: "3000"
+  HIGH: "5000"
   DESCRIPT: CURLEE RAVEN HOLTON (1951 - )
   CROSSHEAD: Quilt.
-  year: '2000'
+  year: "2000"
   TYPESET: >-
     Hand-colored etching and collage on Arches paper, 2000. 546x685 mm; 21½x27
     inches, full margins. Signed, titled, dated and numbered 17/30 in pencil,
@@ -2816,15 +2816,15 @@ lots:
     Americans and the African Diaspora at the University of Maryland. Holton is
     also master printer and director of the fine art press Raven Editions in
     Easton, Pennsylvania.
-  FOOTNOTE: ''
-  background_color: '#ffffff'
-- REFNO: '785233'
-  LOT: '137'
-  LOW: '3000'
-  HIGH: '5000'
+  FOOTNOTE: ""
+  background_color: "#ffffff"
+- REFNO: "785233"
+  LOT: "137"
+  LOW: "3000"
+  HIGH: "5000"
   DESCRIPT: EMMA AMOS (1938 - 2020)
   CROSSHEAD: How Time Flies.
-  year: '2004'
+  year: "2004"
   TYPESET: >-
     Color silk aquatint and screenprint with collage on two joined sheets of
     Rives BFK paper, 2004. 762x1016 mm; 30x40 inches. Signed, titled, dated and
@@ -2833,15 +2833,15 @@ lots:
     PA.<br><br>Provenance: collection of Anne & Allan Edmunds.<br><br>Another
     impression is in the collection of the National Gallery of Art, Washington,
     DC.
-  FOOTNOTE: ''
-  background_color: '#ffffff'
-- REFNO: '785239'
-  LOT: '138'
-  LOW: '2000'
-  HIGH: '3000'
+  FOOTNOTE: ""
+  background_color: "#ffffff"
+- REFNO: "785239"
+  LOT: "138"
+  LOW: "2000"
+  HIGH: "3000"
   DESCRIPT: BENNY ANDREWS (1930 - 2006)
   CROSSHEAD: Untitled (Brown vs. Board of Education).
-  year: '2004'
+  year: "2004"
   TYPESET: >-
     Color screenprint, 2004. 749x615 mm; 29½x21¾ inches. Printer's proof, aside
     from the edition of 50. Signed, dated and inscribed "PP" in pencil, lower
@@ -2853,30 +2853,30 @@ lots:
     challenged me to make it clear that though the wall facing African Americans
     seeking equal education has been broken through, there are still remnants of
     the wall remaining today".
-  FOOTNOTE: ''
-  background_color: '#ffffff'
-- REFNO: '785231'
-  LOT: '139'
-  LOW: '2000'
-  HIGH: '3000'
+  FOOTNOTE: ""
+  background_color: "#ffffff"
+- REFNO: "785231"
+  LOT: "139"
+  LOW: "2000"
+  HIGH: "3000"
   DESCRIPT: DAVID C. DRISKELL (1931 - 2020)
   CROSSHEAD: The Bassist.
-  year: '2006'
+  year: "2006"
   TYPESET: >-
     Color lithograph, 2006. 760x540 mm; 29¾x21¼ inches, full margins. Printer's
     proof, aside from the edition of 80. Signed, titled, dated and numbered
     "PP1" in white ink, lower edge. Printed and published by the Brandywine
     Workshop, Philadelphia.<br><br>Provenance: collection of Anne & Allan
     Edmunds.
-  FOOTNOTE: ''
-  background_color: '#ffffff'
-- REFNO: '785234'
-  LOT: '140'
-  LOW: '4000'
-  HIGH: '6000'
+  FOOTNOTE: ""
+  background_color: "#ffffff"
+- REFNO: "785234"
+  LOT: "140"
+  LOW: "4000"
+  HIGH: "6000"
   DESCRIPT: RICHARD MAYHEW (1924 - )
   CROSSHEAD: Serenade.
-  year: '2008'
+  year: "2008"
   TYPESET: >-
     Color lithograph with hand coloring in pastel, 2008. 419x635 mm; 16½x25
     inches, full margins. Artist's proof, aside from edition of 80. Signed,
@@ -2884,42 +2884,42 @@ lots:
     the Brandywine Workshop, Philadelphia.<br><br>Provenance: collection of Anne
     & Allan Edmunds.<br><br>Another impression of this work is in the collection
     of the Pennsylvania Academy of the Fine Arts, Philadelphia.
-  FOOTNOTE: ''
-  background_color: '#ffffff'
-- REFNO: '785232'
-  LOT: '141'
-  LOW: '3000'
-  HIGH: '5000'
+  FOOTNOTE: ""
+  background_color: "#ffffff"
+- REFNO: "785232"
+  LOT: "141"
+  LOW: "3000"
+  HIGH: "5000"
   DESCRIPT: LOUIS DELSARTE (1944 - 2020)
   CROSSHEAD: Visions of the Future.
-  year: '2015'
+  year: "2015"
   TYPESET: >-
     Offset color lithograph with hand-coloring in pastel, 2015. 749x546 mm;
     29½x21½ inches. Unique hand-colored proof, aside from an unknown edition.
     Signed, titled, dated and numbered 1/1 in pencil, lower edge. Printed and
     published by the Brandywine Workshop, Philadelphia.<br><br>Provenance:
     collection of Anne & Allan Edmunds.
-  FOOTNOTE: ''
-  background_color: '#ffffff'
-- REFNO: '785212'
-  LOT: '142'
-  LOW: '5000'
-  HIGH: '7000'
+  FOOTNOTE: ""
+  background_color: "#ffffff"
+- REFNO: "785212"
+  LOT: "142"
+  LOW: "5000"
+  HIGH: "7000"
   DESCRIPT: FLOYD NEWSUM (1950 - )
   CROSSHEAD: Yellow Sky at Midnight.
-  year: '2006'
+  year: "2006"
   TYPESET: >-
     Gouache on wove paper, 2006-10. 177x266 mm; 7x10½ inches. Signed and dated
     in ink, lower edge.<br><br>Provenance: collection of the artist.
-  FOOTNOTE: ''
-  background_color: '#ffffff'
-- REFNO: '785211'
-  LOT: '143'
-  LOW: '12000'
-  HIGH: '18000'
+  FOOTNOTE: ""
+  background_color: "#ffffff"
+- REFNO: "785211"
+  LOT: "143"
+  LOW: "12000"
+  HIGH: "18000"
   DESCRIPT: FLOYD NEWSUM (1950 - )
   CROSSHEAD: Dreams Beyond 3.
-  year: '2020'
+  year: "2020"
   TYPESET: >-
     Gouache with collage elements on wove paper, 2020. 762x571 mm; 30x22½
     inches. Signed and dated in ink, lower left corner.<br><br>Provenance:
@@ -2941,42 +2941,42 @@ lots:
     permanent collections of the Smithsonian National Museum of African American
     History and Culture, Washington, DC, the Museum of Fine Arts, Houston, and
     the Philadelphia Museum of Art.
-  FOOTNOTE: ''
-  background_color: '#ffffff'
-- REFNO: '785129'
-  LOT: '144'
-  LOW: '10000'
-  HIGH: '15000'
+  FOOTNOTE: ""
+  background_color: "#ffffff"
+- REFNO: "785129"
+  LOT: "144"
+  LOW: "10000"
+  HIGH: "15000"
   DESCRIPT: STANLEY WHITNEY (1946 - )
   CROSSHEAD: Untitled.
-  year: '1980'
+  year: "1980"
   TYPESET: >-
     Oil monotype on buff Arches paper, circa 1980. 762x1118 mm; 30x44 inches.
     Signed in pencil, lower right.<br><br>Provenance: acquired directly from the
     artist; private collection, Pennsylvania.
-  FOOTNOTE: ''
-  background_color: '#ffffff'
-- REFNO: '787011'
-  LOT: '145'
-  LOW: '1500'
-  HIGH: '2500'
+  FOOTNOTE: ""
+  background_color: "#ffffff"
+- REFNO: "787011"
+  LOT: "145"
+  LOW: "1500"
+  HIGH: "2500"
   DESCRIPT: MCARTHUR BINION (1946 - )
   CROSSHEAD: Untitled.
-  year: '1980'
+  year: "1980"
   TYPESET: >-
     Color lithograph on wove paper, 1980. 584x762 mm; 23x30 inches (sheet).
     Signed, dated and numbered 30/50 in pencil, lower margin. Printed by the
     Hollaender Press, New York. Published by the artist and Hollaender Press,
     New York.
-  FOOTNOTE: ''
-  background_color: '#ffffff'
-- REFNO: '785830'
-  LOT: '146'
-  LOW: '5000'
-  HIGH: '7000'
+  FOOTNOTE: ""
+  background_color: "#ffffff"
+- REFNO: "785830"
+  LOT: "146"
+  LOW: "5000"
+  HIGH: "7000"
   DESCRIPT: HOWARDENA PINDELL (1943 -  )
   CROSSHEAD: Kyoto (Positive/Negative).
-  year: '1980'
+  year: "1980"
   TYPESET: >-
     Color lithograph and etching on dyed Japan paper with five sheets of
     laminated Kinwashi paper, 1980. 673x521 mm; 26½x20½ inches. Printer's proof,
@@ -2984,28 +2984,28 @@ lots:
     Inscribed "P.P. 2" in pencil, lower left.<br><br>Other impressions of this
     scarce print are in the collections of the National Gallery of Art and the
     University of Michigan Museum of Art.
-  FOOTNOTE: ''
-  background_color: '#ffffff'
-- REFNO: '785123'
-  LOT: '147'
-  LOW: '2000'
-  HIGH: '3000'
+  FOOTNOTE: ""
+  background_color: "#ffffff"
+- REFNO: "785123"
+  LOT: "147"
+  LOW: "2000"
+  HIGH: "3000"
   DESCRIPT: DAVID DRISKELL (1931 - 2020)
   CROSSHEAD: The Ghost.
-  year: '1980'
+  year: "1980"
   TYPESET: >-
     Oil and oil monotype on thin wove paper, 1980. 196x152 mm; 7¾x6 inches.
     Signed in oil, upper left.<br><br>Provenance: private collection, New
     Jersery.
-  FOOTNOTE: ''
-  background_color: '#ffffff'
-- REFNO: '785008'
-  LOT: '148'
-  LOW: '10000'
-  HIGH: '15000'
+  FOOTNOTE: ""
+  background_color: "#ffffff"
+- REFNO: "785008"
+  LOT: "148"
+  LOW: "10000"
+  HIGH: "15000"
   DESCRIPT: ELIZABETH CATLETT (1915 - 2012)
   CROSSHEAD: Triangular Woman.
-  year: '1980'
+  year: "1980"
   TYPESET: >-
     Bronze with a polished brass patina on a wooden base, 1980. 635x330×483 mm;
     25x13x9 inches. Incised initials and dated on the back side
@@ -3013,41 +3013,41 @@ lots:
     (1981); thence by descent, private collection, Arizona.<br><br>Elizabeth
     Catlett made several versions of this distinctive figure sculpture between
     1979 and 1997, including bronze, polychromed mahogany and amber onyx.
-  FOOTNOTE: ''
-  background_color: '#ffffff'
-- REFNO: '784015'
-  LOT: '149'
-  LOW: '4000'
-  HIGH: '6000'
+  FOOTNOTE: ""
+  background_color: "#ffffff"
+- REFNO: "784015"
+  LOT: "149"
+  LOW: "4000"
+  HIGH: "6000"
   DESCRIPT: ELIZABETH CATLETT (1915 - 2012)
   CROSSHEAD: Madonna.
-  year: '1982'
+  year: "1982"
   TYPESET: >-
     Lithograph on wove paper, 1982. 530x405 mm; 21x16 inches, full margins.
     Signed, titled, dated and numbered 69/180 in pencil, lower margin.
-  FOOTNOTE: ''
-  background_color: '#ffffff'
-- REFNO: '784057'
-  LOT: '150'
-  LOW: '3000'
-  HIGH: '5000'
+  FOOTNOTE: ""
+  background_color: "#ffffff"
+- REFNO: "784057"
+  LOT: "150"
+  LOW: "3000"
+  HIGH: "5000"
   DESCRIPT: ROMARE BEARDEN (1911 - 1988)
   CROSSHEAD: Two Women.
-  year: '1982'
+  year: "1982"
   TYPESET: >-
     Color screenprint, 1981-82. 585x363 mm; 23x14¼ inches, full margins. Signed,
     titled and numbered 24/120 in pencil, lower margin. Printed by NYIT Print
     Workshop, New York, with the blind stamp lower right. Gelburd/Rosenberg
     GG#62.
-  FOOTNOTE: ''
-  background_color: '#ffffff'
-- REFNO: '784402'
-  LOT: '151'
-  LOW: '20000'
-  HIGH: '30000'
+  FOOTNOTE: ""
+  background_color: "#ffffff"
+- REFNO: "784402"
+  LOT: "151"
+  LOW: "20000"
+  HIGH: "30000"
   DESCRIPT: ROMARE BEARDEN (1911 - 1988)
   CROSSHEAD: Obeah Woman with her daughter (La Sorcière avec sa fille)..
-  year: '1984'
+  year: "1984"
   TYPESET: >-
     Watercolor on wove paper, circa 1984. 762x560 mm; 30x22 inches. Signed in
     faint watercolor and re-signed in pencil, lower left recto. Titled in
@@ -3061,15 +3061,15 @@ lots:
     well-known part of Afro-Caribbean communities and cultural history -
     typically, a woman who practices spiritual, herbal and mystical healing in
     her villlage.
-  FOOTNOTE: ''
-  background_color: '#ffffff'
-- REFNO: '776429'
-  LOT: '152'
-  LOW: '4000'
-  HIGH: '6000'
+  FOOTNOTE: ""
+  background_color: "#ffffff"
+- REFNO: "776429"
+  LOT: "152"
+  LOW: "4000"
+  HIGH: "6000"
   DESCRIPT: JACOB LAWRENCE (1917 - 2000)
   CROSSHEAD: Hiroshima.
-  year: '1983'
+  year: "1983"
   TYPESET: >-
     Bound volume with complete text and 8 color screenprints, 1983. 317x240 mm;
     12½x9½ inches (sheets), full margins.<br><br>One of 1500 numbered copies.
@@ -3077,15 +3077,15 @@ lots:
     pencil on the justification page. Printed at The Studio Heinrici Ltd., New
     York. Published by the Limited Editions Club, New York.<br><br>Original
     black aniline leather binding and cloth slipcase. Nesbett L83-1.
-  FOOTNOTE: ''
-  background_color: '#ffffff'
-- REFNO: '786737'
-  LOT: '153'
-  LOW: '6000'
-  HIGH: '9000'
+  FOOTNOTE: ""
+  background_color: "#ffffff"
+- REFNO: "786737"
+  LOT: "153"
+  LOW: "6000"
+  HIGH: "9000"
   DESCRIPT: FAITH RINGGOLD (1930 - )
   CROSSHEAD: No More War.
-  year: '1984'
+  year: "1984"
   TYPESET: >-
     Color intaglio on wove paper, circa 1984-85. 603x895 mm; 23¾x35¼ inches,
     full margins. Signed and numbered 4/5 in pencil, lower margin. An excellent
@@ -3101,15 +3101,15 @@ lots:
     Blackburn’s Printmaking Workshop in New York where she developed a technique
     for etching on canvas that would be used to make the <i>No More War Story
     Quilts</i> the following year. Farrington p. 108.
-  FOOTNOTE: ''
-  background_color: '#ffffff'
-- REFNO: '785037'
-  LOT: '154'
-  LOW: '8000'
-  HIGH: '12000'
-  DESCRIPT: DAVID HAMMONS  (1943 -      )
+  FOOTNOTE: ""
+  background_color: "#ffffff"
+- REFNO: "785037"
+  LOT: "154"
+  LOW: "8000"
+  HIGH: "12000"
+  DESCRIPT: DAVID HAMMONS (1943 - )
   CROSSHEAD: The Man Nobody Killed.
-  year: '1986'
+  year: "1986"
   TYPESET: >-
     Stencilled paint and collage printed on commercially printed cardboard,
     1986. 280x216 mm; 11x8½ inches. Edition of 160/200. From <i>Cobalt Myth
@@ -3129,29 +3129,29 @@ lots:
     George Condo and Lyle Ashton Harris. It was organized by guest curator
     Chaédria LaBouvier - the first African American curator of an exhibition at
     the museum.
-  FOOTNOTE: ''
-  background_color: '#ffffff'
-- REFNO: '783772'
-  LOT: '155'
-  LOW: '3000'
-  HIGH: '5000'
+  FOOTNOTE: ""
+  background_color: "#ffffff"
+- REFNO: "783772"
+  LOT: "155"
+  LOW: "3000"
+  HIGH: "5000"
   DESCRIPT: BARKLEY L. HENDRICKS  (1945 - 2017)
   CROSSHEAD: Sacrifice of the Watermelon Virgin or Shirt Off Her Back.
-  year: '1987'
+  year: "1987"
   TYPESET: >-
     Color offset lithograph, 1987. 552x756 mm; 21¾x29¾ inches. Signed, dated,
     titled and numbered 70/85 in pencil, lower edge. Printed and published by
     Brandywine Workshop, Philadelphia.<br><br>Another impression is in the
     permanent collection of the Philadelphia Museum of Art.
-  FOOTNOTE: ''
-  background_color: '#ffffff'
-- REFNO: '784487'
-  LOT: '156'
-  LOW: '20000'
-  HIGH: '30000'
+  FOOTNOTE: ""
+  background_color: "#ffffff"
+- REFNO: "784487"
+  LOT: "156"
+  LOW: "20000"
+  HIGH: "30000"
   DESCRIPT: ROBERT NEAL (1916 - 1987)
   CROSSHEAD: Street People.
-  year: '1986'
+  year: "1986"
   TYPESET: >-
     Oil on cotton canvas, 1986. 889x787 mm; 35x31 inches. Signed and dated in
     oil, lower right recto. Titled in pencil, verso.<br><br>Provenance: the
@@ -3174,29 +3174,29 @@ lots:
     unfortunately, little is recorded about his latter life or career. His
     paintings are now in the collections of the High Museum and the Columbus
     Museum of Art. Heydt pp. 80, 132.
-  FOOTNOTE: ''
-  background_color: '#ffffff'
-- REFNO: '785124'
-  LOT: '157'
-  LOW: '2000'
-  HIGH: '3000'
+  FOOTNOTE: ""
+  background_color: "#ffffff"
+- REFNO: "785124"
+  LOT: "157"
+  LOW: "2000"
+  HIGH: "3000"
   DESCRIPT: ERNEST CRICHLOW (1914 - 2005)
   CROSSHEAD: Lady.
-  year: '1987'
+  year: "1987"
   TYPESET: >-
     Color etching and aquatint on Arches paper, 1987. 552x425 mm; 24x17¾ inches,
     full margins. Signed, titled, dated and numbered 22/57 in pencil, lower
     margin. Printed by Bob Blackburn's Printmaking Workshop, New York, with the
     blind stamp lower right.
-  FOOTNOTE: ''
-  background_color: '#ffffff'
-- REFNO: '783064'
-  LOT: '158'
-  LOW: '50000'
-  HIGH: '70000'
+  FOOTNOTE: ""
+  background_color: "#ffffff"
+- REFNO: "783064"
+  LOT: "158"
+  LOW: "50000"
+  HIGH: "70000"
   DESCRIPT: SAM GILLIAM (1933 - )
   CROSSHEAD: Red Rouge.
-  year: '1989'
+  year: "1989"
   TYPESET: >-
     Acrylic on canvas and primed aluminum construction, with wood support
     structure, 1989. 1689x1854x533 mm; 66½x73½x21 inches. Signed, dated and
@@ -3211,15 +3211,15 @@ lots:
     1989 work <i>CAAM Hues</i> at the California African American Museum in Los
     Angeles. From 1985-1989, Sam Gilliam was also teaching as a professor of art
     at Carnegie Mellon University, Pittsburgh. Binstock pp. 165-166.
-  FOOTNOTE: ''
-  background_color: '#ffffff'
-- REFNO: '786472'
-  LOT: '159'
-  LOW: '4000'
-  HIGH: '6000'
+  FOOTNOTE: ""
+  background_color: "#ffffff"
+- REFNO: "786472"
+  LOT: "159"
+  LOW: "4000"
+  HIGH: "6000"
   DESCRIPT: SAM GILLIAM (1933 - )
   CROSSHEAD: Pretty Boxes.
-  year: '199'
+  year: "199"
   TYPESET: >-
     Color screenprint and offset lithograph with collage on Arches paper, 1993.
     756x1086 mm; 29¾x42¾ inches. Signed, titled, dated and numbered 70/86 in
@@ -3228,97 +3228,97 @@ lots:
     University.<br><br>Illustrated: Allan L. Edmunds, ed. and Halima Taha.
     <i>Three Decades of American Printmaking; The Brandywine Worksop
     Collection</i> fig. 219, p. 177.
-  FOOTNOTE: ''
-  background_color: '#ffffff'
-- REFNO: '785638'
-  LOT: '160'
-  LOW: '2000'
-  HIGH: '3000'
+  FOOTNOTE: ""
+  background_color: "#ffffff"
+- REFNO: "785638"
+  LOT: "160"
+  LOW: "2000"
+  HIGH: "3000"
   DESCRIPT: WILLIAM T. WILLIAMS (1942 - )
   CROSSHEAD: Caravan.
-  year: '1991'
+  year: "1991"
   TYPESET: >-
     Color lithograph on cream wove paper, 1991. 984x666 mm; 38¾x26¼ inches, full
     margins. Signed, titled, dated and numbered 10/19 in pencil, lower margin.
     Printed and published by the Oberon Press Inc., New York.<br><br>Another
     impression is in the permanent collection of the Pennsylvania Academy of the
     Fine Arts, Philadelphia.
-  FOOTNOTE: ''
-  background_color: '#ffffff'
-- REFNO: '788010'
-  LOT: '161'
-  LOW: '3000'
-  HIGH: '5000'
+  FOOTNOTE: ""
+  background_color: "#ffffff"
+- REFNO: "788010"
+  LOT: "161"
+  LOW: "3000"
+  HIGH: "5000"
   DESCRIPT: SAM MIDDLETON (1927 - 2015)
   CROSSHEAD: Composition.
-  year: '1992'
+  year: "1992"
   TYPESET: >-
     Mixed paper collage, gouache, and ink on paper, 1992.  775x1067 mm; 30½x42
     inches. Signed and dated in ink, lower right.<br><br>Provenance: private
     collection, Netherlands.
-  FOOTNOTE: ''
-  background_color: '#ffffff'
-- REFNO: '786738'
-  LOT: '162'
-  LOW: '6000'
-  HIGH: '9000'
+  FOOTNOTE: ""
+  background_color: "#ffffff"
+- REFNO: "786738"
+  LOT: "162"
+  LOW: "6000"
+  HIGH: "9000"
   DESCRIPT: ANN TANKSLEY (1934 -  )
   CROSSHEAD: Planting Seeds.
-  year: '1990'
+  year: "1990"
   TYPESET: >-
     Oil on masonite board, 1990. 610x457mm; 24x18 inches. Signed and dated in
     oil, lower left.<br><br>Provenance: Dorsey's Art Gallery, Brooklyn; private
     collection, New York.
-  FOOTNOTE: ''
-  background_color: '#ffffff'
-- REFNO: '784313'
-  LOT: '163'
-  LOW: '1000'
-  HIGH: '1500'
+  FOOTNOTE: ""
+  background_color: "#ffffff"
+- REFNO: "784313"
+  LOT: "163"
+  LOW: "1000"
+  HIGH: "1500"
   DESCRIPT: JOHN BIGGERS (1924 - 2001)
   CROSSHEAD: Family Arc (Middle Panel).
-  year: '1992'
+  year: "1992"
   TYPESET: >-
     Offset lithograph, center panel of the triptych, 1992. 736x546 mm; 29x21½
     inches. Proof, aside from the edition of 100. Signed in pencil, lower right,
     recto. Signed and dated in pencil, lower right, verso. Printed and published
     by the Brandywine Workshop, Philadelphia.
-  FOOTNOTE: ''
-  background_color: '#ffffff'
-- REFNO: '783504'
-  LOT: '164'
-  LOW: '8000'
-  HIGH: '12000'
+  FOOTNOTE: ""
+  background_color: "#ffffff"
+- REFNO: "783504"
+  LOT: "164"
+  LOW: "8000"
+  HIGH: "12000"
   DESCRIPT: EMMA AMOS (1938 - 2020)
   CROSSHEAD: Polka Dots.
-  year: '1990'
+  year: "1990"
   TYPESET: >-
     Color monotype, color pastels and stencil on thick cream wove paper, circa
     1990. 597x394 mm; 23½x15½ inches. Unique artist's proof, aside from an
     unknown edition. Signed, titled and inscribed "AP" lower edge in pencil.
-  FOOTNOTE: ''
-  background_color: '#ffffff'
-- REFNO: '762045'
-  LOT: '165'
-  LOW: '1000'
-  HIGH: '1500'
+  FOOTNOTE: ""
+  background_color: "#ffffff"
+- REFNO: "762045"
+  LOT: "165"
+  LOW: "1000"
+  HIGH: "1500"
   DESCRIPT: ELIZABETH CATLETT (1915 - 2012)
   CROSSHEAD: All the People.
-  year: '1992'
+  year: "1992"
   TYPESET: >-
     Color lithograph on cream wove paper, 1992. 397x346 mm; 15⅝x13⅝ inches, full
     margins. Signed, titled and dated in pencil, lower margin. Printed by J. K.
     Fine Art Editions, Union City, NJ. Published by The Limited Editions Club,
     New York. From the <i>For My People</i> portfolio.
-  FOOTNOTE: ''
-  background_color: '#ffffff'
-- REFNO: '785039'
-  LOT: '166'
-  LOW: '40000'
-  HIGH: '60000'
+  FOOTNOTE: ""
+  background_color: "#ffffff"
+- REFNO: "785039"
+  LOT: "166"
+  LOW: "40000"
+  HIGH: "60000"
   DESCRIPT: HUGHIE LEE-SMITH (1915 - 1999)
   CROSSHEAD: Curtain Call.
-  year: '1989'
+  year: "1989"
   TYPESET: >-
     Oil on linen canvas, 1989. 914x1016 mm; 36x40 inches. Signed in oil, lower
     right.<br><br>Provenance: the estate of the artist; thence by descent to the
@@ -3337,98 +3337,98 @@ lots:
     Cleveland) that the Gilpin Players awarded him in 1935. Inspired by the
     Gilpin Players, a black acting troupe, Lee-Smith also founded an
     inter-racial modern dance troupe there.
-  FOOTNOTE: ''
-  background_color: '#ffffff'
-- REFNO: '785833'
-  LOT: '167'
-  LOW: '20000'
-  HIGH: '30000'
+  FOOTNOTE: ""
+  background_color: "#ffffff"
+- REFNO: "785833"
+  LOT: "167"
+  LOW: "20000"
+  HIGH: "30000"
   DESCRIPT: HUGHIE LEE-SMITH (1915 - 1999)
   CROSSHEAD: The Latecomer..
-  year: '1994'
+  year: "1994"
   TYPESET: >-
     Watercolor on wove paper, 1994. 349x495 mm; 13¾x19½ inches, full margins.
     Signed in watercolor, lower right.<br><br>Provenance: estate of the artist;
     thence by descent, private collection, California; private collection,
     Maryland (2012), acquired at Swann Galleries, October 18, 2012.
-  FOOTNOTE: ''
-  background_color: '#ffffff'
-- REFNO: '785041'
-  LOT: '168'
-  LOW: '4000'
-  HIGH: '6000'
+  FOOTNOTE: ""
+  background_color: "#ffffff"
+- REFNO: "785041"
+  LOT: "168"
+  LOW: "4000"
+  HIGH: "6000"
   DESCRIPT: HUGHIE LEE-SMITH (1915 - 1999)
   CROSSHEAD: Untitled (Portrait of a Woman).
-  year: '1994'
+  year: "1994"
   TYPESET: >-
     Watercolor and pencil on wove paper, 1993-94. 178x203 mm; 7x8 inches. Signed
     in ink, lower right.<br><br>Provenance: estate of the artist; thence by
     descent to the current owner.
-  FOOTNOTE: ''
-  background_color: '#ffffff'
-- REFNO: '785040'
-  LOT: '169'
-  LOW: '4000'
-  HIGH: '6000'
+  FOOTNOTE: ""
+  background_color: "#ffffff"
+- REFNO: "785040"
+  LOT: "169"
+  LOW: "4000"
+  HIGH: "6000"
   DESCRIPT: HUGHIE LEE-SMITH (1915 - 1999)
   CROSSHEAD: Untitled (Man Playing the Flute).
-  year: '1994'
+  year: "1994"
   TYPESET: >-
     Watercolor and pencil on wove paper, 1993-94. 178x254 mm; 7x10 inches.
     Signed in red ink, lower right.<br><br>Provenance: estate of the artist;
     thence by descent to the current owner.
-  FOOTNOTE: ''
-  background_color: '#ffffff'
-- REFNO: '783587'
-  LOT: '170'
-  LOW: '3000'
-  HIGH: '5000'
+  FOOTNOTE: ""
+  background_color: "#ffffff"
+- REFNO: "783587"
+  LOT: "170"
+  LOW: "3000"
+  HIGH: "5000"
   DESCRIPT: JACOB LAWRENCE (1917 - 2000)
   CROSSHEAD: Contemplation.
-  year: '1993'
+  year: "1993"
   TYPESET: >-
     Color screenprint on Bainbridge Two Ply Rag paper, 1993. 724x470 mm; 28½x18½
     inches, full margins. Signed, titled, dated, and numbered 21/120 in pencil,
     lower margin. From <i>The Life of Toussaint L'Ouverture</i> series. Nesbett
     L93-2.
-  FOOTNOTE: ''
-  background_color: '#ffffff'
-- REFNO: '783586'
-  LOT: '171'
-  LOW: '5000'
-  HIGH: '7000'
+  FOOTNOTE: ""
+  background_color: "#ffffff"
+- REFNO: "783586"
+  LOT: "171"
+  LOW: "5000"
+  HIGH: "7000"
   DESCRIPT: JACOB LAWRENCE (1917 - 2000)
   CROSSHEAD: St. Marc.
-  year: '1994'
+  year: "1994"
   TYPESET: >-
     Color screenprint on Bainbridge Two Ply Rag paper, 1994. 724x470 mm; 28½x18½
     inches, full margins. Signed, titled, dated, and numbered 36/120 in pencil,
     lower margin. From <i>The Life of Toussaint L'Ouverture</i> series. Nesbett
     L94-3.
-  FOOTNOTE: ''
-  background_color: '#ffffff'
-- REFNO: '783768'
-  LOT: '172'
-  LOW: '3000'
-  HIGH: '5000'
+  FOOTNOTE: ""
+  background_color: "#ffffff"
+- REFNO: "783768"
+  LOT: "172"
+  LOW: "3000"
+  HIGH: "5000"
   DESCRIPT: JACOB LAWRENCE (1917 - 2000)
   CROSSHEAD: Artist in Studio (Studio).
-  year: '1994'
+  year: "1994"
   TYPESET: >-
     Color lithograph on Rives BFK paper, 1994. 664x499 mm; 26⅛x19⅝ inches.
     Signed, titled, dated and numbered 49/50 in pencil, lower edge. Printed by
     Kent Lovelace, Stone Press Editions, Seattle, with the blind stamp lower
     right. Published by the University of Washington, School of Art, Seattle.
     Nesbett L94-1.
-  FOOTNOTE: ''
-  background_color: '#ffffff'
-- REFNO: '787094'
-  LOT: '173'
-  LOW: '75000'
-  HIGH: '100000'
+  FOOTNOTE: ""
+  background_color: "#ffffff"
+- REFNO: "787094"
+  LOT: "173"
+  LOW: "75000"
+  HIGH: "100000"
   DESCRIPT: ELIZABETH CATLETT (1915 - 2012)
   CROSSHEAD: Nude Torso.
-  year: '1994'
+  year: "1994"
   TYPESET: >-
     Black marble on a wooden base, circa 1994. 345x190x102 mm; 14x7½x4¼ inches
     high (not including the base). Incised with the artist's initials, left leg
@@ -3457,15 +3457,15 @@ lots:
     of this distinctive figure between 1970 and 1998 in various media, including
     orange onyx, in the collection of the Reginald F. Lewis Museum, orange mable
     and bronze. Herzog p. 154.
-  FOOTNOTE: ''
-  background_color: '#ffffff'
-- REFNO: '785136'
-  LOT: '174'
-  LOW: '7000'
-  HIGH: '10000'
+  FOOTNOTE: ""
+  background_color: "#ffffff"
+- REFNO: "785136"
+  LOT: "174"
+  LOW: "7000"
+  HIGH: "10000"
   DESCRIPT: ELIZABETH CATLETT (1915 - 2012)
   CROSSHEAD: The Immortal.
-  year: '1994'
+  year: "1994"
   TYPESET: >-
     Bronze with a dark brown patina, mounted on a wooden base, circa 1994.
     Approximately 394 mm; 15½ inches high, not including the base. Edition size
@@ -3473,15 +3473,15 @@ lots:
     private collection, New York.<br><br>The first of these bronze awards was
     presented to Ossie Davis and Ruby Dee by the Associated Black Charities in
     1994, and has since been presented to BCA awardees annually.
-  FOOTNOTE: ''
-  background_color: '#ffffff'
-- REFNO: '785518'
-  LOT: '175'
-  LOW: '4000'
-  HIGH: '6000'
+  FOOTNOTE: ""
+  background_color: "#ffffff"
+- REFNO: "785518"
+  LOT: "175"
+  LOW: "4000"
+  HIGH: "6000"
   DESCRIPT: LORNA SIMPSON (1960 - )
-  CROSSHEAD: 'Untitled [What Should Fit Here Is An Oblique Story...].'
-  year: '1993'
+  CROSSHEAD: "Untitled [What Should Fit Here Is An Oblique Story...]."
+  year: "1993"
   TYPESET: >-
     Photogravure and screenprint with hand coloring in watercolor, 1993.
     890x1160 mm; 35⅜×45⅝ inches (sheet); 730x546 mm; 28¾×21½ inches (left
@@ -3496,15 +3496,15 @@ lots:
     Director of the Contemporary Arts Council at MoMA.<br><br>Additional
     impressions are in the permanent collections of the Whitney Museum of
     American Art, New York and the Minneapolis Institute of Art, Minnesota.
-  FOOTNOTE: ''
-  background_color: '#ffffff'
-- REFNO: '786952'
-  LOT: '176'
-  LOW: '3000'
-  HIGH: '5000'
+  FOOTNOTE: ""
+  background_color: "#ffffff"
+- REFNO: "786952"
+  LOT: "176"
+  LOW: "3000"
+  HIGH: "5000"
   DESCRIPT: LYLE ASHTON HARRIS (1965 - )
   CROSSHEAD: Embrace.
-  year: '1993'
+  year: "1993"
   TYPESET: >-
     Cibachrome print, 1993. 1219x762 mm; 48x30 inches. Artist's proof, aside
     from an edition of 6. Signed, titled, dated and inscribed "artist's proof"
@@ -3536,15 +3536,15 @@ lots:
     California Institute of the Arts, and attended the Whitney Museum of
     American Art Independent Study Program. Harris is currently a Professor of
     Art at New York University and lives in New York.
-  FOOTNOTE: ''
-  background_color: '#ffffff'
-- REFNO: '786951'
-  LOT: '177'
-  LOW: '3000'
-  HIGH: '5000'
+  FOOTNOTE: ""
+  background_color: "#ffffff"
+- REFNO: "786951"
+  LOT: "177"
+  LOW: "3000"
+  HIGH: "5000"
   DESCRIPT: RENEE COX (1960 - )
   CROSSHEAD: Atlas.
-  year: '1995'
+  year: "1995"
   TYPESET: >-
     Silver print, 1995. 254x254 mm; 10x10 inches. Edition of 50. Signed, titled
     and dated in pencil lower edge verso.<br><br>The inspiration for
@@ -3563,15 +3563,15 @@ lots:
     - February 10, 2019; <i>Half The Picture: A Feminist Look at the
     Collection,</i> Elizabeth A. Sackler Center for Feminist Art, Brooklyn
     Museum, Brooklyn, NY, August 23, 2018 - March 31, 2019.
-  FOOTNOTE: ''
-  background_color: '#ffffff'
-- REFNO: '785504'
-  LOT: '178'
-  LOW: '3000'
-  HIGH: '5000'
+  FOOTNOTE: ""
+  background_color: "#ffffff"
+- REFNO: "785504"
+  LOT: "178"
+  LOW: "3000"
+  HIGH: "5000"
   DESCRIPT: CARRIE MAE WEEMS (1953 - )
-  CROSSHEAD: 'Untitled (See No Evil, Hear No Evil, Speak No Evil).'
-  year: '1995'
+  CROSSHEAD: "Untitled (See No Evil, Hear No Evil, Speak No Evil)."
+  year: "1995"
   TYPESET: >-
     Three chromogenic prints on Kodak Professional photo paper, 1995. 175x465
     mm; 6⅞x18 inches overall. 508x610 mm; 20x24 inches (sheet). Edition of 200.
@@ -3582,15 +3582,15 @@ lots:
     camera. It was Weem's first use of color in her work. The first Polaroid of
     the triptych <i>See No Evil</i> is in the collection of the J. Paul Getty
     Museum.
-  FOOTNOTE: ''
-  background_color: '#ffffff'
-- REFNO: '787273'
-  LOT: '179'
-  LOW: '2000'
-  HIGH: '3000'
+  FOOTNOTE: ""
+  background_color: "#ffffff"
+- REFNO: "787273"
+  LOT: "179"
+  LOW: "2000"
+  HIGH: "3000"
   DESCRIPT: FRED WILSON (1954 - )
-  CROSSHEAD: 'Old Salem: A Family of Strangers.'
-  year: '1995'
+  CROSSHEAD: "Old Salem: A Family of Strangers."
+  year: "1995"
   TYPESET: >-
     C-print mounted on Sintra, 1995. 501x400 mm; 19¾x15¾ inches. Numbered 1 of
     5, on the gallery label on the frame back.<br><br>Provenance: Metro
@@ -3598,30 +3598,30 @@ lots:
     <i>Collectibles,</i> Metro Pictures, New York, December 2, 1995 - January 6,
     1996.<br><br>Another photograph from this series in the collection of the
     Studio Museum in Harlem, New York.
-  FOOTNOTE: ''
-  background_color: '#ffffff'
-- REFNO: '786953'
-  LOT: '180'
-  LOW: '2000'
-  HIGH: '3000'
+  FOOTNOTE: ""
+  background_color: "#ffffff"
+- REFNO: "786953"
+  LOT: "180"
+  LOW: "2000"
+  HIGH: "3000"
   DESCRIPT: GLENN LIGON (1960 - )
   CROSSHEAD: Untitled (My Fear is Your Fear).
-  year: '1995'
+  year: "1995"
   TYPESET: >-
     Screenprint on black wove paper, 1995. 308x232 mm; 12⅛x9⅛ inches, full
     margins. Signed and numbered 158/325 in pencil, lower margin with original
     folder and gallery label. Published by Max Protech Gallery, New York.
-  FOOTNOTE: ''
-  background_color: '#ffffff'
-- REFNO: '784417'
-  LOT: '181'
-  LOW: '2500'
-  HIGH: '3500'
+  FOOTNOTE: ""
+  background_color: "#ffffff"
+- REFNO: "784417"
+  LOT: "181"
+  LOW: "2500"
+  HIGH: "3500"
   DESCRIPT: KARA WALKER  (1969 - )
   CROSSHEAD: >-
     Freedom, A Fable: A Curious Interpretation of the Wit of a Negress in
     Troubled Times.
-  year: '1997'
+  year: "1997"
   TYPESET: >-
     Bound pop-up book, with offset lithographs and five laser-cut, pop-up
     silhouettes on wove paper, 1997. 238x213 mm; 9⅜x8⅜ inches, full red leather
@@ -3636,29 +3636,29 @@ lots:
     prose quickly mimics her dark and provocative imagery, detailing the racial
     and sexual horrors that awaited a young African-American woman in the 19th
     century.
-  FOOTNOTE: ''
-  background_color: '#ffffff'
-- REFNO: '786907'
-  LOT: '182'
-  LOW: '5000'
-  HIGH: '7000'
+  FOOTNOTE: ""
+  background_color: "#ffffff"
+- REFNO: "786907"
+  LOT: "182"
+  LOW: "5000"
+  HIGH: "7000"
   DESCRIPT: BETYE SAAR (1926 - )
   CROSSHEAD: Women with Flowers & Umbrella.
-  year: '1997'
+  year: "1997"
   TYPESET: >-
     Mixed media collage on paper, 1997. 102x152 mm; 4x6 inches. Titled and dated
     in ink, verso.<br><br>Provenance: acquired directly from the artist, Los
     Angeles, private collection, California (1997); thence by descent to the
     current owner, California (2005).
-  FOOTNOTE: ''
-  background_color: '#ffffff'
-- REFNO: '785829'
-  LOT: '183'
-  LOW: '3000'
-  HIGH: '5000'
+  FOOTNOTE: ""
+  background_color: "#ffffff"
+- REFNO: "785829"
+  LOT: "183"
+  LOW: "3000"
+  HIGH: "5000"
   DESCRIPT: EMMA AMOS (1938 - 2020)
   CROSSHEAD: On Top of the World.
-  year: '1996'
+  year: "1996"
   TYPESET: >-
     Silk aquatint with textile <i>chine-collé</i>on Arches paper, 1996. 762x568
     mm; 30x22⅜ inches, full margins. Signed, titled, dated and numbered 8/60 in
@@ -3666,71 +3666,71 @@ lots:
     Caraccio Studio, New York.<br><br>Emma Amos was commissioned by the Atlanta
     Committee for the Olympic Games in 1996 to create an original painting from
     which an official Olympic poster and a limited edition print were created.
-  FOOTNOTE: ''
-  background_color: '#ffffff'
-- REFNO: '785128'
-  LOT: '184'
-  LOW: '3000'
-  HIGH: '5000'
+  FOOTNOTE: ""
+  background_color: "#ffffff"
+- REFNO: "785128"
+  LOT: "184"
+  LOW: "3000"
+  HIGH: "5000"
   DESCRIPT: JONATHAN GREEN (1955 - )
   CROSSHEAD: Mullet Friday.
-  year: '1997'
+  year: "1997"
   TYPESET: >-
     Color lithograph on Somerset Satin paper, 1997. 431x330 mm; 762x1003 mm;
     30x39½ inches, full margins. Signed and numbered 55/99 in pencil, lower
     margin. Printed and published by Mojo Portfolio, Union City, NJ, with the
     blindstamp, lower left.
-  FOOTNOTE: ''
-  background_color: '#ffffff'
-- REFNO: '783584'
-  LOT: '185'
-  LOW: '6000'
-  HIGH: '9000'
+  FOOTNOTE: ""
+  background_color: "#ffffff"
+- REFNO: "783584"
+  LOT: "185"
+  LOW: "6000"
+  HIGH: "9000"
   DESCRIPT: JACOB LAWRENCE (1917 - 2000)
   CROSSHEAD: Play.
-  year: '1999'
+  year: "1999"
   TYPESET: >-
     Color screenprint on Rising Two Ply Rag paper, 1999. 473x721 mm; 18⅝x28⅜
     inches, full margins. Signed, titled, dated and numbered 46/135 in pencil,
     lower margin. Printed by Lou Stovall at the Workshop, Inc., Washington, DC,
     with the blind stamp, lower left. Published by Spradling-Ames Corporation in
     collaboration with the Hampton University Museum. Nesbett L99-1.
-  FOOTNOTE: ''
-  background_color: '#ffffff'
-- REFNO: '785149'
-  LOT: '186'
-  LOW: '1500'
-  HIGH: '2500'
+  FOOTNOTE: ""
+  background_color: "#ffffff"
+- REFNO: "785149"
+  LOT: "186"
+  LOW: "1500"
+  HIGH: "2500"
   DESCRIPT: WADSWORTH JARRELL (1929 - )
   CROSSHEAD: Lionel Hampton.
-  year: '1980'
+  year: "1980"
   TYPESET: >-
     Pencil on cream wover paper, circa 1980. 178x127 mm; 7x5 inches. Signed in
     pencil, lower right, and titled in pencil on the mat, lower
     right.<br><br>Provenance: private collection, Massachusetts.
-  FOOTNOTE: ''
-  background_color: '#ffffff'
-- REFNO: '785639'
-  LOT: '187'
-  LOW: '5000'
-  HIGH: '7000'
+  FOOTNOTE: ""
+  background_color: "#ffffff"
+- REFNO: "785639"
+  LOT: "187"
+  LOW: "5000"
+  HIGH: "7000"
   DESCRIPT: WADSWORTH JARRELL (1929 - )
   CROSSHEAD: Little Jazz at the Strand.
-  year: '1998'
+  year: "1998"
   TYPESET: >-
     Acrylic on cotton canvas, 1998. 203x254 mm; 8x10 inches. Signed in acrylic,
     lower right recto. Titled in ink on the upper stretcher bar,
     verso.<br><br>Provenance: Sande Webster Gallery, Philadelphia, with the
     gallery label on the frame back; private collection, Philadelphia.
-  FOOTNOTE: ''
-  background_color: '#ffffff'
-- REFNO: '780005'
-  LOT: '188'
-  LOW: '1500'
-  HIGH: '2500'
+  FOOTNOTE: ""
+  background_color: "#ffffff"
+- REFNO: "780005"
+  LOT: "188"
+  LOW: "1500"
+  HIGH: "2500"
   DESCRIPT: EVANGELINE J. MONTGOMERY (1930 - )
   CROSSHEAD: Sea Grass.
-  year: '1998'
+  year: "1998"
   TYPESET: >-
     Offset color lithograph, 1998. 762x546 mm; 30x21½ inches. Signed, titled,
     dated and numbered 21/25 in pencil, lower edge. Printed and published by the
@@ -3757,29 +3757,29 @@ lots:
     she served as the San Francisco Art Commissioner. She moved to Washington
     D.C. in 1980 to pursue a career with the Department of State as a program
     development officer for Arts America.
-  FOOTNOTE: ''
-  background_color: '#ffffff'
-- REFNO: '785640'
-  LOT: '189'
-  LOW: '1000'
-  HIGH: '1500'
+  FOOTNOTE: ""
+  background_color: "#ffffff"
+- REFNO: "785640"
+  LOT: "189"
+  LOW: "1000"
+  HIGH: "1500"
   DESCRIPT: MELVIN EDWARDS (1937 - )
   CROSSHEAD: Untitled.
-  year: '1998'
+  year: "1998"
   TYPESET: >-
     Color lithograph on wove paper, 1998. 753x539 mm; 29⅝x21¼ inches. Signed,
     dated and numbered 12/80 in pencil, lower edge.<br><br>Provenance: Sande
     Webster Gallery, Philadelphia, with the gallery label on the frame back;
     private collection, Pennsylvania.
-  FOOTNOTE: ''
-  background_color: '#ffffff'
-- REFNO: '786778'
-  LOT: '190'
-  LOW: '10000'
-  HIGH: '15000'
+  FOOTNOTE: ""
+  background_color: "#ffffff"
+- REFNO: "786778"
+  LOT: "190"
+  LOW: "10000"
+  HIGH: "15000"
   DESCRIPT: WOSENE WORKE KOSROF (1950 - )
-  CROSSHEAD: 'Addis Zemen, II.'
-  year: '1999'
+  CROSSHEAD: "Addis Zemen, II."
+  year: "1999"
   TYPESET: >-
     Acrylic on cotton canvas, 1999. 711x762 mm; 28x30 inches. Signed and dated
     in acrylic, lower right recto. Signed, dated, titled, and inscribed "28"x
@@ -3787,80 +3787,80 @@ lots:
     New Orleans; private collection, New York.<br><br>Exhibited: <i>Alphabets of
     Color: Tayo Adenaike and Wosene Worke Korsrof</i>, Stella Jones Gallery, New
     Orleans, September, 1999.
-  FOOTNOTE: ''
-  background_color: '#ffffff'
-- REFNO: '786235'
-  LOT: '191'
-  LOW: '5000'
-  HIGH: '7000'
+  FOOTNOTE: ""
+  background_color: "#ffffff"
+- REFNO: "786235"
+  LOT: "191"
+  LOW: "5000"
+  HIGH: "7000"
   DESCRIPT: ED CLARK (1926 - 2019)
   CROSSHEAD: Untitled.
-  year: '2000'
+  year: "2000"
   TYPESET: >-
     Color lithograph on wove paper, 2000. 876x914 mm; 34½x36 inches, full
     margin. Signed and numbered 7/25 in pencil, lower margin.
-  FOOTNOTE: ''
-  background_color: '#ffffff'
-- REFNO: '787242'
-  LOT: '192'
-  LOW: '15000'
-  HIGH: '25000'
+  FOOTNOTE: ""
+  background_color: "#ffffff"
+- REFNO: "787242"
+  LOT: "192"
+  LOW: "15000"
+  HIGH: "25000"
   DESCRIPT: KENNETH VICTOR YOUNG (1933 - 2017)
   CROSSHEAD: Untitled.
-  year: '2001'
+  year: "2001"
   TYPESET: >-
     Acrylic on cotton canvas, 2001. 406x508 mm; 16x20 inches. Signed, dated and
     inscribed "to the Bush's" in ink, lower right verso.<br><br>Provenance:
     acquired directly from the artist, private collection, New York.
-  FOOTNOTE: ''
-  background_color: '#ffffff'
-- REFNO: '787241'
-  LOT: '193'
-  LOW: '6000'
-  HIGH: '9000'
+  FOOTNOTE: ""
+  background_color: "#ffffff"
+- REFNO: "787241"
+  LOT: "193"
+  LOW: "6000"
+  HIGH: "9000"
   DESCRIPT: KENNETH VICTOR YOUNG (1933 - 2017)
-  CROSSHEAD: 'After Monet, Water.'
-  year: '2001'
+  CROSSHEAD: "After Monet, Water."
+  year: "2001"
   TYPESET: >-
     Acrylic on cotton canvas, 2001. 304x304 mm; 12x12 inches. Signed, titled and
     dated in pencil, center verso.<br><br>Provenance: acquired directly from the
     artist, private collection, New York.
-  FOOTNOTE: ''
-  background_color: '#ffffff'
-- REFNO: '774791'
-  LOT: '194'
-  LOW: '3000'
-  HIGH: '5000'
+  FOOTNOTE: ""
+  background_color: "#ffffff"
+- REFNO: "774791"
+  LOT: "194"
+  LOW: "3000"
+  HIGH: "5000"
   DESCRIPT: SAM GILLIAM  (1933 -    )
   CROSSHEAD: Sam<D>.
-  year: '2001'
+  year: "2001"
   TYPESET: >-
     Collage and relief print on fabric and paper, 2001. 572x394 mm; 22½x15½
     inches. Signed, dated, titled and numbered 12/50 in ink, lower edge.
-  FOOTNOTE: ''
-  background_color: '#ffffff'
-- REFNO: '783765'
-  LOT: '195'
-  LOW: '2500'
-  HIGH: '3500'
+  FOOTNOTE: ""
+  background_color: "#ffffff"
+- REFNO: "783765"
+  LOT: "195"
+  LOW: "2500"
+  HIGH: "3500"
   DESCRIPT: SAM GILLIAM (1933 - )
   CROSSHEAD: Lincoln Center Festival.
-  year: '2001'
+  year: "2001"
   TYPESET: >-
     Color screenprint on wove paper, 2001. 711x899 mm; 28x35 inches, full
     magins. The deluxe edition of 108, before letters, aside from the poster
     edition of 500. Signed, dated and numbered 82/108 in pencil, lower margin.
     Printed by Brand X Editions, NY. Published by Lincoln Center List Poster and
     Print Program, New York.
-  FOOTNOTE: ''
-  background_color: '#ffffff'
-- REFNO: '781989'
-  LOT: '196'
-  LOW: '15000'
-  HIGH: '25000'
+  FOOTNOTE: ""
+  background_color: "#ffffff"
+- REFNO: "781989"
+  LOT: "196"
+  LOW: "15000"
+  HIGH: "25000"
   DESCRIPT: NOAH PURIFOY (1917 - 2004)
   CROSSHEAD: The Flag.
-  year: '2001'
+  year: "2001"
   TYPESET: >-
     Cloth assemblage, 2001. Approximately 850x635mm; 33½x25 inches; 1035x831 mm;
     40¾x32¾ inches (framed under acrylic). Signed and dated in ink, lower right
@@ -3869,43 +3869,43 @@ lots:
     strips of the American flag; according to the owner, Noah Purifoy stated
     this artwork was his response to the attack on 9/11 and the spirit of unity
     that brought the nation together afterward.
-  FOOTNOTE: ''
-  background_color: '#ffffff'
-- REFNO: '785637'
-  LOT: '197'
-  LOW: '2000'
-  HIGH: '3000'
-  DESCRIPT: 'ALVIN D. LOVING, JR. (1935 - 2005)'
+  FOOTNOTE: ""
+  background_color: "#ffffff"
+- REFNO: "785637"
+  LOT: "197"
+  LOW: "2000"
+  HIGH: "3000"
+  DESCRIPT: "ALVIN D. LOVING, JR. (1935 - 2005)"
   CROSSHEAD: Mara A.
-  year: '2003'
+  year: "2003"
   TYPESET: >-
     Color offset lithograph, 2003. 702x535 mm; 27⅞x21⅜ inches. Artist's proof,
     aside from the edition of 20. Signed, titled, dated and inscribed "A/P" in
     pencil, lower edge. Printed and published by the Brandywine Workshop,
     Philadelphia.
-  FOOTNOTE: ''
-  background_color: '#ffffff'
-- REFNO: '787001'
-  LOT: '198'
-  LOW: '2000'
-  HIGH: '3000'
-  DESCRIPT: 'ALVIN D. LOVING, JR.  (1935 - 2005)'
-  CROSSHEAD: 'Mara, Mara.'
-  year: '2003'
+  FOOTNOTE: ""
+  background_color: "#ffffff"
+- REFNO: "787001"
+  LOT: "198"
+  LOW: "2000"
+  HIGH: "3000"
+  DESCRIPT: "ALVIN D. LOVING, JR.  (1935 - 2005)"
+  CROSSHEAD: "Mara, Mara."
+  year: "2003"
   TYPESET: >-
     Color offset lithograph, 2003. 711x540 mm; 28x21¼ inches. Artist's proof,
     aside from the edition of 20. Signed, titled, dated and inscribed "Artist's
     Proof" in pencil, lower edge. Printed and published by the Brandywine
     Workshop, Philadelphia.
-  FOOTNOTE: ''
-  background_color: '#ffffff'
-- REFNO: '785270'
-  LOT: '199'
-  LOW: '2000'
-  HIGH: '3000'
+  FOOTNOTE: ""
+  background_color: "#ffffff"
+- REFNO: "785270"
+  LOT: "199"
+  LOW: "2000"
+  HIGH: "3000"
   DESCRIPT: LOU STOVALL (1937 - )
   CROSSHEAD: The Sixth Movement II.
-  year: '2005'
+  year: "2005"
   TYPESET: >-
     Color screenprint, 2005. 374x711 mm; 14¾x28 inches. Signed, titled, dated
     and numbered 18/20 in pencil, lower edge. Printed and published by Lou
@@ -3920,15 +3920,15 @@ lots:
     motion reminiscent of sheet music while referencing the motion of a baton
     wielded by an orchestral conductor. The concertos are arguably the most
     beautiful and complicated pieces of music to perform.
-  FOOTNOTE: ''
-  background_color: '#ffffff'
-- REFNO: '786473'
-  LOT: '200'
-  LOW: '3000'
-  HIGH: '5000'
-  DESCRIPT: 'SIR FRANK BOWLING, OBE RA (1934 - )'
+  FOOTNOTE: ""
+  background_color: "#ffffff"
+- REFNO: "786473"
+  LOT: "200"
+  LOW: "3000"
+  HIGH: "5000"
+  DESCRIPT: "SIR FRANK BOWLING, OBE RA (1934 - )"
   CROSSHEAD: Mother Approaching Sixty.
-  year: '2003'
+  year: "2003"
   TYPESET: >-
     Color photo-etching, soft-ground and spite bite aquatint on paper, 2003.
     882x774 mm; 34¾x30½ inches, full margins. Signed, dated and numbered 10/40
@@ -3948,41 +3948,41 @@ lots:
     this close-up of the artist’s mother, smiling at life’s long sunset, is
     rendered through variation in tones and colors that emphasize her face as
     color, volume, and surface.
-  FOOTNOTE: ''
-  background_color: '#ffffff'
-- REFNO: '786470'
-  LOT: '201'
-  LOW: '3000'
-  HIGH: '5000'
+  FOOTNOTE: ""
+  background_color: "#ffffff"
+- REFNO: "786470"
+  LOT: "201"
+  LOW: "3000"
+  HIGH: "5000"
   DESCRIPT: DAVID C. DRISKELL (1931 - 2020)
   CROSSHEAD: The Young Herbalist.
-  year: '2000'
+  year: "2000"
   TYPESET: >-
     Color lithograph on wove paper, 2000. 610x457 mm; 24x18 inches, full
     margins. Signed, titled, dated and numbered 43/60 in pencil, lower margin.
     Printed by Randy Hemminghaus. Published by the Brodsky Center for Innovative
     Print and Paper, Rutgers University, with the blind stamp lower left.
-  FOOTNOTE: ''
-  background_color: '#ffffff'
-- REFNO: '785125'
-  LOT: '202'
-  LOW: '7000'
-  HIGH: '10000'
+  FOOTNOTE: ""
+  background_color: "#ffffff"
+- REFNO: "785125"
+  LOT: "202"
+  LOW: "7000"
+  HIGH: "10000"
   DESCRIPT: JONATHAN GREEN (1955 - )
   CROSSHEAD: Ride.
-  year: '2002'
+  year: "2002"
   TYPESET: >-
     Oil on linen canvas, 2002. 203x254 mm; 8x10 inches. Signed and dated in oil,
     lower right.<br><br>Provenance: private collection, New Jersey.
-  FOOTNOTE: ''
-  background_color: '#ffffff'
-- REFNO: '785505'
-  LOT: '203'
-  LOW: '4000'
-  HIGH: '6000'
+  FOOTNOTE: ""
+  background_color: "#ffffff"
+- REFNO: "785505"
+  LOT: "203"
+  LOW: "4000"
+  HIGH: "6000"
   DESCRIPT: CARRIE MAE WEEMS (1953 - )
   CROSSHEAD: Untitled (Woman As Napoleon Riding Atop A Man).
-  year: '2003'
+  year: "2003"
   TYPESET: >-
     Archival pigment print, 2003. 441x609 mm; 17⅝x24 inches, full margins.
     Artist's proof, aside from the edition of 50. Signed, dated and inscribed
@@ -4000,15 +4000,15 @@ lots:
     the male scions of these elite families with African American women from the
     adjacent community of the <i>gens du coleur</i> throughout the nineteenth
     and twentieth centuries.
-  FOOTNOTE: ''
-  background_color: '#ffffff'
-- REFNO: '786232'
-  LOT: '204'
-  LOW: '75000'
-  HIGH: '100000'
+  FOOTNOTE: ""
+  background_color: "#ffffff"
+- REFNO: "786232"
+  LOT: "204"
+  LOW: "75000"
+  HIGH: "100000"
   DESCRIPT: SIMONE LEIGH (1967 -   )
   CROSSHEAD: Untitled (Vessel).
-  year: '2004'
+  year: "2004"
   TYPESET: >-
     Glazed salt fired stoneware, circa 2004. Approximately 483x558x558 mm;
     19x22x22 inches.<br><br>Provenance: acquired directly from the artist;
@@ -4023,56 +4023,56 @@ lots:
     the Elizabeth A. Sackler Center for Feminist Art at the Brooklyn Museum. A
     similar vessel in white was sold at Sotheby's New York on September 26,
     2019.
-  FOOTNOTE: ''
-  background_color: '#ffffff'
-- REFNO: '785122'
-  LOT: '205'
-  LOW: '2000'
-  HIGH: '3000'
+  FOOTNOTE: ""
+  background_color: "#ffffff"
+- REFNO: "785122"
+  LOT: "205"
+  LOW: "2000"
+  HIGH: "3000"
   DESCRIPT: GLENN LIGON (1960 - )
   CROSSHEAD: Boy on a Tire.
-  year: '2004'
+  year: "2004"
   TYPESET: >-
     Color screenprint on wove paper, 2004. 1054x806 mm; 41¼×31¾ inches, full
     margins. Signed and numbered 61/108 in pencil, lower margin. Printed by
     Brand X Editions, New York. Published by The Lincoln Center/List Poster and
     Print Program, New York.
-  FOOTNOTE: ''
-  background_color: '#ffffff'
-- REFNO: '785655'
-  LOT: '206'
-  LOW: '3000'
-  HIGH: '5000'
+  FOOTNOTE: ""
+  background_color: "#ffffff"
+- REFNO: "785655"
+  LOT: "206"
+  LOW: "3000"
+  HIGH: "5000"
   DESCRIPT: ELIZABETH CATLETT (1915 - 2012)
   CROSSHEAD: Black Girl.
-  year: '2004'
+  year: "2004"
   TYPESET: >-
     Lithograph on cream wove paper, 2004. 558x387 mm; 22x15¼ inches, full
     margins. Signed, titled, dated and numbered 73/90 in pencil, lower margin.
     Printed and published by J K Fine Art Editions Co./Mojo Portfolio, New
     Jersey, with printer's blindstamp lower left.
-  FOOTNOTE: ''
-  background_color: '#ffffff'
-- REFNO: '785653'
-  LOT: '207'
-  LOW: '2500'
-  HIGH: '3500'
+  FOOTNOTE: ""
+  background_color: "#ffffff"
+- REFNO: "785653"
+  LOT: "207"
+  LOW: "2500"
+  HIGH: "3500"
   DESCRIPT: ELIZABETH CATLETT (1915 - 2012)
   CROSSHEAD: Young Douglass.
-  year: '2004'
+  year: "2004"
   TYPESET: >-
     Linoleum cut on wove paper, 2004. 298x260 mm; 11¾x10¼ inches, full margins.
     Artist's proof, aside from the edition of 90. Signed, titled, dated and
     inscribed "AP VII" in pencil, lower margin.
-  FOOTNOTE: ''
-  background_color: '#ffffff'
-- REFNO: '785654'
-  LOT: '208'
-  LOW: '2000'
-  HIGH: '3000'
+  FOOTNOTE: ""
+  background_color: "#ffffff"
+- REFNO: "785654"
+  LOT: "208"
+  LOW: "2000"
+  HIGH: "3000"
   DESCRIPT: ELIZABETH CATLETT (1915 - 2012)
   CROSSHEAD: Gossip.
-  year: '2005'
+  year: "2005"
   TYPESET: >-
     Color photolithograph and digital print on Somerset wove paper, 2005.
     394x457 mm; 15½x18 inches, full margins. Artist's proof, aside from the
@@ -4080,60 +4080,60 @@ lots:
     pencil, lower margin. Printed by the Brodsky Center for Innovative Print and
     Paper, Rutgers University, with the blind stamp lower left. Published by the
     New York Print Club.
-  FOOTNOTE: ''
-  background_color: '#ffffff'
-- REFNO: '786469'
-  LOT: '209'
-  LOW: '4000'
-  HIGH: '6000'
+  FOOTNOTE: ""
+  background_color: "#ffffff"
+- REFNO: "786469"
+  LOT: "209"
+  LOW: "4000"
+  HIGH: "6000"
   DESCRIPT: FAITH RINGGOLD (1930 - )
   CROSSHEAD: Somebody Stole my Broken Heart.
-  year: '2004'
+  year: "2004"
   TYPESET: >-
     Color screenprint on wove paper, 2004. 572x762 mm; 22½x30 inches, full
     margins. Signed, titled, dated, and numbered 94/100 in pencil, lower margin.
     Printed by the Brodsky Center for Innovative Print and Paper, Rutgers
     University<br><br>Another impression of this print is in the collection of
     Pennsylvania Academy of the Fine Arts, Philadelphia.
-  FOOTNOTE: ''
-  background_color: '#ffffff'
-- REFNO: '786239'
-  LOT: '210'
-  LOW: '3000'
-  HIGH: '5000'
+  FOOTNOTE: ""
+  background_color: "#ffffff"
+- REFNO: "786239"
+  LOT: "210"
+  LOW: "3000"
+  HIGH: "5000"
   DESCRIPT: FAITH RINGGOLD (1930 - )
   CROSSHEAD: Aunt Emmy.
-  year: '2005'
+  year: "2005"
   TYPESET: >-
     Color lithograph on cream wove paper, 2005. 762x559 mm; 30x22 inches, full
     margins. Signed, dated, and numbered 45/50 in pencil, lower margin. Printed
     by Segura Art Studios, Notre Dame Center for Arts & Culture, with the blind
     stamp lower left.<br><br>Based on the 2005 same-titled quit from Faith
     Ringgold's <i>Coming to Jones Road #7</i>.
-  FOOTNOTE: ''
-  background_color: '#ffffff'
-- REFNO: '786238'
-  LOT: '211'
-  LOW: '3000'
-  HIGH: '5000'
+  FOOTNOTE: ""
+  background_color: "#ffffff"
+- REFNO: "786238"
+  LOT: "211"
+  LOW: "3000"
+  HIGH: "5000"
   DESCRIPT: FAITH RINGGOLD (1930 - )
-  CROSSHEAD: 'Under a Blood Red Sky, # 7.'
-  year: '2006'
+  CROSSHEAD: "Under a Blood Red Sky, # 7."
+  year: "2006"
   TYPESET: >-
     Color lithograph on cream wove paper, 2006. 762x1067 mm; 30x42 inches, full
     margins. Signed, titled, dated and numbered 16/50 in pencil, lower margin.
     Printed by Segura Art Studios, Notre Dame Center for Arts & Cuture, with the
     blind stamp lower left.<br><br>Based on the 2005 same-titled quit from Faith
     Ringgold's <i>Coming to Jones Road #7</i> series.
-  FOOTNOTE: ''
-  background_color: '#ffffff'
-- REFNO: '787034'
-  LOT: '212'
-  LOW: '1200'
-  HIGH: '1800'
+  FOOTNOTE: ""
+  background_color: "#ffffff"
+- REFNO: "787034"
+  LOT: "212"
+  LOW: "1200"
+  HIGH: "1800"
   DESCRIPT: BRETT COOK-DIZNEY (1968 - )
   CROSSHEAD: King and Shabazz.
-  year: '2004'
+  year: "2004"
   TYPESET: >-
     Ink on acetate, 2004. 355x279 mm; 14x11 inches.<br><br>Provenance: PPOW
     Gallery, New York, with their label affixed to the backing board; private
@@ -4146,15 +4146,15 @@ lots:
     Cook-Dizney is best known for billboard-style portrait paintings located
     throughout New York that often touch on socio-political themes. His subjects
     are the residents of the neighborhoods where his work appears.
-  FOOTNOTE: ''
-  background_color: '#ffffff'
-- REFNO: '783784'
-  LOT: '213'
-  LOW: '8000'
-  HIGH: '12000'
+  FOOTNOTE: ""
+  background_color: "#ffffff"
+- REFNO: "783784"
+  LOT: "213"
+  LOW: "8000"
+  HIGH: "12000"
   DESCRIPT: KEHINDE WILEY (1977 - )
   CROSSHEAD: St. Francis of Adelaide.
-  year: '2006'
+  year: "2006"
   TYPESET: >-
     Cast marble, dust and resin, 2006. 305x254x140 mm; 12x10x5½ inches. Signed,
     dated, and numbered 9/250 in black ink on the underside. Published by
@@ -4163,15 +4163,15 @@ lots:
     Adelaide</i> in the Chapel of Saint Ferdinand, Paris. The strong, proud,
     athletic young man is dressed in street attire and holding a bible, orb and
     sceptre.
-  FOOTNOTE: ''
-  background_color: '#ffffff'
-- REFNO: '785503'
-  LOT: '214'
-  LOW: '1500'
-  HIGH: '2500'
+  FOOTNOTE: ""
+  background_color: "#ffffff"
+- REFNO: "785503"
+  LOT: "214"
+  LOW: "1500"
+  HIGH: "2500"
   DESCRIPT: FRED WILSON (1954 - )
   CROSSHEAD: X.
-  year: '2005'
+  year: "2005"
   TYPESET: >-
     Digital C-print on Duratrans© film, 2005. 533x508 mm; 21x20 inches, full
     margins. The <i>Bon à Tirer</i> proof, for the edition of 50. Signed,
@@ -4193,15 +4193,15 @@ lots:
     the idea of a traditionally accepted “canon” of art and how the technical
     processes used to produce works of photography impact representation as well
     as contrasting matters of identity, politics, and power.
-  FOOTNOTE: ''
-  background_color: '#ffffff'
-- REFNO: '787272'
-  LOT: '215'
-  LOW: '2000'
-  HIGH: '3000'
+  FOOTNOTE: ""
+  background_color: "#ffffff"
+- REFNO: "787272"
+  LOT: "215"
+  LOW: "2000"
+  HIGH: "3000"
   DESCRIPT: LESLIE HEWITT (1977 - )
   CROSSHEAD: Riffs on Real Time (2 of 10).
-  year: '2009'
+  year: "2009"
   TYPESET: >-
     Chromogenic print, 2006-09. 753x596 mm; 29⅝x23½ inches. Numbered 2/5 on the
     gallery label on the frame back.<br><br>Provenance: D' Amelio Terras
@@ -4232,15 +4232,15 @@ lots:
     (2011); <i.Under Another Name,</i> Studio Museum in Harlem, New York (2014);
     and <i>Photo-Poetics: An Anthology</i>, Solomon R. Guggenheim Museum, New
     York (2015). Hewitt lives and works in New York.
-  FOOTNOTE: ''
-  background_color: '#ffffff'
-- REFNO: '787268'
-  LOT: '216'
-  LOW: '15000'
-  HIGH: '25000'
+  FOOTNOTE: ""
+  background_color: "#ffffff"
+- REFNO: "787268"
+  LOT: "216"
+  LOW: "15000"
+  HIGH: "25000"
   DESCRIPT: WHITFIELD LOVELL (1959 - )
   CROSSHEAD: Three drawings (Card Series).
-  year: '2006'
+  year: "2006"
   TYPESET: >-
     <i>After the Card Series II</i>, 2006 * <i>After the Round Series V</i>,
     2014.<i.>After the Card Series V</i>, 2014.  Each charcoal with a collaged
@@ -4268,15 +4268,15 @@ lots:
     collections including the Metropolitan Museum of Art, the National Museum of
     American Art, Washington, DC, the Seattle Art Museum, the Whitney Museum of
     American Art and the Yale University Art Gallery.
-  FOOTNOTE: ''
-  background_color: '#ffffff'
-- REFNO: '787040'
-  LOT: '217'
-  LOW: '1500'
-  HIGH: '2500'
+  FOOTNOTE: ""
+  background_color: "#ffffff"
+- REFNO: "787040"
+  LOT: "217"
+  LOW: "1500"
+  HIGH: "2500"
   DESCRIPT: KORI NEWKIRK (1970 - )
   CROSSHEAD: Untitled (Male Head).
-  year: '2009'
+  year: "2009"
   TYPESET: >-
     Bleach on blue paper, 2009. 495x647 mm; 19½x25½ inches. Signed and dated in
     pencil, verso.<br><br>Provenance: collection of the artist; private
@@ -4294,15 +4294,15 @@ lots:
     his body in social spaces and natural environments, his work reminds viewers
     of the isolation experienced by urban youth, the over-consumption of popular
     culture, and the experiences of African-American culture and life.
-  FOOTNOTE: ''
-  background_color: '#ffffff'
-- REFNO: '783636'
-  LOT: '218'
-  LOW: '1000'
-  HIGH: '1500'
+  FOOTNOTE: ""
+  background_color: "#ffffff"
+- REFNO: "783636"
+  LOT: "218"
+  LOW: "1000"
+  HIGH: "1500"
   DESCRIPT: ERIC MACK (1976 - )
   CROSSHEAD: OOT-1528.
-  year: '2004'
+  year: "2004"
   TYPESET: >-
     Mixed media on paper, 2004. 301x301 mm; 11⅞x11⅞ inches. Signed and dated in
     ink, lower right.<br><br>Provenance: the collection of Robert Pearlstein,
@@ -4326,15 +4326,15 @@ lots:
     International Institute of Art and Theory, Romania and <i>Transatlantic
     Exhibition of art in the Southeast,</i> 2016, Goethe Institute: Atlanta &
     North Carolina Zeitgeist Foundation, Atlanta, Georgia.
-  FOOTNOTE: ''
-  background_color: '#ffffff'
-- REFNO: '783766'
-  LOT: '219'
-  LOW: '20000'
-  HIGH: '30000'
+  FOOTNOTE: ""
+  background_color: "#ffffff"
+- REFNO: "783766"
+  LOT: "219"
+  LOW: "20000"
+  HIGH: "30000"
   DESCRIPT: SAM GILLIAM (1933 - )
   CROSSHEAD: Seedling II.
-  year: '2007'
+  year: "2007"
   TYPESET: >-
     Acrylic on three hinged asymetric birch panels, 2007. 609x1168 mm; 24x48
     inches. Signed, titled and dated in ink, verso.<br><br>Provenance:
@@ -4342,15 +4342,15 @@ lots:
     Mateyka Gallery, Washington, DC (2009); private
     collection.<br><br>Exhibited: <i>20x20</i>, Coldwell Banker Art17 Space,
     Washington, DC, October, 2008.
-  FOOTNOTE: ''
-  background_color: '#ffffff'
-- REFNO: '787274'
-  LOT: '220'
-  LOW: '30000'
-  HIGH: '40000'
+  FOOTNOTE: ""
+  background_color: "#ffffff"
+- REFNO: "787274"
+  LOT: "220"
+  LOW: "30000"
+  HIGH: "40000"
   DESCRIPT: SIMONE LEIGH (1967 - )
   CROSSHEAD: Untitled.
-  year: '2011'
+  year: "2011"
   TYPESET: >-
     Glazed salt-fired stoneware, circa 2011-12. 216x381x178 mm; 8½x15x7
     inches.<br><br>Provenance: acquired directly from the artist; private
@@ -4366,44 +4366,44 @@ lots:
     2011 solo exhibition <i>You Don’t Know Where Her Mouth Has Been</i> at the
     Kitchen, New York. The exhibition featured the same-titled installation of
     65 cowrie shells hanging by wire as a chandelier.
-  FOOTNOTE: ''
-  background_color: '#ffffff'
-- REFNO: '784229'
-  LOT: '221'
-  LOW: '4000'
-  HIGH: '6000'
+  FOOTNOTE: ""
+  background_color: "#ffffff"
+- REFNO: "784229"
+  LOT: "221"
+  LOW: "4000"
+  HIGH: "6000"
   DESCRIPT: EMMA AMOS (1938 - 2020)
   CROSSHEAD: Toy Boy.
-  year: '2007'
+  year: "2007"
   TYPESET: >-
     Mixed media collage and watercolor on cream wove paper, 2007. 254x177 mm;
     10x7 inches. Signed, titled and dated in pencil, lower
     edge.<br><br>Provenance: acquired directly from the artist; private
     collection, New York (2007).
-  FOOTNOTE: ''
-  background_color: '#ffffff'
-- REFNO: '783771'
-  LOT: '222'
-  LOW: '3000'
-  HIGH: '5000'
+  FOOTNOTE: ""
+  background_color: "#ffffff"
+- REFNO: "783771"
+  LOT: "222"
+  LOW: "3000"
+  HIGH: "5000"
   DESCRIPT: FAITH RINGGOLD (1930 - )
   CROSSHEAD: Big Black.
-  year: '2010'
+  year: "2010"
   TYPESET: >-
     Color lithograph on Rives BFK wove paper, 2010. 752x265 mm; 29⅞x22¼ inches,
     full margins. Signed, titled, dated and numbered 6/125 in pencil, lower
     margin. Printed by Segura Art Studios, Notre Dame Center for Arts & Culture,
     with the blind stamp lower left.<br><br>Based on Faith Ringgold's 1967 oil
     painting <i>Black Light Series #1: Big Black 1967</i>.
-  FOOTNOTE: ''
-  background_color: '#ffffff'
-- REFNO: '786233'
-  LOT: '223'
-  LOW: '10000'
-  HIGH: '15000'
+  FOOTNOTE: ""
+  background_color: "#ffffff"
+- REFNO: "786233"
+  LOT: "223"
+  LOW: "10000"
+  HIGH: "15000"
   DESCRIPT: DERRICK ADAMS ( 1970 - )
   CROSSHEAD: Head Study (Figure plate No. 5)
-  year: '2011'
+  year: "2011"
   TYPESET: >-
     Mixed media collage on wove paper, 2011. 330x279 mm; 13x11 inches. Signed,
     titled and dated in ink, lower right verso.<br><br>Provenance: gift from the
@@ -4429,28 +4429,28 @@ lots:
     work is in the permanent collections of The Metropolitan Museum of Art, The
     Studio Museum in Harlem, the Whitney Museum of American Art, the Virginia
     Museum of Fine Arts, and the Birmingham Museum of Art.
-  FOOTNOTE: ''
-  background_color: '#ffffff'
-- REFNO: '786840'
-  LOT: '224'
-  LOW: '7000'
-  HIGH: '10000'
+  FOOTNOTE: ""
+  background_color: "#ffffff"
+- REFNO: "786840"
+  LOT: "224"
+  LOW: "7000"
+  HIGH: "10000"
   DESCRIPT: KERRY JAMES MARSHALL (1955 - )
   CROSSHEAD: Keeping the Culture.
-  year: '2011'
+  year: "2011"
   TYPESET: >-
     Color linoleum cut and screenprint on Arches, 2011. 445x711 mm; 17½x28
     inches, full margins. Signed, titled, dated and numbered 75/100 in pencil,
     lower margin. Printed by Thomas Lucas at Hummingbird Press, Chicago.
-  FOOTNOTE: ''
-  background_color: '#ffffff'
-- REFNO: '787033'
-  LOT: '225'
-  LOW: '1500'
-  HIGH: '2500'
+  FOOTNOTE: ""
+  background_color: "#ffffff"
+- REFNO: "787033"
+  LOT: "225"
+  LOW: "1500"
+  HIGH: "2500"
   DESCRIPT: WILLIE COLE (1955 - )
   CROSSHEAD: The Ogun Sisters.
-  year: '2012'
+  year: "2012"
   TYPESET: >-
     Color screenprint with solar plates and glazing on BFK Rives, 2012. 762x562
     mm; 30x22¼ inches. Artist's proof, aside from the edition of 75. Signed,
@@ -4458,15 +4458,15 @@ lots:
     Printed and published by The Experimental Print Institute, Lafayette
     College, Easton, PA, in collaboration with Hummingbird Press Editions,
     Massachusetts.
-  FOOTNOTE: ''
-  background_color: '#ffffff'
-- REFNO: '784232'
-  LOT: '226'
-  LOW: '2000'
-  HIGH: '3000'
+  FOOTNOTE: ""
+  background_color: "#ffffff"
+- REFNO: "784232"
+  LOT: "226"
+  LOW: "2000"
+  HIGH: "3000"
   DESCRIPT: MICHAEL A. CUMMINGS (1945 - )
-  CROSSHEAD: 'Naomi Sims, Unforgettable.'
-  year: '2011'
+  CROSSHEAD: "Naomi Sims, Unforgettable."
+  year: "2011"
   TYPESET: >-
     Color etching and aquatint on wove paper, 2011. 559x651 mm; 22⅜x25⅝ inches,
     full margins. Proof, aside from the edition of 40. Signed, titled, dated and
@@ -4491,15 +4491,15 @@ lots:
     Rare Books Library at Emory University. Audiotaped interviews were alos
     gifted to create the Hatch-Billops Oral History at the City College of New
     York, CUNY.
-  FOOTNOTE: ''
-  background_color: '#ffffff'
-- REFNO: '784231'
-  LOT: '227'
-  LOW: '10000'
-  HIGH: '15000'
+  FOOTNOTE: ""
+  background_color: "#ffffff"
+- REFNO: "784231"
+  LOT: "227"
+  LOW: "10000"
+  HIGH: "15000"
   DESCRIPT: MICHAEL A. CUMMINGS (1945 - )
   CROSSHEAD: Obama vs. Romney.
-  year: '2013'
+  year: "2013"
   TYPESET: >-
     Quilt with appliqué, including African fabrics and buttons, 2013. 1600x1778
     mm; 63x70 inches. Signed and dated in ink, lower left recto. Signed, titled,
@@ -4528,15 +4528,15 @@ lots:
     in Embassies, Absolut Vodka, the City of Knoxville, the National Underground
     Railroad Freedom Center, the PerCent for Art, NYC Dept of Cultural Affairs
     and HBO.
-  FOOTNOTE: ''
-  background_color: '#ffffff'
-- REFNO: '783844'
-  LOT: '228'
-  LOW: '3000'
-  HIGH: '5000'
+  FOOTNOTE: ""
+  background_color: "#ffffff"
+- REFNO: "783844"
+  LOT: "228"
+  LOW: "3000"
+  HIGH: "5000"
   DESCRIPT: GLENN LIGON (1960 - )
   CROSSHEAD: Detail.
-  year: '2014'
+  year: "2014"
   TYPESET: >-
     Screenprint on Coventry Rag paper, 2014. 230x303 mm; 9x12 inches, full
     margins. Signed and numbered 35/50 in pencil, lower margin. Published by the
@@ -4547,15 +4547,15 @@ lots:
     Out</i> is drawn from the testimony of six black youths, known as the
     "Harlem Six" arrested for a murder during the Little Fruit Stand Riot in
     1964.
-  FOOTNOTE: ''
-  background_color: '#ffffff'
-- REFNO: '786234'
-  LOT: '229'
-  LOW: '10000'
-  HIGH: '15000'
+  FOOTNOTE: ""
+  background_color: "#ffffff"
+- REFNO: "786234"
+  LOT: "229"
+  LOW: "10000"
+  HIGH: "15000"
   DESCRIPT: DANNY SIMMONS (1953 - )
   CROSSHEAD: Confluence of Grievances.
-  year: '2012'
+  year: "2012"
   TYPESET: >-
     Oil on cotton canvas, 2012. 1524x1219 mm; 60x48 inches. Signed, titled and
     dated in ink, upper left verso.<br><br>Provenance: private
@@ -4569,15 +4569,15 @@ lots:
     Schomburg Center for Research in Black Culture. Simmons was the co-founder
     of the Def Poetry Jam performance series and the Rush Philanthropic Arts
     Foundation.
-  FOOTNOTE: ''
-  background_color: '#ffffff'
-- REFNO: '787041'
-  LOT: '230'
-  LOW: '1500'
-  HIGH: '2500'
+  FOOTNOTE: ""
+  background_color: "#ffffff"
+- REFNO: "787041"
+  LOT: "230"
+  LOW: "1500"
+  HIGH: "2500"
   DESCRIPT: SHINIQUE SMITH (1971 - )
   CROSSHEAD: A Single Breath.
-  year: '2014'
+  year: "2014"
   TYPESET: >-
     Ink, acrylic and collage on paper, 2014. 247x196 mm; 9¾x7¾ inches. Signed
     and titled in pencil, lower edge.<br><br>Provenance: purchased from James
@@ -4605,15 +4605,15 @@ lots:
     Art. Shinique Smith received a Louis Comfort Tiffany Foundation award in
     2013, The Maryland Institute College of Art's Alumni Medal of Honor in 2012,
     and a Joan Mitchell Prize in 2008.
-  FOOTNOTE: ''
-  background_color: '#ffffff'
-- REFNO: '786475'
-  LOT: '231'
-  LOW: '2000'
-  HIGH: '3000'
+  FOOTNOTE: ""
+  background_color: "#ffffff"
+- REFNO: "786475"
+  LOT: "231"
+  LOW: "2000"
+  HIGH: "3000"
   DESCRIPT: VICTOR DAVSON (1948 - )
   CROSSHEAD: Flash.
-  year: '2015'
+  year: "2015"
   TYPESET: >-
     Archival pigment print with sequins on thick wove paper, 2015. 304x321 mm;
     12x12⅝ inches, full margins.. Artist's proof, one of 10 artist's proofs,
@@ -4633,15 +4633,15 @@ lots:
     paintings on album covers, are his attempt as an artist to negotiate the
     roots of identity in a terrain of loss and desire. He lives and works in
     West Orange, NJ.
-  FOOTNOTE: ''
-  background_color: '#ffffff'
-- REFNO: '786474'
-  LOT: '232'
-  LOW: '1000'
-  HIGH: '1500'
+  FOOTNOTE: ""
+  background_color: "#ffffff"
+- REFNO: "786474"
+  LOT: "232"
+  LOW: "1000"
+  HIGH: "1500"
   DESCRIPT: SANFORD BIGGERS (1970 - )
   CROSSHEAD: Untitled.
-  year: '2017'
+  year: "2017"
   TYPESET: >-
     Archival digital print, 2017. 245x254 mm; 9⅞x10 inches, full margins.
     Signed, dated, and numbered 20/30 in pencil, lower margin. From <i>A
@@ -4666,15 +4666,15 @@ lots:
     Contemporary Art, Chicago; the Walker Art Center, the National Museum of
     African American History and Culture, among many others. (Bio courtesy of
     the artist's website.)
-  FOOTNOTE: ''
-  background_color: '#ffffff'
-- REFNO: '786236'
-  LOT: '233'
-  LOW: '2000'
-  HIGH: '3000'
+  FOOTNOTE: ""
+  background_color: "#ffffff"
+- REFNO: "786236"
+  LOT: "233"
+  LOW: "2000"
+  HIGH: "3000"
   DESCRIPT: STEVE A. PRINCE (1968 - )
   CROSSHEAD: Rosa Sparks.
-  year: '2017'
+  year: "2017"
   TYPESET: >-
     Linoleum cut on thick wove paper, 2017. 1008x1320 mm; 39⅜x52⅜ inches, full
     margins. Edition of 40. Signed, titled, and dated in pencil, lower margin.
@@ -4687,15 +4687,15 @@ lots:
     Williamsburg, Virginia. Prince received his BFA from Xavier University of
     Louisiana and his MFA in Printmaking and Sculpture from Michigan State
     University.
-  FOOTNOTE: ''
-  background_color: '#ffffff'
-- REFNO: '786240'
-  LOT: '234'
-  LOW: '6000'
-  HIGH: '9000'
+  FOOTNOTE: ""
+  background_color: "#ffffff"
+- REFNO: "786240"
+  LOT: "234"
+  LOW: "6000"
+  HIGH: "9000"
   DESCRIPT: CARRIE MAE WEEMS (1953 - )
   CROSSHEAD: All the Boys.
-  year: '2017'
+  year: "2017"
   TYPESET: >-
     Offset lithograph on Somerset paper, 2017. 700x962 mm; 27½x37⅞ inches.
     Signed, dated and numbered 15/30 in pencil, verso. Printed by Derriere
@@ -4704,15 +4704,15 @@ lots:
     left.<br><br>Other impressions of this print are in the collections of the
     National Gallery of Art, Washington, DC and the Snite Museum of Art, the
     University of Notre Dame.
-  FOOTNOTE: ''
-  background_color: '#ffffff'
-- REFNO: '783415'
-  LOT: '235'
-  LOW: '2000'
-  HIGH: '3000'
+  FOOTNOTE: ""
+  background_color: "#ffffff"
+- REFNO: "783415"
+  LOT: "235"
+  LOW: "2000"
+  HIGH: "3000"
   DESCRIPT: NONA FAUSTINE (1977 - )
   CROSSHEAD: Like a Pregnant Corpse The Ship Expelled Her Into The Patriarchy.
-  year: '2018'
+  year: "2018"
   TYPESET: >-
     Digital C-print, 2018. 279x431 mm; 11x17 inches. Signed and numbered 1/3 in
     pencil, verso. From the artist's <i>White Shoes</i>
@@ -4744,5 +4744,5 @@ lots:
     Museum in Pittsburgh, Pennsylvania. In January 2020, she was part of the
     inaugural class of Kehinde Wiley’s Black Rock Senegal Residency in Dakar,
     Senegal.
-  FOOTNOTE: ''
-  background_color: '#ffffff'
+  FOOTNOTE: ""
+  background_color: "#ffffff"
