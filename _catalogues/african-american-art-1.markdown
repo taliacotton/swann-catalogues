@@ -20,6 +20,8 @@ short_description: ''
 chapters:
 - session_title: ''
   chapters:
+  - chapter_title: Modern Art
+    lot: 14
   - chapter_title: 19th Century and Harlem Renaissance
     lot: 1
 people:
