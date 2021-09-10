@@ -33,7 +33,8 @@ chapters:
   - chapter_title: '19th Century & Harlem Renaissance '
     lot: 1
 people:
-  main_contacts: []
+  main_contacts:
+  - _people/director.md
   officers: []
   administration: []
   general_information: ''
