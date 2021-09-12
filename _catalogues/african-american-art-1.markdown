@@ -19,7 +19,9 @@ datetime:
 short_description: ''
 chapters:
 - session_title: ''
-  chapters: []
+  chapters:
+  - chapter_title: 19th Century & Harlem Renaissance
+    lot: 
 people:
   main_contacts:
   - _people/director.md
