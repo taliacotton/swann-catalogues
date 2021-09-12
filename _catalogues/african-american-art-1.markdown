@@ -31,7 +31,7 @@ chapters:
   - chapter_title: Modern
     lot: 14
   - chapter_title: 19th Century & Harlem Renaissance
-    lot: 
+    lot: 1
 people:
   main_contacts:
   - _people/director.md
