@@ -18,8 +18,10 @@ datetime:
   time2: 
 short_description: ''
 chapters:
-- session_title: ''
+- session_title: Auction at 11:00 am EST
   chapters:
+  - chapter_title: 20th Century Contemporary
+    lot: 144
   - chapter_title: Brandwine Workshop & Archives Collection
     lot: 120
   - chapter_title: Postwar
