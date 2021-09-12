@@ -14,7 +14,7 @@ sale: 2581
 title: African American Art
 datetime:
   date: 2021-10-07T04:00:00.000+00:00
-  time: 
+  time: 2021-09-01 11:00:00 +0000
   time2: 
 short_description: ''
 chapters:
