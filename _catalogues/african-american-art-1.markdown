@@ -18,7 +18,7 @@ datetime:
   time2: 
 short_description: ''
 chapters:
-- session_title: Auction at 11:00 am EST
+- session_title: ''
   chapters:
   - chapter_title: 21st Contemporary
     lot: 191
