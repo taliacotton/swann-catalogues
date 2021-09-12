@@ -20,6 +20,8 @@ short_description: ''
 chapters:
 - session_title: ''
   chapters:
+  - chapter_title: Brandwine Workshop & Archives Collection
+    lot: 120
   - chapter_title: Postwar
     lot: 31
   - chapter_title: Modern
