@@ -28,7 +28,7 @@ chapters:
     lot: 120
   - chapter_title: Postwar Art
     lot: 31
-  - chapter_title: Modern
+  - chapter_title: Modern Art
     lot: 14
   - chapter_title: 19th Century & Harlem Renaissance
     lot: 1
