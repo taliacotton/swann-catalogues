@@ -26,7 +26,7 @@ chapters:
     lot: 144
   - chapter_title: Brandywine Workshop & Archives Collection
     lot: 120
-  - chapter_title: Postwar
+  - chapter_title: Postwar Art
     lot: 31
   - chapter_title: Modern
     lot: 14
