@@ -38,7 +38,20 @@ people:
   officers: []
   administration: []
   general_information: ''
-essays: []
+essays:
+- lot: 98
+  title: Hughie Lee-Smith
+  body: |-
+    **J. Edward Bailey III (1923 - 1982)**
+
+    _Portrait of Hughie Lee-Smith_, 1975.
+
+    Silver print on Kodak Polycontrast J double-weight paper, 13 1/4 x 11 inches. Purchase, Rex E. Lamoreaux Endowment Fund, 2014, (photography by Tim Thayer).
+
+    Permanent art collection of Wayne State University, Detroit, Michigan.
+
+    ![](https://res.cloudinary.com/dcryyrd42/image/upload/v1631559834/Bailey-Portrait-Huey_Lee_Smith_qr1a2x.jpg)
+  author: ''
 footer_pages: []
 
 ---
