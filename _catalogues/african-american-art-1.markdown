@@ -39,6 +39,33 @@ people:
   administration: []
   general_information: ''
 essays:
+- lot: 11
+  title: Richmond Barthé & Feral Benga
+  author: ''
+  body: "_Feral Benga_ is an iconic artwork of the Harlem Renaissanance. It represents
+    the culmination of Richmond Barthé's study of the figure in sculpture, anatomy
+    and dance in the 1930s, and his pioneering realization of an ideal male nude.
+    According to Barthé scholar Margaret Rose Vendryes, _Feral Benga_, Barthé's \"signature
+    piece,\" was completed within a few months of seeing the Folies Bergères dancer
+    Benga perform on stage during his first visit to Paris in 1934. Vendryes describes
+    how Benga was an exotic celebrity--a Senegalese cabaret dancer known in Parisian
+    and Manhattan gay circles, who had performed on stage with Josephine Baker and
+    had even appeared in a Jean Cocteau surrealist film. Barthé used postcards, photographs
+    and his memory to recreate a life-like representation of the dancer. The raised
+    sword pose also recalls the muscular nudes of the famous Mannerist engraving by
+    Antonio Pollaiuolo, _Battle of Naked Men_, circa 1470.\n\nGrander in scale than
+    its actual size, _Feral Benga_ was one of the artist's major achievements in his
+    life-long body of work, a natural and sensual representation of the male nude,
+    made at the height of his career. The sculpture was first shown at the 1937 _Dance
+    International_ exhibition at Rockefeller Center, and was later featured and illustrated
+    in Alain Locke's seminal survey, _The Negro in Art_. The figure is also important
+    as a groundbreaking evocation of both male and homosexual sexuality in early 20th
+    century American Art. Vendryes pp. 66-69.\n\n###### Carl Van Vechten and ©Van
+    Vechten Trust. _![](https://res.cloudinary.com/dcryyrd42/image/upload/v1631569304/1083060_xgdfsb.jpg)
+    _Richmond Barthé, and his sculpture, Feral Benga, 1937. Carl Van Vechten Papers
+    Relating to African American Arts and Letters. James Weldon Johnson Collection
+    in the Yale Collection of American Literature, Beinecke Rare Book and Manuscript
+    Library.\n\n###### "
 - lot: 65
   title: Carl Richard "Dingbat" Smith
   body: |-
