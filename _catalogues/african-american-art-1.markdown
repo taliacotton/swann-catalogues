@@ -24,7 +24,7 @@ chapters:
     lot: 191
   - chapter_title: 20th Century Contemporary
     lot: 144
-  - chapter_title: Brandwine Workshop & Archives Collection
+  - chapter_title: Brandywine Workshop & Archives Collection
     lot: 120
   - chapter_title: Postwar
     lot: 31
@@ -39,9 +39,28 @@ people:
   administration: []
   general_information: ''
 essays:
+- lot: 65
+  title: Carl Richard "Dingbat" Smith
+  body: |-
+    ![](https://res.cloudinary.com/dcryyrd42/image/upload/v1631561351/dingbat_a53isx.jpg)
+
+    **Charles “Teenie” Harris** American, 1908–1998
+
+    _Carl R. "Dingbat" Smith standing next to nail art of three abstract heads, in art gallery_, c. 1960-1977
+
+    black-and-white: Kodak safety film
+
+    H: 4 in. x W: 5 in. (10.20 x 12.70 cm)
+
+    Carnegie Museum of Art, Pittsburgh: Heinz Family Fund, 2001.35.1215
+
+    © Carnegie Museum of Art, Charles "Teenie" Harris Archive
+  author: ''
 - lot: 98
   title: Hughie Lee-Smith
   body: |-
+    ![](https://res.cloudinary.com/dcryyrd42/image/upload/v1631559834/Bailey-Portrait-Huey_Lee_Smith_qr1a2x.jpg)
+
     **J. Edward Bailey III (1923 - 1982)**
 
     _Portrait of Hughie Lee-Smith_, 1975.
@@ -49,8 +68,6 @@ essays:
     Silver print on Kodak Polycontrast J double-weight paper, 13 1/4 x 11 inches. Purchase, Rex E. Lamoreaux Endowment Fund, 2014, (photography by Tim Thayer).
 
     Permanent art collection of Wayne State University, Detroit, Michigan.
-
-    ![](https://res.cloudinary.com/dcryyrd42/image/upload/v1631559834/Bailey-Portrait-Huey_Lee_Smith_qr1a2x.jpg)
   author: ''
 footer_pages: []
 
