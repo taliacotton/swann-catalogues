@@ -60,12 +60,12 @@ essays:
     International_ exhibition at Rockefeller Center, and was later featured and illustrated
     in Alain Locke's seminal survey, _The Negro in Art_. The figure is also important
     as a groundbreaking evocation of both male and homosexual sexuality in early 20th
-    century American Art. Vendryes pp. 66-69.\n\n###### Carl Van Vechten and ©Van
-    Vechten Trust. _![](https://res.cloudinary.com/dcryyrd42/image/upload/v1631569304/1083060_xgdfsb.jpg)
-    _Richmond Barthé, and his sculpture, Feral Benga, 1937. Carl Van Vechten Papers
-    Relating to African American Arts and Letters. James Weldon Johnson Collection
+    century American Art. Vendryes pp. 66-69.\n\nCarl Van Vechten and ©Van Vechten
+    Trust. Richmond Barthé, and his sculpture, Feral Benga, 1937. Carl Van Vechten
+    Papers Relating to African American Arts and Letters. James Weldon Johnson Collection
     in the Yale Collection of American Literature, Beinecke Rare Book and Manuscript
-    Library.\n\n###### "
+    Library.\n\n###### _![](https://res.cloudinary.com/dcryyrd42/image/upload/v1631569304/1083060_xgdfsb.jpg)
+    _\n\n###### "
 - lot: 65
   title: Carl Richard "Dingbat" Smith
   body: |-
