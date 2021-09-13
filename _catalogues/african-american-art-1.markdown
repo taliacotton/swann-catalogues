@@ -20,7 +20,7 @@ short_description: ''
 chapters:
 - session_title: ''
   chapters:
-  - chapter_title: 21st Contemporary
+  - chapter_title: 21st Century Contemporary
     lot: 191
   - chapter_title: 20th Century Contemporary
     lot: 144
