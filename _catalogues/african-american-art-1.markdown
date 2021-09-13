@@ -42,7 +42,7 @@ essays:
 - lot: 11
   title: Richmond Barthé & Feral Benga
   author: ''
-  body: "_Feral Benga_ is an iconic artwork of the Harlem Renaissanance. It represents
+  body: "_Feral Benga_ is an iconic artwork of the Harlem Renaissance. It represents
     the culmination of Richmond Barthé's study of the figure in sculpture, anatomy
     and dance in the 1930s, and his pioneering realization of an ideal male nude.
     According to Barthé scholar Margaret Rose Vendryes, _Feral Benga_, Barthé's \"signature
@@ -61,11 +61,11 @@ essays:
     in Alain Locke's seminal survey, _The Negro in Art_. The figure is also important
     as a groundbreaking evocation of both male and homosexual sexuality in early 20th
     century American Art. Vendryes pp. 66-69.\n\nCarl Van Vechten and ©Van Vechten
-    Trust. Richmond Barthé, and his sculpture, Feral Benga, 1937. Carl Van Vechten
+    Trust. _Richmond Barthé, and his sculpture, Feral Benga_, 1937. Carl Van Vechten
     Papers Relating to African American Arts and Letters. James Weldon Johnson Collection
     in the Yale Collection of American Literature, Beinecke Rare Book and Manuscript
-    Library.\n\n###### _![](https://res.cloudinary.com/dcryyrd42/image/upload/v1631569304/1083060_xgdfsb.jpg)
-    _\n\n###### "
+    Library.\n\n######   \n![](https://res.cloudinary.com/dcryyrd42/image/upload/v1631569304/1083060_xgdfsb.jpg)
+    \n\n###### "
 - lot: 65
   title: Carl Richard "Dingbat" Smith
   body: |-
