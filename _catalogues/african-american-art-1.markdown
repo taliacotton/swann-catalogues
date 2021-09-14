@@ -5,16 +5,16 @@ starts_at:
 color: "#AD926F"
 cover_image:
   lot_number: 173
-  title: ''
-  image: "/v1631049477/2581/787284.jpg"
+  title: Hale Woodruff, Carnival, oil on canvas, 1958.
+  image: "/v1631651934/M44602-1_2_ujfhmn.jpg"
 filename: ''
-visible: false
+visible: true
 permalink: "/fine-art/african-american-art/2581"
 sale: 2581
 title: African American Art
 datetime:
   date: 2021-10-07T04:00:00.000+00:00
-  time: 2021-09-01 11:00:00 +0000
+  time: 2021-09-01 12:00:00 +0000
   time2: 
 short_description: ''
 chapters:
@@ -35,37 +35,37 @@ chapters:
 people:
   main_contacts:
   - _people/director.md
-  officers: []
-  administration: []
+  - _people/corey-serrant.md
+  officers:
+  - _people/george-s.lowry.md
+  - _people/Blank Spot.md
+  - _people/Blank Spot.md
+  - _people/nicholas-d.lowry.md
+  - _people/vice-president-controller.md
+  - _people/communications-director-auctioneer.md
+  - _people/todd-weyman.md
+  - _people/director.md
+  - _people/rick-stattler.md
+  administration:
+  - _people/vice-president-controller.md
+  - _people/client-accounting.md
+  - _people/operations-manager.md
+  - _people/art-director.md
+  - _people/kelsie-jankowski.md
+  - _people/shannon-licitra.md
   general_information: ''
 essays:
 - lot: 11
   title: Richmond Barthé & Feral Benga
   author: ''
-  body: "_Feral Benga_ is an iconic artwork of the Harlem Renaissance. It represents
-    the culmination of Richmond Barthé's study of the figure in sculpture, anatomy
-    and dance in the 1930s, and his pioneering realization of an ideal male nude.
-    According to Barthé scholar Margaret Rose Vendryes, _Feral Benga_, Barthé's \"signature
-    piece,\" was completed within a few months of seeing the Folies Bergères dancer
-    Benga perform on stage during his first visit to Paris in 1934. Vendryes describes
-    how Benga was an exotic celebrity--a Senegalese cabaret dancer known in Parisian
-    and Manhattan gay circles, who had performed on stage with Josephine Baker and
-    had even appeared in a Jean Cocteau surrealist film. Barthé used postcards, photographs
-    and his memory to recreate a life-like representation of the dancer. The raised
-    sword pose also recalls the muscular nudes of the famous Mannerist engraving by
-    Antonio Pollaiuolo, _Battle of Naked Men_, circa 1470.\n\nGrander in scale than
-    its actual size, _Feral Benga_ was one of the artist's major achievements in his
-    life-long body of work, a natural and sensual representation of the male nude,
-    made at the height of his career. The sculpture was first shown at the 1937 _Dance
-    International_ exhibition at Rockefeller Center, and was later featured and illustrated
-    in Alain Locke's seminal survey, _The Negro in Art_. The figure is also important
-    as a groundbreaking evocation of both male and homosexual sexuality in early 20th
-    century American Art. Vendryes pp. 66-69.\n\nCarl Van Vechten and ©Van Vechten
-    Trust. _Richmond Barthé, and his sculpture, Feral Benga_, 1937. Carl Van Vechten
-    Papers Relating to African American Arts and Letters. James Weldon Johnson Collection
-    in the Yale Collection of American Literature, Beinecke Rare Book and Manuscript
-    Library.\n\n######   \n![](https://res.cloudinary.com/dcryyrd42/image/upload/v1631569304/1083060_xgdfsb.jpg)
-    \n\n###### "
+  body: |-
+    _Feral Benga_ is an iconic artwork of the Harlem Renaissance. It represents the culmination of Richmond Barthé's study of the figure in sculpture, anatomy and dance in the 1930s, and his pioneering realization of an ideal male nude. According to Barthé scholar Margaret Rose Vendryes, _Feral Benga_, Barthé's "signature piece," was completed within a few months of seeing the Folies Bergères dancer Benga perform on stage during his first visit to Paris in 1934. Vendryes describes how Benga was an exotic celebrity--a Senegalese cabaret dancer known in Parisian and Manhattan gay circles, who had performed on stage with Josephine Baker and had even appeared in a Jean Cocteau surrealist film. Barthé used postcards, photographs and his memory to recreate a life-like representation of the dancer. The raised sword pose also recalls the muscular nudes of the famous Mannerist engraving by Antonio Pollaiuolo, _Battle of Naked Men_, circa 1470.
+
+    Grander in scale than its actual size, _Feral Benga_ was one of the artist's major achievements in his life-long body of work, a natural and sensual representation of the male nude, made at the height of his career. The sculpture was first shown at the 1937 _Dance International_ exhibition at Rockefeller Center, and was later featured and illustrated in Alain Locke's seminal survey, _The Negro in Art_. The figure is also important as a groundbreaking evocation of both male and homosexual sexuality in early 20th century American Art. Vendryes pp. 66-69.
+
+    _Carl Van Vechten and ©Van Vechten Trust. Richmond Barthé, and his sculpture, Feral Benga, 1937. Carl Van Vechten Papers Relating to African American Arts and Letters. James Weldon Johnson Collection in the Yale Collection of American Literature, Beinecke Rare Book and Manuscript Library._
+
+    ![Richmond Barthé and his sculpture, Feral Benga, 1937.](https://res.cloudinary.com/dcryyrd42/image/upload/v1631569304/1083060_xgdfsb.jpg)
 - lot: 65
   title: Carl Richard "Dingbat" Smith
   body: |-
