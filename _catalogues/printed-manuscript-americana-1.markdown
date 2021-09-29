@@ -2,7 +2,7 @@
 layout: X_catalogue
 lots: []
 starts_at: 
-color: "#AD926F"
+color: "#E08F02"
 cover_image:
   lot_number: 
   title: ''
@@ -19,7 +19,9 @@ datetime:
 short_description: ''
 chapters: []
 people:
-  main_contacts: []
+  main_contacts:
+  - _people/rick-stattler.md
+  - _people/david-rivera.md
   officers:
   - _people/george-s.lowry.md
   - _people/Blank Spot.md
