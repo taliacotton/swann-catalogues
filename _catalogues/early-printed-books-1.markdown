@@ -29,7 +29,9 @@ chapters:
   - chapter_title: Medical Books
     lot: 174
 people:
-  main_contacts: []
+  main_contacts:
+  - _people/devon-eastland.md
+  - _people/david-rivera.md
   officers: []
   administration: []
   general_information: ''
