@@ -6,7 +6,7 @@ color: "#AD926F"
 cover_image:
   lot_number: 
   title: ''
-  image: ''
+  image: "/v1631112594/M44539-30_1_bpg8qp.jpg"
 filename: ''
 visible: true
 permalink: "/books-manuscripts/printed-manuscript-americana/2580"
