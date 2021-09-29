@@ -4,9 +4,9 @@ lots: []
 starts_at: 0
 color: "#AD926F"
 cover_image:
-  lot_number: 0
-  title: ''
-  image: ''
+  lot_number: 21
+  title: 'Sebastian Brant, Stultifera Navis, Nuremberg, 1497. '
+  image: "/v1632947262/M44821-1_1_c4hqyg.jpg"
 filename: ''
 visible: false
 permalink: "/books-manuscripts/early-printed-books/2582"
