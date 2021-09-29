@@ -17,7 +17,17 @@ datetime:
   time: 2021-09-01 12:00:00 +0000
   time2: 
 short_description: ''
-chapters: []
+chapters:
+- session_title: ''
+  chapters:
+  - chapter_title: Incunabula & Early Books
+    lot: 1
+  - chapter_title: Travel Books
+    lot: 119
+  - chapter_title: Scientific Books
+    lot: 135
+  - chapter_title: Medical Books
+    lot: 174
 people:
   main_contacts: []
   officers: []
