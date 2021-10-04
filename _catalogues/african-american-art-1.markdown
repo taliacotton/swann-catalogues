@@ -14,7 +14,7 @@ sale: 2581
 title: African American Art
 datetime:
   date: 2021-10-07T04:00:00.000+00:00
-  time: 2021-09-01 12:00:00 +0000
+  time: 2021-09-01T12:00:00.000+00:00
   time2: 
 short_description: ''
 chapters:
@@ -24,7 +24,7 @@ chapters:
     lot: 191
   - chapter_title: 20th Century Contemporary
     lot: 144
-  - chapter_title: Brandywine Workshop & Archives Collection
+  - chapter_title: 'Brandywine Workshop & Archives Collection - lots 120 -143 '
     lot: 120
   - chapter_title: Postwar Art
     lot: 31
