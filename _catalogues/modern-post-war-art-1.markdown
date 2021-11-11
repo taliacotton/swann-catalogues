@@ -8,7 +8,7 @@ cover_image:
   title: Alexander Archipenko, "Walking," 1957, cast 1966.
   image: "/v1636646751/2590/787117.jpg"
 filename: ''
-visible: false
+visible: true
 permalink: "/fine-art/modern-and-postwar-art/2590"
 sale: 2590
 title: Modern & Post-War Art
