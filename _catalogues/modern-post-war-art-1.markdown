@@ -2,7 +2,7 @@
 layout: X_catalogue
 lots: []
 starts_at: 
-color: "#AD926F"
+color: "#355D0A"
 cover_image:
   lot_number: 3
   title: Alexander Archipenko, "Walking," 1957, cast 1966.
