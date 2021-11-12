@@ -1,10 +1,10 @@
 ---
 layout: X_catalogue
 lots: []
-starts_at: 0
+starts_at: 
 color: "#AD926F"
 cover_image:
-  lot_number: 0
+  lot_number: 
   title: ''
   image: ''
 filename: ''
@@ -13,13 +13,25 @@ permalink: "/books-manuscripts/maps-and-atlases/2591"
 sale: 2591
 title: Maps & Atlases, Natural History & Color Plate Books
 datetime:
-  date: 2021-12-09 05:00:00 +0000
-  time: 2021-11-01 10:30:00 +0000
+  date: 2021-12-09T05:00:00.000+00:00
+  time: 2021-11-01T10:30:00.000+00:00
   time2: 
 short_description: ''
-chapters: []
+chapters:
+- session_title: ''
+  chapters:
+  - chapter_title: Maps
+    lot: 1
+  - chapter_title: Atlases & Books with Maps
+    lot: 242
+  - chapter_title: Color Plate & Illustrated Books
+    lot: 288
+  - chapter_title: Historical Prints & Drawings
+    lot: 328
 people:
-  main_contacts: []
+  main_contacts:
+  - _people/caleb-kiffer.md
+  - _people/david-rivera.md
   officers: []
   administration: []
   general_information: ''
