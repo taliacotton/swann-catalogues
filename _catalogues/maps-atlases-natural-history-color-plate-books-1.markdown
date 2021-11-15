@@ -8,7 +8,7 @@ cover_image:
   title: John James Audubon, Carolina Parrot, Plate 26, London, 1828.
   image: "/v1637001609/2591-audubon_euntew.jpg"
 filename: ''
-visible: false
+visible: true
 permalink: "/books-manuscripts/maps-and-atlases/2591"
 sale: 2591
 title: Maps & Atlases, Natural History & Color Plate Books
