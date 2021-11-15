@@ -4,9 +4,9 @@ lots: []
 starts_at: 
 color: "#AD926F"
 cover_image:
-  lot_number: 
-  title: ''
-  image: ''
+  lot_number: 335
+  title: John James Audubon, Carolina Parrot, Plate 26, London, 1828.
+  image: "/v1637001609/2591-audubon_euntew.jpg"
 filename: ''
 visible: false
 permalink: "/books-manuscripts/maps-and-atlases/2591"
