@@ -31,7 +31,9 @@ chapters:
   - chapter_title: '"The New Yorker" Cartoons & Cover Art'
     lot: 214
 people:
-  main_contacts: []
+  main_contacts:
+  - _people/laura-polucha.md
+  - _people/christine-von-der-linn.md
   officers: []
   administration: []
   general_information: ''
