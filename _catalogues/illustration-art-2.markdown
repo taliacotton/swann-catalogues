@@ -17,7 +17,19 @@ datetime:
   time: 2021-11-01 12:00:00 +0000
   time2: 
 short_description: ''
-chapters: []
+chapters:
+- session_title: ''
+  chapters:
+  - chapter_title: General Book & Magazine Illustration
+    lot: 1
+  - chapter_title: Fashion, Theater & Film
+    lot: 106
+  - chapter_title: Children's Book & Magazine Illustration
+    lot: 139
+  - chapter_title: Comics, Cartoons & Animation
+    lot: 165
+  - chapter_title: '"The New Yorker" Cartoons & Cover Art'
+    lot: 214
 people:
   main_contacts: []
   officers: []
