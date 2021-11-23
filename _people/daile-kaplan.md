@@ -5,5 +5,6 @@ role: Vice President
 email: ''
 phone: ''
 image: ''
+published: false
 
 ---
