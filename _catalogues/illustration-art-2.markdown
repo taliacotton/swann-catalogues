@@ -8,7 +8,7 @@ cover_image:
   title: Edmund Dulac, The Snow Queen, 1911.
   image: "/v1637594219/2592/787429.jpg"
 filename: ''
-visible: false
+visible: true
 permalink: "/illustration-art/illustration-art/2592"
 sale: 2592
 title: Illustration Art
