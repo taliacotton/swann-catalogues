@@ -1,6 +1,6 @@
 ---
 title: Kelsie Jankowski
-role: Public Relations Associate
+role: Communications Manager
 email: kjankowski@swanngalleries.com
 phone: ''
 image: ''
