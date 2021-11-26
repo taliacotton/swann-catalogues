@@ -37,7 +37,10 @@ people:
   - _people/operations-manager.md
   - _people/kelsie-jankowski.md
   - _people/shannon-licitra.md
-  general_information: ''
+  general_information: |-
+    Exhibition Hours:
+
+    Monday, November 29, 12–5; Tuesday, November 30, 12–5; Wednesday, December 1, 12–5
 essays: []
 footer_pages: []
 
