@@ -6,7 +6,7 @@ color: "#045E6A"
 cover_image:
   lot_number: 140
   title: Daniel Celentano, Pelham Bay.
-  image: "/v1641418350/2593/790280.jpg"
+  image: "/v1641501967/digitalimprint_cover_ctjgfs.jpg"
 filename: ''
 visible: false
 permalink: "/fine-art/the-artists-of-the-wpa/2593"
