@@ -2,7 +2,7 @@
 layout: X_catalogue
 lots: []
 starts_at: 
-color: "#416EB0"
+color: "#045E6A"
 cover_image:
   lot_number: 140
   title: Daniel Celentano, Pelham Bay.
@@ -19,7 +19,11 @@ datetime:
 short_description: ''
 chapters: []
 people:
-  main_contacts: []
+  main_contacts:
+  - _people/deborah-rogal.md
+  - _people/corey-serrant.md
+  - _people/director.md
+  - _people/harold-porcher.md
   officers: []
   administration: []
   general_information: ''
