@@ -1,5 +1,5 @@
 ---
-title: Lauren Goldberg
+title: Lauren Cooper
 role: Specialist & Department Manager
 email: lgoldberg@swanngalleries.com
 phone: "(212) 254-4710 ext. 57"
