@@ -24,6 +24,7 @@ people:
   - _people/director.md
   - _people/corey-serrant.md
   - _people/deborah-rogal.md
+  - _people/lauren-goldberg.md
   officers:
   - _people/george-s.lowry.md
   - _people/Blank Spot.md
