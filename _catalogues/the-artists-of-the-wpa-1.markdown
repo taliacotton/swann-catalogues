@@ -2,7 +2,7 @@
 layout: X_catalogue
 lots: []
 starts_at: 
-color: "#045E6A"
+color: "#046A58"
 cover_image:
   lot_number: 140
   title: Daniel Celentano, Pelham Bay.
