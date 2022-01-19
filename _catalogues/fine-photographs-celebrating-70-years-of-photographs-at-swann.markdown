@@ -2,7 +2,7 @@
 layout: X_catalogue
 lots: []
 starts_at: 
-color: "#AD926F"
+color: "#EFE4FB"
 cover_image:
   lot_number: 54
   title: Ansel Adams, Oaktree, Snowstorm, Yosemite Valley, 1948.
@@ -30,18 +30,6 @@ chapters:
     lot: 127
   - chapter_title: Color and Contemporary Photography
     lot: 213
-- chapters:
-  - chapter_title: 19th Century
-    lot: 1
-  - chapter_title: Early 20th-Century American Photography
-    lot: 21
-  - chapter_title: The Pre- & Post-War European Identity
-    lot: 97
-  - chapter_title: The American Mid-Century
-    lot: 127
-  - chapter_title: Color and Contemporary Photography
-    lot: 213
-  session_title: ''
 people:
   main_contacts:
   - _people/deborah-rogal.md
