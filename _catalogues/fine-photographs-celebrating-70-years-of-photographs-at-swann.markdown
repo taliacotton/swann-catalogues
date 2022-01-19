@@ -28,7 +28,7 @@ chapters:
     lot: 97
   - chapter_title: The American Mid-Century
     lot: 127
-  - chapter_title: Color and Contemporary Photography
+  - chapter_title: Color & Contemporary Photography
     lot: 213
 people:
   main_contacts:
