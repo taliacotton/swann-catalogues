@@ -33,6 +33,7 @@ chapters:
 people:
   main_contacts:
   - _people/deborah-rogal.md
+  - _people/gustav-reed.md
   officers:
   - _people/george-s.lowry.md
   - _people/Blank Spot.md
