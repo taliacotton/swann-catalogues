@@ -23,6 +23,12 @@ chapters:
     lot: 1
   - chapter_title: Early 20th-Century American Photography
     lot: 21
+  - chapter_title: The Pre- & Post-War European Identity
+    lot: 97
+  - chapter_title: The American Mid-Century
+    lot: 127
+  - chapter_title: Color and Contemporary Photography
+    lot: 213
   session_title: ''
 people:
   main_contacts:
