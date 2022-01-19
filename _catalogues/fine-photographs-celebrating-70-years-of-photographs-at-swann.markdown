@@ -37,7 +37,11 @@ people:
   - _people/kelsie-jankowski.md
   - _people/shannon-licitra.md
   general_information: ''
-essays: []
+essays:
+- lot: 15
+  author: ''
+  title: Jeremiah Gurney
+  body: Sample essay text here.
 footer_pages: []
 
 ---
