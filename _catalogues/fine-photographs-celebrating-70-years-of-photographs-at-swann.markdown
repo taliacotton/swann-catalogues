@@ -18,7 +18,7 @@ datetime:
   time2: 
 short_description: ''
 chapters:
-- session_title: Table of Contents
+- session_title: ''
   chapters:
   - chapter_title: 19th Century
     lot: 1
