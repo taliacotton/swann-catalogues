@@ -17,7 +17,13 @@ datetime:
   time: 2000-01-01T12:00:00.000+00:00
   time2: 
 short_description: ''
-chapters: []
+chapters:
+- chapters:
+  - chapter_title: 19th Century
+    lot: 1
+  - chapter_title: Early 20th-Century American Photography
+    lot: 21
+  session_title: ''
 people:
   main_contacts:
   - _people/deborah-rogal.md
