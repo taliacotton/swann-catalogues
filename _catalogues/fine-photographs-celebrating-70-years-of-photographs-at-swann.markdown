@@ -4,9 +4,9 @@ lots: []
 starts_at: 
 color: "#AD926F"
 cover_image:
-  lot_number: 
-  title: ''
-  image: ''
+  lot_number: 54
+  title: Ansel Adams, Oaktree, Snowstorm, Yosemite Valley, 1948.
+  image: "/v1642523021/2594/790977.jpg"
 filename: ''
 visible: false
 permalink: "/photographs/fine-photographs-70-years/2594"
