@@ -8,7 +8,7 @@ cover_image:
   title: Ansel Adams, Oaktree, Snowstorm, Yosemite Valley, 1948.
   image: "/v1642523021/2594/790977.jpg"
 filename: ''
-visible: false
+visible: true
 permalink: "/photographs/fine-photographs-70-years/2594"
 sale: 2594
 title: 'Fine Photographs: Celebrating 70 Years of Photographs at Swann'
