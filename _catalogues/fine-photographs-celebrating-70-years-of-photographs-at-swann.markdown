@@ -51,7 +51,33 @@ people:
   - _people/kelsie-jankowski.md
   - _people/shannon-licitra.md
   general_information: ''
-essays: []
+essays:
+- lot: 1
+  title: Celebrating 70 Years of Photography at Swann
+  author: ''
+  body: "Over 70 years ago, Swann held the first auction dedicated to photography
+    in the United States. This 1952 photography auction was astonishingly early for
+    a sale devoted to a medium just 113 years old and still finding its artistic footing
+    in the marketplace. Seven decades later, however, the landscape for this diverse
+    and innovative medium has grown dramatically.  The past few decades bore witness
+    to a blossoming market, with numerous galleries, auction houses, and a vibrant,
+    devoted, passionate group of collectors spread around the world. \n\nIn 1952,
+    albums and books illustrated with photographs dominated the sale at Swann. The
+    sales results are shocking to a contemporary reader: a nearly complete set of
+    Eadweard Muybridge’s Animal Locomotion (with duplicate plates) sold for $250,
+    and William Henry Fox Talbot’s Pencil of Nature for $200. The catalogue had no
+    illustrations or estimates, and though the offerings were diverse, the medium’s
+    early relationship with the book field is apparent.\n\nToday we see a full spectra
+    of photo books, contemporary photographs made to occupy an entire wall, small
+    classical gems, and modernist masterpieces exploring abstraction in our auctions.
+    To date, our Department’s top lot is Edward S. Curtis’ The North American Indian,
+    which sold for $1.44 million.  This market has expanded and flourished, and our
+    auctions at Swann continue the tradition of groundbreaking exploration of the
+    medium, most recently in our photo book and vernacular photography sales (introduced
+    in 2006 and 2014, respectively). These sales advance the boundaries of what is
+    sought and reconsider the ways in which we view and discuss photographic output.\n\nToday
+    we look both forward and backward. Back, to marvel at what has grown. Forward,
+    to imagine what we can still build."
 footer_pages: []
 
 ---
