@@ -2,7 +2,7 @@
 layout: X_catalogue
 lots: []
 starts_at: 0
-color: "#ADDBC1"
+color: "#A9D7AC"
 cover_image:
   lot_number: 0
   title: ''
