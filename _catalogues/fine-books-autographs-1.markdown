@@ -2,11 +2,11 @@
 layout: X_catalogue
 lots: []
 starts_at: 0
-color: "#AD926F"
+color: "#C6DBAD"
 cover_image:
   lot_number: 0
   title: ''
-  image: ''
+  image: "/v1643052816/M45242-6_1_ehenaa.jpg"
 filename: ''
 visible: false
 permalink: "/books-manuscripts/autographs/2593"
