@@ -9,7 +9,7 @@ cover_image:
   image: ''
 filename: ''
 visible: false
-permalink: "/finebooks-autographs/2593"
+permalink: "/books-manuscripts/autographs/2593"
 sale: 2593
 title: Fine Books & Autographs
 datetime:
