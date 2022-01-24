@@ -17,7 +17,26 @@ datetime:
   time: 2000-01-01 10:30:00 +0000
   time2: 
 short_description: ''
-chapters: []
+chapters:
+- session_title: Table of Contents
+  chapters:
+  - chapter_title: Americana
+    lot: 1
+  - chapter_title: General, including astronauts, world leaders, royals, entertainers,
+      inventors, etc.
+    lot: 7
+  - chapter_title: Presidents
+    lot: 89
+  - chapter_title: Writers
+    lot: 101
+  - chapter_title: Musicians
+    lot: 94
+  - chapter_title: Artists
+    lot: 131
+  - chapter_title: 19th & 20th Century Literature
+    lot: 150
+  - chapter_title: Art, Press & Illustrated Books
+    lot: 215
 people:
   main_contacts:
   - _people/marco-tomaschett.md
