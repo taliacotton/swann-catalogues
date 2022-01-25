@@ -5,8 +5,8 @@ starts_at: 0
 color: "#9F0E0D"
 cover_image:
   lot_number: 182
-  title: Graham Greene, Journey Without Maps, 1936.
-  image: "/v1643143598/GrahamGreene_lfg9ej.jpg"
+  title: 'Dawn Powell, Whither, 1925. '
+  image: "/v1643146356/Whither_eva56p.jpg"
 filename: ''
 visible: false
 permalink: "/books-manuscripts/fine-books-autographs/2595"
