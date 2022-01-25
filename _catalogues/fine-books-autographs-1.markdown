@@ -2,11 +2,11 @@
 layout: X_catalogue
 lots: []
 starts_at: 0
-color: "#A9D7AC"
+color: "#911211"
 cover_image:
   lot_number: 0
   title: ''
-  image: "/v1643052816/M45242-6_1_ehenaa.jpg"
+  image: "/v1643141392/2595_DICover_yy43gg.jpg"
 filename: ''
 visible: false
 permalink: "/books-manuscripts/fine-books-autographs/2593"
