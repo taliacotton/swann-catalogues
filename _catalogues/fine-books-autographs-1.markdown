@@ -4,7 +4,7 @@ lots: []
 starts_at: 0
 color: "#911211"
 cover_image:
-  lot_number: 0
+  lot_number: 182
   title: ''
   image: "/v1643141392/2595_DICover_yy43gg.jpg"
 filename: ''
