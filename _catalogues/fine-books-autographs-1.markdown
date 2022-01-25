@@ -6,7 +6,7 @@ color: "#911211"
 cover_image:
   lot_number: 182
   title: Graham Greene, Journey Without Maps, 1936.
-  image: "/v1643141392/2595_DICover_yy43gg.jpg"
+  image: "/v1643143598/GrahamGreene_lfg9ej.jpg"
 filename: ''
 visible: false
 permalink: "/books-manuscripts/fine-books-autographs/2595"
