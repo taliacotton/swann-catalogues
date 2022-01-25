@@ -4,7 +4,7 @@ lots: []
 starts_at: 0
 color: "#A63A00"
 cover_image:
-  lot_number: 182
+  lot_number: 204
   title: 'Dawn Powell, Whither, 1925. '
   image: "/v1643146356/Whither_eva56p.jpg"
 filename: ''
