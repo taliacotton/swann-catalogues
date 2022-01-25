@@ -2,7 +2,7 @@
 layout: X_catalogue
 lots: []
 starts_at: 0
-color: "#9F0E0D"
+color: "#A63A00"
 cover_image:
   lot_number: 182
   title: 'Dawn Powell, Whither, 1925. '
