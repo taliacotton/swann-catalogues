@@ -9,8 +9,8 @@ cover_image:
   image: "/v1643141392/2595_DICover_yy43gg.jpg"
 filename: ''
 visible: false
-permalink: "/books-manuscripts/fine-books-autographs/2593"
-sale: 2593
+permalink: "/books-manuscripts/fine-books-autographs/2595"
+sale: 2595
 title: Fine Books & Autographs
 datetime:
   date: 2022-02-17 05:00:00 +0000
