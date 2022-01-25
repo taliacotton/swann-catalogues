@@ -2,7 +2,7 @@
 layout: X_catalogue
 lots: []
 starts_at: 0
-color: "#911211"
+color: "#9F0E0D"
 cover_image:
   lot_number: 182
   title: Graham Greene, Journey Without Maps, 1936.
