@@ -8,7 +8,7 @@ cover_image:
   title: 'Dawn Powell, Whither, 1925. '
   image: "/v1643146356/Whither_eva56p.jpg"
 filename: ''
-visible: false
+visible: true
 permalink: "/books-manuscripts/fine-books-autographs/2595"
 sale: 2595
 title: Fine Books & Autographs
