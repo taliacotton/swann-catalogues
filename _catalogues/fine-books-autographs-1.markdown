@@ -1,7 +1,7 @@
 ---
 layout: X_catalogue
 lots: []
-starts_at: 0
+starts_at: 
 color: "#D5E1C3"
 cover_image:
   lot_number: 204
@@ -13,26 +13,22 @@ permalink: "/books-manuscripts/fine-books-autographs/2595"
 sale: 2595
 title: Fine Books & Autographs
 datetime:
-  date: 2022-02-17 05:00:00 +0000
-  time: 2000-01-01 10:30:00 +0000
+  date: 2022-02-17T05:00:00.000+00:00
+  time: 2000-01-01T10:30:00.000+00:00
   time2: 
 short_description: ''
 chapters:
-- session_title: Table of Contents
+- session_title: ''
   chapters:
   - chapter_title: Americana
     lot: 1
-  - chapter_title: General, including astronauts, world leaders, royals, entertainers,
-      inventors, etc.
+  - chapter_title: 'General Autographs: Astronauts, World Leaders, Royals, Entertainers,
+      Inventors, etc.'
     lot: 7
-  - chapter_title: Presidents
+  - chapter_title: Presidential Autographs
     lot: 89
-  - chapter_title: Writers
-    lot: 101
-  - chapter_title: Musicians
+  - chapter_title: Musician, Writer & Artist Autographs
     lot: 94
-  - chapter_title: Artists
-    lot: 131
   - chapter_title: 19th & 20th Century Literature
     lot: 150
   - chapter_title: Art, Press & Illustrated Books
