@@ -2,7 +2,7 @@
 layout: X_catalogue
 lots: []
 starts_at: 
-color: "#D2A901"
+color: "#E0B404"
 cover_image:
   lot_number: 93
   title: 'William H. Bradley, Victor Bicycles, 1895. '
