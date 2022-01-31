@@ -14,11 +14,11 @@ sale: 2596
 title: Vintage Posters
 datetime:
   date: 2022-02-24T05:00:00.000+00:00
-  time: 2022-01-01T12:00:00.000+00:00
+  time: 2022-01-01 10:30:00 +0000
   time2: 
 short_description: ''
 chapters:
-- session_title: Vintage Posters
+- session_title: Table of Contents
   chapters:
   - chapter_title: Art Nouveau & Bicycles Lots
     lot: 1
