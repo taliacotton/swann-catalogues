@@ -4,8 +4,8 @@ lots: []
 starts_at: 
 color: "#D2A901"
 cover_image:
-  lot_number: 122
-  title: Luciano Achille Mauzan, Agua Colonia Griet, 1928.
+  lot_number: 93
+  title: 'William H. Bradley, Victor Bicycles, 1895. '
   image: "/v1643654820/2596_DICover_fkfdwa.jpg"
 filename: ''
 visible: false
