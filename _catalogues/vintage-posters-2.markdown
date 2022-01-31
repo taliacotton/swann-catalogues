@@ -20,7 +20,7 @@ short_description: ''
 chapters:
 - session_title: ''
   chapters:
-  - chapter_title: Art Nouveau & Bicycles Lots
+  - chapter_title: Art Nouveau & Bicycles
     lot: 1
   - chapter_title: Ski, Winter Resorts & Sports
     lot: 154
