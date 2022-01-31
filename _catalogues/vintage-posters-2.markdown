@@ -1,20 +1,20 @@
 ---
 layout: X_catalogue
 lots: []
-starts_at: 0
+starts_at: 
 color: "#AD926F"
 cover_image:
-  lot_number: 0
-  title: ''
-  image: ''
+  lot_number: 163
+  title: 'André Lecomte, Mürren / Schweiz, 1931. '
+  image: "/v1643642949/M42029-92_1_olukc5.jpg"
 filename: ''
 visible: false
 permalink: "/vintage-posters/february-sale/2596"
 sale: 2596
 title: Vintage Posters
 datetime:
-  date: 2022-02-24 05:00:00 +0000
-  time: 2022-01-01 12:00:00 +0000
+  date: 2022-02-24T05:00:00.000+00:00
+  time: 2022-01-01T12:00:00.000+00:00
   time2: 
 short_description: ''
 chapters: []
