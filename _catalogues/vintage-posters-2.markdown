@@ -18,7 +18,7 @@ datetime:
   time2: 
 short_description: ''
 chapters:
-- session_title: Table of Contents
+- session_title: ''
   chapters:
   - chapter_title: Art Nouveau & Bicycles Lots
     lot: 1
