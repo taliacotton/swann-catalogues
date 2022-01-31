@@ -2,7 +2,7 @@
 layout: X_catalogue
 lots: []
 starts_at: 
-color: "#CAA400"
+color: "#AD7A03"
 cover_image:
   lot_number: 122
   title: Luciano Achille Mauzan, Agua Colonia Griet, 1928.
