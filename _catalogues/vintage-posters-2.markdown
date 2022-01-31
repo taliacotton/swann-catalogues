@@ -2,7 +2,7 @@
 layout: X_catalogue
 lots: []
 starts_at: 
-color: "#AD926F"
+color: "#CAA400"
 cover_image:
   lot_number: 163
   title: 'André Lecomte, Mürren / Schweiz, 1931. '
