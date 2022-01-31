@@ -2,11 +2,12 @@
 layout: X_catalogue
 lots: []
 starts_at: 
-color: "#E0B404"
+color: "#CDAA04"
 cover_image:
-  lot_number: 93
-  title: 'William H. Bradley, Victor Bicycles, 1895. '
-  image: "/v1643654820/2596_DICover_fkfdwa.jpg"
+  lot_number: 46
+  title: D'Après Alphonse Mucha, MME Sarah - Bernhardt / World's Tour Seasons 1914
+    - 15 -16.
+  image: "/v1643664120/2596_DICover_proqcu.jpg"
 filename: ''
 visible: false
 permalink: "/vintage-posters/february-sale/2596"
