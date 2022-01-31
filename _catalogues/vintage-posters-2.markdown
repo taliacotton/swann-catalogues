@@ -4,8 +4,8 @@ lots: []
 starts_at: 
 color: "#CAA400"
 cover_image:
-  lot_number: 163
-  title: 'André Lecomte, Mürren / Schweiz, 1931. '
+  lot_number: 122
+  title: Luciano Achille Mauzan, Agua Colonia Griet, 1928.
   image: "/v1643652229/2596_DICover_cagi2f.jpg"
 filename: ''
 visible: false
