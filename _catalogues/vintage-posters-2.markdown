@@ -17,7 +17,19 @@ datetime:
   time: 2022-01-01T12:00:00.000+00:00
   time2: 
 short_description: ''
-chapters: []
+chapters:
+- session_title: Table of Contents
+  chapters:
+  - chapter_title: Art Nouveau & Bicycles Lots
+    lot: 1
+  - chapter_title: Ski, Winter Resorts & Sports
+    lot: 154
+  - chapter_title: International Travel
+    lot: 210
+  - chapter_title: American Travel
+    lot: 299
+  - chapter_title: Politics, Automobiles & Exhibition
+    lot: 369
 people:
   main_contacts:
   - _people/nicholas-d.lowry.md
