@@ -9,7 +9,7 @@ cover_image:
     - 15 - 16.
   image: "/v1643664120/2596_DICover_proqcu.jpg"
 filename: ''
-visible: false
+visible: true
 permalink: "/vintage-posters/february-sale/2596"
 sale: 2596
 title: Vintage Posters
