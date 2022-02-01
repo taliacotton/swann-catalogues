@@ -6,7 +6,7 @@ color: "#EFCFC7"
 cover_image:
   lot_number: 46
   title: D'Après Alphonse Mucha, MME Sarah - Bernhardt / World's Tour Seasons 1914
-    - 15 -16.
+    - 15 - 16.
   image: "/v1643664120/2596_DICover_proqcu.jpg"
 filename: ''
 visible: false
