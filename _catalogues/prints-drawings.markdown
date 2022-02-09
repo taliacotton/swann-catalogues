@@ -11,7 +11,7 @@ filename: ''
 visible: false
 permalink: "/fine-art/19th-20th-century-art/2597"
 sale: 2597
-title: Prints & Drawings
+title: 19th & 20th Century Art
 datetime:
   date: 2022-03-10 05:00:00 +0000
   time: 2022-02-01 10:30:00 +0000
@@ -42,6 +42,5 @@ people:
   general_information: ''
 essays: []
 footer_pages: []
-published: false
 
 ---
