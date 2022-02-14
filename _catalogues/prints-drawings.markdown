@@ -2,7 +2,7 @@
 layout: X_catalogue
 lots: []
 starts_at: 
-color: "#AD7A6F"
+color: "#C7AE6E"
 cover_image:
   lot_number: 244
   title: Giacomo Balla, Il disperato; Autoritratto, 1958.
