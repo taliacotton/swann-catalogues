@@ -6,7 +6,7 @@ color: "#AD926F"
 cover_image:
   lot_number: 
   title: ''
-  image: ''
+  image: "/v1644867525/42897-10_egakyl.jpg"
 filename: ''
 visible: false
 permalink: "/fine-art/19th-20th-century-art/2597"
