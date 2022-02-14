@@ -4,8 +4,8 @@ lots: []
 starts_at: 
 color: "#AD7A6F"
 cover_image:
-  lot_number: 
-  title: ''
+  lot_number: 244
+  title: Giacomo Balla, Il disperato; Autoritratto, 1958.
   image: "/v1644867525/42897-10_egakyl.jpg"
 filename: ''
 visible: false
