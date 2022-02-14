@@ -17,7 +17,17 @@ datetime:
   time: 2022-02-01T10:30:00.000+00:00
   time2: 
 short_description: ''
-chapters: []
+chapters:
+- session_title: ''
+  chapters:
+  - chapter_title: 19th Century European
+    lot: 1
+  - chapter_title: American
+    lot: 152
+  - chapter_title: Latin American
+    lot: 196
+  - chapter_title: Modern European
+    lot: 244
 people:
   main_contacts:
   - _people/todd-weyman.md
