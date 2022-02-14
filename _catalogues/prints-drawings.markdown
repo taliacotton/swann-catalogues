@@ -1,10 +1,10 @@
 ---
 layout: X_catalogue
 lots: []
-starts_at: 0
+starts_at: 
 color: "#AD926F"
 cover_image:
-  lot_number: 0
+  lot_number: 
   title: ''
   image: ''
 filename: ''
@@ -13,8 +13,8 @@ permalink: "/fine-art/19th-20th-century-art/2597"
 sale: 2597
 title: 19th & 20th Century Art
 datetime:
-  date: 2022-03-10 05:00:00 +0000
-  time: 2022-02-01 10:30:00 +0000
+  date: 2022-03-10T05:00:00.000+00:00
+  time: 2022-02-01T10:30:00.000+00:00
   time2: 
 short_description: ''
 chapters: []
@@ -23,6 +23,7 @@ people:
   - _people/todd-weyman.md
   - _people/lisa-crecenzo.md
   - _people/meagan-gandolfo.md
+  - _people/james-macry.md
   officers:
   - _people/george-s.lowry.md
   - _people/Blank Spot.md
