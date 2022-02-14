@@ -228,3 +228,5 @@ fields:
   showOnly:
     field: header
     value: true
+pages:
+- _lots/2597/268-1.md
