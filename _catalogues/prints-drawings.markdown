@@ -8,7 +8,7 @@ cover_image:
   title: Giacomo Balla, Il disperato; Autoritratto, 1958.
   image: "/v1644867525/42897-10_egakyl.jpg"
 filename: ''
-visible: false
+visible: true
 permalink: "/fine-art/19th-20th-century-art/2597"
 sale: 2597
 title: 19th & 20th Century Art
