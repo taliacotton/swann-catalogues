@@ -11,7 +11,7 @@ filename: ''
 visible: false
 permalink: "/books-manuscripts/printed-manuscript-african-americana/2598"
 sale: 2598
-title: Printed Manuscripts & African Americana
+title: Printed & Manuscript African Americana
 datetime:
   date: 2022-03-24 04:00:00 +0000
   time: 2022-02-01 10:30:00 +0000
