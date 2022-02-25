@@ -6,7 +6,7 @@ color: "#8B403E"
 cover_image:
   lot_number: 102
   title: 'Elizabeth Catlett, Portfolio of 5 Lithographs. '
-  image: "/v1645810546/M45490-5_1_junqge.jpg"
+  image: "/v1645811440/2598-DICover_nqpt7x.jpg"
 filename: ''
 visible: false
 permalink: "/books-manuscripts/printed-manuscript-african-americana/2598"
