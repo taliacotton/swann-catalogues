@@ -20,8 +20,6 @@ short_description: ''
 chapters:
 - session_title: ''
   chapters:
-  - chapter_title: Entertainment
-    lot: 238
   - chapter_title: Slavery & Abolition
     lot: 1
   - chapter_title: Africa
@@ -38,6 +36,8 @@ chapters:
     lot: 178
   - chapter_title: Education
     lot: 229
+  - chapter_title: Entertainment
+    lot: 238
 people:
   main_contacts:
   - _people/rick-stattler.md
