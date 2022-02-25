@@ -20,14 +20,16 @@ short_description: ''
 chapters:
 - session_title: ''
   chapters:
-  - chapter_title: Black Panthers
-    lot: 110
+  - chapter_title: Black Power
+    lot: 153
   - chapter_title: Slavery & Abolition
     lot: 1
   - chapter_title: Africa
     lot: 70
   - chapter_title: Art
     lot: 80
+  - chapter_title: Black Panthers
+    lot: 110
 people:
   main_contacts:
   - _people/rick-stattler.md
