@@ -2,7 +2,7 @@
 layout: X_catalogue
 lots: []
 starts_at: 
-color: "#AD926F"
+color: "#8B403E"
 cover_image:
   lot_number: 102
   title: 'Elizabeth Catlett, Portfolio of 5 Lithographs. '
