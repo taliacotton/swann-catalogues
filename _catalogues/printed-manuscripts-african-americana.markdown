@@ -20,8 +20,12 @@ short_description: ''
 chapters:
 - session_title: ''
   chapters:
+  - chapter_title: Art
+    lot: 80
   - chapter_title: Slavery & Abolition
     lot: 1
+  - chapter_title: Africa
+    lot: 70
 people:
   main_contacts:
   - _people/rick-stattler.md
