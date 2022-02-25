@@ -17,7 +17,11 @@ datetime:
   time: 2022-02-01T10:30:00.000+00:00
   time2: 
 short_description: ''
-chapters: []
+chapters:
+- session_title: ''
+  chapters:
+  - chapter_title: Slavery & Abolition
+    lot: 1
 people:
   main_contacts:
   - _people/rick-stattler.md
