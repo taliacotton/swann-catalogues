@@ -1,20 +1,20 @@
 ---
 layout: X_catalogue
 lots: []
-starts_at: 0
+starts_at: 
 color: "#AD926F"
 cover_image:
-  lot_number: 0
-  title: ''
-  image: ''
+  lot_number: 102
+  title: 'Elizabeth Catlett, Portfolio of 5 Lithographs. '
+  image: "/v1645810546/M45490-5_1_junqge.jpg"
 filename: ''
 visible: false
 permalink: "/books-manuscripts/printed-manuscript-african-americana/2598"
 sale: 2598
 title: Printed & Manuscript African Americana
 datetime:
-  date: 2022-03-24 04:00:00 +0000
-  time: 2022-02-01 10:30:00 +0000
+  date: 2022-03-24T04:00:00.000+00:00
+  time: 2022-02-01T10:30:00.000+00:00
   time2: 
 short_description: ''
 chapters: []
