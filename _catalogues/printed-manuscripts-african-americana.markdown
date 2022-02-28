@@ -2,7 +2,7 @@
 layout: X_catalogue
 lots: []
 starts_at: 
-color: "#8B403E"
+color: "#6F2D3F"
 cover_image:
   lot_number: 136
   title: 'Victory Will Soon Be Ours . . . Angela Davis, circa 1971. '
