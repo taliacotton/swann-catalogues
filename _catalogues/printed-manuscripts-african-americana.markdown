@@ -20,6 +20,8 @@ short_description: ''
 chapters:
 - session_title: ''
   chapters:
+  - chapter_title: Civil Rights — Jack Greenberg Collection
+    lot: 177
   - chapter_title: Slavery & Abolition
     lot: 1
   - chapter_title: Africa
@@ -33,9 +35,9 @@ chapters:
   - chapter_title: Black Power
     lot: 152
   - chapter_title: Business
-    lot: 165
+    lot: 164
   - chapter_title: Civil Rights
-    lot: 178
+    lot: 188
   - chapter_title: Education
     lot: 229
   - chapter_title: Entertainment
