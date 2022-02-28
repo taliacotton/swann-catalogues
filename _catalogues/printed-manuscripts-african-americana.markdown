@@ -4,9 +4,9 @@ lots: []
 starts_at: 
 color: "#8B403E"
 cover_image:
-  lot_number: 102
-  title: 'Elizabeth Catlett, Portfolio of 5 Lithographs. '
-  image: "/v1645811440/2598-DICover_nqpt7x.jpg"
+  lot_number: 136
+  title: 'Victory Will Soon Be Ours . . . Angela Davis, circa 1971. '
+  image: "/v1646066459/2598-DICover_ixefmr.jpg"
 filename: ''
 visible: false
 permalink: "/books-manuscripts/printed-manuscript-african-americana/2598"
