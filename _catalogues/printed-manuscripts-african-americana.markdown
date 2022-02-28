@@ -26,10 +26,12 @@ chapters:
     lot: 69
   - chapter_title: Art
     lot: 79
+  - chapter_title: Benjamin Banneker
+    lot: 106
   - chapter_title: Black Panthers
     lot: 108
   - chapter_title: Black Power
-    lot: 153
+    lot: 152
   - chapter_title: Business
     lot: 165
   - chapter_title: Civil Rights
