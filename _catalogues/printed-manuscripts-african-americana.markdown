@@ -23,11 +23,11 @@ chapters:
   - chapter_title: Slavery & Abolition
     lot: 1
   - chapter_title: Africa
-    lot: 70
+    lot: 69
   - chapter_title: Art
-    lot: 80
+    lot: 79
   - chapter_title: Black Panthers
-    lot: 110
+    lot: 108
   - chapter_title: Black Power
     lot: 153
   - chapter_title: Business
