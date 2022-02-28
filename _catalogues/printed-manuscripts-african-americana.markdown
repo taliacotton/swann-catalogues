@@ -56,6 +56,10 @@ chapters:
     lot: 347
   - chapter_title: Religion
     lot: 361
+  - chapter_title: Sports
+    lot: 369
+  - chapter_title: Women's History
+    lot: 376
 people:
   main_contacts:
   - _people/rick-stattler.md
