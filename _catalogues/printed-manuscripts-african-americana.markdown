@@ -20,8 +20,8 @@ short_description: ''
 chapters:
 - session_title: ''
   chapters:
-  - chapter_title: Literature
-    lot: 295
+  - chapter_title: Photography
+    lot: 341
   - chapter_title: Slavery & Abolition
     lot: 1
   - chapter_title: Africa
@@ -48,6 +48,10 @@ chapters:
     lot: 237
   - chapter_title: Martin Luther King
     lot: 280
+  - chapter_title: Literature
+    lot: 295
+  - chapter_title: Military
+    lot: 308
 people:
   main_contacts:
   - _people/rick-stattler.md
