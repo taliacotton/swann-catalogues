@@ -8,7 +8,7 @@ cover_image:
   title: 'Victory Will Soon Be Ours . . . Angela Davis, circa 1971. '
   image: "/v1646066459/2598-DICover_ixefmr.jpg"
 filename: ''
-visible: false
+visible: true
 permalink: "/books-manuscripts/printed-manuscript-african-americana/2598"
 sale: 2598
 title: Printed & Manuscript African Americana
