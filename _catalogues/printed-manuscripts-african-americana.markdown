@@ -20,8 +20,8 @@ short_description: ''
 chapters:
 - session_title: ''
   chapters:
-  - chapter_title: Photography
-    lot: 341
+  - chapter_title: Politics
+    lot: 347
   - chapter_title: Slavery & Abolition
     lot: 1
   - chapter_title: Africa
@@ -52,6 +52,8 @@ chapters:
     lot: 295
   - chapter_title: Military
     lot: 308
+  - chapter_title: Photography
+    lot: 341
 people:
   main_contacts:
   - _people/rick-stattler.md
