@@ -20,8 +20,6 @@ short_description: ''
 chapters:
 - session_title: ''
   chapters:
-  - chapter_title: Civil Rights — Jack Greenberg Collection
-    lot: 177
   - chapter_title: Slavery & Abolition
     lot: 1
   - chapter_title: Africa
@@ -36,10 +34,14 @@ chapters:
     lot: 152
   - chapter_title: Business
     lot: 164
+  - chapter_title: Civil Rights — Jack Greenberg Collection
+    lot: 177
   - chapter_title: Civil Rights
     lot: 188
+  - chapter_title: Frederick Douglass
+    lot: 222
   - chapter_title: Education
-    lot: 229
+    lot: 228
   - chapter_title: Entertainment
     lot: 238
 people:
