@@ -14,10 +14,26 @@ sale: 2599
 title: African American Art
 datetime:
   date: 2022-03-31T04:00:00.000+00:00
-  time: 2022-03-01T12:00:00.000+00:00
+  time: 2022-03-01 12:00:00 +0000
   time2: 
 short_description: ''
-chapters: []
+chapters:
+- session_title: ''
+  chapters:
+  - chapter_title: Contemporary Part III
+    lot: 212
+  - chapter_title: Contemporary Part II
+    lot: 163
+  - lot: 186
+    chapter_title: A distinguished private collection
+  - chapter_title: Brandywine Workshop
+    lot: 154
+  - chapter_title: Contemporary Part I
+    lot: 120
+  - chapter_title: Postwar
+    lot: 29
+  - chapter_title: Modern
+    lot: 1
 people:
   main_contacts:
   - _people/director.md
