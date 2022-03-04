@@ -55,7 +55,11 @@ people:
   - _people/kelsie-jankowski.md
   - _people/shannon-licitra.md
   general_information: ''
-essays: []
+essays:
+- lot: 
+  title: ''
+  author: ''
+  body: ''
 footer_pages: []
 
 ---
