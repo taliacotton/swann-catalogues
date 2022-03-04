@@ -1,20 +1,20 @@
 ---
 layout: X_catalogue
 lots: []
-starts_at: 0
+starts_at: 
 color: "#AD926F"
 cover_image:
-  lot_number: 0
-  title: ''
-  image: ''
+  lot_number: 216
+  title: Hughie Lee-Smith, Quandary, 1997.
+  image: "/v1646417660/M45085-2_1_dhu9aj.jpg"
 filename: ''
 visible: false
 permalink: "/fine-art/african-american-art/2599"
 sale: 2599
 title: African American Art
 datetime:
-  date: 2022-03-31 04:00:00 +0000
-  time: 2022-03-01 12:00:00 +0000
+  date: 2022-03-31T04:00:00.000+00:00
+  time: 2022-03-01T12:00:00.000+00:00
   time2: 
 short_description: ''
 chapters: []
