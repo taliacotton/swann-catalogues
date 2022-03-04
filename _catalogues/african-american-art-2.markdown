@@ -2,7 +2,7 @@
 layout: X_catalogue
 lots: []
 starts_at: 
-color: "#AD926F"
+color: "#A97024"
 cover_image:
   lot_number: 216
   title: Hughie Lee-Smith, Quandary, 1997.
