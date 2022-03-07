@@ -8,7 +8,7 @@ cover_image:
   title: Hughie Lee-Smith, Quandary, 1997.
   image: "/v1646417660/M45085-2_1_dhu9aj.jpg"
 filename: ''
-visible: false
+visible: true
 permalink: "/fine-art/african-american-art/2599"
 sale: 2599
 title: African American Art
