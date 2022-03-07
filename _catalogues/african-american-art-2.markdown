@@ -25,7 +25,7 @@ chapters:
   - chapter_title: Contemporary Part II
     lot: 163
   - lot: 186
-    chapter_title: A distinguished private collection
+    chapter_title: A Distinguished Private Collection
   - chapter_title: Brandywine Workshop
     lot: 154
   - chapter_title: Contemporary Part I
