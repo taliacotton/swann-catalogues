@@ -38,6 +38,7 @@ people:
   main_contacts:
   - _people/director.md
   - _people/corey-serrant.md
+  - _people/shanell-kitt.md
   officers:
   - _people/george-s.lowry.md
   - _people/Blank Spot.md
