@@ -19,7 +19,9 @@ datetime:
 short_description: ''
 chapters:
 - session_title: ''
-  chapters: []
+  chapters:
+  - chapter_title: Latin America & the Caribbean
+    lot: 296
 people:
   main_contacts:
   - _people/rick-stattler.md
