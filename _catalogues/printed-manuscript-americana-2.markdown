@@ -17,7 +17,9 @@ datetime:
   time: 2022-03-01T10:30:00.000+00:00
   time2: 
 short_description: ''
-chapters: []
+chapters:
+- session_title: ''
+  chapters: []
 people:
   main_contacts:
   - _people/rick-stattler.md
