@@ -20,8 +20,6 @@ short_description: ''
 chapters:
 - session_title: ''
   chapters:
-  - chapter_title: West
-    lot: 254
   - chapter_title: General Americana
     lot: 1
   - chapter_title: Latin America & the Caribbean
