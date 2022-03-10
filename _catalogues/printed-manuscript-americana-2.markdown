@@ -20,6 +20,8 @@ short_description: ''
 chapters:
 - session_title: ''
   chapters:
+  - chapter_title: General Americana
+    lot: 1
   - chapter_title: Latin America & the Caribbean
     lot: 296
 people:
