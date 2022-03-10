@@ -20,6 +20,8 @@ short_description: ''
 chapters:
 - session_title: ''
   chapters:
+  - chapter_title: American Revolution
+    lot: 14
   - chapter_title: American Indians
     lot: 4
   - chapter_title: Latin America & the Caribbean
