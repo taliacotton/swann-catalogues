@@ -6,7 +6,7 @@ color: "#5B0221"
 cover_image:
   lot_number: 147
   title: Watercolor of The Brig Young America of Plymouth, 1862.
-  image: "/v1647273625/2600-DICover_rcuzdx.jpg"
+  image: "/v1647274250/M44744-17_1_w53vnb.png"
 filename: ''
 visible: false
 permalink: "/books-manuscripts/printed-manuscript-americana/2600"
