@@ -2,7 +2,7 @@
 layout: X_catalogue
 lots: []
 starts_at: 
-color: "#5B0232"
+color: "#5B0221"
 cover_image:
   lot_number: 147
   title: Watercolor of The Brig Young America of Plymouth, 1862.
