@@ -8,7 +8,7 @@ cover_image:
   title: Watercolor of The Brig Young America of Plymouth, 1862.
   image: "/v1647274250/M44744-17_1_w53vnb.png"
 filename: ''
-visible: false
+visible: true
 permalink: "/books-manuscripts/printed-manuscript-americana/2600"
 sale: 2600
 title: Printed & Manuscript Americana
