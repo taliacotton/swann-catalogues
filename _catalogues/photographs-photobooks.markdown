@@ -11,7 +11,7 @@ filename: ''
 visible: false
 permalink: "/photographs/fine-photographs/2601"
 sale: 2601
-title: Photographs & Photobooks
+title: Fine Photographs
 datetime:
   date: 2022-04-14 04:00:00 +0000
   time: 2022-03-01 12:00:00 +0000
