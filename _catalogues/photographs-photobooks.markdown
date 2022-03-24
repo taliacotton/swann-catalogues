@@ -21,6 +21,10 @@ short_description: ''
 chapters:
 - session_title: ''
   chapters:
+  - chapter_title: Early 20th-century European Photography
+    lot: 44
+  - chapter_title: Early American and Depression-era Photography
+    lot: 75
   - chapter_title: Portraits and the mid-century scene
     lot: 126
   - chapter_title: The Human Form
