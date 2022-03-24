@@ -5,7 +5,8 @@ starts_at:
 color: "#FFFBE6"
 cover_image:
   lot_number: 93
-  title: 'Berenice Abbott, Gasoline Station, Tremont Avenue and Dock Street, Bronx. '
+  title: Berenice Abbott, Gasoline Station, Tremont Avenue and Dock Street, Bronx,
+    1936.
   image: "/v1647885921/2601/793168.jpg"
 filename: ''
 visible: false
@@ -21,6 +22,8 @@ chapters: []
 people:
   main_contacts:
   - _people/deborah-rogal.md
+  - _people/alice-le-campion.md
+  - _people/bridget-fay.md
   officers:
   - _people/george-s.lowry.md
   - _people/Blank Spot.md
