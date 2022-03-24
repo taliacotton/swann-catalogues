@@ -9,7 +9,7 @@ cover_image:
     1936.
   image: "/v1647885921/2601/793168.jpg"
 filename: ''
-visible: false
+visible: true
 permalink: "/photographs/fine-photographs/2601"
 sale: 2601
 title: Fine Photographs
