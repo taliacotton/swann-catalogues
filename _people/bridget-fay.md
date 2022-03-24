@@ -1,10 +1,9 @@
 ---
 title: Bridget Fay
-role: Administrator
+role: Cataloguer & Client Relations, Photographs & Photobooks
 email: bfay@swanngalleries.com
-phone: ''
+phone: "(212) 254-4710 ext. 64"
 image: "/v1642617292/Swann_u3mbx4.jpg"
 number: 
-published: false
 
 ---
