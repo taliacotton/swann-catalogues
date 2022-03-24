@@ -18,7 +18,13 @@ datetime:
   time: 2022-03-01T12:00:00.000+00:00
   time2: 
 short_description: ''
-chapters: []
+chapters:
+- session_title: ''
+  chapters:
+  - chapter_title: Contemporary Photography
+    lot: 229
+  - chapter_title: Vernacular
+    lot: 253
 people:
   main_contacts:
   - _people/deborah-rogal.md
