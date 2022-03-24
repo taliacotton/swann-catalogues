@@ -21,6 +21,10 @@ short_description: ''
 chapters:
 - session_title: ''
   chapters:
+  - chapter_title: 19th-century Photography and Edward Curtis
+    lot: 1
+  - chapter_title: Pictorialism and early American Landscapes
+    lot: 17
   - chapter_title: Early 20th-century European Photography
     lot: 44
   - chapter_title: Early American and Depression-era Photography
