@@ -1,20 +1,20 @@
 ---
 layout: X_catalogue
 lots: []
-starts_at: 0
-color: "#AD926F"
+starts_at: 
+color: "#FFFBE6"
 cover_image:
-  lot_number: 0
-  title: ''
-  image: ''
+  lot_number: 93
+  title: 'Berenice Abbott, Gasoline Station, Tremont Avenue and Dock Street, Bronx. '
+  image: "/v1647885921/2601/793168.jpg"
 filename: ''
 visible: false
 permalink: "/photographs/fine-photographs/2601"
 sale: 2601
 title: Fine Photographs
 datetime:
-  date: 2022-04-14 04:00:00 +0000
-  time: 2022-03-01 12:00:00 +0000
+  date: 2022-04-14T04:00:00.000+00:00
+  time: 2022-03-01T12:00:00.000+00:00
   time2: 
 short_description: ''
 chapters: []
