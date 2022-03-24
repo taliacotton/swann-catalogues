@@ -21,6 +21,12 @@ short_description: ''
 chapters:
 - session_title: ''
   chapters:
+  - chapter_title: Portraits and the mid-century scene
+    lot: 126
+  - chapter_title: The Human Form
+    lot: 181
+  - chapter_title: American late 20th-century Photography
+    lot: 202
   - chapter_title: Contemporary Photography
     lot: 229
   - chapter_title: Vernacular
