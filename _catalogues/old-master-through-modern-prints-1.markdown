@@ -29,7 +29,12 @@ chapters:
   - chapter_title: Modern European Prints
     lot: 373
 people:
-  main_contacts: []
+  main_contacts:
+  - _people/todd-weyman.md
+  - _people/lisa-crecenzo.md
+  - _people/meagan-gandolfo.md
+  - _people/sarah-mcmillan.md
+  - _people/james-macry.md
   officers: []
   administration: []
   general_information: ''
