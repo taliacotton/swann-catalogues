@@ -17,7 +17,17 @@ datetime:
   time: 2022-04-01 10:30:00 +0000
   time2: 
 short_description: ''
-chapters: []
+chapters:
+- session_title: ''
+  chapters:
+  - chapter_title: Old Master Prints
+    lot: 1
+  - chapter_title: 19 Century Prints
+    lot: 220
+  - chapter_title: Modern American Prints
+    lot: 309
+  - chapter_title: Modern European Prints
+    lot: 373
 people:
   main_contacts: []
   officers: []
