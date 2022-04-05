@@ -59,7 +59,7 @@ people:
   - _people/client-accounting.md
   - _people/operations-manager.md
   - _people/kelsie-jankowski.md
-  - _people/shannon-licitra.md
+  - _people/jessica-jackson.md
   general_information: ''
 essays: []
 footer_pages: []
