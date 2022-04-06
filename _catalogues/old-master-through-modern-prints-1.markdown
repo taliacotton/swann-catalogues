@@ -8,7 +8,7 @@ cover_image:
   title: Pablo Picasso, Le Repas Frugal, etching and drypoint, 1904.
   image: "/v1649179076/2602/794916.jpg"
 filename: ''
-visible: false
+visible: true
 permalink: "/fine-art/old-master-through-modern-prints/2602"
 sale: 2602
 title: Old Master Through Modern Prints
