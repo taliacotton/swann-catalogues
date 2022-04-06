@@ -2,7 +2,7 @@
 layout: X_catalogue
 lots: []
 starts_at: 
-color: "#DB6903"
+color: "#DCBF76"
 cover_image:
   lot_number: 373
   title: Pablo Picasso, Le Repas Frugal, etching and drypoint, 1904.
