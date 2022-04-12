@@ -2,11 +2,12 @@
 layout: X_catalogue
 lots: []
 starts_at: 
-color: "#AD926F"
+color: "#E9FAFF"
 cover_image:
-  lot_number: 
-  title: ''
-  image: ''
+  lot_number: 243
+  title: Joachim of Fiore, Eximii Profundissimique [...] Scriptum Super Hieremiam
+    Prophetam, 1516.
+  image: "/v1649796789/2603-DIcover_hkl7in.png"
 filename: ''
 visible: false
 permalink: "/books-manuscripts/early-printed-books/2603"
