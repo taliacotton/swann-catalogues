@@ -6,7 +6,7 @@ color: "#E9FAFF"
 cover_image:
   lot_number: 120
   title: 'Sammelband of Chivalric Chap-Books, Oger le Dannois Duc de Dannemarche qui
-    fut l''un des Douze Pers de France, c.1610-1620. '
+    fut l''un des Douze Pers de France, circa 1610-1620. '
   image: "/v1649862945/2603-DICover_yueucf.jpg"
 filename: ''
 visible: false
