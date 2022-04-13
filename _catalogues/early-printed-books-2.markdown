@@ -4,10 +4,10 @@ lots: []
 starts_at: 
 color: "#E9FAFF"
 cover_image:
-  lot_number: 243
-  title: Joachim of Fiore, Eximii Profundissimique [...] Scriptum Super Hieremiam
-    Prophetam, 1516.
-  image: "/v1649796789/2603-DIcover_hkl7in.png"
+  lot_number: 120
+  title: 'Sammelband of Chivalric Chap-Books, Oger le Dannois Duc de Dannemarche qui
+    fut l''un des Douze Pers de France, c.1610-1620. '
+  image: "/v1649862945/2603-DICover_yueucf.jpg"
 filename: ''
 visible: false
 permalink: "/books-manuscripts/early-printed-books/2603"
