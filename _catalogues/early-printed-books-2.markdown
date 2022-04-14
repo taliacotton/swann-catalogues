@@ -9,7 +9,7 @@ cover_image:
     fut l''un des Douze Pers de France, circa 1610-1620. '
   image: "/v1649862945/2603-DICover_yueucf.jpg"
 filename: ''
-visible: false
+visible: true
 permalink: "/books-manuscripts/early-printed-books/2603"
 sale: 2603
 title: Early Printed Books
