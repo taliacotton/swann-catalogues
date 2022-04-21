@@ -8,7 +8,7 @@ cover_image:
   title: David Hockney, Pool Made with Paper and Blue Ink for Book, 1980.
   image: "/v1650484327/2604/794757.jpg"
 filename: ''
-visible: false
+visible: true
 permalink: "/fine-art/contemporary-art/2604"
 sale: 2604
 title: Contemporary Art
