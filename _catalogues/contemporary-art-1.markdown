@@ -1,19 +1,19 @@
 ---
 layout: X_catalogue
 lots: []
-starts_at: 0
+starts_at: 
 color: "#AD926F"
 cover_image:
-  lot_number: 0
-  title: ''
-  image: ''
+  lot_number: 352
+  title: David Hockney, Pool Made with Paper and Blue Ink for Book, 1980.
+  image: "/v1650484327/2604/794757.jpg"
 filename: ''
 visible: false
 permalink: "/fine-art/contemporary-art/2604"
 sale: 2604
 title: Contemporary Art
 datetime:
-  date: 2022-05-12 04:00:00 +0000
+  date: 2022-05-12T04:00:00.000+00:00
   time: 
   time2: 
 short_description: ''
