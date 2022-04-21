@@ -17,7 +17,30 @@ datetime:
   time: 
   time2: 
 short_description: ''
-chapters: []
+chapters:
+- session_title: ''
+  chapters:
+  - chapter_title: Art from the Collection of the Late Francis V. O'Connor (1937-2017)
+      including Jackson Pollock
+    lot: 1
+  - chapter_title: Abstract Expressionism, including The New York School
+    lot: 24
+  - chapter_title: European Abstraction and Second Generation Abstract Expressionism
+    lot: 108
+  - chapter_title: Geometric Abstraction, Color Theory, Op-Art and Minimalism
+    lot: 145
+  - chapter_title: " Mid-Century Abstraction and Neo-Dada"
+    lot: 212
+  - chapter_title: Pop Art
+    lot: 233
+  - chapter_title: Photo-Realism, Neo-Realism, Post Pop Art and Late Minimalism
+    lot: 304
+  - chapter_title: British Painters and Neo-Expressionism
+    lot: 350
+  - chapter_title: The Pictures Generation and Late Geometric Abstraction
+    lot: 420
+  - chapter_title: Contemporary Art of the Last Two Decades
+    lot: 446
 people:
   main_contacts:
   - _people/todd-weyman.md
