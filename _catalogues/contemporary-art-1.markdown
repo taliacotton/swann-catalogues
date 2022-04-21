@@ -2,7 +2,7 @@
 layout: X_catalogue
 lots: []
 starts_at: 
-color: "#B1ECA7"
+color: "#EE5D0B"
 cover_image:
   lot_number: 352
   title: David Hockney, Pool Made with Paper and Blue Ink for Book, 1980.
