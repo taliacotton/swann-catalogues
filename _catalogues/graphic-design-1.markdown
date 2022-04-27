@@ -18,7 +18,39 @@ datetime:
   time: 2022-04-01T12:00:00.000+00:00
   time2: 
 short_description: ''
-chapters: []
+chapters:
+- chapters:
+  - chapter_title: Secession & Art Nouveau
+    lot: 1
+  - chapter_title: Swiss Art Deco & New Objectivity
+    lot: 22
+  - chapter_title: Russian Political and Constructivist
+    lot: 40
+  - chapter_title: Avant Garde & Futurism
+    lot: 49
+  - chapter_title: Art Deco
+    lot: 57
+  - chapter_title: American Modernism
+    lot: 118
+  - chapter_title: Automobiles
+    lot: 145
+  - chapter_title: Motorcycles & Bicycles
+    lot: 165
+  - chapter_title: European Post-War Lots
+    lot: 175
+  - chapter_title: Paul Rand & Corporate Identity
+    lot: 200
+  - chapter_title: Israeli Modernism
+    lot: 209
+  - chapter_title: Polish Design
+    lot: 216
+  - chapter_title: Japanese Design
+    lot: 225
+  - chapter_title: Counterculture
+    lot: 236
+  - chapter_title: Artists & Exhibition
+    lot: 249
+  session_title: ''
 people:
   main_contacts:
   - _people/nicholas-d.lowry.md
