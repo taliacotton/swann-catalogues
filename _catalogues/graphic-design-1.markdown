@@ -2,7 +2,7 @@
 layout: X_catalogue
 lots: []
 starts_at: 
-color: "#AD926F"
+color: "#AA9214"
 cover_image:
   lot_number: 151
   title: Harry Whincap, "BP" / The Spirit for Speed, circa 1930s. Estimate $1,000
