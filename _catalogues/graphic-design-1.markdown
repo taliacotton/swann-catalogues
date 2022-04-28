@@ -24,7 +24,7 @@ chapters:
     lot: 1
   - chapter_title: Swiss Art Deco & New Objectivity
     lot: 22
-  - chapter_title: Russian Political and Constructivist
+  - chapter_title: Russian Political & Constructivist
     lot: 40
   - chapter_title: Avant Garde & Futurism
     lot: 49
