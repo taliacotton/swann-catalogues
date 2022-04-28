@@ -9,7 +9,7 @@ cover_image:
     Automovilista, 1935.
   image: "/v1651163028/2605-DICover_hzhrey.jpg"
 filename: ''
-visible: false
+visible: true
 permalink: "/vintage-posters/graphic-design/2605"
 sale: 2605
 title: Graphic Design
