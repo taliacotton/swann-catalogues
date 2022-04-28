@@ -4,10 +4,10 @@ lots: []
 starts_at: 
 color: "#AA9214"
 cover_image:
-  lot_number: 151
-  title: Harry Whincap, "BP" / The Spirit for Speed, circa 1930s. Estimate $1,000
-    to $1,500.
-  image: "/v1651087267/2605-DICover_q32t2g.png"
+  lot_number: 155
+  title: Javier Gomez, Acebo & Maximo Viejo Santamarta, San Sebastián / XI Circuito
+    Automovilista, 1935.
+  image: "/v1651163028/2605-DICover_hzhrey.jpg"
 filename: ''
 visible: false
 permalink: "/vintage-posters/graphic-design/2605"
