@@ -5,7 +5,7 @@ starts_at:
 color: "#AA9214"
 cover_image:
   lot_number: 155
-  title: Javier Gomez, Acebo & Maximo Viejo Santamarta, San Sebastián / XI Circuito
+  title: Javier Gómez, Acebo & Máximo Viejo Santamarta, San Sebastian / XI Circuito
     Automovilista, 1935.
   image: "/v1651163028/2605-DICover_hzhrey.jpg"
 filename: ''
