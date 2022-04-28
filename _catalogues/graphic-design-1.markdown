@@ -36,7 +36,7 @@ chapters:
     lot: 145
   - chapter_title: Motorcycles & Bicycles
     lot: 165
-  - chapter_title: European Post-War Lots
+  - chapter_title: European Post-War
     lot: 175
   - chapter_title: Paul Rand & Corporate Identity
     lot: 200
