@@ -1,20 +1,20 @@
 ---
 layout: X_catalogue
 lots: []
-starts_at: 0
+starts_at: 
 color: "#AD926F"
 cover_image:
-  lot_number: 0
+  lot_number: 
   title: ''
-  image: ''
+  image: "/v1651606932/2606-DICover_wgo1rz.jpg"
 filename: ''
 visible: false
 permalink: "/fine-art/modern-and-postwar-art/2606"
 sale: 2606
 title: Modern & Post-War Art
 datetime:
-  date: 2022-05-26 04:00:00 +0000
-  time: 
+  date: 2022-05-26T04:00:00.000+00:00
+  time: 2022-05-01 12:00:00 +0000
   time2: 
 short_description: ''
 chapters: []
