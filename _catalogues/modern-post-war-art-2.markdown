@@ -2,7 +2,7 @@
 layout: X_catalogue
 lots: []
 starts_at: 
-color: "#AD926F"
+color: "#BDDBFF"
 cover_image:
   lot_number: 106
   title: 'Harry Bertoia, Untitled, mono print. '
