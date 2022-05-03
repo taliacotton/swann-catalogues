@@ -6,7 +6,7 @@ color: "#BDDBFF"
 cover_image:
   lot_number: 106
   title: 'Harry Bertoia, Untitled, mono print. '
-  image: "/v1651606932/2606-DICover_wgo1rz.jpg"
+  image: "/v1651612729/2606-DICover_zhrlt6.jpg"
 filename: ''
 visible: false
 permalink: "/fine-art/modern-and-postwar-art/2606"
