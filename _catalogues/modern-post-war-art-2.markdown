@@ -4,9 +4,9 @@ lots: []
 starts_at: 
 color: "#BDDBFF"
 cover_image:
-  lot_number: 106
-  title: 'Harry Bertoia, Untitled, mono print. '
-  image: "/v1651612729/2606-DICover_zhrlt6.jpg"
+  lot_number: 33
+  title: John Opper, Untitled, (70-16), oil on canvas, 1970.
+  image: "/v1651680419/2606-DICover_rxebyk.png"
 filename: ''
 visible: false
 permalink: "/fine-art/modern-and-postwar-art/2606"
