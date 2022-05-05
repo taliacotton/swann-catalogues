@@ -22,30 +22,20 @@ chapters:
   chapters:
   - chapter_title: Modernism
     lot: 1
-  - chapter_title: American Abstract Art
-    lot: 8
   - chapter_title: Non-Objective Painting
     lot: 21
   - chapter_title: Expressionism
     lot: 29
   - chapter_title: Washington Color Field and Op Art
     lot: 52
-  - chapter_title: Modernism
-    lot: 75
   - chapter_title: American Abstract Art
     lot: 80
-  - chapter_title: Non-Objective Painting
-    lot: 97
   - chapter_title: Indian Space Painting
     lot: 110
   - chapter_title: Abstract Expressionism
     lot: 122
-  - chapter_title: Washington Color Field and Op Art
-    lot: 135
   - chapter_title: Latin-American Art
     lot: 141
-  - chapter_title: Latinx Art
-    lot: 149
 people:
   main_contacts:
   - _people/harold-porcher.md
