@@ -24,7 +24,7 @@ chapters:
     lot: 1
   - chapter_title: Non-Objective Painting
     lot: 21
-  - chapter_title: Expressionism
+  - chapter_title: Abstract Expressionism
     lot: 29
   - chapter_title: Washington Color Field and Op Art
     lot: 52
@@ -36,6 +36,8 @@ chapters:
     lot: 122
   - chapter_title: Latin-American Art
     lot: 141
+  - chapter_title: Latinx Art
+    lot: 149
 people:
   main_contacts:
   - _people/harold-porcher.md
