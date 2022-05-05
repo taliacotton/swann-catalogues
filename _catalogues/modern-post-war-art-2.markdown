@@ -20,7 +20,7 @@ short_description: ''
 chapters:
 - session_title: ''
   chapters:
-  - chapter_title: Modernism I.
+  - chapter_title: Modernism
     lot: 1
   - chapter_title: 'American Abstract Art I. '
     lot: 8
@@ -28,7 +28,7 @@ chapters:
     lot: 21
   - chapter_title: Abstract Expressionism
     lot: 29
-  - chapter_title: Modernism II.
+  - chapter_title: Selections from the Gary Snyder Collection
     lot: 65
   - chapter_title: Op Art
     lot: 52
