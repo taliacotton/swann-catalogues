@@ -24,7 +24,7 @@ chapters:
     lot: 1
   - chapter_title: 'American Abstract Art I. '
     lot: 8
-  - chapter_title: Non-Objective Painting
+  - chapter_title: Non-Objective Painting I.
     lot: 21
   - chapter_title: Abstract Expressionism
     lot: 29
@@ -34,6 +34,8 @@ chapters:
     lot: 52
   - chapter_title: American Abstract Art II.
     lot: 80
+  - chapter_title: Non-Objective Painting II.
+    lot: 97
   - chapter_title: Indian Space Painting
     lot: 110
   - chapter_title: Latin-American Art
