@@ -8,7 +8,7 @@ cover_image:
   title: John Opper, Untitled, (70-16), oil on canvas, 1970.
   image: "/v1651680419/2606-DICover_rxebyk.png"
 filename: ''
-visible: false
+visible: true
 permalink: "/fine-art/modern-and-postwar-art/2606"
 sale: 2606
 title: Modern & Post-War Art
