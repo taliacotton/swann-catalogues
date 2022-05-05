@@ -32,8 +32,6 @@ chapters:
     lot: 80
   - chapter_title: Indian Space Painting
     lot: 110
-  - chapter_title: Abstract Expressionism
-    lot: 122
   - chapter_title: Latin-American Art
     lot: 141
   - chapter_title: Latinx Art
