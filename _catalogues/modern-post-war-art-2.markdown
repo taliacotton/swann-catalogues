@@ -20,15 +20,19 @@ short_description: ''
 chapters:
 - session_title: ''
   chapters:
-  - chapter_title: Modernism
+  - chapter_title: Modernism I.
     lot: 1
+  - chapter_title: 'American Abstract Art I. '
+    lot: 8
   - chapter_title: Non-Objective Painting
     lot: 21
   - chapter_title: Abstract Expressionism
     lot: 29
+  - chapter_title: Modernism II.
+    lot: 75
   - chapter_title: Washington Color Field and Op Art
     lot: 52
-  - chapter_title: American Abstract Art
+  - chapter_title: American Abstract Art II.
     lot: 80
   - chapter_title: Indian Space Painting
     lot: 110
