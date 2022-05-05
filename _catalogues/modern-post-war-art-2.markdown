@@ -29,8 +29,8 @@ chapters:
   - chapter_title: Abstract Expressionism
     lot: 29
   - chapter_title: Modernism II.
-    lot: 75
-  - chapter_title: Washington Color Field and Op Art
+    lot: 65
+  - chapter_title: Op Art
     lot: 52
   - chapter_title: American Abstract Art II.
     lot: 80
