@@ -38,6 +38,10 @@ chapters:
     lot: 97
   - chapter_title: Indian Space Painting
     lot: 110
+  - chapter_title: Surrealism & Abstract Expressionism
+    lot: 122
+  - chapter_title: Color Field
+    lot: 135
   - chapter_title: Latin-American Art
     lot: 141
   - chapter_title: Latinx Art
