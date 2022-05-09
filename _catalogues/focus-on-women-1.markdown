@@ -4,9 +4,10 @@ lots: []
 starts_at: 
 color: "#AD926F"
 cover_image:
-  lot_number: 
-  title: ''
-  image: ''
+  lot_number: 194
+  title: Women's Liberation Movement, two political posters protesting the Vietnam
+    War, 1970s.
+  image: "/v1652120687/2607-DI-Cover_zieozj.jpg"
 filename: ''
 visible: false
 permalink: "/books-manuscripts/focus-on-women/2607"
