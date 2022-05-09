@@ -2,7 +2,7 @@
 layout: X_catalogue
 lots: []
 starts_at: 
-color: "#FFEEF0"
+color: "#FFE6EA"
 cover_image:
   lot_number: 194
   title: Women's Liberation Movement, two political posters protesting the Vietnam
