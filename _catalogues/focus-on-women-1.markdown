@@ -39,7 +39,16 @@ people:
   - _people/kelsie-jankowski.md
   - _people/jessica-jackson.md
   general_information: ''
-essays: []
+essays:
+- lot: 1
+  title: Swann's Second Annual Focus on Women
+  author: Devon Eastland
+  body: Swann’s second annual Focus on Women sale, as its name suggests, is an opportunity
+    to emphasize women’s experiences and contributions to literature, science, art,
+    politics, and thought. With published and manuscript material from the hand-press
+    period, through the work of living artists, bidders will have a chance to bid
+    on photographs, prints, books, and more material, while remembering women’s stories
+    through time.
 footer_pages: []
 
 ---
