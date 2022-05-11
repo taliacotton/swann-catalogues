@@ -40,6 +40,17 @@ people:
   - _people/jessica-jackson.md
   general_information: ''
 essays:
+- lot: 77
+  title: Laura Elizabeth Sterne Harrison
+  author: ''
+  body: As is so often the case, we know more about Sterne's husband, Edwin Harrison,
+    than we do of Sterne herself. Although this journal was written before she was
+    married (13 November 1873), we may surmise she was in the company of her future
+    husband, mainly because of the heavy interest in mining and metals, his career.
+    Others she calls "cousins" but that could mean anything. What comes down to us
+    is an interesting journal of an intrepid young woman whose life is under-recorded.
+    Biographies of her husband mention that she was at one time the president of the
+    Missouri State Federation of Women's Clubs and that she had three children.
 - lot: 175
   title: A Window Into Blackwell Asylum
   author: ''
