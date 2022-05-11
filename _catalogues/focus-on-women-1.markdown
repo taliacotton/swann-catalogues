@@ -79,7 +79,7 @@ essays:
     on photographs, prints, books, and ephemera while remembering women’s stories
     through time.
 - lot: 130
-  title: Signed First Edition by Critically Acclaimed Author, Toni Morrison
+  title: Toni Morrison's 1992 Historical Novel
   author: ''
   body: "Chloe Anthony Wofford Morrison, know as Toni Morrison, was an American novelist,
     noted for her examination of the Black American experience. Morrison spent her
