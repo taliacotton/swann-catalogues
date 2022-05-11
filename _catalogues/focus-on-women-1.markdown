@@ -40,8 +40,8 @@ people:
   - _people/jessica-jackson.md
   general_information: ''
 essays:
-- lot: 1
-  title: Swann's Second Annual Focus on Women
+- lot: 0
+  title: Celebrating Swann's Second Annual Focus on Women Sale
   author: Devon Eastland
   body: Swann’s second annual Focus on Women sale, as its name suggests, is an opportunity
     to emphasize women’s experiences and contributions to literature, science, art,
