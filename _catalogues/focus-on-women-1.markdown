@@ -40,6 +40,17 @@ people:
   - _people/jessica-jackson.md
   general_information: ''
 essays:
+- lot: 184
+  title: Phillis Wheatley's First Magazine Publication
+  author: ''
+  body: "Phillis Wheatley (circa 1753-1784) was seized from Senegal, West Africa,
+    and sold into American slavery when she was about eight years old. She was permitted
+    an unusual degree of formal education by her owner, John Wheatley, a Boston merchant,
+    who encouraged her literary efforts. \n\nThis is the first printed edition of
+    _Recollection,_ Wheatley’s fourth published poem, and the first time her work
+    was published in a magazine. Her poetry came to the attention of George Washington,
+    Thomas Paine, John Paul Jones, and Thomas Jefferson, nonetheless she continued
+    work as a scullery maid and died in poverty at the age of 31."
 - lot: 134
   title: The National Organization for Women
   author: ''
