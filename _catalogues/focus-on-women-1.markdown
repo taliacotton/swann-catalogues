@@ -40,6 +40,15 @@ people:
   - _people/jessica-jackson.md
   general_information: ''
 essays:
+- lot: 175
+  title: Unseen Images from Blackwell Island
+  author: ''
+  body: |-
+    In 1865, Jessie A. Stowers was born in Waddington, New York. She was an 1892 graduate of City Hospital, a nurse at Blackwell, and Superintendent of Gouveneur Hospital from 1895 until 1921.
+
+    Around 1894, when Stowers was stationed on the so-called “Welfare Island” i.e., Roosevelt Island, in the East River, the site housed a notorious complex of workhouses which included a large central hospital, an almshouse, a smallpox hospital, and a hospital designated for patients deemed “incurable” by the system, which included those suffering from mental and physical disabilities.
+
+    Featuring an album compiled during Stower’s time working as a nurse on Blackwell’s Island (now called Roosevelt Island), discover images taken before investigative reporter, Nellie Bly, infiltrated the Women’s Lunatic Asylum on Blackwell Island in 1887, and wrote _Ten Days in a Madhouse,_ an exposé on the inhumane conditions she found there.
 - lot: 184
   title: Phillis Wheatley's First Magazine Publication
   author: ''
