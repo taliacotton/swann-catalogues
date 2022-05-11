@@ -76,7 +76,7 @@ essays:
     to emphasize women’s experiences and contributions to literature, science, art,
     politics, and thought. With published and manuscript material from the hand-press
     period, through the work of living artists, bidders will have a chance to bid
-    on photographs, prints, books, and more material, while remembering women’s stories
+    on photographs, prints, books, and ephemera while remembering women’s stories
     through time.
 - lot: 130
   title: The Critically Acclaimed works of American Novelist, Toni Morrison
