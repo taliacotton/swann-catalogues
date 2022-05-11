@@ -69,16 +69,20 @@ essays:
     on photographs, prints, books, and more material, while remembering women’s stories
     through time.
 - lot: 130
-  title: Toni Morrison (1931 - 2019)
+  title: The Critically Acclaimed works of American Novelist, Toni Morrison
   author: ''
-  body: |-
-    Chloe Anthony Wofford Morrison, know as Toni Morrison, was an American novelist, noted for her examination of the Black American experience within Black communities. Morrison grew up in the Midwest and then further pursued an education at Howard University (B.A., 1953) and Cornell University (M.A., 1955).
-
-    Extending her studies, Morrison taught at Texas Southern University, Howard University, worked as a fiction editor for Random House, began teaching writing at the State University of New York and went on to join the faculty of Princeton University in 1989.
-
-    Throughout her academic career Morrison wrote several novels, children’s books, plays and short fictions. Her first text, _The Bluest Eye,_ was published in 1970, followed by _Sula_ (1973), _Song of Solomon_ (1977), _Tar Baby_ (1981) and her critically acclaimed, _Beloved_ (1987), which went on to win a Pulitzer Prize for fiction.
-
-    Her use of fantasy, her limber poetic style and her recollection of childhood folktales, contributed to the dynamism of the works we explore today.
+  body: "Chloe Anthony Wofford Morrison, know as Toni Morrison, was an American novelist,
+    noted for her examination of the Black American experience. Morrison spent her
+    childhood in the Midwest and then pursued an education at Howard University (B.A.,
+    1953) and Cornell University (M.A., 1955).\n\nExtending her studies, Morrison
+    taught at Texas Southern University, Howard University, worked as a fiction editor
+    for Random House, began teaching writing at the State University of New York and
+    went on to join the faculty of Princeton University in 1989.\n\nThroughout her
+    academic career Morrison wrote several novels, children’s books, plays and short
+    fictions. Featured here is a first edition of Morrison's 1992 novel, _Jazz,_ a
+    story of violence and passion set in New York City’s Harlem during the 1920s.
+    \n\nHer use of fantasy, her limber poetic forms and her recollection of childhood
+    folktales, contributed to the dynamism of the works we explore today."
 footer_pages: []
 
 ---
