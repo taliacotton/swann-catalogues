@@ -41,7 +41,7 @@ people:
   general_information: ''
 essays:
 - lot: 175
-  title: Nursing at Blackwell Island
+  title: A Window Into the Unseen Life of Blackwell Hospital
   author: ''
   body: |-
     In 1865, Jessie A. Stowers was born in Waddington, New York. She was an 1892 graduate of City Hospital, a nurse at Blackwell, and Superintendent of Gouveneur Hospital from 1895 until 1921.
