@@ -40,14 +40,6 @@ people:
   - _people/jessica-jackson.md
   general_information: ''
 essays:
-- lot: 
-  title: ''
-  author: ''
-  body: In an effort to preserve the stories of all women, we are also pleased to
-    include lots documenting the lives Christine La Barraque, Norma Jean Croy, the
-    Harvard College house cleaning team, and unique manuscript material created by
-    people obscured by a male-dominated lens. Through travel diaries and unpublished
-    letters the lives and characters of women come back into focus.
 - lot: 1
   title: Celebrating Swann's Second Annual Focus on Women Sale
   author: Devon Eastland
