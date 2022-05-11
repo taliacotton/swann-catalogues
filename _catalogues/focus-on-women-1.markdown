@@ -79,7 +79,7 @@ essays:
     on photographs, prints, books, and ephemera while remembering women’s stories
     through time.
 - lot: 130
-  title: The Critically Acclaimed works of American Novelist, Toni Morrison
+  title: Signed First Edition by Critically Acclaimed Author, Toni Morrison
   author: ''
   body: "Chloe Anthony Wofford Morrison, know as Toni Morrison, was an American novelist,
     noted for her examination of the Black American experience. Morrison spent her
