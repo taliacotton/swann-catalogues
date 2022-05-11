@@ -74,12 +74,10 @@ essays:
 - lot: 134
   title: The National Organization for Women
   author: ''
-  body: "Founded in 1966, The National Organization for Women (NOW), is one of the
-    largest active feminist grassroots organizations in the United States. Since it’s
-    founding, NOW has led the charge to promote societal change, eliminate discrimination,
-    protect the equal rights of all women and drive action through intersectional
-    activism.\n\nCarried through Washington D.C., find a lithographically-printed
-    protest board used during marches of the 1970s. "
+  body: |-
+    Founded in 1966, The National Organization for Women (NOW), is one of the largest active feminist grassroots organizations in the United States. Since it’s founding, NOW has led the charge to promote societal change, eliminate discrimination, protect the equal rights of all women and drive action through intersectional activism.
+
+    Used during marches of the 1970s, find a lithographically-printed protest board carried through Washington D.C.
 - lot: 1
   title: Celebrating Swann's Second Annual Focus on Women Sale
   author: Devon Eastland
