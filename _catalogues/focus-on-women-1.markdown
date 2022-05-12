@@ -9,7 +9,7 @@ cover_image:
     War, 1970s.
   image: "/v1652120687/2607-DI-Cover_zieozj.jpg"
 filename: ''
-visible: false
+visible: true
 permalink: "/books-manuscripts/focus-on-women/2607"
 sale: 2607
 title: Focus On Women
