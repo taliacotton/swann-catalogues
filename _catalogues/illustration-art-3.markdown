@@ -1,10 +1,10 @@
 ---
 layout: X_catalogue
 lots: []
-starts_at: 0
+starts_at: 
 color: "#AD926F"
 cover_image:
-  lot_number: 0
+  lot_number: 
   title: ''
   image: ''
 filename: ''
@@ -13,11 +13,25 @@ permalink: "/illustration-art/illustration-art/2608"
 sale: 2608
 title: Illustration Art
 datetime:
-  date: 2022-06-09 04:00:00 +0000
-  time: 2022-05-01 12:00:00 +0000
+  date: 2022-06-09T04:00:00.000+00:00
+  time: 2022-05-01T12:00:00.000+00:00
   time2: 
 short_description: ''
-chapters: []
+chapters:
+- session_title: ''
+  chapters:
+  - chapter_title: Children's Book and Magazine Illustration
+    lot: 1
+  - chapter_title: General Book, Magazine and Advertising Illustration
+    lot: 70
+  - chapter_title: Theater, Costume, Film and Fashion
+    lot: 146
+  - chapter_title: Cartoons, Including 'The New Yorker'
+    lot: 176
+  - chapter_title: Comic Strips
+    lot: 216
+  - chapter_title: Animation
+    lot: 231
 people:
   main_contacts:
   - _people/christine-von-der-linn.md
