@@ -2,7 +2,7 @@
 layout: X_catalogue
 lots: []
 starts_at: 
-color: "#AD926F"
+color: "#E1C28B"
 cover_image:
   lot_number: 111
   title: Earl Mayan, "The Helpful American.", 1959.
