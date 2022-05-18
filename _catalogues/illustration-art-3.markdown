@@ -6,7 +6,7 @@ color: "#AD926F"
 cover_image:
   lot_number: 
   title: ''
-  image: ''
+  image: "/v1652910118/M46118-1_3_vefeo4.jpg"
 filename: ''
 visible: false
 permalink: "/illustration-art/illustration-art/2608"
