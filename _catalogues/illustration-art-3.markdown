@@ -25,7 +25,7 @@ chapters:
   - chapter_title: General Book, Magazine & Advertising Illustration
     lot: 71
   - chapter_title: Theater, Costume, Film & Fashion
-    lot: 146
+    lot: 148
   - chapter_title: Cartoons, Including 'The New Yorker'
     lot: 176
   - chapter_title: Comic Strips
