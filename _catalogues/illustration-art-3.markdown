@@ -29,7 +29,7 @@ chapters:
   - chapter_title: Cartoons, Including 'The New Yorker'
     lot: 176
   - chapter_title: Comic Strips
-    lot: 216
+    lot: 217
   - chapter_title: Animation
     lot: 231
 people:
