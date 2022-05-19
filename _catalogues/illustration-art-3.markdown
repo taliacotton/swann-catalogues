@@ -23,7 +23,7 @@ chapters:
   - chapter_title: Children's Book & Magazine Illustration
     lot: 1
   - chapter_title: General Book, Magazine & Advertising Illustration
-    lot: 70
+    lot: 71
   - chapter_title: Theater, Costume, Film & Fashion
     lot: 146
   - chapter_title: Cartoons, Including 'The New Yorker'
