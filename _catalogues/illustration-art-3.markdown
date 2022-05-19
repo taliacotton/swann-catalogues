@@ -20,9 +20,9 @@ short_description: ''
 chapters:
 - session_title: ''
   chapters:
-  - chapter_title: Children's Book and Magazine Illustration
+  - chapter_title: Children's Book & Magazine Illustration
     lot: 1
-  - chapter_title: General Book, Magazine and Advertising Illustration
+  - chapter_title: General Book, Magazine & Advertising Illustration
     lot: 70
   - chapter_title: Theater, Costume, Film and Fashion
     lot: 146
