@@ -54,6 +54,13 @@ people:
   - _people/jessica-jackson.md
   general_information: ''
 essays:
+- lot: 112
+  title: Neysa McMein (1888 - 1949)
+  author: ''
+  body: |-
+    After selling her first drawing to the Boston Star, McMein began illustrating covers for _The Saturday Evening Post_ in 1915 where her illustrations featured glamorous and fashionable young women. Quickly gaining popularity, McMein received several commissions for the leading magazines of the time, including Collier's, McClure's, Liberty, and Woman's Home Companion.
+
+    As seen below, explore McMein's outstanding illustration used for the R. Wallace & Sons Mfg. Co. print advertisement _"Of the three types of table service, which should you use?"_
 - lot: 7
   author: ''
   body: "Emily and Sam Bush opened Bush Galleries in Norwich, Vermont in 1984 as one
