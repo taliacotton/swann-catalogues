@@ -53,7 +53,19 @@ people:
   - _people/kelsie-jankowski.md
   - _people/jessica-jackson.md
   general_information: ''
-essays: []
+essays:
+- lot: 7
+  author: ''
+  body: "Emily and Sam Bush opened Bush Galleries in Norwich, Vermont in 1984 as one
+    of the earliest retail shops specializing in original children’s book art. They
+    eventually expanded to Boston and Carmel, California. Though they also handled
+    international artists, they remained loyal to promoting the work of New England
+    illustrators.\n\nThis selection includes works by Caldecott winners Trina Schart
+    Hyman and Alice and Martin Provensen; _Cricket Magazine_ covers by Hilary Knight;
+    Tasha Tudor’s iconic portrait of Mary Lennox for Frances Hodgson Burnett’s classic
+    _The Secret Garden_.\n\nAll lots from the Bush Collection are designated Bush
+    Galleries in the provenance. "
+  title: The Emily & Sam Bush Collection
 footer_pages: []
 
 ---
