@@ -8,7 +8,7 @@ cover_image:
   title: Earl Mayan, "The Helpful American.", 1959.
   image: "/v1652910118/M46118-1_3_vefeo4.jpg"
 filename: ''
-visible: false
+visible: true
 permalink: "/illustration-art/illustration-art/2608"
 sale: 2608
 title: Illustration Art
