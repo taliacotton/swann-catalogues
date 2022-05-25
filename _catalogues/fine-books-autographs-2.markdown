@@ -22,9 +22,8 @@ chapters:
   chapters:
   - chapter_title: Americana
     lot: 1
-  - chapter_title: 'General, including Astronauts, Business Leaders, Civil Rights
-      Leaders, World Leaders, Napoleoniana, Scientists, Figures from the World Wars,
-      Entertainers, etc. '
+  - chapter_title: 'General, including Astronauts, World Leaders, Scientists, Entertainers
+      & others. '
     lot: 26
   - chapter_title: Presidents
     lot: 149
