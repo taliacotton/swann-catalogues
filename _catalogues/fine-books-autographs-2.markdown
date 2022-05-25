@@ -2,11 +2,12 @@
 layout: X_catalogue
 lots: []
 starts_at: 
-color: "#AD926F"
+color: "#002248"
 cover_image:
-  lot_number: 
-  title: ''
-  image: ''
+  lot_number: 127
+  title: Albert Einstein & Rabindranath Tagore, photograph showing the Nobel Prize
+    winners in physics and literature, signed by both, 1931.
+  image: "/v1653488944/M46013-1_1_km8yc4.jpg"
 filename: ''
 visible: false
 permalink: "/books-manuscripts/fine-books-autographs/2609"
