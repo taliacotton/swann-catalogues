@@ -15,7 +15,7 @@ sale: 2609
 title: Fine Books & Autographs
 datetime:
   date: 2022-06-16T04:00:00.000+00:00
-  time: 
+  time: 2022-05-01 10:30:00 +0000
   time2: 
 short_description: ''
 chapters:
