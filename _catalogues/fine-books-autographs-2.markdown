@@ -1,10 +1,10 @@
 ---
 layout: X_catalogue
 lots: []
-starts_at: 0
+starts_at: 
 color: "#AD926F"
 cover_image:
-  lot_number: 0
+  lot_number: 
   title: ''
   image: ''
 filename: ''
@@ -13,11 +13,27 @@ permalink: "/books-manuscripts/fine-books-autographs/2609"
 sale: 2609
 title: Fine Books & Autographs
 datetime:
-  date: 2022-06-16 04:00:00 +0000
+  date: 2022-06-16T04:00:00.000+00:00
   time: 
   time2: 
 short_description: ''
-chapters: []
+chapters:
+- session_title: ''
+  chapters:
+  - chapter_title: Americana
+    lot: 1
+  - chapter_title: 'General, including Astronauts, Business Leaders, Civil Rights
+      Leaders, World Leaders, Napoleoniana, Scientists, Figures from the World Wars,
+      Entertainers, etc. '
+    lot: 26
+  - chapter_title: Presidents
+    lot: 149
+  - chapter_title: Musicians
+    lot: 203
+  - chapter_title: Writers
+    lot: 222
+  - chapter_title: Artists
+    lot: 265
 people:
   main_contacts:
   - _people/john-d.larson.md
