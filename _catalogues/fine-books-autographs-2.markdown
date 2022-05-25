@@ -34,6 +34,10 @@ chapters:
     lot: 222
   - chapter_title: Artists
     lot: 265
+  - chapter_title: Nineteenth & Twentieth Century Literature
+    lot: 279
+  - chapter_title: Art, Press & Illustrated Books
+    lot: 376
 people:
   main_contacts:
   - _people/john-d.larson.md
