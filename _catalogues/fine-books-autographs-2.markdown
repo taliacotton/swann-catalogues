@@ -21,10 +21,10 @@ short_description: ''
 chapters:
 - session_title: ''
   chapters:
-  - chapter_title: Americana
+  - chapter_title: 'Autographs: Americana'
     lot: 1
-  - chapter_title: 'General, including Astronauts, World Leaders, Scientists, Entertainers
-      & others. '
+  - chapter_title: 'General: Astronauts, World Leaders, Scientists, Entertainers &
+      others'
     lot: 26
   - chapter_title: Presidents
     lot: 149
@@ -34,7 +34,7 @@ chapters:
     lot: 222
   - chapter_title: Artists
     lot: 265
-  - chapter_title: Nineteenth & Twentieth Century Literature
+  - chapter_title: 19th & 20th Century Literature
     lot: 279
   - chapter_title: Art, Press & Illustrated Books
     lot: 376
@@ -42,6 +42,7 @@ people:
   main_contacts:
   - _people/john-d.larson.md
   - _people/marco-tomaschett.md
+  - _people/david-rivera.md
   officers:
   - _people/george-s.lowry.md
   - _people/Blank Spot.md
