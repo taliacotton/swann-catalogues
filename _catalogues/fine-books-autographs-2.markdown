@@ -9,7 +9,7 @@ cover_image:
     winners in physics and literature, signed by both, 1931.
   image: "/v1653491085/2609-DI-cover_vbmfpn.jpg"
 filename: ''
-visible: false
+visible: true
 permalink: "/books-manuscripts/fine-books-autographs/2609"
 sale: 2609
 title: Fine Books & Autographs
