@@ -11,7 +11,7 @@ filename: ''
 visible: false
 permalink: "/books-manuscripts/maps-and-atlases/2610"
 sale: 2610
-title: Maps & Atlases, Natural History & Color-Plate Books
+title: Maps & Atlases, Natural History & Color Plate Books
 datetime:
   date: 2022-06-23T04:00:00.000+00:00
   time: 2022-05-01T10:30:00.000+00:00
