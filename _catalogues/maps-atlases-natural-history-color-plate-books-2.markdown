@@ -1,10 +1,10 @@
 ---
 layout: X_catalogue
 lots: []
-starts_at: 0
+starts_at: 
 color: "#AD926F"
 cover_image:
-  lot_number: 0
+  lot_number: 
   title: ''
   image: ''
 filename: ''
@@ -13,8 +13,8 @@ permalink: "/books-manuscripts/maps-and-atlases/2610"
 sale: 2610
 title: Maps & Atlases, Natural History & Color-Plate Books
 datetime:
-  date: 2022-06-23 04:00:00 +0000
-  time: 2022-05-01 10:30:00 +0000
+  date: 2022-06-23T04:00:00.000+00:00
+  time: 2022-05-01T10:30:00.000+00:00
   time2: 
 short_description: ''
 chapters:
@@ -24,7 +24,7 @@ chapters:
     lot: 1
   - chapter_title: Atlases & Books with Maps
     lot: 206
-  - chapter_title: Color-Plate & Illustrated Books
+  - chapter_title: Color Plate & Illustrated Books
     lot: 252
   - chapter_title: Historical Prints & Drawings
     lot: 302
