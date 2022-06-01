@@ -6,7 +6,7 @@ color: "#AD926F"
 cover_image:
   lot_number: 
   title: ''
-  image: ''
+  image: "/v1654106344/2610-DI-cover_ybcygb.jpg"
 filename: ''
 visible: false
 permalink: "/books-manuscripts/maps-and-atlases/2610"
