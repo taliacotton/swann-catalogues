@@ -31,6 +31,7 @@ chapters:
 people:
   main_contacts:
   - _people/caleb-kiffer.md
+  - _people/david-rivera.md
   officers:
   - _people/george-s.lowry.md
   - _people/Blank Spot.md
