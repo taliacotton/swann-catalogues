@@ -2,7 +2,7 @@
 layout: X_catalogue
 lots: []
 starts_at: 
-color: "#E6DF76"
+color: "#E9E06B"
 cover_image:
   lot_number: 219
   title: 'John Bachmann, Panorama of the Seat of War, New York, 1861-62. '
