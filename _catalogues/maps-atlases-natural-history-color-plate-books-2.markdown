@@ -8,7 +8,7 @@ cover_image:
   title: 'John Bachmann, Panorama of the Seat of War, New York, 1861-62. '
   image: "/v1654106344/2610-DI-cover_ybcygb.jpg"
 filename: ''
-visible: false
+visible: true
 permalink: "/books-manuscripts/maps-and-atlases/2610"
 sale: 2610
 title: Maps & Atlases, Natural History & Color Plate Books
