@@ -49,7 +49,16 @@ people:
   - _people/kelsie-jankowski.md
   - _people/jessica-jackson.md
   general_information: ''
-essays: []
+essays:
+- lot: 138
+  author: ''
+  body: Founded by Nathaniel Currier in 1835, Currier & Ives was the major poster
+    firm of the nineteenth century. James Merritt Ives joined Currier in 1857, and
+    the two produced some of the most popular images of the period through 1907—with
+    the bulk of their work being done in the 1860s. Together they published thousands
+    of prints, in three folio sizes (small, medium and large) of scenes that are still
+    sought by collectors today.
+  title: Currier & Ives
 footer_pages: []
 
 ---
