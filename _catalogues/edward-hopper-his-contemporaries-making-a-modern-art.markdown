@@ -14,7 +14,7 @@ sale: 2611
 title: 'Edward Hopper & His Contemporaries: Making a Modern Art'
 datetime:
   date: 2022-06-30T04:00:00.000+00:00
-  time: 2022-06-01T10:30:00.000+00:00
+  time: 2022-06-01 12:00:00 +0000
   time2: 
 short_description: ''
 chapters:
