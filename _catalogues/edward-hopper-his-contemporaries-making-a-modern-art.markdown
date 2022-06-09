@@ -17,7 +17,19 @@ datetime:
   time: 2022-06-01T10:30:00.000+00:00
   time2: 
 short_description: ''
-chapters: []
+chapters:
+- session_title: ''
+  chapters:
+  - chapter_title: 1900 - 1910
+    lot: 1
+  - chapter_title: 1910 - 1920
+    lot: 49
+  - chapter_title: 1920 - 1930
+    lot: 97
+  - chapter_title: 1930 - 1940
+    lot: 173
+  - chapter_title: 1940 - 1950
+    lot: 251
 people:
   main_contacts:
   - _people/todd-weyman.md
