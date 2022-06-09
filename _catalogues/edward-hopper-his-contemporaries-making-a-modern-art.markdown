@@ -2,7 +2,7 @@
 layout: X_catalogue
 lots: []
 starts_at: 
-color: "#AD926F"
+color: "#B50015"
 cover_image:
   lot_number: 127
   title: Edward Hopper, The Railroad, etching, 1922.
