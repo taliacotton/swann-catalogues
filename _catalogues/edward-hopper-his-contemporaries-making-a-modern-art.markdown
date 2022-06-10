@@ -99,7 +99,7 @@ essays:
 
     In 1929 with the stock market crash, the prosperity and hopefulness of the decade ended. Nevertheless, the decade that followed would bring unprecedented opportunities for artists in America.
 - lot: 173
-  title: 1930 - 1940
+  title: ''
   author: ''
   body: |-
     The stock market crash of 1929 and the Great Depression that followed changed American society and politics irrevocably. The decade was an extraordinary opportunity for artists to find employment through the Works Progress Administration (WPA) and was also a time during which divergent approaches towards American art solidified, creating tension between artists as to what constituted true American art.
@@ -151,7 +151,7 @@ essays:
     Harold Rosenberg.\n\nBy the end of the decade, New York had emerged as the new
     center of the art world and American artists were steadily leading the way in
     emerging forms of expression."
-  title: 1940 - 1950
+  title: ''
 footer_pages: []
 
 ---
