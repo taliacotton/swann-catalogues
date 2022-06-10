@@ -115,6 +115,43 @@ essays:
     In a broader sense, the public found access to an art that was shaped by an American identity. In addition to Hopper’s 1933 exhibition, art exhibitions began to focus on contemporary American art. In 1931, the Whitney Museum opened with Gertrude Vanderbilt Whitney’s collection after it was rejected by the Metropolitan Museum of Art, and its mandate was to display and collect works by contemporary artists. Many of its exhibitions were devoted to Realists such as Hopper, but it also displayed modernists working in international styles, including Davis. In 1931-33, Rockefeller Center was constructed with murals by leading American artists. This was, of course, also not free from scandal, as Diego Rivera’s mural _Man at the Crossroads_ was destroyed because it depicted socialist themes and Vladimir Lenin.
 
     The growth of Communism and Fascism abroad resulted in an undercurrent in American society and art throughout the decade. America’s population had doubled between 1890 and 1930, and by 1929 one in 10 Americans were born abroad or had an immigrant parent. Many artists themselves were born outside the U.S. or were first generation Americans and were loosely aligned with political movements. However, most artists who were affiliated with the Communist party in the 1930s abandoned it when Stalin signed a nonaggression pact with Hitler in 1939. Artists were more interested in depicting social protest than radical political movements. As the growth of Fascism loomed across the Atlantic, European artists moved to New York to escape conflict and persecution. By the end of the decade, the city was poised to become a new artistic center of the world.
+- lot: 251
+  author: ''
+  body: "The 1940s was a decade of conflicting paths for artists. If Benton was still
+    America’s most popular artist at the beginning of the decade the climate changed
+    dramatically as New York established itself as the leading international center
+    for art. \n\nRepresentational art continued with the work of the Regionalists,
+    and others such as Ben Shahn and Charles Burchfield. Edward Hopper continued to
+    paint, solidifying his place as a great American modernist with his painting _Nighthawks_
+    in 1942. Non-representational art also proliferated, supported by a growing number
+    of organizations like the Museum of Non-Objective Painting (opened in 1939).\n\nHowever,
+    while American artists had organized themselves and were trying to find an American
+    voice, European artists were fleeing the war and making their way to New York.
+    America joined the Allies in fighting Germany in 1941 after Pearl Harbor. While
+    some young artists left New York to fight, refugee artists from Europe arrived
+    in New York and inserted themselves in artistic circles. The Surrealists, including
+    Max Ernst and André Breton, arrived in the early 1940s. In 1941, Fernand Léger
+    and Piet Mondrian were invited to join the American Abstract Artists group. While
+    in the past, American artists were able to view European modern works of art in
+    galleries or museums, now they were engaging with their creators on a personal
+    level. New York became the center of exchanged ideas and innovation.\n\nAlso fleeing
+    Europe was Peggy Guggenheim, the heiress and collector of modern European art
+    who opened her gallery Art of This Century in 1942. It served a threefold purpose:
+    a space for Guggenheim to display her own collection of European modernists, a
+    gallery where she sold works of art, and a gathering place for artists. Guggenheim
+    gave Jackson Pollock, who had trained with Thomas Hart Benton, his first show
+    in 1943. He was working in a surrealistic style at the beginning of the decade,
+    but by 1947 his drip technique emerged.\n\nThe 1940s were marked by the emergence
+    of the New York School and Abstract Expressionism. Artists like Pollock, Lee Krasner,
+    Willem de Kooning, Mark Rothko, Adolph Gottlieb and Robert Motherwell were moving
+    increasingly towards abstraction. Their abstractions had bold, expressive and
+    spontaneous brushstrokes. Rooted in the Surrealist concept of tapping the unconscious,
+    the artists aimed to make paintings that had an immediacy of expression. Their
+    work was supported by important New York art critics like Clement Greenberg and
+    Harold Rosenberg.\n\nBy the end of the decade, New York had emerged as the new
+    center of the art world and American artists were steadily leading the way in
+    emerging forms of expression."
+  title: ''
 footer_pages: []
 
 ---
