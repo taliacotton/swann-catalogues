@@ -151,7 +151,7 @@ essays:
     Harold Rosenberg.\n\nBy the end of the decade, New York had emerged as the new
     center of the art world and American artists were steadily leading the way in
     emerging forms of expression."
-  title: ''
+  title: 1940 - 1950
 footer_pages: []
 
 ---
