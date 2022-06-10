@@ -56,7 +56,7 @@ people:
   general_information: ''
 essays:
 - lot: 1
-  title: 1900 - 1910
+  title: ''
   author: ''
   body: |-
     At the turn of the twentieth century, artists began to confront the dominance of European academic influences within the American art sphere. In search of a new status quo, leading American artists began to challenge these systems—such as the National Academy of Design and the American Impressionists—in hopes to create and define an American artistic identity. As artists became aligned with the Ashcan School and began depicting New York in a Realist style, they found themselves not only transforming the status quo, but leading an emergent avant-garde movement.
@@ -69,7 +69,7 @@ essays:
 
     The Ashcan artists were seen as the avant-garde in American art, but the European modernists were on the cusp of being introduced. An early supporter of European modern art in New York was Alfred Stieglitz who opened a gallery in 1905 called the 291 Gallery. He began to exhibit cutting-edge European art in 1908. Stieglitz also despised the gatekeeping incited by The National Academy of the Arts. In response, he showcased European contemporaries with drawings by Auguste Rodin, and artists less known in America, including Cézanne, Matisse and Picasso. The first exhibition of Matisse's work ever held in the United States, which included _Nude in the Forest_ (1906), exhibited at 291 Gallery. These exhibitions set the stage for a defining moment in art of the twentieth century: the 1913 Armory Show, which opened in its first iteration at the 69th Regiment Armory on Park Avenue and 25th Street, New York, across the street from Swann Auction Galleries' current location.
 - lot: 49
-  title: 1910 - 1920
+  title: ''
   author: ''
   body: |-
     Inspired by time spent in Europe, around 1910, Arthur Dove became the first American artist to paint an abstract painting. At this time, abstract art was still largely unknown by many American artists. That would change in 1913 with the Armory Show, which became a catalyst for modern artists to embrace European influences.
@@ -82,7 +82,7 @@ essays:
 
     As artists continued to develop an American modern art, there were profound changes to global political stability. The carnage of World War I was impossible to ignore. Charles Burchfield recorded his fear of being drafted in his diaries and Georgia O’Keeffe’s brother enlisted immediately. George Bellows was explicit of his view of war in his work; his _War Series_ was a group of lithographs that depicted atrocities of war carried out by the Germans. Stieglitz closed 291 in 1917 due to financial difficulties caused by the war and decided to focus on his own photography.
 - lot: 97
-  title: 1920 - 1930
+  title: ''
   author: ''
   body: |-
     The 1920s were a time of prosperity in America. World War I had ended and the pessimism of the 1910s turned into optimism for modern life. American artists continued to focus on developing their artistic voices and both institutions and galleries were formed to bring their work to a broader audience.
