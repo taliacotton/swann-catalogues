@@ -56,6 +56,169 @@ people:
   general_information: ''
 essays:
 - lot: 1
+  title: Edward Hopper & His Contemporaries
+  body: |-
+    Berenice Abbott
+
+    John Taylor Arms
+
+    George C. Ault
+
+    Milton Avery
+
+    Peggy Bacon
+
+    Gifford Beal
+
+    George Bellows
+
+    Gershon Benjamin
+
+    Thomas Hart Benton
+
+    Alice Conklin Bevin
+
+    Isabel Bishop
+
+    Emil J. Bisttram
+
+    Oscar Bluemner
+
+    Mortimer Borne
+
+    Charles Burchfield
+
+    Paul Cadmus
+
+    Arthur B. Carles
+
+    Clarence Carter
+
+    Minna Citron
+
+    Howard Cook
+
+    Gordon H. Coster
+
+    Ralston Crawford
+
+    Stuart Davis
+
+    Arthur B. Davies
+
+    Adolf Dehn
+
+    Joseph Delaney
+
+    Charles Demuth
+
+    H. F. Dutcher
+
+    Mabel Dwight
+
+    Fritz Eichenberg
+
+    Walker Evans
+
+    Don Freeman
+
+    Ernest Fiene
+
+    Issac Friedlander
+
+    Wanda Gág
+
+    Douglas Gorshine
+
+    Marsden Hartley
+
+    Childe Hassam
+
+    Robert Henri
+
+    Lewis Hine
+
+    Stefan Hirsch
+
+    Edward Hopper
+
+    Ellison Hoover
+
+    Rockwell Kent
+
+    Walt Kuhn
+
+    Kuniyoshi
+
+    Armin Landeck
+
+    Clare Leighton
+
+    Martin Lewis
+
+    Louis Lozowick
+
+    Luigi Lucioni
+
+    John Marin
+
+    Kyra Markham
+
+    Jack Marków
+
+    Reginald Marsh
+
+    Jam Matulka
+
+    Leo Meissner
+
+    William Meyerowitz
+
+    Georgia O’Keefe
+
+    Guy Pène du Bois
+
+    Joseph Pennell
+
+    Charles E. Prendergast
+
+    Leonard Pytlak
+
+    Robert Riggs
+
+    Anton Schutz
+
+    Charles Sheeler
+
+    Everett Shinn
+
+    John Sloan
+
+    William Sommer
+
+    Raphael Soyer
+
+    Benton Spruance
+
+    Paul Strand
+
+    Joseph Stella
+
+    Maurice Sterne
+
+    Abraham Walkowitz
+
+    Max Weber
+
+    Stow Wengenroth
+
+    Grant Wood
+
+    Marguerite Zorach
+
+    William Zorach
+  author: ''
+- lot: 1
   title: ''
   author: ''
   body: |-
