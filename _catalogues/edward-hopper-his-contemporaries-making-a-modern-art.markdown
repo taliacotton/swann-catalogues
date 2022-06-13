@@ -60,7 +60,7 @@ essays:
   body: "![](https://res.cloudinary.com/dcryyrd42/image/upload/v1655144230/EdwardHopper_HisContemporaries_tco6ko.png)"
   author: ''
 - lot: 1
-  title: ''
+  title: 1900 - 1910
   author: ''
   body: |-
     At the turn of the twentieth century, artists began to confront the dominance of European academic influences within the American art sphere. In search of a new status quo, leading American artists began to challenge these systems—such as the National Academy of Design and the American Impressionists—in hopes to create and define an American artistic identity. As artists became aligned with the Ashcan School and began depicting New York in a Realist style, they found themselves not only transforming the status quo, but leading an emergent avant-garde movement.
