@@ -8,7 +8,7 @@ cover_image:
   title: Edward Hopper, The Railroad, etching, 1922.
   image: "/v1654805100/2611-DI-cover_bbzfgq.jpg"
 filename: ''
-visible: false
+visible: true
 permalink: "/fine-art/edward-hopper-and-his-contemporaries-making-a-modern-art/2611"
 sale: 2611
 title: 'Edward Hopper & His Contemporaries: Making a Modern Art'
