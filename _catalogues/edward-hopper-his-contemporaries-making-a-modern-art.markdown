@@ -57,7 +57,7 @@ people:
 essays:
 - lot: 1
   title: ''
-  body: "![](https://res.cloudinary.com/dcryyrd42/image/upload/v1655144089/EdwardHopper_HisContemporaries_oa0jjc.png)"
+  body: "![](https://res.cloudinary.com/dcryyrd42/image/upload/v1655144230/EdwardHopper_HisContemporaries_tco6ko.png)"
   author: ''
 - lot: 1
   title: ''
