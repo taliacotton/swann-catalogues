@@ -33,7 +33,12 @@ people:
   - _people/todd-weyman.md
   - _people/director.md
   - _people/rick-stattler.md
-  administration: []
+  administration:
+  - _people/vice-president-controller.md
+  - _people/client-accounting.md
+  - _people/operations-manager.md
+  - _people/kelsie-jankowski.md
+  - _people/jessica-jackson.md
   general_information: ''
 essays: []
 footer_pages: []
