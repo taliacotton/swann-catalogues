@@ -4,9 +4,9 @@ lots: []
 starts_at: 0
 color: "#AD926F"
 cover_image:
-  lot_number: 0
-  title: ''
-  image: ''
+  lot_number: 164
+  title: Leodoldo Metlicovitz, Fleurs De Mousse, 1899.
+  image: "/v1657123113/2612-DICover_l7wqo4.jpg"
 filename: ''
 visible: false
 permalink: "/vintage-posters/august-sale/2612"
@@ -42,6 +42,5 @@ people:
   general_information: ''
 essays: []
 footer_pages: []
-published: false
 
 ---
