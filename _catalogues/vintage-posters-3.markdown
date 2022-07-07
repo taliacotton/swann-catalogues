@@ -1,7 +1,7 @@
 ---
 layout: X_catalogue
 lots: []
-starts_at: 0
+starts_at: 
 color: "#AD926F"
 cover_image:
   lot_number: 164
@@ -13,8 +13,8 @@ permalink: "/vintage-posters/august-sale/2612"
 sale: 2612
 title: Vintage Posters
 datetime:
-  date: 2022-08-04 04:00:00 +0000
-  time: 
+  date: 2022-08-04T04:00:00.000+00:00
+  time: 2022-07-01 10:30:00 +0000
   time2: 
 short_description: ''
 chapters: []
