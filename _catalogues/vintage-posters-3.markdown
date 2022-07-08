@@ -17,7 +17,25 @@ datetime:
   time: 2022-07-01 10:30:00 +0000
   time2: 
 short_description: ''
-chapters: []
+chapters:
+- session_title: ''
+  chapters:
+  - chapter_title: World War I & World War II
+    lot: 1
+  - chapter_title: Art Nouveau
+    lot: 155
+  - chapter_title: Food & Beverage
+    lot: 190
+  - chapter_title: Automobile & Bicycle
+    lot: 210
+  - chapter_title: Beach & Summer Resort
+    lot: 242
+  - chapter_title: Travel
+    lot: 299
+  - chapter_title: Theatrical & Movie
+    lot: 384
+  - chapter_title: Artist & Exhibition
+    lot: 402
 people:
   main_contacts:
   - _people/nicholas-d.lowry.md
