@@ -2,7 +2,7 @@
 layout: X_catalogue
 lots: []
 starts_at: 
-color: "#E17826"
+color: "#FF9963"
 cover_image:
   lot_number: 164
   title: Leodoldo Metlicovitz, Fleurs De Mousse, 1899.
