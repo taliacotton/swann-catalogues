@@ -20,7 +20,7 @@ short_description: ''
 chapters:
 - session_title: ''
   chapters:
-  - chapter_title: World War I & World War II
+  - chapter_title: World War I & World War II (1-139)
     lot: 1
   - chapter_title: Art Nouveau
     lot: 155
