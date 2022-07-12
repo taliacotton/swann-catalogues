@@ -28,9 +28,9 @@ chapters:
     lot: 190
   - chapter_title: Automobile & Bicycle (210-232)
     lot: 210
-  - chapter_title: Beach & Summer Resort
+  - chapter_title: Beach & Summer Resort (242-298)
     lot: 242
-  - chapter_title: Travel
+  - chapter_title: Travel (299-388)
     lot: 299
   - chapter_title: Theatrical & Movie
     lot: 384
