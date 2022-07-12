@@ -34,7 +34,7 @@ chapters:
     lot: 299
   - chapter_title: Theatrical & Movie (384-401)
     lot: 384
-  - chapter_title: Artist & Exhibition
+  - chapter_title: Artist & Exhibition (402-411)
     lot: 402
 people:
   main_contacts:
