@@ -22,11 +22,11 @@ chapters:
   chapters:
   - chapter_title: World War I & World War II (1-139)
     lot: 1
-  - chapter_title: Art Nouveau
+  - chapter_title: Art Nouveau (155-189)
     lot: 155
-  - chapter_title: Food & Beverage
+  - chapter_title: Food & Beverage (190-209)
     lot: 190
-  - chapter_title: Automobile & Bicycle
+  - chapter_title: Automobile & Bicycle (210-232)
     lot: 210
   - chapter_title: Beach & Summer Resort
     lot: 242
