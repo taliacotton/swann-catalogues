@@ -8,7 +8,7 @@ cover_image:
   title: Leodoldo Metlicovitz, Fleurs De Mousse, 1899.
   image: "/v1657637013/2612-DICover_tfxnsl.jpg"
 filename: ''
-visible: true
+visible: false
 permalink: "/vintage-posters/august-sale/2612"
 sale: 2612
 title: Vintage Posters
