@@ -17,7 +17,27 @@ datetime:
   time: 2022-07-01 10:30:00 +0000
   time2: 
 short_description: ''
-chapters: []
+chapters:
+- session_title: ''
+  chapters:
+  - chapter_title: Late 19th & Early 20th Century
+    lot: 1
+  - chapter_title: 1920s - 1930s
+    lot: 19
+  - chapter_title: 1940s
+    lot: 63
+  - chapter_title: Tom of Finland & Other Illustrators
+    lot: 130
+  - chapter_title: Gay Liberation Era
+    lot: 213
+  - chapter_title: AIDS Era
+    lot: 241
+  - chapter_title: Keith Haring
+    lot: 247
+  - chapter_title: 1980s - 1990s
+    lot: 326
+  - chapter_title: 2000 - 2021
+    lot: 420
 people:
   main_contacts:
   - _people/nicholas-d.lowry.md
@@ -40,6 +60,5 @@ people:
   general_information: ''
 essays: []
 footer_pages: []
-published: false
 
 ---
