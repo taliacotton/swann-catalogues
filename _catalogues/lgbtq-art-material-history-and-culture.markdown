@@ -11,7 +11,7 @@ filename: ''
 visible: false
 permalink: "/swann/lgbtq-art-material-culture-history/2613"
 sale: 2613
-title: LGBTQ+ Art, Material History and Culture
+title: LGBTQ+ Art, Material Culture and History
 datetime:
   date: 2022-08-18 04:00:00 +0000
   time: 2022-07-01 10:30:00 +0000
