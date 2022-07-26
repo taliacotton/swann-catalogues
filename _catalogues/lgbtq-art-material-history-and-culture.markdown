@@ -2,7 +2,7 @@
 layout: X_catalogue
 lots: []
 starts_at: 
-color: "#AD926F"
+color: "#CF00DF"
 cover_image:
   lot_number: 219
   title: "“Homosexuals are American Citizens Too” sign from Philadelphia’s Annual
