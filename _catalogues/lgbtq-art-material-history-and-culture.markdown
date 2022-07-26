@@ -42,6 +42,14 @@ chapters:
 people:
   main_contacts:
   - _people/nicholas-d.lowry.md
+  - _people/christine-von-der-linn.md
+  - _people/rick-stattler.md
+  - _people/deborah-rogal.md
+  - _people/jennifer-de-candia.md
+  - _people/corey-serrant.md
+  - _people/john-d.larson.md
+  - _people/todd-weyman.md
+  - _people/marco-tomaschett.md
   officers:
   - _people/george-s.lowry.md
   - _people/Blank Spot.md
