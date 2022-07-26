@@ -1,20 +1,21 @@
 ---
 layout: X_catalogue
 lots: []
-starts_at: 0
+starts_at: 
 color: "#AD926F"
 cover_image:
-  lot_number: 0
-  title: ''
-  image: ''
+  lot_number: 219
+  title: "“Homosexuals are American Citizens Too” sign from Philadelphia’s Annual
+    Reminder march, ink on cardboard, 1969."
+  image: "/v1658859600/M45998-5_1_dcfjga.jpg"
 filename: ''
 visible: false
 permalink: "/swann/lgbtq-art-material-culture-history/2613"
 sale: 2613
 title: LGBTQ+ Art, Material Culture and History
 datetime:
-  date: 2022-08-18 04:00:00 +0000
-  time: 2022-07-01 10:30:00 +0000
+  date: 2022-08-18T04:00:00.000+00:00
+  time: 2022-07-01T10:30:00.000+00:00
   time2: 
 short_description: ''
 chapters:
