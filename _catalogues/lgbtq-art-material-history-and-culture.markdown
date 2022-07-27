@@ -34,7 +34,7 @@ chapters:
   - chapter_title: AIDS Era
     lot: 241
   - chapter_title: Keith Haring
-    lot: 247
+    lot: 267
   - chapter_title: 1980s - 1990s
     lot: 326
   - chapter_title: 2000 - 2021
