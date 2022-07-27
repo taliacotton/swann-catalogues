@@ -9,7 +9,7 @@ cover_image:
     Reminder march, ink on cardboard, 1969."
   image: "/v1658859600/M45998-5_1_dcfjga.jpg"
 filename: ''
-visible: false
+visible: true
 permalink: "/swann/lgbtq-art-material-culture-history/2613"
 sale: 2613
 title: LGBTQ+ Art, Material Culture and History
