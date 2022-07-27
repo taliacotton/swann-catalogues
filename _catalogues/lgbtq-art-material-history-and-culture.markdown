@@ -5,7 +5,7 @@ starts_at:
 color: "#CF00DF"
 cover_image:
   lot_number: 219
-  title: "“Homosexuals are American Citizens Too” sign from Philadelphia’s Annual
+  title: "“Homosexuals are American Citizens Also” sign from Philadelphia’s Annual
     Reminder march, ink on cardboard, 1969."
   image: "/v1658859600/M45998-5_1_dcfjga.jpg"
 filename: ''
