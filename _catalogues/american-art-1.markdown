@@ -1,20 +1,21 @@
 ---
 layout: X_catalogue
 lots: []
-starts_at: 0
+starts_at: 
 color: "#D38316"
 cover_image:
-  lot_number: 0
-  title: Paul Resika, The Hill at Amity, oil, 1965. Estimate $7,000 to $10,000.
-  image: "/v1661966374/M44536-2_1_ilorsg.jpg"
+  lot_number: 133
+  title: Martin Lewis, Sunflowers, Queensboro Bridge, watercolor, circa 1930. Estimate
+    $6,000 to $9,000.
+  image: "/v1661978010/M46826-29_1_swg5dx.jpg"
 filename: ''
 visible: false
 permalink: "/fine-art/american-art/2614"
 sale: 2614
 title: American Art
 datetime:
-  date: 2022-09-22 04:00:00 +0000
-  time: 2022-08-01 12:00:00 +0000
+  date: 2022-09-22T04:00:00.000+00:00
+  time: 2022-08-01T12:00:00.000+00:00
   time2: 
 short_description: ''
 chapters:
