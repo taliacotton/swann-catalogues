@@ -2,7 +2,7 @@
 layout: X_catalogue
 lots: []
 starts_at: 
-color: "#0E7C6B"
+color: "#FFF0BE"
 cover_image:
   lot_number: 133
   title: Martin Lewis, Sunflowers, Queensboro Bridge, watercolor, circa 1930. Estimate
