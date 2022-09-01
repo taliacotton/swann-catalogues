@@ -9,7 +9,7 @@ cover_image:
     $6,000 to $9,000.
   image: "/v1661978010/M46826-29_1_swg5dx.jpg"
 filename: ''
-visible: false
+visible: true
 permalink: "/fine-art/american-art/2614"
 sale: 2614
 title: American Art
