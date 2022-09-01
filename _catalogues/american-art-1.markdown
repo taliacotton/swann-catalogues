@@ -25,13 +25,13 @@ chapters:
     lot: 1
   - chapter_title: Early 1900s
     lot: 38
-  - chapter_title: 1910s and 1920s
+  - chapter_title: 1910s & 1920s
     lot: 61
-  - chapter_title: 1930s and 1940s
+  - chapter_title: 1930s & 1940s
     lot: 123
-  - chapter_title: 1950s and 1960s
+  - chapter_title: 1950s & 1960s
     lot: 196
-  - chapter_title: 1970s and Later
+  - chapter_title: 1970s & Later
     lot: 255
 people:
   main_contacts:
