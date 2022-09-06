@@ -17,7 +17,21 @@ datetime:
   time: 2022-09-01 12:00:00 +0000
   time2: 
 short_description: ''
-chapters: []
+chapters:
+- session_title: ''
+  chapters:
+  - chapter_title: American Revolution
+    lot: 8
+  - chapter_title: Civil War
+    lot: 49
+  - chapter_title: New York
+    lot: 205
+  - chapter_title: Papers of Gideon Welles
+    lot: 261
+  - chapter_title: The West
+    lot: 268
+  - chapter_title: Latin Americana & The Caribbean
+    lot: 322
 people:
   main_contacts:
   - _people/rick-stattler.md
