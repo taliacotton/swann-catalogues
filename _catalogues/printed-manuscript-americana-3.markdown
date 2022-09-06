@@ -1,20 +1,21 @@
 ---
 layout: X_catalogue
 lots: []
-starts_at: 0
+starts_at: 
 color: "#AD926F"
 cover_image:
-  lot_number: 0
-  title: ''
-  image: ''
+  lot_number: 54
+  title: Cherbury F. Lothrop, The 16th Maine Volunteers, First Day at the Battle of
+    Gettysburg, oil, circa 1900. Estimate $15,000 to $25,000.
+  image: "/v1662498258/M46580-1_1_be2lmt.jpg"
 filename: ''
 visible: false
 permalink: "/books-manuscripts/printed-manuscript-americana/2615"
 sale: 2615
 title: Printed & Manuscript Americana
 datetime:
-  date: 2022-09-29 04:00:00 +0000
-  time: 2022-09-01 12:00:00 +0000
+  date: 2022-09-29T04:00:00.000+00:00
+  time: 2022-09-01T12:00:00.000+00:00
   time2: 
 short_description: ''
 chapters:
