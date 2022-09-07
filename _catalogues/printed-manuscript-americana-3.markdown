@@ -2,7 +2,7 @@
 layout: X_catalogue
 lots: []
 starts_at: 
-color: "#AD926F"
+color: "#D4A869"
 cover_image:
   lot_number: 54
   title: Cherbury F. Lothrop, The 16th Maine Volunteers, First Day at the Battle of
