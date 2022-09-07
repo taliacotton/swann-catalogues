@@ -9,7 +9,7 @@ cover_image:
     Gettysburg, oil, circa 1900. Estimate $15,000 to $25,000.
   image: "/v1662498258/M46580-1_1_be2lmt.jpg"
 filename: ''
-visible: false
+visible: true
 permalink: "/books-manuscripts/printed-manuscript-americana/2615"
 sale: 2615
 title: Printed & Manuscript Americana
