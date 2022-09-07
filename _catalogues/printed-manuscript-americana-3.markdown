@@ -15,7 +15,7 @@ sale: 2615
 title: Printed & Manuscript Americana
 datetime:
   date: 2022-09-29T04:00:00.000+00:00
-  time: 2022-09-01T12:00:00.000+00:00
+  time: 2022-09-01 10:30:00 +0000
   time2: 
 short_description: ''
 chapters:
