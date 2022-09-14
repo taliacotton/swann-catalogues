@@ -2,7 +2,7 @@
 layout: X_catalogue
 lots: []
 starts_at: 
-color: "#AD926F"
+color: "#FA8F00"
 cover_image:
   lot_number: 34
   title: Charles White, Folk Singer, Linoleum cut on artificial Japan paper, 1957.
