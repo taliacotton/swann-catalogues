@@ -1,27 +1,36 @@
 ---
 layout: X_catalogue
 lots: []
-starts_at: 0
+starts_at: 
 color: "#AD926F"
 cover_image:
-  lot_number: 0
-  title: ''
-  image: ''
+  lot_number: 34
+  title: Charles White, Folk Singer, Linoleum cut on artificial Japan paper, 1957.
+    $20,000 to $30,000.
+  image: "/v1663187442/2616-DI-Cover_gpkbwq.jpg"
 filename: ''
 visible: false
 permalink: "/fine-art/african-american-art/2616"
 sale: 2616
 title: African American Art
 datetime:
-  date: 2022-10-06 04:00:00 +0000
-  time: 2022-09-01 12:00:00 +0000
+  date: 2022-10-06T04:00:00.000+00:00
+  time: 2022-09-01T12:00:00.000+00:00
   time2: 
 short_description: ''
 chapters:
 - session_title: ''
   chapters:
-  - chapter_title: ''
-    lot: 
+  - chapter_title: Harlem Renaissance / Modern
+    lot: 1
+  - chapter_title: Post-War
+    lot: 22
+  - chapter_title: Contemporary - 1st Generation
+    lot: 82
+  - chapter_title: Contemporary - 2nd Generation
+    lot: 140
+  - chapter_title: Contemporary - Now
+    lot: 189
 people:
   main_contacts:
   - _people/director.md
