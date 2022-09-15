@@ -9,7 +9,7 @@ cover_image:
     $20,000 to $30,000.
   image: "/v1663187442/2616-DI-Cover_gpkbwq.jpg"
 filename: ''
-visible: false
+visible: true
 permalink: "/fine-art/african-american-art/2616"
 sale: 2616
 title: African American Art
