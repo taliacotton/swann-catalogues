@@ -26,11 +26,11 @@ chapters:
   - chapter_title: Post-War
     lot: 22
   - chapter_title: Contemporary - 1st Generation
-    lot: 82
+    lot: 81
   - chapter_title: Contemporary - 2nd Generation
     lot: 140
   - chapter_title: Contemporary - Now
-    lot: 189
+    lot: 187
 people:
   main_contacts:
   - _people/director.md
