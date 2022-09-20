@@ -16,7 +16,8 @@ datetime:
   date: 2022-10-13T04:00:00.000+00:00
   time: 2022-09-01 12:00:00 +0000
   time2: 
-short_description: ''
+short_description: Ramon Llull, Liber de Ascensu et Descensu Intellectus, first edition,
+  Valencia, 1512. Estimate $5,000 to $7,000.
 chapters:
 - session_title: ''
   chapters:
