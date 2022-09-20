@@ -2,7 +2,7 @@
 layout: X_catalogue
 lots: []
 starts_at: 0
-color: "#AD926F"
+color: "#B44F00"
 cover_image:
   lot_number: 0
   title: ''
@@ -11,7 +11,7 @@ filename: ''
 visible: false
 permalink: "/books-manuscripts/early-printed-books/2617"
 sale: 2617
-title: Books & Manuscripts
+title: Early Printed Books
 datetime:
   date: 2022-10-13 04:00:00 +0000
   time: 
@@ -40,6 +40,5 @@ people:
   general_information: ''
 essays: []
 footer_pages: []
-published: false
 
 ---
