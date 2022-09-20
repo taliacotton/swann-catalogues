@@ -1,23 +1,35 @@
 ---
 layout: X_catalogue
 lots: []
-starts_at: 0
+starts_at: 
 color: "#B44F00"
 cover_image:
-  lot_number: 0
+  lot_number: 210
   title: ''
-  image: ''
+  image: "/v1663707953/2617-DI-Cover_mfjunp.png"
 filename: ''
 visible: false
 permalink: "/books-manuscripts/early-printed-books/2617"
 sale: 2617
 title: Early Printed Books
 datetime:
-  date: 2022-10-13 04:00:00 +0000
-  time: 
+  date: 2022-10-13T04:00:00.000+00:00
+  time: 2022-09-01 12:00:00 +0000
   time2: 
 short_description: ''
-chapters: []
+chapters:
+- session_title: ''
+  chapters:
+  - chapter_title: The Enlightenment & the Modern Mind
+    lot: 1
+  - chapter_title: Economics, including Science & Medicine
+    lot: 38
+  - chapter_title: Early Printed Books
+    lot: 69
+  - chapter_title: Ken Rapoport Collection Continued
+    lot: 137
+  - chapter_title: Travel
+    lot: 262
 people:
   main_contacts:
   - _people/devon-eastland.md
