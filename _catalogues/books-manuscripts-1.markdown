@@ -56,7 +56,7 @@ essays:
 - lot: 1
   title: ''
   body: |-
-    I was fortunate to be involved in the purchase of the Manny Coleman collection of some 10,000 rare books on all subjects, assembled by him before 1968, when cancer took his life. The books had stayed in the family home untouched until Coleman’s his wife passed away, and the surviving heirs made the difficult decision to sell the collection in 2001.
+    I was fortunate to be involved in the purchase of the Manny Coleman collection of some 10,000 rare books on all subjects, assembled by him before 1968, when cancer took his life. The books had stayed in the family home untouched until Coleman’s wife passed away, and the surviving heirs made the difficult decision to sell the collection in 2001.
 
     Two other bibliophiles and I bought and organized the collection, and eventually sold the majority of it on to other dealers and collectors. The remainder the three of us divided.
 
