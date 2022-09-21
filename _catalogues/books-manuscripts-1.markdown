@@ -5,7 +5,8 @@ starts_at:
 color: "#B44F00"
 cover_image:
   lot_number: 210
-  title: ''
+  title: Ramon Llull, Liber de Ascensu et Descensu Intellectus, first edition, Valencia,
+    1512. Estimate $5,000 to $7,000.
   image: "/v1663707953/2617-DI-Cover_mfjunp.png"
 filename: ''
 visible: false
