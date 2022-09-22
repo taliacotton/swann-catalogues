@@ -9,7 +9,7 @@ cover_image:
     1512. Estimate $5,000 to $7,000.
   image: "/v1663707953/2617-DI-Cover_mfjunp.png"
 filename: ''
-visible: false
+visible: true
 permalink: "/books-manuscripts/early-printed-books/2617"
 sale: 2617
 title: Early Printed Books
