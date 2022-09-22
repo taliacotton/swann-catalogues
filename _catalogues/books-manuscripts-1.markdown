@@ -63,7 +63,7 @@ essays:
     After spending time with the books, certain titles and subjects from the early modern period struck me as exploring issues that are still with us today. With the Coleman books as my foundation, I began to search for additional books that would fit this theme. I understand now that in many ways the issues that plagued the 17th century: magical thinking, war, civil unrest, public health, and political strife, are still with us today. At the same time, the scientific experimentation and medical advances that began in this period directly inform current developments in these fields. I really enjoyed building this collection and hope the books will stir the imaginations of others as they have me.
 
     \- Stephen White, August 2022
-  author: ''
+  author: Lots (1-37)
 footer_pages: []
 
 ---
