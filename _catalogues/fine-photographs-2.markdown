@@ -4,8 +4,9 @@ lots: []
 starts_at: 
 color: "#AD926F"
 cover_image:
-  lot_number: 
-  title: ''
+  lot_number: 77
+  title: August Sander, Young Girl in Circus Caravan [Maedchen im Zirkuswagen], silver
+    print, 1926. Estimate $3,000 to $4,500.
   image: "/v1664381281/M46167-3_1_fc7rnh.jpg"
 filename: ''
 visible: false
