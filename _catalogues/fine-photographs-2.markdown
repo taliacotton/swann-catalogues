@@ -1,20 +1,20 @@
 ---
 layout: X_catalogue
 lots: []
-starts_at: 0
+starts_at: 
 color: "#AD926F"
 cover_image:
-  lot_number: 0
+  lot_number: 
   title: ''
-  image: ''
+  image: "/v1664381281/M46167-3_1_fc7rnh.jpg"
 filename: ''
 visible: false
 permalink: "/photographs/fine-photographs/2618"
 sale: 2618
 title: Fine Photographs
 datetime:
-  date: 2022-10-20 04:00:00 +0000
-  time: 2022-09-01 12:00:00 +0000
+  date: 2022-10-20T04:00:00.000+00:00
+  time: 2022-09-01T12:00:00.000+00:00
   time2: 
 short_description: ''
 chapters: []
