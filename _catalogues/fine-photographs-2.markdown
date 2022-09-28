@@ -18,7 +18,25 @@ datetime:
   time: 2022-09-01T12:00:00.000+00:00
   time2: 
 short_description: ''
-chapters: []
+chapters:
+- session_title: ''
+  chapters:
+  - chapter_title: Nineteenth Century
+    lot: 1
+  - chapter_title: Early Twentieth Century American
+    lot: 24
+  - chapter_title: Early Twentieth Century European
+    lot: 73
+  - chapter_title: American Documentary
+    lot: 98
+  - chapter_title: Portraits of Artists
+    lot: 177
+  - chapter_title: Mid-Century Photography
+    lot: 200
+  - chapter_title: Color Photography
+    lot: 271
+  - chapter_title: Contemporary
+    lot: 288
 people:
   main_contacts:
   - _people/deborah-rogal.md
