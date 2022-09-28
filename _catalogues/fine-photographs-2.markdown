@@ -2,7 +2,7 @@
 layout: X_catalogue
 lots: []
 starts_at: 
-color: "#AD926F"
+color: "#CB9900"
 cover_image:
   lot_number: 77
   title: August Sander, Young Girl in Circus Caravan [Maedchen im Zirkuswagen], silver
