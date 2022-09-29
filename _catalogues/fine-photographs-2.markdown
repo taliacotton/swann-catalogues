@@ -9,7 +9,7 @@ cover_image:
     print, 1926. Estimate $3,000 to $4,500.
   image: "/v1664381281/M46167-3_1_fc7rnh.jpg"
 filename: ''
-visible: false
+visible: true
 permalink: "/photographs/fine-photographs/2618"
 sale: 2618
 title: Fine Photographs
