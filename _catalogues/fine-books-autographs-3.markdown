@@ -1,8 +1,8 @@
 ---
 layout: X_catalogue
 lots: []
-starts_at: 0
-color: "#AD926F"
+starts_at: 
+color: "#C8B5E5"
 cover_image:
   lot_number: 264
   title: ''
@@ -13,8 +13,8 @@ permalink: "/books-manuscripts/fine-books-autographs/2619"
 sale: 2619
 title: Fine Books & Autographs
 datetime:
-  date: 2022-10-27 04:00:00 +0000
-  time: 2022-10-01 12:00:00 +0000
+  date: 2022-10-27T04:00:00.000+00:00
+  time: 2022-10-01T12:00:00.000+00:00
   time2: 
 short_description: ''
 chapters:
