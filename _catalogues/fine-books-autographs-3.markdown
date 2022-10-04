@@ -5,7 +5,8 @@ starts_at:
 color: "#C8B5E5"
 cover_image:
   lot_number: 264
-  title: ''
+  title: Robert Indiana & Andy Warhol, Stamped Indelibly, New York, 1967. Estimate
+    $4,000 to $6,000.
   image: "/v1664898381/2619-DICover_yes2b4.png"
 filename: ''
 visible: false
