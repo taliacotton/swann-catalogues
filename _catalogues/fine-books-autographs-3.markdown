@@ -4,9 +4,9 @@ lots: []
 starts_at: 0
 color: "#AD926F"
 cover_image:
-  lot_number: 0
+  lot_number: 264
   title: ''
-  image: ''
+  image: "/v1664898381/2619-DICover_yes2b4.png"
 filename: ''
 visible: false
 permalink: "/books-manuscripts/fine-books-autographs/2619"
