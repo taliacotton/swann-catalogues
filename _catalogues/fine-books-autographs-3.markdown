@@ -26,13 +26,13 @@ chapters:
   - chapter_title: Autographs - General (including a run of Lenny Bruce items, World
       Leaders, etc.)
     lot: 18
-  - chapter_title: Presidents
+  - chapter_title: Autographs - Presidents
     lot: 62
-  - chapter_title: Musicians
+  - chapter_title: Autographs - Musicians
     lot: 91
-  - chapter_title: Writers
+  - chapter_title: Autographs - Writers
     lot: 100
-  - chapter_title: Artists
+  - chapter_title: Autographs - Artists
     lot: 125
   - chapter_title: 19th & 20th Century Literature
     lot: 144
