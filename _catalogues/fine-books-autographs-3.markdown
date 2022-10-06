@@ -21,7 +21,7 @@ short_description: ''
 chapters:
 - session_title: ''
   chapters:
-  - chapter_title: Americana
+  - chapter_title: Autographs - Americana
     lot: 1
   - chapter_title: General (inlcuding a run of Lenny Bruce items, World Leaders, Scientists,
       Supreme Court Justices, Entertainers, Explorers, etc.)
@@ -42,6 +42,7 @@ people:
   main_contacts:
   - _people/marco-tomaschett.md
   - _people/john-d.larson.md
+  - _people/david-rivera.md
   officers:
   - _people/george-s.lowry.md
   - _people/Blank Spot.md
