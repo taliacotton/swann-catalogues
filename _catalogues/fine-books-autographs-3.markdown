@@ -23,8 +23,8 @@ chapters:
   chapters:
   - chapter_title: Autographs - Americana
     lot: 1
-  - chapter_title: General (inlcuding a run of Lenny Bruce items, World Leaders, Scientists,
-      Supreme Court Justices, Entertainers, Explorers, etc.)
+  - chapter_title: Autographs - General (including a run of Lenny Bruce items, World
+      Leaders, etc.)
     lot: 18
   - chapter_title: Presidents
     lot: 62
