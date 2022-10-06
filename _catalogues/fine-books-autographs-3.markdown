@@ -9,7 +9,7 @@ cover_image:
     $4,000 to $6,000.
   image: "/v1664898381/2619-DICover_yes2b4.png"
 filename: ''
-visible: false
+visible: true
 permalink: "/books-manuscripts/fine-books-autographs/2619"
 sale: 2619
 title: Fine Books & Autographs
