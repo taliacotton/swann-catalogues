@@ -54,7 +54,7 @@ people:
   general_information: ''
 essays:
 - lot: 1
-  title: A Note from Stephen White
+  title: The Stephen White Collection
   body: |-
     I was fortunate to be involved in the purchase of the Manny Coleman collection of some 10,000 rare books on all subjects, assembled by him before 1968, when cancer took his life. The books had stayed in the family home untouched until Coleman’s wife passed away, and the surviving heirs made the difficult decision to sell the collection in 2001.
 
