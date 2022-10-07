@@ -15,7 +15,7 @@ sale: 2617
 title: Early Printed Books
 datetime:
   date: 2022-10-13T04:00:00.000+00:00
-  time: 2022-09-01 12:00:00 +0000
+  time: 2022-09-01T12:00:00.000+00:00
   time2: 
 short_description: Ramon Llull, Liber de Ascensu et Descensu Intellectus, first edition,
   Valencia, 1512. Estimate $5,000 to $7,000.
@@ -54,7 +54,7 @@ people:
   general_information: ''
 essays:
 - lot: 1
-  title: The Manny Coleman Collection
+  title: A Note from Stephen White
   body: |-
     I was fortunate to be involved in the purchase of the Manny Coleman collection of some 10,000 rare books on all subjects, assembled by him before 1968, when cancer took his life. The books had stayed in the family home untouched until Coleman’s wife passed away, and the surviving heirs made the difficult decision to sell the collection in 2001.
 
