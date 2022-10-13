@@ -6,7 +6,7 @@ color: "#CDF7FE"
 cover_image:
   lot_number: 484
   title: M.C. Escher, Bond of Union, lithograph, 1956. Estimate $20,000 to $30,000.
-  image: "/v1665681422/M46901-2_1_zx4jdo.jpg"
+  image: "/v1665696834/2620-DI-cover_jhycnz.jpg"
 filename: ''
 visible: false
 permalink: "/fine-art/old-master-through-modern-prints/2620"
