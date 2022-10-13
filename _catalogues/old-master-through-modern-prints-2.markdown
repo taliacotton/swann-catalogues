@@ -6,7 +6,7 @@ color: "#AD926F"
 cover_image:
   lot_number: 0
   title: ''
-  image: ''
+  image: "/v1665681422/M46901-2_1_zx4jdo.jpg"
 filename: ''
 visible: false
 permalink: "/fine-art/old-master-through-modern-prints/2620"
