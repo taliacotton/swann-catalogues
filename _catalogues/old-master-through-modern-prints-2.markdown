@@ -17,7 +17,27 @@ datetime:
   time: 2022-10-01 10:30:00 +0000
   time2: 
 short_description: ''
-chapters: []
+chapters:
+- session_title: ''
+  chapters:
+  - chapter_title: Old Master Prints from a Private American Collection
+    lot: 1
+  - chapter_title: Old Master Prints, Section I, Various Collectors
+    lot: 23
+  - chapter_title: Rembrandt van Rijn, Etchings from a Private European Collection
+    lot: 74
+  - chapter_title: Old Master Prints, Section II, Various Collectors
+    lot: 180
+  - chapter_title: Nineteenth Century Prints
+    lot: 235
+  - chapter_title: American Prints
+    lot: 298
+  - chapter_title: Latin American Prints
+    lot: 341
+  - chapter_title: European Prints
+    lot: 371
+  - chapter_title: Maurits C. Escher, Prints from a Private American Collection
+    lot: 468
 people:
   main_contacts:
   - _people/todd-weyman.md
