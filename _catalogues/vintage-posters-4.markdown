@@ -11,7 +11,8 @@ filename: ''
 visible: false
 permalink: "/rare-and-important-travel-posters/november-sale/2621"
 sale: 2621
-title: Vintage Posters
+title: 'Rare & Important Travel Posters: Featuring Highlights from the Victor Ryerson
+  Collection'
 datetime:
   date: 2022-11-10 05:00:00 +0000
   time: 2022-10-01 12:00:00 +0000
