@@ -6,7 +6,7 @@ color: "#AD926F"
 cover_image:
   lot_number: 0
   title: ''
-  image: ''
+  image: "/v1666121081/M46324-32_1_pexqzz.jpg"
 filename: ''
 visible: false
 permalink: "/rare-and-important-travel-posters/november-sale/2621"
