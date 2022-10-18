@@ -4,8 +4,9 @@ lots: []
 starts_at: 0
 color: "#AD926F"
 cover_image:
-  lot_number: 0
-  title: ''
+  lot_number: 132
+  title: 39 ¾ Hours To Chicago / "City of San Francisco," 1936. Estimate $4,000 to
+    $6,000.
   image: "/v1666121081/M46324-32_1_pexqzz.jpg"
 filename: ''
 visible: false
