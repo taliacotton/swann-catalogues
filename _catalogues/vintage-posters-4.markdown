@@ -58,7 +58,14 @@ people:
   - _people/kelsie-jankowski.md
   - _people/shannon-licitra.md
   general_information: ''
-essays: []
+essays:
+- lot: 101
+  title: Victor Ryerson
+  author: ''
+  body: |-
+    Victor Ryerson first became interested in trains as a teenager growing up in Northern California. He and several close friends spent much of their spare time photographing trains and – importantly – traveling on passenger trains at every opportunity. Although he did not collect railroad artifacts in his youth, he began to do so in the mid-1990s. He was particularly taken by the vibrant colors and dramatic images of rail travel posters from his local railroads, particularly the Santa Fe and Southern Pacific. SP posters by local artist Maurice Logan were among his special favorites, and are a highly collectible series, as exemplified here. In his thirty-year quest for rare and important rail travel posters, especially those with images of trains and favorite scenes of the West, Ryerson found many fine posters in venues ranging from flea markets to auctions – including Swann Galleries. Some were from the earliest days of American rail travel poster advertising.
+
+    He is parting with a significant proportion of his collection in the hope that they will find good homes in museums and private collections, to be enjoyed by generations to come.
 footer_pages: []
 
 ---
