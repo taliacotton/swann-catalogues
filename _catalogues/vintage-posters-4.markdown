@@ -22,9 +22,9 @@ short_description: ''
 chapters:
 - session_title: ''
   chapters:
-  - chapter_title: Russia & Eastern Europe
+  - chapter_title: Russian & Eastern European Posters Lots (28-37)
     lot: 28
-  - chapter_title: Italian Posters
+  - chapter_title: Italian Posters Lots (40-45)
     lot: 40
   - chapter_title: Roger Broders Posters
     lot: 47
