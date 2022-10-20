@@ -9,7 +9,7 @@ cover_image:
     $6,000.
   image: "/v1666290088/2621-thumbnail_d0unzd.jpg"
 filename: ''
-visible: false
+visible: true
 permalink: "/rare-and-important-travel-posters/november-sale/2621"
 sale: 2621
 title: 'Rare & Important Travel Posters: Featuring Highlights from the Victor Ryerson
