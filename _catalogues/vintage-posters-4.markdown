@@ -19,24 +19,7 @@ datetime:
   time: 2022-10-01T12:00:00.000+00:00
   time2: 
 short_description: ''
-chapters:
-- session_title: ''
-  chapters:
-  - chapter_title: 'Russian & Eastern European Posters: Lots (28-37)'
-    lot: 28
-  - chapter_title: 'Italian Posters: Lots (40-45)'
-    lot: 40
-  - chapter_title: 'Roger Broders Posters: Lots (47-53)'
-    lot: 47
-  - chapter_title: 'British Posters: Lots (60-72)'
-    lot: 60
-  - chapter_title: 'Ocean Liner Posters: Lots (73-89)'
-    lot: 73
-  - chapter_title: 'American Railway Posters, including highlights from the Victor
-      Ryerson Collection: Lots (101-183)'
-    lot: 101
-  - chapter_title: 'American Travel Posters: Lots (184-202)'
-    lot: 184
+chapters: []
 people:
   main_contacts:
   - _people/nicholas-d.lowry.md
