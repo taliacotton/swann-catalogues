@@ -24,11 +24,11 @@ chapters:
   chapters:
   - chapter_title: Russian & Eastern European Posters Lots (28-37)
     lot: 28
-  - chapter_title: Italian Posters Lots (40-45)
+  - chapter_title: 'Italian Posters: Lots (40-45)'
     lot: 40
-  - chapter_title: Roger Broders Posters
+  - chapter_title: 'Roger Broders Posters: Lots (47-53)'
     lot: 47
-  - chapter_title: British Posters
+  - chapter_title: 'British Posters: Lots (60-72)'
     lot: 60
   - chapter_title: Ocean Liner Posters
     lot: 73
