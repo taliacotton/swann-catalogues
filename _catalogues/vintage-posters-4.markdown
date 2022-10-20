@@ -7,7 +7,7 @@ cover_image:
   lot_number: 132
   title: 39 ¾ Hours To Chicago / "City of San Francisco," 1936. Estimate $4,000 to
     $6,000.
-  image: "/v1666279204/2621-DICover_cbjlyj.jpg"
+  image: "/v1666290088/2621-thumbnail_d0unzd.jpg"
 filename: ''
 visible: false
 permalink: "/rare-and-important-travel-posters/november-sale/2621"
