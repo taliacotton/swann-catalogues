@@ -24,18 +24,18 @@ chapters:
   chapters:
   - chapter_title: Russia & Eastern Europe
     lot: 28
-  - chapter_title: Italy
+  - chapter_title: Italian Posters
     lot: 40
-  - chapter_title: Roger Broders
+  - chapter_title: Roger Broders Posters
     lot: 47
-  - chapter_title: United Kingdom
+  - chapter_title: British Posters
     lot: 60
-  - chapter_title: Ocean Liners
+  - chapter_title: Ocean Liner Posters
     lot: 73
-  - chapter_title: American Railroads, Including Highlights From the Victor Ryerson
-      Collection
+  - chapter_title: American Railway Posters, including highlights from the Victor
+      Ryerson Collection
     lot: 101
-  - chapter_title: American Destinations
+  - chapter_title: American Travel Posters
     lot: 184
 people:
   main_contacts:
