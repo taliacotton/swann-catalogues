@@ -35,7 +35,7 @@ chapters:
   - chapter_title: 'American Railway Posters, including highlights from the Victor
       Ryerson Collection: Lots (101-183)'
     lot: 101
-  - chapter_title: American Travel Posters
+  - chapter_title: 'American Travel Posters: Lots (184-202)'
     lot: 184
 people:
   main_contacts:
