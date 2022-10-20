@@ -22,7 +22,7 @@ short_description: ''
 chapters:
 - session_title: ''
   chapters:
-  - chapter_title: Russian & Eastern European Posters Lots (28-37)
+  - chapter_title: 'Russian & Eastern European Posters: Lots (28-37)'
     lot: 28
   - chapter_title: 'Italian Posters: Lots (40-45)'
     lot: 40
@@ -30,10 +30,10 @@ chapters:
     lot: 47
   - chapter_title: 'British Posters: Lots (60-72)'
     lot: 60
-  - chapter_title: Ocean Liner Posters
+  - chapter_title: 'Ocean Liner Posters: Lots (73-89)'
     lot: 73
-  - chapter_title: American Railway Posters, including highlights from the Victor
-      Ryerson Collection
+  - chapter_title: 'American Railway Posters, including highlights from the Victor
+      Ryerson Collection: Lots (101-183)'
     lot: 101
   - chapter_title: American Travel Posters
     lot: 184
