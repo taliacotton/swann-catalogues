@@ -2,7 +2,7 @@
 layout: X_catalogue
 lots: []
 starts_at: 
-color: "#8C5192"
+color: "#A90047"
 cover_image:
   lot_number: 332
   title: A-One (Anthony Clark), Untitled, spray paint & acrylic on canvas, circa 1995.
