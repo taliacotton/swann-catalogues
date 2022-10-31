@@ -15,7 +15,7 @@ sale: 2622
 title: Contemporary Art
 datetime:
   date: 2022-11-17T05:00:00.000+00:00
-  time: 2022-10-01T12:00:00.000+00:00
+  time: 2022-10-01 10:30:00 +0000
   time2: 
 short_description: ''
 chapters:
