@@ -1,10 +1,10 @@
 ---
 layout: X_catalogue
 lots: []
-starts_at: 0
-color: "#AD926F"
+starts_at: 
+color: "#C61848"
 cover_image:
-  lot_number: 0
+  lot_number: 
   title: A-One (Anthony Clark), Untitled, spray paint & acrylic on canvas, circa 1995.
     Estimate $10,000 to $15,000.
   image: "/v1666970828/M46985-7_1_uiwjuk.jpg"
@@ -14,15 +14,15 @@ permalink: "/fine-art/contemporary-art/2622"
 sale: 2622
 title: Contemporary Art
 datetime:
-  date: 2022-11-17 05:00:00 +0000
-  time: 2022-10-01 12:00:00 +0000
+  date: 2022-11-17T05:00:00.000+00:00
+  time: 2022-10-01T12:00:00.000+00:00
   time2: 
 short_description: ''
 chapters:
 - session_title: ''
   chapters:
   - chapter_title: Abstract Expressionism, The New York School & American Abstract
-      Art,
+      Art
     lot: 1
   - chapter_title: European Abstract Expressionism & Abstract Art
     lot: 86
