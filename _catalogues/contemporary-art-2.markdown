@@ -4,7 +4,7 @@ lots: []
 starts_at: 
 color: "#C61848"
 cover_image:
-  lot_number: 
+  lot_number: 332
   title: A-One (Anthony Clark), Untitled, spray paint & acrylic on canvas, circa 1995.
     Estimate $10,000 to $15,000.
   image: "/v1666970828/M46985-7_1_uiwjuk.jpg"
