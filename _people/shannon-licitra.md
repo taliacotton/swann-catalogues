@@ -1,6 +1,6 @@
 ---
 title: Shannon Licitra
-role: Shipping Coordinator
+role: Shipping Manager
 email: slicitra@swanngalleries.com
 phone: ''
 image: ''
