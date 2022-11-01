@@ -9,7 +9,7 @@ cover_image:
     Estimate $10,000 to $15,000.
   image: "/v1666970828/M46985-7_1_uiwjuk.jpg"
 filename: ''
-visible: false
+visible: true
 permalink: "/fine-art/contemporary-art/2622"
 sale: 2622
 title: Contemporary Art
