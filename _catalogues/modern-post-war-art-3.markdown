@@ -11,7 +11,7 @@ filename: ''
 visible: false
 permalink: "/fine-art/modern-and-postwar-art/2623"
 sale: 2623
-title: Modern & Post-War Art
+title: 'Modern & Post-War Art: Featuring Alma Thomas & the Washington Scene'
 datetime:
   date: 2022-12-01 05:00:00 +0000
   time: 2022-11-01 12:00:00 +0000
@@ -57,6 +57,5 @@ people:
   general_information: ''
 essays: []
 footer_pages: []
-published: false
 
 ---
