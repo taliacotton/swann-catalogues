@@ -1,10 +1,10 @@
 ---
 layout: X_catalogue
 lots: []
-starts_at: 0
+starts_at: 
 color: "#3F4497"
 cover_image:
-  lot_number: 0
+  lot_number: 87
   title: Ernest Briggs, Untied, (#220), oil on canvas, 1959. Estimate $40,000 to $60,000.
   image: "/v1667929697/M47100-1_1_uelj8o.jpg"
 filename: ''
@@ -13,8 +13,8 @@ permalink: "/fine-art/modern-and-postwar-art/2623"
 sale: 2623
 title: 'Modern & Post-War Art: Featuring Alma Thomas & the Washington Scene'
 datetime:
-  date: 2022-12-01 05:00:00 +0000
-  time: 2022-11-01 12:00:00 +0000
+  date: 2022-12-01T05:00:00.000+00:00
+  time: 2022-11-01T12:00:00.000+00:00
   time2: 
 short_description: ''
 chapters:
