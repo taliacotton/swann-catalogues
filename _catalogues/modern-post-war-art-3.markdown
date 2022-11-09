@@ -59,7 +59,9 @@ essays:
 - lot: 68
   title: Alma Thomas and the Washington Scene
   body: |-
-    ![](https://res.cloudinary.com/dcryyrd42/image/upload/v1668025219/SAAM-1977.121_2_psj6bs.jpg "Laura Wheeler Waring, Portrait of a Lady, 1947, oil on canvas, Smithsonian American Art Museum, Gift of Vincent Melzac, 1977.121")
+    ![](https://res.cloudinary.com/dcryyrd42/image/upload/v1668026197/SAAM-1977.121_2_sqapqu.jpg)
+
+    Laura Wheeler Waring, _Portrait of a Lady,_ 1947, oil on canvas, Smithsonian American Art Museum, Gift of Vincent Melzac, 1977.121
 
     Born in Columbus, Georgia in 1891, Alma Thomas was the eldest of four daughters in a family immersed in art and culture. The Thomas family moved to 1530 15th Street, NW, Washington, DC in 1907 - a smart brick townhouse where Thomas would live the rest of her life. She first attended art classes while studying at Armstrong Manual Training High School where she graduated in 1911. After teaching in Delaware, Thomas entered Howard University in 1921. Switching from the home economics department to Professor James V. Herring’s new fine art department, Thomas became the university’s first art major graduate in 1924. She went on to have a distinguished thirty five year career teaching art at Shaw Junior High School in Washington, organizing popular marionette and extracurricular art clubs for its students.
 
