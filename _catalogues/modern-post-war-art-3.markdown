@@ -5,7 +5,8 @@ starts_at:
 color: "#3F4497"
 cover_image:
   lot_number: 87
-  title: Ernest Briggs, Untied, (#220), oil on canvas, 1959. Estimate $40,000 to $60,000.
+  title: Ernest Briggs, Untitled, (#220), oil on canvas, 1959. Estimate $40,000 to
+    $60,000.
   image: "/v1667929697/M47100-1_1_uelj8o.jpg"
 filename: ''
 visible: false
