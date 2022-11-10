@@ -9,7 +9,7 @@ cover_image:
     $60,000.
   image: "/v1667929697/M47100-1_1_uelj8o.jpg"
 filename: ''
-visible: false
+visible: true
 permalink: "/fine-art/modern-and-postwar-art/2623"
 sale: 2623
 title: 'Modern & Post-War Art: Featuring Alma Thomas & the Washington Scene'
