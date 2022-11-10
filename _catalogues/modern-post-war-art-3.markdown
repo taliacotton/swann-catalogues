@@ -59,7 +59,7 @@ essays:
 - lot: 68
   title: Alma Thomas and the Washington Scene
   body: |-
-    ![](https://res.cloudinary.com/dcryyrd42/image/upload/v1668026197/SAAM-1977.121_2_sqapqu.jpg)
+    ![](https://res.cloudinary.com/dcryyrd42/image/upload/v1668093828/3_oqpaas.png)
 
     Laura Wheeler Waring, _Portrait of a Lady,_ 1947, oil on canvas, Smithsonian American Art Museum, Gift of Vincent Melzac, 1977.121
 
