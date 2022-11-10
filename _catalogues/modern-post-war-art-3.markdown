@@ -26,7 +26,7 @@ chapters:
     lot: 25
   - chapter_title: Surrealist Influences
     lot: 58
-  - chapter_title: Alma Thomas and the Washington School
+  - chapter_title: Alma Thomas & the Washington Scene
     lot: 68
   - chapter_title: Post-War Art
     lot: 81
@@ -57,7 +57,7 @@ people:
   general_information: ''
 essays:
 - lot: 68
-  title: Alma Thomas and the Washington Scene
+  title: 'Essay: Alma Thomas and the Washington Scene'
   body: |-
     ![](https://res.cloudinary.com/dcryyrd42/image/upload/v1668093828/3_oqpaas.png)
 
