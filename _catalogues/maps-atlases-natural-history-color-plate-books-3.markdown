@@ -17,7 +17,17 @@ datetime:
   time: 2022-11-01 12:00:00 +0000
   time2: 
 short_description: ''
-chapters: []
+chapters:
+- session_title: ''
+  chapters:
+  - chapter_title: Maps
+    lot: 1
+  - chapter_title: Atlases & Books with Maps
+    lot: 149
+  - chapter_title: Color Plate & Illustrated Books
+    lot: 184
+  - chapter_title: Historical & Decorative Prints
+    lot: 220
 people:
   main_contacts: []
   officers: []
