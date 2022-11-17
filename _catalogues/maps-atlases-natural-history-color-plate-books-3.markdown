@@ -9,7 +9,7 @@ cover_image:
     $2,500 to $3,500.
   image: "/v1668631548/2624-DICover_onf0ba.png"
 filename: ''
-visible: false
+visible: true
 permalink: "/books-manuscripts/maps-and-atlases/2624"
 sale: 2624
 title: Maps & Atlases, Natural History & Color-Plate Books
