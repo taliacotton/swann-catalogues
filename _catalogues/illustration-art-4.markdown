@@ -2,11 +2,12 @@
 layout: X_catalogue
 lots: []
 starts_at: 0
-color: "#AD926F"
+color: "#D0021B"
 cover_image:
-  lot_number: 0
-  title: ''
-  image: ''
+  lot_number: 241
+  title: Edward Gorey, Papering the Tree, cover illustration for The New Yorker, watercolor,
+    graphite & ink, 1992. Estimate $20,000 to $30,000.
+  image: "/v1669651835/2625-thumbnail_zqaggu.png"
 filename: ''
 visible: false
 permalink: "/illustration-art/illustration-art/2625"
