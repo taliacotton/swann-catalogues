@@ -18,7 +18,19 @@ datetime:
   time: 2022-11-01 12:00:00 +0000
   time2: 
 short_description: ''
-chapters: []
+chapters:
+- session_title: ''
+  chapters:
+  - chapter_title: 'General Book & Magazine Illustration, including Advertising:'
+    lot: 1
+  - chapter_title: Theater, Film, Fashion & Costume
+    lot: 102
+  - chapter_title: Children's Book & Magazine
+    lot: 141
+  - chapter_title: Comics, Cartoons, Caricature & Animation
+    lot: 185
+  - chapter_title: 'The New Yorker: Cartoons & Cover Art'
+    lot: 232
 people:
   main_contacts:
   - _people/christine-von-der-linn.md
