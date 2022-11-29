@@ -9,7 +9,7 @@ cover_image:
     graphite & ink, 1992. Estimate $20,000 to $30,000.
   image: "/v1669652330/2625-DICover_yt4weq.png"
 filename: ''
-visible: false
+visible: true
 permalink: "/illustration-art/illustration-art/2625"
 sale: 2625
 title: Illustration Art
