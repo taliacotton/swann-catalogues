@@ -1,8 +1,8 @@
 ---
 layout: X_catalogue
 lots: []
-starts_at: 0
-color: "#D0021B"
+starts_at: 
+color: "#A20014"
 cover_image:
   lot_number: 241
   title: Edward Gorey, Papering the Tree, cover illustration for The New Yorker, watercolor,
@@ -14,8 +14,8 @@ permalink: "/illustration-art/illustration-art/2625"
 sale: 2625
 title: Illustration Art
 datetime:
-  date: 2022-12-15 05:00:00 +0000
-  time: 2022-11-01 12:00:00 +0000
+  date: 2022-12-15T05:00:00.000+00:00
+  time: 2022-11-01T12:00:00.000+00:00
   time2: 
 short_description: ''
 chapters:
