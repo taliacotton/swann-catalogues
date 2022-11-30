@@ -4,7 +4,7 @@ lots: []
 starts_at: 
 color: "#C67000"
 cover_image:
-  lot_number: 195
+  lot_number: 5
   title: Sebastian Münster, Novae Insulae XXVI Nova Tabula, Basel, 1552. Estimate
     $2,500 to $3,500.
   image: "/v1668631548/2624-DICover_onf0ba.png"
