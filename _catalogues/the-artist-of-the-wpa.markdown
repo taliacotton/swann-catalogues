@@ -6,7 +6,7 @@ color: "#AD926F"
 cover_image:
   lot_number: 0
   title: ''
-  image: ''
+  image: "/v1673970775/2626-di_ls2i2g.jpg"
 filename: ''
 visible: false
 permalink: "/fine-art/the-artists-of-the-wpa/2626"
