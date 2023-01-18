@@ -1,11 +1,11 @@
 ---
 layout: X_catalogue
 lots: []
-starts_at: 0
-color: "#AD926F"
+starts_at: 
+color: "#E87800"
 cover_image:
-  lot_number: 0
-  title: ''
+  lot_number: 116
+  title: Daniel Celentano, Untitled (Subway), oil on board. Estimate $10,000 to $12,000.
   image: "/v1673970775/2626-di_ls2i2g.jpg"
 filename: ''
 visible: false
@@ -13,8 +13,8 @@ permalink: "/fine-art/the-artists-of-the-wpa/2626"
 sale: 2626
 title: The Artists of the WPA
 datetime:
-  date: 2023-02-16 05:00:00 +0000
-  time: 2023-01-01 12:00:00 +0000
+  date: 2023-02-16T05:00:00.000+00:00
+  time: 2023-01-01T12:00:00.000+00:00
   time2: 
 short_description: ''
 chapters: []
