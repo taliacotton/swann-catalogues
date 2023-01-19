@@ -8,7 +8,7 @@ cover_image:
   title: Daniel Celentano, Untitled (Subway), oil on board. Estimate $10,000 to $12,000.
   image: "/v1673970775/2626-di_ls2i2g.jpg"
 filename: ''
-visible: false
+visible: true
 permalink: "/fine-art/the-artists-of-the-wpa/2626"
 sale: 2626
 title: The Artists of the WPA
