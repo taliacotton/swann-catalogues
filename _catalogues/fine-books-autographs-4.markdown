@@ -2,7 +2,7 @@
 layout: X_catalogue
 lots: []
 starts_at: 0
-color: "#AD926F"
+color: "#E1B445"
 cover_image:
   lot_number: 253
   title: Virginia Woolf, Mrs. Dalloway, first edition, London, 1925. Estimate $15,000
