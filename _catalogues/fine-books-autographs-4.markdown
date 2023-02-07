@@ -17,7 +17,22 @@ datetime:
   time: 2023-02-01 12:00:00 +0000
   time2: 
 short_description: ''
-chapters: []
+chapters:
+- session_title: ''
+  chapters:
+  - chapter_title: Americana
+    lot: 1
+  - chapter_title: General, including Royalty, Astronauts, World Leaders, Sports Figures,
+      etc.
+    lot: 24
+  - chapter_title: Presidents
+    lot: 54
+  - chapter_title: Musicians
+    lot: 122
+  - chapter_title: Writers
+    lot: 133
+  - chapter_title: Artists
+    lot: 159
 people:
   main_contacts:
   - _people/marco-tomaschett.md
