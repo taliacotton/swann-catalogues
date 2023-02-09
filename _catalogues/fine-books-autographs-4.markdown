@@ -1,7 +1,7 @@
 ---
 layout: X_catalogue
 lots: []
-starts_at: 0
+starts_at: 
 color: "#E1B445"
 cover_image:
   lot_number: 253
@@ -14,8 +14,8 @@ permalink: "/books-manuscripts/fine-books-autographs/2628"
 sale: 2628
 title: Fine Books & Autographs
 datetime:
-  date: 2023-03-02 05:00:00 +0000
-  time: 2023-02-01 12:00:00 +0000
+  date: 2023-03-02T05:00:00.000+00:00
+  time: 2023-02-01T12:00:00.000+00:00
   time2: 
 short_description: ''
 chapters:
@@ -34,6 +34,10 @@ chapters:
     lot: 133
   - chapter_title: Artists
     lot: 159
+  - chapter_title: 19th & 20th Century Literature
+    lot: 174
+  - chapter_title: Art, Press & Illustrated Books
+    lot: 256
 people:
   main_contacts:
   - _people/marco-tomaschett.md
