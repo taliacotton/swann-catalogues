@@ -9,7 +9,7 @@ cover_image:
     to $20,000. 
   image: "/v1675800975/2628-lander_mo9lek.png"
 filename: ''
-visible: false
+visible: true
 permalink: "/books-manuscripts/fine-books-autographs/2628"
 sale: 2628
 title: Fine Books & Autographs
